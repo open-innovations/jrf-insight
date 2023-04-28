@@ -1,0 +1,19 @@
+{
+  "database" : "str:database:BC_UC_Monthly",
+  "measures" : [ "str:count:BC_UC_Monthly:V_F_UCFS_MONTHLY" ],
+  "recodes" : {
+    "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band" : {
+      "map" : [ [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:1" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:2" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:3" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:4" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:5" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:6" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:7" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:8" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:9" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:10" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:11" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:12" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:13" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:14" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:15" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:16" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:17" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:18" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:19" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:20" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:21" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:22" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:23" ] ],
+      "total" : true
+    },
+    "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num" : {
+      "map" : [ [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:1" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:2" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:3" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:4" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:99" ] ],
+      "total" : true
+    },
+    "str:field:BC_UC_Monthly:F_BC_DATE_UC:MONTH" : {
+      "map" : [ [ "str:value:BC_UC_Monthly:F_BC_DATE_UC:MONTH:C_BC_MONTH_UC:202211" ] ],
+      "total" : false
+    }
+  },
+  "dimensions" : [ [ "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band" ], [ "str:field:BC_UC_Monthly:F_BC_DATE_UC:MONTH" ], [ "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num" ] ]
+}
