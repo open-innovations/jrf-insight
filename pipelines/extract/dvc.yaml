@@ -1,7 +1,6 @@
 stages: 
   extract:
     wdir: ../..
-    always_changed: True
     cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o working/test.csv
     deps: 
       - pipelines/extract/test.json

@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  extract:
+    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o
+      working/test.csv
+    deps:
+    - path: pipelines/extract/test.json
+      md5: a852bd112ca11b9e72d0547677af0d3a
+      size: 3130
+    outs:
+    - path: working/test.csv
+      md5: ee9a1ee20c95a1bd3c0d69239cd0a351
+      size: 8474
+      isexec: true
