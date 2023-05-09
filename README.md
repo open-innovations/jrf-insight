@@ -3,7 +3,7 @@ JRF North England Insight Finder
 
 [Project hub page on Open Innovations website](https://open-innovations.org/projects/jrf/north-insight-finder/)
 
-Install pipenv `pip install pipenv`. To install dependencies use `pipenv install`. To activate the virtual environment, use `pipenv shell`. 
+Install pipenv with `pip install pipenv`. To install dependencies use `pipenv install`. To activate the virtual environment, use `pipenv shell`. 
 
 `pipelines` contains the subfolders - `extract` `transform` and `prepare`, where we extract the data, transform it into a required shapem and prepare it for visualisation.
 
