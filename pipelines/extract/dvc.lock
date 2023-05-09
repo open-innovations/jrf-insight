@@ -5,10 +5,22 @@ stages:
       working/test.csv
     deps:
     - path: pipelines/extract/test.json
-      md5: a852bd112ca11b9e72d0547677af0d3a
-      size: 3130
+      md5: 5e34fe4fc7e4fb6341c5d5920dbdb499
+      size: 2302
     outs:
     - path: working/test.csv
-      md5: ee9a1ee20c95a1bd3c0d69239cd0a351
-      size: 8474
+      md5: f0a6eb6a6c8dcaad7a7d2ab6ebc5fc50
+      size: 18328
       isexec: true
+  harvester:
+    cmd: PYTHONPATH=pipelines/extract/harvester.py
+    deps:
+    - path: pipelines/extract/harvester.py
+      md5: 1300486fd9fd72333fb75faca26392a8
+      size: 113
+  harvest:
+    cmd: PYTHONPATH= python pipelines/extract/harvester.py
+    deps:
+    - path: pipelines/extract/harvester.py
+      md5: e3bd81f8dce7bcd14d244847f436e82a
+      size: 488

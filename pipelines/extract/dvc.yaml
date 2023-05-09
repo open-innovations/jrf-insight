@@ -1,10 +1,16 @@
 stages: 
-  extract:
+  # extract:
+  #   wdir: ../..
+  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o working/test.csv
+  #   deps: 
+  #     - pipelines/extract/test.json
+  #   outs:
+  #    - working/test.csv:
+  #       cache: false
+  #       persist: false
+  harvest:
+    cmd: PYTHONPATH= python pipelines/extract/harvester.py
     wdir: ../..
-    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o working/test.csv
-    deps: 
-      - pipelines/extract/test.json
-    outs:
-     - working/test.csv:
-        cache: false
-        persist: false
+    deps:
+      - pipelines/extract/harvester.py
+    

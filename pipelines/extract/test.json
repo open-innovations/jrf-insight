@@ -1,19 +1,19 @@
 {
-  "database" : "str:database:BC_UC_Monthly",
-  "measures" : [ "str:count:BC_UC_Monthly:V_F_UCFS_MONTHLY" ],
+  "database" : "str:database:HBAI",
+  "measures" : [ "str:statfn:HBAI:V_F_HBAI:GS_INDPP:SUM" ],
   "recodes" : {
-    "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band" : {
-      "map" : [ [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:1" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:2" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:3" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:4" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:5" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:6" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:7" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:8" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:9" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:10" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:11" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:12" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:13" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:14" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:15" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:16" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:17" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:18" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:19" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:20" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:21" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:22" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band:C_BC_WEEKLY_CAP_BAND:23" ] ],
+    "str:field:HBAI:V_F_HBAI:TYPE_AGECAT" : {
+      "map" : [ [ "str:value:HBAI:V_F_HBAI:TYPE_AGECAT:C_HBAI_TYPE:1" ], [ "str:value:HBAI:V_F_HBAI:TYPE_AGECAT:C_HBAI_TYPE:2" ], [ "str:value:HBAI:V_F_HBAI:TYPE_AGECAT:C_HBAI_TYPE:3" ] ],
       "total" : true
     },
-    "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num" : {
-      "map" : [ [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:1" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:2" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:3" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:4" ], [ "str:value:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num:C_BC_FAMILY_UC:99" ] ],
-      "total" : true
-    },
-    "str:field:BC_UC_Monthly:F_BC_DATE_UC:MONTH" : {
-      "map" : [ [ "str:value:BC_UC_Monthly:F_BC_DATE_UC:MONTH:C_BC_MONTH_UC:202211" ] ],
+    "str:field:HBAI:V_F_HBAI:YEAR" : {
+      "map" : [ [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9495" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9596" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9697" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9798" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9899" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:9900" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:102" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:203" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:304" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:405" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:506" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:607" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:708" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:809" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:910" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1011" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1112" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1213" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1314" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1415" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1516" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1617" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1718" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1819" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:1920" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:2021" ], [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:2122" ] ],
       "total" : false
+    },
+    "str:field:HBAI:V_F_HBAI:LOW60BHC" : {
+      "map" : [ [ "str:value:HBAI:V_F_HBAI:LOW60BHC:C_HBAI_LOW60BHC:0" ], [ "str:value:HBAI:V_F_HBAI:LOW60BHC:C_HBAI_LOW60BHC:1" ] ],
+      "total" : true
     }
   },
-  "dimensions" : [ [ "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band" ], [ "str:field:BC_UC_Monthly:F_BC_DATE_UC:MONTH" ], [ "str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num" ] ]
+  "dimensions" : [ [ "str:field:HBAI:V_F_HBAI:YEAR" ], [ "str:field:HBAI:V_F_HBAI:LOW60BHC" ], [ "str:field:HBAI:V_F_HBAI:TYPE_AGECAT" ] ]
 }
