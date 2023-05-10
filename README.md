@@ -11,8 +11,5 @@ Install pipenv with `pip install pipenv`. To install dependencies use `pipenv in
 
 You can run pipelines using DVC. Run `dvc init` to initialise the directory. Then `dvc repro pipelines/<stage>/dvc.yaml` to run the pipelines. If there are no changes to files, the stage will skip.
 
-## .JSON files
-`test.json` details the data to be requested from [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml). This can be downloaded from the website once you have made the datatable you want to include in the pipeline. For now this is just an example, in future this will be stored in dedicated directories.
-
 ## Data
 We currently store the test data in csv format in `working`. In future, we will store transformed and prepared data in a dedicated `data` directory. The structure will develop as the project does.
