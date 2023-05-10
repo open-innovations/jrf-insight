@@ -13,4 +13,4 @@ Install pipenv with `pip install pipenv`. To install dependencies use `pipenv in
 You can run pipelines using DVC. Run `dvc init` to initialise the directory. Then `dvc repro pipelines/<stage>/dvc.yaml` to run the pipelines. If there are no changes to files, the stage will skip.
 
 ## Data
-We currently store the test data in csv format in `working`. In future, we will store transformed and prepared data in a dedicated `data` directory. The structure will develop as the project does.
+Lookups for the statXplore API requests stored in `data/csv`.
