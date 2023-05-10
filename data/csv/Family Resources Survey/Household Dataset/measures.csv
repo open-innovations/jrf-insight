@@ -1,2 +1,3 @@
 measure_name,measure
+Household Dataset,str:count:FRSHH:V_F_FRSHH
 Weighted Sum of Household Dataset,str:measure:FRSHH:V_F_FRSHH:GROSS

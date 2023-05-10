@@ -1,5 +1,4 @@
 dimension_name,dimension
-PIP Clearances,str:count:PIP_Clearances:V_F_PIP_CLEARANCES
 Month,str:field:PIP_Clearances:F_PIP_DATE:DATE2
 Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Clearances:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:PIP_Clearances:V_F_PIP_CLEARANCES:SINGLE_AGE

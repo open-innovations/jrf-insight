@@ -1,5 +1,4 @@
 dimension_name,dimension
-Sanction Decisions - Individuals,str:count:UC_sanc_ind:F_UC_SANC_IND
 Month Decision Made,str:field:UC_sanc_ind:V_F_UC_SANC_DEC:CDLDECISION_CLMONTH
 Geography (residence-based),str:group:UC_sanc_ind:X_Geography+%28residence-based%29
 Geography (Jobcentre Plus),str:group:UC_sanc_ind:X_Geography+%28Jobcentre+Plus%29

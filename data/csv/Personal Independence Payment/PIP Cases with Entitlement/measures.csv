@@ -1,2 +1,3 @@
 measure_name,measure
+PIP Cases with Entitlement,str:count:PIP_Monthly:V_F_PIP_MONTHLY
 Financial Award,str:measure:PIP_Monthly:V_F_PIP_MONTHLY:PIP_AWARD_AMOUNT

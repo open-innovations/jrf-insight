@@ -1,5 +1,4 @@
 dimension_name,dimension
-Pensioner Income distribution - whole population,str:count:PI:V_F_PI
 Geographical Region (please calculate three-year averages),str:field:PI:V_F_PI:gvtregn
 Financial year,str:field:PI:V_F_PI:finyear
 Age of head of benefit unit,str:field:PI:V_F_PI:agehd

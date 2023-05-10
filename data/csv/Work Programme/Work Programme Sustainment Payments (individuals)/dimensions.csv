@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work Programme Sustainment Payments (individuals),str:count:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND
 Geography (residence-based),str:group:WP_Sustainment_Ind:X_Geography+%28residence-based%29
 Age Band,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:AGE_CODE
 Contract Package Area and Contract,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:CONTRACT_CODE

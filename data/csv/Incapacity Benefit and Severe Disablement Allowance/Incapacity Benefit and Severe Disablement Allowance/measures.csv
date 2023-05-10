@@ -1,2 +1,3 @@
 measure_name,measure
+Incapacity Benefit and Severe Disablement Allowance,str:count:IBSDA:V_F_IBSDA
 Weekly Award Amount,str:measure:IBSDA:V_F_IBSDA:CAWKLYAMT

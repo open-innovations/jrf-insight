@@ -1,5 +1,4 @@
 dimension_name,dimension
-Household Dataset,str:count:FRSHH:V_F_FRSHH
 Household amount of savings and investments,str:group:FRSHH:M_Household+amount+of+savings+and+investments
 Household Income from All Sources,str:group:FRSHH:M_Household+Income+from+All+Sources
 Household Income from Employment and Self-employment,str:group:FRSHH:M_Household+Income+from+Employment+and+Self-employment

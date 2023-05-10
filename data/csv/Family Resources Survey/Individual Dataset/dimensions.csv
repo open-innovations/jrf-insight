@@ -1,5 +1,4 @@
 dimension_name,dimension
-Individual Dataset,str:count:FRSPP:V_F_FRSPP
 Adult Income from All Sources,str:group:FRSPP:M_Adult+Income+from+All+Sources
 Adult Income from Employment and Self-employment,str:group:FRSPP:M_Adult+Income+from+Employment+and+Self-employment
 Household Income from All Sources,str:group:FRSPP:M_Household+Income+from+All+Sources

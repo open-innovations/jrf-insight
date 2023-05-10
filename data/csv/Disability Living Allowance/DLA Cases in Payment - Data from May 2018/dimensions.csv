@@ -1,5 +1,4 @@
 dimension_name,dimension
-DLA (in payment) - 2011 Geographies,str:count:DLA_In_Payment_New:V_F_DLA_In_Payment_New
 Quarter,str:field:DLA_In_Payment_New:F_DLA_QTR_New:DATE_NAME
 geography residence-based – SELECT POLICY OWNERSHIP,str:group:DLA_In_Payment_New:X_geography+residence-based+%E2%80%93+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CNAGE

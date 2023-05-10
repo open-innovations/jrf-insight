@@ -1,2 +1,3 @@
 measure_name,measure
+AA (in payment),str:count:AA_In_Payment:V_F_AA_In_Payment
 Weekly Award Amount,str:measure:AA_In_Payment:V_F_AA_In_Payment:CAWKLYAMT

@@ -1,2 +1,3 @@
 measure_name,measure
+Pension Credit Caseload - 2011 Geographies,str:count:PC_New:V_F_PC_CASELOAD_New
 Weekly Award Amount,str:measure:PC_New:V_F_PC_CASELOAD_New:CAWKLYAMT

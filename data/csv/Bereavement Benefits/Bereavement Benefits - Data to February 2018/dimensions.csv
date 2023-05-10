@@ -1,5 +1,4 @@
 dimension_name,dimension
-Bereavement Benefits Caseload,str:count:BB:V_F_BB_CASELOAD
 Quarter,str:field:BB:F_BB_QTR:DATE_NAME
 Geography (residence-based),str:group:BB:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:BB:V_F_BB_CASELOAD:CNAGE

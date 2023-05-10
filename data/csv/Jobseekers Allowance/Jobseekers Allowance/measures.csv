@@ -1,2 +1,3 @@
 measure_name,measure
+Jobseekers Allowance,str:count:JSA:V_F_JSA
 Weekly Award Amount,str:measure:JSA:V_F_JSA:CAWKLYAMT

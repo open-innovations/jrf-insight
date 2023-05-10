@@ -1,1 +1,2 @@
 measure_name,measure
+Claims made to Universal Credit,str:count:UC_Claims:V_F_UC_CLAIMS

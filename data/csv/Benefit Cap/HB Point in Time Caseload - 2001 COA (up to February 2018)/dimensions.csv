@@ -1,5 +1,4 @@
 dimension_name,dimension
-Number of Households Capped,str:count:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL
 Month,str:field:Benefit_Cap_Monthly:F_BC_DATE_2001:MONTH
 Geography (residence-based),str:group:Benefit_Cap_Monthly:X_Geography+%28residence-based%29
 Age,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:AGE_YEAR

@@ -1,2 +1,3 @@
 measure_name,measure
+Bereavement Benefits Caseload,str:count:BB:V_F_BB_CASELOAD
 Weekly Award Amount,str:measure:BB:V_F_BB_CASELOAD:CAWKLYAMT

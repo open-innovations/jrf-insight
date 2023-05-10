@@ -1,2 +1,3 @@
 measure_name,measure
+Work Programme Job Outcomes,str:count:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES
 Weighted Sum of Work Programme Job Outcomes,str:measure:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:joval

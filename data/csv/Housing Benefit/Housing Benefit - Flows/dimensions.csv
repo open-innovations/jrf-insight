@@ -1,5 +1,4 @@
 dimension_name,dimension
-Housing Benefit Flows,str:count:hb_flows:V_F_HB_FLOWS
 Type of Flow,str:field:hb_flows:V_F_HB_FLOWS:FLOW
 Month,str:field:hb_flows:F_HB_FLOWS_DATE:NEW_DATE_NAME
 Geography (admin-based),str:group:hb_flows:X_Geography+%28admin-based%29

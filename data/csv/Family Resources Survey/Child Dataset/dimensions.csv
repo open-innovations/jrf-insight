@@ -1,5 +1,4 @@
 dimension_name,dimension
-Child Dataset,str:count:FRSCH:V_F_FRSCH
 Household Income from Employment and Self-Employment,str:group:FRSCH:M_Household+Income+from+Employment+and+Self-Employment
 Household Income from State Support,str:group:FRSCH:M_Household+Income+from+State+Support
 Household Income from Other Sources,str:group:FRSCH:M_Household+Income+from+Other+Sources

@@ -1,5 +1,4 @@
 dimension_name,dimension
-AA (in payment) - 2011 Geographies,str:count:AA_In_Payment_New:V_F_AA_In_Payment_New
 Quarter,str:field:AA_In_Payment_New:F_AA_QTR_New:DATE_NAME
 Geography (residence-based),str:group:AA_In_Payment_New:X_Geography+%28residence-based%29
 AA Award Type,str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:AAAWD

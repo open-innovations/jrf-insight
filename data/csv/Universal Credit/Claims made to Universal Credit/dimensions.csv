@@ -1,4 +1,3 @@
 dimension_name,dimension
-Claims made to Universal Credit,str:count:UC_Claims:V_F_UC_CLAIMS
 Time Period,str:field:UC_Claims:F_UC_WEEKS:WEEK_NAME
 Geography (postcode),str:group:UC_Claims:X_Geography+%28postcode%29

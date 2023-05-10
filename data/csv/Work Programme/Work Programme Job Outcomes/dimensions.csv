@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work Programme Job Outcomes,str:count:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES
 Admin-use only,str:group:WP_Job_Outcomes:M_Admin-use+only
 Month,str:field:WP_Job_Outcomes:F_WP_DATE:DATE_NAME
 Geography (residence-based),str:group:WP_Job_Outcomes:X_Geography+%28residence-based%29

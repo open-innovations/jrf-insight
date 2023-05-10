@@ -1,4 +1,5 @@
 measure_name,measure
+Income Distribution - Whole Population,str:count:HBAI:V_F_HBAI
 Weighted Sum of Income Distribution - Whole Population,str:measure:HBAI:V_F_HBAI:GS_INDPP
 "Net 2010-11 Absolute Median Household Income (BHC) in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:ABS1011BHC
 "Net 2010-11 Absolute Median Household Income (BHC) in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:ABS1011BHC_INYR

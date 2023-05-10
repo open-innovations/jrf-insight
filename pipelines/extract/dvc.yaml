@@ -8,13 +8,13 @@ stages:
   #    - working/test.csv:
   #       cache: false
   #       persist: false
-  extract:
-    cmd: PYTHONPATH= python pipelines/extract/extract.py
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py
     wdir: ../..
     deps:
-      - pipelines/extract/extract.py
+      - pipelines/extract/probe.py
     # outs:
-    #   - data/csv:
+    #   - data:
     #     cache: false
     #     persist: false
     

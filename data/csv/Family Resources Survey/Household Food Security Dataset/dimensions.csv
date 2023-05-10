@@ -1,5 +1,4 @@
 dimension_name,dimension
-Household Food Security Dataset,str:count:FRSHFS:V_F_FRSHFS
 Household Income from All Sources,str:group:FRSHFS:M_Household+Income+from+All+Sources
 Financial Year,str:field:FRSHFS:V_F_FRSHFS:YEAR
 Geography,str:group:FRSHFS:X_Geography

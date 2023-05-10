@@ -1,4 +1,5 @@
 measure_name,measure
+Pensioner Income distribution - whole population,str:count:PI:V_F_PI
 Weighted Sum of Pensioner Income distribution - whole population,str:measure:PI:V_F_PI:gs_newbu_ind
 Gross income,str:measure:PI:V_F_PI:pigrosbu
 Benefit income,str:measure:PI:V_F_PI:pibenibu

@@ -1,3 +1,4 @@
 measure_name,measure
+DLA to PIP Reassessments,str:count:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT
 Financial Award (DLA),str:measure:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:DLA_FINANCIAL_AWARD
 Financial Award (PIP),str:measure:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:PIP_FINANCIAL_AWARD

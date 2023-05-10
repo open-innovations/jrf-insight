@@ -1,5 +1,4 @@
 dimension_name,dimension
-Income Distribution - Whole Population,str:count:HBAI:V_F_HBAI
 Financial Year,str:field:HBAI:V_F_HBAI:YEAR
 Age-band of the Individual,str:field:HBAI:V_F_HBAI:AGEBAND_CHLOW
 Type of Individual by Age Category,str:field:HBAI:V_F_HBAI:TYPE_AGECAT

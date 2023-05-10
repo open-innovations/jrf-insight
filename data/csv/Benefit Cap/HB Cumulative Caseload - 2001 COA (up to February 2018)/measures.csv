@@ -1,3 +1,4 @@
 measure_name,measure
+Capped Households to Date,str:count:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL
 Amount of Benefit Capped,str:measure:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:CABENCAP
 Housing Benefit Amount,str:measure:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:LAHBAMT

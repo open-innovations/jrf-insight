@@ -1,2 +1,3 @@
 measure_name,measure
+Household Food Security Dataset,str:count:FRSHFS:V_F_FRSHFS
 Weighted Sum of Household Food Security Dataset,str:measure:FRSHFS:V_F_FRSHFS:GROSS

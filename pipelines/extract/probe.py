@@ -26,7 +26,6 @@ for f_id, f_name in zip(folder_ids, folder_names):
     #print(f_name, database_names)
     #print(database_names)
     for db_id, db_name in zip(database_ids, database_names):
-        #print(folder_names[count], db_name)
         schema = objects.Schema(db_id).get(session)
         #print(schema)
         children = schema.get('children')
@@ -40,12 +39,18 @@ for f_id, f_name in zip(folder_ids, folder_names):
             id = str(i.get('id'))
             label = str(i.get('label'))
 
-            if "measure" in id:
+            if "str:measure:" in id or "str:count:" in id:
                 measures.append(id)
                 measure_names.append(label)
-            else:
-                dimensions.append(id)
-                dimension_names.append(label)
+                continue
+            #print('here before count')
+            # if "str:count:" in id:
+            #     measures.append(id)
+            #     measure_names.append(label)
+            #     continue
+            #print('here before dimension')
+            dimensions.append(id)
+            dimension_names.append(label)
 
         measures_df = pd.DataFrame([[i, j] for i, j in zip(measures, measure_names)], columns=['measure', 'measure_name']).set_index('measure_name')
         dimensions_df = pd.DataFrame([[l, m] for l, m in zip(dimensions, dimension_names)], columns=['dimension', 'dimension_name']).set_index('dimension_name')
@@ -55,6 +60,7 @@ for f_id, f_name in zip(folder_ids, folder_names):
 
         dimensions_df.to_csv(os.path.join(OUTDIR, 'dimensions.csv'))
         measures_df.to_csv(os.path.join(OUTDIR, 'measures.csv'))
+print('done')
 # test_table = objects.Table('str:database:HBAI').run_query(session,
 #     measures=[measures[0]],
 #     dimensions=[[dimensions[0]]],

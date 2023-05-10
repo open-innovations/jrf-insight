@@ -1,2 +1,3 @@
 measure_name,measure
+Family (Benefit Unit) Dataset,str:count:FRSBU:V_F_FRSBU
 Weighted Sum of Family (Benefit Unit) Dataset,str:measure:FRSBU:V_F_FRSBU:GROSS

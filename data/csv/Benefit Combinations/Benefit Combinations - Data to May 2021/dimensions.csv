@@ -1,5 +1,4 @@
 dimension_name,dimension
-Benefit Combinations,str:count:Ben_Com:V_F_BENCOM
 Quarter,str:field:Ben_Com:F_BENCOM_QTR:DATE_NAME
 Geography (residence-based),str:group:Ben_Com:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:Ben_Com:V_F_BENCOM:cnage

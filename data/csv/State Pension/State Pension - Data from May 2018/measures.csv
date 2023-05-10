@@ -1,3 +1,4 @@
 measure_name,measure
+State Pension caseload - 2011 Geographies,str:count:SP_New:V_F_SP_CASELOAD_New
 Weekly Amount of Benefit,str:measure:SP_New:V_F_SP_CASELOAD_New:CAWKLYAMT
 nSP Protected Payment,str:measure:SP_New:V_F_SP_CASELOAD_New:NSP_PR_PYT_PYBL_AMT

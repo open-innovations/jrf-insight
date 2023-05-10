@@ -1,5 +1,4 @@
 dimension_name,dimension
-PIP Award Review Registrations,str:count:PIP_AR_COC_Registrations:V_F_PIP_AR_COC_REGISTRATIONS
 Month,str:field:PIP_AR_COC_Registrations:F_PIP_DATE:DATE2
 Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_AR_COC_Registrations:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:PIP_AR_COC_Registrations:V_F_PIP_AR_COC_REGISTRATIONS:SINGLE_AGE

@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work Programme Sustainment Payments (all payments),str:count:WP_Sustainment:V_F_WP_SUSTAINMENT
 Month,str:field:WP_Sustainment:F_WP_DATE:DATE_NAME
 Geography (residence-based),str:group:WP_Sustainment:X_Geography+%28residence-based%29
 Contract Package Area and Contract,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:CONTRACT_CODE

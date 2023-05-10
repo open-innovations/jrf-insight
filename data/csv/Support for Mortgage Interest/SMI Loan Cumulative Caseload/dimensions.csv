@@ -1,4 +1,3 @@
 dimension_name,dimension
-Households who have received an SMI loan,str:count:SMI_CUM:V_F_SMI_CUM
 Quarter,str:field:SMI_CUM:F_SMI_DATE:DATE_NAME
 Geography (residence-based),str:group:SMI_CUM:X_Geography+%28residence-based%29

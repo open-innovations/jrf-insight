@@ -1,2 +1,3 @@
 measure_name,measure
+DLA (in payment) - 2011 Geographies,str:count:DLA_In_Payment_New:V_F_DLA_In_Payment_New
 Weekly Award Amount,str:measure:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CAWKLYAMT

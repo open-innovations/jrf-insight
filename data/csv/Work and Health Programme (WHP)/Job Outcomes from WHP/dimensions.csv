@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work and Health Programme Job Outcomes,str:count:WHP_Outcomes:V_F_WHP_OUTCOMES
 Start Month,str:field:WHP_Outcomes:F_WHP_DATE:DATE_NAME
 Job Outcome Month,str:field:WHP_Outcomes:V_F_WHP_OUTCOMES:PAYMENT_MONTH
 Geography (residence-based),str:group:WHP_Outcomes:X_Geography+%28residence-based%29

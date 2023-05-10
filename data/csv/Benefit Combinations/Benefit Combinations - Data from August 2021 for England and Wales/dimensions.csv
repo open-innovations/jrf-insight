@@ -1,5 +1,4 @@
 dimension_name,dimension
-Benefit Combinations England and Wales,str:count:Ben_Com_New:V_F_BENCOM_NEW
 Quarter,str:field:Ben_Com_New:F_BENCOM_QTR_NEW:DATE_NAME
 Geography (residence-based),str:group:Ben_Com_New:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:Ben_Com_New:V_F_BENCOM_NEW:cnage

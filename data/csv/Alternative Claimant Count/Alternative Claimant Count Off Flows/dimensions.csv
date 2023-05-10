@@ -1,5 +1,4 @@
 dimension_name,dimension
-Alternative Claimant Count Off Flows,str:count:ACC_OFFS:V_F_ACC_OFFFLOWS
 Admin-use only,str:group:ACC_OFFS:M_Admin-use+only
 Month of Off Flow,str:field:ACC_OFFS:F_ACC_DATE_new:DATE_NAME
 Geography (residence-based) - UK,str:group:ACC_OFFS:X_Geography+%28residence-based%29+-+UK

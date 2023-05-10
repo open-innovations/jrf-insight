@@ -1,3 +1,4 @@
 measure_name,measure
+Number of Households Capped,str:count:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011
 Amount of Benefit Capped,str:measure:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:CABENCAP
 Housing Benefit Amount,str:measure:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:LAHBAMT

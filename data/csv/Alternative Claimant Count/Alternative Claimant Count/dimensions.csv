@@ -1,5 +1,4 @@
 dimension_name,dimension
-Alternative Claimant Count,str:count:ACC:V_F_ACC
 Month,str:field:ACC:F_ACC_DATE_new:DATE_NAME
 Geography (residence-based) - UK,str:group:ACC:X_Geography+%28residence-based%29+-+UK
 Geography (residence-based) - GB,str:group:ACC:X_Geography+%28residence-based%29+-+GB

@@ -18,3 +18,9 @@ stages:
     - path: pipelines/extract/harvester.py
       md5: 709bcc39c6f36d531d8dfaf765105a75
       size: 795
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py
+    deps:
+    - path: pipelines/extract/probe.py
+      md5: 924fd90a0dd1374c6ae4459e926f8e09
+      size: 2509

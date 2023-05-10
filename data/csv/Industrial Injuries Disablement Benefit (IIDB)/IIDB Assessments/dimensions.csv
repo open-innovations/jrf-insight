@@ -1,5 +1,4 @@
 dimension_name,dimension
-IIDB Assessments,str:count:IIDB_Assessments:V_F_IIDB_ASSESSMENTS
 Month,str:field:IIDB_Assessments:F_IIDB_DATE:DATE_NAME
 Geography (residence-based),str:group:IIDB_Assessments:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:AGE

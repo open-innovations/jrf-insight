@@ -1,5 +1,4 @@
 dimension_name,dimension
-Sanction Rates for Universal Credit,str:count:UC_sanc_rates:V_F_UC_SANC_RATE
 Month,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:DATE_CODE
 Geography (residence-based),str:group:UC_sanc_rates:X_Geography+%28residence-based%29
 Geography (Jobcentre Plus),str:group:UC_sanc_rates:X_Geography+%28Jobcentre+Plus%29

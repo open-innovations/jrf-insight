@@ -1,5 +1,4 @@
 dimension_name,dimension
-Capped Households to Date,str:count:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL
 Onflow Month,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:ONFLOW
 Off-flow Month,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:LAST_CAPPED
 Geography (residence-based),str:group:Benefit_Cap_Cumulative:X_Geography+%28residence-based%29

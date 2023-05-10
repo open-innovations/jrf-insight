@@ -1,5 +1,4 @@
 dimension_name,dimension
-Housing Benefit Claimants,str:count:hb_full:V_F_HB_FULL
 Month,str:field:hb_full:V_F_DATE:DATE2
 Geography (admin-based),str:group:hb_full:X_Geography+%28admin-based%29
 Geography (residence-based),str:group:hb_full:X_Geography+%28residence-based%29

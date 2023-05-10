@@ -1,5 +1,4 @@
 dimension_name,dimension
-CMS Paying Parents,str:count:CMS_PARENT:V_F_CMS_PARENT
 Quarter,str:field:CMS_PARENT:F_P_DATE:DATE_NAME
 Geography (residence-based),str:group:CMS_PARENT:X_Geography+%28residence-based%29
 Age Band,str:field:CMS_PARENT:V_F_CMS_PARENT:age

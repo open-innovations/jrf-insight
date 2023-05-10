@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work and Health Programme First Earnings from Employment,str:count:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS
 First Earnings from Employment Month,str:field:WHP_First_Earnings:F_WHP_DATE:DATE_NAME
 Start Month,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:START_MONTH
 Geography (residence-based),str:group:WHP_First_Earnings:X_Geography+%28residence-based%29

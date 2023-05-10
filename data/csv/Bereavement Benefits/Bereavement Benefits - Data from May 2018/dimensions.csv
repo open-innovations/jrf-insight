@@ -1,5 +1,4 @@
 dimension_name,dimension
-Bereavement Benefits Caseload - 2011 Geographies,str:count:BB_New:V_F_BB_CASELOAD_New
 Quarter,str:field:BB_New:F_BB_QTR_New:DATE_NAME
 Geography (residence-based),str:group:BB_New:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:BB_New:V_F_BB_CASELOAD_New:CNAGE

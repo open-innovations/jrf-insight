@@ -1,2 +1,3 @@
 measure_name,measure
+Number of UC Households Capped,str:count:BC_UC_Monthly:V_F_UCFS_MONTHLY
 Amount of Benefit Capped,str:measure:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap

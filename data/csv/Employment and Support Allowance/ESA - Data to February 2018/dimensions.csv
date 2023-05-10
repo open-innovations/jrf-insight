@@ -1,5 +1,4 @@
 dimension_name,dimension
-Employment and Support Allowance Caseload,str:count:ESA_Caseload:V_F_ESA
 Quarter,str:field:ESA_Caseload:F_ESA_QTR:DATE_NAME
 Geography (residence-based),str:group:ESA_Caseload:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:ESA_Caseload:V_F_ESA:CNAGE

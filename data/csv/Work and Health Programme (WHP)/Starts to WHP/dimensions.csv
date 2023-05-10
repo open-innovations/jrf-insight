@@ -1,5 +1,4 @@
 dimension_name,dimension
-Work and Health Programme Starts,str:count:WHP_Starts:V_F_WHP_STARTS
 Start Month,str:field:WHP_Starts:F_WHP_DATE:DATE_NAME
 Referral Month,str:field:WHP_Starts:V_F_WHP_STARTS:REF_MONTH
 Geography (residence-based),str:group:WHP_Starts:X_Geography+%28residence-based%29

@@ -1,3 +1,4 @@
 measure_name,measure
+Housing Benefit Claimants,str:count:hb_full:V_F_HB_FULL
 Weekly Award Amount,str:measure:hb_full:V_F_HB_FULL:LAHBAMT
 Weekly Spare Room Reduction Amount,str:measure:hb_full:V_F_HB_FULL:REDUC_AMT

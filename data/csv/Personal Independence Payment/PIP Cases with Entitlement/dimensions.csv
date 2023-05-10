@@ -1,5 +1,4 @@
 dimension_name,dimension
-PIP Cases with Entitlement,str:count:PIP_Monthly:V_F_PIP_MONTHLY
 Month,str:field:PIP_Monthly:F_PIP_DATE:DATE2
 Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Monthly:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:PIP_Monthly:V_F_PIP_MONTHLY:SINGLE_AGE

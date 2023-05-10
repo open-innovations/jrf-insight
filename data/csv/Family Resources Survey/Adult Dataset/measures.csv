@@ -1,2 +1,3 @@
 measure_name,measure
+Adult Dataset,str:count:FRSAD:V_F_FRSAD
 Weighted Sum of Adult Dataset,str:measure:FRSAD:V_F_FRSAD:GROSS

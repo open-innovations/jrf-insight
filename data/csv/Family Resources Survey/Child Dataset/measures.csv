@@ -1,2 +1,3 @@
 measure_name,measure
+Child Dataset,str:count:FRSCH:V_F_FRSCH
 Weighted Sum of Child Dataset,str:measure:FRSCH:V_F_FRSCH:GROSS

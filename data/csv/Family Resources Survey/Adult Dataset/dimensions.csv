@@ -1,5 +1,4 @@
 dimension_name,dimension
-Adult Dataset,str:count:FRSAD:V_F_FRSAD
 Adult Income from Employment and Self-employment,str:group:FRSAD:M_Adult+Income+from+Employment+and+Self-employment
 Adult Income from All Sources,str:group:FRSAD:M_Adult+Income+from+All+Sources
 Household Income from State Support,str:group:FRSAD:M_Household+Income+from+State+Support

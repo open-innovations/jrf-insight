@@ -1,2 +1,3 @@
 measure_name,measure
+Employment and Support Allowance Caseload,str:count:ESA_Caseload:V_F_ESA
 Weekly Award Amount,str:measure:ESA_Caseload:V_F_ESA:CAWKLYAMT

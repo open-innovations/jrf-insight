@@ -1,1 +1,2 @@
 measure_name,measure
+Households who have received an SMI loan,str:count:SMI_CUM:V_F_SMI_CUM

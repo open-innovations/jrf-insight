@@ -1,5 +1,4 @@
 dimension_name,dimension
-Alternative Claimant Count On Flows,str:count:ACC_ONS:V_F_ACC_ONFLOWS
 Admin-use only,str:group:ACC_ONS:M_Admin-use+only
 Month of On Flow,str:field:ACC_ONS:F_ACC_DATE_new:DATE_NAME
 Geography (residence-based) - UK,str:group:ACC_ONS:X_Geography+%28residence-based%29+-+UK

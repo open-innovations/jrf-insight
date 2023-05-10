@@ -1,5 +1,4 @@
 dimension_name,dimension
-Absolute Low Income,str:count:CILIF_ABS:V_F_CILIF_ABS
 Year,str:field:CILIF_ABS:F_CILIF_DATE:DATE_NAME
 Geography (residence-based) - UK,str:group:CILIF_ABS:X_Geography+%28residence-based%29+-+UK
 Geography (residence-based) - GB,str:group:CILIF_ABS:X_Geography+%28residence-based%29+-+GB

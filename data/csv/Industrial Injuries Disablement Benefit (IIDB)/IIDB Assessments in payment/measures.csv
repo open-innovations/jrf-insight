@@ -1,2 +1,3 @@
 measure_name,measure
+IIDB Assessments in payment,str:count:IIDB_IICS:V_F_IIDB_IICS
 Weekly Amount,str:measure:IIDB_IICS:V_F_IIDB_IICS:WEEKRATE

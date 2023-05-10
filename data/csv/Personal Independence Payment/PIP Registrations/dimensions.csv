@@ -1,5 +1,4 @@
 dimension_name,dimension
-PIP Registrations,str:count:PIP_Registrations:V_F_PIP_REGISTRATIONS
 Month,str:field:PIP_Registrations:F_PIP_DATE:DATE2
 Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Registrations:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:PIP_Registrations:V_F_PIP_REGISTRATIONS:SINGLE_AGE

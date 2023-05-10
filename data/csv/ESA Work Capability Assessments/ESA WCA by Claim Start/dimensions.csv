@@ -1,5 +1,4 @@
 dimension_name,dimension
-ESA WCA by Claim Start,str:count:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART
 Claim Start Date,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:CDSTART
 Geography (residence-based),str:group:ESA_WCA_CS:X_Geography+%28residence-based%29
 Type of Assessment,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:type

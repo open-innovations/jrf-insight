@@ -1,2 +1,3 @@
 measure_name,measure
+Mandatory Reconsiderations - Clearances,str:count:ESA_WCA_MR_Clear:V_F_ESA_WCA_MR_CLEAR
 Clearance Times,str:measure:ESA_WCA_MR_Clear:V_F_ESA_WCA_MR_CLEAR:diff

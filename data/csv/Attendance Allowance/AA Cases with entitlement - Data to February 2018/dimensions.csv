@@ -1,5 +1,4 @@
 dimension_name,dimension
-AA (entitled),str:count:AA_Entitled:V_F_AA_Entitled
 Quarter,str:field:AA_Entitled:F_AA_QTR:DATE_NAME
 Geography (residence-based),str:group:AA_Entitled:X_Geography+%28residence-based%29
 AA Award Type,str:field:AA_Entitled:V_F_AA_Entitled:AAAWD

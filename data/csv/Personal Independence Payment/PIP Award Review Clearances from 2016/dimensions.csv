@@ -1,5 +1,4 @@
 dimension_name,dimension
-PIP Award Review Clearances from 2016,str:count:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016
 Month,str:field:PIP_AR_COC_Clearances_post2016:F_PIP_DATE_POST2016:DATE2
 Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_AR_COC_Clearances_post2016:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
 Age (bands and single year),str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:SINGLE_AGE

@@ -1,5 +1,4 @@
 dimension_name,dimension
-Sanction Decisions,str:count:IS_sanc_dec:V_F_IS_SANC_DEC
 Month Decision Made,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:ESA_MTH
 Geography (residence-based),str:group:IS_sanc_dec:X_Geography+%28residence-based%29+
 Age of Claimant (years and bands),str:field:IS_sanc_dec:V_F_IS_SANC_DEC:AGEYR

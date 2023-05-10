@@ -1,5 +1,4 @@
 dimension_name,dimension
-Benefit Combinations Scotland,str:count:Ben_Com_Scot:V_F_BENCOM_SCOT
 Quarter,str:field:Ben_Com_Scot:F_BENCOM_QTR_NEW:DATE_NAME
 Geography (residence-based),str:group:Ben_Com_Scot:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:cnage

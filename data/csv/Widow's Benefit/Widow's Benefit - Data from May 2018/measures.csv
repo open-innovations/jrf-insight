@@ -1,2 +1,3 @@
 measure_name,measure
 Weekly Award Amount,str:measure:WB_New:V_F_WB_CASELOAD_New:CAWKLYAMT
+Widow's Benefit Caseload - 2011 Geographies,str:count:WB_New:V_F_WB_CASELOAD_New

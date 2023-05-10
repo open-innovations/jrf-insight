@@ -1,5 +1,4 @@
 dimension_name,dimension
-Child Maintenance Service Statistics,str:count:CMS:V_F_CMS
 Quarter,str:field:CMS:F_ARR_DATE:DATE_NAME
 Geography (residence-based),str:group:CMS:X_Geography+%28residence-based%29
 Age band of Paying Parent,str:field:CMS:V_F_CMS:NRP_AGE_CODE

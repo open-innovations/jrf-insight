@@ -1,5 +1,4 @@
 dimension_name,dimension
-DLA (in payment),str:count:DLA_In_Payment:V_F_DLA_In_Payment
 Quarter,str:field:DLA_In_Payment:F_DLA_QTR:DATE_NAME
 Geography (residence-based),str:group:DLA_In_Payment:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:DLA_In_Payment:V_F_DLA_In_Payment:CNAGE

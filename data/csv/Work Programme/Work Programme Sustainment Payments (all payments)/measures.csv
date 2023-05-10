@@ -1,2 +1,3 @@
 measure_name,measure
+Work Programme Sustainment Payments (all payments),str:count:WP_Sustainment:V_F_WP_SUSTAINMENT
 Weighted Sum of Work Programme Sustainment Payments (all payments),str:measure:WP_Sustainment:V_F_WP_SUSTAINMENT:SUSVAL

@@ -1,2 +1,3 @@
 measure_name,measure
+Income Support,str:count:IS:V_F_IS
 Weekly Award Amount,str:measure:IS:V_F_IS:CAWKLYAMT

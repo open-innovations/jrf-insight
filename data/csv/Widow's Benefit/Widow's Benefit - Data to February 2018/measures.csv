@@ -1,2 +1,3 @@
 measure_name,measure
 Weekly Award Amount,str:measure:WB:V_F_WB_CASELOAD:CAWKLYAMT
+Widow's Benefit Caseload,str:count:WB:V_F_WB_CASELOAD

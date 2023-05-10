@@ -1,2 +1,3 @@
 measure_name,measure
+PIP Clearances,str:count:PIP_Clearances:V_F_PIP_CLEARANCES
 Financial Award,str:measure:PIP_Clearances:V_F_PIP_CLEARANCES:PIP_AWARD_AMOUNT

@@ -1,5 +1,4 @@
 dimension_name,dimension
-Family (Benefit Unit) Dataset,str:count:FRSBU:V_F_FRSBU
 Family (Benefit Unit) Income received from State Support,str:group:FRSBU:M_Family+%28Benefit+Unit%29+Income+received+from+State+Support
 Family (Benefit Unit) amount of savings and investments,str:group:FRSBU:M_Family+%28Benefit+Unit%29+amount+of+savings+and+investments
 Financial Year,str:field:FRSBU:V_F_FRSBU:YEAR

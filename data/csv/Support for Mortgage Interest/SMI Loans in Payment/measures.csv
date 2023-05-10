@@ -1,2 +1,3 @@
 measure_name,measure
+Households with SMI loan in payment,str:count:SMI_CASELOAD:V_F_SMI_CASELOAD
 Support for Mortgage Loan Weekly Amount,str:measure:SMI_CASELOAD:V_F_SMI_CASELOAD:WEEKLY_AMT

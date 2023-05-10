@@ -1,5 +1,4 @@
 dimension_name,dimension
-AA (entitled) - 2011 Geographies,str:count:AA_Entitled_New:V_F_AA_Entitled_New
 Quarter,str:field:AA_Entitled_New:F_AA_QTR_New:DATE_NAME
 Geography (residence-based),str:group:AA_Entitled_New:X_Geography+%28residence-based%29
 AA Award Type,str:field:AA_Entitled_New:V_F_AA_Entitled_New:AAAWD

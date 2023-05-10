@@ -1,5 +1,4 @@
 dimension_name,dimension
-Income Support,str:count:IS:V_F_IS
 Quarter,str:field:IS:F_IS_QTR:DATE_NAME
 Geography (residence-based),str:group:IS:X_Geography+%28residence-based%29
 Age (bands and single year),str:field:IS:V_F_IS:CNAGE
