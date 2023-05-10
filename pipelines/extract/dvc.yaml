@@ -8,9 +8,9 @@ stages:
   #    - working/test.csv:
   #       cache: false
   #       persist: false
-  harvest:
-    cmd: PYTHONPATH= python pipelines/extract/harvester.py
+  extract:
+    cmd: PYTHONPATH= python pipelines/extract/hbai/extract.py
     wdir: ../..
     deps:
-      - pipelines/extract/harvester.py
+      - pipelines/extract/hbai/extract.py
     

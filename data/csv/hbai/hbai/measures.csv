@@ -1,0 +1,12 @@
+measure_name,measure
+Weighted Sum of Income Distribution - Whole Population,str:measure:HBAI:V_F_HBAI:GS_INDPP
+"Net 2010-11 Absolute Median Household Income (BHC) in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:ABS1011BHC
+"Net 2010-11 Absolute Median Household Income (BHC) in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:ABS1011BHC_INYR
+"Net 2010-11 Absolute Median Household Income (AHC) in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:ABS1011AHC
+"Net 2010-11 Absolute Median Household Income (AHC) in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:ABS1011AHC_INYR
+"Net Household Income (BHC) in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:S_OE_BHC
+"Net Household Income (BHC) in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:S_OE_BHC_INYR
+"Net Household Income (AHC) in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:S_OE_AHC
+"Net Household Income (AHC) in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:S_OE_AHC_INYR
+"Net Household Housing Costs in latest prices (weekly, equivalised, SPI-adjusted in CPI-adjusted real terms)",str:measure:HBAI:V_F_HBAI:S_OE_HC
+"Net Household Housing Costs in year prices (weekly, equivalised, SPI-adjusted in nominal terms)",str:measure:HBAI:V_F_HBAI:S_OE_HC_INYR

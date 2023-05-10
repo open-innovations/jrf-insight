@@ -1,17 +1,11 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o
-      working/test.csv
+    cmd: PYTHONPATH= python pipelines/extract/hbai/extract.py
     deps:
-    - path: pipelines/extract/test.json
-      md5: 5e34fe4fc7e4fb6341c5d5920dbdb499
-      size: 2302
-    outs:
-    - path: working/test.csv
-      md5: f0a6eb6a6c8dcaad7a7d2ab6ebc5fc50
-      size: 18328
-      isexec: true
+    - path: pipelines/extract/hbai/extract.py
+      md5: 8ae9d64e63d6c373e4f3d57c0579e509
+      size: 1900
   harvester:
     cmd: PYTHONPATH=pipelines/extract/harvester.py
     deps:
@@ -22,5 +16,5 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/harvester.py
     deps:
     - path: pipelines/extract/harvester.py
-      md5: e3bd81f8dce7bcd14d244847f436e82a
-      size: 488
+      md5: 709bcc39c6f36d531d8dfaf765105a75
+      size: 795
