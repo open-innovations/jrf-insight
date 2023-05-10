@@ -3,7 +3,7 @@ JRF North England Insight Finder
 
 [Project hub page on Open Innovations website](https://open-innovations.org/projects/jrf/north-insight-finder/)
 ## StatXplore
-You need to register for an account and get an open data API key. You'll need to add this `STATXPLORE_API_KEY=<your_key>` to a `.env` file at the top level directory. Without this, you will not have permission to pull data from stat-xplore.
+You need to register for an account and get an open data API key. You'll need to add this `STATXPLORE_API_KEY=<your_key>` to a `.env` file at the top level directory (*Make sure this is added to .gitignore*). Without this, you will not have permission to pull data from stat-xplore.
 ## Pipenv 
 Install pipenv with `pip install pipenv`. To install dependencies use `pipenv install`. To activate the virtual environment, use `pipenv shell`. If you are on windows you may need to install windows subsytem for linux, and install pip and then pipenv in a linux environment. Dependencies in the `pipfile` are detailed in `Pipfile.lock`.
 
