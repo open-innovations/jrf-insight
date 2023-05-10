@@ -1,0 +1,11 @@
+dimension_name,dimension
+People on Universal Credit,str:count:UC_Monthly:V_F_UC_CASELOAD_FULL
+Month,str:field:UC_Monthly:F_UC_DATE:DATE_NAME
+Geography (Jobcentre Plus),str:group:UC_Monthly:X_Geography+%28Jobcentre+Plus%29
+Geography (residence-based),str:group:UC_Monthly:X_Geography+%28residence-based%29
+Geography (postcode),str:group:UC_Monthly:X_Geography+%28postcode%29
+Age (bands and single year),str:field:UC_Monthly:V_F_UC_CASELOAD_FULL:AGE_CODE
+Conditionality Regime,str:field:UC_Monthly:V_F_UC_CASELOAD_FULL:CCCONDITIONALITY_REGIME
+Duration,str:field:UC_Monthly:V_F_UC_CASELOAD_FULL:DURATION_BAND_CODE
+Employment indicator,str:field:UC_Monthly:V_F_UC_CASELOAD_FULL:EMPLOYMENT_CODE
+Gender,str:field:UC_Monthly:V_F_UC_CASELOAD_FULL:GENDER_CODE

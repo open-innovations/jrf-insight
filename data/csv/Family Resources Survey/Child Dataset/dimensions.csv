@@ -1,0 +1,11 @@
+dimension_name,dimension
+Child Dataset,str:count:FRSCH:V_F_FRSCH
+Household Income from Employment and Self-Employment,str:group:FRSCH:M_Household+Income+from+Employment+and+Self-Employment
+Household Income from State Support,str:group:FRSCH:M_Household+Income+from+State+Support
+Household Income from Other Sources,str:group:FRSCH:M_Household+Income+from+Other+Sources
+Financial Year,str:field:FRSCH:V_F_FRSCH:YEAR
+Geography,str:group:FRSCH:X_Geography
+Age band of the Child,str:field:FRSCH:V_F_FRSCH:AGEBAND
+Gender of the Child,str:field:FRSCH:V_F_FRSCH:SEX
+"Main source of Household's total, gross Income",str:field:FRSCH:V_F_FRSCH:MAIN_SOURCE_INC
+Tenure type of the Household,str:field:FRSCH:V_F_FRSCH:TENURE

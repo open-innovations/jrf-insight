@@ -1,0 +1,5 @@
+dimension_name,dimension
+Mandatory Reconsiderations - Registrations,str:count:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS
+Geographies (residence-based),str:group:ESA_WCA_Registration:X_Geographies+%28residence-based%29
+Date of Registration,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:DATE_CASE_RECEIVED
+Reason,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:reason

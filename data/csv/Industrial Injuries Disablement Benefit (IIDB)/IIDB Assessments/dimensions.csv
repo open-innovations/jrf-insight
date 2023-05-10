@@ -1,0 +1,16 @@
+dimension_name,dimension
+IIDB Assessments,str:count:IIDB_Assessments:V_F_IIDB_ASSESSMENTS
+Month,str:field:IIDB_Assessments:F_IIDB_DATE:DATE_NAME
+Geography (residence-based),str:group:IIDB_Assessments:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:AGE
+Working or Pension age,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:PENSION_AGE
+Gender,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCSEX
+Cause of accident,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CAUSEACC
+Prescribed disease,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCCLMTYP
+Type of claim,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCACCINNUM
+Decision type,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CLAIM_SUCC
+Decision time,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:DECISION_TIME
+Degree of disablement,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCPERASS
+Attributable agent,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCAGENCD
+Standard Industrial Classification,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCINDACT2
+Standard Occupational Classification,str:field:IIDB_Assessments:V_F_IIDB_ASSESSMENTS:CCOCC

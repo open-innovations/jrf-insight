@@ -1,0 +1,10 @@
+dimension_name,dimension
+CA (Entitled),str:count:CA_Entitled:V_F_CA_Entitled
+Quarter,str:field:CA_Entitled:F_CA_QTR:DATE_NAME
+Geography (residence-based),str:group:CA_Entitled:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:CA_Entitled:V_F_CA_Entitled:CNAGE
+Client type,str:field:CA_Entitled:V_F_CA_Entitled:CCCLIENT
+Duration of Claim,str:field:CA_Entitled:V_F_CA_Entitled:CTDURTN
+Gender,str:field:CA_Entitled:V_F_CA_Entitled:CCSEX
+Grouped amount of benefit,str:field:CA_Entitled:V_F_CA_Entitled:AMTGP
+Payment type,str:field:CA_Entitled:V_F_CA_Entitled:PAYMENT

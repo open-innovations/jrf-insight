@@ -1,0 +1,21 @@
+dimension_name,dimension
+Individual Dataset,str:count:FRSPP:V_F_FRSPP
+Adult Income from All Sources,str:group:FRSPP:M_Adult+Income+from+All+Sources
+Adult Income from Employment and Self-employment,str:group:FRSPP:M_Adult+Income+from+Employment+and+Self-employment
+Household Income from All Sources,str:group:FRSPP:M_Household+Income+from+All+Sources
+Household Income from Employment and Self-employment,str:group:FRSPP:M_Household+Income+from+Employment+and+Self-employment
+Household Income from Other Sources,str:group:FRSPP:M_Household+Income+from+Other+Sources
+Household Income from State Support,str:group:FRSPP:M_Household+Income+from+State+Support
+Financial Year,str:field:FRSPP:V_F_FRSPP:YEAR
+Geography,str:group:FRSPP:X_Geography
+Age band of the Individual,str:field:FRSPP:V_F_FRSPP:AGEBAND
+Gender of the Individual,str:field:FRSPP:V_F_FRSPP:SEX
+Tenure type of the Household,str:field:FRSPP:V_F_FRSPP:TENURE
+Care,str:group:FRSPP:X_Care
+Disability status and Impairment type,str:group:FRSPP:X_Disability+status+and+Impairment+type
+Employment status,str:group:FRSPP:X_Employment+status
+Ethnicity,str:group:FRSPP:X_Ethnicity
+Income,str:group:FRSPP:X_Income
+Pension scheme participation,str:group:FRSPP:X_Pension+scheme+participation
+Savings and investments,str:group:FRSPP:X_Savings+and+investments
+Type of Adult and Individual,str:group:FRSPP:X_Type+of+Adult+and+Individual

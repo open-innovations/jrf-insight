@@ -1,0 +1,10 @@
+dimension_name,dimension
+ESA WCA Appeals by Claim Start,str:count:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL
+Claim Start Date,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:CDSTART
+Type of Assessment,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:type
+Outcome,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:outcome
+Appeal Outcome,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:appeal
+ESA Group Allocation (and Reasons),str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:outcome_reason
+Medical Condition,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:cg21
+Functional Impairment Reason,str:group:ESA_WCA_APPEAL:X_Functional+Impairment+Reason
+Geographies (residence-based),str:group:ESA_WCA_APPEAL:X_Geographies+%28residence-based%29

@@ -1,0 +1,15 @@
+dimension_name,dimension
+Capped Households to Date,str:count:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011
+Onflow Month,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:ONFLOW
+Off-flow Month,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:LAST_CAPPED
+Geography (admin-based),str:group:Benefit_Cap_Cumulative_2011:X_Geography+%28admin-based%29
+Geography (residence-based),str:group:Benefit_Cap_Cumulative_2011:X_Geography+%28residence-based%29
+Age,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:AGE_YEAR
+Gender (single claimants),str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:SINGLE_GEN
+Family Type,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:FAMILY_PUB
+Number of Children,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:NO_CHILDREN
+Private or Social Rented,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:TENURE_PUB
+Detailed Housing Type,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:SECTOR_PUB
+Outcome at Off-flow,str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:OUTCOME_CODE
+Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:CAP_GROUP
+Housing Benefit Amount (in bands),str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:AMT_BAND_LOW

@@ -1,0 +1,15 @@
+dimension_name,dimension
+PIP Clearances,str:count:PIP_Clearances:V_F_PIP_CLEARANCES
+Month,str:field:PIP_Clearances:F_PIP_DATE:DATE2
+Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Clearances:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+Age (bands and single year),str:field:PIP_Clearances:V_F_PIP_CLEARANCES:SINGLE_AGE
+Award Type,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:REV_PERIOD_YR2
+Clearance Type Detail,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:CLEARANCE_DETAIL
+Daily Living Award Level,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:DL_AWARD_TYPE
+Disability,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:DISABILITY_CODE
+Gender,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:SEX
+ICD Summary Code,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:ICD_SUMMARY_CODE
+Mobility Award Status,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:MOB_AWARD_TYPE
+Re-assessment Indicator,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:REASS_TYPE_IND
+End of Life Rules Indicator,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:TERMINALLY_ILL_RULES_IND
+State Pension Age,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:SPA

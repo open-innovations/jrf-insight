@@ -1,0 +1,5 @@
+dimension_name,dimension
+IB Reassessment by Referral Date,str:count:IBR_REF:V_F_IBR_REF
+Month,str:field:IBR_REF:F_IBR_REF_MONTH:DATE_NAME
+Geography (residence-based),str:group:IBR_REF:X_Geography+%28residence-based%29
+Outcome,str:field:IBR_REF:V_F_IBR_REF:outcome

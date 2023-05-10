@@ -1,0 +1,21 @@
+dimension_name,dimension
+Adult Dataset,str:count:FRSAD:V_F_FRSAD
+Adult Income from Employment and Self-employment,str:group:FRSAD:M_Adult+Income+from+Employment+and+Self-employment
+Adult Income from All Sources,str:group:FRSAD:M_Adult+Income+from+All+Sources
+Household Income from State Support,str:group:FRSAD:M_Household+Income+from+State+Support
+Household Income from Employment and Self-employment,str:group:FRSAD:M_Household+Income+from+Employment+and+Self-employment
+Household Income from Other Sources,str:group:FRSAD:M_Household+Income+from+Other+Sources
+Household Income from All Sources,str:group:FRSAD:M_Household+Income+from+All+Sources
+Financial Year,str:field:FRSAD:V_F_FRSAD:YEAR
+Geography,str:group:FRSAD:X_Geography
+Age band of the Adult,str:field:FRSAD:V_F_FRSAD:AGEBAND
+Gender of the Adult,str:field:FRSAD:V_F_FRSAD:SEX
+Type of Adult,str:field:FRSAD:V_F_FRSAD:TYPE
+Tenure type of the Household,str:field:FRSAD:V_F_FRSAD:TENURE
+Care,str:group:FRSAD:X_Care
+Disability status and Impairment type,str:group:FRSAD:X_Disability+status+and+Impairment+type
+Employment status,str:group:FRSAD:X_Employment+status
+Ethnicity,str:group:FRSAD:X_Ethnicity
+Income,str:group:FRSAD:X_Income
+Pension scheme participation,str:group:FRSAD:X_Pension+scheme+participation
+Savings and investments,str:group:FRSAD:X_Savings+and+investments

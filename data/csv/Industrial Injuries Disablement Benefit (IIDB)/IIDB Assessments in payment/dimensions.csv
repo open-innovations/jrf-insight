@@ -1,0 +1,9 @@
+dimension_name,dimension
+IIDB Assessments in payment,str:count:IIDB_IICS:V_F_IIDB_IICS
+Quarter,str:field:IIDB_IICS:F_IICS_DATE:DATE_NAME
+Geography (residence-based),str:group:IIDB_IICS:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:IIDB_IICS:V_F_IIDB_IICS:AGE
+Working or Pension age,str:field:IIDB_IICS:V_F_IIDB_IICS:PENSION_AGE
+Gender,str:field:IIDB_IICS:V_F_IIDB_IICS:CCSEX
+Type of assessment,str:field:IIDB_IICS:V_F_IIDB_IICS:CASETYPE
+Average weekly amount (bands),str:field:IIDB_IICS:V_F_IIDB_IICS:WEEKRATE_BAND

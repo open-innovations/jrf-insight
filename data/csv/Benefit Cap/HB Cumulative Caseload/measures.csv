@@ -1,0 +1,3 @@
+measure_name,measure
+Amount of Benefit Capped,str:measure:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:CABENCAP
+Housing Benefit Amount,str:measure:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:LAHBAMT

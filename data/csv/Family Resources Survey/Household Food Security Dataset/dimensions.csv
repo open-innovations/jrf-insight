@@ -1,0 +1,15 @@
+dimension_name,dimension
+Household Food Security Dataset,str:count:FRSHFS:V_F_FRSHFS
+Household Income from All Sources,str:group:FRSHFS:M_Household+Income+from+All+Sources
+Financial Year,str:field:FRSHFS:V_F_FRSHFS:YEAR
+Geography,str:group:FRSHFS:X_Geography
+Age band of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:AGEBAND
+Type of Adult of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:TYPE
+Tenure type of the Household,str:field:FRSHFS:V_F_FRSHFS:TENURE
+Educational attainment of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:HFS_ED_ATTAIN
+Benefit receipt,str:group:FRSHFS:X_Benefit+receipt
+Ethnicity,str:group:FRSHFS:X_Ethnicity
+Household composition,str:group:FRSHFS:X_Household+composition
+Household Food Security Status,str:group:FRSHFS:X_Household+Food+Security+Status
+Household Food Bank Use,str:group:FRSHFS:X_Household+Food+Bank+Use
+Income from All Sources,str:group:FRSHFS:X_Income+from+All+Sources

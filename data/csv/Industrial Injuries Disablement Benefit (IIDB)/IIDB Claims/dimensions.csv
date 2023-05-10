@@ -1,0 +1,10 @@
+dimension_name,dimension
+IIDB Claims,str:count:IIDB_Claims:V_F_IIDB_CLAIMS
+Month,str:field:IIDB_Claims:F_IIDB_DATE:DATE_NAME
+Geography (residence-based),str:group:IIDB_Claims:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:IIDB_Claims:V_F_IIDB_CLAIMS:AGE
+Working or Pension age,str:field:IIDB_Claims:V_F_IIDB_CLAIMS:PENSION_AGE
+Gender,str:field:IIDB_Claims:V_F_IIDB_CLAIMS:CCSEX
+Cause of accident,str:field:IIDB_Claims:V_F_IIDB_CLAIMS:CAUSEACC
+Prescribed disease,str:field:IIDB_Claims:V_F_IIDB_CLAIMS:CCCLMTYP
+Type of claim,str:field:IIDB_Claims:V_F_IIDB_CLAIMS:CCACCINNUM

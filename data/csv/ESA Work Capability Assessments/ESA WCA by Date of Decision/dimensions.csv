@@ -1,0 +1,9 @@
+dimension_name,dimension
+ESA WCA by Date of Decision,str:count:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT
+Date of DWP Decision,str:field:ESA_WCA_JR:F_ESA_WCA_JCPRESULT_DATE:DATE_NAME
+Geography (residence-based),str:group:ESA_WCA_JR:X_Geography+%28residence-based%29
+Type of Assessment,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:type
+Outcome,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:outcome
+ESA Group Allocation (and Reasons),str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:outcome_reason
+Medical Condition,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:cg21
+Functional Impairment Reason,str:group:ESA_WCA_JR:X_Functional+Impairment+Reason

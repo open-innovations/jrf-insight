@@ -1,0 +1,20 @@
+dimension_name,dimension
+Housing Benefit Claimants,str:count:hb_new:V_F_HB_NEW
+Month,str:field:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME
+Geography (admin-based),str:group:hb_new:X_Geography+%28admin-based%29
+Geography (residence-based),str:group:hb_new:X_Geography+%28residence-based%29
+Age of Claimant (years and bands),str:field:hb_new:V_F_HB_NEW:AGE_YEAR
+Age of Claimant (bands only),str:field:hb_new:V_F_HB_NEW:AGE_BAND
+Client Type,str:field:hb_new:V_F_HB_NEW:PENWORK
+Family Type,str:field:hb_new:V_F_HB_NEW:FAMILY_PUB
+Number of Child-Dependants,str:field:hb_new:V_F_HB_NEW:NUM_DEPS
+Number of Non-Dependants,str:field:hb_new:V_F_HB_NEW:NUM_NDEPS
+Gender (single claimants only),str:field:hb_new:V_F_HB_NEW:SINGLE_GEN
+Private or Social Rented,str:field:hb_new:V_F_HB_NEW:TENURE_PUB
+Detailed Housing Type,str:field:hb_new:V_F_HB_NEW:SECTOR_PUB
+Entitled Bedrooms (LHA only),str:field:hb_new:V_F_HB_NEW:LHAROOM
+Passported Benefit Status,str:field:hb_new:V_F_HB_NEW:PASSPORTIND
+Employment Status,str:field:hb_new:V_F_HB_NEW:EMP
+Weekly Award Amount (bands),str:field:hb_new:V_F_HB_NEW:AMT_BAND_LOW
+Pay Destination,str:field:hb_new:V_F_HB_NEW:CCPAYDEST
+Removal of Spare Room Subsidy,str:group:hb_new:X_Removal+of+Spare+Room+Subsidy

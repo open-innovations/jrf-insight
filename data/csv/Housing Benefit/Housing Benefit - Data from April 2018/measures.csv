@@ -1,0 +1,3 @@
+measure_name,measure
+Weekly Award Amount,str:measure:hb_new:V_F_HB_NEW:LAHBAMT
+Weekly Spare Room Reduction Amount,str:measure:hb_new:V_F_HB_NEW:REDUC_AMT

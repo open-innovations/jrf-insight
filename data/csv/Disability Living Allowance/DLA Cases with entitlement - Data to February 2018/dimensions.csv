@@ -1,0 +1,11 @@
+dimension_name,dimension
+DLA (entitled),str:count:DLA_Entitled:V_F_DLA_Entitled
+Quarter,str:field:DLA_Entitled:F_DLA_QTR:DATE_NAME
+Geography (residence-based),str:group:DLA_Entitled:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:DLA_Entitled:V_F_DLA_Entitled:CNAGE
+Care Award Type,str:field:DLA_Entitled:V_F_DLA_Entitled:CAREAWD
+Client Type,str:field:DLA_Entitled:V_F_DLA_Entitled:CCCLIENT
+Duration of Current Claim,str:field:DLA_Entitled:V_F_DLA_Entitled:CTDURTN
+Gender,str:field:DLA_Entitled:V_F_DLA_Entitled:CCSEX
+Main Disabling Condition,str:field:DLA_Entitled:V_F_DLA_Entitled:DISABLED
+Mobility Award Type,str:field:DLA_Entitled:V_F_DLA_Entitled:CCMOBAWD

@@ -1,0 +1,16 @@
+dimension_name,dimension
+Households on Universal Credit,str:count:UC_Households:V_F_UC_HOUSEHOLDS
+Month,str:field:UC_Households:F_UC_HH_DATE:DATE_NAME
+Geography (residence-based),str:group:UC_Households:X_Geography+%28residence-based%29
+Geography (Jobcentre Plus),str:group:UC_Households:X_Geography+%28Jobcentre+Plus%29
+Geography (postcode),str:group:UC_Households:X_Geography+%28postcode%29
+Family Type,str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnfamily_type
+Children in Universal Credit Households,str:group:UC_Households:X_Children+in+Universal+Credit+Households
+Payment Indicator,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCPAYMENT
+Monthly Award Amount (bands),str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnpayment_band
+Universal Credit Entitlement,str:group:UC_Households:X_Universal+Credit+Entitlement
+Alternative Payment Arrangements,str:group:UC_Households:X_Alternative+Payment+Arrangements
+Universal Credit Scottish Choices,str:group:UC_Households:X_Universal+Credit+Scottish+Choices
+Payment Timeliness,str:group:UC_Households:X_Payment+Timeliness
+Removal of spare room subsidy,str:group:UC_Households:X_Removal+of+spare+room+subsidy
+Local Housing Allowance,str:group:UC_Households:X_Local+Housing+Allowance

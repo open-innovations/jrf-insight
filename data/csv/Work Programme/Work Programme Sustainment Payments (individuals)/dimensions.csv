@@ -1,0 +1,12 @@
+dimension_name,dimension
+Work Programme Sustainment Payments (individuals),str:count:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND
+Geography (residence-based),str:group:WP_Sustainment_Ind:X_Geography+%28residence-based%29
+Age Band,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:AGE_CODE
+Contract Package Area and Contract,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:CONTRACT_CODE
+Disability Indicator,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:DISABILITY_CODE
+Ethnicity (summary and detailed),str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:ETHNICITY_CODE
+Gender,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:GENDER_CODE
+Length of Job Outcome,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:JOLENGTH_CODE
+Mandatory or Voluntary Indicator,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:MANDVOL
+Number of Sustainment Payments,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:NO_OF_SUS_CODE
+Payment Group,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:OTPTYPE_CODE

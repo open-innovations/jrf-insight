@@ -1,0 +1,5 @@
+dimension_name,dimension
+Households with SMI loan in payment,str:count:SMI_CASELOAD:V_F_SMI_CASELOAD
+Quarter,str:field:SMI_CASELOAD:F_SMI_DATE:DATE_NAME
+Geography (residence-based),str:group:SMI_CASELOAD:X_Geography+%28residence-based%29
+Qualifying Benefit,str:field:SMI_CASELOAD:V_F_SMI_CASELOAD:QUALBEN_CODE

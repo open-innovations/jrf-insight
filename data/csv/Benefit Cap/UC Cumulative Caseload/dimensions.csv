@@ -1,0 +1,9 @@
+dimension_name,dimension
+Capped UC Households to Date,str:count:BC_UC_Flows:V_F_UCFS_FLOWS
+Onflow Month,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:on_flow
+Off-flow Month,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:last_capped
+Geography (residence-based),str:group:BC_UC_Flows:X_Geography+%28residence-based%29
+Family Type,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:family_num
+Number of Children,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:children
+Outcome at off-flow,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:earnings_exemption
+Weekly Amount of Benefit Capped (in bands),str:field:BC_UC_Flows:V_F_UCFS_FLOWS:weekly_cap_band

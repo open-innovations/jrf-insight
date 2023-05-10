@@ -1,0 +1,7 @@
+dimension_name,dimension
+Claims Received,str:count:BSP_Claims:V_F_BSP_Claims
+Month,str:field:BSP_Claims:F_BSP_MONTH:MONTH_NAME
+Geography (residence-based),str:group:BSP_Claims:X_Geography+%28residence-based%29
+Age (years and bands),str:field:BSP_Claims:V_F_BSP_Claims:AGE
+Gender,str:field:BSP_Claims:V_F_BSP_Claims:gender
+Decision,str:field:BSP_Claims:V_F_BSP_Claims:decision_detail

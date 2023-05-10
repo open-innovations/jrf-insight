@@ -1,0 +1,13 @@
+dimension_name,dimension
+ESA Sanction Decisions,str:count:ESA_sanc_dec:V_F_ESA_SANC_DEC
+Pre and Post 3 Dec 2012 Sanctions Regime,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:REGIME
+Month Decision Made,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:ESA_MTH
+Geography (residence-based),str:group:ESA_sanc_dec:X_Geography+%28residence-based%29
+Age of Claimant (years and bands),str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:AGEYR
+Decision Outcome,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:PUB_DEC
+Decision Type,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:PUB_DTYPE
+Disability,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:PUB_DISFLG
+Ethnic Group,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:SFR_ETH2
+Gender,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:SEX
+Referral Reason,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:PUB_REAS
+Medical Condition,str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:ICDGP_CODE

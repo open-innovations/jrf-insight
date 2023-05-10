@@ -1,0 +1,11 @@
+dimension_name,dimension
+DLA (in payment) - 2011 Geographies,str:count:DLA_In_Payment_New:V_F_DLA_In_Payment_New
+Quarter,str:field:DLA_In_Payment_New:F_DLA_QTR_New:DATE_NAME
+geography residence-based – SELECT POLICY OWNERSHIP,str:group:DLA_In_Payment_New:X_geography+residence-based+%E2%80%93+SELECT+POLICY+OWNERSHIP
+Age (bands and single year),str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CNAGE
+Care Award Type,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CAREPAY
+Mobility Award Type,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CCMOBPAY
+Client Type,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CCCLIENT
+Duration of Current Claim,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CTDURTN
+Gender,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:CCSEX
+Main Disabling Condition,str:field:DLA_In_Payment_New:V_F_DLA_In_Payment_New:DISABLED

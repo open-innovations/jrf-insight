@@ -1,0 +1,2 @@
+measure_name,measure
+Total Payments made,str:measure:IIDB_Meso_Pay:V_F_IIDB_MESO_PAY:AMOUNT

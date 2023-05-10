@@ -1,0 +1,12 @@
+dimension_name,dimension
+Incapacity Benefit and Severe Disablement Allowance,str:count:IBSDA:V_F_IBSDA
+Quarter,str:field:IBSDA:F_IBSDA_QTR:DATE_NAME
+Geography (residence-based),str:group:IBSDA:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:IBSDA:V_F_IBSDA:CNAGE
+Benefit Combination,str:field:IBSDA:V_F_IBSDA:rate
+Client Type,str:field:IBSDA:V_F_IBSDA:client
+Duration of Current Claim,str:field:IBSDA:V_F_IBSDA:duration
+Gender of claimant,str:field:IBSDA:V_F_IBSDA:CCSEX
+Grouped Amount of Benefit,str:field:IBSDA:V_F_IBSDA:amtgp
+Medical condition,str:field:IBSDA:V_F_IBSDA:icdgp
+Payment Type,str:field:IBSDA:V_F_IBSDA:bencod

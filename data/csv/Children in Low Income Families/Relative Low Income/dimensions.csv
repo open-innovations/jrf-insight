@@ -1,0 +1,9 @@
+dimension_name,dimension
+Relative Low Income,str:count:CILIF_REL:V_F_CILIF_REL
+Year,str:field:CILIF_REL:F_CILIF_DATE:DATE_NAME
+Geography (residence-based) - UK,str:group:CILIF_REL:X_Geography+%28residence-based%29+-+UK
+Geography (residence-based) - GB,str:group:CILIF_REL:X_Geography+%28residence-based%29+-+GB
+Age of Child (years and bands),str:field:CILIF_REL:V_F_CILIF_REL:CHILD_AGE
+Gender of Child,str:field:CILIF_REL:V_F_CILIF_REL:CHILD_GENDER
+Family Type,str:field:CILIF_REL:V_F_CILIF_REL:LP_FLAG
+Work Status,str:field:CILIF_REL:V_F_CILIF_REL:EMPLOYMENT

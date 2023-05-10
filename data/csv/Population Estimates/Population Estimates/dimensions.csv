@@ -1,0 +1,5 @@
+dimension_name,dimension
+Year,str:field:PopulationEstimates:F_POP_YEAR:YEAR_NAME
+National - Regional - LAs,str:field:PopulationEstimates:V_F_POP:LA_CODE
+Age,str:field:PopulationEstimates:V_F_POP:AGE
+Sex,str:field:PopulationEstimates:V_F_POP:CCSEX

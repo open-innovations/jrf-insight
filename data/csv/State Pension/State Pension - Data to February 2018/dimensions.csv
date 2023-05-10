@@ -1,0 +1,11 @@
+dimension_name,dimension
+State Pension caseload,str:count:SP:V_F_SP_CASELOAD
+Quarter,str:field:SP:F_SP_QTR:DATE_NAME
+Geography (residence-based),str:group:SP:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:SP:V_F_SP_CASELOAD:CNAGE
+Category of Pension,str:field:SP:V_F_SP_CASELOAD:CAT
+Country code for abroad cases,str:field:SP:V_F_SP_CASELOAD:CCCOUNTRY
+Country summary,str:field:SP:V_F_SP_CASELOAD:COUNTRY_SUM
+Dependency Increase,str:field:SP:V_F_SP_CASELOAD:DEPFG
+Gender,str:field:SP:V_F_SP_CASELOAD:SEX
+Grouped Amount of Benefit,str:field:SP:V_F_SP_CASELOAD:AMTGP

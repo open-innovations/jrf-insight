@@ -1,0 +1,8 @@
+dimension_name,dimension
+Work Programme Sustainment Payments (all payments),str:count:WP_Sustainment:V_F_WP_SUSTAINMENT
+Month,str:field:WP_Sustainment:F_WP_DATE:DATE_NAME
+Geography (residence-based),str:group:WP_Sustainment:X_Geography+%28residence-based%29
+Contract Package Area and Contract,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:CONTRACT_CODE
+First Sustainment Payment Indicator,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:FIRST_SUS
+Length of Job Outcome,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:JOLENGTH_CODE
+Payment Group,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:OTPTYPE_CODE

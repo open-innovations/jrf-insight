@@ -1,0 +1,9 @@
+dimension_name,dimension
+Work and Health Programme Individuals Referred,str:count:WHP_Ind_Refs:V_F_WHP_IND_REFS
+Referral Month,str:field:WHP_Ind_Refs:F_WHP_DATE:DATE_NAME
+Geography (residence-based),str:group:WHP_Ind_Refs:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:WHP_Ind_Refs:V_F_WHP_IND_REFS:AGE
+Area,str:field:WHP_Ind_Refs:V_F_WHP_IND_REFS:CONTRACT_REFERENCE_NUMBER
+Devolved Deal Area,str:field:WHP_Ind_Refs:V_F_WHP_IND_REFS:DDA_FLAG
+Eligibility Group,str:field:WHP_Ind_Refs:V_F_WHP_IND_REFS:ENTRY_TYPE
+Gender,str:field:WHP_Ind_Refs:V_F_WHP_IND_REFS:CCSEX

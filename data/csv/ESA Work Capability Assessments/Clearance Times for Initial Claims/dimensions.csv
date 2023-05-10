@@ -1,0 +1,4 @@
+dimension_name,dimension
+Clearance Time Breakdowns for Initial Claims,str:group:ESA_WCA_Clearance:M_Clearance+Time+Breakdowns+for+Initial+Claims
+Completed Assessment Date,str:field:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:JCP_ATOS_RESULT_DATE
+Clearance Time Breakdowns for Initial Claims,str:group:ESA_WCA_Clearance:X_Clearance+Time+Breakdowns+for+Initial+Claims

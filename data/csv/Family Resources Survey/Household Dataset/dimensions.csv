@@ -1,0 +1,22 @@
+dimension_name,dimension
+Household Dataset,str:count:FRSHH:V_F_FRSHH
+Household amount of savings and investments,str:group:FRSHH:M_Household+amount+of+savings+and+investments
+Household Income from All Sources,str:group:FRSHH:M_Household+Income+from+All+Sources
+Household Income from Employment and Self-employment,str:group:FRSHH:M_Household+Income+from+Employment+and+Self-employment
+Household Income from Other Sources,str:group:FRSHH:M_Household+Income+from+Other+Sources
+Household Income from State Support,str:group:FRSHH:M_Household+Income+from+State+Support
+"Household rent, repayment mortgage payment",str:group:FRSHH:M_Household+rent%2C+repayment+mortgage+payment
+Financial Year,str:field:FRSHH:V_F_FRSHH:YEAR
+Geography,str:group:FRSHH:X_Geography
+Age band of the Head of the Household,str:field:FRSHH:V_F_FRSHH:AGEBAND
+Type of Adult of the Head of the Household,str:field:FRSHH:V_F_FRSHH:TYPE
+Tenure type of the Household,str:field:FRSHH:V_F_FRSHH:TENURE
+Length of residency in property of the Head of the Household,str:field:FRSHH:V_F_FRSHH:HH_YRSINPROP
+Benefit receipt,str:group:FRSHH:X_Benefit+receipt
+Ethnicity,str:group:FRSHH:X_Ethnicity
+Household composition,str:group:FRSHH:X_Household+composition
+Income from All Sources,str:group:FRSHH:X_Income+from+All+Sources
+Income from Employment and Self-employment,str:group:FRSHH:X_Income+from+Employment+and+Self-employment
+Income from Other Sources,str:group:FRSHH:X_Income+from+Other+Sources
+Income from State Support,str:group:FRSHH:X_Income+from+State+Support
+Savings and Investments,str:group:FRSHH:X_Savings+and+Investments

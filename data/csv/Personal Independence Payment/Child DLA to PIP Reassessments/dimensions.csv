@@ -1,0 +1,13 @@
+dimension_name,dimension
+Child DLA to PIP Reassessments,str:count:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16
+Month,str:field:PIP_DLA_Reassessment_R16:F_PIP_DATE:DATE2
+Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_DLA_Reassessment_R16:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+DLA Care Award Type,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:CCCAREAWD_CODE
+DLA Main Disabling Condition,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:DISABLED
+DLA Mobility Award Type,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:CCMOBAWD_CODE
+Gender,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:SEX
+PIP Daily Living Award Status,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:DL_AWARD_TYPE
+PIP Disability,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:DISABILITY_CODE
+PIP Mobility Award Status,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:MOB_AWARD_TYPE
+PIP Reassessment Outcome,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:DLA_PIP_DECISION
+End of Life Rules Indicator,str:field:PIP_DLA_Reassessment_R16:V_F_PIP_DLA_REASSESSMENT_R16:TERMINALLY_ILL_RULES_IND

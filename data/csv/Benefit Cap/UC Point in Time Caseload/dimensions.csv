@@ -1,0 +1,7 @@
+dimension_name,dimension
+Number of UC Households Capped,str:count:BC_UC_Monthly:V_F_UCFS_MONTHLY
+Month,str:field:BC_UC_Monthly:F_BC_DATE_UC:MONTH
+Geography (residence-based),str:group:BC_UC_Monthly:X_Geography+%28residence-based%29
+Family Type,str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:family_num
+Number of Children,str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:children
+Weekly Amount of Benefit Capped (in bands),str:field:BC_UC_Monthly:V_F_UCFS_MONTHLY:weekly_cap_band

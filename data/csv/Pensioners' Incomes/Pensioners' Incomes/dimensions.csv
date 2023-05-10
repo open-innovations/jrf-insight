@@ -1,0 +1,21 @@
+dimension_name,dimension
+Pensioner Income distribution - whole population,str:count:PI:V_F_PI
+Geographical Region (please calculate three-year averages),str:field:PI:V_F_PI:gvtregn
+Financial year,str:field:PI:V_F_PI:finyear
+Age of head of benefit unit,str:field:PI:V_F_PI:agehd
+Sex of head of benefit unit,str:field:PI:V_F_PI:sexhd
+Recently reached State Pension age,str:field:PI:V_F_PI:rrpen
+Family type,str:field:PI:V_F_PI:newfambu
+Quintile of the BHC pensioner couples income distribution,str:field:PI:V_F_PI:quincoup
+Quintile of the BHC pensioner singles income distribution,str:field:PI:V_F_PI:quinsing
+Quintile of the AHC pensioner couples income distribution,str:field:PI:V_F_PI:quinacou
+Quintile of the AHC pensioner singles income distribution,str:field:PI:V_F_PI:quinasin
+In receipt of benefit income,str:field:PI:V_F_PI:ben
+In receipt of state pension income,str:field:PI:V_F_PI:ret
+In receipt of income-related benefits income,str:field:PI:V_F_PI:irb
+In receipt of disability benefit income,str:field:PI:V_F_PI:dis
+In receipt of occupational pension income,str:field:PI:V_F_PI:occ
+In receipt of personal pension income,str:field:PI:V_F_PI:ppen
+In receipt of investment income,str:field:PI:V_F_PI:inv
+In receipt of earnings income,str:field:PI:V_F_PI:earn
+Ethnicity (please calculate three-year averages),str:field:PI:V_F_PI:eth

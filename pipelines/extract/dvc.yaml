@@ -9,8 +9,12 @@ stages:
   #       cache: false
   #       persist: false
   extract:
-    cmd: PYTHONPATH= python pipelines/extract/hbai/extract.py
+    cmd: PYTHONPATH= python pipelines/extract/extract.py
     wdir: ../..
     deps:
-      - pipelines/extract/hbai/extract.py
+      - pipelines/extract/extract.py
+    # outs:
+    #   - data/csv:
+    #     cache: false
+    #     persist: false
     

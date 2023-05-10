@@ -1,0 +1,9 @@
+dimension_name,dimension
+Widow's Benefit Caseload,str:count:WB:V_F_WB_CASELOAD
+Quarter,str:field:WB:F_WB_QTR:DATE_NAME
+Geography (residence-based),str:group:WB:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:WB:V_F_WB_CASELOAD:CNAGE
+Dependency Increase,str:field:WB:V_F_WB_CASELOAD:DEPFG
+Duration of Claim,str:field:WB:V_F_WB_CASELOAD:CTDURTN
+Grouped Amount of Benefit,str:field:WB:V_F_WB_CASELOAD:AMTGP
+Type of Widow's Benefit,str:field:WB:V_F_WB_CASELOAD:CAT

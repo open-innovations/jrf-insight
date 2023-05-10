@@ -1,0 +1,14 @@
+measure_name,measure
+Weighted Sum of Pensioner Income distribution - whole population,str:measure:PI:V_F_PI:gs_newbu_ind
+Gross income,str:measure:PI:V_F_PI:pigrosbu
+Benefit income,str:measure:PI:V_F_PI:pibenibu
+State Pension income,str:measure:PI:V_F_PI:piretben
+Income-related benefits income,str:measure:PI:V_F_PI:piirbbu
+Disability benefit income,str:measure:PI:V_F_PI:pidisben
+Occupational pension income,str:measure:PI:V_F_PI:pigoccbu
+Personal pension income,str:measure:PI:V_F_PI:pippenbu
+Investment income,str:measure:PI:V_F_PI:piginvbu
+Earnings income,str:measure:PI:V_F_PI:pigernbu
+Other income,str:measure:PI:V_F_PI:piothibu
+Net income before housing costs,str:measure:PI:V_F_PI:pinincbu
+Net income after housing costs,str:measure:PI:V_F_PI:pinahcbu

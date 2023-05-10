@@ -1,0 +1,12 @@
+dimension_name,dimension
+Sanction Decisions,str:count:UC_sanc_dec:V_F_UC_SANC_DEC
+Month Decision Made,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CDLDECISION_CLMONTH
+Geography (residence-based),str:group:UC_sanc_dec:X_Geography+%28residence-based%29
+Geography (Jobcentre Plus),str:group:UC_sanc_dec:X_Geography+%28Jobcentre+Plus%29
+Geography (postcode),str:group:UC_sanc_dec:X_Geography+%28postcode%29
+Age (bands and single year),str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CNLDECISION_AGE
+Decision Outcome,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCLDECISION_OUTCOME_GROUP
+Decision Type,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCLDECISION_TYPE
+Gender,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCSEX
+Referral Reason,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCDOUBT_TYPE
+Sanction Level,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCSANCTION_LEVEL

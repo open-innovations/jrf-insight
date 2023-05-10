@@ -1,0 +1,9 @@
+dimension_name,dimension
+AA (in payment),str:count:AA_In_Payment:V_F_AA_In_Payment
+Quarter,str:field:AA_In_Payment:F_AA_QTR:DATE_NAME
+Geography (residence-based),str:group:AA_In_Payment:X_Geography+%28residence-based%29
+AA Award Type,str:field:AA_In_Payment:V_F_AA_In_Payment:AAAWD
+Age (bands and single year),str:field:AA_In_Payment:V_F_AA_In_Payment:CNAGE
+Duration of Current Claim,str:field:AA_In_Payment:V_F_AA_In_Payment:CTDURTN
+Gender,str:field:AA_In_Payment:V_F_AA_In_Payment:CCSEX
+Main Disabling Condition,str:field:AA_In_Payment:V_F_AA_In_Payment:DISABLED

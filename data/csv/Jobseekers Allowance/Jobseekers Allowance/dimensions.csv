@@ -1,0 +1,12 @@
+dimension_name,dimension
+Jobseekers Allowance,str:count:JSA:V_F_JSA
+Quarter,str:field:JSA:F_JSA_QTR:DATE_NAME
+Geography (residence-based),str:group:JSA:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:JSA:V_F_JSA:CNAGE
+Age of youngest child,str:field:JSA:V_F_JSA:yage
+Duration of Current Claim,str:field:JSA:V_F_JSA:duration
+Ethnicity (detailed and summary),str:field:JSA:V_F_JSA:ETHNIC
+Gender of claimant,str:field:JSA:V_F_JSA:CCSEX
+Grouped Amount of Benefit,str:field:JSA:V_F_JSA:amtgp
+Number of child dependants,str:field:JSA:V_F_JSA:children
+Partner indicator,str:field:JSA:V_F_JSA:ptnr

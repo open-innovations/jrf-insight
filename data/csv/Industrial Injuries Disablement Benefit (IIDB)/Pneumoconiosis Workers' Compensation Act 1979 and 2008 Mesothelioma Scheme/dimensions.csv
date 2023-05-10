@@ -1,0 +1,11 @@
+dimension_name,dimension
+Pneumoconiosis Workers' Compensation Act and Mesothelioma Scheme,str:count:IIDB_Meso:V_F_IIDB_MESO
+Month,str:field:IIDB_Meso:F_MESO_DATE:DATE_NAME
+Geography (residence-based),str:group:IIDB_Meso:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:IIDB_Meso:V_F_IIDB_MESO:AGE
+Working or Pension age,str:field:IIDB_Meso:V_F_IIDB_MESO:PENSION_AGE
+Gender (of sufferer),str:field:IIDB_Meso:V_F_IIDB_MESO:CCSEX
+Scheme,str:field:IIDB_Meso:V_F_IIDB_MESO:CCSCHEME
+Medical condition,str:field:IIDB_Meso:V_F_IIDB_MESO:CCDISEASE
+Type of claimant,str:field:IIDB_Meso:V_F_IIDB_MESO:CCCLAIMANT
+Amount of compensation paid (bands),str:field:IIDB_Meso:V_F_IIDB_MESO:CCAMOUNT

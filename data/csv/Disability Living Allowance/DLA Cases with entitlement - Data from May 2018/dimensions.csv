@@ -1,0 +1,11 @@
+dimension_name,dimension
+DLA (entitled) - 2011 Geographies,str:count:DLA_Entitled_New:V_F_DLA_Entitled_New
+Quarter,str:field:DLA_Entitled_New:F_DLA_QTR_New:DATE_NAME
+geography residence-based – SELECT POLICY OWNERSHIP,str:group:DLA_Entitled_New:X_geography+residence-based+%E2%80%93+SELECT+POLICY+OWNERSHIP
+Age (bands and single year),str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CNAGE
+Care Award Type,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CAREAWD
+Mobility Award Type,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CCMOBAWD
+Client Type,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CCCLIENT
+Duration of Current Claim,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CTDURTN
+Gender,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CCSEX
+Main Disabling Condition,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:DISABLED

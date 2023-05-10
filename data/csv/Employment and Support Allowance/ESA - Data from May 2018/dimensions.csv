@@ -1,0 +1,14 @@
+dimension_name,dimension
+Employment and Support Allowance Caseload - 2011 Geographies,str:count:ESA_Caseload_new:V_F_ESA_NEW
+Quarter,str:field:ESA_Caseload_new:F_ESA_QTR_NEW:DATE_NAME
+Geography (residence-based),str:group:ESA_Caseload_new:X_Geography+%28residence-based%29
+Age (bands and single year),str:field:ESA_Caseload_new:V_F_ESA_NEW:CNAGE
+Duration of current claim,str:field:ESA_Caseload_new:V_F_ESA_NEW:CTDURTN
+Ethnicity (detailed and summary),str:field:ESA_Caseload_new:V_F_ESA_NEW:ETHNIC
+Gender of claimant,str:field:ESA_Caseload_new:V_F_ESA_NEW:CCSEX
+Grouped amount of benefit,str:field:ESA_Caseload_new:V_F_ESA_NEW:AMTGP
+IB reassessment indicator,str:field:ESA_Caseload_new:V_F_ESA_NEW:IB_MIG
+Medical condition,str:field:ESA_Caseload_new:V_F_ESA_NEW:ICDGP
+Partner indicator,str:field:ESA_Caseload_new:V_F_ESA_NEW:PTNR
+Payment type,str:field:ESA_Caseload_new:V_F_ESA_NEW:PAYMENT_TYPE
+Phase of ESA claim,str:field:ESA_Caseload_new:V_F_ESA_NEW:ESA_PHASE

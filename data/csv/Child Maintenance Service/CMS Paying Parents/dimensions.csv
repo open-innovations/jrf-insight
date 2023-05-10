@@ -1,0 +1,13 @@
+dimension_name,dimension
+CMS Paying Parents,str:count:CMS_PARENT:V_F_CMS_PARENT
+Quarter,str:field:CMS_PARENT:F_P_DATE:DATE_NAME
+Geography (residence-based),str:group:CMS_PARENT:X_Geography+%28residence-based%29
+Age Band,str:field:CMS_PARENT:V_F_CMS_PARENT:age
+Gender,str:field:CMS_PARENT:V_F_CMS_PARENT:sex
+Compliance (Collect & Pay),str:field:CMS_PARENT:V_F_CMS_PARENT:cp_comp_band
+Maintenance due (Collect & Pay),str:field:CMS_PARENT:V_F_CMS_PARENT:cp_due_band
+Maintenance due (Direct Pay),str:field:CMS_PARENT:V_F_CMS_PARENT:dp_due_band
+Method of Payment,str:field:CMS_PARENT:V_F_CMS_PARENT:cp_mopf
+Number of Arrangements,str:field:CMS_PARENT:V_F_CMS_PARENT:cases
+Number of Children Covered,str:field:CMS_PARENT:V_F_CMS_PARENT:children
+Universal Credit Status,str:field:CMS_PARENT:V_F_CMS_PARENT:uc_group

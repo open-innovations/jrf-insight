@@ -1,0 +1,10 @@
+dimension_name,dimension
+CMS Children,str:count:CMS_CHILD:V_F_CMS_CHILD
+Quarter,str:field:CMS_CHILD:F_DATE_CODE:DATE_NAME
+Geography (residence-based),str:group:CMS_CHILD:X_Geography+%28residence-based%29
+Age of Child,str:field:CMS_CHILD:V_F_CMS_CHILD:CHILD_AGE_CODE
+Age band of Paying Parent,str:field:CMS_CHILD:V_F_CMS_CHILD:NRP_AGE_CODE
+Age band of Receiving Parent,str:field:CMS_CHILD:V_F_CMS_CHILD:PWC_AGE_CODE
+Gender of Paying Parent,str:field:CMS_CHILD:V_F_CMS_CHILD:NRP_GENDER_CODE
+Service Type & Paying Status,str:field:CMS_CHILD:V_F_CMS_CHILD:PAYING_CODE
+Shared Care Status,str:field:CMS_CHILD:V_F_CMS_CHILD:SHAREDCARE_CODE

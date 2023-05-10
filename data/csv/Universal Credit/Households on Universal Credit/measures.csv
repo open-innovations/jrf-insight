@@ -1,0 +1,3 @@
+measure_name,measure
+Payment Amount,str:measure:UC_Households:V_F_UC_HOUSEHOLDS:HNTOTAL_PAYMENT_AMOUNT
+RSRS reduction,str:measure:UC_Households:V_F_UC_HOUSEHOLDS:rsrs_deduction

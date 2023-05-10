@@ -1,0 +1,7 @@
+dimension_name,dimension
+Claims in Payment,str:count:BSP_Payment:V_F_BSP_Payments
+Month,str:field:BSP_Payment:F_BSP_MONTH:MONTH_NAME
+Geography (residence-based),str:group:BSP_Payment:X_Geography+%28residence-based%29
+Age (years and bands),str:field:BSP_Payment:V_F_BSP_Payments:AGE
+Gender,str:field:BSP_Payment:V_F_BSP_Payments:gender
+Payment Rate,str:field:BSP_Payment:V_F_BSP_Payments:rate

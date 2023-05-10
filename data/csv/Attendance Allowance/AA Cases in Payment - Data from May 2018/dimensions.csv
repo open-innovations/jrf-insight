@@ -1,0 +1,9 @@
+dimension_name,dimension
+AA (in payment) - 2011 Geographies,str:count:AA_In_Payment_New:V_F_AA_In_Payment_New
+Quarter,str:field:AA_In_Payment_New:F_AA_QTR_New:DATE_NAME
+Geography (residence-based),str:group:AA_In_Payment_New:X_Geography+%28residence-based%29
+AA Award Type,str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:AAAWD
+Age (bands and single year),str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:CNAGE
+Duration of Current Claim,str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:CTDURTN
+Gender,str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:CCSEX
+Main Disabling Condition,str:field:AA_In_Payment_New:V_F_AA_In_Payment_New:DISABLED

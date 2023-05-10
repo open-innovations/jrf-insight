@@ -1,11 +1,11 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: PYTHONPATH= python pipelines/extract/hbai/extract.py
+    cmd: PYTHONPATH= python pipelines/extract/extract.py
     deps:
-    - path: pipelines/extract/hbai/extract.py
-      md5: 8ae9d64e63d6c373e4f3d57c0579e509
-      size: 1900
+    - path: pipelines/extract/extract.py
+      md5: b173363df769fa838df71b72bc5c7537
+      size: 2276
   harvester:
     cmd: PYTHONPATH=pipelines/extract/harvester.py
     deps:

@@ -1,0 +1,4 @@
+dimension_name,dimension
+Month,str:field:IIDB_Meso_Pay:F_MESO_DATE:DATE_NAME
+Scheme,str:field:IIDB_Meso_Pay:V_F_IIDB_MESO_PAY:CCSCHEME
+Type of claimant,str:field:IIDB_Meso_Pay:V_F_IIDB_MESO_PAY:CCCLAIMANT

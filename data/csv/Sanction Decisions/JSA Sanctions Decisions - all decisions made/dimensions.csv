@@ -1,0 +1,15 @@
+dimension_name,dimension
+Sanction Decisions,str:count:JSA_sanc_dec:V_F_JSA_SANC_DEC
+Pre and Post 22 Oct 2012 Sanctions Regime,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:REGIME
+Month Decision Made,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DECMTH
+Geography (residence-based),str:group:JSA_sanc_dec:X_Geography+%28residence-based%29
+Age of Claimant (years and bands),str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:AGEYR
+Gender,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:SEX
+Ethnic Group,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:SFR_ETH2
+Disability,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DISFLG
+Lone Parent,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_LPFLAG
+Decision Type,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DTYPE
+Decision Outcome,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DEC
+Sanction Level - New Regime,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_SANCLEVEL
+Decision Group - Old Regime,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_OLDLEVEL
+Referral Reason,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_REAS

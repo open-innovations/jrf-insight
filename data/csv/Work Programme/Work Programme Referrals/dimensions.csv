@@ -1,0 +1,11 @@
+dimension_name,dimension
+Work Programme Referrals,str:count:WP_Referrals:V_F_WP_REFERRALS
+Month,str:field:WP_Referrals:F_WP_DATE:DATE_NAME
+Geography (residence-based),str:group:WP_Referrals:X_Geography+%28residence-based%29
+Age Band,str:field:WP_Referrals:V_F_WP_REFERRALS:AGE_CODE
+Contract Package Area and Contract,str:field:WP_Referrals:V_F_WP_REFERRALS:CONTRACT_CODE
+Disability Indicator,str:field:WP_Referrals:V_F_WP_REFERRALS:DISABILITY_CODE
+Ethnicity (summary and detailed),str:field:WP_Referrals:V_F_WP_REFERRALS:ETHNICITY_CODE
+Gender,str:field:WP_Referrals:V_F_WP_REFERRALS:GENDER_CODE
+Mandatory or Voluntary Indicator,str:field:WP_Referrals:V_F_WP_REFERRALS:MANDVOL
+Payment Group,str:field:WP_Referrals:V_F_WP_REFERRALS:OTPTYPE_CODE

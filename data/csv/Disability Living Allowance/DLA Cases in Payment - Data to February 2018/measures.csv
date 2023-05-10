@@ -1,0 +1,2 @@
+measure_name,measure
+Weekly Award Amount,str:measure:DLA_In_Payment:V_F_DLA_In_Payment:CAWKLYAMT

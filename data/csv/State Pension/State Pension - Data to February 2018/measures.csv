@@ -1,0 +1,3 @@
+measure_name,measure
+Weekly Amount of Benefit,str:measure:SP:V_F_SP_CASELOAD:CAWKLYAMT
+nSP Protected Payment,str:measure:SP:V_F_SP_CASELOAD:NSP_PR_PYT_PYBL_AMT

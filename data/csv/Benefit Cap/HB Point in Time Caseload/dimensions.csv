@@ -1,0 +1,13 @@
+dimension_name,dimension
+Number of Households Capped,str:count:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011
+Month,str:field:Benefit_Cap_Monthly_2011:F_BC_DATE:MONTH
+Geography (admin-based),str:group:Benefit_Cap_Monthly_2011:X_Geography+%28admin-based%29
+Geography (residence-based),str:group:Benefit_Cap_Monthly_2011:X_Geography+%28residence-based%29
+Age,str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:AGE_YEAR
+Gender (single claimants),str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:SINGLE_GEN
+Family Type,str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:FAMILY_PUB
+Number of Children,str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:NO_CHILDREN
+Private or Social Rented,str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:TENURE_PUB
+Detailed Housing Type,str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:SECTOR_PUB
+Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:CAP_GROUP
+Housing Benefit Amount (in bands),str:field:Benefit_Cap_Monthly_2011:V_F_BC_MONTHLY_FULL_2011:AMT_BAND_LOW
