@@ -22,8 +22,16 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
     deps:
     - path: pipelines/extract/probe.py
-      md5: 924fd90a0dd1374c6ae4459e926f8e09
-      size: 2509
+      md5: 68319444e424b3373cfd3ce71a62b77c
+      size: 1044
+    - path: pipelines/extract/utils.py
+      md5: 98c770966da929cbc40e7837566478ba
+      size: 1868
+    outs:
+    - path: data/lookups
+      md5: 26c1108ff92235f3b293d96d40d94ee3.dir
+      size: 91757
+      nfiles: 212
   probe2:
     cmd: PYTHONPATH= python pipelines/extract/probe2.py
     deps:

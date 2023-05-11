@@ -1,28 +1,10 @@
 stages: 
-  # extract:
-  #   wdir: ../..
-  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/test.json -o working/test.csv
-  #   deps: 
-  #     - pipelines/extract/test.json
-  #   outs:
-  #    - working/test.csv:
-  #       cache: false
-  #       persist: false
-  # probe:
-  #   cmd: PYTHONPATH= python pipelines/extract/probe.py
-  #   wdir: ../..
-  #   deps:
-  #     - pipelines/extract/probe.py
-  #   # outs:
-  #   #   - data:
-  #   #     cache: false
-  #   #     persist: false
-  probe2:
-    cmd: PYTHONPATH= python pipelines/extract/probe2.py 
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py 
     # always_changed: true
     wdir: ../..
     deps:
-      - pipelines/extract/probe2.py
+      - pipelines/extract/probe.py
       - pipelines/extract/utils.py
     outs:
       - data/lookups:
