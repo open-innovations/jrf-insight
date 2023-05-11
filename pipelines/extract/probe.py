@@ -55,7 +55,7 @@ for f_id, f_name in zip(folder_ids, folder_names):
         measures_df = pd.DataFrame([[i, j] for i, j in zip(measures, measure_names)], columns=['measure', 'measure_name']).set_index('measure_name')
         dimensions_df = pd.DataFrame([[l, m] for l, m in zip(dimensions, dimension_names)], columns=['dimension', 'dimension_name']).set_index('dimension_name')
 
-        OUTDIR = 'data/csv/{folder}/{database}/'.format(folder=f_name, database=db_name)
+        OUTDIR = 'data/lookups/{folder}/{database}/'.format(folder=f_name, database=db_name)
         os.makedirs(OUTDIR, exist_ok=True)
 
         dimensions_df.to_csv(os.path.join(OUTDIR, 'dimensions.csv'))

@@ -32,7 +32,7 @@ def get_ids(session, locator=None):
     
     return ids, labels
 
-def get_variables(session, database_id, database_name):
+def get_variables(session, database_id):
     '''
     Get the measures and dimensions from individual tables
     Both the human readable names and the API calls.
@@ -57,18 +57,16 @@ def get_variables(session, database_id, database_name):
         
         dimensions.append(id)
         dimension_names.append(label)
+        
+    return measures, measure_names, dimensions, dimension_names
 
-def make_csv(ids, labels, f_name, db_name):
+def make_csv(ids, labels, OUTDIR, type=None):
     '''
     Makes csv files 
     '''
-    i_str = str(ids)
-    l_str = str(labels)
-    df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=[i_str, l_str]).set_index(l_str)
 
-    OUTDIR = 'data/csv/{folder}/{database}/'.format(folder=f_name, database=db_name)
-    os.makedirs(OUTDIR, exist_ok=True)
+    df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=['{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
 
-    df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(i_str)))
+    df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
 
     return
