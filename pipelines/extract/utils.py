@@ -3,6 +3,8 @@ import pandas as pd
 from statxplore import http_session
 from statxplore import objects
 
+STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
+session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
 
 def get_ids(session, locator=None):
     '''

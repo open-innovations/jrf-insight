@@ -2,10 +2,7 @@ import os
 import pandas as pd
 from statxplore import http_session
 from statxplore import objects
-from utils import get_ids, get_variables, make_csv
-
-STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
-session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
+from utils import get_ids, get_variables, make_csv, session, STATXPLORE_API_KEY
 
 folder_ids, folder_names = get_ids(session)
 
