@@ -2,4 +2,20 @@
 title: Home
 ---
 
-<p>Content to come</p>
+
+<div>
+{{ comp.oi.chart.line({
+  config: {
+    data: test,
+    series: [
+      {
+        title: "Series",
+        x: "year",
+        y: "series",
+        colour: '#e52e36'
+      }
+    ]
+  }
+  }) | safe 
+}}
+</div>
