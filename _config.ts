@@ -8,7 +8,11 @@ import oiCharts from "https://deno.land/x/oi_lume_charts@v0.7.2/mod.ts";
 
 const site = lume({
   src: './src',
-  location: new URL('https://open-innovations.github.io/jrf-insight/')
+  location: new URL('https://open-innovations.github.io/jrf-insight/'),
+  components: {
+    cssFile: "/assets/css/components.css",
+    jsFile: "/assets/js/components.js",
+  },
 });
 
 site.process(['.html'], autoDependency);
@@ -17,5 +21,8 @@ site.use(oiCharts());
 site.use(base_path());
 site.use(metas());
 site.use(postcss());
+
+site.remoteFile('/assets/images/jrf_logo.svg', "https://www.jrf.org.uk/sites/all/themes/jrf/images/jrf_logo.svg");
+site.copy('/assets/images');
 
 export default site;

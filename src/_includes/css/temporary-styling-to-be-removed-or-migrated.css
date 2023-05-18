@@ -1,0 +1,19 @@
+:root {
+  --jrf-pink: #e20076;
+}
+header {
+  font-family: HouschkaAltPro-Medium,sans-serif;
+  text-transform: uppercase;
+  background-color: #eee;
+  & > .page-flow {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    & > *:not(:first-child) {
+      flex-grow: 1;
+    }
+  }
+  & h1 {
+    color: var(--jrf-pink);
+  }
+}

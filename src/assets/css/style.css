@@ -1,10 +1,4 @@
-* { padding: 0; margin: 0; }
-html { font-size: 100%; }
-body {
-  font-family: monospace; padding: 1em;
-  & > * {
-    max-width: 50rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+@import 'css/base.css';
+@import 'css/jrf.css';
+
+@import 'css/temporary-styling-to-be-removed-or-migrated.css';

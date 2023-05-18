@@ -2,9 +2,14 @@
 layout: templates/base.njk
 ---
 <header>
-<h1>{{ title }}</h1>
+  <div class="page-flow">
+    <img src="/assets/images/jrf_logo.svg">
+    <div>
+      <p>{{ metas.site }}</p>
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
 </header>
-
-<main role="main">
-{{ content | safe }}
+<main role="main" class="page-flow">
+  {{ content | safe }}
 </main>

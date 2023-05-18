@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+.page-flow {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+main * + * {
+  margin-top: 1.5em;
+}
+
+.tooltip {
+  & * {
+    margin-top: 0;
+  }
+}
