@@ -1,6 +1,8 @@
 layout: templates/page.njk
 
+description: A live data hub for telling a story about poverty in the North.
+
 metas:
-  site: Northern England Data Insight
+  site: Northern England Insight Finder
   title: "=title"
   description: "=description"
