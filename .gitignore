@@ -1,3 +1,5 @@
 .env
 error.log
 .Rproj.user
+
+_site/
