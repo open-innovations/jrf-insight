@@ -1,5 +1,7 @@
-:root {
-  --jrf-pink: #e20076;
+
+body {
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5;
 }
 header {
   font-family: HouschkaAltPro-Medium,sans-serif;
