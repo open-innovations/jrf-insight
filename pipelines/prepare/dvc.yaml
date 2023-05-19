@@ -7,8 +7,10 @@ stages:
       - pipelines/prepare/util.py
       - data/example-vis.csv
     outs:
-      - src/_data/example_vis.csv:
+      - src/_data/example/dashboard.csv:
           cache: false
-      - src/_data/stats.json:
+      - src/_data/example/line_chart.csv:
+          cache: false
+      - src/_data/example/stats.json:
           cache: false
       

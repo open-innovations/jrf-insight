@@ -1,19 +1,26 @@
 ---
 title: Data Insight Example
 ---
+<ul class='button'> 
+  <li><a href="/people/">People</a></li>
+  <li><a href="">Living Standards</a></li>
+  <li><a href="">Economic Security</a></li>
+  <li><a href="">Society</a></li>
+  <li><a href="">Housing</a></li>
+  <li><a href="">Cities, Towns and Neighbourhoods</a></li>
+</ul>
 <p>
   This is a prototype of the Insight Finder site created by JRF and Open Innovations.
   Please see the <a href="//open-innovations.org/projects/jrf/north-insight-finder/">Open Innovations project page</a> for more info.
 </p>
-
-<h2> Number of people in Low Income* in {{stats.latest_date | replace("(covid2122, div)", '') }}</h2>
+<h2> Number of people in Low Income* in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
 <div>
 {{ comp.oi.dashboard({
   config: {
     title: "Type of Individual by Age Category",
     value: "Count",
     width: 100px,
-    data: example_vis.rows,
+    data: example.dashboard.rows,
     panels: [
       { name: "Child",
         colour: "#13242F" },
@@ -26,10 +33,6 @@ title: Data Insight Example
   }) | safe
 }}
 </div>
-<p> *60 per cent of median net household income (BHC) in latest prices</p>
+<p> *Below 60 per cent of median net household income (BHC) in latest prices</p>
 <p> </p>
 {# {{ example_vis.rows | dump()}} #}
-
-<h3>Yorkshire & the Humber</h3>
-<h3>North East</h3>
-<h3> North West</h3>

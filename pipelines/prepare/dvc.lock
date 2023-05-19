@@ -7,17 +7,21 @@ stages:
       md5: 34bc41892c68c131921f4cfe50b329ea
       size: 70952
     - path: pipelines/prepare/example.py
-      md5: 1b3997635a7cff0b8efd04c6787210b0
-      size: 1040
+      md5: d556ffb102b7eb042b1e66a8e3383a30
+      size: 2368
     - path: pipelines/prepare/util.py
       md5: 003a2d89efee9d1805109f74b9de5e42
       size: 774
     outs:
-    - path: src/_data/example_vis.csv
-      md5: 63035facde1ccbdc5106d4fc7b055a1f
-      size: 2184
+    - path: src/_data/example/dashboard.csv
+      md5: 676e3bafd16b6548781f1c0b5d2f667f
+      size: 719
       isexec: true
-    - path: src/_data/stats.json
+    - path: src/_data/example/line_chart.csv
+      md5: 868fc49c3d95b4e7485e72a6d24f4d57
+      size: 394
+      isexec: true
+    - path: src/_data/example/stats.json
       md5: 1e98fe25f593f276bd3e92fbbf5996f7
       size: 42
       isexec: true
