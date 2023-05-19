@@ -1,0 +1,14 @@
+stages: 
+  probe:
+    cmd: PYTHONPATH= python pipelines/prepare/example.py 
+    wdir: ../..
+    deps:
+      - pipelines/prepare/example.py
+      - pipelines/prepare/util.py
+      - data/example-vis.csv
+    outs:
+      - src/_data/example_vis.csv:
+          cache: false
+      - src/_data/stats.json:
+          cache: false
+      

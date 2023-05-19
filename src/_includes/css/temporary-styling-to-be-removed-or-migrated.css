@@ -1,6 +1,6 @@
 
 body {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 1.5;
 }
 header {
@@ -17,5 +17,19 @@ header {
   }
   & h1 {
     color: var(--jrf-pink);
+  }
+}
+.dashboard {
+  font-size: 1.5rem;
+  & > * {
+    margin-top: 0;
+  }
+  & .bignum {
+    font-size: 2em;
+  }
+}
+@media screen {
+  .dashboard .panel {
+    font-size: unset;
   }
 }

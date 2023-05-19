@@ -1,24 +1,35 @@
 ---
 title: Data Insight Example
 ---
-
 <p>
   This is a prototype of the Insight Finder site created by JRF and Open Innovations.
   Please see the <a href="//open-innovations.org/projects/jrf/north-insight-finder/">Open Innovations project page</a> for more info.
 </p>
+
+<h2> Number of people in Low Income* in {{stats.latest_date | replace("(covid2122, div)", '') }}</h2>
 <div>
-{{ comp.oi.chart.line({
+{{ comp.oi.dashboard({
   config: {
-    data: test,
-    series: [
-      {
-        title: "Series",
-        x: "year",
-        y: "series",
-        colour: '#e52e36'
-      }
+    title: "Type of Individual by Age Category",
+    value: "Count",
+    width: 100px,
+    data: example_vis.rows,
+    panels: [
+      { name: "Child",
+        colour: "#13242F" },
+      { name: "Working-Age",
+        colour: "#ce0058" },
+      { name: "Pensioner", 
+        colour: "#3EB1C8" } 
     ]
   }
-  }) | safe 
+  }) | safe
 }}
 </div>
+<p> *60 per cent of median net household income (BHC) in latest prices</p>
+<p> </p>
+{# {{ example_vis.rows | dump()}} #}
+
+<h3>Yorkshire & the Humber</h3>
+<h3>North East</h3>
+<h3> North West</h3>

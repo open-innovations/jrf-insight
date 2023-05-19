@@ -1,5 +1,9 @@
 :root {
   --jrf-pink: #e20076;
+  --jrf-moderate-cyan: #3EB1C8;
+  --jrf-strong-pink: #ce0058;
+  --jrf-dark-grey:  #343333;
+  --jrf-dark-blue:  #13242F;
 }
 
 @font-face {

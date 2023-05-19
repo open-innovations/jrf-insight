@@ -52,7 +52,7 @@ def get_variables(session, database_id):
         id = str(i.get('id'))
         label = str(i.get('label'))
 
-        if "str:measure:" in id or "str:count:" in id:
+        if "str:measure:" in id or "str:count:" in id or "str:statfn:" in id:
             measures.append(id)
             measure_names.append(label)
             continue

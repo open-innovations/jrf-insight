@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  probe:
+    cmd: PYTHONPATH= python pipelines/prepare/example.py
+    deps:
+    - path: data/example-vis.csv
+      md5: 34bc41892c68c131921f4cfe50b329ea
+      size: 70952
+    - path: pipelines/prepare/example.py
+      md5: 1b3997635a7cff0b8efd04c6787210b0
+      size: 1040
+    - path: pipelines/prepare/util.py
+      md5: 003a2d89efee9d1805109f74b9de5e42
+      size: 774
+    outs:
+    - path: src/_data/example_vis.csv
+      md5: 63035facde1ccbdc5106d4fc7b055a1f
+      size: 2184
+      isexec: true
+    - path: src/_data/stats.json
+      md5: 1e98fe25f593f276bd3e92fbbf5996f7
+      size: 42
+      isexec: true
