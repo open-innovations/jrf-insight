@@ -26,6 +26,14 @@ line_chart = line_chart[(line_chart["Financial Year"] != "2020-21 (covid2021)")
 line_chart = line_chart.pivot(
     index="Financial Year", columns='Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method) (3ya)', values='Count')
 
+#bar chart
+bar_chart = data[(data["Type of Individual by Age Category"] != 'Total') & 
+                 (data["Financial Year"] == date_str) &
+                 (data["60 per cent of median net household income (BHC) in latest prices"] == "In low income (below threshold)")]
+
+bar_chart = bar_chart.pivot(index="Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method) (3ya)",
+                            columns="Type of Individual by Age Category", values='Count')
+
 # make the output directory
 OUTDIR = 'src/_data/example/'
 os.makedirs(OUTDIR, exist_ok=True)
@@ -33,4 +41,5 @@ os.makedirs(OUTDIR, exist_ok=True)
 # write to file
 dashboard.to_csv(os.path.join(OUTDIR, 'dashboard.csv'))
 line_chart.to_csv(os.path.join(OUTDIR, 'line_chart.csv'))
+bar_chart.to_csv(os.path.join(OUTDIR, 'bar_chart.csv'))
 date_series.to_json(os.path.join(OUTDIR, 'stats.json'), index="orient")

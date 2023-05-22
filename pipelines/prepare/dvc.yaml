@@ -11,6 +11,8 @@ stages:
           cache: false
       - src/_data/example/line_chart.csv:
           cache: false
+      - src/_data/example/bar_chart.csv:
+          cache: false
       - src/_data/example/stats.json:
           cache: false
       

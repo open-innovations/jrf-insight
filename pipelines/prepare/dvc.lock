@@ -7,12 +7,16 @@ stages:
       md5: 34bc41892c68c131921f4cfe50b329ea
       size: 70952
     - path: pipelines/prepare/example.py
-      md5: d556ffb102b7eb042b1e66a8e3383a30
-      size: 2368
+      md5: dad9a18bbf835e1a1de2c19b864acb0d
+      size: 2983
     - path: pipelines/prepare/util.py
       md5: 003a2d89efee9d1805109f74b9de5e42
       size: 774
     outs:
+    - path: src/_data/example/bar_chart.csv
+      md5: c6d416e01ed2bd456d2f70dc99c4d09f
+      size: 347
+      isexec: true
     - path: src/_data/example/dashboard.csv
       md5: 676e3bafd16b6548781f1c0b5d2f667f
       size: 719

@@ -18,6 +18,10 @@ header {
   & h1 {
     color: var(--jrf-pink);
   }
+  & ul {
+    display: table;
+    margin: auto;
+  }
 }
 .dashboard {
   font-size: 1.5rem;
@@ -40,10 +44,11 @@ header {
     text-decoration: none;
     color: var(--jrf-dark-grey);
     }
-    display: inline-block;
+    display: inline-table;
     flex-wrap: inline;
     font-size: 1rem;
     padding: 0.5em;
-    background-color: var(--jrf-moderate-cyan)
+    background-color: var(--jrf-moderate-cyan);
+    border-radius: 15px;
   }
 }
