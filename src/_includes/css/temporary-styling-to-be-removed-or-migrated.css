@@ -37,19 +37,31 @@ header {
     font-size: unset;
   }
 }
-.button {
-  & li {
-    list-style-type: None;
-    & a {
+
+body > nav {
+  color: white;
+  background-color: var(--jrf-moderate-cyan);
+  text-align: center;
+  font-size: 1.1rem;
+  & li:hover {
+    color:  var(--jrf-moderate-cyan);
+    background-color: white;
+  }
+  & a {
     text-decoration: none;
-    color: var(--jrf-dark-grey);
+    color: inherit;
+    &:hover {
+      text-decoration: underline;
     }
-    display: inline-table;
-    flex-wrap: inline;
-    font-size: 1rem;
+  }
+}
+.button {
+  padding-block: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  & li {
     padding: 0.5em;
-    background-color: var(--jrf-moderate-cyan);
-    border-radius: 15px;
   }
 }
 .sticky-top {
