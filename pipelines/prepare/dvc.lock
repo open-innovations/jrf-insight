@@ -7,8 +7,8 @@ stages:
       md5: 34bc41892c68c131921f4cfe50b329ea
       size: 70952
     - path: pipelines/prepare/example.py
-      md5: dad9a18bbf835e1a1de2c19b864acb0d
-      size: 2983
+      md5: b4aacfbad13c66e8d293782b54a97b48
+      size: 3351
     - path: pipelines/prepare/util.py
       md5: 003a2d89efee9d1805109f74b9de5e42
       size: 774
@@ -20,6 +20,10 @@ stages:
     - path: src/_data/example/dashboard.csv
       md5: 676e3bafd16b6548781f1c0b5d2f667f
       size: 719
+      isexec: true
+    - path: src/_data/example/hex_map.csv
+      md5: bf232092c549e43210ee9e529b08e7e8
+      size: 152
       isexec: true
     - path: src/_data/example/line_chart.csv
       md5: 868fc49c3d95b4e7485e72a6d24f4d57

@@ -13,6 +13,8 @@ stages:
           cache: false
       - src/_data/example/bar_chart.csv:
           cache: false
+      - src/_data/example/hex_map.csv:
+          cache: false
       - src/_data/example/stats.json:
           cache: false
       

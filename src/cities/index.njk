@@ -1,0 +1,60 @@
+---
+title: Cities, Towns and Neighbourhoods
+---
+<h2>Children in Low Income in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
+{{ comp.oi.map.hex_cartogram({
+        config: {
+          hexjson: {
+                "layout":"odd-r",
+                "hexes": {
+                    "E12000001":{"n":"North East","q":-1,"r":0,"colour":"#F9BC26"},
+                    "E12000002":{"n":"North West","q":-2,"r":-1,"colour":"#F9BC26"},
+                    "E12000003":{"n":"Yorkshire and the Humber","q":-1,"r":-1,"colour":"#F9BC26"}
+                    }
+                },
+          data: example.hex_map.rows,
+          matchKey: 'geography_code',
+          value: Child,
+          tooltip: '{{Child | toLocaleString()}}',
+          scale: viridis
+        }
+      }
+    ) | safe }}
+<h2>Working-Age people in Low Income in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
+{{ comp.oi.map.hex_cartogram({
+        config: {
+          hexjson: {
+                "layout":"odd-r",
+                "hexes": {
+                    "E12000001":{"n":"North East","q":-1,"r":0,"colour":"#F9BC26"},
+                    "E12000002":{"n":"North West","q":-2,"r":-1,"colour":"#F9BC26"},
+                    "E12000003":{"n":"Yorkshire and the Humber","q":-1,"r":-1,"colour":"#F9BC26"}
+                    }
+                },
+          data: example.hex_map.rows,
+          matchKey: 'geography_code',
+          value: Working-Age,
+          tooltip: '{{Working-Age | toLocaleString()}}',
+          scale: viridis
+        }
+      }
+    ) | safe }}
+<h2>Pensioners in Low Income in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
+{{ comp.oi.map.hex_cartogram({
+        config: {
+          hexjson: {
+                "layout":"odd-r",
+                "hexes": {
+                    "E12000001":{"n":"North East","q":-1,"r":0,"colour":"#F9BC26"},
+                    "E12000002":{"n":"North West","q":-2,"r":-1,"colour":"#F9BC26"},
+                    "E12000003":{"n":"Yorkshire and the Humber","q":-1,"r":-1,"colour":"#F9BC26"}
+                    }
+                },
+          data: example.hex_map.rows,
+          matchKey: 'geography_code',
+          value: Pensioner,
+          tooltip: '{{Pensioner | toLocaleString()}}',
+          scale: viridis
+        }
+      }
+    ) | safe }}
