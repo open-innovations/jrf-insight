@@ -73,4 +73,5 @@ body > nav {
   background: var(--jrf-strong-pink);
   color: white;
   text-align: center;
+  z-index: 100;
 }
