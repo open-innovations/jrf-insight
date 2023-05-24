@@ -1,8 +1,26 @@
 {
-        "layout":"odd-r",
-        "hexes": {
-            "E12000001":{"n":"North East","q":-1,"r":0,"colour":"#F9BC26"},
-            "E12000002":{"n":"North West","q":-2,"r":0,"colour":"#F9BC26"},
-            "E12000003":{"n":"Yorkshire and the Humber","q":-2,"r":-1,"colour":"#F9BC26"}
-            }
-        }
+  "layout": "odd-r",
+  "hexes": {
+    "E12000001": {
+      "n": "North East",
+      "label": "NE",
+      "q": -1,
+      "r": 0,
+      "colour": "#F9BC26"
+    },
+    "E12000002": {
+      "n": "North West",
+      "label": "NW",
+      "q": -2,
+      "r": 0,
+      "colour": "#F9BC26"
+    },
+    "E12000003": {
+      "n": "Yorkshire and the Humber",
+      "label": "YH",
+      "q": -2,
+      "r": -1,
+      "colour": "#F9BC26"
+    }
+  }
+}
