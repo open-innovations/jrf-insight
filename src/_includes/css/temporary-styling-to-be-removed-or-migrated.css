@@ -75,3 +75,18 @@ body > nav {
   text-align: center;
   z-index: 100;
 }
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  & * + * {
+    margin-top: 0;
+  }
+  & .legend-item {
+    gap: 0.3em;
+    display: flex;
+    align-items: center;
+  }
+}
