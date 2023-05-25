@@ -13,3 +13,4 @@ Local Needs Databank: https://public.tableau.com/app/profile/thinknpc/viz/FINDLo
 Wellbeing and Loneliness - Community Life Survey 2020/21: https://www.gov.uk/government/statistics/community-life-survey-202021-wellbeing-and-loneliness/wellbeing-and-loneliness-community-life-survey-202021#:~:text=Overall%20in%202020%2F21%3A,to%202019%2F20%20(21%25)
 
 
+World poverty visualiser: https://worldpoverty.io/headline
