@@ -23,7 +23,7 @@ header {
     margin: auto;
   }
 }
-.dashboard {
+.oi-dashboard {
   font-size: 1.5rem;
   & > * {
     margin-top: 0;
@@ -33,7 +33,7 @@ header {
   }
 }
 @media screen {
-  .dashboard .panel {
+  .oi-dashboard .panel {
     font-size: unset;
   }
 }
@@ -76,7 +76,7 @@ body > nav {
   z-index: 100;
 }
 
-.legend {
+.oi-legend {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

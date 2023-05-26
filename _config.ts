@@ -4,7 +4,7 @@ import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.0/loaders/csv-loader.ts";
-import oiCharts from "https://deno.land/x/oi_lume_charts@v0.7.2/mod.ts";
+import oiCharts from "oi-lume-charts/mod.ts";
 
 const site = lume({
   src: './src',
@@ -17,7 +17,11 @@ const site = lume({
 
 site.process(['.html'], autoDependency);
 site.loadData(['.csv'], csvLoader);
-site.use(oiCharts());
+site.use(oiCharts({
+  font: {
+    family: "chaparral-pro,sans-serif",
+  },
+}));
 site.use(base_path());
 site.use(metas());
 site.use(postcss());
