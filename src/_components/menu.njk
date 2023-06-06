@@ -1,5 +1,28 @@
-<ul class="menu {{ classes }}">
+---
+js: |
+  addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.menu button').forEach(button => {
+      button.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+        this.setAttribute('aria-expanded', !expanded);
+        const menu = this.nextElementSibling;
+        menu.hidden = !menu.hidden;
+      });
+    });
+  });
+---
+
+<ul class="menu {{ classes }}" {% if hidden %}hidden{% endif %}>
   {% for item in items %}
-  <li><div><a href="{{ item.url }}">{{ item.title }}</a></div></li>
+    {% if item.children %}
+      <li>
+        <button aria-expanded='false'>{{ item.title }}</button>
+        {{ comp.menu({ items: item.children, hidden: true }) | safe }}
+      </li>
+    {% else %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>

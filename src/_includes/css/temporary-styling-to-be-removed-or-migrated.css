@@ -27,6 +27,7 @@ body > header {
     margin: auto;
   }
 }
+
 .oi-dashboard {
   font-size: 1.5rem;
   & > * {
@@ -42,32 +43,7 @@ body > header {
   }
 }
 
-body > nav {
-  color: white;
-  background-color: var(--jrf-moderate-cyan);
-  text-align: center;
-  font-size: 1.1rem;
-  & li:hover {
-    color:  var(--jrf-moderate-cyan);
-    background-color: white;
-  }
-  & a {
-    text-decoration: none;
-    color: inherit;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.button {
-  padding-block: 0;
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  & li {
-    padding: 0.5em;
-  }
-}
+
 .sticky-top {
   position: sticky;
   top: 0;

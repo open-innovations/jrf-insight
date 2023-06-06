@@ -1,12 +1,21 @@
-- title: People
-  url: /people/
-- title: Living Standards
-  url: ""
-- title: Economic Security
-  url: ""
-- title: Society
-  url: ""
-- title: Housing
-  url: ""
-- title: Cities, Towns and Neighbourhoods
-  url: /cities/
+- title: Insights
+  children: 
+    - title: Insight 1
+      url: /
+    - title: Insight 2
+      url: /
+
+- title: Themes
+  children:
+    - title: People
+      url: /people/
+    - title: Living Standards
+      url: ""
+    - title: Economic Security
+      url: ""
+    - title: Society
+      url: ""
+    - title: Housing
+      url: ""
+    - title: Cities, Towns and Neighbourhoods
+      url: /cities/

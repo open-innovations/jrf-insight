@@ -1,0 +1,52 @@
+body > nav {
+  color: white;
+  background-color: var(--jrf-moderate-cyan);
+  text-align: center;
+  font-size: 1.1rem;
+  & button {
+    color: unset;
+    background-color: unset;
+    border: unset;
+    color: unset;
+    font: unset;
+  }
+  & ul {
+    list-style-type: none;
+  }
+  & .menu {
+    padding-block: 0;
+    background-color: inherit;
+    & li {
+      background-color: inherit;
+    }
+    z-index: 200;
+    & :is(button, a) {
+      padding: 0.5em;
+      display: block;
+      &:hover {
+        color:  var(--jrf-moderate-cyan);
+        background-color: white;
+      }
+    }
+  }
+  & > .menu {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    & .menu {
+      position: absolute;
+      text-align: left;
+      box-shadow: 0 .125rem .3125rem 0 hsla(0,0%,40%,.5);
+      & li {
+        padding: 0;
+      }
+    }
+  }
+  & a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
