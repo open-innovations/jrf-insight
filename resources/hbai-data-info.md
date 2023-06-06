@@ -1,0 +1,1 @@
+[Useful link here to the user guide for HBAI datasets within statxplore](https://www.gov.uk/government/publications/households-below-average-income-statistics-on-stat-xplore-user-guide/households-below-average-income-statistics-on-stat-xplore-user-guide)
