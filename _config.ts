@@ -5,6 +5,8 @@ import postcss from "lume/plugins/postcss.ts";
 import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.0/loaders/csv-loader.ts";
 import oiCharts from "oi-lume-charts/mod.ts";
+import svgo from 'lume/plugins/svgo.ts';
+import inline from 'lume/plugins/inline.ts';
 
 const site = lume({
   src: './src',
@@ -22,11 +24,14 @@ site.use(oiCharts({
     family: "chaparral-pro,sans-serif",
   },
 }));
+site.use(inline());
 site.use(base_path());
 site.use(metas());
 site.use(postcss());
+site.use(svgo());
 
 site.remoteFile('/assets/images/jrf_logo.svg', "https://www.jrf.org.uk/sites/all/themes/jrf/images/jrf_logo.svg");
-site.copy('/assets/images');
+site.remoteFile('/assets/images/oi_logo.svg', 'https://open-innovations.org/resources/images/logos/oi-square.svg');
+// site.copy('/assets/images');
 
 export default site;

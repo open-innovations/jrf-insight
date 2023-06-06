@@ -3,7 +3,7 @@ body {
   font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 1.5;
 }
-header {
+body > header {
   font-family: HouschkaAltPro-Medium,sans-serif;
   text-transform: uppercase;
   background-color: #eee;
@@ -11,9 +11,13 @@ header {
     display: flex;
     gap: 1em;
     align-items: center;
-    & > *:not(:first-child) {
+    & > *:first-child {
       flex-grow: 1;
     }
+  }
+  & svg {
+    max-height: 4rem;
+    width: auto;
   }
   & h1 {
     color: var(--jrf-pink);
