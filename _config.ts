@@ -31,7 +31,6 @@ site.use(postcss());
 site.use(svgo());
 
 site.remoteFile('/assets/images/jrf_logo.svg', "https://www.jrf.org.uk/sites/all/themes/jrf/images/jrf_logo.svg");
-site.remoteFile('/assets/images/oi_logo.svg', 'https://open-innovations.org/resources/images/logos/oi-square.svg');
-// site.copy('/assets/images');
+site.remoteFile('/assets/images/oi_logo.svg', 'https://open-innovations.org/resources/images/logos/oi-square-11.svg');
 
 export default site;
