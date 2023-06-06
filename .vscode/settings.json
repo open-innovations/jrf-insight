@@ -1,3 +1,5 @@
 {
-    "deno.enable": false
+    "deno.enable": true,
+    "deno.codeLens.implementations": true,
+    "deno.config": "deno.json"
 }
