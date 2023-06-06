@@ -9,12 +9,5 @@
   </div>
 </header>
 <nav>
-  <ul class='page-flow button'>
-    <li><a href="/people/">People</a></li>
-    <li><a href="">Living Standards</a></li>
-    <li><a href="">Economic Security</a></li>
-    <li><a href="">Society</a></li>
-    <li><a href="">Housing</a></li>
-    <li><a href="/cities/">Cities, Towns and Neighbourhoods</a></li>
-  </ul>
+  {{ comp.menu({ items: nav, classes: 'page-flow' }) | safe }}
 </nav>
