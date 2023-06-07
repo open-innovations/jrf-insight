@@ -20,7 +20,7 @@ def get_ids(session, locator=None):
         schema = objects.Schema.list(session)
     else:
         schema = objects.Schema(locator).get(session)
-    #print(schema)
+        
     children = schema.get('children')
 
     ids = []
@@ -63,8 +63,10 @@ def make_csv(ids, labels, OUTDIR, type=None):
     '''
     Makes csv files 
     '''
-
-    df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=['{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
+    if type == 'database':
+        df = pd.DataFrame([[ids, labels]], columns=['{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
+    else:
+        df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=['{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
 
     df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
 

@@ -4,11 +4,6 @@ stages:
     cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/IB_reassessment.json
       -o working/test.csv
     deps:
-<<<<<<< Updated upstream
-    - path: pipelines/extract/extract.py
-      md5: b173363df769fa838df71b72bc5c7537
-      size: 2276
-=======
     - path: pipelines/extract/IB_reassessment.json
       md5: 512778d7395bfacfc91532d0e9d89352
       size: 209
@@ -17,7 +12,6 @@ stages:
       md5: fabbffc8ebf60678c6b6577fbcb43ea9
       size: 13434
       isexec: true
->>>>>>> Stashed changes
   harvester:
     cmd: PYTHONPATH=pipelines/extract/harvester.py
     deps:
@@ -34,24 +28,17 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
     deps:
     - path: pipelines/extract/probe.py
-<<<<<<< Updated upstream
-      md5: 68319444e424b3373cfd3ce71a62b77c
-      size: 1044
+      md5: ee9ecb72f7c3e1c250f7831d5b063aaa
+      size: 1131
     - path: pipelines/extract/utils.py
-      md5: 98c770966da929cbc40e7837566478ba
-      size: 1868
-=======
-      md5: 7bc9d8bfeaba2eaffd5a2c1e0dfb2c38
-      size: 1038
-    - path: pipelines/extract/utils.py
-      md5: d80591d1284780a88a8a0bd1510501aa
-      size: 2213
->>>>>>> Stashed changes
+      md5: 8cbc89d42a09695fa59e1ad6bccded7f
+      size: 2149
+      isexec: true
     outs:
     - path: data/lookups
-      md5: 26c1108ff92235f3b293d96d40d94ee3.dir
-      size: 91757
-      nfiles: 212
+      md5: f94222593652df0beb5724939134ed6d.dir
+      size: 100539
+      nfiles: 318
   probe2:
     cmd: PYTHONPATH= python pipelines/extract/probe2.py
     deps:
