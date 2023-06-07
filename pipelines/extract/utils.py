@@ -20,7 +20,7 @@ def get_ids(session, locator=None):
         schema = objects.Schema.list(session)
     else:
         schema = objects.Schema(locator).get(session)
-        
+    #print(schema)    
     children = schema.get('children')
 
     ids = []
@@ -70,4 +70,19 @@ def make_csv(ids, labels, OUTDIR, type=None):
 
     df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
 
+    return
+
+def group_to_field(session):
+    root_folder = "/data/lookups/"
+    print(root_folder)
+    for dirpath, dirnames, filenames in os.walk(root_folder):
+        if "dimension.csv" in dirnames:
+            dimension_folder_path = os.path.join(dirpath, "dimension.csv")
+            df = pd.read_csv(dimension_folder_path)
+            print(df)
+            if df.str.contains('str:group:'):
+                groups, group_labels = get_ids(session, locator=id)
+                print(groups, group_labels)
+                #measures.append(groups)
+                #measure_names.append(group_labels)
     return
