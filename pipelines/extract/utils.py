@@ -20,7 +20,7 @@ def get_ids(session, locator=None):
         schema = objects.Schema.list(session)
     else:
         schema = objects.Schema(locator).get(session)
-    
+    #print(schema)
     children = schema.get('children')
 
     ids = []
@@ -39,12 +39,11 @@ def get_variables(session, database_id):
     '''
     schema = objects.Schema(database_id).get(session)
     children = schema.get('children')
-
     measures = []
     measure_names = []
     dimensions = []
     dimension_names = []
-
+    #print(children)
     for i in children:
 
         id = str(i.get('id'))

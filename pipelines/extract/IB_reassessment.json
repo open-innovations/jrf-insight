@@ -1,0 +1,5 @@
+{
+    "database": "str:database:IBR_DEC",
+    "dimensions": [["str:field:IBR_DEC:F_IBR_DEC_MONTH:DATE_NAME"], ["str:field:IBR_DEC:V_F_IBR_DEC:outcome"]],
+    "measures": ["str:count:IBR_DEC:V_F_IBR_DEC"]
+}

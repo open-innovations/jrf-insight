@@ -23,3 +23,8 @@ for folder_id, folder_name in zip(folder_ids, folder_names):
 
         make_csv(measures, measure_names, OUTDIR, type='measure')
         make_csv(dimensions, dimension_names, OUTDIR, type='dimension')
+<<<<<<< Updated upstream
+=======
+        make_csv(database_id, database_name, OUTDIR, type='database')
+        #break
+>>>>>>> Stashed changes
