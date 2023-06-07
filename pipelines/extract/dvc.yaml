@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
-stages: 
-  probe:
-    cmd: PYTHONPATH= python pipelines/extract/probe.py 
-=======
 stages:
   probe:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
->>>>>>> Stashed changes
     # always_changed: true
     wdir: ../..
     deps:
@@ -16,9 +10,6 @@ stages:
       - data/lookups:
           cache: false
           persist: false
-<<<<<<< Updated upstream
-    
-=======
   # extract:
   #   cmd: PYTHONPATH= python pipelines/extract/extract.py
   #   # always_changed: true
@@ -41,4 +32,3 @@ stages:
   #     - working/test.csv:
   #         cache: false
   #         persist: false
->>>>>>> Stashed changes
