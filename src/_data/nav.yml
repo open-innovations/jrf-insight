@@ -7,15 +7,13 @@
 
 - title: Themes
   children:
-    - title: People
-      url: /people/
-    - title: Living Standards
+    - title: Care, Families & Relationships
+      url: /care-families-relationships/
+    - title: Work, Tech, Markets & Risk Sharing
       url: ""
-    - title: Economic Security
+    - title: Housing & Land
+      url: "/cities/"
+    - title: Destitution & Deep Poverty
       url: ""
-    - title: Society
+    - title: Assets, Debt, Wealth & Ownership
       url: ""
-    - title: Housing
-      url: ""
-    - title: Cities, Towns and Neighbourhoods
-      url: /cities/
