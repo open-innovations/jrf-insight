@@ -1,1 +1,11 @@
-{"database": "str:database:HBAI", "measures": ["str:statfn:HBAI:V_F_HBAI:ABS1011BHC:MEDIAN"], "dimensions": [["str:field:HBAI:V_F_HBAI:YEAR"]]}
+{
+    "database": "str:database:HBAI", 
+    "measures": [
+        "str:statfn:HBAI:V_F_HBAI:ABS1011BHC:MEDIAN"
+    ], 
+    "dimensions": [
+        [
+            "str:field:HBAI:V_F_HBAI:YEAR"
+        ]
+    ]
+}

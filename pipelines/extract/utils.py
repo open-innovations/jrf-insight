@@ -5,6 +5,7 @@ from statxplore import http_session
 from statxplore import objects
 
 STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
+JSONDIR = 'pipelines/extract/json/'
 session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
 
 
@@ -108,7 +109,7 @@ def group_to_fields(session, locator):
         print('failed to get groups for{}'.format(locator))
 
 
-def make_json(database, measures, dimensions, filename):
+def statxplore_to_json(database, measures, dimensions, filename):
     '''
     Makes a json for the API call to statXplore.
 
@@ -132,7 +133,6 @@ def make_json(database, measures, dimensions, filename):
         "measures": measures,
         "dimensions": dimensions
     }
-    JSONDIR = 'pipelines/extract/json/'
-    with open(os.path.join(JSONDIR, '{}.json'.format(filename)), "w") as fp:
-        json.dump(request, fp) 
+    with open(os.path.join(JSONDIR, '{}'.format(filename)), "w") as fp:
+        json.dump(request, fp, indent=4, separators=(', ', ': ')) 
 
