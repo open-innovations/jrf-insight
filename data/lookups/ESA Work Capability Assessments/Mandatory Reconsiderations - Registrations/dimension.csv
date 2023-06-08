@@ -1,4 +1,7 @@
 dimension_name,dimension
-Geographies (residence-based),str:group:ESA_WCA_Registration:X_Geographies+%28residence-based%29
+National - Regional - LAs,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:oa11
+National - Regional - LA - Ward,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:WARD_CODE
+Westminster Parliamentary Constituency,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:SPC_CODE
 Date of Registration,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:DATE_CASE_RECEIVED
 Reason,str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:reason

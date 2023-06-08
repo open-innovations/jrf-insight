@@ -1,21 +1,109 @@
 dimension_name,dimension
-Household amount of savings and investments,str:group:FRSHH:M_Household+amount+of+savings+and+investments
-Household Income from All Sources,str:group:FRSHH:M_Household+Income+from+All+Sources
-Household Income from Employment and Self-employment,str:group:FRSHH:M_Household+Income+from+Employment+and+Self-employment
-Household Income from Other Sources,str:group:FRSHH:M_Household+Income+from+Other+Sources
-Household Income from State Support,str:group:FRSHH:M_Household+Income+from+State+Support
-"Household rent, repayment mortgage payment",str:group:FRSHH:M_Household+rent%2C+repayment+mortgage+payment
+"Household, total amount of savings and investments in latest prices (CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:SAVINGS_AMT
+"Household, total amount of savings and investments in year prices (in nominal terms)",str:measure:FRSHH:V_F_FRSHH:SAVINGS_AMT_INYR
+"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:INC
+"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:INC_INYR
+"Household total, gross Income from Employment and Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_EMP_SE
+"Household total, gross Income from Employment and Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_EMP_SE_INYR
+"Household total, gross Income from Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_EARNS
+"Household total, gross Income from Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_EARNS_INYR
+"Household total, gross Income from Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_SEINC
+"Household total, gross Income from Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_SEINC_INYR
+"Household total, gross Income from Investments and other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_RINC
+"Household total, gross Income from Investments and other sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_RINC_INYR
+"Household total, gross Income from Investments in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_INV
+"Household total, gross Income from Investments in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_INV_INYR
+"Household total, gross Income from non state pensions in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_PENINC
+"Household total, gross Income from non state pensions in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_PENINC_INYR
+"Household total, gross Income from other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTH_SOURCE
+"Household total, gross Income from other sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTH_SOURCE_INYR
+"Household Income from Disability Benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_DISBEN
+"Household Income from Disability Benefits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_DISBEN_INYR
+"Household Income from other benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTHBEN
+"Household Income from other benefits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTHBEN_INYR
+"Household Income from State Pension, Income Support and Pension Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_RPINC
+"Household Income from State Pension, Income Support and Pension Credit in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_RPINC_INYR
+"Household Income from State Support in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_STATE_SUP
+"Household Income from State Support in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_STATE_SUP_INYR
+"Household Income from Tax Credits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_TXCRED
+"Household Income from Tax Credits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_TXCRED_INYR
+"Household Income from Universal Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_UC
+"Household Income from Universal Credit in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_UC_INYR
+"Household rent, repayment mortgage payment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_MORTRENT
+"Household rent, repayment mortgage payment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_MORTRENT_INYR
 Financial Year,str:field:FRSHH:V_F_FRSHH:YEAR
-Geography,str:group:FRSHH:X_Geography
+Country of the Household in the United Kingdom,str:field:FRSHH:V_F_FRSHH:COUNTRY
+Great Britain location of the Household,str:field:FRSHH:V_F_FRSHH:GB
+Government office region of the Household in the United Kingdom,str:field:FRSHH:V_F_FRSHH:REGION
+London location of the Household,str:field:FRSHH:V_F_FRSHH:LONDON
 Age band of the Head of the Household,str:field:FRSHH:V_F_FRSHH:AGEBAND
 Type of Adult of the Head of the Household,str:field:FRSHH:V_F_FRSHH:TYPE
 Tenure type of the Household,str:field:FRSHH:V_F_FRSHH:TENURE
 Length of residency in property of the Head of the Household,str:field:FRSHH:V_F_FRSHH:HH_YRSINPROP
-Benefit receipt,str:group:FRSHH:X_Benefit+receipt
-Ethnicity,str:group:FRSHH:X_Ethnicity
-Household composition,str:group:FRSHH:X_Household+composition
-Income from All Sources,str:group:FRSHH:X_Income+from+All+Sources
-Income from Employment and Self-employment,str:group:FRSHH:X_Income+from+Employment+and+Self-employment
-Income from Other Sources,str:group:FRSHH:X_Income+from+Other+Sources
-Income from State Support,str:group:FRSHH:X_Income+from+State+Support
-Savings and Investments,str:group:FRSHH:X_Savings+and+Investments
+Attendance Allowance (AA) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_AA
+Armed Forces Compensation Scheme (AFCS) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_AFCS
+Carer's Allowance (CA) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_CA
+Child Benefit (CHB) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_CHB
+Child Tax Credits (CTC) including lump sums received by the Household,str:field:FRSHH:V_F_FRSHH:REC_CTC
+Disability Living Allowance (DLA) Self Care received by the Household,str:field:FRSHH:V_F_FRSHH:REC_DLAC
+Disability Living Allowance (DLA) Mobility received by the Household,str:field:FRSHH:V_F_FRSHH:REC_DLAM
+Employment and Support Allowance (ESA)  Income Related or Contributory or both received by the Household,str:field:FRSHH:V_F_FRSHH:REC_ESA
+Housing Benefit (HB) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_HB
+Incapacity Benefit (IB) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_IB
+Industrial Injuries Disablement Benefit (IIDB) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_IIDB
+Income Support (IS) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_IS
+Jobseeker's Allowance (JSA)  Income based or Contributory or both received by the Household,str:field:FRSHH:V_F_FRSHH:REC_JSA
+Pension Credit (PC) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_PC
+Personal Independence Payment (PIP) Daily Living received by the Household,str:field:FRSHH:V_F_FRSHH:REC_PIPDL
+Personal Independence Payment (PIP) Mobility received by the Household,str:field:FRSHH:V_F_FRSHH:REC_PIPM
+Retirement Pension (RP) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_RP
+Severe Disablement Allowance (SDA) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_SDA
+Universal Credit (UC) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_UC
+Widow's Benefit (WB) received by the Household,str:field:FRSHH:V_F_FRSHH:REC_WB
+Working Tax Credits (WTC) including lump sums received by the Household,str:field:FRSHH:V_F_FRSHH:REC_WTC
+Harmonised Ethnic Group of the Head of the Household  high level (please calculate three year averages  click on i for the correct method),str:field:FRSHH:V_F_FRSHH:ETHTOT
+Harmonised Ethnic Group of the Head of the Household (please calculate three year averages  click on i for the correct method),str:field:FRSHH:V_F_FRSHH:ETH
+Asian Ethnicity Group of the Head of the Household (please calculate three year averages  click on i for the correct method),str:field:FRSHH:V_F_FRSHH:ASIAN
+Household composition by children,str:field:FRSHH:V_F_FRSHH:COMPOS_KID
+"Household composition by children, gender and number of adults",str:field:FRSHH:V_F_FRSHH:COMPOS
+Household composition by number of adults over State Pension Age,str:field:FRSHH:V_F_FRSHH:PEN
+Household composition by number of disabled adults under State Pension Age,str:field:FRSHH:V_F_FRSHH:DISWA
+Household composition by number of unemployed adults under State Pension Age,str:field:FRSHH:V_F_FRSHH:UNEMPWA
+"Household total, gross Income from all sources (in bands with 100 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSHH:V_F_FRSHH:INC_BAND100
+"Household total, gross Income from all sources (in bands with 100 widths) in year prices (weekly, in nominal terms)",str:field:FRSHH:V_F_FRSHH:INC_BAND100_INYR
+"Household total, gross Income from all sources (in bands with 200 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSHH:V_F_FRSHH:INC_BAND200
+"Household total, gross Income from all sources (in bands with 200 widths) in year prices (weekly, in nominal terms)",str:field:FRSHH:V_F_FRSHH:INC_BAND200_INYR
+Earnings from Employment and Self Employment received by the Household,str:field:FRSHH:V_F_FRSHH:HH_EMP_SE_FLAG
+Earnings from Employment received by the Household,str:field:FRSHH:V_F_FRSHH:HH_EARNS_FLAG
+Earnings from Self Employment received by the Household,str:field:FRSHH:V_F_FRSHH:HH_SEINC_FLAG
+Earnings from Investments and other sources received by the Household,str:field:FRSHH:V_F_FRSHH:HH_RINC_FLAG
+Earnings from Investments received by the Household,str:field:FRSHH:V_F_FRSHH:HH_INV_FLAG
+Earnings from non state pensions received by the Household,str:field:FRSHH:V_F_FRSHH:HH_PENINC_FLAG
+Earnings from other sources received by the Household,str:field:FRSHH:V_F_FRSHH:HH_OTH_SOURCE_FLAG
+Earnings from Disability Benefits received by the Household,str:field:FRSHH:V_F_FRSHH:HH_DISBEN_FLAG
+Earnings from other benefits received by the Household,str:field:FRSHH:V_F_FRSHH:HH_OTHBEN_FLAG
+"Earnings from State Pension, Income Support and Pension Credit received by the Household",str:field:FRSHH:V_F_FRSHH:HH_RPINC_FLAG
+Earnings from State Support received by the Household,str:field:FRSHH:V_F_FRSHH:HH_STATE_SUP_FLAG
+Earnings from Tax Credits received by the Household,str:field:FRSHH:V_F_FRSHH:HH_TXCRED_FLAG
+Earnings from Universal Credit received by the Household,str:field:FRSHH:V_F_FRSHH:HH_UC_FLAG
+"Household, total amount of savings and investments, in bands, in latest prices (CPI adjusted real terms)",str:field:FRSHH:V_F_FRSHH:SAVINGS_BAND
+"Household, total amount of savings and investments, in bands, in year prices (in nominal terms)",str:field:FRSHH:V_F_FRSHH:SAVINGS_BAND_INYR
+"Any accounts, excluding Post Office card accounts (POCAs) belonging to the Individuals in the Household",str:field:FRSHH:V_F_FRSHH:ANY_EXC
+"Any accounts, including Post Office card accounts (POCAs) belonging to the Individuals in the Household",str:field:FRSHH:V_F_FRSHH:ANY_INC
+"Any direct payment accounts, excluding Post Office card accounts (POCAs) belonging to the Individuals in the Household",str:field:FRSHH:V_F_FRSHH:DPA_EXC
+"Any direct payment accounts, including Post Office card accounts (POCAs) belonging to the Individuals in the Household",str:field:FRSHH:V_F_FRSHH:DPA_INC
+Any informal assets belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:INF_ASSETS
+Any other bank or building society accounts belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:OTH_ACC
+Any other type of asset belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:ANY_OTH
+Basic bank accounts belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:BB_ACC
+Company share schemes (profit sharing) belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:COMP
+Credit union memberships of the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:CREDIT
+Current accounts belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:CURR
+Individual Savings Accounts (ISAs) belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:ISA
+National savings bonds belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:NS_BOND
+National Savings & Investments (NS&I) savings accounts belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:NSI_SAV
+Post Office card accounts (POCAs) belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:POCA
+Premium bonds belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:PREM
+Stocks and shares or share club memberships held by the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:STOCK
+Unit trusts belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:UNIT
+Unlinked endowment policies belonging to the Individuals in the Household,str:field:FRSHH:V_F_FRSHH:ENDOW

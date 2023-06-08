@@ -1,3 +1,2 @@
 dimension_name,dimension
 Time Period,str:field:UC_Claims:F_UC_WEEKS:WEEK_NAME
-Geography (postcode),str:group:UC_Claims:X_Geography+%28postcode%29

@@ -1,6 +1,8 @@
 dimension_name,dimension
 Month,str:field:PIP_Monthly:F_PIP_DATE:DATE2
-Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Monthly:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+National - Regional - LA - OAs,str:field:PIP_Monthly:V_F_PIP_MONTHLY:COA_2011
+National - Regional - LA - Ward,str:field:PIP_Monthly:V_F_PIP_MONTHLY:WARD_CODE
+Westminster Parliamentary Constituency,str:field:PIP_Monthly:V_F_PIP_MONTHLY:pcon
 Age (bands and single year),str:field:PIP_Monthly:V_F_PIP_MONTHLY:SINGLE_AGE
 Daily Living Award Status,str:field:PIP_Monthly:V_F_PIP_MONTHLY:DL_AWARD_TYPE
 Disability,str:field:PIP_Monthly:V_F_PIP_MONTHLY:DISABILITY_CODE

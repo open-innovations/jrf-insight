@@ -1,7 +1,8 @@
 dimension_name,dimension
 Start Month,str:field:WHP_Starts:F_WHP_DATE:DATE_NAME
 Referral Month,str:field:WHP_Starts:V_F_WHP_STARTS:REF_MONTH
-Geography (residence-based),str:group:WHP_Starts:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:WHP_Starts:V_F_WHP_STARTS:COA11_R
+Westminster Parliamentary Constituencies,str:field:WHP_Starts:V_F_WHP_STARTS:PARLC_CODE
 Age (bands and single year),str:field:WHP_Starts:V_F_WHP_STARTS:AGE
 Area,str:field:WHP_Starts:V_F_WHP_STARTS:CONTRACT_REFERENCE_NUMBER
 Devolved Deal Area,str:field:WHP_Starts:V_F_WHP_STARTS:DDA_FLAG

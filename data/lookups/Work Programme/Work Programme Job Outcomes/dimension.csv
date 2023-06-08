@@ -1,12 +1,12 @@
 dimension_name,dimension
-Admin-use only,str:group:WP_Job_Outcomes:M_Admin-use+only
-Month,str:field:WP_Job_Outcomes:F_WP_DATE:DATE_NAME
-Geography (residence-based),str:group:WP_Job_Outcomes:X_Geography+%28residence-based%29
-Age Band,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:age_code
-Contract Package Area and Contract,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:contract_code
-Disability Indicator,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:disability_code
-Ethnicity (summary and detailed),str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:ethnicity_code
-Gender,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:gender_code
-Length of Job Outcome,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:jolength_code
-Mandatory or Voluntary Indicator,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:mandvol
-Payment Group,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:otptype_code
+Month,['str:count:WP_Job_Outcomes:F_WP_DATE']
+National - Regional - LAs - OAs,['Month']
+Westminster Parliamentary Constituency,str:field:WP_Job_Outcomes:F_WP_DATE:DATE_NAME
+Age Band,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:COA_code
+Contract Package Area and Contract,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:PCON
+Disability Indicator,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:age_code
+Ethnicity (summary and detailed),str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:contract_code
+Gender,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:disability_code
+Length of Job Outcome,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:ethnicity_code
+Mandatory or Voluntary Indicator,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:gender_code
+Payment Group,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:jolength_code

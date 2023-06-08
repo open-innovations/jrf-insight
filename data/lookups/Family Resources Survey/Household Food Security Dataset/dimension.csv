@@ -1,14 +1,50 @@
 dimension_name,dimension
-Household Income from All Sources,str:group:FRSHFS:M_Household+Income+from+All+Sources
+"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHFS:V_F_FRSHFS:INC
+"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSHFS:V_F_FRSHFS:INC_INYR
 Financial Year,str:field:FRSHFS:V_F_FRSHFS:YEAR
-Geography,str:group:FRSHFS:X_Geography
+Country of the Household in the United Kingdom,str:field:FRSHFS:V_F_FRSHFS:COUNTRY
+Great Britain location of the Household,str:field:FRSHFS:V_F_FRSHFS:GB
+Government office region of the Household in the United Kingdom,str:field:FRSHFS:V_F_FRSHFS:REGION
+London location of the Household,str:field:FRSHFS:V_F_FRSHFS:LONDON
 Age band of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:AGEBAND
 Type of Adult of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:TYPE
 Tenure type of the Household,str:field:FRSHFS:V_F_FRSHFS:TENURE
 Educational attainment of the Head of the Household,str:field:FRSHFS:V_F_FRSHFS:HFS_ED_ATTAIN
-Benefit receipt,str:group:FRSHFS:X_Benefit+receipt
-Ethnicity,str:group:FRSHFS:X_Ethnicity
-Household composition,str:group:FRSHFS:X_Household+composition
-Household Food Security Status,str:group:FRSHFS:X_Household+Food+Security+Status
-Household Food Bank Use,str:group:FRSHFS:X_Household+Food+Bank+Use
-Income from All Sources,str:group:FRSHFS:X_Income+from+All+Sources
+Attendance Allowance (AA) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_AA
+Armed Forces Compensation Scheme (AFCS) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_AFCS
+Carer's Allowance (CA) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_CA
+Child Benefit (CHB) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_CHB
+Child Tax Credits (CTC) including lump sums received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_CTC
+Disability Living Allowance (DLA) Self Care received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_DLAC
+Disability Living Allowance (DLA) Mobility received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_DLAM
+Employment and Support Allowance (ESA)  Income Related or Contributory or both received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_ESA
+Housing Benefit (HB) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_HB
+Incapacity Benefit (IB) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_IB
+Industrial Injuries Disablement Benefit (IIDB) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_IIDB
+Income Support (IS) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_IS
+Jobseeker's Allowance (JSA)  Income based or Contributory or both received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_JSA
+Pension Credit (PC) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_PC
+Personal Independence Payment (PIP) Daily Living received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_PIPDL
+Personal Independence Payment (PIP) Mobility received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_PIPM
+Retirement Pension (RP) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_RP
+Severe Disablement Allowance (SDA) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_SDA
+Universal Credit (UC) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_UC
+Widow's Benefit (WB) received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_WB
+Working Tax Credits (WTC) including lump sums received by the Household,str:field:FRSHFS:V_F_FRSHFS:REC_WTC
+Harmonised Ethnic Group of the Head of the Household  high level (please calculate three year averages  click on i for the correct method),str:field:FRSHFS:V_F_FRSHFS:ETHTOT
+Harmonised Ethnic Group of the Head of the Household (please calculate three year averages  click on i for the correct method),str:field:FRSHFS:V_F_FRSHFS:ETH
+Asian Ethnicity Group of the Head of the Household (please calculate three year averages  click on i for the correct method),str:field:FRSHFS:V_F_FRSHFS:ASIAN
+Household composition by children,str:field:FRSHFS:V_F_FRSHFS:COMPOS_KID
+"Household composition by children, gender and number of adults",str:field:FRSHFS:V_F_FRSHFS:COMPOS
+Household composition by number of adults over State Pension Age,str:field:FRSHFS:V_F_FRSHFS:PEN
+Household composition by number of disabled adults,str:field:FRSHFS:V_F_FRSHFS:HFS_DIS_AD
+Household composition by number of disabled adults under State Pension Age,str:field:FRSHFS:V_F_FRSHFS:DISWA
+Household composition by number of unemployed adults under State Pension Age,str:field:FRSHFS:V_F_FRSHFS:UNEMPWA
+Household Food Security Status (high level breakdowns),str:field:FRSHFS:V_F_FRSHFS:HFS_FOODSEC_STATUS_CAT
+Household Food Security Status (detailed breakdowns),str:field:FRSHFS:V_F_FRSHFS:HFS_FOODSEC_STATUS
+Household's food bank use in last 12 months,str:field:FRSHFS:V_F_FRSHFS:HFS_FOODBK12M
+Household's food bank use in last 30 days,str:field:FRSHFS:V_F_FRSHFS:HFS_FOODBK30D
+"Household total, gross Income from all sources (in bands with 100 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSHFS:V_F_FRSHFS:INC_BAND100
+"Household total, gross Income from all sources (in bands with 100 widths) in year prices (weekly, in nominal terms)",str:field:FRSHFS:V_F_FRSHFS:INC_BAND100_INYR
+"Household total, gross Income from all sources (in bands with 200 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSHFS:V_F_FRSHFS:INC_BAND200
+"Household total, gross Income from all sources (in bands with 200 widths) in year prices (weekly, in nominal terms)",str:field:FRSHFS:V_F_FRSHFS:INC_BAND200_INYR

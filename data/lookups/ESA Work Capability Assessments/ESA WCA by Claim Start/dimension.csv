@@ -1,8 +1,18 @@
 dimension_name,dimension
 Claim Start Date,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:CDSTART
-Geography (residence-based),str:group:ESA_WCA_CS:X_Geography+%28residence-based%29
+National - Regional - LAs,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:CEN2011_COA
+National - Regional - LA - Ward,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:WARD_CODE
+Westminster Parliamentary Constituency,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:SPC_CODE
 Type of Assessment,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:type
 Outcome,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:outcome
 ESA Group Allocation (and Reasons),str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:outcome_reason
 Medical Condition,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:CG21_CODE
-Functional Impairment Reason,str:group:ESA_WCA_CS:X_Functional+Impairment+Reason
+Adapting to Change,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Adapting_to_change
+Consciousness,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Consciousness
+Continence,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Continence
+Lower Limb,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Lower_limb
+Sensory,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Sensory
+Social Interaction,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Social_interaction
+Understanding and Focus,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Understanding_and_focus
+Upper Limb,str:field:ESA_WCA_CS:V_F_ESA_WCA_CLAIMSTART:Upper_limb

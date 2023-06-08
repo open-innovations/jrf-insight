@@ -5,28 +5,13 @@ Type of Individual by Age Category,str:field:HBAI:V_F_HBAI:TYPE_AGECAT
 Gender of the Individual,str:field:HBAI:V_F_HBAI:SEX
 Disability Status of the Individual,str:field:HBAI:V_F_HBAI:DIS
 Educational Attainment of the Individual,str:field:HBAI:V_F_HBAI:EDATTAIN
-Net Household Income Threshold Before Housing Costs (BHC) for the Household of the Individual:,str:group:HBAI:X_Net+Household+Income+Threshold+Before+Housing+Costs+%28BHC%29+for+the+Household+of+the+Individual%3A
-Net Household Income Threshold After Housing Costs (AHC) for the Household of the Individual:,str:group:HBAI:X_Net+Household+Income+Threshold+After+Housing+Costs+%28AHC%29+for+the+Household+of+the+Individual%3A
-Decile and Quintile group of the Household of the Individual:,str:group:HBAI:X_Decile+and+Quintile+group+of+the+Household+of+the+Individual%3A
-Combined Low Income Before Housing Costs (BHC) and Child Material Deprivation group of the Individual:,str:group:HBAI:X_Combined+Low+Income+Before+Housing+Costs+%28BHC%29+and+Child+Material+Deprivation+group+of+the+Individual%3A
-Combined Low Income Before Housing Costs (AHC) and Child Material Deprivation group of the Individual:,str:group:HBAI:X_Combined+Low+Income+Before+Housing+Costs+%28AHC%29+and+Child+Material+Deprivation+group+of+the+Individual%3A
-Combined Low Income Before Housing Costs (BHC) and Working-Age Adult Material Deprivation group of the Individual:,str:group:HBAI:X_Combined+Low+Income+Before+Housing+Costs+%28BHC%29+and+Working-Age+Adult+Material+Deprivation+group+of+the+Individual%3A
-Combined Low Income Before Housing Costs (AHC) and Working-Age Adult Material Deprivation group of the Individual:,str:group:HBAI:X_Combined+Low+Income+Before+Housing+Costs+%28AHC%29+and+Working-Age+Adult+Material+Deprivation+group+of+the+Individual%3A
-Material Deprivation group of the Individual:,str:group:HBAI:X_Material+Deprivation+group+of+the+Individual%3A
-State Support received by the Family of the Individual:,str:group:HBAI:X_State+Support+received+by+the+Family+of+the+Individual%3A
 Universal Credit (UC) Applicable Family for the Individual,str:field:HBAI:V_F_HBAI:NEWFAMBU_UC
-Disability in the Family of the Individual:,str:group:HBAI:X_Disability+in+the+Family+of+the+Individual%3A
-Economic Status categories for the Individual:,str:group:HBAI:X_Economic+Status+categories+for+the+Individual%3A
 Marital Status of Adults and Type of Couple in the Family of the Individual,str:field:HBAI:V_F_HBAI:COUPLE
 Savings and Investments of Adults in the Family of the Individual,str:field:HBAI:V_F_HBAI:CAPITAL
-Occupational Pensions or Personal Pensions or both received by the Family of the Individual:,str:group:HBAI:X_Occupational+Pensions+or+Personal+Pensions+or+both+received+by+the+Family+of+the+Individual%3A
-Family Type categories for the Individual:,str:group:HBAI:X_Family+Type+categories+for+the+Individual%3A
 Number of Children in the Family of the Individual,str:field:HBAI:V_F_HBAI:NUMBKIDS
 Age of the Youngest Child in the Family of the Individual,str:field:HBAI:V_F_HBAI:YOUNGCH
-Ethnicity of the Head of the Household of the Individual:,str:group:HBAI:X_Ethnicity+of+the+Head+of+the+Household+of+the+Individual%3A
 Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),str:field:HBAI:V_F_HBAI:GVTREGN_LON
 Tenure Type of the Household of the Individual,str:field:HBAI:V_F_HBAI:TENHBAI
 Council Tax Band of the Household of the Individual,str:field:HBAI:V_F_HBAI:CTBAND
 Household Status (conventional or shared) of the Household of the Individual,str:field:HBAI:V_F_HBAI:HHSHARE
 Household Food Security Status for the Household of the Individual (please exclude shared households from analysis - click on i for the correct method),str:field:HBAI:V_F_HBAI:HFS_STATUS
-Food Banks used by the Household of the Individual:,str:group:HBAI:X_Food+Banks+used+by+the+Household+of+the+Individual%3A

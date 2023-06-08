@@ -1,0 +1,10 @@
+dimension_name,dimension
+Month,str:field:UC_WCA_CASE:F_UC_WCA_MONTH:DATE_NAME
+National - Regional - LA - OAs,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:COA_CODE
+National - Regional - LA - Ward,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:WARD_CODE
+Scottish Parliamentary Constituencies,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:SPC_CODE
+Westminster Parliamentary Constituencies,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:PARLC_CODE
+Age (bands and single year),str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:AGE_CODE
+Gender,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:SEX_CODE
+Stage of UC Health,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:STAGE_CODE
+Terminally Ill,str:field:UC_WCA_CASE:V_F_UC_WCA_CASE:TI_CODE

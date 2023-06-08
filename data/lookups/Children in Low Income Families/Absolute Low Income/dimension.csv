@@ -1,8 +1,9 @@
 dimension_name,dimension
 Year,str:field:CILIF_ABS:F_CILIF_DATE:DATE_NAME
-Geography (residence-based) - UK,str:group:CILIF_ABS:X_Geography+%28residence-based%29+-+UK
-Geography (residence-based) - GB,str:group:CILIF_ABS:X_Geography+%28residence-based%29+-+GB
-Age of Child (years and bands),str:field:CILIF_ABS:V_F_CILIF_ABS:CHILD_AGE
-Gender of Child,str:field:CILIF_ABS:V_F_CILIF_ABS:CHILD_GENDER
-Family Type,str:field:CILIF_ABS:V_F_CILIF_ABS:LP_FLAG
-Work Status,str:field:CILIF_ABS:V_F_CILIF_ABS:EMPLOYMENT
+National - Regional - LA - OAs,str:field:CILIF_ABS:V_F_CILIF_ABS:COA
+National - Regional - LA - Wards,str:field:CILIF_ABS:V_F_CILIF_ABS:WARD_CODE
+Westminster Parliamentary Constituency,str:field:CILIF_ABS:V_F_CILIF_ABS:PARLC_CODE
+Age of Child (years and bands),['str:field:CILIF_ABS:V_F_CILIF_ABS:GB_COA']
+Gender of Child,['National - Regional - LA - OAs (GB)']
+Family Type,str:field:CILIF_ABS:V_F_CILIF_ABS:CHILD_AGE
+Work Status,str:field:CILIF_ABS:V_F_CILIF_ABS:CHILD_GENDER

@@ -1,6 +1,4 @@
 dimension_name,dimension
 Month,str:field:UC_Starts:F_UC_DATE:DATE_NAME
-Geography (Jobcentre Plus),str:group:UC_Starts:X_Geography+%28Jobcentre+Plus%29
-Geography (postcode),str:group:UC_Starts:X_Geography+%28postcode%29
-Age (bands and single year),str:field:UC_Starts:V_F_UC_STARTS:AGE_CODE
-Gender,str:field:UC_Starts:V_F_UC_STARTS:GENDER_CODE
+Age (bands and single year),['str:field:UC_Starts:V_F_UC_STARTS:JCP_OFFICE_CODE']
+Gender,['Jobcentre Plus']

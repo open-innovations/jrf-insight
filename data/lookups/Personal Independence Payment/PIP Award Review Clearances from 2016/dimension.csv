@@ -1,6 +1,8 @@
 dimension_name,dimension
 Month,str:field:PIP_AR_COC_Clearances_post2016:F_PIP_DATE_POST2016:DATE2
-Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_AR_COC_Clearances_post2016:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+National - Regional - LA - OAs,str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:COA_2011
+National - Regional - LA - Ward,str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:WARD_CODE
+Westminster Parliamentary Constituency,str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:PCON
 Age (bands and single year),str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:SINGLE_AGE
 Award After,str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:PIP_AWARD_after
 Award Before,str:field:PIP_AR_COC_Clearances_post2016:V_F_PIP_AR_COC_CLEARANCES_POST2016:PIP_AWARD_BEFORE

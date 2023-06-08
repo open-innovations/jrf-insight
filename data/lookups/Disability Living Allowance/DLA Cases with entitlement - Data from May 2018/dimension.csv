@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:DLA_Entitled_New:F_DLA_QTR_New:DATE_NAME
-geography residence-based – SELECT POLICY OWNERSHIP,str:group:DLA_Entitled_New:X_geography+residence-based+%E2%80%93+SELECT+POLICY+OWNERSHIP
+National - Regional - LA - OAs,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:COA_CODE
+National - Regional - LA - Ward,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:SPC_CODE
 Age (bands and single year),str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CNAGE
 Care Award Type,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CAREAWD
 Mobility Award Type,str:field:DLA_Entitled_New:V_F_DLA_Entitled_New:CCMOBAWD

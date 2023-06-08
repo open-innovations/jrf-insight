@@ -1,6 +1,8 @@
 dimension_name,dimension
 Quarter,str:field:AA_Entitled:F_AA_QTR:DATE_NAME
-Geography (residence-based),str:group:AA_Entitled:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:AA_Entitled:V_F_AA_Entitled:COA_CODE
+Westminster Parliamentary Constituencies,str:field:AA_Entitled:V_F_AA_Entitled:PARLC_code
+Scottish Parliamentary Constituencies,str:field:AA_Entitled:V_F_AA_Entitled:SPARLC_code
 AA Award Type,str:field:AA_Entitled:V_F_AA_Entitled:AAAWD
 Age (bands and single year),str:field:AA_Entitled:V_F_AA_Entitled:CNAGE
 Duration of Current Claim,str:field:AA_Entitled:V_F_AA_Entitled:CTDURTN

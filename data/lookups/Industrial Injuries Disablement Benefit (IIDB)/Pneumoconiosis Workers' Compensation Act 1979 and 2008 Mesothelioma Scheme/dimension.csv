@@ -1,6 +1,8 @@
 dimension_name,dimension
 Month,str:field:IIDB_Meso:F_MESO_DATE:DATE_NAME
-Geography (residence-based),str:group:IIDB_Meso:X_Geography+%28residence-based%29
+National - Regional - LA,str:field:IIDB_Meso:V_F_IIDB_MESO:OA11
+Westminster Parliamentary Constituencies,str:field:IIDB_Meso:V_F_IIDB_MESO:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:IIDB_Meso:V_F_IIDB_MESO:SPC_CODE
 Age (bands and single year),str:field:IIDB_Meso:V_F_IIDB_MESO:AGE
 Working or Pension age,str:field:IIDB_Meso:V_F_IIDB_MESO:PENSION_AGE
 Gender (of sufferer),str:field:IIDB_Meso:V_F_IIDB_MESO:CCSEX

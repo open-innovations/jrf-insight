@@ -1,7 +1,8 @@
 dimension_name,dimension
 Pre and Post 22 Oct 2012 Sanctions Regime,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:REGIME
 Month Decision Made,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DECMTH
-Geography (residence-based),str:group:JSA_sanc_dec:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:COA_2011
+Westminster Parliamentary Constituency,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PARLC_CODE
 Age of Claimant (years and bands),str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:AGEYR
 Gender,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:SEX
 Ethnic Group,str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:SFR_ETH2

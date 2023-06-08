@@ -1,0 +1,7 @@
+dimension_name,dimension
+Decision Month,str:field:UC_WCA_DEC:F_UC_WCA_DEC_MONTH:DATE_NAME
+National - Regional - LA - OAs,str:field:UC_WCA_DEC:V_F_UC_WCA_DEC:COA_CODE
+National - Regional - LA - Ward,str:field:UC_WCA_DEC:V_F_UC_WCA_DEC:WARD_CODE
+Scottish Parliamentary Constituencies,str:field:UC_WCA_DEC:V_F_UC_WCA_DEC:SPC_CODE
+Westminster Parliamentary Constituencies,str:field:UC_WCA_DEC:V_F_UC_WCA_DEC:PARLC_CODE
+UC WCA decision outcomes,str:field:UC_WCA_DEC:V_F_UC_WCA_DEC:OUTCOME_CODE

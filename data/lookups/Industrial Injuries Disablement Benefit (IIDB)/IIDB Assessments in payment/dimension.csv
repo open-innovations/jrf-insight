@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:IIDB_IICS:F_IICS_DATE:DATE_NAME
-Geography (residence-based),str:group:IIDB_IICS:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:IIDB_IICS:V_F_IIDB_IICS:OA11
+National - Regional - LA - Ward,str:field:IIDB_IICS:V_F_IIDB_IICS:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:IIDB_IICS:V_F_IIDB_IICS:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:IIDB_IICS:V_F_IIDB_IICS:SPC_CODE
 Age (bands and single year),str:field:IIDB_IICS:V_F_IIDB_IICS:AGE
 Working or Pension age,str:field:IIDB_IICS:V_F_IIDB_IICS:PENSION_AGE
 Gender,str:field:IIDB_IICS:V_F_IIDB_IICS:CCSEX

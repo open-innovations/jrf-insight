@@ -1,6 +1,7 @@
 dimension_name,dimension
 Month Decision Made,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:ESA_MTH
-Geography (residence-based),str:group:IS_sanc_dec:X_Geography+%28residence-based%29+
+National - Regional - LA - OAs,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:COA_2011
+Westminster Parliamentary Constituency,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:PARLC_CODE
 Age of Claimant (years and bands),str:field:IS_sanc_dec:V_F_IS_SANC_DEC:AGEYR
 Decision Outcome,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:PUB_DEC
 Decision Type,str:field:IS_sanc_dec:V_F_IS_SANC_DEC:PUB_DTYPE

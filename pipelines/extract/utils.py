@@ -53,7 +53,19 @@ def get_variables(session, database_id):
             measures.append(id)
             measure_names.append(label)
             continue
-        
+        elif "str:group" in id:
+            for id, label in group_to_fields(session, locator=id):
+                #if there is >1 field, append each to a separate line of the csv
+                #else append as normal (avoids breking each character to new line) 
+                if len(id) > 1:
+                    for iden in id:
+                        dimensions.append(iden)
+                    for lab in label:
+                        dimension_names.append(lab)
+                else:
+                    dimensions.append(id)
+                    dimensions.append(label)
+            continue
         dimensions.append(id)
         dimension_names.append(label)
         
@@ -72,17 +84,14 @@ def make_csv(ids, labels, OUTDIR, type=None):
 
     return
 
-def group_to_field(session):
-    root_folder = "/data/lookups/"
-    print(root_folder)
-    for dirpath, dirnames, filenames in os.walk(root_folder):
-        if "dimension.csv" in dirnames:
-            dimension_folder_path = os.path.join(dirpath, "dimension.csv")
-            df = pd.read_csv(dimension_folder_path)
-            print(df)
-            if df.str.contains('str:group:'):
-                groups, group_labels = get_ids(session, locator=id)
-                print(groups, group_labels)
-                #measures.append(groups)
-                #measure_names.append(group_labels)
-    return
+def group_to_fields(session, locator):
+    '''
+    Take the 'group' names and return the field
+    labels and ids contained within. 
+    '''
+    try:
+        groups, group_labels = get_ids(session, locator=locator)
+        yield groups, group_labels
+    except:
+        print('failed to get groups for{}'.format(locator))
+

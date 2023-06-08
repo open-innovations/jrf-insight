@@ -1,20 +1,116 @@
 dimension_name,dimension
-Adult Income from All Sources,str:group:FRSPP:M_Adult+Income+from+All+Sources
-Adult Income from Employment and Self-employment,str:group:FRSPP:M_Adult+Income+from+Employment+and+Self-employment
-Household Income from All Sources,str:group:FRSPP:M_Household+Income+from+All+Sources
-Household Income from Employment and Self-employment,str:group:FRSPP:M_Household+Income+from+Employment+and+Self-employment
-Household Income from Other Sources,str:group:FRSPP:M_Household+Income+from+Other+Sources
-Household Income from State Support,str:group:FRSPP:M_Household+Income+from+State+Support
+"Adult total, net Income received from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_AMT
+"Adult total, net Income received from all sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_AMT_INYR
+"Adult total, annual, net Income received from all sources in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_INC
+"Adult total, annual, net Income received from all sources in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_INC_INYR
+"Adult total, annual, net Income received from Employment in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_EMP_INC
+"Adult total, annual, net Income received from Employment in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_EMP_INC_INYR
+"Adult total, annual, net Income received from Self Employment in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_SE_INC
+"Adult total, annual, net Income received from Self Employment in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_SE_INC_INYR
+"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:INC
+"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:INC_INYR
+"Household total, gross Income from Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:EARNS
+"Household total, gross Income from Employment in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:EARNS_INYR
+"Household total, gross Income from Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:SEINC
+"Household total, gross Income from Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:SEINC_INYR
+"Household total, gross Income from Investments in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:INV
+"Household total, gross Income from Investments in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:INV_INYR
+"Household total, gross Income from non state pensions in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:PENINC
+"Household total, gross Income from non state pensions in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:PENINC_INYR
+"Household total, gross Income from other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:OTH_SOURCE
+"Household total, gross Income from other sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:OTH_SOURCE_INYR
+"Household Income from Disability Benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:DISBEN
+"Household Income from Disability Benefits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:DISBEN_INYR
+"Household Income from other benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:OTHBEN
+"Household Income from other benefits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:OTHBEN_INYR
+"Household Income from State Pension, Income Support and Pension Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:RPINC
+"Household Income from State Pension, Income Support and Pension Credit in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:RPINC_INYR
+"Household Income from Tax Credits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:TXCRED
+"Household Income from Tax Credits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:TXCRED_INYR
+"Household Income from Universal Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:UC
+"Household Income from Universal Credit in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:UC_INYR
 Financial Year,str:field:FRSPP:V_F_FRSPP:YEAR
-Geography,str:group:FRSPP:X_Geography
+Country of the Household in the United Kingdom,str:field:FRSPP:V_F_FRSPP:COUNTRY
+Great Britain location of the Household,str:field:FRSPP:V_F_FRSPP:GB
+Government office region of the Household in the United Kingdom,str:field:FRSPP:V_F_FRSPP:REGION
+London location of the Household,str:field:FRSPP:V_F_FRSPP:LONDON
 Age band of the Individual,str:field:FRSPP:V_F_FRSPP:AGEBAND
 Gender of the Individual,str:field:FRSPP:V_F_FRSPP:SEX
 Tenure type of the Household,str:field:FRSPP:V_F_FRSPP:TENURE
-Care,str:group:FRSPP:X_Care
-Disability status and Impairment type,str:group:FRSPP:X_Disability+status+and+Impairment+type
-Employment status,str:group:FRSPP:X_Employment+status
-Ethnicity,str:group:FRSPP:X_Ethnicity
-Income,str:group:FRSPP:X_Income
-Pension scheme participation,str:group:FRSPP:X_Pension+scheme+participation
-Savings and investments,str:group:FRSPP:X_Savings+and+investments
-Type of Adult and Individual,str:group:FRSPP:X_Type+of+Adult+and+Individual
+Whether the Individual is an Informal Carer,str:field:FRSPP:V_F_FRSPP:CARE_FLAG
+Whether informal carer is also a sandwich carer,str:field:FRSPP:V_F_FRSPP:SANDWICH_CARER
+Whether the Individual receives care every week,str:field:FRSPP:V_F_FRSPP:REC_CARE
+Frequency of care received by the Individual,str:field:FRSPP:V_F_FRSPP:FREQ_CARE
+Number of hours spent providing care per week,str:field:FRSPP:V_F_FRSPP:PROV_CARE
+Caring for one person only,str:field:FRSPP:V_F_FRSPP:SING_CARE_NEW
+Caring for more than one person,str:field:FRSPP:V_F_FRSPP:MORE
+"Person or people cared for inside or, and outside of the Household",str:field:FRSPP:V_F_FRSPP:IN_OUT
+Person cared for within the Household (carers caring for one person only),str:field:FRSPP:V_F_FRSPP:CARED_FOR_HH
+Person cared for outside the Household (carers caring for one person only),str:field:FRSPP:V_F_FRSPP:CARED_FOR_NONHH
+Person cared for by the Informal Carer,str:field:FRSPP:V_F_FRSPP:CARED_FOR_TOT
+"Informal carers caring for a son or daughter, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_INSIDE_CHILD
+"Informal carers caring for a cohabitee, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_INSIDE_COHABITEE
+"Informal carers caring for a parent, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_INSIDE_PARENT
+"Informal carers caring for a brother or sister, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_INSIDE_SIBLING
+"Informal carers caring for a spouse or civil partner, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_INSIDE_SPOUSE
+"Informal carers caring for a non relative, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:care_inside_non_rel
+"Informal carers caring for other relative, inside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:care_inside_oth_rel
+"Informal carers caring for a son or daughter, outside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_OUTSIDE_CHILD
+"Informal carers caring for a parent, outside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_OUTSIDE_PARENT
+"Informal carers caring for a spouse or civil partner, outside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:CARE_OUTSIDE_PARTNER
+"Informal carers caring for a non relative, outside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:care_outside_non_rel
+"Informal carers caring for a brother, sister or other relative, outside household (caring for one or more people)",str:field:FRSPP:V_F_FRSPP:care_outside_oth_rel
+Disability Status of the Individual,str:field:FRSPP:V_F_FRSPP:DIS
+Difficulty with dexterity,str:field:FRSPP:V_F_FRSPP:DEXTERITY
+Difficulty with hearing,str:field:FRSPP:V_F_FRSPP:HEARING
+Difficulty with learning,str:field:FRSPP:V_F_FRSPP:LEARNING
+Difficulty with memory,str:field:FRSPP:V_F_FRSPP:MEMORY
+Difficulty with mental health,str:field:FRSPP:V_F_FRSPP:MENTAL_HEALTH
+Difficulty with mobility,str:field:FRSPP:V_F_FRSPP:MOBILITY
+Social or behavioural difficulty,str:field:FRSPP:V_F_FRSPP:SOCIAL
+Difficulty with stamina or breathing or fatigue,str:field:FRSPP:V_F_FRSPP:STAMINA
+Difficulty with vision,str:field:FRSPP:V_F_FRSPP:VISION
+Difficulty in other area of life,str:field:FRSPP:V_F_FRSPP:OTH_IMP
+Employment Status of the Adult (high level breakdowns),str:field:FRSPP:V_F_FRSPP:EMPSTATTOT
+Employment Status of the Adult (detailed breakdowns),str:field:FRSPP:V_F_FRSPP:EMPSTAT
+Self Employment Status of the Adult,str:field:FRSPP:V_F_FRSPP:SE_TYPE
+Harmonised Ethnic Group of the Adult  high level (please calculate three year averages  click on i for the correct method),str:field:FRSPP:V_F_FRSPP:ETHTOT
+Harmonised Ethnic Group of the Adult (please calculate three year averages  click on i for the correct method),str:field:FRSPP:V_F_FRSPP:ETH
+Asian Ethnicity Group of the Adult (please calculate three year averages  click on i for the correct method),str:field:FRSPP:V_F_FRSPP:ASIAN
+"Main source of Household's total, gross Income",str:field:FRSPP:V_F_FRSPP:MAIN_SOURCE_INC
+"Household total, gross Income from all sources (in bands with 100 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSPP:V_F_FRSPP:INC_BAND100
+"Household total, gross Income from all sources (in bands with 100 widths) in year prices (weekly, in nominal terms)",str:field:FRSPP:V_F_FRSPP:INC_BAND100_INYR
+"Household total, gross Income from all sources (in bands with 200 widths) in latest prices (weekly, CPI adjusted real terms)",str:field:FRSPP:V_F_FRSPP:INC_BAND200
+"Household total, gross Income from all sources (in bands with 200 widths) in year prices (weekly, in nominal terms)",str:field:FRSPP:V_F_FRSPP:INC_BAND200_INYR
+"Adult total, net Income received from all sources, in bands, in latest prices (weekly, CPI adjusted real terms)",str:field:FRSPP:V_F_FRSPP:NET_AMT_BAND
+"Adult total, net Income received from all sources, in bands, in year prices (weekly, in nominal terms)",str:field:FRSPP:V_F_FRSPP:NET_AMT_BAND_INYR
+Employment Status of the Adult (for pension type),str:field:FRSPP:V_F_FRSPP:PEN_EMPSTAT
+Pension scheme participation of the Adult,str:field:FRSPP:V_F_FRSPP:ADULT_PEN_PART
+Pension type of the Adult,str:field:FRSPP:V_F_FRSPP:ADULT_PEN_TYPE
+Employer sponsored pension type of the Adult,str:field:FRSPP:V_F_FRSPP:ADULT_PEN_TYPE_EMP
+Individual pension type of the Adult,str:field:FRSPP:V_F_FRSPP:ADULT_PEN_TYPE_IND
+Pension type of the employed Adult,str:field:FRSPP:V_F_FRSPP:EMP_PEN_TYPE
+Employer sponsored pension type of the employed Adult,str:field:FRSPP:V_F_FRSPP:EMP_PEN_TYPE_EMP
+Pension type of the self employed Adult,str:field:FRSPP:V_F_FRSPP:SE_PEN_TYPE
+Pension type of the economically inactive Adult,str:field:FRSPP:V_F_FRSPP:INACT_PEN_TYPE
+"Any accounts, excluding Post Office card accounts (POCAs) belonging to the Adult",str:field:FRSPP:V_F_FRSPP:ANY_EXC
+"Any accounts, including Post Office card accounts (POCAs) belonging to the Adult",str:field:FRSPP:V_F_FRSPP:ANY_INC
+"Any direct payment accounts, excluding Post Office card accounts (POCAs) belonging to the Adult",str:field:FRSPP:V_F_FRSPP:DPA_EXC
+"Any direct payment accounts, including Post Office card accounts (POCAs) belonging to the Adult",str:field:FRSPP:V_F_FRSPP:DPA_INC
+Any other bank or building society accounts belonging to the Adult,str:field:FRSPP:V_F_FRSPP:OTH_ACC
+Any other type of asset belonging to the Adult,str:field:FRSPP:V_F_FRSPP:ANY_OTH
+Basic bank accounts belonging to the Adult,str:field:FRSPP:V_F_FRSPP:BB_ACC
+Company share schemes (profit sharing) belonging to the Adult,str:field:FRSPP:V_F_FRSPP:COMP
+Credit union memberships of the Adult,str:field:FRSPP:V_F_FRSPP:CREDIT
+Current accounts belonging to the Adult,str:field:FRSPP:V_F_FRSPP:CURR
+Individual Saving Accounts (ISAs) belonging to the Adult,str:field:FRSPP:V_F_FRSPP:ISA
+National savings bonds belonging to the Adult,str:field:FRSPP:V_F_FRSPP:NS_BOND
+National Savings & Investments (NS&I) saving accounts belonging to the Adult,str:field:FRSPP:V_F_FRSPP:NSI_SAV
+Post Office Card Accounts (POCAs) belonging to the Adult,str:field:FRSPP:V_F_FRSPP:POCA
+Premium bonds belonging to the Adult,str:field:FRSPP:V_F_FRSPP:PREM
+Stocks and shares or share club memberships held by the Adult,str:field:FRSPP:V_F_FRSPP:STOCK
+Unit trusts belonging to the Adult,str:field:FRSPP:V_F_FRSPP:UNIT
+Unlinked endowment policies belonging to the Adult,str:field:FRSPP:V_F_FRSPP:ENDOW
+Any informal assets belonging to the Adult,str:field:FRSPP:V_F_FRSPP:INF_ASSETS
+Type of Individual,str:field:FRSPP:V_F_FRSPP:PP_IND
+Type of Adult,str:field:FRSPP:V_F_FRSPP:TYPE

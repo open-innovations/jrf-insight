@@ -1,15 +1,67 @@
 dimension_name,dimension
-Family (Benefit Unit) Income received from State Support,str:group:FRSBU:M_Family+%28Benefit+Unit%29+Income+received+from+State+Support
-Family (Benefit Unit) amount of savings and investments,str:group:FRSBU:M_Family+%28Benefit+Unit%29+amount+of+savings+and+investments
+"Family, total, annual amount of Income received from State Support in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT
+"Family, total, annual amount of Income received from State Support in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT_INYR
+"Family, total amount of savings and investments in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT
+"Family, total amount of savings and investments in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT_INYR
 Financial Year,str:field:FRSBU:V_F_FRSBU:YEAR
-Geography,str:group:FRSBU:X_Geography
+Country of the Household in the United Kingdom,str:field:FRSBU:V_F_FRSBU:COUNTRY
+Great Britain location of the Household,str:field:FRSBU:V_F_FRSBU:GB
+Government office region of the Household in the United Kingdom,str:field:FRSBU:V_F_FRSBU:REGION
+London location of the Household,str:field:FRSBU:V_F_FRSBU:LONDON
 Age band of the Head of the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:AGEBAND
 Age band of the Youngest Child in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_YOUNGCH
 Disability Status of the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_DIS_STAT
 Economic Status of the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_ECOSTAT
 Tenure type of the Household,str:field:FRSBU:V_F_FRSBU:TENURE
-Ethnicity,str:group:FRSBU:X_Ethnicity
-Family (Benefit Unit) Type,str:group:FRSBU:X_Family+%28Benefit+Unit%29+Type
-Benefit receipt,str:group:FRSBU:X_Benefit+receipt
-Income from State Support,str:group:FRSBU:X_Income+from+State+Support
-Savings and Investments,str:group:FRSBU:X_Savings+and+Investments
+Harmonised Ethnic Group of the Head of the Family  high level (please calculate three year averages  click on i for the correct method),str:field:FRSBU:V_F_FRSBU:ETHTOT
+Harmonised Ethnic Group of the Head of the Family (Benefit Unit) (please calculate three year averages click on i for the correct method),str:field:FRSBU:V_F_FRSBU:ETH
+Asian Ethnicity Group of the Head of the Family (Benefit Unit) (please calculate three year averages  click on i for the correct method),str:field:FRSBU:V_F_FRSBU:ASIAN
+Family Type (high level breakdowns),str:field:FRSBU:V_F_FRSBU:BU_FAMILY_TOT
+Family Type (detailed breakdowns),str:field:FRSBU:V_F_FRSBU:BU_FAMILY
+Marital Status of Adults in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_MARITAL
+Type of Couple in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_COUPLE
+Attendance Allowance (AA) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_AA
+Armed Forces Compensation Scheme (AFCS) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_AFCS
+Carer's Allowance (CA) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_CA
+Child Benefit (CHB) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_CHB
+Child Tax Credits (CTC) including lump sums received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_CTC
+Disability Living Allowance (DLA) Self Care received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_DLAC
+Disability Living Allowance (DLA) Mobility received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_DLAM
+Employment and Support Allowance (ESA)  Income Related or Contributory or both received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_ESA
+Housing Benefit (HB) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_HB
+Incapacity Benefit (IB) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_IB
+Industrial Injuries Disablement Benefit (IIDB) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_IIDB
+Income Support (IS) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_IS
+Jobseeker's Allowance (JSA)  Income based or Contributory or both received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_JSA
+Pension Credit (PC) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_PC
+Personal Independence Payment (PIP) Daily Living received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_PIPDL
+Personal Independence Payment (PIP) Mobility received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_PIPM
+Retirement Pension (RP) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_RP
+Severe Disablement Allowance (SDA) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_SDA
+Universal Credit (UC) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_UC
+Widow's Benefit (WB) received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_WB
+Working Tax Credits (WTC) including lump sums received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:REC_WTC
+State Support received by the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BU_SS
+"Family, total, annual amount of Income received from State Support, in bands, in latest prices (CPI adjusted real terms)",str:field:FRSBU:V_F_FRSBU:BU_SS_BAND
+"Family, total, annual amount of Income received from State Support, in bands, in year prices (in nominal terms)",str:field:FRSBU:V_F_FRSBU:BU_SS_BAND_INYR
+"Family, total amount of savings and investments, in bands, in latest prices (CPI adjusted real terms)",str:field:FRSBU:V_F_FRSBU:SAVINGS_BAND
+"Family, total amount of savings and investments, in bands, in year prices (in nominal terms)",str:field:FRSBU:V_F_FRSBU:SAVINGS_BAND_INYR
+"Any accounts, excluding Post Office card accounts (POCAs) belonging to the Individuals in the Family (Benefit Unit)",str:field:FRSBU:V_F_FRSBU:ANY_EXC
+"Any accounts, including Post Office card accounts (POCAs) belonging to the Individuals in the Family (Benefit Unit)",str:field:FRSBU:V_F_FRSBU:ANY_INC
+"Any direct payment accounts, excluding Post Office card accounts (POCAs) belonging to the Individuals in the Family (Benefit Unit)",str:field:FRSBU:V_F_FRSBU:DPA_EXC
+"Any direct payment accounts, including Post Office card accounts (POCAs) belonging to the Individuals in the Family (Benefit Unit)",str:field:FRSBU:V_F_FRSBU:DPA_INC
+Any other bank or building society accounts belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:OTH_ACC
+Any other type of asset belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:ANY_OTH
+Basic bank accounts belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:BB_ACC
+Company share schemes (profit sharing) belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:COMP
+Credit union memberships of the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:CREDIT
+Current accounts belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:CURR
+Individual Savings Accounts (ISAs) belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:ISA
+National savings bonds belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:NS_BOND
+National Savings & Investments (NS&I) savings accounts belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:NSI_SAV
+Post Office card accounts (POCAs) belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:POCA
+Premium bonds belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:PREM
+Stocks and shares or share club memberships held by the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:STOCK
+Unit trusts belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:UNIT
+Unlinked endowment policies belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:ENDOW
+Any informal assets belonging to the Individuals in the Family (Benefit Unit),str:field:FRSBU:V_F_FRSBU:INF_ASSETS

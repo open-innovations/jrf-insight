@@ -1,11 +1,10 @@
 dimension_name,dimension
 Month,str:field:Benefit_Cap_Monthly:F_BC_DATE_2001:MONTH
-Geography (residence-based),str:group:Benefit_Cap_Monthly:X_Geography+%28residence-based%29
-Age,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:AGE_YEAR
-Gender (single claimants),str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:SINGLE_GEN
-Family Type,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:FAMILY_PUB
-Number of Children,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:NO_CHILDREN
-Private or Social Rented,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:TENURE_PUB
-Detailed Housing Type,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:SECTOR_PUB
-Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:CAP_GROUP
-Housing Benefit Amount (in bands),str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:AMT_BAND_LOW
+Age,['str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:PARLC_code']
+Gender (single claimants),['Westminster Parliamentary Constituency']
+Family Type,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:AGE_YEAR
+Number of Children,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:SINGLE_GEN
+Private or Social Rented,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:FAMILY_PUB
+Detailed Housing Type,str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:NO_CHILDREN
+Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:TENURE_PUB
+Housing Benefit Amount (in bands),str:field:Benefit_Cap_Monthly:V_F_BC_MONTHLY_FULL:SECTOR_PUB

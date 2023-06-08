@@ -1,8 +1,18 @@
 dimension_name,dimension
 Date of DWP Decision,str:field:ESA_WCA_JR:F_ESA_WCA_JCPRESULT_DATE:DATE_NAME
-Geography (residence-based),str:group:ESA_WCA_JR:X_Geography+%28residence-based%29
+National - Regional - LAs,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:CEN2011_COA
+National - Regional - LA - Ward,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:WARD_CODE
+Westminster Parliamentary Constituency,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:SPC_CODE
 Type of Assessment,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:type
 Outcome,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:outcome
 ESA Group Allocation (and Reasons),str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:outcome_reason
 Medical Condition,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:cg21
-Functional Impairment Reason,str:group:ESA_WCA_JR:X_Functional+Impairment+Reason
+Lower Limb,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Lower_limb
+Upper Limb,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Upper_limb
+Sensory,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Sensory
+Continence,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Continence
+Consciousness,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Consciousness
+Understanding and Focus,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Understanding_and_focus
+Adapting to Change,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Adapting_to_change
+Social Interaction,str:field:ESA_WCA_JR:V_F_ESA_WCA_JCPRESULT:Social_interaction
