@@ -8,13 +8,13 @@ stages:
       size: 164448
       nfiles: 324
     - path: pipelines/extract/extract.py
-      md5: 884362697b3bb06347c3ae211a8c1721
-      size: 826
+      md5: 7c1e24b6378e285078f2b298d68d5cf0
+      size: 1439
     - path: pipelines/extract/utils.py
-      md5: 4df267f42fa8825c431eacaf4aa8796e
-      size: 4206
+      md5: 562d680abfe95932727d97fcd8bbacdb
+      size: 10885
     outs:
     - path: data/csv
-      md5: 4cd6fc479289d5301c46b2d4714e3605.dir
-      size: 688
-      nfiles: 1
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0

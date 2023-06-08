@@ -5,3 +5,4 @@ python_version = "3.10"
 statxplore = "*"
 dvc = "*"
 pandas = "*"
+statxplorer = {file = "https://github.com/philipbrien/statxplorer/zipball/master"}
