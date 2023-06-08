@@ -1,7 +1,8 @@
 import os
 import pandas as pd
+import json
+from statxplore import http_session
 from statxplore import objects
-from utils import session
 
 path = 'data/csv'
 os.makedirs(path, exist_ok=True)

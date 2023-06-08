@@ -1,16 +1,16 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/IB_reassessment.json
-      -o working/test.csv
+    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/json/HBAI_test.json
+      -o working/HBAI/HBAI_test.csv
     deps:
-    - path: pipelines/extract/IB_reassessment.json
-      md5: 512778d7395bfacfc91532d0e9d89352
-      size: 209
+    - path: pipelines/extract/json/HBAI_test.json
+      md5: 70d7c0d7750edbfd41a626fa7d04d649
+      size: 143
     outs:
-    - path: working/test.csv
-      md5: fabbffc8ebf60678c6b6577fbcb43ea9
-      size: 13434
+    - path: working/HBAI/HBAI_test.csv
+      md5: ad97a3684ac99aabbb8c0f62e7109141
+      size: 688
       isexec: true
   harvester:
     cmd: PYTHONPATH=pipelines/extract/harvester.py
@@ -28,11 +28,11 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
     deps:
     - path: pipelines/extract/probe.py
-      md5: 338a1ee54c74dc2b35c75551b2c1a482
-      size: 2098
+      md5: 8f93f13ad8f494d3a4385046b3763fef
+      size: 2075
     - path: pipelines/extract/utils.py
-      md5: 3396271e915cdbd8a61b34448676748c
-      size: 3017
+      md5: ac2515060881a34e1edd559bbf2e8af4
+      size: 4171
     outs:
     - path: data/lookups
       md5: f8a441059a0be897bbc80d6025b8e74b.dir

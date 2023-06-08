@@ -25,10 +25,10 @@ stages:
   # extract:
   #   wdir: ../..
   #   always_changed: True
-  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/IB_reassessment.json -o working/test.csv
+  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/json/HBAI_test.json -o working/HBAI/HBAI_test.csv
   #   deps:
-  #     - pipelines/extract/IB_reassessment.json
+  #     - pipelines/extract/json/HBAI_test.json
   #   outs:
-  #     - working/test.csv:
+  #     - working/HBAI/HBAI_test.csv:
   #         cache: false
   #         persist: false
