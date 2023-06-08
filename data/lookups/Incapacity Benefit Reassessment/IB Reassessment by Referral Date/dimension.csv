@@ -1,4 +1,5 @@
 dimension_name,dimension
 Month,str:field:IBR_REF:F_IBR_REF_MONTH:DATE_NAME
-Geography (residence-based),str:group:IBR_REF:X_Geography+%28residence-based%29
+National - Regional - LAs,str:field:IBR_REF:V_F_IBR_REF:coa_2011
+Westminster Parliamentary Constituency,str:field:IBR_REF:V_F_IBR_REF:PARLC_CODE
 Outcome,str:field:IBR_REF:V_F_IBR_REF:outcome

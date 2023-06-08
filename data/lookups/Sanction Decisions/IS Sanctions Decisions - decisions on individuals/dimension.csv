@@ -1,6 +1,7 @@
 dimension_name,dimension
 Month Decision Made,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:ESA_MTH
-Geographies (residence-based),str:group:IS_sanc_ind:X_Geographies+%28residence-based%29
+National - Regional - LA - OAs,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:COA_2011
+Westminster Parliamentary Constituency,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PARLC_CODE
 Age of Claimant (years and bands),str:field:IS_sanc_ind:V_F_IS_SANC_DEC:AGEYR
 Decision Outcome,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_DEC
 Decision Type,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_DTYPE
@@ -9,4 +10,3 @@ Ethnic Group,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:SFR_ETH2
 Gender,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:SEX
 Lone Parent Indicator,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_LPFLAG
 Referral Reason,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_REAS
-Number of Adverse Sanction Decisions,str:group:IS_sanc_ind:X_Number+of+Adverse+Sanction+Decisions

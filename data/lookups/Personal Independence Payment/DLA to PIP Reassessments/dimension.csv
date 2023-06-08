@@ -1,6 +1,7 @@
 dimension_name,dimension
 Month,str:field:PIP_DLA_Reassessment:F_PIP_DATE:DATE2
-Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_DLA_Reassessment:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+National - Regional - LA - OAs,str:field:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:COA_2011
+Westminster Parliamentary Constituency,str:field:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:PCON
 DLA Care Award Type,str:field:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:CCCAREAWD_CODE
 DLA Main Disabling Condition,str:field:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:DISABLED
 DLA Mobility Award Type,str:field:PIP_DLA_Reassessment:V_F_PIP_DLA_REASSESSMENT:CCMOBAWD_CODE

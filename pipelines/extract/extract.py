@@ -1,5 +1,4 @@
 import os
-import json
 import pandas as pd
 from statxplore import objects
 from utils import session
@@ -13,6 +12,6 @@ database = pd.read_csv(os.path.join(LOOKUP_DIR, 'database.csv')).iloc[0]['databa
 #     ['str:field:HBAI:V_F_HBAI:YEAR'], ['str:field:HBAI:V_F_HBAI:SEX']])
 table = objects.Table('str:database:HBAI').run_query(session,
     measures=[ "str:statfn:HBAI:V_F_HBAI:GS_INDPP:SUM" ],
-    dimensions=[["str:group:HBAI:X_Net+Household+Income+Threshold+After+Housing+Costs+%28AHC%29+for+the+Household+of+the+Individual%3A"]],
+    dimensions=[["str:field:HBAI:V_F_HBAI:TYPE_AGECAT"]],
 )
 print(table)

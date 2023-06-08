@@ -22,7 +22,7 @@ def get_ids(session, locator=None):
         schema = objects.Schema.list(session)
     else:
         schema = objects.Schema(locator).get(session)
-    
+    #print(schema)    
     children = schema.get('children')
 
     ids = []
@@ -41,12 +41,11 @@ def get_variables(session, database_id):
     '''
     schema = objects.Schema(database_id).get(session)
     children = schema.get('children')
-
     measures = []
     measure_names = []
     dimensions = []
     dimension_names = []
-
+    #print(children)
     for i in children:
 
         id = str(i.get('id'))
@@ -56,7 +55,19 @@ def get_variables(session, database_id):
             measures.append(id)
             measure_names.append(label)
             continue
-        
+        elif "str:group" in id:
+            for id, label in group_to_fields(session, locator=id):
+                #if there is >1 field, append each to a separate line of the csv
+                #else append as normal (avoids breking each character to new line) 
+                if len(id) > 1:
+                    for iden in id:
+                        dimensions.append(iden)
+                    for lab in label:
+                        dimension_names.append(lab)
+                else:
+                    dimensions.append(id)
+                    dimensions.append(label)
+            continue
         dimensions.append(id)
         dimension_names.append(label)
         
@@ -74,3 +85,15 @@ def make_csv(ids, labels, OUTDIR, type=None):
     df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
 
     return
+
+def group_to_fields(session, locator):
+    '''
+    Take the 'group' names and return the field
+    labels and ids contained within. 
+    '''
+    try:
+        groups, group_labels = get_ids(session, locator=locator)
+        yield groups, group_labels
+    except:
+        print('failed to get groups for{}'.format(locator))
+

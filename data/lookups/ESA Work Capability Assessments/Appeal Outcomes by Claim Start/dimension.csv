@@ -5,5 +5,15 @@ Outcome,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:outcome
 Appeal Outcome,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:appeal
 ESA Group Allocation (and Reasons),str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:outcome_reason
 Medical Condition,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:cg21
-Functional Impairment Reason,str:group:ESA_WCA_APPEAL:X_Functional+Impairment+Reason
-Geographies (residence-based),str:group:ESA_WCA_APPEAL:X_Geographies+%28residence-based%29
+Adapting to Change,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Adapting_to_change
+Consciousness,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Consciousness
+Continence,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Continence
+Lower Limb,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Lower_limb
+Sensory,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Sensory
+Social Interaction,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Social_interaction
+Understanding and Focus,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Understanding_and_focus
+Upper Limb,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:Upper_limb
+National - Regional - LAs,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:CEN2011_COA
+National - Regional - LA - Ward,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:WARD_CODE
+Westminster Parliamentary Constituency,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:PCON
+Scottish Parliamentary Constituencies,str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:SPC_CODE

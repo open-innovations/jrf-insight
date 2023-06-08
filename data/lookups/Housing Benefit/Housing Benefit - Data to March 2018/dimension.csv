@@ -1,18 +1,23 @@
 dimension_name,dimension
 Month,str:field:hb_full:V_F_DATE:DATE2
-Geography (admin-based),str:group:hb_full:X_Geography+%28admin-based%29
-Geography (residence-based),str:group:hb_full:X_Geography+%28residence-based%29
-Age of Claimant (years and bands),str:field:hb_full:V_F_HB_FULL:AGE_YEAR
-Age of Claimant (bands only),str:field:hb_full:V_F_HB_FULL:AGE_BAND
-Family Type,str:field:hb_full:V_F_HB_FULL:FAMILY_PUB
-Number of Child-Dependants,str:field:hb_full:V_F_HB_FULL:NUM_DEPS
-Number of Non-Dependants,str:field:hb_full:V_F_HB_FULL:NUM_NDEPS
-Gender (single claimants only),str:field:hb_full:V_F_HB_FULL:SINGLE_GEN
-Private or Social Rented,str:field:hb_full:V_F_HB_FULL:TENURE_PUB
-Detailed Housing Type,str:field:hb_full:V_F_HB_FULL:SECTOR_PUB
-Entitled Bedrooms (LHA only),str:field:hb_full:V_F_HB_FULL:LHAROOM
-Passported Benefit Status,str:field:hb_full:V_F_HB_FULL:PASSPORTIND
-Employment Status,str:field:hb_full:V_F_HB_FULL:EMP
-Weekly Award Amount (bands),str:field:hb_full:V_F_HB_FULL:AMT_BAND_LOW
-Payment Destination,str:field:hb_full:V_F_HB_FULL:CCPAYDEST
-Removal of Spare Room Subsidy,str:group:hb_full:X_Removal+of+Spare+Room+Subsidy
+National - Regional - LA - OAs,['str:field:hb_full:V_F_HB_FULL:ADMIN_LA_code']
+Westminster Parliamentary Constituencies,['National - Regional - Admin LA']
+Scottish Parliamentary Constituencies,str:field:hb_full:V_F_HB_FULL:COA_CODE
+Eurostat NUTS Areas,str:field:hb_full:V_F_HB_FULL:PARLC_CODE
+Travel to Work Areas (TTWAs),str:field:hb_full:V_F_HB_FULL:SPARLC_CODE
+Age of Claimant (years and bands),str:field:hb_full:V_F_HB_FULL:LAU1_CODE
+Age of Claimant (bands only),str:field:hb_full:V_F_HB_FULL:TTWA_CODE
+Family Type,str:field:hb_full:V_F_HB_FULL:AGE_YEAR
+Number of Child-Dependants,str:field:hb_full:V_F_HB_FULL:AGE_BAND
+Number of Non-Dependants,str:field:hb_full:V_F_HB_FULL:FAMILY_PUB
+Gender (single claimants only),str:field:hb_full:V_F_HB_FULL:NUM_DEPS
+Private or Social Rented,str:field:hb_full:V_F_HB_FULL:NUM_NDEPS
+Detailed Housing Type,str:field:hb_full:V_F_HB_FULL:SINGLE_GEN
+Entitled Bedrooms (LHA only),str:field:hb_full:V_F_HB_FULL:TENURE_PUB
+Passported Benefit Status,str:field:hb_full:V_F_HB_FULL:SECTOR_PUB
+Employment Status,str:field:hb_full:V_F_HB_FULL:LHAROOM
+Weekly Award Amount (bands),str:field:hb_full:V_F_HB_FULL:PASSPORTIND
+Payment Destination,str:field:hb_full:V_F_HB_FULL:EMP
+Spare Room Subsidy Indicator,str:field:hb_full:V_F_HB_FULL:AMT_BAND_LOW
+Number of Spare Rooms,str:field:hb_full:V_F_HB_FULL:CCPAYDEST
+Weekly Spare Room Reduction Amount (bands),str:field:hb_full:V_F_HB_FULL:SSSC_PUB

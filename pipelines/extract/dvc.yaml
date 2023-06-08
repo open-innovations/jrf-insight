@@ -1,24 +1,34 @@
-stages: 
-  # probe:
-  #   cmd: PYTHONPATH= python pipelines/extract/probe.py 
-  #   # always_changed: true
-  #   wdir: ../..
-  #   deps:
-  #     - pipelines/extract/probe.py
-  #     - pipelines/extract/utils.py
-  #   outs:
-  #     - data/lookups:
-  #         cache: false
-  #         persist: false
-  extract:
-    cmd: PYTHONPATH= python pipelines/extract/extract.py 
+stages:
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py
     # always_changed: true
     wdir: ../..
     deps:
-      - pipelines/extract/extract.py
+      - pipelines/extract/probe.py
       - pipelines/extract/utils.py
-      - data/lookups
     outs:
-      - data/csv:
+      - data/lookups:
           cache: false
-          persist: false  
+          persist: false
+  # extract:
+  #   cmd: PYTHONPATH= python pipelines/extract/extract.py
+  #   # always_changed: true
+  #   wdir: ../..
+  #   deps:
+  #     - pipelines/extract/extract.py
+  #     - pipelines/extract/utils.py
+  #     - data/lookups
+  #   outs:
+  #     - data/csv:
+  #         cache: false
+  #         persist: false
+  # extract:
+  #   wdir: ../..
+  #   always_changed: True
+  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/IB_reassessment.json -o working/test.csv
+  #   deps:
+  #     - pipelines/extract/IB_reassessment.json
+  #   outs:
+  #     - working/test.csv:
+  #         cache: false
+  #         persist: false

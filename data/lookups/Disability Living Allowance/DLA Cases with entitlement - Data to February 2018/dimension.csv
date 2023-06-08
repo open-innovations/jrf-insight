@@ -1,6 +1,8 @@
 dimension_name,dimension
 Quarter,str:field:DLA_Entitled:F_DLA_QTR:DATE_NAME
-Geography (residence-based),str:group:DLA_Entitled:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:DLA_Entitled:V_F_DLA_Entitled:COA_CODE
+Westminster Parliamentary Constituencies,str:field:DLA_Entitled:V_F_DLA_Entitled:PARLC_code
+Scottish Parliamentary Constituencies,str:field:DLA_Entitled:V_F_DLA_Entitled:SPARLC_code
 Age (bands and single year),str:field:DLA_Entitled:V_F_DLA_Entitled:CNAGE
 Care Award Type,str:field:DLA_Entitled:V_F_DLA_Entitled:CAREAWD
 Client Type,str:field:DLA_Entitled:V_F_DLA_Entitled:CCCLIENT

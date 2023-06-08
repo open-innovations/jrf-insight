@@ -1,6 +1,7 @@
 dimension_name,dimension
 Month,str:field:PIP_AR_COC_Clearances_pre2016:F_PIP_DATE_PRE2016:DATE2
-Geography (residence-based),str:group:PIP_AR_COC_Clearances_pre2016:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:PIP_AR_COC_Clearances_pre2016:V_F_PIP_AR_COC_CLEARANCES_PRE2016:COA_2011
+Westminster Parliamentary Constituency,str:field:PIP_AR_COC_Clearances_pre2016:V_F_PIP_AR_COC_CLEARANCES_PRE2016:PCON
 Age (bands and single year),str:field:PIP_AR_COC_Clearances_pre2016:V_F_PIP_AR_COC_CLEARANCES_PRE2016:SINGLE_AGE
 Disability,str:field:PIP_AR_COC_Clearances_pre2016:V_F_PIP_AR_COC_CLEARANCES_PRE2016:DISABILITY_CODE
 Gender,str:field:PIP_AR_COC_Clearances_pre2016:V_F_PIP_AR_COC_CLEARANCES_PRE2016:SEX

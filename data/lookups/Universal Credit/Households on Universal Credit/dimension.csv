@@ -1,15 +1,31 @@
 dimension_name,dimension
 Month,str:field:UC_Households:F_UC_HH_DATE:DATE_NAME
-Geography (residence-based),str:group:UC_Households:X_Geography+%28residence-based%29
-Geography (Jobcentre Plus),str:group:UC_Households:X_Geography+%28Jobcentre+Plus%29
-Geography (postcode),str:group:UC_Households:X_Geography+%28postcode%29
-Family Type,str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnfamily_type
-Children in Universal Credit Households,str:group:UC_Households:X_Children+in+Universal+Credit+Households
-Payment Indicator,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCPAYMENT
-Monthly Award Amount (bands),str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnpayment_band
-Universal Credit Entitlement,str:group:UC_Households:X_Universal+Credit+Entitlement
-Alternative Payment Arrangements,str:group:UC_Households:X_Alternative+Payment+Arrangements
-Universal Credit Scottish Choices,str:group:UC_Households:X_Universal+Credit+Scottish+Choices
-Payment Timeliness,str:group:UC_Households:X_Payment+Timeliness
-Removal of spare room subsidy,str:group:UC_Households:X_Removal+of+spare+room+subsidy
-Local Housing Allowance,str:group:UC_Households:X_Local+Housing+Allowance
+National - Regional - LA - OAs,str:field:UC_Households:V_F_UC_HOUSEHOLDS:COA_CODE
+National - Regional - LA - Ward,str:field:UC_Households:V_F_UC_HOUSEHOLDS:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:UC_Households:V_F_UC_HOUSEHOLDS:PARLC_CODE
+Family Type,['str:field:UC_Households:V_F_UC_HOUSEHOLDS:JCP_OFFICE_CODE']
+Number of Children,['Jobcentre Plus']
+Number of Children Aged 0 to 4,['str:field:UC_Households:V_F_UC_HOUSEHOLDS:POSTCODE_DISTRICT']
+Number of Children Aged 5 to 10,['Postcode Area - District']
+Number of Children Aged 11 to 15,str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnfamily_type
+Number of Children Aged 16 to 19,str:field:UC_Households:V_F_UC_HOUSEHOLDS:NUMBER_OF_CHILDREN
+Age of Youngest Child (bands and single year),str:field:UC_Households:V_F_UC_HOUSEHOLDS:child_age_0_to_4
+Payment Indicator,str:field:UC_Households:V_F_UC_HOUSEHOLDS:child_age_5_to_10
+Monthly Award Amount (bands),str:field:UC_Households:V_F_UC_HOUSEHOLDS:child_age_11_to_15
+Carer Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:child_age_16_to_19
+Child Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:YOUNGEST_CHILD_AGE
+Child Care Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCPAYMENT
+Disabled Child Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:hnpayment_band
+Housing Entitlement - Tenure,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCCARER_ENTITLEMENT
+Limited Capability for Work Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCCHILD_ENTITLEMENT
+Managed Payment to Landlord,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCCHILD_CARE_ENTITLEMENT
+More Frequent Payment,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCDISABLED_CHILD_ENTITLEMENT
+Split Payment,str:field:UC_Households:V_F_UC_HOUSEHOLDS:TENURE
+Scottish Choices Direct Payment to Landlord,str:field:UC_Households:V_F_UC_HOUSEHOLDS:HCLCW_ENTITLEMENT
+Scottish Choices More Frequent Payment,str:field:UC_Households:V_F_UC_HOUSEHOLDS:mptl_flag
+New Claims,str:field:UC_Households:V_F_UC_HOUSEHOLDS:mfp_flag
+All Claims,str:field:UC_Households:V_F_UC_HOUSEHOLDS:sp_flag
+Bedroom Entitlement,str:field:UC_Households:V_F_UC_HOUSEHOLDS:scottish_flex_dpl_flag
+Number of spare bedrooms,str:field:UC_Households:V_F_UC_HOUSEHOLDS:scottish_flex_mfp_flag
+Local Housing Allowance indicator,str:field:UC_Households:V_F_UC_HOUSEHOLDS:payment_timeliness_AP1
+Broad rental market area,str:field:UC_Households:V_F_UC_HOUSEHOLDS:payment_timeliness_all_APs

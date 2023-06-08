@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:CMS_PARENT:F_P_DATE:DATE_NAME
-Geography (residence-based),str:group:CMS_PARENT:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:CMS_PARENT:V_F_CMS_PARENT:coa
+National - Regional - LA - Ward,str:field:CMS_PARENT:V_F_CMS_PARENT:WARD_CODE
+Scottish Parliamentary Constituencies,str:field:CMS_PARENT:V_F_CMS_PARENT:SPC_CODE
+Westminster Parliamentary Constituencies,str:field:CMS_PARENT:V_F_CMS_PARENT:PARLC_CODE
 Age Band,str:field:CMS_PARENT:V_F_CMS_PARENT:age
 Gender,str:field:CMS_PARENT:V_F_CMS_PARENT:sex
 Compliance (Collect & Pay),str:field:CMS_PARENT:V_F_CMS_PARENT:cp_comp_band

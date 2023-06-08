@@ -1,5 +1,6 @@
 dimension_name,dimension
-Geography (residence-based),str:group:WP_Sustainment_Ind:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:COA_CODE
+Westminster Parliamentary Constituency,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:PCON
 Age Band,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:AGE_CODE
 Contract Package Area and Contract,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:CONTRACT_CODE
 Disability Indicator,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:DISABILITY_CODE

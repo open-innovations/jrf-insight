@@ -1,9 +1,25 @@
 dimension_name,dimension
 Quarter,str:field:Ben_Com_New:F_BENCOM_QTR_NEW:DATE_NAME
-Geography (residence-based),str:group:Ben_Com_New:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:Ben_Com_New:V_F_BENCOM_NEW:COA_2011
+National - Regional - LA - Ward,str:field:Ben_Com_New:V_F_BENCOM_NEW:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:Ben_Com_New:V_F_BENCOM_NEW:PARLC_CODE
 Age (bands and single year),str:field:Ben_Com_New:V_F_BENCOM_NEW:cnage
 Gender,str:field:Ben_Com_New:V_F_BENCOM_NEW:ccsex
 Number of Benefits,str:field:Ben_Com_New:V_F_BENCOM_NEW:NoOfBen
 Working or Pension Age Group,str:field:Ben_Com_New:V_F_BENCOM_NEW:ageband
-Benefit Groups,str:group:Ben_Com_New:X_Benefit+Groups
-Benefit,str:group:Ben_Com_New:X_Benefit
+Benefit Combinations (Out of Work),str:field:Ben_Com_New:V_F_BENCOM_NEW:OOW
+Benefit Combinations (State Pension Age),str:field:Ben_Com_New:V_F_BENCOM_NEW:SPA_GROUP
+Benefit Combinations (Working Age),str:field:Ben_Com_New:V_F_BENCOM_NEW:WA_GROUP
+"BSP, WB & BB",str:field:Ben_Com_New:V_F_BENCOM_NEW:BSP_WB_BB
+CA,str:field:Ben_Com_New:V_F_BENCOM_NEW:CA
+ESA,str:field:Ben_Com_New:V_F_BENCOM_NEW:ESA
+HB,str:field:Ben_Com_New:V_F_BENCOM_NEW:HB
+IIDB,str:field:Ben_Com_New:V_F_BENCOM_NEW:IIDB
+INCAP,str:field:Ben_Com_New:V_F_BENCOM_NEW:INCAP
+IS,str:field:Ben_Com_New:V_F_BENCOM_NEW:IS
+JSA,str:field:Ben_Com_New:V_F_BENCOM_NEW:JSA
+PC,str:field:Ben_Com_New:V_F_BENCOM_NEW:PC
+PIP,str:field:Ben_Com_New:V_F_BENCOM_NEW:PIP
+"PIP, DLA & AA",str:field:Ben_Com_New:V_F_BENCOM_NEW:PIP_DLA_AA
+SP,str:field:Ben_Com_New:V_F_BENCOM_NEW:SP
+UC,str:field:Ben_Com_New:V_F_BENCOM_NEW:UC_GROUP

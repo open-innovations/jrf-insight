@@ -1,10 +1,13 @@
 dimension_name,dimension
 First Earnings from Employment Month,str:field:WHP_First_Earnings:F_WHP_DATE:DATE_NAME
 Start Month,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:START_MONTH
-Geography (residence-based),str:group:WHP_First_Earnings:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:COA11_R
+Westminster Parliamentary Constituencies,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:PARLC_CODE
 Age (bands and single year),str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:AGE
 Area,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:CONTRACT_REFERENCE_NUMBER
 Devolved Deal Area,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:DDA_FLAG
 Eligibility Group,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:ENTRY_TYPE
 Gender,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:CCSEX
-First Earnings from Employment Achieved,str:group:WHP_First_Earnings:X_First+Earnings+from+Employment+Achieved
+Earnings Within 6 Months of Start,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:FP_6m_flag
+Earnings Within 12 Months of Start,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:FP_12m_flag
+Earnings Within 24 Months of Start,str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:FP_24m_flag

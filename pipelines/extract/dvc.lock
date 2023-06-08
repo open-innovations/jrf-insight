@@ -1,23 +1,17 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: PYTHONPATH= python pipelines/extract/extract.py
+    cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/IB_reassessment.json
+      -o working/test.csv
     deps:
-    - path: data/lookups
-      md5: f94222593652df0beb5724939134ed6d.dir
-      size: 102134
-      nfiles: 318
-    - path: pipelines/extract/extract.py
-      md5: bc7124fd8e67a3d3f1a24b70799b17b6
-      size: 714
-    - path: pipelines/extract/utils.py
-      md5: ab987aa3a1ff27beaab8e9e17d8b7044
-      size: 2181
+    - path: pipelines/extract/IB_reassessment.json
+      md5: 512778d7395bfacfc91532d0e9d89352
+      size: 209
     outs:
-    - path: data/csv
-      md5: d751713988987e9331980363e24189ce.dir
-      size: 0
-      nfiles: 0
+    - path: working/test.csv
+      md5: fabbffc8ebf60678c6b6577fbcb43ea9
+      size: 13434
+      isexec: true
   harvester:
     cmd: PYTHONPATH=pipelines/extract/harvester.py
     deps:
@@ -34,16 +28,16 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
     deps:
     - path: pipelines/extract/probe.py
-      md5: 7ab44dfc3fa212e752d0129ce9e7e484
-      size: 1032
+      md5: 338a1ee54c74dc2b35c75551b2c1a482
+      size: 2098
     - path: pipelines/extract/utils.py
-      md5: 2b8ba76c296dff83c5a9092f3dc06829
-      size: 2158
+      md5: 3396271e915cdbd8a61b34448676748c
+      size: 3017
     outs:
     - path: data/lookups
-      md5: f94222593652df0beb5724939134ed6d.dir
-      size: 100539
-      nfiles: 318
+      md5: f8a441059a0be897bbc80d6025b8e74b.dir
+      size: 164448
+      nfiles: 324
   probe2:
     cmd: PYTHONPATH= python pipelines/extract/probe2.py
     deps:

@@ -1,7 +1,8 @@
 dimension_name,dimension
 Pre and Post 22 Oct 2012 Sanctions Regime,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:REGIME
 Month Decision Made,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PUB_DECMTH
-Geography (residence-based),str:group:JSA_sanc_ind:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:COA_2011
+Westminster Parliamentary Constituency,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PARLC_CODE
 Age of Claimant (years and bands),str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:AGEYR
 Gender,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:SEX
 Ethnic Group,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:SFR_ETH2
@@ -12,4 +13,7 @@ Decision Outcome,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PUB_DEC
 Sanction Level - New Regime,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PUB_SANCLEVEL
 Decision Group - Old Regime,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PUB_OLDLEVEL
 Referral Reason,str:field:JSA_sanc_ind:V_F_JSA_SANC_DEC:PUB_REAS
-Sanction Decisions - Individuals,str:group:JSA_sanc_ind:X_Sanction+Decisions+-+Individuals
+High Level Adverse Sanction Decisions - New Regime,str:field:JSA_sanc_ind:F_JSA_SANC_IND:HIGHTOT_BAND
+Intermediate Level Adverse Sanction Decisions - New Regime,str:field:JSA_sanc_ind:F_JSA_SANC_IND:INTTOT_BAND
+Low Level Adverse Sanction Decisions - New Regime,str:field:JSA_sanc_ind:F_JSA_SANC_IND:LOWTOT_BAND
+Number of Adverse Sanction Decisions - Old and New Regime Combined,str:field:JSA_sanc_ind:F_JSA_SANC_IND:OVTOT_BAND

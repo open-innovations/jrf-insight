@@ -1,6 +1,8 @@
 dimension_name,dimension
 Quarter,str:field:ESA_Caseload:F_ESA_QTR:DATE_NAME
-Geography (residence-based),str:group:ESA_Caseload:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:ESA_Caseload:V_F_ESA:COA_CODE
+Westminster Parliamentary Constituencies,str:field:ESA_Caseload:V_F_ESA:PARLC_code
+Scottish Parliamentary Constituencies,str:field:ESA_Caseload:V_F_ESA:SPARLC_code
 Age (bands and single year),str:field:ESA_Caseload:V_F_ESA:CNAGE
 Duration of current claim,str:field:ESA_Caseload:V_F_ESA:CTDURTN
 Ethnicity (detailed and summary),str:field:ESA_Caseload:V_F_ESA:ETHNIC

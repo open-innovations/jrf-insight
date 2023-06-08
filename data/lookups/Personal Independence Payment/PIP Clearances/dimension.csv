@@ -1,6 +1,8 @@
 dimension_name,dimension
 Month,str:field:PIP_Clearances:F_PIP_DATE:DATE2
-Geography (residence-based) - SELECT POLICY OWNERSHIP,str:group:PIP_Clearances:X_Geography+%28residence-based%29+-+SELECT+POLICY+OWNERSHIP
+National - Regional - LA - OAs,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:COA_2011
+National - Regional - LA - Ward,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:WARD_CODE
+Westminster Parliamentary Constituency,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:PCON
 Age (bands and single year),str:field:PIP_Clearances:V_F_PIP_CLEARANCES:SINGLE_AGE
 Award Type,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:REV_PERIOD_YR2
 Clearance Type Detail,str:field:PIP_Clearances:V_F_PIP_CLEARANCES:CLEARANCE_DETAIL

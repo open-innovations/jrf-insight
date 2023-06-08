@@ -1,6 +1,7 @@
 dimension_name,dimension
 Month,str:field:WP_Sustainment:F_WP_DATE:DATE_NAME
-Geography (residence-based),str:group:WP_Sustainment:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:COA_CODE
+Westminster Parliamentary Constituency,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:PCON
 Contract Package Area and Contract,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:CONTRACT_CODE
 First Sustainment Payment Indicator,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:FIRST_SUS
 Length of Job Outcome,str:field:WP_Sustainment:V_F_WP_SUSTAINMENT:JOLENGTH_CODE

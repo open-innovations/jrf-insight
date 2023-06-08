@@ -1,9 +1,26 @@
 dimension_name,dimension
 Quarter,str:field:Ben_Com_Scot:F_BENCOM_QTR_NEW:DATE_NAME
-Geography (residence-based),str:group:Ben_Com_Scot:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:COA_2011
+National - Regional - LA - Ward,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:WARD_CODE
+Scottish Parliamentary Constituencies,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:SPC_CODE
+Westminster Parliamentary Constituencies,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:PARLC_CODE
 Age (bands and single year),str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:cnage
 Gender,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:ccsex
 Number of Benefits,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:NoOfBen
 Working or Pension Age Group,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:ageband
-Benefit Groups,str:group:Ben_Com_Scot:X_Benefit+Groups
-Benefit,str:group:Ben_Com_Scot:X_Benefit
+Benefit Combinations (Out of Work),str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:OOW
+Benefit Combinations (State Pension Age),str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:SPA_GROUP
+Benefit Combinations (Working Age),str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:WA_GROUP
+"BSP, WB & BB",str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:BSP_WB_BB
+CA,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:CA
+ESA,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:ESA
+HB,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:HB
+IIDB,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:IIDB
+INCAP,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:INCAP
+IS,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:IS
+JSA,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:JSA
+PC,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:PC
+PIP,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:PIP
+"PIP, DLA & AA",str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:PIP_DLA_AA
+SP,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:SP
+UC,str:field:Ben_Com_Scot:V_F_BENCOM_SCOT:UC_GROUP

@@ -1,7 +1,8 @@
 dimension_name,dimension
 Onflow Month,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:on_flow
 Off-flow Month,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:last_capped
-Geography (residence-based),str:group:BC_UC_Flows:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:CEN2011_COA
+Westminster Parliamentary Constituencies,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:PCON
 Family Type,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:family_num
 Number of Children,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:children
 Outcome at off-flow,str:field:BC_UC_Flows:V_F_UCFS_FLOWS:earnings_exemption

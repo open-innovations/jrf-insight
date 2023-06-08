@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:IBSDA:F_IBSDA_QTR:DATE_NAME
-Geography (residence-based),str:group:IBSDA:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:IBSDA:V_F_IBSDA:COA_CODE
+National - Regional - LA - Ward,str:field:IBSDA:V_F_IBSDA:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:IBSDA:V_F_IBSDA:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:IBSDA:V_F_IBSDA:SPC_CODE
 Age (bands and single year),str:field:IBSDA:V_F_IBSDA:CNAGE
 Benefit Combination,str:field:IBSDA:V_F_IBSDA:rate
 Client Type,str:field:IBSDA:V_F_IBSDA:client

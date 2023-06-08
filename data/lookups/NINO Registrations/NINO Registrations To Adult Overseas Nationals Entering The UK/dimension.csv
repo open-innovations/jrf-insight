@@ -1,7 +1,7 @@
 dimension_name,dimension
 Quarter and Year of Registration,str:field:Ninos:F_NINO_QTR:QTR_NAME
-Geography (residence-based) - UK,str:group:Ninos:X_Geography+%28residence-based%29+-+UK
-Geography (residence-based) - GB,str:group:Ninos:X_Geography+%28residence-based%29+-+GB
-Nationality,str:field:Ninos:V_F_NINOS:NEWNAT
-Age at Registration,str:field:Ninos:V_F_NINOS:AGE_CODE
-Gender,str:field:Ninos:V_F_NINOS:CCSEX_CODE
+National - Regional - LAs - UK,str:field:Ninos:V_F_NINOS:UK_COA
+Westminster Parliamentary Constituency,str:field:Ninos:V_F_NINOS:PARLC_CODE
+Nationality,['str:field:Ninos:V_F_NINOS:GB_COA']
+Age at Registration,['National - Regional - LA - COAs - GB']
+Gender,str:field:Ninos:V_F_NINOS:NEWNAT

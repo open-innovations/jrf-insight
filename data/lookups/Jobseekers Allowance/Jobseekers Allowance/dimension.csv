@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:JSA:F_JSA_QTR:DATE_NAME
-Geography (residence-based),str:group:JSA:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:JSA:V_F_JSA:COA_CODE
+National - Regional - LA - Ward,str:field:JSA:V_F_JSA:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:JSA:V_F_JSA:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:JSA:V_F_JSA:SPC_CODE
 Age (bands and single year),str:field:JSA:V_F_JSA:CNAGE
 Age of youngest child,str:field:JSA:V_F_JSA:yage
 Duration of Current Claim,str:field:JSA:V_F_JSA:duration

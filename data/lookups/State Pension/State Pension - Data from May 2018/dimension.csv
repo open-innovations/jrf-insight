@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:SP_New:F_SP_QTR_New:DATE_NAME
-Geography (residence-based),str:group:SP_New:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:SP_New:V_F_SP_CASELOAD_New:COA_CODE
+National - Regional - LA - Ward,str:field:SP_New:V_F_SP_CASELOAD_New:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:SP_New:V_F_SP_CASELOAD_New:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:SP_New:V_F_SP_CASELOAD_New:SPC_CODE
 Age (bands and single year),str:field:SP_New:V_F_SP_CASELOAD_New:CNAGE
 Category of Pension,str:field:SP_New:V_F_SP_CASELOAD_New:CAT
 Country code for abroad cases,str:field:SP_New:V_F_SP_CASELOAD_New:CCCOUNTRY

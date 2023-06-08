@@ -1,6 +1,9 @@
 dimension_name,dimension
 Quarter,str:field:PC_New:F_PC_QTR_New:DATE_NAME
-Geography (residence-based),str:group:PC_New:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:PC_New:V_F_PC_CASELOAD_New:COA_CODE
+National - Regional - LA - Ward,str:field:PC_New:V_F_PC_CASELOAD_New:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:PC_New:V_F_PC_CASELOAD_New:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:PC_New:V_F_PC_CASELOAD_New:SPC_CODE
 Age (bands and single year),str:field:PC_New:V_F_PC_CASELOAD_New:CNAGE
 Duration of Claim,str:field:PC_New:V_F_PC_CASELOAD_New:CTDURTN
 Gender,str:field:PC_New:V_F_PC_CASELOAD_New:CCSEX

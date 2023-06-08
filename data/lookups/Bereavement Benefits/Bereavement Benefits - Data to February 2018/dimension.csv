@@ -1,6 +1,8 @@
 dimension_name,dimension
 Quarter,str:field:BB:F_BB_QTR:DATE_NAME
-Geography (residence-based),str:group:BB:X_Geography+%28residence-based%29
+National - Regional - LA - OAs,str:field:BB:V_F_BB_CASELOAD:COA_CODE
+Westminster Parliamentary Constituencies,str:field:BB:V_F_BB_CASELOAD:PARLC_code
+Scottish Parliamentary Constituencies,str:field:BB:V_F_BB_CASELOAD:SPARLC_code
 Age (bands and single year),str:field:BB:V_F_BB_CASELOAD:CNAGE
 Dependency Increase,str:field:BB:V_F_BB_CASELOAD:DEPFG
 Duration of Claim,str:field:BB:V_F_BB_CASELOAD:CTDURTN
