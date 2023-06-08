@@ -26,7 +26,6 @@ if __name__ == '__main__':
             make_csv(dimensions, dimension_names, OUTDIR, type='dimension')
             make_csv(database_id, database_name, OUTDIR, type='database')
 
-    #print('dunnerz')
     # root_folder = "data/lookups"
     
     # for folder in os.listdir(root_folder):
