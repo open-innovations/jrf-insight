@@ -8,8 +8,8 @@ stages:
       size: 164448
       nfiles: 324
     - path: pipelines/extract/extract.py
-      md5: 7c1e24b6378e285078f2b298d68d5cf0
-      size: 1439
+      md5: 1be0b638f378297e50de9ed59851a281
+      size: 2889
     - path: pipelines/extract/utils.py
       md5: 562d680abfe95932727d97fcd8bbacdb
       size: 10885
@@ -18,3 +18,17 @@ stages:
       md5: d751713988987e9331980363e24189ce.dir
       size: 0
       nfiles: 0
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py
+    deps:
+    - path: pipelines/extract/probe.py
+      md5: 8c52b17dad2f3f194765935559d26d30
+      size: 2109
+    - path: pipelines/extract/utils.py
+      md5: 5ae8d2ebb6f8ac6ca58b0a6eaca641fe
+      size: 11499
+    outs:
+    - path: data/lookups
+      md5: e60f8830b7f407cbf16138fe494a9354.dir
+      size: 167521
+      nfiles: 324

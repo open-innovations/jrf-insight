@@ -1,27 +1,28 @@
 dimension_name,dimension
 Type of Flow,str:field:hb_flows:V_F_HB_FLOWS:FLOW
 Month,str:field:hb_flows:F_HB_FLOWS_DATE:NEW_DATE_NAME
-National - Regional - LA - OAs,['str:field:hb_flows:V_F_HB_FLOWS:ADMIN_LA_CODE']
-National - Regional - LA - Ward,['National - Regional - Admin LA']
-Westminster Parliamentary Constituencies,str:field:hb_flows:V_F_HB_FLOWS:COA_CODE
-Scottish Parliamentary Constituencies,str:field:hb_flows:V_F_HB_FLOWS:WARD_CODE
-Eurostat NUTS Areas,str:field:hb_flows:V_F_HB_FLOWS:PARLC_CODE
-Travel to Work Areas (TTWAs),str:field:hb_flows:V_F_HB_FLOWS:SPC_CODE
-UK International Territorial Levels (ITLs),str:field:hb_flows:V_F_HB_FLOWS:NUTS_CODE
-Age of Claimant (years and bands),str:field:hb_flows:V_F_HB_FLOWS:TTWA_CODE
-Age of Claimant (bands only),str:field:hb_flows:V_F_HB_FLOWS:LAU1_CODE
-Client Type,str:field:hb_flows:V_F_HB_FLOWS:AGE_YEAR
-Family Type,str:field:hb_flows:V_F_HB_FLOWS:AGE_BAND
-Number of Child-Dependants,str:field:hb_flows:V_F_HB_FLOWS:PENWORK
-Number of Non-Dependants,str:field:hb_flows:V_F_HB_FLOWS:FAMILY_PUB
-Gender (single claimants only),str:field:hb_flows:V_F_HB_FLOWS:NUM_DEPS
-Private or Social Rented,str:field:hb_flows:V_F_HB_FLOWS:NUM_NDEPS
-Detailed Housing Type,str:field:hb_flows:V_F_HB_FLOWS:SINGLE_GEN
-Entitled Bedrooms (LHA only),str:field:hb_flows:V_F_HB_FLOWS:TENURE_PUB
-Passported Benefit Status,str:field:hb_flows:V_F_HB_FLOWS:SECTOR_PUB
-Employment Status,str:field:hb_flows:V_F_HB_FLOWS:LHAROOM
-Weekly Award Amount (bands),str:field:hb_flows:V_F_HB_FLOWS:PASSPORTIND
-Pay Destination,str:field:hb_flows:V_F_HB_FLOWS:EMP
-Spare Room Subsidy Indicator,str:field:hb_flows:V_F_HB_FLOWS:AMT_BAND_LOW
-Number of Spare Rooms,str:field:hb_flows:V_F_HB_FLOWS:CCPAYDEST
-Weekly Spare Room Reduction Amount (bands),str:field:hb_flows:V_F_HB_FLOWS:SSSC_PUB
+National - Regional - Admin LA,str:field:hb_flows:V_F_HB_FLOWS:ADMIN_LA_CODE
+National - Regional - LA - OAs,str:field:hb_flows:V_F_HB_FLOWS:COA_CODE
+National - Regional - LA - Ward,str:field:hb_flows:V_F_HB_FLOWS:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:hb_flows:V_F_HB_FLOWS:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:hb_flows:V_F_HB_FLOWS:SPC_CODE
+Eurostat NUTS Areas,str:field:hb_flows:V_F_HB_FLOWS:NUTS_CODE
+Travel to Work Areas (TTWAs),str:field:hb_flows:V_F_HB_FLOWS:TTWA_CODE
+UK International Territorial Levels (ITLs),str:field:hb_flows:V_F_HB_FLOWS:LAU1_CODE
+Age of Claimant (years and bands),str:field:hb_flows:V_F_HB_FLOWS:AGE_YEAR
+Age of Claimant (bands only),str:field:hb_flows:V_F_HB_FLOWS:AGE_BAND
+Client Type,str:field:hb_flows:V_F_HB_FLOWS:PENWORK
+Family Type,str:field:hb_flows:V_F_HB_FLOWS:FAMILY_PUB
+Number of Child-Dependants,str:field:hb_flows:V_F_HB_FLOWS:NUM_DEPS
+Number of Non-Dependants,str:field:hb_flows:V_F_HB_FLOWS:NUM_NDEPS
+Gender (single claimants only),str:field:hb_flows:V_F_HB_FLOWS:SINGLE_GEN
+Private or Social Rented,str:field:hb_flows:V_F_HB_FLOWS:TENURE_PUB
+Detailed Housing Type,str:field:hb_flows:V_F_HB_FLOWS:SECTOR_PUB
+Entitled Bedrooms (LHA only),str:field:hb_flows:V_F_HB_FLOWS:LHAROOM
+Passported Benefit Status,str:field:hb_flows:V_F_HB_FLOWS:PASSPORTIND
+Employment Status,str:field:hb_flows:V_F_HB_FLOWS:EMP
+Weekly Award Amount (bands),str:field:hb_flows:V_F_HB_FLOWS:AMT_BAND_LOW
+Pay Destination,str:field:hb_flows:V_F_HB_FLOWS:CCPAYDEST
+Spare Room Subsidy Indicator,str:field:hb_flows:V_F_HB_FLOWS:SSSC_PUB
+Number of Spare Rooms,str:field:hb_flows:V_F_HB_FLOWS:REDUC_BED
+Weekly Spare Room Reduction Amount (bands),str:field:hb_flows:V_F_HB_FLOWS:RED_AMT_BND

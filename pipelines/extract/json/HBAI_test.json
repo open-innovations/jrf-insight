@@ -1,9 +1,0 @@
-{
-    "database": "str:database:HBAI", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:HBAI:V_F_HBAI:YEAR"
-        ]
-    ]
-}

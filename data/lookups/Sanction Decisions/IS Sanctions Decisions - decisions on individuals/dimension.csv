@@ -10,3 +10,4 @@ Ethnic Group,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:SFR_ETH2
 Gender,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:SEX
 Lone Parent Indicator,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_LPFLAG
 Referral Reason,str:field:IS_sanc_ind:V_F_IS_SANC_DEC:PUB_REAS
+Number of Adverse Sanction Decisions,str:field:IS_sanc_ind:F_IS_SANC_IND:OVTOT_BAND

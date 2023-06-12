@@ -25,7 +25,8 @@ if __name__ == '__main__':
             make_csv(measures, measure_names, OUTDIR, type='measure')
             make_csv(dimensions, dimension_names, OUTDIR, type='dimension')
             make_csv(database_id, database_name, OUTDIR, type='database')
-
+            #break
+        #break
     # root_folder = "data/lookups"
     
     # for folder in os.listdir(root_folder):

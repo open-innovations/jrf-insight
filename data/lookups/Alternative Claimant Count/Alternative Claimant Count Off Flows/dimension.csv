@@ -1,9 +1,11 @@
 dimension_name,dimension
-Month of Off Flow,['str:count:ACC_OFFS:F_ACC_DATE_new']
-National - Regional - LA - Wards,['Month of Off Flow']
-National - Regional - LAs - UK,str:field:ACC_OFFS:F_ACC_DATE_new:DATE_NAME
-Westminster Parliamentary Constituency,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:WARD_CODE
-Age (bands and single year),str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:UK_COA
-Gender,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:PARLC_CODE
-Benefit Group,['str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:GB_COA']
-Employment Indicator,['National - Regional - LA - COAs - GB']
+Month of Off Flow,str:count:ACC_OFFS:F_ACC_DATE_new
+Month of Off Flow,str:field:ACC_OFFS:F_ACC_DATE_new:DATE_NAME
+National - Regional - LA - Wards,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:WARD_CODE
+National - Regional - LAs - UK,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:UK_COA
+Westminster Parliamentary Constituency,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:PARLC_CODE
+National - Regional - LA - COAs - GB,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:GB_COA
+Age (bands and single year),str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:age
+Gender,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:ccsex
+Benefit Group,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:group
+Employment Indicator,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:EMP

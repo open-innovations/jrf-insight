@@ -3,7 +3,8 @@ Month,str:field:ACC:F_ACC_DATE_new:DATE_NAME
 National - Regional - LA - Wards,str:field:ACC:V_F_ACC:WARD_CODE
 National - Regional - LAs - UK,str:field:ACC:V_F_ACC:UK_COA
 Westminster Parliamentary Constituency,str:field:ACC:V_F_ACC:PARLC_CODE
-Age (bands and single year),['str:field:ACC:V_F_ACC:GB_COA']
-Gender,['National - Regional - LA - COAs - GB']
-Benefit Group,str:field:ACC:V_F_ACC:AGE
-Employment Indicator,str:field:ACC:V_F_ACC:CCSEX
+National - Regional - LA - COAs - GB,str:field:ACC:V_F_ACC:GB_COA
+Age (bands and single year),str:field:ACC:V_F_ACC:AGE
+Gender,str:field:ACC:V_F_ACC:CCSEX
+Benefit Group,str:field:ACC:V_F_ACC:GROUP
+Employment Indicator,str:field:ACC:V_F_ACC:EMP

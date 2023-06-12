@@ -2,7 +2,9 @@ dimension_name,dimension
 Month,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:DATE_CODE
 National - Regional - LA - OAs,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:COA_CODE
 Westminster Parliamentary Constituency,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:PCON
-Age (bands and single year),['str:field:UC_sanc_rates:V_F_UC_SANC_RATE:JCP_OFFICE_CODE']
-Conditionality Regime,['Jobcentre Plus']
-Gender,['str:field:UC_sanc_rates:V_F_UC_SANC_RATE:POSTCODE_DISTRICT']
-Sanction Indicator,['Postcode Area - District']
+Jobcentre Plus,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:JCP_OFFICE_CODE
+Postcode Area - District,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:POSTCODE_DISTRICT
+Age (bands and single year),str:field:UC_sanc_rates:V_F_UC_SANC_RATE:AGE_CODE
+Conditionality Regime,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:CCCONDITIONALITY_REGIME
+Gender,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:GENDER_CODE
+Sanction Indicator,str:field:UC_sanc_rates:V_F_UC_SANC_RATE:CCSANCTION_FLAG

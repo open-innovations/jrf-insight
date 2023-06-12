@@ -2,9 +2,11 @@ dimension_name,dimension
 Month Decision Made,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CDLDECISION_CLMONTH
 National - Regional - LA - OAs,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCCOA_CODE
 Westminster Parliamentary Constituency,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:PARLC_CODE
-Age (bands and single year),['str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCJCP_OFFICE']
-Decision Outcome,['Jobcentre Plus']
-Decision Type,['str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCPCODE_DISTRICT']
-Gender,['Postcode Area - District']
-Referral Reason,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CNLDECISION_AGE
-Sanction Level,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCLDECISION_OUTCOME_GROUP
+Jobcentre Plus,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCJCP_OFFICE
+Postcode Area - District,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCPCODE_DISTRICT
+Age (bands and single year),str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CNLDECISION_AGE
+Decision Outcome,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCLDECISION_OUTCOME_GROUP
+Decision Type,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCLDECISION_TYPE
+Gender,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCSEX
+Referral Reason,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCDOUBT_TYPE
+Sanction Level,str:field:UC_sanc_dec:V_F_UC_SANC_DEC:CCSANCTION_LEVEL

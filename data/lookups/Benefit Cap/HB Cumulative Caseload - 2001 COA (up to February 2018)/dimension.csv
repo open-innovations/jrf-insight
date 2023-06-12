@@ -1,12 +1,13 @@
 dimension_name,dimension
 Onflow Month,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:ONFLOW
 Off-flow Month,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:LAST_CAPPED
-Age,['str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:PARLC_code']
-Gender (single claimants),['Westminster Parliamentary Constituency']
-Family Type,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:AGE_YEAR
-Number of Children,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:SINGLE_GEN
-Private or Social Rented,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:FAMILY_PUB
-Detailed Housing Type,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:NO_CHILDREN
-Outcome at Off-flow,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:TENURE_PUB
-Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:SECTOR_PUB
-Housing Benefit Amount (in bands),str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:OUTCOME_CODE
+Westminster Parliamentary Constituency,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:PARLC_code
+Age,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:AGE_YEAR
+Gender (single claimants),str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:SINGLE_GEN
+Family Type,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:FAMILY_PUB
+Number of Children,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:NO_CHILDREN
+Private or Social Rented,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:TENURE_PUB
+Detailed Housing Type,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:SECTOR_PUB
+Outcome at Off-flow,str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:OUTCOME_CODE
+Amount of Benefit Capped (in bands),str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:CAP_GROUP
+Housing Benefit Amount (in bands),str:field:Benefit_Cap_Cumulative:V_F_BC_CUMULATIVE_FULL:AMT_BAND_LOW

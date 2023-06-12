@@ -1,3 +1,4 @@
 dimension_name,dimension
 Quarter,str:field:SMI_CASELOAD:F_SMI_DATE:DATE_NAME
-Qualifying Benefit,['str:field:SMI_CASELOAD:V_F_SMI_CASELOAD:COA_CODE']
+National - Regional,str:field:SMI_CASELOAD:V_F_SMI_CASELOAD:COA_CODE
+Qualifying Benefit,str:field:SMI_CASELOAD:V_F_SMI_CASELOAD:QUALBEN_CODE

@@ -1,2 +1,3 @@
 dimension_name,dimension
 Quarter,str:field:SMI_CUM:F_SMI_DATE:DATE_NAME
+National - Regional,str:field:SMI_CUM:V_F_SMI_CUM:COA_CODE

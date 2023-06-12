@@ -2,6 +2,7 @@ dimension_name,dimension
 Quarter and Year of Registration,str:field:Ninos:F_NINO_QTR:QTR_NAME
 National - Regional - LAs - UK,str:field:Ninos:V_F_NINOS:UK_COA
 Westminster Parliamentary Constituency,str:field:Ninos:V_F_NINOS:PARLC_CODE
-Nationality,['str:field:Ninos:V_F_NINOS:GB_COA']
-Age at Registration,['National - Regional - LA - COAs - GB']
-Gender,str:field:Ninos:V_F_NINOS:NEWNAT
+National - Regional - LA - COAs - GB,str:field:Ninos:V_F_NINOS:GB_COA
+Nationality,str:field:Ninos:V_F_NINOS:NEWNAT
+Age at Registration,str:field:Ninos:V_F_NINOS:AGE_CODE
+Gender,str:field:Ninos:V_F_NINOS:CCSEX_CODE

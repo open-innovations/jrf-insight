@@ -3,7 +3,8 @@ Year,str:field:CILIF_REL:F_CILIF_DATE:DATE_NAME
 National - Regional - LA - OAs,str:field:CILIF_REL:V_F_CILIF_REL:COA
 National - Regional - LA - Wards,str:field:CILIF_REL:V_F_CILIF_REL:WARD_CODE
 Westminster Parliamentary Constituency,str:field:CILIF_REL:V_F_CILIF_REL:PARLC_CODE
-Age of Child (years and bands),['str:field:CILIF_REL:V_F_CILIF_REL:GB_COA']
-Gender of Child,['National - Regional - LA - OAs (GB)']
-Family Type,str:field:CILIF_REL:V_F_CILIF_REL:CHILD_AGE
-Work Status,str:field:CILIF_REL:V_F_CILIF_REL:CHILD_GENDER
+National - Regional - LA - OAs (GB),str:field:CILIF_REL:V_F_CILIF_REL:GB_COA
+Age of Child (years and bands),str:field:CILIF_REL:V_F_CILIF_REL:CHILD_AGE
+Gender of Child,str:field:CILIF_REL:V_F_CILIF_REL:CHILD_GENDER
+Family Type,str:field:CILIF_REL:V_F_CILIF_REL:LP_FLAG
+Work Status,str:field:CILIF_REL:V_F_CILIF_REL:EMPLOYMENT

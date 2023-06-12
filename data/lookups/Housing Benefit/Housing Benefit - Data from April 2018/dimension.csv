@@ -1,26 +1,27 @@
 dimension_name,dimension
 Month,str:field:hb_new:F_HB_NEW_DATE:NEW_DATE_NAME
-National - Regional - LA - OAs,['str:field:hb_new:V_F_HB_NEW:ADMIN_LA_CODE']
-National - Regional - LA - Ward,['National - Regional - Admin LA']
-Westminster Parliamentary Constituencies,str:field:hb_new:V_F_HB_NEW:COA_CODE
-Scottish Parliamentary Constituencies,str:field:hb_new:V_F_HB_NEW:WARD_CODE
-Eurostat NUTS Areas,str:field:hb_new:V_F_HB_NEW:PARLC_CODE
-Travel to Work Areas (TTWAs),str:field:hb_new:V_F_HB_NEW:SPC_CODE
-UK International Territorial Levels (ITLs),str:field:hb_new:V_F_HB_NEW:NUTS_CODE
-Age of Claimant (years and bands),str:field:hb_new:V_F_HB_NEW:TTWA_CODE
-Age of Claimant (bands only),str:field:hb_new:V_F_HB_NEW:LAU1_CODE
-Client Type,str:field:hb_new:V_F_HB_NEW:AGE_YEAR
-Family Type,str:field:hb_new:V_F_HB_NEW:AGE_BAND
-Number of Child-Dependants,str:field:hb_new:V_F_HB_NEW:PENWORK
-Number of Non-Dependants,str:field:hb_new:V_F_HB_NEW:FAMILY_PUB
-Gender (single claimants only),str:field:hb_new:V_F_HB_NEW:NUM_DEPS
-Private or Social Rented,str:field:hb_new:V_F_HB_NEW:NUM_NDEPS
-Detailed Housing Type,str:field:hb_new:V_F_HB_NEW:SINGLE_GEN
-Entitled Bedrooms (LHA only),str:field:hb_new:V_F_HB_NEW:TENURE_PUB
-Passported Benefit Status,str:field:hb_new:V_F_HB_NEW:SECTOR_PUB
-Employment Status,str:field:hb_new:V_F_HB_NEW:LHAROOM
-Weekly Award Amount (bands),str:field:hb_new:V_F_HB_NEW:PASSPORTIND
-Pay Destination,str:field:hb_new:V_F_HB_NEW:EMP
-Spare Room Subsidy Indicator,str:field:hb_new:V_F_HB_NEW:AMT_BAND_LOW
-Number of Spare Rooms,str:field:hb_new:V_F_HB_NEW:CCPAYDEST
-Weekly Spare Room Reduction Amount (bands),str:field:hb_new:V_F_HB_NEW:SSSC_PUB
+National - Regional - Admin LA,str:field:hb_new:V_F_HB_NEW:ADMIN_LA_CODE
+National - Regional - LA - OAs,str:field:hb_new:V_F_HB_NEW:COA_CODE
+National - Regional - LA - Ward,str:field:hb_new:V_F_HB_NEW:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:hb_new:V_F_HB_NEW:PARLC_CODE
+Scottish Parliamentary Constituencies,str:field:hb_new:V_F_HB_NEW:SPC_CODE
+Eurostat NUTS Areas,str:field:hb_new:V_F_HB_NEW:NUTS_CODE
+Travel to Work Areas (TTWAs),str:field:hb_new:V_F_HB_NEW:TTWA_CODE
+UK International Territorial Levels (ITLs),str:field:hb_new:V_F_HB_NEW:LAU1_CODE
+Age of Claimant (years and bands),str:field:hb_new:V_F_HB_NEW:AGE_YEAR
+Age of Claimant (bands only),str:field:hb_new:V_F_HB_NEW:AGE_BAND
+Client Type,str:field:hb_new:V_F_HB_NEW:PENWORK
+Family Type,str:field:hb_new:V_F_HB_NEW:FAMILY_PUB
+Number of Child-Dependants,str:field:hb_new:V_F_HB_NEW:NUM_DEPS
+Number of Non-Dependants,str:field:hb_new:V_F_HB_NEW:NUM_NDEPS
+Gender (single claimants only),str:field:hb_new:V_F_HB_NEW:SINGLE_GEN
+Private or Social Rented,str:field:hb_new:V_F_HB_NEW:TENURE_PUB
+Detailed Housing Type,str:field:hb_new:V_F_HB_NEW:SECTOR_PUB
+Entitled Bedrooms (LHA only),str:field:hb_new:V_F_HB_NEW:LHAROOM
+Passported Benefit Status,str:field:hb_new:V_F_HB_NEW:PASSPORTIND
+Employment Status,str:field:hb_new:V_F_HB_NEW:EMP
+Weekly Award Amount (bands),str:field:hb_new:V_F_HB_NEW:AMT_BAND_LOW
+Pay Destination,str:field:hb_new:V_F_HB_NEW:CCPAYDEST
+Spare Room Subsidy Indicator,str:field:hb_new:V_F_HB_NEW:SSSC_PUB
+Number of Spare Rooms,str:field:hb_new:V_F_HB_NEW:REDUC_BED
+Weekly Spare Room Reduction Amount (bands),str:field:hb_new:V_F_HB_NEW:RED_AMT_BND

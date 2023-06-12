@@ -1,2 +1,3 @@
 dimension_name,dimension
 Time Period,str:field:UC_Claims:F_UC_WEEKS:WEEK_NAME
+Postcode Area - District,str:field:UC_Claims:V_F_UC_CLAIMS:POSTCODE_DISTRICT

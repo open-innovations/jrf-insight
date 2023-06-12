@@ -57,33 +57,43 @@ def get_variables(session, database_id):
     dimension_names = []
     # print(children)
     for i in children:
-
+        check = False
         id = str(i.get('id'))
         label = str(i.get('label'))
-        if "statfn" in id:
-            print('there was a statfn')
-        if "str:measure:" in id or "str:count:" in id or "str:statfn:" in id:
+        if "str:measure:" in id or "str:count:" in id:
             
             measures.append(id)
             measure_names.append(label)
             continue
         elif "str:group" in id:
-            for id, label in group_to_fields(session, locator=id):
-                
+            #print('restarting the check')
+            check = True
+            #print('group is', id)
+            try:
+                idss, labelss = group_to_fields(session, locator=id)
+
                 # if there is >1 field, append each to a separate line of the csv
                 # else append as normal (avoids breking each character to new line)
-                if len(id) > 1:
-                    for iden in id:
+                if len(idss) > 1:
+                    for iden, lab in zip(idss, labelss):
                         dimensions.append(iden)
-                    for lab in label:
                         dimension_names.append(lab)
+                        #print('iden, lab = ', iden, lab)
+                    # for lab in labelss:
+                    #     dimension_names.append(lab)
+                    #print('we appended several groups')
                 else:
-                    dimensions.append(id)
-                    dimensions.append(label)
-            continue
-        dimensions.append(id)
-        dimension_names.append(label)
-
+                    dimensions.append(idss[0])
+                    dimension_names.append(labelss[0])
+                    #print('idss, labels = ', idss[0], labelss[0])
+                continue
+            except:
+                print(f'couldn\'t get groups for {id}')
+                continue        
+        elif check==False:
+            #print('here')
+            dimensions.append(id)
+            dimension_names.append(label)
     return measures, measure_names, dimensions, dimension_names
 
 
@@ -110,12 +120,13 @@ def group_to_fields(session, locator):
     '''
     try:
         groups, group_labels = get_ids(session, locator=locator)
-        yield groups, group_labels
+        if not groups:
+            print('couldnt get groups')
     except:
-        print('failed to get groups for{}'.format(locator))
+        print('failed to get groups for {}'.format(locator))
+    return groups, group_labels
 
-
-def statxplore_to_json(database, measures, dimensions, filename):
+def statxplore_to_json(database, measures, dimensions, filename, DIR  ):
     '''
     Makes a json for the API call to statXplore.
 
@@ -139,7 +150,8 @@ def statxplore_to_json(database, measures, dimensions, filename):
         "measures": measures,
         "dimensions": dimensions
     }
-    with open(os.path.join(JSONDIR, '{}'.format(filename)), "w") as fp:
+    os.makedirs(os.path.join(DIR), exist_ok=True)
+    with open(os.path.join(DIR, '{}'.format(filename)), "w") as fp:
         json.dump(request, fp, indent=4, separators=(', ', ': ')) 
     return
 

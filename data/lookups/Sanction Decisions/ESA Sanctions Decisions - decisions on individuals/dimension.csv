@@ -11,3 +11,4 @@ Ethnic Group,str:field:ESA_sanc_ind:V_F_ESA_SANC_DEC:SFR_ETH2
 Gender,str:field:ESA_sanc_ind:V_F_ESA_SANC_DEC:SEX
 Referral Reason,str:field:ESA_sanc_ind:V_F_ESA_SANC_DEC:PUB_REAS
 Medical Condition,str:field:ESA_sanc_ind:V_F_ESA_SANC_DEC:ICDGP_CODE
+Number of Adverse Sanction Decisions - Old and New Regime Combined,str:field:ESA_sanc_ind:F_ESA_SANC_IND:OVTOT_BAND
