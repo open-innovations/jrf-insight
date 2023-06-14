@@ -66,7 +66,10 @@ def get_variables(session, database_id):
             measure_names.append(label)
             continue
         elif "str:group" in id:
-            #print('restarting the check')
+            # if database_id == 'str:database:HBAI':
+            #     id = id[:-3]
+            #     label = label[:-1]
+            #print(id)
             check = True
             #print('group is', id)
             try:

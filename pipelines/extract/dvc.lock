@@ -25,8 +25,8 @@ stages:
       md5: 8c52b17dad2f3f194765935559d26d30
       size: 2109
     - path: pipelines/extract/utils.py
-      md5: 5ae8d2ebb6f8ac6ca58b0a6eaca641fe
-      size: 11499
+      md5: a35d7f33d08d1f82e0a694eb3c7e822a
+      size: 11603
     outs:
     - path: data/lookups
       md5: e60f8830b7f407cbf16138fe494a9354.dir
