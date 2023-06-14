@@ -1,5 +1,4 @@
 dimension_name,dimension
-Month of Off Flow,str:count:ACC_OFFS:F_ACC_DATE_new
 Month of Off Flow,str:field:ACC_OFFS:F_ACC_DATE_new:DATE_NAME
 National - Regional - LA - Wards,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:WARD_CODE
 National - Regional - LAs - UK,str:field:ACC_OFFS:V_F_ACC_OFFFLOWS:UK_COA

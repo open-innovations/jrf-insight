@@ -1,3 +1,7 @@
 measure_name,measure
 Family (Benefit Unit) Dataset,str:count:FRSBU:V_F_FRSBU
 Weighted Sum of Family (Benefit Unit) Dataset,str:measure:FRSBU:V_F_FRSBU:GROSS
+"Family, total, annual amount of Income received from State Support in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT
+"Family, total, annual amount of Income received from State Support in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT_INYR
+"Family, total amount of savings and investments in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT
+"Family, total amount of savings and investments in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT_INYR

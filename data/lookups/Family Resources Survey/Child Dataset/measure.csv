@@ -1,3 +1,23 @@
 measure_name,measure
 Child Dataset,str:count:FRSCH:V_F_FRSCH
 Weighted Sum of Child Dataset,str:measure:FRSCH:V_F_FRSCH:GROSS
+"Household total, gross Income from Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:EARNS
+"Household total, gross Income from Employment in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:EARNS_INYR
+"Household total, gross Income from Self-Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:SEINC
+"Household total, gross Income from Self-Employment in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:SEINC_INYR
+"Household Income from Disability Benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:DISBEN
+"Household Income from Disability Benefits in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:DISBEN_INYR
+"Household Income from other benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:OTHBEN
+"Household Income from other benefits in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:OTHBEN_INYR
+"Household Income from State Pension, Income Support and Pension Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:RPINC
+"Household Income from State Pension, Income Support and Pension Credit in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:RPINC_INYR
+"Household Income from Tax Credits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:TXCRED
+"Household Income from Tax Credits in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:TXCRED_INYR
+"Household Income from Universal Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:UC
+"Household Income from Universal Credit in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:UC_INYR
+"Household total, gross Income from Investments in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:INV
+"Household total, gross Income from Investments in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:INV_INYR
+"Household total, gross Income from non-state pensions in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:PENINC
+"Household total, gross Income from non-state pensions in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:PENINC_INYR
+"Household total, gross Income from other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSCH:V_F_FRSCH:OTH_SOURCE
+"Household total, gross Income from other sources in year prices (weekly, in nominal terms)",str:measure:FRSCH:V_F_FRSCH:OTH_SOURCE_INYR

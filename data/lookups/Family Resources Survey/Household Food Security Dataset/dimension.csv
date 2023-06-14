@@ -1,6 +1,4 @@
 dimension_name,dimension
-"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHFS:V_F_FRSHFS:INC
-"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSHFS:V_F_FRSHFS:INC_INYR
 Financial Year,str:field:FRSHFS:V_F_FRSHFS:YEAR
 Country of the Household in the United Kingdom,str:field:FRSHFS:V_F_FRSHFS:COUNTRY
 Great Britain location of the Household,str:field:FRSHFS:V_F_FRSHFS:GB

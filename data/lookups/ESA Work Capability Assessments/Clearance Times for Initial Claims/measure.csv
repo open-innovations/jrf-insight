@@ -1,1 +1,5 @@
 measure_name,measure
+Claim Registration to WCA referral (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance1
+WCA referral to AP recommendation (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance2
+AP recommendation to DWP decision (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance3
+End-to-end Process (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance4

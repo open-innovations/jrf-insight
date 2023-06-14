@@ -1,5 +1,4 @@
 dimension_name,dimension
-Month,str:count:WP_Job_Outcomes:F_WP_DATE
 Month,str:field:WP_Job_Outcomes:F_WP_DATE:DATE_NAME
 National - Regional - LAs - OAs,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:COA_code
 Westminster Parliamentary Constituency,str:field:WP_Job_Outcomes:V_F_WP_JOB_OUTCOMES:PCON

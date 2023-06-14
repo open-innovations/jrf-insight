@@ -1,36 +1,4 @@
 dimension_name,dimension
-"Household, total amount of savings and investments in latest prices (CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:SAVINGS_AMT
-"Household, total amount of savings and investments in year prices (in nominal terms)",str:measure:FRSHH:V_F_FRSHH:SAVINGS_AMT_INYR
-"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:INC
-"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:INC_INYR
-"Household total, gross Income from Employment and Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_EMP_SE
-"Household total, gross Income from Employment and Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_EMP_SE_INYR
-"Household total, gross Income from Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_EARNS
-"Household total, gross Income from Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_EARNS_INYR
-"Household total, gross Income from Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_SEINC
-"Household total, gross Income from Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_SEINC_INYR
-"Household total, gross Income from Investments and other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_RINC
-"Household total, gross Income from Investments and other sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_RINC_INYR
-"Household total, gross Income from Investments in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_INV
-"Household total, gross Income from Investments in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_INV_INYR
-"Household total, gross Income from non state pensions in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_PENINC
-"Household total, gross Income from non state pensions in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_PENINC_INYR
-"Household total, gross Income from other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTH_SOURCE
-"Household total, gross Income from other sources in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTH_SOURCE_INYR
-"Household Income from Disability Benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_DISBEN
-"Household Income from Disability Benefits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_DISBEN_INYR
-"Household Income from other benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTHBEN
-"Household Income from other benefits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_OTHBEN_INYR
-"Household Income from State Pension, Income Support and Pension Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_RPINC
-"Household Income from State Pension, Income Support and Pension Credit in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_RPINC_INYR
-"Household Income from State Support in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_STATE_SUP
-"Household Income from State Support in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_STATE_SUP_INYR
-"Household Income from Tax Credits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_TXCRED
-"Household Income from Tax Credits in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_TXCRED_INYR
-"Household Income from Universal Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_UC
-"Household Income from Universal Credit in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_UC_INYR
-"Household rent, repayment mortgage payment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHH:V_F_FRSHH:HH_MORTRENT
-"Household rent, repayment mortgage payment in year prices (weekly, in nominal terms)",str:measure:FRSHH:V_F_FRSHH:HH_MORTRENT_INYR
 Financial Year,str:field:FRSHH:V_F_FRSHH:YEAR
 Country of the Household in the United Kingdom,str:field:FRSHH:V_F_FRSHH:COUNTRY
 Great Britain location of the Household,str:field:FRSHH:V_F_FRSHH:GB

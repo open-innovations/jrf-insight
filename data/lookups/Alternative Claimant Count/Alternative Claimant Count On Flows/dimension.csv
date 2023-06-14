@@ -1,5 +1,4 @@
 dimension_name,dimension
-Month of On Flow,str:count:ACC_ONS:F_ACC_DATE_new
 Month of On Flow,str:field:ACC_ONS:F_ACC_DATE_new:DATE_NAME
 Westminster Parliamentary Constituency,str:field:ACC_ONS:V_F_ACC_ONFLOWS:PARLC_CODE
 National - Regional - LA - Wards,str:field:ACC_ONS:V_F_ACC_ONFLOWS:WARD_CODE

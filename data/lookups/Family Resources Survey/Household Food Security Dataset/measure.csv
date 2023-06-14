@@ -1,3 +1,5 @@
 measure_name,measure
 Household Food Security Dataset,str:count:FRSHFS:V_F_FRSHFS
 Weighted Sum of Household Food Security Dataset,str:measure:FRSHFS:V_F_FRSHFS:GROSS
+"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSHFS:V_F_FRSHFS:INC
+"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSHFS:V_F_FRSHFS:INC_INYR

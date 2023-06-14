@@ -1,7 +1,3 @@
 dimension_name,dimension
-Claim Registration to WCA referral (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance1
-WCA referral to AP recommendation (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance2
-AP recommendation to DWP decision (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance3
-End-to-end Process (weekdays),str:measure:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:clearance4
 Completed Assessment Date,str:field:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:JCP_ATOS_RESULT_DATE
 National - Regional - LAs,str:field:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:coa_2011

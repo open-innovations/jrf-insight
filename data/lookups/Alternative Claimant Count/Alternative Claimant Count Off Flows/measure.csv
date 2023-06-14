@@ -1,3 +1,4 @@
 measure_name,measure
 Alternative Claimant Count Off Flows,str:count:ACC_OFFS:V_F_ACC_OFFFLOWS
 Standardise Flows,str:measure:ACC_OFFS:V_F_ACC_OFFFLOWS:ratio
+Month of Off Flow,str:count:ACC_OFFS:F_ACC_DATE_new

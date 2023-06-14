@@ -79,6 +79,13 @@ def get_variables(session, database_id):
                 # else append as normal (avoids breking each character to new line)
                 if len(idss) > 1:
                     for iden, lab in zip(idss, labelss):
+
+                        if "str:measure:" in iden or "str:count:" in iden:
+
+                            measures.append(iden)
+                            measure_names.append(lab)
+                            continue
+
                         dimensions.append(iden)
                         dimension_names.append(lab)
                         #print('iden, lab = ', iden, lab)
@@ -86,6 +93,12 @@ def get_variables(session, database_id):
                     #     dimension_names.append(lab)
                     #print('we appended several groups')
                 else:
+                    if "str:measure:" in idss[0] or "str:count:" in idss[0]:
+            
+                        measures.append(idss[0])
+                        measure_names.append(labelss[0])
+                        continue
+                    
                     dimensions.append(idss[0])
                     dimension_names.append(labelss[0])
                     #print('idss, labels = ', idss[0], labelss[0])

@@ -1,3 +1,33 @@
 measure_name,measure
 Individual Dataset,str:count:FRSPP:V_F_FRSPP
 Weighted Sum of Individual Dataset,str:measure:FRSPP:V_F_FRSPP:GROSS
+"Adult total, net Income received from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_AMT
+"Adult total, net Income received from all sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_AMT_INYR
+"Adult total, annual, net Income received from all sources in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_INC
+"Adult total, annual, net Income received from all sources in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_INC_INYR
+"Adult total, annual, net Income received from Employment in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_EMP_INC
+"Adult total, annual, net Income received from Employment in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_EMP_INC_INYR
+"Adult total, annual, net Income received from Self Employment in latest prices (CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_SE_INC
+"Adult total, annual, net Income received from Self Employment in year prices (in nominal terms)",str:measure:FRSPP:V_F_FRSPP:NET_ANN_SE_INC_INYR
+"Household total, gross Income from all sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:INC
+"Household total, gross Income from all sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:INC_INYR
+"Household total, gross Income from Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:EARNS
+"Household total, gross Income from Employment in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:EARNS_INYR
+"Household total, gross Income from Self Employment in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:SEINC
+"Household total, gross Income from Self Employment in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:SEINC_INYR
+"Household total, gross Income from Investments in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:INV
+"Household total, gross Income from Investments in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:INV_INYR
+"Household total, gross Income from non state pensions in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:PENINC
+"Household total, gross Income from non state pensions in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:PENINC_INYR
+"Household total, gross Income from other sources in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:OTH_SOURCE
+"Household total, gross Income from other sources in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:OTH_SOURCE_INYR
+"Household Income from Disability Benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:DISBEN
+"Household Income from Disability Benefits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:DISBEN_INYR
+"Household Income from other benefits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:OTHBEN
+"Household Income from other benefits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:OTHBEN_INYR
+"Household Income from State Pension, Income Support and Pension Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:RPINC
+"Household Income from State Pension, Income Support and Pension Credit in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:RPINC_INYR
+"Household Income from Tax Credits in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:TXCRED
+"Household Income from Tax Credits in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:TXCRED_INYR
+"Household Income from Universal Credit in latest prices (weekly, CPI adjusted real terms)",str:measure:FRSPP:V_F_FRSPP:UC
+"Household Income from Universal Credit in year prices (weekly, in nominal terms)",str:measure:FRSPP:V_F_FRSPP:UC_INYR

@@ -1,8 +1,4 @@
 dimension_name,dimension
-"Family, total, annual amount of Income received from State Support in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT
-"Family, total, annual amount of Income received from State Support in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:BU_SS_AMT_INYR
-"Family, total amount of savings and investments in latest prices (CPI adjusted real terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT
-"Family, total amount of savings and investments in year prices (in nominal terms)",str:measure:FRSBU:V_F_FRSBU:SAVINGS_AMT_INYR
 Financial Year,str:field:FRSBU:V_F_FRSBU:YEAR
 Country of the Household in the United Kingdom,str:field:FRSBU:V_F_FRSBU:COUNTRY
 Great Britain location of the Household,str:field:FRSBU:V_F_FRSBU:GB
