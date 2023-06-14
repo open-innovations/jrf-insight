@@ -1,0 +1,9 @@
+{
+    "database": "str:database:JSA_sanc_dec", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:JSA_sanc_dec:V_F_JSA_SANC_DEC:PUB_DECMTH"
+        ]
+    ]
+}

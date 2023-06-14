@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSPP", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSPP:V_F_FRSPP:YEAR"
+        ]
+    ]
+}

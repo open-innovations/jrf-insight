@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IS:F_IS_QTR:DATE_NAME"
+        ]
+    ]
+}

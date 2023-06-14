@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSAD", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSAD:V_F_FRSAD:YEAR"
+        ]
+    ]
+}

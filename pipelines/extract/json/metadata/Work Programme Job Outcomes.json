@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WP_Job_Outcomes", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WP_Job_Outcomes:F_WP_DATE:DATE_NAME"
+        ]
+    ]
+}

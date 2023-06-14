@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ESA_sanc_dec", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ESA_sanc_dec:V_F_ESA_SANC_DEC:ESA_MTH"
+        ]
+    ]
+}

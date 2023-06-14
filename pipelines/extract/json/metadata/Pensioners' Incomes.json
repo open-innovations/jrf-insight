@@ -1,0 +1,9 @@
+{
+    "database": "str:database:PI", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:PI:V_F_PI:finyear"
+        ]
+    ]
+}

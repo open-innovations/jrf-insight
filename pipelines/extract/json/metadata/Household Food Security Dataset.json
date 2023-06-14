@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSHFS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSHFS:V_F_FRSHFS:YEAR"
+        ]
+    ]
+}

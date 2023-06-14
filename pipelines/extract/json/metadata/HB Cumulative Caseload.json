@@ -1,0 +1,9 @@
+{
+    "database": "str:database:Benefit_Cap_Cumulative_2011", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:Benefit_Cap_Cumulative_2011:V_F_BC_CUMULATIVE_FULL_2011:ONFLOW"
+        ]
+    ]
+}

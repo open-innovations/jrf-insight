@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WP_Attachments", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WP_Attachments:F_WP_DATE:DATE_NAME"
+        ]
+    ]
+}

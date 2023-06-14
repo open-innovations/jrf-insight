@@ -1,0 +1,9 @@
+{
+    "database": "str:database:hb_full", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:hb_full:V_F_DATE:DATE2"
+        ]
+    ]
+}

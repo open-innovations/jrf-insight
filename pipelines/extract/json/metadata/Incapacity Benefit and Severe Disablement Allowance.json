@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IBSDA", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IBSDA:F_IBSDA_QTR:DATE_NAME"
+        ]
+    ]
+}

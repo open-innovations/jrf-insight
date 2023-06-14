@@ -1,0 +1,9 @@
+{
+    "database": "str:database:CMS_PARENT", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:CMS_PARENT:F_P_DATE:DATE_NAME"
+        ]
+    ]
+}

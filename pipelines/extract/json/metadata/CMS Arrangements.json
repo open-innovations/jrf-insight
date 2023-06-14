@@ -1,0 +1,9 @@
+{
+    "database": "str:database:CMS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:CMS:F_ARR_DATE:DATE_NAME"
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ACC_ONS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ACC_ONS:F_ACC_DATE_new:DATE_NAME"
+        ]
+    ]
+}

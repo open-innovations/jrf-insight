@@ -1,0 +1,9 @@
+{
+    "database": "str:database:Ben_Com", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:Ben_Com:F_BENCOM_QTR:DATE_NAME"
+        ]
+    ]
+}

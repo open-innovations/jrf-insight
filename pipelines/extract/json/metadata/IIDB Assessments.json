@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IIDB_Assessments", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IIDB_Assessments:F_IIDB_DATE:DATE_NAME"
+        ]
+    ]
+}

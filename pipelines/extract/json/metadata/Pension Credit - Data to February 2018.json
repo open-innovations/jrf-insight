@@ -1,0 +1,9 @@
+{
+    "database": "str:database:PC", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:PC:F_PC_QTR:DATE_NAME"
+        ]
+    ]
+}

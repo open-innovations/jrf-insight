@@ -1,0 +1,9 @@
+{
+    "database": "str:database:DLA_Entitled", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:DLA_Entitled:F_DLA_QTR:DATE_NAME"
+        ]
+    ]
+}

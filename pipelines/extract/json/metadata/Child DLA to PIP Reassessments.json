@@ -1,0 +1,9 @@
+{
+    "database": "str:database:PIP_DLA_Reassessment_R16", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:PIP_DLA_Reassessment_R16:F_PIP_DATE:DATE2"
+        ]
+    ]
+}

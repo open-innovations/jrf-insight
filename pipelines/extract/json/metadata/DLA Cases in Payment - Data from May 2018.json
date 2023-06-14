@@ -1,0 +1,9 @@
+{
+    "database": "str:database:DLA_In_Payment_New", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:DLA_In_Payment_New:F_DLA_QTR_New:DATE_NAME"
+        ]
+    ]
+}

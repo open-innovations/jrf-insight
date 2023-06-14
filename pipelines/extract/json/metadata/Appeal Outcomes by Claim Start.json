@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ESA_WCA_APPEAL", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ESA_WCA_APPEAL:V_F_ESA_WCA_APPEAL:CDSTART"
+        ]
+    ]
+}

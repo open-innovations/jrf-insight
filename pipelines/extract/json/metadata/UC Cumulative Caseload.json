@@ -1,0 +1,9 @@
+{
+    "database": "str:database:BC_UC_Flows", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:BC_UC_Flows:V_F_UCFS_FLOWS:on_flow"
+        ]
+    ]
+}

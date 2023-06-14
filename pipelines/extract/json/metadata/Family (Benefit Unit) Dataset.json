@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSBU", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSBU:V_F_FRSBU:YEAR"
+        ]
+    ]
+}

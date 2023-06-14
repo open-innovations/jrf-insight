@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WP_Referrals", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WP_Referrals:F_WP_DATE:DATE_NAME"
+        ]
+    ]
+}

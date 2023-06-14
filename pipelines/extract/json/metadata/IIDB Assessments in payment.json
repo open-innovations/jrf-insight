@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IIDB_IICS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IIDB_IICS:F_IICS_DATE:DATE_NAME"
+        ]
+    ]
+}

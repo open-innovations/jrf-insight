@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IIDB_Meso", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IIDB_Meso:F_MESO_DATE:DATE_NAME"
+        ]
+    ]
+}

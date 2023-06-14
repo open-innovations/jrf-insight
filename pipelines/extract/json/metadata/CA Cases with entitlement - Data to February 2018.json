@@ -1,0 +1,9 @@
+{
+    "database": "str:database:CA_Entitled", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:CA_Entitled:F_CA_QTR:DATE_NAME"
+        ]
+    ]
+}

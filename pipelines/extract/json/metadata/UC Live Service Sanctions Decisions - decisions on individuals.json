@@ -1,0 +1,9 @@
+{
+    "database": "str:database:UC_sanc_ind", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:UC_sanc_ind:V_F_UC_SANC_DEC:CDLDECISION_CLMONTH"
+        ]
+    ]
+}

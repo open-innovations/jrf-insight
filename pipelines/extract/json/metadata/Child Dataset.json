@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSCH", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSCH:V_F_FRSCH:YEAR"
+        ]
+    ]
+}

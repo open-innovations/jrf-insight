@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ESA_WCA_Clearance", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ESA_WCA_Clearance:V_F_ESA_WCA_CLEARANCE:JCP_ATOS_RESULT_DATE"
+        ]
+    ]
+}

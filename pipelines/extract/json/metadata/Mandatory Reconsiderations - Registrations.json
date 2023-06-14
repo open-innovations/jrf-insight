@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ESA_WCA_Registration", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ESA_WCA_Registration:V_F_ESA_WCA_REGISTRATIONS:DATE_CASE_RECEIVED"
+        ]
+    ]
+}

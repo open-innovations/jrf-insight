@@ -1,0 +1,9 @@
+{
+    "database": "str:database:FRSHH", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:FRSHH:V_F_FRSHH:YEAR"
+        ]
+    ]
+}

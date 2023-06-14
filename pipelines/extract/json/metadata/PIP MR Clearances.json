@@ -1,0 +1,9 @@
+{
+    "database": "str:database:PIP_MR_Clearances", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:PIP_MR_Clearances:F_PIP_DATE:DATE2"
+        ]
+    ]
+}

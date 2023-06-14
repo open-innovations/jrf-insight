@@ -1,0 +1,9 @@
+{
+    "database": "str:database:Ninos", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:Ninos:F_NINO_QTR:QTR_NAME"
+        ]
+    ]
+}

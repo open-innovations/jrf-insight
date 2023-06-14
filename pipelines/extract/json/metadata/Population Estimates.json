@@ -1,0 +1,9 @@
+{
+    "database": "str:database:PopulationEstimates", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:PopulationEstimates:F_POP_YEAR:YEAR_NAME"
+        ]
+    ]
+}

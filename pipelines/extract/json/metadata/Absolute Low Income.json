@@ -1,0 +1,9 @@
+{
+    "database": "str:database:CILIF_ABS", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:CILIF_ABS:F_CILIF_DATE:DATE_NAME"
+        ]
+    ]
+}

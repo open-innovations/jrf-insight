@@ -1,0 +1,9 @@
+{
+    "database": "str:database:JSA", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:JSA:F_JSA_QTR:DATE_NAME"
+        ]
+    ]
+}

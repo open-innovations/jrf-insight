@@ -1,0 +1,9 @@
+{
+    "database": "str:database:UC_sanc_rates", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:UC_sanc_rates:V_F_UC_SANC_RATE:DATE_CODE"
+        ]
+    ]
+}

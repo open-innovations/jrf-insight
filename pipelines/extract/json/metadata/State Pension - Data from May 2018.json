@@ -1,0 +1,9 @@
+{
+    "database": "str:database:SP_New", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:SP_New:F_SP_QTR_New:DATE_NAME"
+        ]
+    ]
+}

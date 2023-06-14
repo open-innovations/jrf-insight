@@ -1,0 +1,9 @@
+{
+    "database": "str:database:BSP_Payment", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:BSP_Payment:F_BSP_MONTH:MONTH_NAME"
+        ]
+    ]
+}

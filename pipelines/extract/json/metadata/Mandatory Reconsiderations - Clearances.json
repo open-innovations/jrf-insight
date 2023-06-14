@@ -1,0 +1,9 @@
+{
+    "database": "str:database:ESA_WCA_MR_Clear", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:ESA_WCA_MR_Clear:V_F_ESA_WCA_MR_CLEAR:DECISION_DATE"
+        ]
+    ]
+}

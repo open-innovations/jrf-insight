@@ -1,0 +1,9 @@
+{
+    "database": "str:database:SMI_CUM", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:SMI_CUM:F_SMI_DATE:DATE_NAME"
+        ]
+    ]
+}

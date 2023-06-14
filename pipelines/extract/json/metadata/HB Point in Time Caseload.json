@@ -1,0 +1,9 @@
+{
+    "database": "str:database:Benefit_Cap_Monthly_2011", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:Benefit_Cap_Monthly_2011:F_BC_DATE:MONTH"
+        ]
+    ]
+}

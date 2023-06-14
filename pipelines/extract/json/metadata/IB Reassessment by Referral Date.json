@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IBR_REF", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IBR_REF:F_IBR_REF_MONTH:DATE_NAME"
+        ]
+    ]
+}

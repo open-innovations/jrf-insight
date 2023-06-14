@@ -1,0 +1,9 @@
+{
+    "database": "str:database:UC_Monthly", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:UC_Monthly:F_UC_DATE:DATE_NAME"
+        ]
+    ]
+}

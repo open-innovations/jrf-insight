@@ -1,0 +1,9 @@
+{
+    "database": "str:database:hb_flows", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:hb_flows:F_HB_FLOWS_DATE:NEW_DATE_NAME"
+        ]
+    ]
+}

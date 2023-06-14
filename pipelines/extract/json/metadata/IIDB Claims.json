@@ -1,0 +1,9 @@
+{
+    "database": "str:database:IIDB_Claims", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:IIDB_Claims:F_IIDB_DATE:DATE_NAME"
+        ]
+    ]
+}
