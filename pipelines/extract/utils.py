@@ -107,9 +107,13 @@ def get_variables(session, database_id):
                 print(f'couldn\'t get groups for {id}')
                 continue        
         elif check==False:
-            #print('here')
             dimensions.append(id)
             dimension_names.append(label)
+        #fixing a bug in statxplore - missing variable.
+    if database_id == 'str:database:WP_Sustainment_Ind':
+        dimensions.append("str:field:WP_Attachments:F_WP_DATE:DATE_NAME")
+        dimension_names.append("month")
+    
     return measures, measure_names, dimensions, dimension_names
 
 
