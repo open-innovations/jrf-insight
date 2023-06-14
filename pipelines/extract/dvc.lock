@@ -4,15 +4,15 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/extract.py
     deps:
     - path: data/lookups
-      md5: f8a441059a0be897bbc80d6025b8e74b.dir
-      size: 164448
+      md5: 2ca696c510143eed32cd89ae3cfb8cab.dir
+      size: 167572
       nfiles: 324
     - path: pipelines/extract/extract.py
-      md5: 1be0b638f378297e50de9ed59851a281
-      size: 2889
+      md5: 903b84a08fd298c5a88d5fdd423ec668
+      size: 3938
     - path: pipelines/extract/utils.py
-      md5: 562d680abfe95932727d97fcd8bbacdb
-      size: 10885
+      md5: 3d5fd7839c8171af22fba0d49142d7ec
+      size: 12294
     outs:
     - path: data/csv
       md5: d751713988987e9331980363e24189ce.dir
@@ -25,10 +25,10 @@ stages:
       md5: 8c52b17dad2f3f194765935559d26d30
       size: 2109
     - path: pipelines/extract/utils.py
-      md5: e532cda5e33d3bdbb1f07f42860c74bf
-      size: 12085
+      md5: 3d5fd7839c8171af22fba0d49142d7ec
+      size: 12294
     outs:
     - path: data/lookups
-      md5: 58372dbb6994acbf262b651c7bcfa744.dir
-      size: 167521
+      md5: 2ca696c510143eed32cd89ae3cfb8cab.dir
+      size: 167572
       nfiles: 324

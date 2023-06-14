@@ -35,14 +35,28 @@ os.makedirs(DATADIR, exist_ok=True)
 # data.rename(columns=slugify, inplace=True)
 # date_type_list = ['month', 'quarter', 'year', 'financial_year']
 # print(data.columns.to_list())
-def datetype_from_dimension(dataframe):
-    date_type_list = ['Month', 'Quarter', 'Year', 'Financial Year', 'Month of Off Flow', 'Onflow Month', 'Off-flow Month']
-    for type in date_type_list:
-        try:
-            dates = dataframe[dataframe['dimension_name'] == type]
-            return dates.dimension
-        except:
-            print('None of the date types were available.')
+def datetype_from_dimension(df):
+    date_type_list = ['month', 'quarter', 'year', 'financial_year',
+                      'month_of_off_flow', 'month_of_on_flow', 'onflow_month', 
+                      'off-flow_month', 'date', 'claim_start_date', 'completed_assessment_date',
+                      'date_of_decision', 'date_of_dwp_decision', 'date_of_registration',
+                      'quarter_and_year_of_registration', 'month_decision_made',
+                      'time_period', 'decision_month', 'start_month', 'referral_month']
+    
+    df['dimension_name'] = df['dimension_name'].str.replace(r'\W+', '_', regex=True)
+    df['dimension_name'] = df['dimension_name'].str.lower()
+    print(f'the following dataframe failed {df}')
+    dates = df[df['dimension_name'].str.fullmatch(date_type_list[0])]
+    i = 0
+    while dates.empty:
+        dates = df[df['dimension_name'].str.fullmatch(date_type_list[i])]
+        i+=1
+    #print(dates)
+    #print(f'{dates}')
+    #print(f"the date dimension is {dates}")
+    return dates.dimension
+# except:
+#     print('None of the date types were available.')
             
 #dates.to_csv(os.path.join())
 
@@ -63,10 +77,11 @@ def dates_from_database():
         set = pd.read_csv(i)
         base = set['database']
         base_name = set['database_name']
-        dimension = pd.read_csv(j).reset_index()
+        dimension = pd.read_csv(j)
+        #print(dimension)
         date_api_call = datetype_from_dimension(dimension)
         print('database api call {}'.format(base.iloc[0]))
-        print('date_api_call {}'.format(date_api_call.iloc[0]))
+        print('date_api_call {}'.format(date_api_call))
         statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename='{}.json'.format(base_name.iloc[0]), DIR='pipelines/extract/json/metadata/')
         print(f'finished {base_name}')
     # database = pd.read_csv(os.path.join(dirnames, 'database.csv'))
