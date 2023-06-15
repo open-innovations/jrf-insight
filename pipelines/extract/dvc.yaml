@@ -19,7 +19,7 @@ stages:
       - pipelines/extract/utils.py
       - data/lookups
     outs:
-      - data/csv:
+      - pipelines/extract/json/metadata:
           cache: false
           persist: false
   # extract:

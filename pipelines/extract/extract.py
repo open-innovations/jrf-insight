@@ -31,14 +31,21 @@ def datetype_from_dimension(df):
     df['dimension_name'] = df['dimension_name'].str.replace(r'\W+', '_', regex=True)
     df['dimension_name'] = df['dimension_name'].str.lower()
     
+    
     dates = df[df['dimension_name'].str.fullmatch(date_type_list[0])]
 
     i = 0
+    #print(len(date_type_list))
     while dates.empty:
         #iterate through the list of date types
-        dates = df[df['dimension_name'].str.fullmatch(date_type_list[i])]
+        try:
+            dates = df[df['dimension_name'].str.fullmatch(date_type_list[i])]
+        except:
+            print('No date fields')
+            return pd.DataFrame()
+        #if we exhaust the list, break from the loop and return empty df
         i+=1
-
+        
     return dates.dimension
 
 def dates_from_database():
@@ -58,9 +65,10 @@ def dates_from_database():
         dimension = pd.read_csv(j)
 
         date_api_call = datetype_from_dimension(dimension)
-
-        # print('database api call {}'.format(base.iloc[0]))
-        # print('date_api_call {}'.format(date_api_call))
+        print(f'API: {date_api_call}')
+        if date_api_call.empty:
+            print('No date fields')
+            continue
 
         statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename='{}.json'.format(base_name.iloc[0]), DIR='pipelines/extract/json/metadata/')
 
