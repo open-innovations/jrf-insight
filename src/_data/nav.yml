@@ -1,7 +1,9 @@
 - title: Places
   children:
-    - title: Leeds
-      url: /place/leeds/
+    - title: The North
+      url: /place/the_north/
+    - title: West Yorkshire
+      url: /place/E47000003/
 
 - title: Spotlights
   children: 

@@ -1,0 +1,18 @@
+---
+layout: ../page.njk
+tags:
+  - spotlight
+---
+{% set place_page = search.page("place key=" + geography) %}
+
+{{ content | safe }}
+
+<h2>Jump out spotlight page for {{ spotlight }}</h2>
+
+<a href="{{ place_page.url }}">Place page for {{ place_page.name }}</a>
+
+<h2>Zoom in and out of geography within {{ spotlight }}</h2>
+
+{{ comp.zoom.geo({ place_list: place_page.parents, heading: 'Containing geographies', prefix: '/spotlight/' + spotlight + '/' }) | safe }}
+{{ comp.zoom.geo({ place_list: place_page.place.children.E08, heading: 'Counties and Unitary Authorities', prefix: '/spotlight/' + spotlight + '/' }) | safe }}
+

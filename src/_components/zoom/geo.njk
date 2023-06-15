@@ -1,0 +1,6 @@
+{% if place_list.length > 0 %}
+<h3>{{ heading }}</h3>
+{% for place in place_list %}
+<a href="{{ prefix or '/place/' }}{{ place }}/">{{ places[place].name }}</a>
+{% endfor %}
+{% endif %}
