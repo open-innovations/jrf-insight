@@ -31,7 +31,7 @@ def get_ids(session, locator=None):
         schema = objects.Schema.list(session)
     else:
         schema = objects.Schema(locator).get(session)
-    # print(schema)
+    
     children = schema.get('children')
 
     ids = []
@@ -55,31 +55,32 @@ def get_variables(session, database_id):
     measure_names = []
     dimensions = []
     dimension_names = []
-    # print(children)
+    
     for i in children:
-        check = False
+        
+        # setting up a check to make sure dimensions are only appended to list once
+        #check = False
+
         id = str(i.get('id'))
         label = str(i.get('label'))
+
+        # store measures and counts as measures.
         if "str:measure:" in id or "str:count:" in id:
-            
             measures.append(id)
             measure_names.append(label)
             continue
+        
+        # if group, recall the API to get the dimensions
         elif "str:group" in id:
-            # if database_id == 'str:database:HBAI':
-            #     id = id[:-3]
-            #     label = label[:-1]
-            #print(id)
-            check = True
-            #print('group is', id)
+            #check = True
+
             try:
                 idss, labelss = group_to_fields(session, locator=id)
 
                 # if there is >1 field, append each to a separate line of the csv
-                # else append as normal (avoids breking each character to new line)
+                # else append as normal (avoids writing each character to new line)
                 if len(idss) > 1:
                     for iden, lab in zip(idss, labelss):
-
                         if "str:measure:" in iden or "str:count:" in iden:
 
                             measures.append(iden)
@@ -88,10 +89,7 @@ def get_variables(session, database_id):
 
                         dimensions.append(iden)
                         dimension_names.append(lab)
-                        #print('iden, lab = ', iden, lab)
-                    # for lab in labelss:
-                    #     dimension_names.append(lab)
-                    #print('we appended several groups')
+
                 else:
                     if "str:measure:" in idss[0] or "str:count:" in idss[0]:
             
@@ -101,15 +99,18 @@ def get_variables(session, database_id):
                     
                     dimensions.append(idss[0])
                     dimension_names.append(labelss[0])
-                    #print('idss, labels = ', idss[0], labelss[0])
                 continue
+
             except:
                 print(f'couldn\'t get groups for {id}')
-                continue        
-        elif check==False:
+                continue
+
+        elif "group" not in id:
+            # append the dimensions if we haven't already
             dimensions.append(id)
             dimension_names.append(label)
-        #fixing a bug in statxplore - missing variable.
+    
+    # fixing a bug in statxplore - missing variable.
     if database_id == 'str:database:WP_Sustainment_Ind':
         dimensions.append("str:field:WP_Attachments:F_WP_DATE:DATE_NAME")
         dimension_names.append("month")
@@ -121,6 +122,10 @@ def make_csv(ids, labels, OUTDIR, type=None):
     '''
     Makes csv files 
     '''
+    
+    # if a database, there is only id and label, 
+    # so iterating would write each character to a new line.
+
     if type == 'database':
         df = pd.DataFrame([[ids, labels]], columns=['{}'.format(
             type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
@@ -139,14 +144,14 @@ def group_to_fields(session, locator):
     labels and ids contained within. 
     '''
     try:
-        groups, group_labels = get_ids(session, locator=locator)
-        if not groups:
+        fields, field_labels = get_ids(session, locator=locator)
+        if not fields:
             print('couldnt get groups')
     except:
         print('failed to get groups for {}'.format(locator))
-    return groups, group_labels
+    return fields, field_labels
 
-def statxplore_to_json(database, measures, dimensions, filename, DIR  ):
+def statxplore_to_json(database, measures, dimensions, filename, DIR):
     '''
     Makes a json for the API call to statXplore.
 
@@ -160,6 +165,8 @@ def statxplore_to_json(database, measures, dimensions, filename, DIR  ):
         a list of lists, inside which is a string with the dimension name
     filename: str
         name of the json file
+    DIR: str
+        path to store json files.
     Returns
     -------
     A json stored in filename
