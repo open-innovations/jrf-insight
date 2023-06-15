@@ -17,28 +17,12 @@ if __name__ == '__main__':
             measures, measure_names, dimensions, \
                 dimension_names = get_variables(session, database_id)
             
-            print('Got lookups for database {} in folder {}'.format(database_name, folder_name))
+            print(f'Got lookups for database {database_name} in folder {folder_name}')
 
-            OUTDIR = 'data/lookups/{folder}/{database}/'.format(folder=folder_name, database=database_name)
+            OUTDIR = f'data/lookups/{folder_name}/{database_name}/'
             os.makedirs(OUTDIR, exist_ok=True)
 
             make_csv(measures, measure_names, OUTDIR, type='measure')
             make_csv(dimensions, dimension_names, OUTDIR, type='dimension')
             make_csv(database_id, database_name, OUTDIR, type='database')
-            #break
-        #break
-    # root_folder = "data/lookups"
-    
-    # for folder in os.listdir(root_folder):
-    #     for subfolder in os.listdir(os.path.join(root_folder, folder)):
-    #         for file in os.listdir(os.path.join(root_folder, folder, subfolder)):
-    #             if file == 'dimension.csv':
-    #                 data = pd.read_csv(os.path.join(root_folder, folder, subfolder, 'dimension.csv'))
-    #                 df = data[data['dimension'].str.contains('group')]
-    #                 for dim in df.dimension:
-    #                     try:
-    #                         groups, group_labels = get_ids(session, locator=dim)
-    #                         dimensions.append(groups)
-    #                         dimension_names.append(group_labels)
-    #                     except:
-    #                         print('failed to get groups for{}'.format(folder))
+            
