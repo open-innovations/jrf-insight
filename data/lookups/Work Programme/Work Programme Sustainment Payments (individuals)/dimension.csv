@@ -10,4 +10,3 @@ Length of Job Outcome,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:JOLENG
 Mandatory or Voluntary Indicator,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:MANDVOL
 Number of Sustainment Payments,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:NO_OF_SUS_CODE
 Payment Group,str:field:WP_Sustainment_Ind:V_F_WP_SUSTAINMENT_IND:OTPTYPE_CODE
-month,str:field:WP_Attachments:F_WP_DATE:DATE_NAME
