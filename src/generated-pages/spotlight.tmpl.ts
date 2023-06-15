@@ -1,17 +1,19 @@
-export default function* ({ spotlights, geographies }) {
+export const layout = 'templates/spotlight/base.njk';
+
+export default function* ({ spotlights, places }) {
   for (const spotlight of spotlights) {
     yield {
       url: `/spotlight/${spotlight}/`,
-      title: `Spotlight page for ${spotlight}`,
-      spotlight: spotlight,
+      layout: 'templates/redirect.njk',
+      target: `/spotlight/${spotlight}/the_north/`,
     };
 
-    for (const geography of geographies) {
+    for (const place of Object.keys(places)) {
       yield {
-        url: `/spotlight/${spotlight}/${geography}/`,
-        title: `Spotlight page for ${spotlight} at ${geography} scale`,
+        url: `/spotlight/${spotlight}/${place}/`,
+        title: `Spotlight page for ${spotlight} at ${places[place].name} scale`,
         spotlight: spotlight,
-        geography: geography,
+        geography: place,
       };
     }
   }

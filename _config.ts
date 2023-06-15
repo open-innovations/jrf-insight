@@ -15,6 +15,10 @@ const site = lume({
     cssFile: "/assets/css/components.css",
     jsFile: "/assets/js/components.js",
   },
+}, {
+  search: {
+    returnPageData: true,
+  }
 });
 
 site.process([".html"], autoDependency);
@@ -38,5 +42,8 @@ site.remoteFile(
   "/assets/images/oi_logo.svg",
   "https://open-innovations.org/resources/images/logos/oi-square-11.svg",
 );
+
+// filters
+site.filter('keys', o => Object.keys(o));
 
 export default site;
