@@ -1,9 +1,12 @@
-- title: Insights
+- title: Places
+  children:
+    - title: Leeds
+      url: /place/leeds/
+
+- title: Spotlights
   children: 
-    - title: Insight 1
-      url: /
-    - title: Insight 2
-      url: /
+    - title: Spotlight One
+      url: /spotlight/spotlight_one/
 
 - title: Themes
   children:
