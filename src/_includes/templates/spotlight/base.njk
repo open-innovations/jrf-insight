@@ -14,5 +14,15 @@ tags:
 <h2>Zoom in and out of geography within {{ spotlight }}</h2>
 
 {{ comp.zoom.geo({ place_list: place_page.parents, heading: 'Containing geographies', prefix: '/spotlight/' + spotlight + '/' }) | safe }}
-{{ comp.zoom.geo({ place_list: place_page.place.children.E08, heading: 'Counties and Unitary Authorities', prefix: '/spotlight/' + spotlight + '/' }) | safe }}
+
+{% if place_page.place.children %}
+{% for place_type in (place_page.place.children | keys) %}
+{{ comp.zoom.geo({
+  place_list: place_page.place.children[place_type],
+  heading: ref.geo.types[place_type] or place_type,
+  prefix: '/spotlight/' + spotlight + '/'
+}) | safe }}
+{% endfor %}
+{% endif %}
+
 
