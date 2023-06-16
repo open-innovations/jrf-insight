@@ -8,9 +8,6 @@ from statxplore import objects
 import statxplorer
 from probe import session
 
-#statxplore_to_json(database, measures, dimensions, filename, DIR=JSONDIR)
-
-
 def query_to_pandas(KEY, path_to_json):
     '''get the table and store the results as a dataframe'''
     explorer = statxplorer.StatXplorer(KEY)
@@ -42,45 +39,74 @@ def datetype_from_dimension(df):
             dates = df[df['dimension_name'].str.fullmatch(date_type_list[i])]
         except:
             print('No date fields')
-            return pd.DataFrame()
+            return pd.DataFrame(), None
         #if we exhaust the list, break from the loop and return empty df
         i+=1
-        
-    return dates.dimension
+    
+    #work out the frequency of the date
+    #check year, quarter else assume its a month
+    freq = ['month', 'year', 'quarter']
+    for f in freq:
+        print(date_type_list[date_type_list.index(date_type_list[i-1])])
+        if f in date_type_list[date_type_list.index(date_type_list[i-1])]:
+            print('here')
+            dates_freq = f[0]
+            break
+        else:
+            dates_freq = 'm'
+            #break
+    return dates.dimension, dates_freq
 
-def dates_from_database():
+def metadata():
     '''
-    Write a csv containing the dates assocated
-    with each database.
+    Write a json containing the API call 
+    to get the dates
     '''
 
     #list all the files to iterate through
     database_list = glob.glob('data/lookups/**/database.csv', recursive=True)
     dimension_list = glob.glob('data/lookups/**/dimension.csv', recursive=True)
-
-    for i, j in zip(database_list, dimension_list):
-        set = pd.read_csv(i)
-        base = set['database']
-        base_name = set['database_name']
+    folder_list = glob.glob('data/lookups/*/*', recursive=True)
+    for i, j, k in zip(database_list, dimension_list, folder_list):
+        dataset = pd.read_csv(i)
+        base = dataset['database']
+        base_name = dataset['database_name']
         dimension = pd.read_csv(j)
+        date_api_call, frequency = datetype_from_dimension(dimension)
 
-        date_api_call = datetype_from_dimension(dimension)
         print(f'API: {date_api_call}')
         if date_api_call.empty:
             print('No date fields')
             continue
-
-        statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename='{}.json'.format(base_name.iloc[0]), DIR='pipelines/extract/json/metadata/')
+        filename = f'{base_name.iloc[0]}.json'
+        METADATA_DIR = 'pipelines/extract/json/metadata/'
+        statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename=filename, DIR=METADATA_DIR)
 
         print(f'finished {base_name}')
-
-        # data = query_to_pandas(STATXPLORE_API_KEY, )
-
+        data = query_to_pandas(STATXPLORE_API_KEY, os.path.join(METADATA_DIR, filename))
+        data.index.rename('dates_date', inplace=True)
+        data.reset_index(inplace=True)
+        frame = pd.DataFrame(data={'dates_date': data.dates_date}).set_index('dates_date')
+        frame['freq'] = frequency
+        frame.to_csv(os.path.join(k, 'metadata.csv'))
+    return
+        
         # @TODO
         #1 query the API witht the jsons
         #2 extract the dates
         #3 write them to csv in 'data/lookups/<database>/dates.csv
 
-    return
+def dates_to_csv(key, PATH):
+    data = query_to_pandas(key, PATH)
+    data.index.rename('dates_date', inplace=True)
+    data.reset_index(inplace=True)
+
+    return data.dates_date
+
 if __name__ == '__main__':
-    dates_from_database()
+    metadata()
+
+    # json_list = glob.glob('pipelines/extract/json/metadata/*.json', recursive=True)
+    # for file in json_list:
+    #     dates_to_csv(STATXPLORE_API_KEY, file)
+    #     # @TODO add a frequency column
