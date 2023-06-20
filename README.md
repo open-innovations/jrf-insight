@@ -25,10 +25,12 @@ install pip and then pipenv in a linux environment. Dependencies in the
 we extract the data, transform it into a required shapem and prepare it for
 visualisation. These are different "stages".
 
+The `extract` folder contains the stages `probe`: make the lookups for everything available in statxplore, `describe`: make metadata for the datasets, `extract`: get the data from files in `json/data`.
+
 You can run pipelines using DVC. Run `dvc init` to initialise the directory.
 Then `dvc repro pipelines/<stage>/dvc.yaml` to run the pipelines. If there are
 no changes to files, the stage will skip.
 
 ## Data
 
-Lookups for the statXplore API requests stored in `data/csv`.
+Lookups for the statXplore API requests stored in `data/lookups`. Data is stored in `data/csv`. This data has been accessed and used in accordance with the [Open Government License](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
