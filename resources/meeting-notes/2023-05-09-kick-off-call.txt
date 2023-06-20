@@ -1,0 +1,87 @@
+JRF North Insight Finder
+Adel and Peter
+
+stakeholder engagment - what does an ideal insight infrastructure look like?
+one more session left?
+
+What people expect
+Common problems they have
+
+Data & Digital Models to share insights (ending soonish, early June)
+Similar pproach to connected by data
+Haveing ocnversation with stakeholders
+Focusing on data and digital
+Make good data easy to use and engaging to all types of users
+
+Discussion with connected by data and social  
+what people value is to start building a movement
+getting people on board, being supportive of JRF principles and aims
+
+From his blogs:
+People will value insight infra which provides reliable data
+"trust" - data brand, data source, provide due reassurances and references
+Who will QA any third-party data
+
+Willingness to experiment - to create and connect data that hasn't been done before
+"Be open to failure"
+Audiences need to be aware of this
+
+Info has no use if those without technical background can't use it
+
+"Keep it human!"
+
+A journey into the data - Giles - start simple with static stories before going into deeper analysis
+
+Blog the introduction to the project
+
+Asset primarily for not
+
+Innovative, take some chances, some will work, some won't
+Experiment - 
+Democratising data
+#radicallyopen
+
+build up the narrative piece as we build the areas out
+Core thing to bear in mind, strongest selling point, intention to try to experiment
+Create as local as possible data for those in the north, trying to solve problems
+In the open, local asset for poeple working locally
+Community level as the ideal smallest part
+
+Geography levels may be different by theme or JRF theme
+
+part of JRF, but not part of JRF.
+
+We are the lab where we can experiment
+Reach same goal - people & planet thrive
+Insihgt infra will take time to help us get there
+Here to create conditions for others to be bale to achieve that long term goal
+
+When we poverty is an outcome
+But sources, social, economic, are the causes
+People who experience hardship - not just financial, social, emotional
+- Q what additional or new sources could be used
+Wellbeing, health, - try to change this trend - how can we measure these better?
+
+Open Innovations MIT license on the code
+
+Economic/social/poverty data publishing protocols. guidance, top 5 lsit of things ot do, etc.
+Data Mill North - etc.
+
+Network of organisations - conition to test whether this coul dbe a place to do some,part,all,none of this
+
+ID friendly organisation to share product with
+
+Map feedback against different target audiences
+
+* Arrange a Github issues training session
+
+Start estimates at local level - what are the geographies?
+
+Work to identify the key stories
+
+* Share the two wokrpices fast
+
+A place where you get the information that informs action
+
+Given the data, the things that you can do are (might be) ... clear sense of direction
+
