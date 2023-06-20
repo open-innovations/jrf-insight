@@ -1,5 +1,0 @@
-{
-    "database" : "str:database:HBAI",
-    "measures" : [ "str:statfn:HBAI:V_F_HBAI:GS_INDPP:SUM" ],
-    "dimensions" : [ [ "str:field:HBAI:V_F_HBAI:YEAR" ], [ "str:field:HBAI:V_F_HBAI:LOW60BHC" ] ]
-  }

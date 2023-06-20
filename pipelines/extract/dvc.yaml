@@ -1,34 +1,33 @@
 stages:
-  # probe:
-  #   cmd: PYTHONPATH= python pipelines/extract/probe.py
-  #   # always_changed: true
-  #   wdir: ../..
-  #   deps:
-  #     - pipelines/extract/probe.py
-  #     - pipelines/extract/utils.py
-  #   outs:
-  #     - data/lookups:
-  #         cache: false
-  #         persist: false
-  extract:
-    cmd: PYTHONPATH= python pipelines/extract/extract.py
+  probe:
+    cmd: PYTHONPATH= python pipelines/extract/probe.py
     # always_changed: true
     wdir: ../..
     deps:
-      - pipelines/extract/extract.py
+      - pipelines/extract/probe.py
+      - pipelines/extract/utils.py
+    outs:
+      - data/lookups:
+          cache: false
+          persist: false
+  describe:
+    cmd: PYTHONPATH= python pipelines/extract/describe.py
+    # always_changed: true
+    wdir: ../..
+    deps:
+      - pipelines/extract/describe.py
       - pipelines/extract/utils.py
       - data/lookups
     outs:
       - pipelines/extract/json/metadata:
           cache: false
           persist: false
-  # extract:
-  #   wdir: ../..
-  #   always_changed: True
-  #   cmd: statxplore --api_key $STATXPLORE_API_KEY -q pipelines/extract/json/HBAI_test.json -o working/HBAI/HBAI_test.csv
-  #   deps:
-  #     - pipelines/extract/json/HBAI_test.json
-  #   outs:
-  #     - working/HBAI/HBAI_test.csv:
-  #         cache: false
-  #         persist: false
+  extract:
+    cmd: PYTHONPATH= python pipelines/extract/extract.py
+    wdir: ../..
+    deps:
+      - pipelines/extract/extract.py
+      - pipelines/extract/utils.py
+      - pipelines/extract/json/data
+    outs: 
+      - data/csv

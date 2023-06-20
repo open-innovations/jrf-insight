@@ -1,0 +1,14 @@
+{
+    "database" : "str:database:HBAI",
+    "measures" : [ "str:count:HBAI:V_F_HBAI" ],
+    "dimensions" : [ [ "str:field:HBAI:V_F_HBAI:YEAR" ], [ "str:field:HBAI:V_F_HBAI:AGEBAND_CHLOW" ],
+    [ "str:field:HBAI:V_F_HBAI:DIS" ], [ "str:field:HBAI:V_F_HBAI:SEX" ], [ "str:field:HBAI:V_F_HBAI:EDATTAIN" ], 
+    [ "str:field:HBAI:V_F_HBAI:NEWFAMBU_UC" ], [ "str:field:HBAI:V_F_HBAI:CAPITAL" ], 
+    [ "str:field:HBAI:V_F_HBAI:NUMBKIDS" ], [ "str:field:HBAI:V_F_HBAI:GVTREGN_LON" ] ],
+    "recodes" : {
+        "str:field:HBAI:V_F_HBAI:YEAR" : {
+          "map" : [ [ "str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:2122" ] ],
+          "total" : false
+        }
+      }
+  }

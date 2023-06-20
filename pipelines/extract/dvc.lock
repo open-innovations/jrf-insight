@@ -3,21 +3,21 @@ stages:
   extract:
     cmd: PYTHONPATH= python pipelines/extract/extract.py
     deps:
-    - path: data/lookups
-      md5: 781ac9d666172baafd64f357d37654cc.dir
-      size: 272616
-      nfiles: 431
     - path: pipelines/extract/extract.py
-      md5: 4af3cddbc284e63930683abe6ce6ffee
-      size: 4332
+      md5: c430484514b50c120c064f5c8f08d08c
+      size: 400
+    - path: pipelines/extract/json/data
+      md5: 39876ce93ec47563a09c063610cdef77.dir
+      size: 677
+      nfiles: 1
     - path: pipelines/extract/utils.py
       md5: 15493a2a1b03c662531afd90c92c8e78
       size: 12244
     outs:
-    - path: pipelines/extract/json/metadata
-      md5: c6a03ccd3f3f59941ddde60546ed118d.dir
-      size: 18701
-      nfiles: 107
+    - path: data/csv
+      md5: a1ff5e429eb6f7c7c037eb3d37649879.dir
+      size: 1435538
+      nfiles: 1
   probe:
     cmd: PYTHONPATH= python pipelines/extract/probe.py
     deps:
@@ -32,3 +32,21 @@ stages:
       md5: 58372dbb6994acbf262b651c7bcfa744.dir
       size: 167521
       nfiles: 324
+  describe:
+    cmd: PYTHONPATH= python pipelines/extract/describe.py
+    deps:
+    - path: data/lookups
+      md5: 1b1cc7c9263bb9ec8a7d4efb5cf8cf52.dir
+      size: 272832
+      nfiles: 431
+    - path: pipelines/extract/describe.py
+      md5: 9be157f78a0590bc9be6912aa65cb9e3
+      size: 3894
+    - path: pipelines/extract/utils.py
+      md5: 15493a2a1b03c662531afd90c92c8e78
+      size: 12244
+    outs:
+    - path: pipelines/extract/json/metadata
+      md5: c6a03ccd3f3f59941ddde60546ed118d.dir
+      size: 18701
+      nfiles: 107
