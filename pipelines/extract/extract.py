@@ -10,5 +10,5 @@ if __name__ == '__main__':
     HBAI.rename(columns=slugify, inplace=True)
 
     #write to csv
-    os.makedirs('data/csv', exist_ok=True)
-    HBAI.to_csv('data/csv/HBAI.csv')
+    os.makedirs('data/hbai', exist_ok=True)
+    HBAI.to_csv('data/hbai/HBAI.csv')

@@ -30,4 +30,6 @@ stages:
       - pipelines/extract/utils.py
       - pipelines/extract/json/data
     outs: 
-      - data/csv
+      - data/hbai/hbai.csv:
+          cache: false
+          persist: false
