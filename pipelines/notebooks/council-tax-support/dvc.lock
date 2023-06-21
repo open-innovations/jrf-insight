@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  council-tax-support:
+    cmd: "papermill pipelines/notebooks/council-tax-support/council-tax-support.ipynb
+      pipelines/outputs/cts-completed-notebook.ipynb -p n 100\n"
+    deps:
+    - path: data/council-tax-support/council-tax-support.csv
+      hash: md5
+      md5: fd1d83b8a788491ddc4465caea0c9645
+      size: 1510297
+    - path: pipelines/notebooks/council-tax-support/council-tax-support.ipynb
+      hash: md5
+      md5: 42e926e63db65d52a54a76f394e374d2
+      size: 987

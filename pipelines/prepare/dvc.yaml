@@ -1,5 +1,5 @@
 stages: 
-  probe:
+  example:
     cmd: PYTHONPATH= python pipelines/prepare/example.py 
     wdir: ../..
     deps:
