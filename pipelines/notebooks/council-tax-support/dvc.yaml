@@ -1,10 +1,13 @@
 stages:
-  council-tax-support:
+ council-tax-support:
     wdir: ../../..
     cmd: >
       papermill pipelines/notebooks/council-tax-support/council-tax-support.ipynb
       pipelines/outputs/cts-completed-notebook.ipynb
-      -p n ${base.n}
+      -p geography_code ${geography.code}
+      -p geography_type ${geography.type}
+      -p region ${region}
+      -p thing ${thing}
     deps:
      - pipelines/notebooks/council-tax-support/council-tax-support.ipynb
      - data/council-tax-support/council-tax-support.csv

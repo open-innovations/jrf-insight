@@ -1,8 +1,12 @@
 geography:
-  code: 
-  name:
-  type:
-variable:
-  code: 
-  name:
-dates: 
+  code: 'E12000003'
+  name: 'England'
+  type: 'N'
+
+# variable:
+#   code: 
+#   name:
+# dates: 
+
+thing:  council_tax_support
+region: the_north
