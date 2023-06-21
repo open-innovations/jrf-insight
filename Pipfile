@@ -6,3 +6,8 @@ statxplore = "*"
 dvc = "*"
 pandas = "*"
 statxplorer = {file = "https://github.com/philipbrien/statxplorer/zipball/master"}
+jupyter = "*"
+notebook = "*"
+papermill = "*"
+ipykernel = "*"
+black = "*"
