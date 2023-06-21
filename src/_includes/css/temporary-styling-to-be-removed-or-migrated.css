@@ -47,13 +47,13 @@ body > header {
 .sticky-top {
   position: sticky;
   top: 0;
+  z-index: 10000;
 }
 
 .warning {
   background: var(--jrf-strong-pink);
   color: white;
   text-align: center;
-  z-index: 100;
 }
 
 .oi-legend {

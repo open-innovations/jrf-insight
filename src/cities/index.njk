@@ -2,6 +2,23 @@
 title: Cities, Towns and Neighbourhoods
 ---
 
+{{ comp.oi.map.zoomable({
+        config: {
+          data: [{
+            code: null,
+            name: "The North",
+            value: 10
+          }],
+          geojson: {
+            key: RGN21NM,
+            data: geojson.the_north
+          },
+          key: name,
+          tooltip: value
+        }
+    }
+  ) | safe }}
+
 <h2>Children in Low Income in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
 
 {{ comp.oi.map.hex_cartogram({
