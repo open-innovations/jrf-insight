@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import jsonLoader from "lume/core/loaders/json.ts";
 import base_path from "lume/plugins/base_path.ts";
 import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
@@ -23,6 +24,8 @@ const site = lume({
 
 site.process([".html"], autoDependency);
 site.loadData([".csv"], csvLoader);
+site.loadData([".geojson"], jsonLoader);
+
 site.use(oiCharts({
   font: {
     family: "chaparral-pro,sans-serif",
