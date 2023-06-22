@@ -3,10 +3,12 @@ geography:
   name: 'England'
   type: 'N'
 
+file:
+  place: "src/_data/places/E47000003.yml"
+  code_start: "E08"
 # variable:
 #   code: 
 #   name:
 # dates: 
-
+region: west_yorkshire
 thing:  council_tax_support
-region: the_north

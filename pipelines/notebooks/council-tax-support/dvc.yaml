@@ -8,6 +8,8 @@ stages:
       -p geography_type ${geography.type}
       -p region ${region}
       -p thing ${thing}
+      -p place ${file.place}
+      -p code_start ${file.code_start}
     deps:
      - pipelines/notebooks/council-tax-support/council-tax-support.ipynb
      - data/council-tax-support/council-tax-support.csv
