@@ -25,6 +25,11 @@ This is a mockup place page for {{ name }} ({{ key }}).
 {% endif %}
 
 {% set geojson_key = places[key].geojson_filename %}
+
+<pre>
+{{place_data[key].council_tax_support.rows | dump(2)}}
+</pre>
+
 {% if geojson_key and geojson[geojson_key]%}
 {{ comp.oi.map.zoomable({
         config: {
@@ -41,8 +46,8 @@ This is a mockup place page for {{ name }} ({{ key }}).
           key: "geography_code",
           value: "council_tax_support",
           scale: "Viridis",
-          min: 400000,
-          max: 600000,
+          min: place_data[key].council_tax_support.rows | min,
+          max: place_data[key].council_tax_support.rows | max,
           tooltip: "label",
           legend:
           {
