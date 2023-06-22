@@ -31,7 +31,7 @@ This is a mockup place page for {{ name }} ({{ key }}).
           data: place_data[key].council_tax_support.rows,
           geojson: 
           {
-            key: "RGN20CD",
+            key: place.geojson.join_key,
             data: geojson[geojson_key]
           },
           columns: [{
