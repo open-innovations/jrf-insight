@@ -7,4 +7,7 @@ children:
     - E08000034
     - E08000035
     - E08000036
-geojson_filename: regions #change to west yorkshire
+geojson_filename: leeds_city_region #change to west yorkshire
+
+geojson:
+  join_key: LAD21CD

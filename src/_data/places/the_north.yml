@@ -6,3 +6,6 @@ children:
     - E12000002
     - E12000003
 geojson_filename: regions
+
+geojson:
+  join_key: RGN20CD
