@@ -48,5 +48,7 @@ site.remoteFile(
 
 // filters
 site.filter('keys', o => Object.keys(o));
+site.filter("max", (arr: number[]) => (Math.max(...arr)));
+site.filter("min", (arr: number[]) => (Math.min(...arr)));
 
 export default site;
