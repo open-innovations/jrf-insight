@@ -12,6 +12,7 @@ def query_to_pandas(KEY, path_to_json):
     query_file = open(path_to_json)
     query = json.load(query_file)
     results = explorer.fetch_table(query)
+    #print(results)
     return results['data']
 
 def datetype_from_dimension(df):
