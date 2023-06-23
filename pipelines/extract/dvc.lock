@@ -5,12 +5,12 @@ stages:
     deps:
     - path: data/geo/geography_lookup.csv
       hash: md5
-      md5: 98aa2eeecd9be0228ed8745f7bfb295c
-      size: 172136
+      md5: 30f94e93cbd3128ba0c45febd8000df9
+      size: 199535
     - path: pipelines/extract/extract.py
       hash: md5
-      md5: a8771ee3de3dfe8b25bd9eab35ba96d7
-      size: 814
+      md5: 799f1dc1ea1745291bbba0718a89e562
+      size: 1102
     - path: pipelines/extract/json/data
       hash: md5
       md5: 8d56fc7c6af80890c8e2ab69397b1148.dir
@@ -23,8 +23,8 @@ stages:
     outs:
     - path: data/clif/clif.csv
       hash: md5
-      md5: abeb3d19e9a4f985ecac268464a72167
-      size: 363440
+      md5: 0ab394548fd2a6d84e24d59f5e09fc10
+      size: 3972066
       isexec: true
     - path: data/hbai/hbai.csv
       hash: md5
