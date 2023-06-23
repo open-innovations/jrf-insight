@@ -3,8 +3,8 @@ stages:
   council-tax-support:
     cmd: "papermill pipelines/notebooks/council-tax-support/council-tax-support.ipynb
       pipelines/outputs/cts-completed-notebook.ipynb -p geography_code E12000003 -p
-      geography_type N -p region west_yorkshire -p thing council_tax_support -p place
-      src/_data/places/E47000003.yml -p code_start E08\n"
+      geography_type N -p region the_north -p thing council_tax_support -p place src/_data/places/the_north.yml
+      -p code_start E12\n"
     deps:
     - path: data/council-tax-support/council-tax-support.csv
       hash: md5
@@ -12,5 +12,5 @@ stages:
       size: 1510297
     - path: pipelines/notebooks/council-tax-support/council-tax-support.ipynb
       hash: md5
-      md5: 51a2295bde64aab2db857ea8b3e37b06
-      size: 5604
+      md5: 122af59bab23a6e71df78f175f83b704
+      size: 5605
