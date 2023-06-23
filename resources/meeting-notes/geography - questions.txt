@@ -1,0 +1,39 @@
+in geojson "regions"
+geojson "leeds-city-region"
+
+geography_code
+geography_type = "LAD21"
+
+single geographies geojson
+also container geography geojson
+
+Tiering structure of geographies
+
+Think about how to handle the two-tier structure of local government
+EG in Y&H, do we display CAs or their component parts
+
+Construct The North as a bespoke geography within the EDD data
+
+Aggregation of variables to the geography/spotlight
+
+
+
+CT support
+RGN
+- NE
+- NW
+- YH
+
+ - WY
+ -- LDS
+ BD
+
+ONS geojson files
+convert BNG to WGS84
+truncate lat/long to 5dp.
+
+
+Child poverty - check methodology
+
+
+
