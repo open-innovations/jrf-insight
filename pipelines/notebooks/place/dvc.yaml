@@ -1,0 +1,9 @@
+stages:
+  prepare-place:
+    cmd: >
+      papermill prepare.ipynb output/${geography_code}.ipynb
+      -p geography_code ${geography_code}
+    params:
+      - geography_code
+    deps:
+      - prepare.ipynb

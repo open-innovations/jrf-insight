@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  prepare-place:
+    cmd: "papermill prepare.ipynb output/the_south.ipynb -p geography_code the_south\n"
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: ffe880c4fc9920f60df83b3d85393031
+      size: 1213
+    params:
+      params.yaml:
+        geography_code: the_south
