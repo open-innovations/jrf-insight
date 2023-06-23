@@ -7,3 +7,5 @@ stages:
       - geography_code
     deps:
       - prepare.ipynb
+    outs:
+      - ../../../src/_data/place_data/${geography_code}/place_data.csv
