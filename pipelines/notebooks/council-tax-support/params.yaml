@@ -4,11 +4,11 @@ geography:
   type: 'N'
 
 file:
-  place: "src/_data/places/E47000003.yml"
-  code_start: "E08"
+  place: "src/_data/places/the_north.yml"
+  code_start: "E12"
 # variable:
 #   code: 
 #   name:
 # dates: 
-region: west_yorkshire
+region: "the_north"
 thing:  council_tax_support

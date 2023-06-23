@@ -29,7 +29,11 @@ stages:
       - pipelines/extract/extract.py
       - pipelines/extract/utils.py
       - pipelines/extract/json/data
+      - data/geo/geography_lookup.csv
     outs: 
       - data/hbai/hbai.csv:
+          cache: false
+          persist: false
+      - data/clif/clif.csv:
           cache: false
           persist: false
