@@ -4,17 +4,21 @@ stages:
     cmd: PYTHONPATH= python pipelines/extract/extract.py
     deps:
     - path: pipelines/extract/extract.py
-      md5: fcbaec5f3d098b03e410b447cff76bab
-      size: 402
+      hash: md5
+      md5: 635835cd1bdf7cab5adea712f752c598
+      size: 619
     - path: pipelines/extract/json/data
-      md5: 39876ce93ec47563a09c063610cdef77.dir
-      size: 677
-      nfiles: 1
+      hash: md5
+      md5: 8d56fc7c6af80890c8e2ab69397b1148.dir
+      size: 34842
+      nfiles: 2
     - path: pipelines/extract/utils.py
-      md5: 15493a2a1b03c662531afd90c92c8e78
+      hash: md5
+      md5: db19d1de663431224d0417a082171974
       size: 12244
     outs:
     - path: data/hbai/hbai.csv
+      hash: md5
       md5: 5cc7d7b913028873ccfd30e1eec321d0
       size: 1435538
       isexec: true
