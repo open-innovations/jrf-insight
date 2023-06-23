@@ -318,156 +318,28 @@ date,geography_code,geography_name,geography_type,gender_code,gender_name,age_co
 2021,E07000188,Sedgemoor,lad22,0,Total,200,All Ages,n_persons,Number of persons,125752
 2021,E07000189,South Somerset,lad22,0,Total,200,All Ages,n_persons,Number of persons,173173
 2021,E07000246,Somerset West and Taunton,lad22,0,Total,200,All Ages,n_persons,Number of persons,157909
-2021,E06000005,Darlington,lad22,0,Total,200,All Ages,n_persons,Number of persons,108222
-2021,E06000047,County Durham,lad22,0,Total,200,All Ages,n_persons,Number of persons,521346
-2021,E06000001,Hartlepool,lad22,0,Total,200,All Ages,n_persons,Number of persons,92571
-2021,E06000002,Middlesbrough,lad22,0,Total,200,All Ages,n_persons,Number of persons,143734
-2021,E06000057,Northumberland,lad22,0,Total,200,All Ages,n_persons,Number of persons,321558
-2021,E06000003,Redcar and Cleveland,lad22,0,Total,200,All Ages,n_persons,Number of persons,136616
-2021,E06000004,Stockton-on-Tees,lad22,0,Total,200,All Ages,n_persons,Number of persons,197030
-2021,E08000037,Gateshead,lad22,0,Total,200,All Ages,n_persons,Number of persons,196154
-2021,E08000021,Newcastle upon Tyne,lad22,0,Total,200,All Ages,n_persons,Number of persons,298264
-2021,E08000022,North Tyneside,lad22,0,Total,200,All Ages,n_persons,Number of persons,209151
-2021,E08000023,South Tyneside,lad22,0,Total,200,All Ages,n_persons,Number of persons,147915
-2021,E08000024,Sunderland,lad22,0,Total,200,All Ages,n_persons,Number of persons,274211
-2021,E06000008,Blackburn with Darwen,lad22,0,Total,200,All Ages,n_persons,Number of persons,154922
-2021,E06000009,Blackpool,lad22,0,Total,200,All Ages,n_persons,Number of persons,140954
-2021,E06000049,Cheshire East,lad22,0,Total,200,All Ages,n_persons,Number of persons,400528
-2021,E06000050,Cheshire West and Chester,lad22,0,Total,200,All Ages,n_persons,Number of persons,357699
-2021,E06000006,Halton,lad22,0,Total,200,All Ages,n_persons,Number of persons,128577
-2021,E06000007,Warrington,lad22,0,Total,200,All Ages,n_persons,Number of persons,211227
 2021,E10000006,Cumbria,cty22,0,Total,200,All Ages,n_persons,Number of persons,500821
-2021,E08000001,Bolton,lad22,0,Total,200,All Ages,n_persons,Number of persons,296041
-2021,E08000002,Bury,lad22,0,Total,200,All Ages,n_persons,Number of persons,193823
-2021,E08000003,Manchester,lad22,0,Total,200,All Ages,n_persons,Number of persons,549853
-2021,E08000004,Oldham,lad22,0,Total,200,All Ages,n_persons,Number of persons,242072
-2021,E08000005,Rochdale,lad22,0,Total,200,All Ages,n_persons,Number of persons,224087
-2021,E08000006,Salford,lad22,0,Total,200,All Ages,n_persons,Number of persons,270764
-2021,E08000007,Stockport,lad22,0,Total,200,All Ages,n_persons,Number of persons,295243
-2021,E08000008,Tameside,lad22,0,Total,200,All Ages,n_persons,Number of persons,231199
-2021,E08000009,Trafford,lad22,0,Total,200,All Ages,n_persons,Number of persons,235546
-2021,E08000010,Wigan,lad22,0,Total,200,All Ages,n_persons,Number of persons,329759
 2021,E10000017,Lancashire,cty22,0,Total,200,All Ages,n_persons,Number of persons,1236035
-2021,E08000011,Knowsley,lad22,0,Total,200,All Ages,n_persons,Number of persons,154974
-2021,E08000012,Liverpool,lad22,0,Total,200,All Ages,n_persons,Number of persons,484488
-2021,E08000014,Sefton,lad22,0,Total,200,All Ages,n_persons,Number of persons,279692
-2021,E08000013,St. Helens,lad22,0,Total,200,All Ages,n_persons,Number of persons,183391
-2021,E08000015,Wirral,lad22,0,Total,200,All Ages,n_persons,Number of persons,320600
-2021,E06000011,East Riding of Yorkshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,343143
-2021,E06000010,"Kingston upon Hull, City of",lad22,0,Total,200,All Ages,n_persons,Number of persons,266463
-2021,E06000012,North East Lincolnshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,157197
-2021,E06000013,North Lincolnshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,169940
-2021,E06000014,York,lad22,0,Total,200,All Ages,n_persons,Number of persons,201672
 2021,E10000023,North Yorkshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,618847
-2021,E08000016,Barnsley,lad22,0,Total,200,All Ages,n_persons,Number of persons,244893
-2021,E08000017,Doncaster,lad22,0,Total,200,All Ages,n_persons,Number of persons,308705
-2021,E08000018,Rotherham,lad22,0,Total,200,All Ages,n_persons,Number of persons,266183
-2021,E08000019,Sheffield,lad22,0,Total,200,All Ages,n_persons,Number of persons,554401
-2021,E08000032,Bradford,lad22,0,Total,200,All Ages,n_persons,Number of persons,546976
-2021,E08000033,Calderdale,lad22,0,Total,200,All Ages,n_persons,Number of persons,206818
-2021,E08000034,Kirklees,lad22,0,Total,200,All Ages,n_persons,Number of persons,433355
-2021,E08000035,Leeds,lad22,0,Total,200,All Ages,n_persons,Number of persons,809036
-2021,E08000036,Wakefield,lad22,0,Total,200,All Ages,n_persons,Number of persons,353802
-2021,E06000015,Derby,lad22,0,Total,200,All Ages,n_persons,Number of persons,261136
-2021,E06000016,Leicester,lad22,0,Total,200,All Ages,n_persons,Number of persons,366018
-2021,E06000018,Nottingham,lad22,0,Total,200,All Ages,n_persons,Number of persons,319566
-2021,E06000017,Rutland,lad22,0,Total,200,All Ages,n_persons,Number of persons,41381
 2021,E10000007,Derbyshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,796847
 2021,E10000018,Leicestershire,cty22,0,Total,200,All Ages,n_persons,Number of persons,712572
 2021,E10000019,Lincolnshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,769474
 2021,E10000024,Nottinghamshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,826257
-2021,E06000061,North Northamptonshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,360381
-2021,E06000062,West Northamptonshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,426462
-2021,E06000019,"Herefordshire, County of",lad22,0,Total,200,All Ages,n_persons,Number of persons,187557
-2021,E06000051,Shropshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,324716
-2021,E06000021,Stoke-on-Trent,lad22,0,Total,200,All Ages,n_persons,Number of persons,258037
-2021,E06000020,Telford and Wrekin,lad22,0,Total,200,All Ages,n_persons,Number of persons,185842
 2021,E10000028,Staffordshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,877856
 2021,E10000031,Warwickshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,599153
-2021,E08000025,Birmingham,lad22,0,Total,200,All Ages,n_persons,Number of persons,1142494
-2021,E08000026,Coventry,lad22,0,Total,200,All Ages,n_persons,Number of persons,343320
-2021,E08000027,Dudley,lad22,0,Total,200,All Ages,n_persons,Number of persons,323581
-2021,E08000028,Sandwell,lad22,0,Total,200,All Ages,n_persons,Number of persons,341729
-2021,E08000029,Solihull,lad22,0,Total,200,All Ages,n_persons,Number of persons,216666
-2021,E08000030,Walsall,lad22,0,Total,200,All Ages,n_persons,Number of persons,284306
-2021,E08000031,Wolverhampton,lad22,0,Total,200,All Ages,n_persons,Number of persons,264036
 2021,E10000034,Worcestershire,cty22,0,Total,200,All Ages,n_persons,Number of persons,604947
-2021,E06000055,Bedford,lad22,0,Total,200,All Ages,n_persons,Number of persons,185761
-2021,E06000056,Central Bedfordshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,295541
-2021,E06000032,Luton,lad22,0,Total,200,All Ages,n_persons,Number of persons,224826
-2021,E06000031,Peterborough,lad22,0,Total,200,All Ages,n_persons,Number of persons,216349
-2021,E06000033,Southend-on-Sea,lad22,0,Total,200,All Ages,n_persons,Number of persons,180601
-2021,E06000034,Thurrock,lad22,0,Total,200,All Ages,n_persons,Number of persons,175902
 2021,E10000003,Cambridgeshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,680407
 2021,E10000012,Essex,cty22,0,Total,200,All Ages,n_persons,Number of persons,1506345
 2021,E10000015,Hertfordshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,1200620
 2021,E10000020,Norfolk,cty22,0,Total,200,All Ages,n_persons,Number of persons,918369
 2021,E10000029,Suffolk,cty22,0,Total,200,All Ages,n_persons,Number of persons,763375
-2021,E09000007,Camden,lad22,0,Total,200,All Ages,n_persons,Number of persons,210390
-2021,E09000001,City of London,lad22,0,Total,200,All Ages,n_persons,Number of persons,8618
-2021,E09000012,Hackney,lad22,0,Total,200,All Ages,n_persons,Number of persons,259956
-2021,E09000013,Hammersmith and Fulham,lad22,0,Total,200,All Ages,n_persons,Number of persons,183295
-2021,E09000014,Haringey,lad22,0,Total,200,All Ages,n_persons,Number of persons,264130
-2021,E09000019,Islington,lad22,0,Total,200,All Ages,n_persons,Number of persons,216767
-2021,E09000020,Kensington and Chelsea,lad22,0,Total,200,All Ages,n_persons,Number of persons,143940
-2021,E09000022,Lambeth,lad22,0,Total,200,All Ages,n_persons,Number of persons,317498
-2021,E09000023,Lewisham,lad22,0,Total,200,All Ages,n_persons,Number of persons,299810
-2021,E09000025,Newham,lad22,0,Total,200,All Ages,n_persons,Number of persons,350626
-2021,E09000028,Southwark,lad22,0,Total,200,All Ages,n_persons,Number of persons,306374
-2021,E09000030,Tower Hamlets,lad22,0,Total,200,All Ages,n_persons,Number of persons,312273
-2021,E09000032,Wandsworth,lad22,0,Total,200,All Ages,n_persons,Number of persons,328367
-2021,E09000033,Westminster,lad22,0,Total,200,All Ages,n_persons,Number of persons,205087
-2021,E09000002,Barking and Dagenham,lad22,0,Total,200,All Ages,n_persons,Number of persons,218534
-2021,E09000003,Barnet,lad22,0,Total,200,All Ages,n_persons,Number of persons,388639
-2021,E09000004,Bexley,lad22,0,Total,200,All Ages,n_persons,Number of persons,246543
-2021,E09000005,Brent,lad22,0,Total,200,All Ages,n_persons,Number of persons,338918
-2021,E09000006,Bromley,lad22,0,Total,200,All Ages,n_persons,Number of persons,329830
-2021,E09000008,Croydon,lad22,0,Total,200,All Ages,n_persons,Number of persons,390506
-2021,E09000009,Ealing,lad22,0,Total,200,All Ages,n_persons,Number of persons,366127
-2021,E09000010,Enfield,lad22,0,Total,200,All Ages,n_persons,Number of persons,329601
-2021,E09000011,Greenwich,lad22,0,Total,200,All Ages,n_persons,Number of persons,289254
-2021,E09000015,Harrow,lad22,0,Total,200,All Ages,n_persons,Number of persons,260987
-2021,E09000016,Havering,lad22,0,Total,200,All Ages,n_persons,Number of persons,262022
-2021,E09000017,Hillingdon,lad22,0,Total,200,All Ages,n_persons,Number of persons,304792
-2021,E09000018,Hounslow,lad22,0,Total,200,All Ages,n_persons,Number of persons,287940
-2021,E09000021,Kingston upon Thames,lad22,0,Total,200,All Ages,n_persons,Number of persons,167845
-2021,E09000024,Merton,lad22,0,Total,200,All Ages,n_persons,Number of persons,215324
-2021,E09000026,Redbridge,lad22,0,Total,200,All Ages,n_persons,Number of persons,309836
-2021,E09000027,Richmond upon Thames,lad22,0,Total,200,All Ages,n_persons,Number of persons,195232
-2021,E09000029,Sutton,lad22,0,Total,200,All Ages,n_persons,Number of persons,209517
-2021,E09000031,Waltham Forest,lad22,0,Total,200,All Ages,n_persons,Number of persons,278050
-2021,E06000036,Bracknell Forest,lad22,0,Total,200,All Ages,n_persons,Number of persons,125174
-2021,E06000043,Brighton and Hove,lad22,0,Total,200,All Ages,n_persons,Number of persons,276334
-2021,E06000046,Isle of Wight,lad22,0,Total,200,All Ages,n_persons,Number of persons,140889
-2021,E06000035,Medway,lad22,0,Total,200,All Ages,n_persons,Number of persons,279827
-2021,E06000042,Milton Keynes,lad22,0,Total,200,All Ages,n_persons,Number of persons,288201
-2021,E06000044,Portsmouth,lad22,0,Total,200,All Ages,n_persons,Number of persons,206828
-2021,E06000038,Reading,lad22,0,Total,200,All Ages,n_persons,Number of persons,173170
-2021,E06000039,Slough,lad22,0,Total,200,All Ages,n_persons,Number of persons,158289
-2021,E06000045,Southampton,lad22,0,Total,200,All Ages,n_persons,Number of persons,247256
-2021,E06000037,West Berkshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,161865
-2021,E06000040,Windsor and Maidenhead,lad22,0,Total,200,All Ages,n_persons,Number of persons,153921
-2021,E06000041,Wokingham,lad22,0,Total,200,All Ages,n_persons,Number of persons,178169
-2021,E06000060,Buckinghamshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,555257
 2021,E10000011,East Sussex,cty22,0,Total,200,All Ages,n_persons,Number of persons,546924
 2021,E10000014,Hampshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,1406199
 2021,E10000016,Kent,cty22,0,Total,200,All Ages,n_persons,Number of persons,1578519
 2021,E10000025,Oxfordshire,cty22,0,Total,200,All Ages,n_persons,Number of persons,726530
 2021,E10000030,Surrey,cty22,0,Total,200,All Ages,n_persons,Number of persons,1205616
 2021,E10000032,West Sussex,cty22,0,Total,200,All Ages,n_persons,Number of persons,885055
-2021,E06000022,Bath and North East Somerset,lad22,0,Total,200,All Ages,n_persons,Number of persons,192423
-2021,E06000023,"Bristol, City of",lad22,0,Total,200,All Ages,n_persons,Number of persons,471117
-2021,E06000052,Cornwall,lad22,0,Total,200,All Ages,n_persons,Number of persons,572010
-2021,E06000053,Isles of Scilly,lad22,0,Total,200,All Ages,n_persons,Number of persons,2271
-2021,E06000024,North Somerset,lad22,0,Total,200,All Ages,n_persons,Number of persons,217399
-2021,E06000026,Plymouth,lad22,0,Total,200,All Ages,n_persons,Number of persons,264727
-2021,E06000058,"Bournemouth, Christchurch and Poole",lad22,0,Total,200,All Ages,n_persons,Number of persons,400109
-2021,E06000025,South Gloucestershire,lad22,0,Total,200,All Ages,n_persons,Number of persons,290736
-2021,E06000030,Swindon,lad22,0,Total,200,All Ages,n_persons,Number of persons,233713
-2021,E06000027,Torbay,lad22,0,Total,200,All Ages,n_persons,Number of persons,139446
-2021,E06000054,Wiltshire,lad22,0,Total,200,All Ages,n_persons,Number of persons,513411
 2021,E10000008,Devon,cty22,0,Total,200,All Ages,n_persons,Number of persons,814440
-2021,E06000059,Dorset,lad22,0,Total,200,All Ages,n_persons,Number of persons,381292
 2021,E10000013,Gloucestershire,cty22,0,Total,200,All Ages,n_persons,Number of persons,646627
 2021,E10000027,Somerset,cty22,0,Total,200,All Ages,n_persons,Number of persons,573119
 2021,E47000001,Greater Manchester,cauth22,0,Total,200,All Ages,n_persons,Number of persons,2868387

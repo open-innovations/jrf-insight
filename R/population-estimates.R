@@ -30,7 +30,8 @@ lad <- lad |>
                 gender_code, gender_name,
                 age_code = c_age_code, age_name = c_age_name,
                 variable_code, variable_name,
-                value = obs_value)
+                value = obs_value) |>
+  dplyr::distinct() # lower tier will appear in two geog sets so need to get rid
 
 wd <- readr::read_csv("data-raw/population-estimates/wd19.csv")
 
