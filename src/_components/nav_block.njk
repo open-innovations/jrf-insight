@@ -1,0 +1,72 @@
+---
+css: |
+  nav.nav-block {
+    --background: #aaa;
+    background: var(--background);
+    padding: 0.5em;
+    & a {
+      color: white;
+    }
+    & ul {
+      & > * {
+        flex-grow: 1
+      }
+      display: flex;
+      list-style: none;
+      gap: 0.5em;
+      &.place {
+        flex-direction: column;
+        & ul {
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+---
+{% set heading_level = 3 %}
+<nav class='nav-block'>
+  <ul>
+    {% if dir.place or false %}
+      <li>
+        <h{{ heading_level}}>Place</h{{ heading_level }}>
+        {{ comp.link.place({ place: place_key }) | safe }}
+      </li>
+    {% endif %}
+    <li>
+      <ul class="place">
+        {% if parents and parents.length > 0 %}
+          <li>
+            <h{{ heading_level }}>Larger</h{{ heading_level }}>
+            <ul id="contained-by-places">
+              {% for id in parents %}
+                <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+        {% if children and children.length > 0 %}
+          <li>
+            <h{{ heading_level }}>Smaller</h{{ heading_level }}>
+            <ul id="contains-places">
+              {% for id in children %}
+                <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      </ul>
+    </li>
+    {% if dir.spotlight or false %}
+      <li id="spotlight-at-place">
+        <h{{ heading_level}}>Spotlights</h{{ heading_level }}>
+        <ul>
+          {% for spotlight in spotlights %}
+            <li>
+              <a href="/spotlight/{{ spotlights }}/{{ place_key }}/">{{ spotlight }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

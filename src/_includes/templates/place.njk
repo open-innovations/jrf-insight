@@ -8,21 +8,15 @@ tags:
 This is a mockup place page for {{ name }} ({{ key }}).
 </p>
 
-<h2>Spotlight navigation</h2>
 
-{% for spotlight in spotlights %}
-<a href="/spotlight/{{ spotlights }}/{{ key }}/">{{ spotlight }}</a>
-{% endfor %}
-
-<h2>Geography navigation</h2>
-
-{{ comp.zoom.geo({ place_list: parents, heading: 'Containing geographies' }) | safe }}
-
-{% if place.children %}
-{% for place_type in place.children | keys %}
-{{ comp.zoom.geo({ place_list: place.children[place_type], heading: ref.geo.types[place_type] or place_type }) | safe }}
-{% endfor %}
-{% endif %}
+{{ comp.nav_block({
+  place_key: key,
+  parents: parents,
+  children: place.children | values | flatten,
+  dir: {
+    spotlight: true
+  }
+}) | safe }}
 
 {% set geojson_key = places[key].geojson_filename %}
 

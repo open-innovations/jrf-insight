@@ -48,6 +48,15 @@ site.remoteFile(
 
 // filters
 site.filter('keys', o => Object.keys(o));
+site.filter("values", (o: Record<string, unknown>) => {
+  if (typeof o === 'undefined') return undefined;
+  return Object.values(o)
+});
+site.filter("flatten", (arr: Array<unknown>) => {
+  if (!Array.isArray(arr)) return undefined;
+  return arr.flat()
+})
+
 site.filter("max", (arr: number[]) => (Math.max(...arr)));
 site.filter("min", (arr: number[]) => (Math.min(...arr)));
 

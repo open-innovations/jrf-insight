@@ -5,24 +5,14 @@ tags:
 ---
 {% set place_page = search.page("place key=" + geography) %}
 
-{{ content | safe }}
-
-<h2>Jump out of {{ spotlight }}</h2>
-
-<a href="{{ place_page.url }}">Place page for {{ place_page.name }}</a>
-
-<h2>Zoom in and out of geography within {{ spotlight }}</h2>
-
-{{ comp.zoom.geo({ place_list: place_page.parents, heading: 'Containing geographies', prefix: '/spotlight/' + spotlight + '/' }) | safe }}
-
-{% if place_page.place.children %}
-{% for place_type in (place_page.place.children | keys) %}
-{{ comp.zoom.geo({
-  place_list: place_page.place.children[place_type],
-  heading: ref.geo.types[place_type] or place_type,
-  prefix: '/spotlight/' + spotlight + '/'
+{{ comp.nav_block({
+  dir: {
+    place: true
+  },
+  place_key: geography,
+  parents: place_page.parents,
+  children: place_page.place.children | values | flatten,
+  place_prefix: '/spotlight/' + spotlight + '/'
 }) | safe }}
-{% endfor %}
-{% endif %}
 
-
+{{ content | safe }}
