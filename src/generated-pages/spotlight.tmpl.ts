@@ -1,7 +1,8 @@
 export const layout = 'templates/spotlight/base.njk';
 
 export default function* ({ spotlights, places }) {
-  for (const spotlight of spotlights) {
+  for (const [spotlight, spotlightData] of Object.entries(spotlights)) {
+    const { name } = spotlightData;
     yield {
       url: `/spotlight/${spotlight}/`,
       layout: 'templates/redirect.njk',
@@ -11,7 +12,8 @@ export default function* ({ spotlights, places }) {
     for (const place of Object.keys(places)) {
       yield {
         url: `/spotlight/${spotlight}/${place}/`,
-        title: `Spotlight page for ${spotlight} at ${places[place].name} scale`,
+        title: name,
+        geography_name: places[place].name,
         spotlight: spotlight,
         geography: place,
       };
