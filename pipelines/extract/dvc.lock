@@ -9,8 +9,8 @@ stages:
       size: 199535
     - path: pipelines/extract/extract.py
       hash: md5
-      md5: 799f1dc1ea1745291bbba0718a89e562
-      size: 1102
+      md5: 2abd4c9181d35208abc6ec8b975ca81c
+      size: 1321
     - path: pipelines/extract/json/data
       hash: md5
       md5: 8d56fc7c6af80890c8e2ab69397b1148.dir
