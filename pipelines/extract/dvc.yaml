@@ -31,7 +31,7 @@ stages:
       - pipelines/extract/json/data
       - data/geo/geography_lookup.csv
     outs: 
-      - data/hbai/hbai.csv:
+      - data/hbai:
           cache: false
           persist: false
       - data/clif/clif.csv:
