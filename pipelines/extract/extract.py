@@ -23,35 +23,35 @@ def houses_below_avg_income():
         ["str:field:HBAI:V_F_HBAI:ETHGRPHHPUB"]
                   ]
     dimension_names = [ 
-        "age_category", 
-        "number_kids", 
-        "youngest_child", 
-        "type_of_tenure", 
-        "savings_and_investments", 
-        "ethnic_group"
+        "Type of Individual by Age Category", 
+        "Number of Children in the Family of the Individual", 
+        "Age of the Youngest Child in the Family of the Individual", 
+        "Tenure Type of the Household of the Individual", 
+        "Savings and Investments of Adults in the Family of the Individual", 
+        "Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method)"
                   ]
     location = 'Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method)'
     for dim, name in zip(dimensions, dimension_names):
-        for date in dates:
-            os.makedirs(f'data/hbai/{date}', exist_ok=True)
-            with open(HBAI_JSON, 'r') as json_file:
-                data  = json.load(json_file)
-            
-            data['recodes']['str:field:HBAI:V_F_HBAI:YEAR']['map'] = [[f'str:value:HBAI:V_F_HBAI:YEAR:C_HBAI_YEAR:{date}']]
-            data['dimensions'] = [["str:field:HBAI:V_F_HBAI:YEAR"], ["str:field:HBAI:V_F_HBAI:LOW60BHC"], 
-                                  ["str:field:HBAI:V_F_HBAI:GVTREGN_LON"], dim]
-            
-            with open(HBAI_JSON, "w") as jsonFile:
-                data = json.dump(data, jsonFile)
-            
-            HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/extract/json/data/HBAI.json').reset_index()
-            HBAI[['geography_name', 'geography_code']] = HBAI[location].str.split('(', expand=True)
-            HBAI['geography_code'] = HBAI['geography_code'].str.replace(')', '')
-            HBAI['geography_name'] = HBAI['geography_name'].str.strip()
-            HBAI.drop(location, axis=1, inplace=True)
-            HBAI.rename(columns=slugify, inplace=True)
-            HBAI.set_index('financial_year', inplace=True)
-            HBAI.to_csv(f'data/hbai/{date}/{name}.csv')
+        os.makedirs(f'data/hbai/', exist_ok=True)
+        with open(HBAI_JSON, 'r') as json_file:
+            data  = json.load(json_file)
+        
+        data['dimensions'] = [["str:field:HBAI:V_F_HBAI:YEAR"], ["str:field:HBAI:V_F_HBAI:LOW60BHC"], 
+                            ["str:field:HBAI:V_F_HBAI:GVTREGN_LON"], dim]
+        
+        with open(HBAI_JSON, "w") as jsonFile:
+            data = json.dump(data, jsonFile)
+        
+        HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/extract/json/data/HBAI.json').reset_index()
+        HBAI[['geography_name', 'geography_code']] = HBAI[location].str.split('(', expand=True)
+        HBAI['geography_code'] = HBAI['geography_code'].str.replace(')', '')
+        HBAI['geography_name'] = HBAI['geography_name'].str.strip()
+        HBAI.drop(location, axis=1, inplace=True)
+        HBAI = pd.melt(HBAI, id_vars=['Financial Year', 'geography_name', 'geography_code', f'{name}'],
+                                      var_name='variable_name')
+        HBAI.set_index('Financial Year', inplace=True)
+        HBAI['variable_name'] = HBAI['variable_name'].str.replace(' (at or above threshold)', '')
+        HBAI.to_csv(f'data/hbai/{name}.csv')
     return
 
 def children_in_low_income_families():
@@ -64,7 +64,7 @@ def children_in_low_income_families():
 
         #@TODO rewrite below so its not hard-coded.
         CLIF_long = pd.melt(CLIF, id_vars=['Year', 'Age of Child (years and bands)', 'Gender of Child', 'Family Type', 'Work Status'], value_vars=CLIF.columns.to_list()[5:], var_name='geography_code').set_index('Year')
-
+        CLIF_long['variable_name'] = 'number_of_children'
         #write to csv
         os.makedirs('data/clif', exist_ok=True)
         CLIF_long.to_csv(f'data/clif/clif_{JSON[-8:-5]}.csv')
