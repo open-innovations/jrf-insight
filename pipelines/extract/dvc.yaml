@@ -34,6 +34,6 @@ stages:
       - data/hbai:
           cache: false
           persist: false
-      - data/clif/clif.csv:
+      - data/clif:
           cache: false
           persist: false
