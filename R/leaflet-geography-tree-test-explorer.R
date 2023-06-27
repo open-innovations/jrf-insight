@@ -27,6 +27,8 @@ boundaries <- list(
 
 geog_tree <- names(geography_lookup)[grepl("CD", names(geography_lookup))]
 
+# hard coded variables below should be dynamically picked from geog_tree
+
 bespoke_layer <- dplyr::bind_rows(
   boundaries$cty22,
   boundaries$cauth22 |>
