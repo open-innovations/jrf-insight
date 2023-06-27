@@ -1,6 +1,6 @@
 ---
 layout: ./page.njk
 ---
-<meta http-equiv="refresh" content="0; url={{ target }}" />
+<meta http-equiv="refresh" content="0; url={{ target | url(true) }}" />
 
 <a href="{{ target }}">Redirect</a>
