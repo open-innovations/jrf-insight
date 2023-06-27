@@ -4,12 +4,19 @@ geography_lookup <- readr::read_csv("data/geo/geography_lookup.csv")
 
 boundaries <- list(
   panrgn22 = sf::read_sf('data/geo/the_north.geojson'),
-  rgn22 = sf::read_sf('data-raw/geo/rgn22_buc.geojson'),
-  cty22 = sf::read_sf('data-raw/geo/cty22_buc.geojson'),
-  cauth22 = sf::read_sf('data-raw/geo/cauth22_buc.geojson'),
-  cty22_ua22 = sf::read_sf('data-raw/geo/cty22-ua22_buc.geojson'),
-  lad22 = sf::read_sf('data-raw/geo/lad22_buc.geojson'),
-  wd22 = sf::read_sf('data-raw/geo/wd22_bsc.geojson')
+  rgn22 = sf::read_sf('data-raw/geo/rgn22_buc.geojson') |>
+    dplyr::filter(RGN22CD %in% geography_lookup$RGN22CD),
+  cty22 = sf::read_sf('data-raw/geo/cty22_buc.geojson') |>
+    dplyr::filter(CTY22CD %in% geography_lookup$CTY22CD),
+  cauth22 = sf::read_sf('data-raw/geo/cauth22_buc.geojson') |>
+    dplyr::filter(CAUTH22CD %in% geography_lookup$CAUTH22CD),
+  cty22_ua22 = sf::read_sf('data-raw/geo/cty22-ua22_buc.geojson') |>
+    dplyr::filter(CTYUA22CD %in% geography_lookup$CTY22CD |
+                    CTYUA22CD %in% geography_lookup$LAD22CD),
+  lad22 = sf::read_sf('data-raw/geo/lad22_buc.geojson') |>
+    dplyr::filter(LAD22CD %in% geography_lookup$LAD22CD),
+  wd22 = sf::read_sf('data-raw/geo/wd22_bsc.geojson') |>
+    dplyr::filter(WD22CD %in% geography_lookup$WD22CD)
 ) |>
   lapply(function(x) {
     sf::st_transform(x, crs = 4326) |>
@@ -54,3 +61,12 @@ leaflet::leaflet() |>
                       'cty22_ua22', 'lad22', 'wd22'),
     options = leaflet::layersControlOptions(collapsed = FALSE)
   )
+
+
+# write out boundary files for each geography_type
+
+for (i in seq_along(boundaries)) {
+  sf::st_write(boundaries[[i]], paste0('data/geo/',
+                                       names(boundaries)[i],
+                                       '.geojson'))
+}
