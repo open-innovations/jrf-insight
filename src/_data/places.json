@@ -1,0 +1,894 @@
+{
+  "E06000001":{
+    "children":[
+
+    ],
+    "name":"Hartlepool",
+    "type":"LAD22"
+  },
+  "E06000002":{
+    "children":[
+
+    ],
+    "name":"Middlesbrough",
+    "type":"LAD22"
+  },
+  "E06000003":{
+    "children":[
+
+    ],
+    "name":"Redcar and Cleveland",
+    "type":"LAD22"
+  },
+  "E06000004":{
+    "children":[
+
+    ],
+    "name":"Stockton-on-Tees",
+    "type":"LAD22"
+  },
+  "E06000005":{
+    "children":[
+
+    ],
+    "name":"Darlington",
+    "type":"LAD22"
+  },
+  "E06000006":{
+    "children":[
+
+    ],
+    "name":"Halton",
+    "type":"LAD22"
+  },
+  "E06000007":{
+    "children":[
+
+    ],
+    "name":"Warrington",
+    "type":"LAD22"
+  },
+  "E06000008":{
+    "children":[
+
+    ],
+    "name":"Blackburn with Darwen",
+    "type":"LAD22"
+  },
+  "E06000009":{
+    "children":[
+
+    ],
+    "name":"Blackpool",
+    "type":"LAD22"
+  },
+  "E06000010":{
+    "children":[
+
+    ],
+    "name":"Kingston upon Hull, City of",
+    "type":"LAD22"
+  },
+  "E06000011":{
+    "children":[
+
+    ],
+    "name":"East Riding of Yorkshire",
+    "type":"LAD22"
+  },
+  "E06000012":{
+    "children":[
+
+    ],
+    "name":"North East Lincolnshire",
+    "type":"LAD22"
+  },
+  "E06000013":{
+    "children":[
+
+    ],
+    "name":"North Lincolnshire",
+    "type":"LAD22"
+  },
+  "E06000014":{
+    "children":[
+
+    ],
+    "name":"York",
+    "type":"LAD22"
+  },
+  "E06000047":{
+    "children":[
+
+    ],
+    "name":"County Durham",
+    "type":"LAD22"
+  },
+  "E06000049":{
+    "children":[
+
+    ],
+    "name":"Cheshire East",
+    "type":"LAD22"
+  },
+  "E06000050":{
+    "children":[
+
+    ],
+    "name":"Cheshire West and Chester",
+    "type":"LAD22"
+  },
+  "E06000057":{
+    "children":[
+
+    ],
+    "name":"Northumberland",
+    "type":"LAD22"
+  },
+  "E07000026":{
+    "children":[
+
+    ],
+    "name":"Allerdale",
+    "type":"LAD22"
+  },
+  "E07000027":{
+    "children":[
+
+    ],
+    "name":"Barrow-in-Furness",
+    "type":"LAD22"
+  },
+  "E07000028":{
+    "children":[
+
+    ],
+    "name":"Carlisle",
+    "type":"LAD22"
+  },
+  "E07000029":{
+    "children":[
+
+    ],
+    "name":"Copeland",
+    "type":"LAD22"
+  },
+  "E07000030":{
+    "children":[
+
+    ],
+    "name":"Eden",
+    "type":"LAD22"
+  },
+  "E07000031":{
+    "children":[
+
+    ],
+    "name":"South Lakeland",
+    "type":"LAD22"
+  },
+  "E07000117":{
+    "children":[
+
+    ],
+    "name":"Burnley",
+    "type":"LAD22"
+  },
+  "E07000118":{
+    "children":[
+
+    ],
+    "name":"Chorley",
+    "type":"LAD22"
+  },
+  "E07000119":{
+    "children":[
+
+    ],
+    "name":"Fylde",
+    "type":"LAD22"
+  },
+  "E07000120":{
+    "children":[
+
+    ],
+    "name":"Hyndburn",
+    "type":"LAD22"
+  },
+  "E07000121":{
+    "children":[
+
+    ],
+    "name":"Lancaster",
+    "type":"LAD22"
+  },
+  "E07000122":{
+    "children":[
+
+    ],
+    "name":"Pendle",
+    "type":"LAD22"
+  },
+  "E07000123":{
+    "children":[
+
+    ],
+    "name":"Preston",
+    "type":"LAD22"
+  },
+  "E07000124":{
+    "children":[
+
+    ],
+    "name":"Ribble Valley",
+    "type":"LAD22"
+  },
+  "E07000125":{
+    "children":[
+
+    ],
+    "name":"Rossendale",
+    "type":"LAD22"
+  },
+  "E07000126":{
+    "children":[
+
+    ],
+    "name":"South Ribble",
+    "type":"LAD22"
+  },
+  "E07000127":{
+    "children":[
+
+    ],
+    "name":"West Lancashire",
+    "type":"LAD22"
+  },
+  "E07000128":{
+    "children":[
+
+    ],
+    "name":"Wyre",
+    "type":"LAD22"
+  },
+  "E07000163":{
+    "children":[
+
+    ],
+    "name":"Craven",
+    "type":"LAD22"
+  },
+  "E07000164":{
+    "children":[
+
+    ],
+    "name":"Hambleton",
+    "type":"LAD22"
+  },
+  "E07000165":{
+    "children":[
+
+    ],
+    "name":"Harrogate",
+    "type":"LAD22"
+  },
+  "E07000166":{
+    "children":[
+
+    ],
+    "name":"Richmondshire",
+    "type":"LAD22"
+  },
+  "E07000167":{
+    "children":[
+
+    ],
+    "name":"Ryedale",
+    "type":"LAD22"
+  },
+  "E07000168":{
+    "children":[
+
+    ],
+    "name":"Scarborough",
+    "type":"LAD22"
+  },
+  "E07000169":{
+    "children":[
+
+    ],
+    "name":"Selby",
+    "type":"LAD22"
+  },
+  "E08000001":{
+    "children":[
+
+    ],
+    "name":"Bolton",
+    "type":"LAD22"
+  },
+  "E08000002":{
+    "children":[
+
+    ],
+    "name":"Bury",
+    "type":"LAD22"
+  },
+  "E08000003":{
+    "children":[
+
+    ],
+    "name":"Manchester",
+    "type":"LAD22"
+  },
+  "E08000004":{
+    "children":[
+
+    ],
+    "name":"Oldham",
+    "type":"LAD22"
+  },
+  "E08000005":{
+    "children":[
+
+    ],
+    "name":"Rochdale",
+    "type":"LAD22"
+  },
+  "E08000006":{
+    "children":[
+
+    ],
+    "name":"Salford",
+    "type":"LAD22"
+  },
+  "E08000007":{
+    "children":[
+
+    ],
+    "name":"Stockport",
+    "type":"LAD22"
+  },
+  "E08000008":{
+    "children":[
+
+    ],
+    "name":"Tameside",
+    "type":"LAD22"
+  },
+  "E08000009":{
+    "children":[
+
+    ],
+    "name":"Trafford",
+    "type":"LAD22"
+  },
+  "E08000010":{
+    "children":[
+
+    ],
+    "name":"Wigan",
+    "type":"LAD22"
+  },
+  "E08000011":{
+    "children":[
+
+    ],
+    "name":"Knowsley",
+    "type":"LAD22"
+  },
+  "E08000012":{
+    "children":[
+
+    ],
+    "name":"Liverpool",
+    "type":"LAD22"
+  },
+  "E08000013":{
+    "children":[
+
+    ],
+    "name":"St. Helens",
+    "type":"LAD22"
+  },
+  "E08000014":{
+    "children":[
+
+    ],
+    "name":"Sefton",
+    "type":"LAD22"
+  },
+  "E08000015":{
+    "children":[
+
+    ],
+    "name":"Wirral",
+    "type":"LAD22"
+  },
+  "E08000016":{
+    "children":[
+
+    ],
+    "name":"Barnsley",
+    "type":"LAD22"
+  },
+  "E08000017":{
+    "children":[
+
+    ],
+    "name":"Doncaster",
+    "type":"LAD22"
+  },
+  "E08000018":{
+    "children":[
+
+    ],
+    "name":"Rotherham",
+    "type":"LAD22"
+  },
+  "E08000019":{
+    "children":[
+
+    ],
+    "name":"Sheffield",
+    "type":"LAD22"
+  },
+  "E08000021":{
+    "children":[
+
+    ],
+    "name":"Newcastle upon Tyne",
+    "type":"LAD22"
+  },
+  "E08000022":{
+    "children":[
+
+    ],
+    "name":"North Tyneside",
+    "type":"LAD22"
+  },
+  "E08000023":{
+    "children":[
+
+    ],
+    "name":"South Tyneside",
+    "type":"LAD22"
+  },
+  "E08000024":{
+    "children":[
+
+    ],
+    "name":"Sunderland",
+    "type":"LAD22"
+  },
+  "E08000032":{
+    "children":[
+
+    ],
+    "name":"Bradford",
+    "type":"LAD22"
+  },
+  "E08000033":{
+    "children":[
+
+    ],
+    "name":"Calderdale",
+    "type":"LAD22"
+  },
+  "E08000034":{
+    "children":[
+
+    ],
+    "name":"Kirklees",
+    "type":"LAD22"
+  },
+  "E08000035":{
+    "children":[
+
+    ],
+    "name":"Leeds",
+    "type":"LAD22"
+  },
+  "E08000036":{
+    "children":[
+
+    ],
+    "name":"Wakefield",
+    "type":"LAD22"
+  },
+  "E08000037":{
+    "children":[
+
+    ],
+    "name":"Gateshead",
+    "type":"LAD22"
+  },
+  "E10000006":{
+    "children":[
+      "E07000026",
+      "E07000027",
+      "E07000028",
+      "E07000029",
+      "E07000030",
+      "E07000031"
+    ],
+    "name":"Cumbria",
+    "type":"CTY22"
+  },
+  "E10000017":{
+    "children":[
+      "E07000117",
+      "E07000118",
+      "E07000119",
+      "E07000120",
+      "E07000121",
+      "E07000122",
+      "E07000123",
+      "E07000124",
+      "E07000125",
+      "E07000126",
+      "E07000127",
+      "E07000128"
+    ],
+    "name":"Lancashire",
+    "type":"CTY22"
+  },
+  "E10000023":{
+    "children":[
+      "E07000163",
+      "E07000164",
+      "E07000165",
+      "E07000166",
+      "E07000167",
+      "E07000168",
+      "E07000169"
+    ],
+    "name":"North Yorkshire",
+    "type":"CTY22"
+  },
+  "E11000001":{
+    "children":[
+      "E08000001",
+      "E08000002",
+      "E08000003",
+      "E08000004",
+      "E08000005",
+      "E08000006",
+      "E08000007",
+      "E08000008",
+      "E08000009",
+      "E08000010",
+      "E47000001"
+    ],
+    "name":"Greater Manchester",
+    "type":"CTY22"
+  },
+  "E11000002":{
+    "children":[
+      "E08000011",
+      "E08000012",
+      "E08000013",
+      "E08000014",
+      "E08000015",
+      "E47000004"
+    ],
+    "name":"Merseyside",
+    "type":"CTY22"
+  },
+  "E11000003":{
+    "children":[
+      "E08000016",
+      "E08000017",
+      "E08000018",
+      "E08000019",
+      "E47000002"
+    ],
+    "name":"South Yorkshire",
+    "type":"CTY22"
+  },
+  "E11000006":{
+    "children":[
+      "E08000032",
+      "E08000033",
+      "E08000034",
+      "E08000035",
+      "E08000036",
+      "E47000003"
+    ],
+    "name":"West Yorkshire",
+    "type":"CTY22"
+  },
+  "E11000007":{
+    "children":[
+      "E08000021",
+      "E08000022",
+      "E08000023",
+      "E08000024",
+      "E08000037",
+      "E47000010",
+      "E47000011"
+    ],
+    "name":"Tyne and Wear",
+    "type":"CTY22"
+  },
+  "E12000001":{
+    "children":[
+      "E06000001",
+      "E06000002",
+      "E06000003",
+      "E06000004",
+      "E06000005",
+      "E06000047",
+      "E06000057",
+      "E08000021",
+      "E08000022",
+      "E08000023",
+      "E08000024",
+      "E08000037",
+      "E11000007",
+      "E47000006",
+      "E47000010",
+      "E47000011"
+    ],
+    "name":"North East",
+    "type":"RGN22"
+  },
+  "E12000002":{
+    "children":[
+      "E06000006",
+      "E06000007",
+      "E06000008",
+      "E06000009",
+      "E06000049",
+      "E06000050",
+      "E07000026",
+      "E07000027",
+      "E07000028",
+      "E07000029",
+      "E07000030",
+      "E07000031",
+      "E07000117",
+      "E07000118",
+      "E07000119",
+      "E07000120",
+      "E07000121",
+      "E07000122",
+      "E07000123",
+      "E07000124",
+      "E07000125",
+      "E07000126",
+      "E07000127",
+      "E07000128",
+      "E08000001",
+      "E08000002",
+      "E08000003",
+      "E08000004",
+      "E08000005",
+      "E08000006",
+      "E08000007",
+      "E08000008",
+      "E08000009",
+      "E08000010",
+      "E08000011",
+      "E08000012",
+      "E08000013",
+      "E08000014",
+      "E08000015",
+      "E10000006",
+      "E10000017",
+      "E11000001",
+      "E11000002",
+      "E47000001",
+      "E47000004"
+    ],
+    "name":"North West",
+    "type":"RGN22"
+  },
+  "E12000003":{
+    "children":[
+      "E06000010",
+      "E06000011",
+      "E06000012",
+      "E06000013",
+      "E06000014",
+      "E07000163",
+      "E07000164",
+      "E07000165",
+      "E07000166",
+      "E07000167",
+      "E07000168",
+      "E07000169",
+      "E08000016",
+      "E08000017",
+      "E08000018",
+      "E08000019",
+      "E08000032",
+      "E08000033",
+      "E08000034",
+      "E08000035",
+      "E08000036",
+      "E10000023",
+      "E11000003",
+      "E11000006",
+      "E47000002",
+      "E47000003"
+    ],
+    "name":"Yorkshire and The Humber",
+    "type":"RGN22"
+  },
+  "E12999901":{
+    "children":[
+      "E06000001",
+      "E06000002",
+      "E06000003",
+      "E06000004",
+      "E06000005",
+      "E06000006",
+      "E06000007",
+      "E06000008",
+      "E06000009",
+      "E06000010",
+      "E06000011",
+      "E06000012",
+      "E06000013",
+      "E06000014",
+      "E06000047",
+      "E06000049",
+      "E06000050",
+      "E06000057",
+      "E07000026",
+      "E07000027",
+      "E07000028",
+      "E07000029",
+      "E07000030",
+      "E07000031",
+      "E07000117",
+      "E07000118",
+      "E07000119",
+      "E07000120",
+      "E07000121",
+      "E07000122",
+      "E07000123",
+      "E07000124",
+      "E07000125",
+      "E07000126",
+      "E07000127",
+      "E07000128",
+      "E07000163",
+      "E07000164",
+      "E07000165",
+      "E07000166",
+      "E07000167",
+      "E07000168",
+      "E07000169",
+      "E08000001",
+      "E08000002",
+      "E08000003",
+      "E08000004",
+      "E08000005",
+      "E08000006",
+      "E08000007",
+      "E08000008",
+      "E08000009",
+      "E08000010",
+      "E08000011",
+      "E08000012",
+      "E08000013",
+      "E08000014",
+      "E08000015",
+      "E08000016",
+      "E08000017",
+      "E08000018",
+      "E08000019",
+      "E08000021",
+      "E08000022",
+      "E08000023",
+      "E08000024",
+      "E08000032",
+      "E08000033",
+      "E08000034",
+      "E08000035",
+      "E08000036",
+      "E08000037",
+      "E10000006",
+      "E10000017",
+      "E10000023",
+      "E11000001",
+      "E11000002",
+      "E11000003",
+      "E11000006",
+      "E11000007",
+      "E12000001",
+      "E12000002",
+      "E12000003",
+      "E47000001",
+      "E47000002",
+      "E47000003",
+      "E47000004",
+      "E47000006",
+      "E47000010",
+      "E47000011"
+    ],
+    "name":"The North",
+    "type":"PANRGN22"
+  },
+  "E47000001":{
+    "children":[
+      "E08000001",
+      "E08000002",
+      "E08000003",
+      "E08000004",
+      "E08000005",
+      "E08000006",
+      "E08000007",
+      "E08000008",
+      "E08000009",
+      "E08000010"
+    ],
+    "name":"Greater Manchester",
+    "type":"CAUTH22"
+  },
+  "E47000002":{
+    "children":[
+      "E08000016",
+      "E08000017",
+      "E08000018",
+      "E08000019"
+    ],
+    "name":"South Yorkshire",
+    "type":"CAUTH22"
+  },
+  "E47000003":{
+    "children":[
+      "E08000032",
+      "E08000033",
+      "E08000034",
+      "E08000035",
+      "E08000036"
+    ],
+    "name":"West Yorkshire",
+    "type":"CAUTH22"
+  },
+  "E47000004":{
+    "children":[
+      "E06000006",
+      "E08000011",
+      "E08000012",
+      "E08000013",
+      "E08000014",
+      "E08000015"
+    ],
+    "name":"Liverpool City Region",
+    "type":"CAUTH22"
+  },
+  "E47000006":{
+    "children":[
+      "E06000001",
+      "E06000002",
+      "E06000003",
+      "E06000004",
+      "E06000005"
+    ],
+    "name":"Tees Valley",
+    "type":"CAUTH22"
+  },
+  "E47000010":{
+    "children":[
+      "E06000047",
+      "E08000023",
+      "E08000024",
+      "E08000037"
+    ],
+    "name":"North East",
+    "type":"CAUTH22"
+  },
+  "E47000011":{
+    "children":[
+      "E06000057",
+      "E08000021",
+      "E08000022"
+    ],
+    "name":"North of Tyne",
+    "type":"CAUTH22"
+  }
+}

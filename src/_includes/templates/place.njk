@@ -18,20 +18,21 @@ This is a mockup place page for {{ name }} ({{ key }}).
   }
 }) | safe }}
 
-{% set geojson_key = places[key].geojson_filename %}
+{% set geojson_key = key %}
 
 <pre>
-{{place_data[key].council_tax_support.rows | dump(2)}}
+{{place_data[key].council_tax_support.rows | dump(2) }}
 </pre>
 
-{% if geojson_key and geojson[geojson_key]%}
-{{ comp.oi.map.zoomable({
+{{ key }}
+{% if geojson[key] %}
+{# {{ comp.oi.map.zoomable({
         config: {
           data: place_data[key].council_tax_support.rows,
           geojson: 
           {
-            key: place.geojson.join_key,
-            data: geojson[geojson_key]
+            data: geojson[key],
+            key: place.geojson.join_key
           },
           columns: [{
             name: "label",
@@ -59,5 +60,5 @@ This is a mockup place page for {{ name }} ({{ key }}).
           }
         }
     }
-  ) | safe }}
+  ) | safe }} #}
 {% endif %}

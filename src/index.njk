@@ -1,5 +1,6 @@
 ---
 title: Data Insight Example
+key: E12999901
 ---
 <p>
   This is a prototype of the Insight Finder site created by <a href="https://www.jrf.org.uk/">The Joseph Rowntree Foundation</a>
@@ -43,7 +44,7 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
           geojson: 
           {
             key: "RGN20CD",
-            data: geojson.regions
+            data: geojson[key]
           },
           columns: [{
             name: "label",
