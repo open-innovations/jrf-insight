@@ -60,9 +60,9 @@ css: |
       <li id="spotlight-at-place">
         <h{{ heading_level}}>Spotlights</h{{ heading_level }}>
         <ul>
-          {% for spotlight in spotlights %}
+          {% for spotlight_key in spotlights | keys %}
             <li>
-              <a href="/spotlight/{{ spotlights }}/{{ place_key }}/">{{ spotlight }}</a>
+              <a href="/spotlight/{{ spotlight_key }}/{{ place_key }}/">{{ spotlights[spotlight_key].name }}</a>
             </li>
           {% endfor %}
         </ul>
