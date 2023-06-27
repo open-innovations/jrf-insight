@@ -6,7 +6,7 @@ import json
 GEOLOOKUP = "data/geo/geography_lookup.csv"
 HBAI_JSON = 'pipelines/extract/json/data/HBAI.json'
 CLIF_JSONS = ['pipelines/extract/json/data/CLIF_REL.json', 'pipelines/extract/json/data/CLIF_ABS.json']
-dates = ['1011', '1112', '1213', '1314', '1415', '1516', '1617', '1718', '1819', '1920', '2021', '2122']
+#dates = ['1011', '1112', '1213', '1314', '1415', '1516', '1617', '1718', '1819', '1920', '2021', '2122']
 
 def houses_below_avg_income():
     """
