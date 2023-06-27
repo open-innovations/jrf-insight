@@ -1,13 +1,13 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Number of Children in the Family of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2012-13,North East (E12000001),No children,1287651.0,224542.0
-2012-13,North East (E12000001),One child,318712.0,69446.0
-2012-13,North East (E12000001),Three or more children,150336.0,57528.0
-2012-13,North East (E12000001),Two children,368930.0,91902.0
-2012-13,North West (E12000002),No children,3374152.0,635858.0
-2012-13,North West (E12000002),One child,944427.0,206469.0
-2012-13,North West (E12000002),Three or more children,458175.0,182717.0
-2012-13,North West (E12000002),Two children,989292.0,204199.0
-2012-13,Yorkshire and The Humber (E12000003),No children,2445469.0,526171.0
-2012-13,Yorkshire and The Humber (E12000003),One child,700493.0,181473.0
-2012-13,Yorkshire and The Humber (E12000003),Three or more children,325638.0,159293.0
-2012-13,Yorkshire and The Humber (E12000003),Two children,771758.0,139490.0
+financial_year,number_of_children_in_the_family_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2012-13,No children,1287651.0,224542.0,North East,E12000001
+2012-13,One child,318712.0,69446.0,North East,E12000001
+2012-13,Three or more children,150336.0,57528.0,North East,E12000001
+2012-13,Two children,368930.0,91902.0,North East,E12000001
+2012-13,No children,3374152.0,635858.0,North West,E12000002
+2012-13,One child,944427.0,206469.0,North West,E12000002
+2012-13,Three or more children,458175.0,182717.0,North West,E12000002
+2012-13,Two children,989292.0,204199.0,North West,E12000002
+2012-13,No children,2445469.0,526171.0,Yorkshire and The Humber,E12000003
+2012-13,One child,700493.0,181473.0,Yorkshire and The Humber,E12000003
+2012-13,Three or more children,325638.0,159293.0,Yorkshire and The Humber,E12000003
+2012-13,Two children,771758.0,139490.0,Yorkshire and The Humber,E12000003

@@ -9,8 +9,8 @@ stages:
       size: 199535
     - path: pipelines/extract/extract.py
       hash: md5
-      md5: e157bae18f11bcdf536ac06724b04442
-      size: 2911
+      md5: 0e6d8ead09815733382f31f63b066519
+      size: 3467
     - path: pipelines/extract/json/data
       hash: md5
       md5: e774923363c7a34cefc7c29c3113c83a.dir
@@ -28,8 +28,8 @@ stages:
       nfiles: 2
     - path: data/hbai
       hash: md5
-      md5: aba6d2ad2b109269c30b24246d75a54c.dir
-      size: 96805
+      md5: 929843ddb79b856d6ac7e5fd08bdb5c0.dir
+      size: 86689
       nfiles: 72
   probe:
     cmd: PYTHONPATH= python pipelines/extract/probe.py

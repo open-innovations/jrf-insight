@@ -1,16 +1,16 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Age of the Youngest Child in the Family of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2018-19,North East (E12000001),0 to 4,311836.0,130510.0
-2018-19,North East (E12000001),11 to 15,164254.0,19394.0
-2018-19,North East (E12000001),16 to 19,55205.0,28703.0
-2018-19,North East (E12000001),5 to 10,262325.0,78502.0
-2018-19,North East (E12000001),No children in the family,1312720.0,252130.0
-2018-19,North West (E12000002),0 to 4,990543.0,336840.0
-2018-19,North West (E12000002),11 to 15,478618.0,89513.0
-2018-19,North West (E12000002),16 to 19,187707.0,41274.0
-2018-19,North West (E12000002),5 to 10,754088.0,204471.0
-2018-19,North West (E12000002),No children in the family,3449983.0,660202.0
-2018-19,Yorkshire and The Humber (E12000003),0 to 4,644399.0,332369.0
-2018-19,Yorkshire and The Humber (E12000003),11 to 15,358268.0,89470.0
-2018-19,Yorkshire and The Humber (E12000003),16 to 19,122092.0,55663.0
-2018-19,Yorkshire and The Humber (E12000003),5 to 10,592374.0,132680.0
-2018-19,Yorkshire and The Humber (E12000003),No children in the family,2495932.0,580875.0
+financial_year,age_of_the_youngest_child_in_the_family_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2018-19,0 to 4,311836.0,130510.0,North East,E12000001
+2018-19,11 to 15,164254.0,19394.0,North East,E12000001
+2018-19,16 to 19,55205.0,28703.0,North East,E12000001
+2018-19,5 to 10,262325.0,78502.0,North East,E12000001
+2018-19,No children in the family,1312720.0,252130.0,North East,E12000001
+2018-19,0 to 4,990543.0,336840.0,North West,E12000002
+2018-19,11 to 15,478618.0,89513.0,North West,E12000002
+2018-19,16 to 19,187707.0,41274.0,North West,E12000002
+2018-19,5 to 10,754088.0,204471.0,North West,E12000002
+2018-19,No children in the family,3449983.0,660202.0,North West,E12000002
+2018-19,0 to 4,644399.0,332369.0,Yorkshire and The Humber,E12000003
+2018-19,11 to 15,358268.0,89470.0,Yorkshire and The Humber,E12000003
+2018-19,16 to 19,122092.0,55663.0,Yorkshire and The Humber,E12000003
+2018-19,5 to 10,592374.0,132680.0,Yorkshire and The Humber,E12000003
+2018-19,No children in the family,2495932.0,580875.0,Yorkshire and The Humber,E12000003

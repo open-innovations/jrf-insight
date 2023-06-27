@@ -1,16 +1,16 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Age of the Youngest Child in the Family of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2014-15,North East (E12000001),0 to 4,328128.0,99692.0
-2014-15,North East (E12000001),11 to 15,163269.0,43736.0
-2014-15,North East (E12000001),16 to 19,49702.0,20699.0
-2014-15,North East (E12000001),5 to 10,304858.0,52364.0
-2014-15,North East (E12000001),No children in the family,1225342.0,284284.0
-2014-15,North West (E12000002),0 to 4,1032079.0,299429.0
-2014-15,North West (E12000002),11 to 15,491593.0,140289.0
-2014-15,North West (E12000002),16 to 19,200165.0,39198.0
-2014-15,North West (E12000002),5 to 10,687644.0,152845.0
-2014-15,North West (E12000002),No children in the family,3277923.0,688999.0
-2014-15,Yorkshire and The Humber (E12000003),0 to 4,763193.0,222993.0
-2014-15,Yorkshire and The Humber (E12000003),11 to 15,357359.0,109174.0
-2014-15,Yorkshire and The Humber (E12000003),16 to 19,145625.0,28215.0
-2014-15,Yorkshire and The Humber (E12000003),5 to 10,535292.0,138864.0
-2014-15,Yorkshire and The Humber (E12000003),No children in the family,2481662.0,480106.0
+financial_year,age_of_the_youngest_child_in_the_family_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2014-15,0 to 4,328128.0,99692.0,North East,E12000001
+2014-15,11 to 15,163269.0,43736.0,North East,E12000001
+2014-15,16 to 19,49702.0,20699.0,North East,E12000001
+2014-15,5 to 10,304858.0,52364.0,North East,E12000001
+2014-15,No children in the family,1225342.0,284284.0,North East,E12000001
+2014-15,0 to 4,1032079.0,299429.0,North West,E12000002
+2014-15,11 to 15,491593.0,140289.0,North West,E12000002
+2014-15,16 to 19,200165.0,39198.0,North West,E12000002
+2014-15,5 to 10,687644.0,152845.0,North West,E12000002
+2014-15,No children in the family,3277923.0,688999.0,North West,E12000002
+2014-15,0 to 4,763193.0,222993.0,Yorkshire and The Humber,E12000003
+2014-15,11 to 15,357359.0,109174.0,Yorkshire and The Humber,E12000003
+2014-15,16 to 19,145625.0,28215.0,Yorkshire and The Humber,E12000003
+2014-15,5 to 10,535292.0,138864.0,Yorkshire and The Humber,E12000003
+2014-15,No children in the family,2481662.0,480106.0,Yorkshire and The Humber,E12000003

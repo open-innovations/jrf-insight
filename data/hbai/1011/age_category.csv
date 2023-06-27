@@ -1,10 +1,10 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Type of Individual by Age Category,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2010-11,North East (E12000001),Child,406614.0,118984.0
-2010-11,North East (E12000001),Pensioner,429872.0,75638.0
-2010-11,North East (E12000001),Working-Age,1255539.0,253897.0
-2010-11,North West (E12000002),Child,1195945.0,294792.0
-2010-11,North West (E12000002),Pensioner,1116013.0,203149.0
-2010-11,North West (E12000002),Working-Age,3377463.0,708131.0
-2010-11,Yorkshire and The Humber (E12000003),Child,843722.0,277963.0
-2010-11,Yorkshire and The Humber (E12000003),Pensioner,806940.0,184657.0
-2010-11,Yorkshire and The Humber (E12000003),Working-Age,2472236.0,575857.0
+financial_year,type_of_individual_by_age_category,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2010-11,Child,406614.0,118984.0,North East,E12000001
+2010-11,Pensioner,429872.0,75638.0,North East,E12000001
+2010-11,Working-Age,1255539.0,253897.0,North East,E12000001
+2010-11,Child,1195945.0,294792.0,North West,E12000002
+2010-11,Pensioner,1116013.0,203149.0,North West,E12000002
+2010-11,Working-Age,3377463.0,708131.0,North West,E12000002
+2010-11,Child,843722.0,277963.0,Yorkshire and The Humber,E12000003
+2010-11,Pensioner,806940.0,184657.0,Yorkshire and The Humber,E12000003
+2010-11,Working-Age,2472236.0,575857.0,Yorkshire and The Humber,E12000003

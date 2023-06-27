@@ -1,25 +1,25 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Savings and Investments of Adults in the Family of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2019-20,North East (E12000001),"Less than £1,500",663693.0,310050.0
-2019-20,North East (E12000001),No savings,292967.0,182040.0
-2019-20,North East (E12000001),"£1,500 but less than £3,000",174356.0,16711.0
-2019-20,North East (E12000001),"£10,000 but less than £16,000",120213.0,23377.0
-2019-20,North East (E12000001),"£16,000 but less than £20,000",43614.0,14242.0
-2019-20,North East (E12000001),"£20,000 or more",392322.0,62053.0
-2019-20,North East (E12000001),"£3,000 but less than £8,000",214011.0,37758.0
-2019-20,North East (E12000001),"£8,000 but less than £10,000",56091.0,18506.0
-2019-20,North West (E12000002),"Less than £1,500",2029094.0,547629.0
-2019-20,North West (E12000002),No savings,798286.0,444458.0
-2019-20,North West (E12000002),"£1,500 but less than £3,000",518084.0,76584.0
-2019-20,North West (E12000002),"£10,000 but less than £16,000",294273.0,40762.0
-2019-20,North West (E12000002),"£16,000 but less than £20,000",91958.0,22970.0
-2019-20,North West (E12000002),"£20,000 or more",1132841.0,85120.0
-2019-20,North West (E12000002),"£3,000 but less than £8,000",827401.0,91506.0
-2019-20,North West (E12000002),"£8,000 but less than £10,000",188461.0,24056.0
-2019-20,Yorkshire and The Humber (E12000003),"Less than £1,500",1431296.0,454532.0
-2019-20,Yorkshire and The Humber (E12000003),No savings,474891.0,368861.0
-2019-20,Yorkshire and The Humber (E12000003),"£1,500 but less than £3,000",384046.0,74133.0
-2019-20,Yorkshire and The Humber (E12000003),"£10,000 but less than £16,000",295616.0,35753.0
-2019-20,Yorkshire and The Humber (E12000003),"£16,000 but less than £20,000",69844.0,16906.0
-2019-20,Yorkshire and The Humber (E12000003),"£20,000 or more",889352.0,102994.0
-2019-20,Yorkshire and The Humber (E12000003),"£3,000 but less than £8,000",571616.0,88926.0
-2019-20,Yorkshire and The Humber (E12000003),"£8,000 but less than £10,000",126099.0,18566.0
+financial_year,savings_and_investments_of_adults_in_the_family_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2019-20,"Less than £1,500",663693.0,310050.0,North East,E12000001
+2019-20,No savings,292967.0,182040.0,North East,E12000001
+2019-20,"£1,500 but less than £3,000",174356.0,16711.0,North East,E12000001
+2019-20,"£10,000 but less than £16,000",120213.0,23377.0,North East,E12000001
+2019-20,"£16,000 but less than £20,000",43614.0,14242.0,North East,E12000001
+2019-20,"£20,000 or more",392322.0,62053.0,North East,E12000001
+2019-20,"£3,000 but less than £8,000",214011.0,37758.0,North East,E12000001
+2019-20,"£8,000 but less than £10,000",56091.0,18506.0,North East,E12000001
+2019-20,"Less than £1,500",2029094.0,547629.0,North West,E12000002
+2019-20,No savings,798286.0,444458.0,North West,E12000002
+2019-20,"£1,500 but less than £3,000",518084.0,76584.0,North West,E12000002
+2019-20,"£10,000 but less than £16,000",294273.0,40762.0,North West,E12000002
+2019-20,"£16,000 but less than £20,000",91958.0,22970.0,North West,E12000002
+2019-20,"£20,000 or more",1132841.0,85120.0,North West,E12000002
+2019-20,"£3,000 but less than £8,000",827401.0,91506.0,North West,E12000002
+2019-20,"£8,000 but less than £10,000",188461.0,24056.0,North West,E12000002
+2019-20,"Less than £1,500",1431296.0,454532.0,Yorkshire and The Humber,E12000003
+2019-20,No savings,474891.0,368861.0,Yorkshire and The Humber,E12000003
+2019-20,"£1,500 but less than £3,000",384046.0,74133.0,Yorkshire and The Humber,E12000003
+2019-20,"£10,000 but less than £16,000",295616.0,35753.0,Yorkshire and The Humber,E12000003
+2019-20,"£16,000 but less than £20,000",69844.0,16906.0,Yorkshire and The Humber,E12000003
+2019-20,"£20,000 or more",889352.0,102994.0,Yorkshire and The Humber,E12000003
+2019-20,"£3,000 but less than £8,000",571616.0,88926.0,Yorkshire and The Humber,E12000003
+2019-20,"£8,000 but less than £10,000",126099.0,18566.0,Yorkshire and The Humber,E12000003

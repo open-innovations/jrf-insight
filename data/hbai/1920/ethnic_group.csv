@@ -1,19 +1,19 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method),not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2019-20,North East (E12000001),Asian/ Asian British,95139.0,60441.0
-2019-20,North East (E12000001),Black/ African/ Caribbean/ Black British,13225.0,11888.0
-2019-20,North East (E12000001),Mixed/ Multiple Ethnic Groups,6208.0,5153.0
-2019-20,North East (E12000001),Not declared (from 2020/21 onwards),0.0,0.0
-2019-20,North East (E12000001),Other Ethnic Group,5335.0,11278.0
-2019-20,North East (E12000001),White,1837360.0,575977.0
-2019-20,North West (E12000002),Asian/ Asian British,362580.0,134524.0
-2019-20,North West (E12000002),Black/ African/ Caribbean/ Black British,152320.0,70436.0
-2019-20,North West (E12000002),Mixed/ Multiple Ethnic Groups,53836.0,16962.0
-2019-20,North West (E12000002),Not declared (from 2020/21 onwards),0.0,0.0
-2019-20,North West (E12000002),Other Ethnic Group,54044.0,64734.0
-2019-20,North West (E12000002),White,5257618.0,1046429.0
-2019-20,Yorkshire and The Humber (E12000003),Asian/ Asian British,259128.0,235317.0
-2019-20,Yorkshire and The Humber (E12000003),Black/ African/ Caribbean/ Black British,137270.0,47107.0
-2019-20,Yorkshire and The Humber (E12000003),Mixed/ Multiple Ethnic Groups,57139.0,14708.0
-2019-20,Yorkshire and The Humber (E12000003),Not declared (from 2020/21 onwards),0.0,0.0
-2019-20,Yorkshire and The Humber (E12000003),Other Ethnic Group,34344.0,33458.0
-2019-20,Yorkshire and The Humber (E12000003),White,3754879.0,830081.0
+financial_year,ethnic_group_of_the_head_of_the_household_please_calculate_three_year_averages_click_on_i_for_the_correct_method_,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2019-20,Asian/ Asian British,95139.0,60441.0,North East,E12000001
+2019-20,Black/ African/ Caribbean/ Black British,13225.0,11888.0,North East,E12000001
+2019-20,Mixed/ Multiple Ethnic Groups,6208.0,5153.0,North East,E12000001
+2019-20,Not declared (from 2020/21 onwards),0.0,0.0,North East,E12000001
+2019-20,Other Ethnic Group,5335.0,11278.0,North East,E12000001
+2019-20,White,1837360.0,575977.0,North East,E12000001
+2019-20,Asian/ Asian British,362580.0,134524.0,North West,E12000002
+2019-20,Black/ African/ Caribbean/ Black British,152320.0,70436.0,North West,E12000002
+2019-20,Mixed/ Multiple Ethnic Groups,53836.0,16962.0,North West,E12000002
+2019-20,Not declared (from 2020/21 onwards),0.0,0.0,North West,E12000002
+2019-20,Other Ethnic Group,54044.0,64734.0,North West,E12000002
+2019-20,White,5257618.0,1046429.0,North West,E12000002
+2019-20,Asian/ Asian British,259128.0,235317.0,Yorkshire and The Humber,E12000003
+2019-20,Black/ African/ Caribbean/ Black British,137270.0,47107.0,Yorkshire and The Humber,E12000003
+2019-20,Mixed/ Multiple Ethnic Groups,57139.0,14708.0,Yorkshire and The Humber,E12000003
+2019-20,Not declared (from 2020/21 onwards),0.0,0.0,Yorkshire and The Humber,E12000003
+2019-20,Other Ethnic Group,34344.0,33458.0,Yorkshire and The Humber,E12000003
+2019-20,White,3754879.0,830081.0,Yorkshire and The Humber,E12000003

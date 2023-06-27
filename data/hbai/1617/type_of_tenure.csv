@@ -1,10 +1,10 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Tenure Type of the Household of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2016-17,North East (E12000001),All rented privately,412244.0,130464.0
-2016-17,North East (E12000001),Owned outright/buying with mortgage,1335274.0,219844.0
-2016-17,North East (E12000001),Social rented sector tenants,353616.0,139098.0
-2016-17,North West (E12000002),All rented privately,1005378.0,257051.0
-2016-17,North West (E12000002),Owned outright/buying with mortgage,3873846.0,742631.0
-2016-17,North West (E12000002),Social rented sector tenants,829680.0,359595.0
-2016-17,Yorkshire and The Humber (E12000003),All rented privately,811438.0,232603.0
-2016-17,Yorkshire and The Humber (E12000003),Owned outright/buying with mortgage,2942343.0,476320.0
-2016-17,Yorkshire and The Humber (E12000003),Social rented sector tenants,607848.0,241392.0
+financial_year,tenure_type_of_the_household_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2016-17,All rented privately,412244.0,130464.0,North East,E12000001
+2016-17,Owned outright/buying with mortgage,1335274.0,219844.0,North East,E12000001
+2016-17,Social rented sector tenants,353616.0,139098.0,North East,E12000001
+2016-17,All rented privately,1005378.0,257051.0,North West,E12000002
+2016-17,Owned outright/buying with mortgage,3873846.0,742631.0,North West,E12000002
+2016-17,Social rented sector tenants,829680.0,359595.0,North West,E12000002
+2016-17,All rented privately,811438.0,232603.0,Yorkshire and The Humber,E12000003
+2016-17,Owned outright/buying with mortgage,2942343.0,476320.0,Yorkshire and The Humber,E12000003
+2016-17,Social rented sector tenants,607848.0,241392.0,Yorkshire and The Humber,E12000003

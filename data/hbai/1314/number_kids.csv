@@ -1,13 +1,13 @@
-Financial Year,Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method),Number of Children in the Family of the Individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_
-2013-14,North East (E12000001),No children,1275276.0,262470.0
-2013-14,North East (E12000001),One child,323943.0,61317.0
-2013-14,North East (E12000001),Three or more children,213602.0,36155.0
-2013-14,North East (E12000001),Two children,323326.0,64487.0
-2013-14,North West (E12000002),No children,3292242.0,625344.0
-2013-14,North West (E12000002),One child,1064469.0,240051.0
-2013-14,North West (E12000002),Three or more children,446743.0,141015.0
-2013-14,North West (E12000002),Two children,1002718.0,168691.0
-2013-14,Yorkshire and The Humber (E12000003),No children,2473476.0,462312.0
-2013-14,Yorkshire and The Humber (E12000003),One child,810897.0,152522.0
-2013-14,Yorkshire and The Humber (E12000003),Three or more children,342210.0,99424.0
-2013-14,Yorkshire and The Humber (E12000003),Two children,736041.0,163542.0
+financial_year,number_of_children_in_the_family_of_the_individual,not_in_low_income_at_or_above_threshold_,in_low_income_below_threshold_,geography_name,geography_code
+2013-14,No children,1275276.0,262470.0,North East,E12000001
+2013-14,One child,323943.0,61317.0,North East,E12000001
+2013-14,Three or more children,213602.0,36155.0,North East,E12000001
+2013-14,Two children,323326.0,64487.0,North East,E12000001
+2013-14,No children,3292242.0,625344.0,North West,E12000002
+2013-14,One child,1064469.0,240051.0,North West,E12000002
+2013-14,Three or more children,446743.0,141015.0,North West,E12000002
+2013-14,Two children,1002718.0,168691.0,North West,E12000002
+2013-14,No children,2473476.0,462312.0,Yorkshire and The Humber,E12000003
+2013-14,One child,810897.0,152522.0,Yorkshire and The Humber,E12000003
+2013-14,Three or more children,342210.0,99424.0,Yorkshire and The Humber,E12000003
+2013-14,Two children,736041.0,163542.0,Yorkshire and The Humber,E12000003

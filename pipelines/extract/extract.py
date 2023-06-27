@@ -30,6 +30,7 @@ def houses_below_avg_income():
         "savings_and_investments", 
         "ethnic_group"
                   ]
+    location = 'Location in the United Kingdom of the Household of the Individual (please calculate three-year averages - click on i for the correct method)'
     for dim, name in zip(dimensions, dimension_names):
         for date in dates:
             os.makedirs(f'data/hbai/{date}', exist_ok=True)
@@ -42,9 +43,14 @@ def houses_below_avg_income():
             
             with open(HBAI_JSON, "w") as jsonFile:
                 data = json.dump(data, jsonFile)
-
-            HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/extract/json/data/HBAI.json')
+            
+            HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/extract/json/data/HBAI.json').reset_index()
+            HBAI[['geography_name', 'geography_code']] = HBAI[location].str.split('(', expand=True)
+            HBAI['geography_code'] = HBAI['geography_code'].str.replace(')', '')
+            HBAI['geography_name'] = HBAI['geography_name'].str.strip()
+            HBAI.drop(location, axis=1, inplace=True)
             HBAI.rename(columns=slugify, inplace=True)
+            HBAI.set_index('financial_year', inplace=True)
             HBAI.to_csv(f'data/hbai/{date}/{name}.csv')
     return
 
