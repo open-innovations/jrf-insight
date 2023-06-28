@@ -7,14 +7,14 @@ DATA_DIR = '../../../data'
 OUTPUT_DIR = '../../../src/_data'
 
 
-def get_place_metadata():
+def get_place_metadata(geography_code):
     place_metadata_file = f'{OUTPUT_DIR}/places.json'
     with open(place_metadata_file) as f:
         place_metadata = json.loads(f.read())[geography_code]
     return place_metadata
 
 
-def get_geography_codes(place_metadata):
+def get_geography_codes(geography_code, place_metadata):
     geography_codes = [geography_code]
     if 'children' in place_metadata:
         geography_codes = geography_codes + place_metadata['children']
@@ -44,7 +44,7 @@ def get_children_low_income_data(code_list):
                           (clif_data['Family Type'] == 'Total') &
                           (clif_data['Work Status'] == 'Total')]
     return clif_data[clif_data.geography_code.isin(code_list)
-                     & (clif_data.Year == most_recent_date)].set_index(['Year', 'Age of Child (years and bands)', 'Gender of Child', 'Family Type', 'Work Status', 'variable_name', 'geography_code'])
+                     & (clif_data.Year == most_recent_date)]
 
 def combine_data(*args):
     return pd.concat(args)
@@ -63,9 +63,9 @@ if __name__ == '__main__':
     PLACE_DIR = f'{OUTPUT_DIR}/place_data/{geography_code}/'
     os.makedirs(PLACE_DIR, exist_ok=True)
 
-    place_metadata = get_place_metadata()
+    place_metadata = get_place_metadata(geography_code)
 
-    geography_codes = get_geography_codes(place_metadata)
+    geography_codes = get_geography_codes(geography_code, place_metadata)
 
     combine_data(
         get_population_data(geography_codes),
