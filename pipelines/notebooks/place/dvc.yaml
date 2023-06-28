@@ -1,11 +1,20 @@
 stages:
-  prepare-place:
-    cmd: >
-      papermill prepare.ipynb output/${geography_code}.ipynb
-      -p geography_code ${geography_code}
-    params:
-      - geography_code
+  generate_places:
+    cmd: python generate_params.py
     deps:
-      - prepare.ipynb
+      - generate_params.py
+      - ../../../src/_data/places.json
     outs:
-      - ../../../src/_data/place_data/${geography_code}/place_data.csv
+      - params.yaml:
+          cache: false
+          persist: false
+  prepare-place:
+    foreach: ${places}
+    do:
+      cmd: python prepare.py ${item}
+      deps:
+        - prepare.ipynb
+      outs:
+        - ../../../src/_data/place_data/${item}/place_data.csv:
+            persist: false
+            cache: false

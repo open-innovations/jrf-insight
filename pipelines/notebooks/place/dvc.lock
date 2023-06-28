@@ -1,12 +1,1110 @@
 schema: '2.0'
 stages:
-  prepare-place:
-    cmd: "papermill prepare.ipynb output/E12000003.ipynb -p geography_code E12000003\n"
+  prepare-place@E10000017:
+    cmd: python prepare.py E10000017
     deps:
     - path: prepare.ipynb
       hash: md5
-      md5: 0e79e2ddf3393dbea5b91d0d2e7950f8
-      size: 3287
-    params:
-      params.yaml:
-        geography_code: E12000003
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E10000017/place_data.csv
+      hash: md5
+      md5: 0f12d8a103e1d945073ce888fa829162
+      size: 467
+  prepare-place@E07000028:
+    cmd: python prepare.py E07000028
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000028/place_data.csv
+      hash: md5
+      md5: 2e0d767345875408364826c86916b3ca
+      size: 89
+  prepare-place@E11000002:
+    cmd: python prepare.py E11000002
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E11000002/place_data.csv
+      hash: md5
+      md5: aabf5bb2276cfd561d2b05f7d5db7192
+      size: 250
+  prepare-place@E07000127:
+    cmd: python prepare.py E07000127
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000127/place_data.csv
+      hash: md5
+      md5: 5c452dc04452364f7b9b37e6787e0e84
+      size: 89
+  prepare-place@E12000002:
+    cmd: python prepare.py E12000002
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E12000002/place_data.csv
+      hash: md5
+      md5: 9a20a991476982e08bafb2ef5e1f4a84
+      size: 1477
+  prepare-place@E08000037:
+    cmd: python prepare.py E08000037
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000037/place_data.csv
+      hash: md5
+      md5: 3f27a58578b943466e1b1524d063c3f5
+      size: 90
+  prepare-place@E06000006:
+    cmd: python prepare.py E06000006
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000006/place_data.csv
+      hash: md5
+      md5: 1bb8859e8272f9a3d185f843a3e4eb1b
+      size: 89
+  prepare-place@E07000125:
+    cmd: python prepare.py E07000125
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000125/place_data.csv
+      hash: md5
+      md5: 7116c593fb18d7f229c5437c6e5f8a74
+      size: 88
+  prepare-place@E08000035:
+    cmd: python prepare.py E08000035
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000035/place_data.csv
+      hash: md5
+      md5: f26aac1b316bb82193914dd1c3e0c6be
+      size: 91
+  prepare-place@E47000004:
+    cmd: python prepare.py E47000004
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000004/place_data.csv
+      hash: md5
+      md5: 9f1b25f8e47f28f88d47642eb147819a
+      size: 283
+  prepare-place@E06000009:
+    cmd: python prepare.py E06000009
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000009/place_data.csv
+      hash: md5
+      md5: 20d9e371190eb7e2fa19090d898de7ac
+      size: 90
+  prepare-place@E08000011:
+    cmd: python prepare.py E08000011
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000011/place_data.csv
+      hash: md5
+      md5: 0555326168c294e74520eb706e9245a0
+      size: 90
+  prepare-place@E07000031:
+    cmd: python prepare.py E07000031
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000031/place_data.csv
+      hash: md5
+      md5: 78aef1fac6c23600bac395ead637bfc9
+      size: 89
+  prepare-place@E07000166:
+    cmd: python prepare.py E07000166
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000166/place_data.csv
+      hash: md5
+      md5: 6e609167fdece6c58b160b84bfc8f0ec
+      size: 87
+  prepare-place@E11000007:
+    cmd: python prepare.py E11000007
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E11000007/place_data.csv
+      hash: md5
+      md5: 37b0cf2f08a02c6c23c471eb7040a5fb
+      size: 270
+  prepare-place@E08000009:
+    cmd: python prepare.py E08000009
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000009/place_data.csv
+      hash: md5
+      md5: 0839822d433aae647212a9913e4f9d45
+      size: 89
+  prepare-place@E47000002:
+    cmd: python prepare.py E47000002
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000002/place_data.csv
+      hash: md5
+      md5: eaf711d9921d4ff1c0b90894bdb0da99
+      size: 215
+  prepare-place@E07000167:
+    cmd: python prepare.py E07000167
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000167/place_data.csv
+      hash: md5
+      md5: 58bf2e707969416ca105733c0c2cef4c
+      size: 88
+  prepare-place@E08000006:
+    cmd: python prepare.py E08000006
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000006/place_data.csv
+      hash: md5
+      md5: 3f91ed62d273feb4b09e4d57149c4772
+      size: 90
+  prepare-place@E12000001:
+    cmd: python prepare.py E12000001
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E12000001/place_data.csv
+      hash: md5
+      md5: 6240e13494beed279b8f6f5cee2ce899
+      size: 564
+  prepare-place@E08000021:
+    cmd: python prepare.py E08000021
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000021/place_data.csv
+      hash: md5
+      md5: 2c657b2880d08911d6518971294bcdd3
+      size: 91
+  prepare-place@E06000012:
+    cmd: python prepare.py E06000012
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000012/place_data.csv
+      hash: md5
+      md5: 1faa3782ebe183827ac095776926bcf1
+      size: 89
+  prepare-place@E47000003:
+    cmd: python prepare.py E47000003
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000003/place_data.csv
+      hash: md5
+      md5: d39ecd4caefba858f072930408ff0a81
+      size: 252
+  prepare-place@E06000004:
+    cmd: python prepare.py E06000004
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000004/place_data.csv
+      hash: md5
+      md5: e7f7e47ee26b6e47fb386b2abfebf8bb
+      size: 90
+  prepare-place@E06000007:
+    cmd: python prepare.py E06000007
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000007/place_data.csv
+      hash: md5
+      md5: 5e78037d1661e0e9c4d8e5abd930353a
+      size: 89
+  prepare-place@E07000026:
+    cmd: python prepare.py E07000026
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000026/place_data.csv
+      hash: md5
+      md5: d120400c6e85fdaddf6f9e0fbd4915a7
+      size: 88
+  prepare-place@E06000057:
+    cmd: python prepare.py E06000057
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000057/place_data.csv
+      hash: md5
+      md5: 8296412e49dc93f940af20f3b46fd5d4
+      size: 90
+  prepare-place@E08000010:
+    cmd: python prepare.py E08000010
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000010/place_data.csv
+      hash: md5
+      md5: ddec76db0b02094514eec1017e9ba40d
+      size: 90
+  prepare-place@E47000010:
+    cmd: python prepare.py E47000010
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000010/place_data.csv
+      hash: md5
+      md5: e4d783776f390f35dea90599947bba0f
+      size: 216
+  prepare-place@E06000050:
+    cmd: python prepare.py E06000050
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000050/place_data.csv
+      hash: md5
+      md5: f82814dd6846a6987e1f9a7efb26a667
+      size: 90
+  prepare-place@E11000006:
+    cmd: python prepare.py E11000006
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E11000006/place_data.csv
+      hash: md5
+      md5: d39ecd4caefba858f072930408ff0a81
+      size: 252
+  prepare-place@E08000033:
+    cmd: python prepare.py E08000033
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000033/place_data.csv
+      hash: md5
+      md5: 880d1050c9f092b55cbd7d44e62f0521
+      size: 90
+  prepare-place@E08000022:
+    cmd: python prepare.py E08000022
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000022/place_data.csv
+      hash: md5
+      md5: 51af2c3bb3e5f6a323b3026279b6e468
+      size: 89
+  prepare-place@E06000011:
+    cmd: python prepare.py E06000011
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000011/place_data.csv
+      hash: md5
+      md5: e552b131fdf5d731b3fc1a5e7918b279
+      size: 89
+  prepare-place@E10000023:
+    cmd: python prepare.py E10000023
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E10000023/place_data.csv
+      hash: md5
+      md5: b27dd36ff83aae0e9fc9ca46914170b1
+      size: 302
+  prepare-place@E06000002:
+    cmd: python prepare.py E06000002
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000002/place_data.csv
+      hash: md5
+      md5: 81b0a9cbd4451f491f77afb96ea6bce6
+      size: 90
+  prepare-place@E07000122:
+    cmd: python prepare.py E07000122
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000122/place_data.csv
+      hash: md5
+      md5: 2718312343c016ae78050af7c90f3bfd
+      size: 88
+  prepare-place@E12999901:
+    cmd: python prepare.py E12999901
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E12999901/place_data.csv
+      hash: md5
+      md5: acca623e6b30988934d3ee63b081b2b8
+      size: 2814
+  prepare-place@E06000008:
+    cmd: python prepare.py E06000008
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000008/place_data.csv
+      hash: md5
+      md5: 98d160be9a209f62527c07465aaee5c8
+      size: 90
+  prepare-place@E06000001:
+    cmd: python prepare.py E06000001
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000001/place_data.csv
+      hash: md5
+      md5: 9b57e288d516710f4eeebebaa10c2e33
+      size: 88
+  prepare-place@E08000036:
+    cmd: python prepare.py E08000036
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000036/place_data.csv
+      hash: md5
+      md5: e5a485233e8e9b6d949d5574dec96628
+      size: 91
+  prepare-place@E11000003:
+    cmd: python prepare.py E11000003
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E11000003/place_data.csv
+      hash: md5
+      md5: eaf711d9921d4ff1c0b90894bdb0da99
+      size: 215
+  prepare-place@E12000003:
+    cmd: python prepare.py E12000003
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E12000003/place_data.csv
+      hash: md5
+      md5: 0fca445486b374a823734b21286d716b
+      size: 862
+  prepare-place@E08000024:
+    cmd: python prepare.py E08000024
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000024/place_data.csv
+      hash: md5
+      md5: cfca937c5d45dcb562e4ac6c492f7cd6
+      size: 91
+  prepare-place@E06000014:
+    cmd: python prepare.py E06000014
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000014/place_data.csv
+      hash: md5
+      md5: 011c9858f347389dfb48e91c518aa334
+      size: 89
+  prepare-place@E07000163:
+    cmd: python prepare.py E07000163
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000163/place_data.csv
+      hash: md5
+      md5: 6d53bb887a0c95621158896802eb6825
+      size: 88
+  prepare-place@E07000128:
+    cmd: python prepare.py E07000128
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000128/place_data.csv
+      hash: md5
+      md5: 1ccffff8e68a6bc64a4989b6fbd9fd85
+      size: 89
+  prepare-place@E07000027:
+    cmd: python prepare.py E07000027
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000027/place_data.csv
+      hash: md5
+      md5: 8b0a807e8eb1255b24e9c2c9891aa53c
+      size: 88
+  prepare-place@E07000126:
+    cmd: python prepare.py E07000126
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000126/place_data.csv
+      hash: md5
+      md5: 4af9b36c79ef42200c227e96882e600f
+      size: 89
+  prepare-place@E07000030:
+    cmd: python prepare.py E07000030
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000030/place_data.csv
+      hash: md5
+      md5: fa1855fd72ce6bbbdcc8649581fa4ebc
+      size: 88
+  prepare-place@E07000119:
+    cmd: python prepare.py E07000119
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000119/place_data.csv
+      hash: md5
+      md5: 37c2f663e85c48c0afbda4ede4b8733f
+      size: 88
+  prepare-place@E07000121:
+    cmd: python prepare.py E07000121
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000121/place_data.csv
+      hash: md5
+      md5: 184620e2839d787ec6e0062564a0a6d9
+      size: 89
+  prepare-place@E07000124:
+    cmd: python prepare.py E07000124
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000124/place_data.csv
+      hash: md5
+      md5: d3d0ffe361508d6a3b45ed4f53768688
+      size: 87
+  prepare-place@E08000017:
+    cmd: python prepare.py E08000017
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000017/place_data.csv
+      hash: md5
+      md5: 983873df63386b273d3a457e68b68737
+      size: 90
+  prepare-place@E10000006:
+    cmd: python prepare.py E10000006
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E10000006/place_data.csv
+      hash: md5
+      md5: e2d8bc5b3d619993fe222a55bd26bd72
+      size: 271
+  prepare-place@E06000003:
+    cmd: python prepare.py E06000003
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000003/place_data.csv
+      hash: md5
+      md5: da4ac89126a6fcb702229d41d442d0f7
+      size: 89
+  prepare-place@E08000002:
+    cmd: python prepare.py E08000002
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000002/place_data.csv
+      hash: md5
+      md5: 30695c97740e76a86ebee7a1e9399a17
+      size: 89
+  prepare-place@E08000018:
+    cmd: python prepare.py E08000018
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000018/place_data.csv
+      hash: md5
+      md5: 3db6d1a2264978494897b6a2157546fa
+      size: 90
+  prepare-place@E08000013:
+    cmd: python prepare.py E08000013
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000013/place_data.csv
+      hash: md5
+      md5: 79943ea3df11e2d5b9a7a13263d2de8b
+      size: 89
+  prepare-place@E07000168:
+    cmd: python prepare.py E07000168
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000168/place_data.csv
+      hash: md5
+      md5: 23e1faee89ad38878ba6af7514b51478
+      size: 89
+  prepare-place@E07000029:
+    cmd: python prepare.py E07000029
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000029/place_data.csv
+      hash: md5
+      md5: 7468b46a01c23f3f0a070599a3766d6d
+      size: 88
+  prepare-place@E07000118:
+    cmd: python prepare.py E07000118
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000118/place_data.csv
+      hash: md5
+      md5: be91a0e8baaeac7b56cf0d2d5384c5a6
+      size: 89
+  prepare-place@E08000005:
+    cmd: python prepare.py E08000005
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000005/place_data.csv
+      hash: md5
+      md5: 368f8a296fc3d3ed850eee04c1268c72
+      size: 90
+  prepare-place@E47000001:
+    cmd: python prepare.py E47000001
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000001/place_data.csv
+      hash: md5
+      md5: b08cb1d054783f8f40ffa32b108e74c3
+      size: 417
+  prepare-place@E07000117:
+    cmd: python prepare.py E07000117
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000117/place_data.csv
+      hash: md5
+      md5: 893f57e0493899d1cce8327a8de16ab0
+      size: 88
+  prepare-place@E07000120:
+    cmd: python prepare.py E07000120
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000120/place_data.csv
+      hash: md5
+      md5: 2b127193d86e1e7696191320febf6f77
+      size: 88
+  prepare-place@E11000001:
+    cmd: python prepare.py E11000001
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E11000001/place_data.csv
+      hash: md5
+      md5: b08cb1d054783f8f40ffa32b108e74c3
+      size: 417
+  prepare-place@E08000001:
+    cmd: python prepare.py E08000001
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000001/place_data.csv
+      hash: md5
+      md5: b036c65a6267e797335fe53046fe250d
+      size: 90
+  prepare-place@E47000006:
+    cmd: python prepare.py E47000006
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000006/place_data.csv
+      hash: md5
+      md5: a51f4aafc2b0de398a5270112bd35712
+      size: 243
+  prepare-place@E06000049:
+    cmd: python prepare.py E06000049
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000049/place_data.csv
+      hash: md5
+      md5: a4150b75e7c307f09ebe6472a802e331
+      size: 90
+  prepare-place@E06000010:
+    cmd: python prepare.py E06000010
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000010/place_data.csv
+      hash: md5
+      md5: 8ad59363fb596643a0ad8cddbdae21cf
+      size: 91
+  prepare-place@E06000005:
+    cmd: python prepare.py E06000005
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000005/place_data.csv
+      hash: md5
+      md5: 14e4b994c3c3882b848b27163f0dee57
+      size: 89
+  prepare-place@E06000047:
+    cmd: python prepare.py E06000047
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000047/place_data.csv
+      hash: md5
+      md5: 8de1a6f58fd3365c206dc561725ee2ec
+      size: 91
+  prepare-place@E08000023:
+    cmd: python prepare.py E08000023
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000023/place_data.csv
+      hash: md5
+      md5: d30957d4d6d1d8bea808d482af3f145a
+      size: 90
+  prepare-place@E47000011:
+    cmd: python prepare.py E47000011
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E47000011/place_data.csv
+      hash: md5
+      md5: e34660184b972a28bfbcfccd99138900
+      size: 179
+  prepare-place@E07000169:
+    cmd: python prepare.py E07000169
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000169/place_data.csv
+      hash: md5
+      md5: 5e01641551f7629c082502e6ca23c827
+      size: 88
+  prepare-place@E06000013:
+    cmd: python prepare.py E06000013
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E06000013/place_data.csv
+      hash: md5
+      md5: afed988ac03a539ca7a765ba3eed75c8
+      size: 89
+  prepare-place@E08000012:
+    cmd: python prepare.py E08000012
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000012/place_data.csv
+      hash: md5
+      md5: f0dc187f44604cf14f52921f9430054e
+      size: 91
+  prepare-place@E08000007:
+    cmd: python prepare.py E08000007
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000007/place_data.csv
+      hash: md5
+      md5: 44c69d3f42e9ee7cb9188baddc630af2
+      size: 90
+  prepare-place@E08000014:
+    cmd: python prepare.py E08000014
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000014/place_data.csv
+      hash: md5
+      md5: c89b0073b46e74b371d3c6f8914a62dc
+      size: 91
+  prepare-place@E08000015:
+    cmd: python prepare.py E08000015
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000015/place_data.csv
+      hash: md5
+      md5: 2625d32bb37dceb8c4e06ae7398234c9
+      size: 91
+  prepare-place@E08000004:
+    cmd: python prepare.py E08000004
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000004/place_data.csv
+      hash: md5
+      md5: 7878588e8b97ef49ce389fb1e8928690
+      size: 90
+  prepare-place@E07000164:
+    cmd: python prepare.py E07000164
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000164/place_data.csv
+      hash: md5
+      md5: c08e26e2617c5842d80130f8d3a80b32
+      size: 88
+  prepare-place@E08000032:
+    cmd: python prepare.py E08000032
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000032/place_data.csv
+      hash: md5
+      md5: bd3ec7d3ca8dcb77366fbe8fc0c27887
+      size: 91
+  prepare-place@E08000008:
+    cmd: python prepare.py E08000008
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000008/place_data.csv
+      hash: md5
+      md5: 55f52b11dcf7f36c3a040ac7ec3ee54b
+      size: 90
+  prepare-place@E07000123:
+    cmd: python prepare.py E07000123
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000123/place_data.csv
+      hash: md5
+      md5: e13b3ca03c055048adce5613eff709c8
+      size: 89
+  prepare-place@E08000003:
+    cmd: python prepare.py E08000003
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000003/place_data.csv
+      hash: md5
+      md5: c312e282a42a47ca7ce3c3b03597620a
+      size: 91
+  prepare-place@E08000016:
+    cmd: python prepare.py E08000016
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000016/place_data.csv
+      hash: md5
+      md5: 6d30ea5d62620f41c45258a802917973
+      size: 90
+  prepare-place@E07000165:
+    cmd: python prepare.py E07000165
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E07000165/place_data.csv
+      hash: md5
+      md5: 84bdf6d4321099d583b26beea471fa93
+      size: 89
+  prepare-place@E08000034:
+    cmd: python prepare.py E08000034
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000034/place_data.csv
+      hash: md5
+      md5: 5c707e596adb4aa6db1137c8ada5e65b
+      size: 91
+  prepare-place@E08000019:
+    cmd: python prepare.py E08000019
+    deps:
+    - path: prepare.ipynb
+      hash: md5
+      md5: d6e368deb38c5ca19fe5c35aef0d2fcf
+      size: 3198
+    outs:
+    - path: ../../../src/_data/place_data/E08000019/place_data.csv
+      hash: md5
+      md5: 617c879e75aec344ef66cc416bd2b7cf
+      size: 91
+  generate_places:
+    cmd: python generate_params.py
+    deps:
+    - path: ../../../src/_data/places.json
+      hash: md5
+      md5: 2513544d88d9c21d6c024f95d6263bda
+      size: 13474
+    - path: generate_params.py
+      hash: md5
+      md5: 8c0e4fb7a34d44d5c9ad8574b76645e0
+      size: 258
+    outs:
+    - path: params.yaml
+      hash: md5
+      md5: 953655179e8bca29a4edd159104161f2
+      size: 1100

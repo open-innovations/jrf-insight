@@ -3,3 +3,4 @@ error.log
 .Rproj.user
 _site/
 jrf-insight.Rproj
+/model.pkl

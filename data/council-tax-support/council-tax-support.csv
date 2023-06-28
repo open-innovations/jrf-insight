@@ -61,37 +61,8 @@ date,geography_code.ba,geography_code,geography_name,geography_type,variable_cod
 2022-06-30,NA,E12000006,East of England,NA,pensioners,pensioners,137164
 2022-09-30,NA,E12000006,East of England,NA,pensioners,pensioners,136643
 2022-12-31,NA,E12000006,East of England,NA,pensioners,pensioners,135879
-2015-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,NA
-2015-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,NA
-2015-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,158465
-2016-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,156768
-2016-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,155097
-2016-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,153420
-2016-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,151561
-2017-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,149496
-2017-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,146830
-2017-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,145353
-2017-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,143526
-2018-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,141525
-2018-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,140160
-2018-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,138480
-2018-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,137031
-2019-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,135493
-2019-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,134551
-2019-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,133234
-2019-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,131566
-2020-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,130141
-2020-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,127024
-2020-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,126290
-2020-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,125164
-2021-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,123376
-2021-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,122769
-2021-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,122062
-2021-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,120993
-2022-03-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,119954
-2022-06-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,119288
-2022-09-30,NA,E12000001,East Midlands,NA,pensioners,pensioners,118886
-2022-12-31,NA,E12000001,East Midlands,NA,pensioners,pensioners,118468
+
+
 2015-06-30,NA,E12000007,London,NA,pensioners,pensioners,NA
 2015-09-30,NA,E12000007,London,NA,pensioners,pensioners,NA
 2015-12-31,NA,E12000007,London,NA,pensioners,pensioners,235894
@@ -10725,37 +10696,7 @@ date,geography_code.ba,geography_code,geography_name,geography_type,variable_cod
 2022-06-30,NA,E12000006,East of England,NA,working_age,working_age,206557
 2022-09-30,NA,E12000006,East of England,NA,working_age,working_age,205113
 2022-12-31,NA,E12000006,East of England,NA,working_age,working_age,203482
-2015-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,NA
-2015-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,NA
-2015-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,191508
-2016-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,191402
-2016-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,188598
-2016-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,187497
-2016-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,184618
-2017-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,185961
-2017-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,184460
-2017-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,183098
-2017-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,180281
-2018-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,179957
-2018-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,179819
-2018-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,177576
-2018-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,174873
-2019-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,174060
-2019-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,173033
-2019-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,171077
-2019-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,170178
-2020-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,171528
-2020-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,184514
-2020-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,184935
-2020-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,185835
-2021-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,187181
-2021-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,185906
-2021-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,184204
-2021-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,180021
-2022-03-31,NA,E12000001,East Midlands,NA,working_age,working_age,176575
-2022-06-30,NA,E12000001,East Midlands,NA,working_age,working_age,172882
-2022-09-30,NA,E12000001,East Midlands,NA,working_age,working_age,171496
-2022-12-31,NA,E12000001,East Midlands,NA,working_age,working_age,169805
+
 2015-06-30,NA,E12000007,London,NA,working_age,working_age,NA
 2015-09-30,NA,E12000007,London,NA,working_age,working_age,NA
 2015-12-31,NA,E12000007,London,NA,working_age,working_age,463799
