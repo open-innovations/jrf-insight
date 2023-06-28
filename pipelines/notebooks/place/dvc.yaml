@@ -1,13 +1,13 @@
 stages:
-  generate_places:
-    cmd: python generate_params.py
-    deps:
-      - generate_params.py
-      - ../../../src/_data/places.json
-    outs:
-      - params.yaml:
-          cache: false
-          persist: false
+  # generate_places:
+  #   cmd: python generate_params.py
+  #   deps:
+  #     - generate_params.py
+  #     - ../../../src/_data/places.json
+  #   outs:
+  #     - params.yaml:
+  #         cache: false
+  #         persist: false
   prepare-place:
     foreach: ${places}
     do:

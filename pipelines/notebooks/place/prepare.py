@@ -35,6 +35,16 @@ def get_council_tax_data(code_list):
     return council_tax_data[council_tax_data.geography_code.isin(
         code_list) & (council_tax_data.date == most_recent_date)]
 
+def get_children_low_income_data(code_list):
+    clif_data = pd.read_csv(
+        f'{DATA_DIR}/clif/clif_REL.csv')
+    most_recent_date = max(clif_data.Year)
+    clif_data = clif_data[(clif_data['Age of Child (years and bands)'] == 'Total') &
+                          (clif_data['Gender of Child'] == 'Total') &
+                          (clif_data['Family Type'] == 'Total') &
+                          (clif_data['Work Status'] == 'Total')]
+    return clif_data[clif_data.geography_code.isin(code_list)
+                     & (clif_data.Year == most_recent_date)]
 
 def combine_data(*args):
     return pd.concat(args)
@@ -60,6 +70,7 @@ if __name__ == '__main__':
     combine_data(
         get_population_data(geography_codes),
         get_council_tax_data(geography_codes),
+        get_children_low_income_data(geography_codes)
     ).pipe(
         make_table
     ).pipe(
