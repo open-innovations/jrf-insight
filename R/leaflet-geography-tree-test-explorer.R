@@ -70,3 +70,9 @@ for (i in seq_along(boundaries)) {
                                        names(boundaries)[i],
                                        '.geojson'))
 }
+
+
+for (i in seq_along(boundaries)) {
+  x <- geojsonsf::sf_geojson(boundaries[[i]], digits = 5)
+  write(x, paste0('data/geo/', names(boundaries)[i], '.geojson'))
+}
