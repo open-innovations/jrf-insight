@@ -18,7 +18,43 @@ geography_lookup <- readr::read_csv("data-raw/geo/Ward_to_Local_Authority_Distri
   dplyr::filter(PANRGN22CD == "E12999901") |>
   dplyr::arrange(PANRGN22CD, RGN22CD, CTY22CD, CAUTH22CD, LAD22CD, WD22CD)
 
+geography_lookup_codes_only <- geography_lookup |>
+  dplyr::select(dplyr::ends_with('CD'))
+
 # readr::write_csv(geography_lookup, 'data/geo/geography_lookup.csv')
 
+ # append each set of two columns below the first set
 
 
+return_child_from <- function(row_number, col_number) {
+  # check to see if column to the right is NA, if so increment
+  if (is.na(geography_lookup_codes_only[row_number, col_number + 1])) {
+    return_child_from(row_number, col_number + 1)
+  } else {
+    return(geography_lookup_codes_only[row_number, col_number + 1, drop = TRUE])
+  }
+}
+
+parent <- vector()
+child <- vector()
+for (col in 1:(ncol(geography_lookup_codes_only) - 1)) {
+  for (row in 1:(nrow(geography_lookup_codes_only))) {
+    if (!is.na(geography_lookup_codes_only[row, col])) {
+      parent <- c(parent, geography_lookup_codes_only[row, col, drop = TRUE])
+      child <- c(child, return_child_from(row, col))
+      parent_type <- names(geography_lookup_codes_only)[col]
+    }
+  }
+}
+
+result <- data.frame(parent = parent,
+                     child = child) |>
+  unique()
+
+readr::write_csv(result, "data/geo/geography_tree.csv")
+
+
+
+return_child_from(112, 2)
+return_child_from(343, 3)
+return_child_from(1146, 2)
