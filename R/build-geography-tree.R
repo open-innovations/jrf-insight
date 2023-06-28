@@ -31,24 +31,30 @@ return_child_from <- function(row_number, col_number) {
   if (is.na(geography_lookup_codes_only[row_number, col_number + 1])) {
     return_child_from(row_number, col_number + 1)
   } else {
-    return(geography_lookup_codes_only[row_number, col_number + 1, drop = TRUE])
+    return(
+      paste(geography_lookup_codes_only[row_number, col_number + 1, drop = TRUE],
+            names(geography_lookup_codes_only)[col_number + 1]))
   }
 }
 
 parent <- vector()
 child <- vector()
+parent_type <- vector()
 for (col in 1:(ncol(geography_lookup_codes_only) - 1)) {
   for (row in 1:(nrow(geography_lookup_codes_only))) {
     if (!is.na(geography_lookup_codes_only[row, col])) {
       parent <- c(parent, geography_lookup_codes_only[row, col, drop = TRUE])
       child <- c(child, return_child_from(row, col))
-      parent_type <- names(geography_lookup_codes_only)[col]
+      parent_type <- c(parent_type, names(geography_lookup_codes_only)[col])
     }
   }
 }
 
 result <- data.frame(parent = parent,
-                     child = child) |>
+                     parent_type = parent_type,
+                     child = substr(child, 1, 9),
+                     child_type = substr(child, 11, nchar(child))
+                     ) |>
   unique()
 
 readr::write_csv(result, "data/geo/geography_tree.csv")
