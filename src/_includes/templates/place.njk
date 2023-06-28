@@ -35,20 +35,20 @@ This is a mockup place page for {{ name }} ({{ key }}) which is a {{ place.type 
           },
           columns: [{
             name: "label",
-            template: "{{geography_code}}: {{ 'Number of persons' | toLocaleString()}}"
+            template: "{{geography_code}}: {{Number of persons | toLocaleString()}}"
           }],
           key: "geography_code",
           value: "Number of persons",
           scale: "Viridis",
           min: 10000,
-          max: 6000000,
+          max: 1000000,
           tooltip: "label",
           legend:
           {
             position: "top right",
             items: [{
-                value: 6000000,
-                label: '6M'},
+                value: 1000000,
+                label: '1M'},
                 {
                 value: 10000,
                 label: '10k'
