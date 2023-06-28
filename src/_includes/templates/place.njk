@@ -5,7 +5,7 @@ tags:
 ---
 
 <p>
-This is a mockup place page for {{ name }} ({{ key }}).
+This is a mockup place page for {{ name }} ({{ key }}) which is a {{ place.type }}.
 </p>
 
 
@@ -24,41 +24,37 @@ This is a mockup place page for {{ name }} ({{ key }}).
 {{place_data[key].council_tax_support.rows | dump(2) }}
 </pre>
 
-{{ key }}
 {% if geojson[key] %}
-{# {{ comp.oi.map.zoomable({
+{{ comp.oi.map.zoomable({
         config: {
-          data: place_data[key].council_tax_support.rows,
+          data: place_data[key].place_data.rows,
           geojson: 
           {
             data: geojson[key],
-            key: place.geojson.join_key
+            key: 'ons_code'
           },
           columns: [{
             name: "label",
-            template: "{{geography_code}}: {{council_tax_support | toLocaleString()}}"
+            template: "{{geography_code}}: {{ 'Number of persons' | toLocaleString()}}"
           }],
           key: "geography_code",
-          value: "council_tax_support",
+          value: "Number of persons",
           scale: "Viridis",
-          min: place_data[key].council_tax_support.rows | min,
-          max: place_data[key].council_tax_support.rows | max,
+          min: 10000,
+          max: 6000000,
           tooltip: "label",
           legend:
           {
             position: "top right",
             items: [{
-                value: 600000,
-                label: 'test'},
+                value: 6000000,
+                label: '6M'},
                 {
-                value: 500000,
-                label: '500k'},
-                {
-                value: 400000,
-                label: '400k'
+                value: 10000,
+                label: '10k'
             }]
           }
         }
     }
-  ) | safe }} #}
+  ) | safe }}
 {% endif %}
