@@ -44,7 +44,7 @@ def get_children_low_income_data(code_list):
                           (clif_data['Family Type'] == 'Total') &
                           (clif_data['Work Status'] == 'Total')]
     return clif_data[clif_data.geography_code.isin(code_list)
-                     & (clif_data.Year == most_recent_date)]
+                     & (clif_data.Year == most_recent_date)].set_index(['Year', 'Age of Child (years and bands)', 'Gender of Child', 'Family Type', 'Work Status', 'variable_name', 'geography_code'])
 
 def combine_data(*args):
     return pd.concat(args)

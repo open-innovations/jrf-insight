@@ -61,10 +61,12 @@ def children_in_low_income_families():
         
         name_to_code_dict = dict(list(zip(GEOLOOKUP_DF.LAD22NM, GEOLOOKUP_DF.LAD22CD)))
         CLIF.rename(columns=name_to_code_dict, inplace=True, errors="raise")    
-
+        CLIF['variable_name'] = 'number_of_children'
         #@TODO rewrite below so its not hard-coded.
-        CLIF_long = pd.melt(CLIF, id_vars=['Year', 'Age of Child (years and bands)', 'Gender of Child', 'Family Type', 'Work Status'], value_vars=CLIF.columns.to_list()[5:], var_name='geography_code').set_index('Year')
-        CLIF_long['variable_name'] = 'number_of_children'
+        ids = ['Year', 'Age of Child (years and bands)', 'Gender of Child', 'Family Type', 'Work Status', 'variable_name']
+        CLIF_long = pd.melt(CLIF, id_vars=ids, value_vars=CLIF.columns.to_list()[5:], var_name='geography_code')
+        CLIF_long.set_index(ids, inplace=True)
+        
         #write to csv
         os.makedirs('data/clif', exist_ok=True)
         CLIF_long.to_csv(f'data/clif/clif_{JSON[-8:-5]}.csv')
