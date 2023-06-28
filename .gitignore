@@ -4,3 +4,5 @@ error.log
 _site/
 jrf-insight.Rproj
 /model.pkl
+
+__pycache__/
