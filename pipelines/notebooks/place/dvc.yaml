@@ -1,4 +1,19 @@
+vars:
+  - top: '../../..'
 stages:
+  transform:
+    cmd: papermill transform.ipynb output/transform.ipynb
+    deps:
+      - transform.ipynb
+      - ${top}/data/geo/geography_tree.csv
+      - ${top}/data/population-estimates/population-estimates.csv
+      - ${top}/data/council-tax-support/council-tax-support.csv
+      - ${top}/data/clif/clif_REL.csv
+    outs:
+      - ${top}/data/interim/place_data.parquet:
+          persist: false
+          cache: false
+
   # generate_places:
   #   cmd: python generate_params.py
   #   deps:

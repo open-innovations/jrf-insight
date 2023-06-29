@@ -1109,3 +1109,31 @@ stages:
       md5: 953655179e8bca29a4edd159104161f2
       size: 1100
       isexec: true
+  transform:
+    cmd: papermill transform.ipynb output/transform.ipynb
+    deps:
+    - path: ../../../data/clif/clif_REL.csv
+      hash: md5
+      md5: 5f170525de60d7e2e144497b42a9ce7e
+      size: 5129408
+    - path: ../../../data/council-tax-support/council-tax-support.csv
+      hash: md5
+      md5: 54d688e22c6c85634b7d800c443e246f
+      size: 1484585
+    - path: ../../../data/geo/geography_tree.csv
+      hash: md5
+      md5: e3ba05db1332445b12cf9dc324bba92e
+      size: 58087
+    - path: ../../../data/population-estimates/population-estimates.csv
+      hash: md5
+      md5: 1ca9a4cd3dec1d4fd0f2388fb2dfc9ed
+      size: 671677
+    - path: transform.ipynb
+      hash: md5
+      md5: 20e4fe4fe1b1a13ca0206fa100c0343c
+      size: 2911
+    outs:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
