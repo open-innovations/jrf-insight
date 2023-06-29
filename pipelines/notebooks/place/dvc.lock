@@ -1501,3 +1501,39 @@ stages:
       hash: md5
       md5: ac15c5154234d377594d88740a6864a9
       size: 15170
+  transform-geojson:
+    cmd: papermill geojson.ipynb output/geojson.ipynb
+    deps:
+    - path: ../../../data/geo/cauth22.geojson
+      hash: md5
+      md5: e66ff77855f2f73178620a9cf6c5bc4c
+      size: 19880
+    - path: ../../../data/geo/cty22.geojson
+      hash: md5
+      md5: 99b9d868600d7a34e30cc242cb7b1eb6
+      size: 16986
+    - path: ../../../data/geo/lad22.geojson
+      hash: md5
+      md5: 2178172030185862c396652fa86c0ed1
+      size: 88054
+    - path: ../../../data/geo/panrgn22.geojson
+      hash: md5
+      md5: a900de22222959623905b921879f57f3
+      size: 16719
+    - path: ../../../data/geo/rgn22.geojson
+      hash: md5
+      md5: 6295a45adee209c39e3b34442cbb1814
+      size: 28694
+    - path: ../../../data/geo/wd22.geojson
+      hash: md5
+      md5: 52b14cc60bba5971a5c951cbd8fc1542
+      size: 962163
+    - path: geojson.ipynb
+      hash: md5
+      md5: 417d0a8ff44231b24dd38444e823c691
+      size: 6314
+    outs:
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139

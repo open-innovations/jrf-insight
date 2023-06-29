@@ -14,6 +14,21 @@ stages:
           persist: false
           cache: false
 
+  transform-geojson:
+    cmd: papermill geojson.ipynb output/geojson.ipynb
+    deps:
+      - geojson.ipynb
+      - ${top}/data/geo/cauth22.geojson
+      - ${top}/data/geo/cty22.geojson
+      - ${top}/data/geo/lad22.geojson
+      - ${top}/data/geo/panrgn22.geojson
+      - ${top}/data/geo/rgn22.geojson
+      - ${top}/data/geo/wd22.geojson
+    outs:
+      - ${top}/data/interim/shapes.parquet:
+          persist: false
+          cache: false
+
   # generate_places:
   #   cmd: python generate_params.py
   #   deps:
