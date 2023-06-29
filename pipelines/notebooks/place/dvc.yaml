@@ -29,7 +29,8 @@ stages:
       cmd: python prepare.py ${item}
       deps:
         - prepare.ipynb
+        - ${top}/data/interim/place_data.parquet
       outs:
-        - ../../../src/_data/place_data/${item}/place_data.csv:
+        - ${top}/src/_data/place_data/${item}/place_data.csv:
             persist: false
             cache: false

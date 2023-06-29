@@ -3,10 +3,14 @@ stages:
   prepare-place@E10000017:
     cmd: python prepare.py E10000017
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E10000017/place_data.csv
       hash: md5
@@ -15,10 +19,14 @@ stages:
   prepare-place@E07000028:
     cmd: python prepare.py E07000028
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000028/place_data.csv
       hash: md5
@@ -27,10 +35,14 @@ stages:
   prepare-place@E11000002:
     cmd: python prepare.py E11000002
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E11000002/place_data.csv
       hash: md5
@@ -39,10 +51,14 @@ stages:
   prepare-place@E07000127:
     cmd: python prepare.py E07000127
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000127/place_data.csv
       hash: md5
@@ -51,10 +67,14 @@ stages:
   prepare-place@E12000002:
     cmd: python prepare.py E12000002
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E12000002/place_data.csv
       hash: md5
@@ -63,10 +83,14 @@ stages:
   prepare-place@E08000037:
     cmd: python prepare.py E08000037
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000037/place_data.csv
       hash: md5
@@ -75,10 +99,14 @@ stages:
   prepare-place@E06000006:
     cmd: python prepare.py E06000006
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000006/place_data.csv
       hash: md5
@@ -87,10 +115,14 @@ stages:
   prepare-place@E07000125:
     cmd: python prepare.py E07000125
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000125/place_data.csv
       hash: md5
@@ -99,10 +131,14 @@ stages:
   prepare-place@E08000035:
     cmd: python prepare.py E08000035
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000035/place_data.csv
       hash: md5
@@ -111,10 +147,14 @@ stages:
   prepare-place@E47000004:
     cmd: python prepare.py E47000004
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000004/place_data.csv
       hash: md5
@@ -123,10 +163,14 @@ stages:
   prepare-place@E06000009:
     cmd: python prepare.py E06000009
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000009/place_data.csv
       hash: md5
@@ -135,10 +179,14 @@ stages:
   prepare-place@E08000011:
     cmd: python prepare.py E08000011
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000011/place_data.csv
       hash: md5
@@ -147,10 +195,14 @@ stages:
   prepare-place@E07000031:
     cmd: python prepare.py E07000031
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000031/place_data.csv
       hash: md5
@@ -159,10 +211,14 @@ stages:
   prepare-place@E07000166:
     cmd: python prepare.py E07000166
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000166/place_data.csv
       hash: md5
@@ -171,10 +227,14 @@ stages:
   prepare-place@E11000007:
     cmd: python prepare.py E11000007
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E11000007/place_data.csv
       hash: md5
@@ -183,10 +243,14 @@ stages:
   prepare-place@E08000009:
     cmd: python prepare.py E08000009
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000009/place_data.csv
       hash: md5
@@ -195,10 +259,14 @@ stages:
   prepare-place@E47000002:
     cmd: python prepare.py E47000002
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000002/place_data.csv
       hash: md5
@@ -207,10 +275,14 @@ stages:
   prepare-place@E07000167:
     cmd: python prepare.py E07000167
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000167/place_data.csv
       hash: md5
@@ -219,10 +291,14 @@ stages:
   prepare-place@E08000006:
     cmd: python prepare.py E08000006
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000006/place_data.csv
       hash: md5
@@ -231,10 +307,14 @@ stages:
   prepare-place@E12000001:
     cmd: python prepare.py E12000001
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E12000001/place_data.csv
       hash: md5
@@ -243,10 +323,14 @@ stages:
   prepare-place@E08000021:
     cmd: python prepare.py E08000021
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000021/place_data.csv
       hash: md5
@@ -255,10 +339,14 @@ stages:
   prepare-place@E06000012:
     cmd: python prepare.py E06000012
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000012/place_data.csv
       hash: md5
@@ -267,10 +355,14 @@ stages:
   prepare-place@E47000003:
     cmd: python prepare.py E47000003
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000003/place_data.csv
       hash: md5
@@ -279,10 +371,14 @@ stages:
   prepare-place@E06000004:
     cmd: python prepare.py E06000004
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000004/place_data.csv
       hash: md5
@@ -291,10 +387,14 @@ stages:
   prepare-place@E06000007:
     cmd: python prepare.py E06000007
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000007/place_data.csv
       hash: md5
@@ -303,10 +403,14 @@ stages:
   prepare-place@E07000026:
     cmd: python prepare.py E07000026
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000026/place_data.csv
       hash: md5
@@ -315,10 +419,14 @@ stages:
   prepare-place@E06000057:
     cmd: python prepare.py E06000057
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000057/place_data.csv
       hash: md5
@@ -327,10 +435,14 @@ stages:
   prepare-place@E08000010:
     cmd: python prepare.py E08000010
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000010/place_data.csv
       hash: md5
@@ -339,10 +451,14 @@ stages:
   prepare-place@E47000010:
     cmd: python prepare.py E47000010
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000010/place_data.csv
       hash: md5
@@ -351,10 +467,14 @@ stages:
   prepare-place@E06000050:
     cmd: python prepare.py E06000050
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000050/place_data.csv
       hash: md5
@@ -363,10 +483,14 @@ stages:
   prepare-place@E11000006:
     cmd: python prepare.py E11000006
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E11000006/place_data.csv
       hash: md5
@@ -375,10 +499,14 @@ stages:
   prepare-place@E08000033:
     cmd: python prepare.py E08000033
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000033/place_data.csv
       hash: md5
@@ -387,10 +515,14 @@ stages:
   prepare-place@E08000022:
     cmd: python prepare.py E08000022
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000022/place_data.csv
       hash: md5
@@ -399,10 +531,14 @@ stages:
   prepare-place@E06000011:
     cmd: python prepare.py E06000011
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000011/place_data.csv
       hash: md5
@@ -411,10 +547,14 @@ stages:
   prepare-place@E10000023:
     cmd: python prepare.py E10000023
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E10000023/place_data.csv
       hash: md5
@@ -423,10 +563,14 @@ stages:
   prepare-place@E06000002:
     cmd: python prepare.py E06000002
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000002/place_data.csv
       hash: md5
@@ -435,10 +579,14 @@ stages:
   prepare-place@E07000122:
     cmd: python prepare.py E07000122
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000122/place_data.csv
       hash: md5
@@ -447,10 +595,14 @@ stages:
   prepare-place@E12999901:
     cmd: python prepare.py E12999901
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E12999901/place_data.csv
       hash: md5
@@ -459,10 +611,14 @@ stages:
   prepare-place@E06000008:
     cmd: python prepare.py E06000008
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000008/place_data.csv
       hash: md5
@@ -471,10 +627,14 @@ stages:
   prepare-place@E06000001:
     cmd: python prepare.py E06000001
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000001/place_data.csv
       hash: md5
@@ -483,10 +643,14 @@ stages:
   prepare-place@E08000036:
     cmd: python prepare.py E08000036
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000036/place_data.csv
       hash: md5
@@ -495,10 +659,14 @@ stages:
   prepare-place@E11000003:
     cmd: python prepare.py E11000003
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E11000003/place_data.csv
       hash: md5
@@ -507,10 +675,14 @@ stages:
   prepare-place@E12000003:
     cmd: python prepare.py E12000003
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E12000003/place_data.csv
       hash: md5
@@ -519,10 +691,14 @@ stages:
   prepare-place@E08000024:
     cmd: python prepare.py E08000024
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000024/place_data.csv
       hash: md5
@@ -531,10 +707,14 @@ stages:
   prepare-place@E06000014:
     cmd: python prepare.py E06000014
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000014/place_data.csv
       hash: md5
@@ -543,10 +723,14 @@ stages:
   prepare-place@E07000163:
     cmd: python prepare.py E07000163
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000163/place_data.csv
       hash: md5
@@ -555,10 +739,14 @@ stages:
   prepare-place@E07000128:
     cmd: python prepare.py E07000128
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000128/place_data.csv
       hash: md5
@@ -567,10 +755,14 @@ stages:
   prepare-place@E07000027:
     cmd: python prepare.py E07000027
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000027/place_data.csv
       hash: md5
@@ -579,10 +771,14 @@ stages:
   prepare-place@E07000126:
     cmd: python prepare.py E07000126
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000126/place_data.csv
       hash: md5
@@ -591,10 +787,14 @@ stages:
   prepare-place@E07000030:
     cmd: python prepare.py E07000030
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000030/place_data.csv
       hash: md5
@@ -603,10 +803,14 @@ stages:
   prepare-place@E07000119:
     cmd: python prepare.py E07000119
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000119/place_data.csv
       hash: md5
@@ -615,10 +819,14 @@ stages:
   prepare-place@E07000121:
     cmd: python prepare.py E07000121
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000121/place_data.csv
       hash: md5
@@ -627,10 +835,14 @@ stages:
   prepare-place@E07000124:
     cmd: python prepare.py E07000124
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000124/place_data.csv
       hash: md5
@@ -639,10 +851,14 @@ stages:
   prepare-place@E08000017:
     cmd: python prepare.py E08000017
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000017/place_data.csv
       hash: md5
@@ -651,10 +867,14 @@ stages:
   prepare-place@E10000006:
     cmd: python prepare.py E10000006
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E10000006/place_data.csv
       hash: md5
@@ -663,10 +883,14 @@ stages:
   prepare-place@E06000003:
     cmd: python prepare.py E06000003
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000003/place_data.csv
       hash: md5
@@ -675,10 +899,14 @@ stages:
   prepare-place@E08000002:
     cmd: python prepare.py E08000002
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000002/place_data.csv
       hash: md5
@@ -687,10 +915,14 @@ stages:
   prepare-place@E08000018:
     cmd: python prepare.py E08000018
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000018/place_data.csv
       hash: md5
@@ -699,10 +931,14 @@ stages:
   prepare-place@E08000013:
     cmd: python prepare.py E08000013
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000013/place_data.csv
       hash: md5
@@ -711,10 +947,14 @@ stages:
   prepare-place@E07000168:
     cmd: python prepare.py E07000168
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000168/place_data.csv
       hash: md5
@@ -723,10 +963,14 @@ stages:
   prepare-place@E07000029:
     cmd: python prepare.py E07000029
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000029/place_data.csv
       hash: md5
@@ -735,10 +979,14 @@ stages:
   prepare-place@E07000118:
     cmd: python prepare.py E07000118
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000118/place_data.csv
       hash: md5
@@ -747,10 +995,14 @@ stages:
   prepare-place@E08000005:
     cmd: python prepare.py E08000005
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000005/place_data.csv
       hash: md5
@@ -759,10 +1011,14 @@ stages:
   prepare-place@E47000001:
     cmd: python prepare.py E47000001
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000001/place_data.csv
       hash: md5
@@ -771,10 +1027,14 @@ stages:
   prepare-place@E07000117:
     cmd: python prepare.py E07000117
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000117/place_data.csv
       hash: md5
@@ -783,10 +1043,14 @@ stages:
   prepare-place@E07000120:
     cmd: python prepare.py E07000120
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000120/place_data.csv
       hash: md5
@@ -795,10 +1059,14 @@ stages:
   prepare-place@E11000001:
     cmd: python prepare.py E11000001
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E11000001/place_data.csv
       hash: md5
@@ -807,10 +1075,14 @@ stages:
   prepare-place@E08000001:
     cmd: python prepare.py E08000001
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000001/place_data.csv
       hash: md5
@@ -819,10 +1091,14 @@ stages:
   prepare-place@E47000006:
     cmd: python prepare.py E47000006
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000006/place_data.csv
       hash: md5
@@ -831,10 +1107,14 @@ stages:
   prepare-place@E06000049:
     cmd: python prepare.py E06000049
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000049/place_data.csv
       hash: md5
@@ -843,10 +1123,14 @@ stages:
   prepare-place@E06000010:
     cmd: python prepare.py E06000010
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000010/place_data.csv
       hash: md5
@@ -855,10 +1139,14 @@ stages:
   prepare-place@E06000005:
     cmd: python prepare.py E06000005
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000005/place_data.csv
       hash: md5
@@ -867,10 +1155,14 @@ stages:
   prepare-place@E06000047:
     cmd: python prepare.py E06000047
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000047/place_data.csv
       hash: md5
@@ -879,10 +1171,14 @@ stages:
   prepare-place@E08000023:
     cmd: python prepare.py E08000023
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000023/place_data.csv
       hash: md5
@@ -891,10 +1187,14 @@ stages:
   prepare-place@E47000011:
     cmd: python prepare.py E47000011
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E47000011/place_data.csv
       hash: md5
@@ -903,10 +1203,14 @@ stages:
   prepare-place@E07000169:
     cmd: python prepare.py E07000169
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000169/place_data.csv
       hash: md5
@@ -915,10 +1219,14 @@ stages:
   prepare-place@E06000013:
     cmd: python prepare.py E06000013
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E06000013/place_data.csv
       hash: md5
@@ -927,10 +1235,14 @@ stages:
   prepare-place@E08000012:
     cmd: python prepare.py E08000012
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000012/place_data.csv
       hash: md5
@@ -939,10 +1251,14 @@ stages:
   prepare-place@E08000007:
     cmd: python prepare.py E08000007
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000007/place_data.csv
       hash: md5
@@ -951,10 +1267,14 @@ stages:
   prepare-place@E08000014:
     cmd: python prepare.py E08000014
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000014/place_data.csv
       hash: md5
@@ -963,10 +1283,14 @@ stages:
   prepare-place@E08000015:
     cmd: python prepare.py E08000015
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000015/place_data.csv
       hash: md5
@@ -975,10 +1299,14 @@ stages:
   prepare-place@E08000004:
     cmd: python prepare.py E08000004
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000004/place_data.csv
       hash: md5
@@ -987,10 +1315,14 @@ stages:
   prepare-place@E07000164:
     cmd: python prepare.py E07000164
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000164/place_data.csv
       hash: md5
@@ -999,10 +1331,14 @@ stages:
   prepare-place@E08000032:
     cmd: python prepare.py E08000032
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000032/place_data.csv
       hash: md5
@@ -1011,10 +1347,14 @@ stages:
   prepare-place@E08000008:
     cmd: python prepare.py E08000008
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000008/place_data.csv
       hash: md5
@@ -1023,10 +1363,14 @@ stages:
   prepare-place@E07000123:
     cmd: python prepare.py E07000123
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000123/place_data.csv
       hash: md5
@@ -1035,10 +1379,14 @@ stages:
   prepare-place@E08000003:
     cmd: python prepare.py E08000003
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000003/place_data.csv
       hash: md5
@@ -1047,10 +1395,14 @@ stages:
   prepare-place@E08000016:
     cmd: python prepare.py E08000016
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000016/place_data.csv
       hash: md5
@@ -1059,10 +1411,14 @@ stages:
   prepare-place@E07000165:
     cmd: python prepare.py E07000165
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E07000165/place_data.csv
       hash: md5
@@ -1071,10 +1427,14 @@ stages:
   prepare-place@E08000034:
     cmd: python prepare.py E08000034
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000034/place_data.csv
       hash: md5
@@ -1083,10 +1443,14 @@ stages:
   prepare-place@E08000019:
     cmd: python prepare.py E08000019
     deps:
+    - path: ../../../data/interim/place_data.parquet
+      hash: md5
+      md5: ac15c5154234d377594d88740a6864a9
+      size: 15170
     - path: prepare.ipynb
       hash: md5
-      md5: c802698b4c32db2b059aae8d07887c6a
-      size: 14983
+      md5: 7799bd024dd7a12a66f55ad4f60a2430
+      size: 1524
     outs:
     - path: ../../../src/_data/place_data/E08000019/place_data.csv
       hash: md5
