@@ -6,7 +6,7 @@ export default function* ({ spotlights, places }) {
     yield {
       url: `/spotlight/${spotlight}/`,
       layout: 'templates/redirect.njk',
-      target: `/spotlight/${spotlight}/the_north/`,
+      target: `/spotlight/${spotlight}/E12999901/`,
     };
 
     for (const place of Object.keys(places)) {

@@ -5,12 +5,16 @@ stages:
     cmd: papermill transform.ipynb output/transform.ipynb
     deps:
       - transform.ipynb
+      - geo.py
       - ${top}/data/geo/geography_tree.csv
       - ${top}/data/population-estimates/population-estimates.csv
       - ${top}/data/council-tax-support/council-tax-support.csv
       - ${top}/data/clif/clif_REL.csv
     outs:
       - ${top}/data/interim/place_data.parquet:
+          persist: false
+          cache: false
+      - ${top}/data/interim/place_data.json:
           persist: false
           cache: false
 
@@ -43,9 +47,9 @@ stages:
     do:
       cmd: python prepare.py ${item}
       deps:
-        - prepare.ipynb
+        - prepare.py
         - ${top}/data/interim/place_data.parquet
       outs:
-        - ${top}/src/_data/place_data/${item}/place_data.csv:
+        - ${top}/src/place/${item}/:
             persist: false
             cache: false

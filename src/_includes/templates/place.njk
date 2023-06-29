@@ -5,14 +5,13 @@ tags:
 ---
 
 <p>
-This is a mockup place page for {{ name }} ({{ key }}) which is a {{ place.type }}.
+This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
 </p>
-
 
 {{ comp.nav_block({
   place_key: key,
-  parents: parents,
-  children: place.children | values | flatten,
+  parents: direct_parents,
+  children: direct_children,
   dir: {
     spotlight: true
   }
@@ -20,12 +19,9 @@ This is a mockup place page for {{ name }} ({{ key }}) which is a {{ place.type 
 
 {% set geojson_key = key %}
 
-<pre>
-{{place_data[key].council_tax_support.rows | dump(2) }}
-</pre>
-
 {% if geojson[key] %}
-{{ comp.oi.map.zoomable({
+
+{# {{ comp.oi.map.zoomable({
         config: {
           data: place_data[key].place_data.rows,
           geojson: 
@@ -56,5 +52,5 @@ This is a mockup place page for {{ name }} ({{ key }}) which is a {{ place.type 
           }
         }
     }
-  ) | safe }}
+  ) | safe }} #}
 {% endif %}

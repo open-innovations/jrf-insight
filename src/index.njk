@@ -17,9 +17,6 @@ key: E12999901
 <p>
 Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK Poverty report</a>.
 </p>
-{# <pre>
-{{place_data["the_north"].council_tax_support.rows | dump(2)}}
-</pre> #}
 {# {{ comp.oi.map.zoomable({
         config: {
           data: [{
@@ -38,7 +35,9 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
     }
   ) | safe }} #}
 
-{{ comp.oi.map.zoomable({
+{# {{ place_data([key]) | dump() }} #}
+
+{# {{ comp.oi.map.zoomable({
         config: {
           data: place_data[key].place_data.rows,
           geojson: 
@@ -69,7 +68,7 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
           }
         }
     }
-  ) | safe }}
+  ) | safe }} #}
 
 
 {# <h2> Number of people in Low Income* in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
