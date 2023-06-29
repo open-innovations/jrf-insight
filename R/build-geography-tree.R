@@ -23,7 +23,25 @@ geography_lookup_codes_only <- geography_lookup |>
 
 # readr::write_csv(geography_lookup, 'data/geo/geography_lookup.csv')
 
- # append each set of two columns below the first set
+# append each set of two columns below the first set
+codes <- vector()
+names <- vector()
+for (col in 1:ncol(geography_lookup)) {
+  if (col %% 2 != 0) {
+    codes <- c(codes, geography_lookup[[col]])
+  } else {
+    names <- c(names, geography_lookup[[col]])
+  }
+}
+
+code_name <- data.frame(code = codes,
+                        name = names) |>
+  dplyr::filter(!is.na(code), !is.na(name)) |>
+  # deals with hunmanby and sherburn (part ryedale, part scarborough)
+  dplyr::mutate(name = gsub(' \\([A-Za-z ]+\\)', '', name)) |>
+  unique()
+
+readr::write_csv(code_name, 'data/geo/geography_code_name_only.csv')
 
 
 return_child_from <- function(row_number, col_number) {
