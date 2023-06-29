@@ -49,7 +49,11 @@ stages:
       deps:
         - prepare.py
         - ${top}/data/interim/place_data.parquet
+        - ${top}/data/interim/shapes.parquet
       outs:
         - ${top}/src/place/${item}/:
             persist: false
             cache: false
+        # - ${top}/src/_data/place_data/${item}/map.geojson:
+        #     persist: false
+        #     cache: false

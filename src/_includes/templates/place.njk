@@ -19,14 +19,14 @@ This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
 
 {% set geojson_key = key %}
 
-{% if geojson[key] %}
+{% if map %}
 
-{# {{ comp.oi.map.zoomable({
+  {{ comp.oi.map.zoomable({
         config: {
-          data: place_data[key].place_data.rows,
+          data: place_data.rows,
           geojson: 
           {
-            data: geojson[key],
+            data: map,
             key: 'ons_code'
           },
           columns: [{
@@ -52,5 +52,5 @@ This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
           }
         }
     }
-  ) | safe }} #}
+  ) | safe }}
 {% endif %}

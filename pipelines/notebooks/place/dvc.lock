@@ -5,1548 +5,1912 @@ stages:
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E10000017/
       hash: md5
-      md5: 6b50d4f42e59c9058bdbdc55e88455c9.dir
-      size: 9368
-      nfiles: 5
+      md5: 1ee8aa9845a0574524d65e1f1f4123dc.dir
+      size: 23002
+      nfiles: 6
   prepare-place@E07000028:
     cmd: python prepare.py E07000028
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000028/
       hash: md5
-      md5: 311bd0094b6996e4dc7ebd3de846ffc1.dir
-      size: 968
-      nfiles: 5
+      md5: 33cf13532a25b7b54537db6a3054591d.dir
+      size: 19251
+      nfiles: 6
   prepare-place@E11000002:
     cmd: python prepare.py E11000002
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E11000002/
       hash: md5
-      md5: 92b4e1d9632c3c50d22b4cb13bd78926.dir
-      size: 5024
-      nfiles: 5
+      md5: 95942ef5448cc94576006455578783e0.dir
+      size: 8131
+      nfiles: 6
   prepare-place@E07000127:
     cmd: python prepare.py E07000127
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000127/
       hash: md5
-      md5: 96407fa9103c29d94239a990f51f69bb.dir
-      size: 1426
-      nfiles: 5
+      md5: 2a95f574b9cc384329d23f171515c986.dir
+      size: 15668
+      nfiles: 6
   prepare-place@E12000002:
     cmd: python prepare.py E12000002
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E12000002/
       hash: md5
-      md5: 6ef3d20959383aa0cdc9c58f1df740f6.dir
-      size: 33177
-      nfiles: 5
+      md5: dff2fb560ee96271440ac1e850dce52e.dir
+      size: 55240
+      nfiles: 6
   prepare-place@E08000037:
     cmd: python prepare.py E08000037
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000037/
       hash: md5
-      md5: 5c6efa7346af246afe52229c39828bbb.dir
-      size: 1278
-      nfiles: 5
+      md5: 0c470c728d1ab78e17ae4ae41630cfb5.dir
+      size: 12297
+      nfiles: 6
   prepare-place@E06000006:
     cmd: python prepare.py E06000006
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000006/
       hash: md5
-      md5: bf1020f91528b1c8610d46b06533f6b1.dir
-      size: 966
-      nfiles: 5
+      md5: 9879996be69bb8f1a9681dff8bbd8103.dir
+      size: 9219
+      nfiles: 6
   prepare-place@E07000125:
     cmd: python prepare.py E07000125
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000125/
       hash: md5
-      md5: 76fab8f9c5782a7a4d93accfad7d94b1.dir
-      size: 881
-      nfiles: 5
+      md5: 70ccf254b0d444f2f2a97ace2c6841f3.dir
+      size: 8495
+      nfiles: 6
   prepare-place@E08000035:
     cmd: python prepare.py E08000035
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000035/
       hash: md5
-      md5: 2ae1b592fcd36c3bbaa0094c73f1289c.dir
-      size: 1830
-      nfiles: 5
+      md5: c01001fa028951604053aab5819fbcc6.dir
+      size: 22628
+      nfiles: 6
   prepare-place@E47000004:
     cmd: python prepare.py E47000004
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000004/
       hash: md5
-      md5: ef7e586641aa83a43e9a7d6de472d0bd.dir
-      size: 5074
-      nfiles: 5
+      md5: a61fad59f08ebfc5d965e90000fd7ca5.dir
+      size: 11263
+      nfiles: 6
   prepare-place@E06000009:
     cmd: python prepare.py E06000009
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000009/
       hash: md5
-      md5: 2cc9c9a8146de7405d00ce0b64a81415.dir
-      size: 1225
-      nfiles: 5
+      md5: 78905aa1cb59a7ec98fb5177cda1b46a.dir
+      size: 9282
+      nfiles: 6
   prepare-place@E08000011:
     cmd: python prepare.py E08000011
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000011/
       hash: md5
-      md5: de51958c1d1d7672eb4633489ac8b134.dir
-      size: 939
-      nfiles: 5
+      md5: 4a96dcfb9f4272693ad7c25cade000e6.dir
+      size: 7732
+      nfiles: 6
   prepare-place@E07000031:
     cmd: python prepare.py E07000031
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000031/
       hash: md5
-      md5: ee54faa24525a3a8936cff54fb8f5580.dir
-      size: 931
-      nfiles: 5
+      md5: 51f03839002b6ff52812e5d70412ba48.dir
+      size: 22878
+      nfiles: 6
   prepare-place@E07000166:
     cmd: python prepare.py E07000166
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000166/
       hash: md5
-      md5: 2566b9f28ea9f4faaa0dbdf228a84c64.dir
-      size: 498
-      nfiles: 5
+      md5: e3b9f6383001d6dd3449b613dbcbc3eb.dir
+      size: 11623
+      nfiles: 6
   prepare-place@E11000007:
     cmd: python prepare.py E11000007
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E11000007/
       hash: md5
-      md5: 70a6424059c36c71bf3ed56f2848b70a.dir
-      size: 9495
-      nfiles: 5
+      md5: 7f90330f1680e66cc8c4f3d3d61d749c.dir
+      size: 18037
+      nfiles: 6
   prepare-place@E08000009:
     cmd: python prepare.py E08000009
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000009/
       hash: md5
-      md5: 2463e332d45a9c2fe99b1d5a76187bc3.dir
-      size: 1242
-      nfiles: 5
+      md5: 2943e061261d99faa01c79165d4dcf4c.dir
+      size: 11787
+      nfiles: 6
   prepare-place@E47000002:
     cmd: python prepare.py E47000002
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000002/
       hash: md5
-      md5: 1efefc71a839b5ec5360c5335a780b4c.dir
-      size: 3851
-      nfiles: 5
+      md5: 3d740d7a9691e49d4294665b78634b66.dir
+      size: 8852
+      nfiles: 6
   prepare-place@E07000167:
     cmd: python prepare.py E07000167
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000167/
       hash: md5
-      md5: fe1be99f0b597f34348831d76c39a14b.dir
-      size: 596
-      nfiles: 5
+      md5: 05c50b6606a302bd0ba4e2387f9eeb7a.dir
+      size: 16028
+      nfiles: 6
   prepare-place@E08000006:
     cmd: python prepare.py E08000006
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000006/
       hash: md5
-      md5: cd44a8d20eb884ed1bfdcecd95079633.dir
-      size: 1055
-      nfiles: 5
+      md5: 3c6311c9bed56788f1b0f4675cf6e49c.dir
+      size: 9500
+      nfiles: 6
   prepare-place@E12000001:
     cmd: python prepare.py E12000001
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E12000001/
       hash: md5
-      md5: 2d953f48a8f0744729544e5dff50bb4a.dir
-      size: 16816
-      nfiles: 5
+      md5: 1c9659d712d1574258472141d127fa98.dir
+      size: 28404
+      nfiles: 6
   prepare-place@E08000021:
     cmd: python prepare.py E08000021
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000021/
       hash: md5
-      md5: 70bd0f944aca0322ede1e0f7bd6c1608.dir
-      size: 1503
-      nfiles: 5
+      md5: a00791b336b1f938e35548f2ce0a5d3b.dir
+      size: 12693
+      nfiles: 6
   prepare-place@E06000012:
     cmd: python prepare.py E06000012
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000012/
       hash: md5
-      md5: 3107a979db71ae55aaf6b8cdef873deb.dir
-      size: 954
-      nfiles: 5
+      md5: 3b20c87c8f9c426d57427781e0b80939.dir
+      size: 8755
+      nfiles: 6
   prepare-place@E47000003:
     cmd: python prepare.py E47000003
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000003/
       hash: md5
-      md5: 393ef8190edd60d2ca4c45b0665b692e.dir
-      size: 5173
-      nfiles: 5
+      md5: 879a71f4f6908c94c79f8c4897f7f891.dir
+      size: 11345
+      nfiles: 6
   prepare-place@E06000004:
     cmd: python prepare.py E06000004
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000004/
       hash: md5
-      md5: 89988370dfcc38feeb221866ec224c60.dir
-      size: 1483
-      nfiles: 5
+      md5: 5180b073cdc53700f4f57a7509ceea3a.dir
+      size: 14815
+      nfiles: 6
   prepare-place@E06000007:
     cmd: python prepare.py E06000007
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000007/
       hash: md5
-      md5: bc4134b595c7b6e0e766f90fa8023865.dir
-      size: 1283
-      nfiles: 5
+      md5: bbbd3a0ca6b3821868c2b8a55f189e5a.dir
+      size: 11675
+      nfiles: 6
   prepare-place@E07000026:
     cmd: python prepare.py E07000026
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000026/
       hash: md5
-      md5: eef3d4f2aa60627fcd921a6e79f60756.dir
-      size: 882
-      nfiles: 5
+      md5: 40afbca141a561f0bb734a2b647e0721.dir
+      size: 20600
+      nfiles: 6
   prepare-place@E06000057:
     cmd: python prepare.py E06000057
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000057/
       hash: md5
-      md5: 3e82edb22acd6fcf56f6f9cadf8d7e94.dir
-      size: 3413
-      nfiles: 5
+      md5: 33347c7d68b8eaaa1f6898d4136c9c75.dir
+      size: 70366
+      nfiles: 6
   prepare-place@E08000010:
     cmd: python prepare.py E08000010
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000010/
       hash: md5
-      md5: 41239bde2cb80d909eac15f5ab2dc334.dir
-      size: 1443
-      nfiles: 5
+      md5: e006eb96816c3307c1fdc67aaf184406.dir
+      size: 13642
+      nfiles: 6
   prepare-place@E47000010:
     cmd: python prepare.py E47000010
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000010/
       hash: md5
-      md5: e866dcd75ff7693333a2f560c7ef723a.dir
-      size: 5183
-      nfiles: 5
+      md5: 9bf92f32e2b269babf8dbae888727f64.dir
+      size: 9965
+      nfiles: 6
   prepare-place@E06000050:
     cmd: python prepare.py E06000050
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000050/
       hash: md5
-      md5: 56555400771a7e44d4ac2bd30ef98c00.dir
-      size: 2429
-      nfiles: 5
+      md5: 3487bc838ae95b709f03654a43d5e8f5.dir
+      size: 33209
+      nfiles: 6
   prepare-place@E11000006:
     cmd: python prepare.py E11000006
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E11000006/
       hash: md5
-      md5: df0f5ea434adc71b4d467cf5f70ddf47.dir
-      size: 5160
-      nfiles: 5
+      md5: d11535010a670aa250548c45001b3e12.dir
+      size: 7932
+      nfiles: 6
   prepare-place@E08000033:
     cmd: python prepare.py E08000033
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000033/
       hash: md5
-      md5: 2b63e9f026a79204152cf79c9c57c7da.dir
-      size: 1048
-      nfiles: 5
+      md5: b633512b25a8482d3d578a371f80c94a.dir
+      size: 12530
+      nfiles: 6
   prepare-place@E08000022:
     cmd: python prepare.py E08000022
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000022/
       hash: md5
-      md5: ddb33aae6c5d9d1466e5458a64608acd.dir
-      size: 1192
-      nfiles: 5
+      md5: 9970168f5860e2046bea5b86527077fd.dir
+      size: 10030
+      nfiles: 6
   prepare-place@E06000011:
     cmd: python prepare.py E06000011
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000011/
       hash: md5
-      md5: ce0184ca815b15d4cfb72427ef4fe7d6.dir
-      size: 1506
-      nfiles: 5
+      md5: e3d91cb605d693793a37a20288deb9fc.dir
+      size: 29021
+      nfiles: 6
   prepare-place@E10000023:
     cmd: python prepare.py E10000023
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E10000023/
       hash: md5
-      md5: bf1a2059efea171f7edb1e3d6ffd5bc1.dir
-      size: 3437
-      nfiles: 5
+      md5: bc23db251264005048b69872ef831927.dir
+      size: 18698
+      nfiles: 6
   prepare-place@E06000002:
     cmd: python prepare.py E06000002
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000002/
       hash: md5
-      md5: 050ce6a7114304a1a6342081c8a07ea7.dir
-      size: 1184
-      nfiles: 5
+      md5: ab283bc19e2a20168cfd0df49c28f940.dir
+      size: 8810
+      nfiles: 6
   prepare-place@E07000122:
     cmd: python prepare.py E07000122
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000122/
       hash: md5
-      md5: 09bea7f72e546c601c4c95b0583a54f7.dir
-      size: 707
-      nfiles: 5
+      md5: 43065ec22d6a7c8be8296a356c53b434.dir
+      size: 7867
+      nfiles: 6
   prepare-place@E12999901:
     cmd: python prepare.py E12999901
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E12999901/
       hash: md5
-      md5: 86c0869569519d3eb59c8531a6865200.dir
-      size: 65757
-      nfiles: 5
+      md5: 4ab85fa9c5481e7b18c708d755739f93.dir
+      size: 97359
+      nfiles: 6
   prepare-place@E06000008:
     cmd: python prepare.py E06000008
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000008/
       hash: md5
-      md5: c7816d0b8cbb7866909a5a1f4d67ff30.dir
-      size: 1043
-      nfiles: 5
+      md5: eb9d7c977736206fd652f8ecdf3f4641.dir
+      size: 9305
+      nfiles: 6
   prepare-place@E06000001:
     cmd: python prepare.py E06000001
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000001/
       hash: md5
-      md5: f8a94ff88c98c84a68ebdffc17739faa.dir
-      size: 711
-      nfiles: 5
+      md5: 19121077444a4e6ecbfae6efebe9e1fc.dir
+      size: 7387
+      nfiles: 6
   prepare-place@E08000036:
     cmd: python prepare.py E08000036
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000036/
       hash: md5
-      md5: a41cc22517ee399639c9f42e4c26c60c.dir
-      size: 1248
-      nfiles: 5
+      md5: ca395282d07f1a3a73d6349fc599de9e.dir
+      size: 15180
+      nfiles: 6
   prepare-place@E11000003:
     cmd: python prepare.py E11000003
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E11000003/
       hash: md5
-      md5: f27d80193fc5598b9ffe41c834c06414.dir
-      size: 3851
-      nfiles: 5
+      md5: 30546c54fdaf24980c78acf0e0490900.dir
+      size: 6341
+      nfiles: 6
   prepare-place@E12000003:
     cmd: python prepare.py E12000003
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E12000003/
       hash: md5
-      md5: 3f1a65676f0f8a55382d3acf869d11e9.dir
-      size: 16252
-      nfiles: 5
+      md5: 29bdac9fe82678d0b738f799d6c77fa9.dir
+      size: 30742
+      nfiles: 6
   prepare-place@E08000024:
     cmd: python prepare.py E08000024
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000024/
       hash: md5
-      md5: 6ed480d1d8f2475299a6f3771c3fda97.dir
-      size: 1447
-      nfiles: 5
+      md5: 52f1983b560448dea42534a2e13ecd66.dir
+      size: 13128
+      nfiles: 6
   prepare-place@E06000014:
     cmd: python prepare.py E06000014
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000014/
       hash: md5
-      md5: 77bd173d9f6b399de4d850d00aa07e80.dir
-      size: 1231
-      nfiles: 5
+      md5: d59b34b7f3017808db7f9698ec12c3e5.dir
+      size: 12679
+      nfiles: 6
   prepare-place@E07000163:
     cmd: python prepare.py E07000163
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000163/
       hash: md5
-      md5: 9ee4ecd70172a80d195ef34dc8008d6b.dir
-      size: 578
-      nfiles: 5
+      md5: 49bc82921e0307db7849026f5e9f54f6.dir
+      size: 13324
+      nfiles: 6
   prepare-place@E07000128:
     cmd: python prepare.py E07000128
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000128/
       hash: md5
-      md5: 70943f50f4ecc33deac27b3401b417cc.dir
-      size: 1366
-      nfiles: 5
+      md5: 895027195c757a13ddef5e4658875a42.dir
+      size: 15651
+      nfiles: 6
   prepare-place@E07000027:
     cmd: python prepare.py E07000027
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000027/
       hash: md5
-      md5: 56a07f67a019f088632ead249076a6c1.dir
-      size: 503
-      nfiles: 5
+      md5: af0bf356e42b15614d0e627a5905f1f4.dir
+      size: 6291
+      nfiles: 6
   prepare-place@E07000126:
     cmd: python prepare.py E07000126
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000126/
       hash: md5
-      md5: 1e6019147a5b3ab081789f1fc4bef68c.dir
-      size: 1325
-      nfiles: 5
+      md5: 2a2de0ac3df82c204f1bf0377b7512ad.dir
+      size: 11945
+      nfiles: 6
   prepare-place@E07000030:
     cmd: python prepare.py E07000030
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000030/
       hash: md5
-      md5: 732a5700dc98090ad821cacb02d115a6.dir
-      size: 576
-      nfiles: 5
+      md5: 5fbe8c1ef02fe9c49ad6d58613db43ca.dir
+      size: 15963
+      nfiles: 6
   prepare-place@E07000119:
     cmd: python prepare.py E07000119
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000119/
       hash: md5
-      md5: 6e125b87b5207cfcca923bd512fb77e3.dir
-      size: 1219
-      nfiles: 5
+      md5: 69ee3a41dd8d01d4d28c3d1d6745c3cb.dir
+      size: 11352
+      nfiles: 6
   prepare-place@E07000121:
     cmd: python prepare.py E07000121
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000121/
       hash: md5
-      md5: 23ef0043dccbcc05fcb3bb58d0c11625.dir
-      size: 1518
-      nfiles: 5
+      md5: 501831fa8ffa3527c7d59a1d0b6e9308.dir
+      size: 20281
+      nfiles: 6
   prepare-place@E07000124:
     cmd: python prepare.py E07000124
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000124/
       hash: md5
-      md5: 5b3c8afe47a1dc4df1cca1f7c0651f8e.dir
-      size: 1471
-      nfiles: 5
+      md5: 594507ab7b02c38e01f102a0dbd78319.dir
+      size: 19502
+      nfiles: 6
   prepare-place@E08000017:
     cmd: python prepare.py E08000017
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000017/
       hash: md5
-      md5: b93e2f2770f9be624f83805cf4916d1a.dir
-      size: 1244
-      nfiles: 5
+      md5: 3dd608458bb196cd01e8d7215269fe32.dir
+      size: 15764
+      nfiles: 6
   prepare-place@E10000006:
     cmd: python prepare.py E10000006
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E10000006/
       hash: md5
-      md5: 903ac65d8595dab07e56a0e2b449a76d.dir
-      size: 3021
-      nfiles: 5
+      md5: fb731f823fb27e9ddbad72069d746fb8.dir
+      size: 15625
+      nfiles: 6
   prepare-place@E06000003:
     cmd: python prepare.py E06000003
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000003/
       hash: md5
-      md5: 175c6d3cb0cc342d1a90fa574c06b761.dir
-      size: 1382
-      nfiles: 5
+      md5: 885eda6cbafb01ff3012e465678d57cc.dir
+      size: 13909
+      nfiles: 6
   prepare-place@E08000002:
     cmd: python prepare.py E08000002
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000002/
       hash: md5
-      md5: 186ae9953f78a86130e47dffcdd130aa.dir
-      size: 922
-      nfiles: 5
+      md5: 0da4f495bdc60e3b6ee73bdd0b90cf78.dir
+      size: 9302
+      nfiles: 6
   prepare-place@E08000018:
     cmd: python prepare.py E08000018
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000018/
       hash: md5
-      md5: fcda6b6e73791fb6a66d0f473344d85a.dir
-      size: 1272
-      nfiles: 5
+      md5: 3c9ac91dc208fb2b1365acb9c261afb5.dir
+      size: 16507
+      nfiles: 6
   prepare-place@E08000013:
     cmd: python prepare.py E08000013
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000013/
       hash: md5
-      md5: b6501c4823bd5e216ee85adfb1e7cd38.dir
-      size: 970
-      nfiles: 5
+      md5: de91b57c970dfda6cf6fcb49121a1659.dir
+      size: 10008
+      nfiles: 6
   prepare-place@E07000168:
     cmd: python prepare.py E07000168
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000168/
       hash: md5
-      md5: bb6023271de0582a8bc4f6a604b042ca.dir
-      size: 945
-      nfiles: 5
+      md5: 44875f43a91c3e873eeec412b8cea911.dir
+      size: 14537
+      nfiles: 6
   prepare-place@E07000029:
     cmd: python prepare.py E07000029
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000029/
       hash: md5
-      md5: d6d39c491f908214e9361adbbf848449.dir
-      size: 709
-      nfiles: 5
+      md5: 6a1252b010a924796688da7a03468abe.dir
+      size: 12418
+      nfiles: 6
   prepare-place@E07000118:
     cmd: python prepare.py E07000118
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000118/
       hash: md5
-      md5: ac776c28fcb4d6e0b7f40ca52a300cb8.dir
-      size: 795
-      nfiles: 5
+      md5: 785b0c94d09d46dad3605a46031c74ae.dir
+      size: 9269
+      nfiles: 6
   prepare-place@E08000005:
     cmd: python prepare.py E08000005
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000005/
       hash: md5
-      md5: e1ecb92aa3d34954c3e88babbda048e3.dir
-      size: 1056
-      nfiles: 5
+      md5: 9b7281a6ccc355abee10b37371d51741.dir
+      size: 11458
+      nfiles: 6
   prepare-place@E47000001:
     cmd: python prepare.py E47000001
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000001/
       hash: md5
-      md5: d40f2d4d01df56e1ea981d114351bb5a.dir
-      size: 8558
-      nfiles: 5
+      md5: 223596415f5c091b66382ab68ec76ca8.dir
+      size: 16366
+      nfiles: 6
   prepare-place@E07000117:
     cmd: python prepare.py E07000117
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000117/
       hash: md5
-      md5: 29e1a5c832bfc1a744fdb27395c379ec.dir
-      size: 927
-      nfiles: 5
+      md5: 04d10cccee1b78c063fa6ac2a2ac44ce.dir
+      size: 8220
+      nfiles: 6
   prepare-place@E07000120:
     cmd: python prepare.py E07000120
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000120/
       hash: md5
-      md5: 0cecb3a698a5746fd7c9a9219d8d7325.dir
-      size: 977
-      nfiles: 5
+      md5: 917ea9d4d6c669c68b09043dddfda1db.dir
+      size: 7531
+      nfiles: 6
   prepare-place@E11000001:
     cmd: python prepare.py E11000001
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E11000001/
       hash: md5
-      md5: 366adc951edb55d0aceb8f453388ee55.dir
-      size: 8480
-      nfiles: 5
+      md5: d512b59df4647cb81fe1c27d9c840185.dir
+      size: 10684
+      nfiles: 6
   prepare-place@E08000001:
     cmd: python prepare.py E08000001
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000001/
       hash: md5
-      md5: d3ac7cf9c190c72332ddbdb90b3364f0.dir
-      size: 1194
-      nfiles: 5
+      md5: 36748aec731e05bc995d9414aa640c51.dir
+      size: 10851
+      nfiles: 6
   prepare-place@E47000006:
     cmd: python prepare.py E47000006
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000006/
       hash: md5
-      md5: 66fe56ae2936d4a3692b811752c679eb.dir
-      size: 4192
-      nfiles: 5
+      md5: 8b47febae1ec7f889ca6bd139f89c0f1.dir
+      size: 9290
+      nfiles: 6
   prepare-place@E06000049:
     cmd: python prepare.py E06000049
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000049/
       hash: md5
-      md5: 3d904468a4d5746c5eaf0f177ea0f92c.dir
-      size: 2758
-      nfiles: 5
+      md5: 73a0ad3eb6eb6305c9d9e447a82bcbd4.dir
+      size: 36578
+      nfiles: 6
   prepare-place@E06000010:
     cmd: python prepare.py E06000010
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000010/
       hash: md5
-      md5: a2c002f5172c2407b84478fb1adfbf6c.dir
-      size: 1262
-      nfiles: 5
+      md5: adabdd58e3eee51852b320907af63a29.dir
+      size: 10135
+      nfiles: 6
   prepare-place@E06000005:
     cmd: python prepare.py E06000005
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000005/
       hash: md5
-      md5: 429202eb975e65b92427580d1a1fdce8.dir
-      size: 1176
-      nfiles: 5
+      md5: 03fff14673b1d4a7c4dd6cbab5fb9740.dir
+      size: 11710
+      nfiles: 6
   prepare-place@E06000047:
     cmd: python prepare.py E06000047
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000047/
       hash: md5
-      md5: 2708190fa96f279b90bc7b5d0011acc8.dir
-      size: 3303
-      nfiles: 5
+      md5: c99389c59f5ee467335f4fa6b9a3e761.dir
+      size: 51522
+      nfiles: 6
   prepare-place@E08000023:
     cmd: python prepare.py E08000023
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000023/
       hash: md5
-      md5: 1cacbbaa216807d4943b66641826724b.dir
-      size: 1083
-      nfiles: 5
+      md5: 1078ddad6c71d387115d617860e8c972.dir
+      size: 8423
+      nfiles: 6
   prepare-place@E47000011:
     cmd: python prepare.py E47000011
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E47000011/
       hash: md5
-      md5: d74f1067edd54f4f9aa9dbfd656de4c5.dir
-      size: 4495
-      nfiles: 5
+      md5: 9b798b1f973c95bb93c8ee39ca8a49d8.dir
+      size: 11636
+      nfiles: 6
   prepare-place@E07000169:
     cmd: python prepare.py E07000169
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000169/
       hash: md5
-      md5: efbe0165885cc724d45244a97e57ab02.dir
-      size: 749
-      nfiles: 5
+      md5: f2f9da5925406583ec063ae32201fe9e.dir
+      size: 14699
+      nfiles: 6
   prepare-place@E06000013:
     cmd: python prepare.py E06000013
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E06000013/
       hash: md5
-      md5: 50ad037a604c93828fd6453b72765fc8.dir
-      size: 1047
-      nfiles: 5
+      md5: 18507b59888fad7ba38cda104adae34b.dir
+      size: 13321
+      nfiles: 6
   prepare-place@E08000012:
     cmd: python prepare.py E08000012
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000012/
       hash: md5
-      md5: a86fbf7bf00465c939d43b780fbdd077.dir
-      size: 1698
-      nfiles: 5
+      md5: 5f97f52746bcded5d591c4e61beb2d87.dir
+      size: 14472
+      nfiles: 6
   prepare-place@E08000007:
     cmd: python prepare.py E08000007
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000007/
       hash: md5
-      md5: 531deb87066248af2c8b75f6588e070e.dir
-      size: 1247
-      nfiles: 5
+      md5: e0b9c4add426ad58d47deffa793b6f40.dir
+      size: 11838
+      nfiles: 6
   prepare-place@E08000014:
     cmd: python prepare.py E08000014
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000014/
       hash: md5
-      md5: a272e2649e3999f16974935b01cd9888.dir
-      size: 1295
-      nfiles: 5
+      md5: 7ff5920e99163f7a3a84ad42a35c6cbc.dir
+      size: 12060
+      nfiles: 6
   prepare-place@E08000015:
     cmd: python prepare.py E08000015
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000015/
       hash: md5
-      md5: 418e5f8a830122cd970cb71c794c9d3b.dir
-      size: 1295
-      nfiles: 5
+      md5: 4de50a993a0c3f46b29333a861fb7ef2.dir
+      size: 11142
+      nfiles: 6
   prepare-place@E08000004:
     cmd: python prepare.py E08000004
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000004/
       hash: md5
-      md5: 308bf447cf67b003c8801ff039b04bc3.dir
-      size: 1192
-      nfiles: 5
+      md5: f29b0523e31d9657b5911846b5859dcd.dir
+      size: 10611
+      nfiles: 6
   prepare-place@E07000164:
     cmd: python prepare.py E07000164
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000164/
       hash: md5
-      md5: f024983ec2834871b325470b5f45d1f6.dir
-      size: 796
-      nfiles: 5
+      md5: bc3775fa05f3674fea7800895ed6c27d.dir
+      size: 20190
+      nfiles: 6
   prepare-place@E08000032:
     cmd: python prepare.py E08000032
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000032/
       hash: md5
-      md5: 1b6b5d35fd1dc2e3ea81e7eff74c322f.dir
-      size: 1697
-      nfiles: 5
+      md5: dfb03a75979804defedabe3dd1380444.dir
+      size: 18940
+      nfiles: 6
   prepare-place@E08000008:
     cmd: python prepare.py E08000008
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000008/
       hash: md5
-      md5: be753a96a9681b857e3eea308e2da0b5.dir
-      size: 1145
-      nfiles: 5
+      md5: 7461f22c7856067605ceeeecf96e4ecf.dir
+      size: 10172
+      nfiles: 6
   prepare-place@E07000123:
     cmd: python prepare.py E07000123
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000123/
       hash: md5
-      md5: ee3a36deaddf8aad2b252e34a3d39a40.dir
-      size: 981
-      nfiles: 5
+      md5: 20e097e065363d894e13ad98deabd29c.dir
+      size: 9141
+      nfiles: 6
   prepare-place@E08000003:
     cmd: python prepare.py E08000003
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000003/
       hash: md5
-      md5: 5435bf830ffb47aeb1d98703f21c5d64.dir
-      size: 1799
-      nfiles: 5
+      md5: 5ed13f06eab487ace8fe2582e11098ae.dir
+      size: 15787
+      nfiles: 6
   prepare-place@E08000016:
     cmd: python prepare.py E08000016
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000016/
       hash: md5
-      md5: 4d5be3b5fbad000c44ff4687a1c4382f.dir
-      size: 1245
-      nfiles: 5
+      md5: 7d9441be026a0106b330bed6ea397ed9.dir
+      size: 13684
+      nfiles: 6
   prepare-place@E07000165:
     cmd: python prepare.py E07000165
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E07000165/
       hash: md5
-      md5: bd10466a9107c07f55e4765c8c4c5452.dir
-      size: 1098
-      nfiles: 5
+      md5: 684da134b8c351f2c6f84a39909892af.dir
+      size: 22831
+      nfiles: 6
   prepare-place@E08000034:
     cmd: python prepare.py E08000034
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000034/
       hash: md5
-      md5: c7ce991f1e567d6ce77b3256d8bad12d.dir
-      size: 1347
-      nfiles: 5
+      md5: bc4a1d170c151f87e2a1cc889ac69380.dir
+      size: 15955
+      nfiles: 6
   prepare-place@E08000019:
     cmd: python prepare.py E08000019
     deps:
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
+    - path: ../../../data/interim/shapes.parquet
+      hash: md5
+      md5: c38a063053d64182e5d08d6a519268c1
+      size: 514139
     - path: prepare.py
       hash: md5
-      md5: d401a58a5429b9fc40b6c47a718bdaa1
-      size: 1954
+      md5: 16070751d7dd3634f32ad5063b446a56
+      size: 2678
     outs:
     - path: ../../../src/place/E08000019/
       hash: md5
-      md5: ef3a883cd7bc6cb0832b78f892a9c008.dir
-      size: 1598
-      nfiles: 5
+      md5: d7a8c728a0e23fcf916e1cb8687d4882.dir
+      size: 17460
+      nfiles: 6
   generate_places:
     cmd: python generate_params.py
     deps:
@@ -1589,17 +1953,17 @@ stages:
       size: 2321
     - path: transform.ipynb
       hash: md5
-      md5: 95f6b17749a62dd6abcbc58c62c1ad5d
-      size: 2972
+      md5: 2f69cf82fc309b0d03ee0fdb8efde294
+      size: 3018
     outs:
     - path: ../../../data/interim/place_data.json
       hash: md5
-      md5: 79d408a4b8fd7ea1ba84777c39f7292e
-      size: 452516
+      md5: 965d85f64e30cca5badea53eaa6ff79e
+      size: 467375
     - path: ../../../data/interim/place_data.parquet
       hash: md5
-      md5: cb378da525981687aea410c4eb2f9f9b
-      size: 74054
+      md5: a117805a3774b2f95ee1006b4a2e1f5b
+      size: 74051
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
     deps:
@@ -1629,8 +1993,8 @@ stages:
       size: 962163
     - path: geojson.ipynb
       hash: md5
-      md5: 417d0a8ff44231b24dd38444e823c691
-      size: 6314
+      md5: cffaa53178c76a9a491091a9ec184b3a
+      size: 4325
     outs:
     - path: ../../../data/interim/shapes.parquet
       hash: md5
