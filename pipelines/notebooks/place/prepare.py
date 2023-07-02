@@ -54,7 +54,7 @@ all_place_data = PlaceData()
 def shared_data():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     with open(f'{OUTPUT_DIR}/_data.yml', 'w') as f:
-        f.write('layout: templates/place.njk\n')
+        f.write('layout: templates/place.njk\ntags:\n  - place\n')
 
 
 def process(geography_code):
