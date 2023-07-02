@@ -37,13 +37,14 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
 
 {# {{ place_data([key]) | dump() }} #}
 
-{# {{ comp.oi.map.zoomable({
+{% set place = search.page('place key=' + key) %}
+{{ comp.oi.map.zoomable({
         config: {
-          data: place_data[key].place_data.rows,
+          data: place.place_data.rows,
           geojson: 
           {
             key: "ons_code",
-            data: geojson[key]
+            data: place.map
           },
           columns: [{
             name: "label",
@@ -68,7 +69,7 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
           }
         }
     }
-  ) | safe }} #}
+  ) | safe }}
 
 
 {# <h2> Number of people in Low Income* in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>

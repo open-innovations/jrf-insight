@@ -57,6 +57,7 @@ site.filter("flatten", (arr: Array<unknown>) => {
   return arr.flat()
 })
 
+site.filter("getattr", (a: Record<string, unknown>[], attr: string) => a.map(x => x[attr]))
 site.filter("max", (arr: number[]) => (Math.max(...arr)));
 site.filter("min", (arr: number[]) => (Math.min(...arr)));
 

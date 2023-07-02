@@ -17,13 +17,17 @@ This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
   }
 }) | safe }}
 
-{% set geojson_key = key %}
+{% set place_data = query.getPlaceData(relations.children) %}
+
+{% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
+{% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
+{% set half_population = (max_population - min_population) / 2 + min_population %}
 
 {% if map %}
 
   {{ comp.oi.map.zoomable({
         config: {
-          data: place_data.rows,
+          data: place_data,
           geojson: 
           {
             data: map,
@@ -36,21 +40,46 @@ This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
           key: "geography_code",
           value: "Number of persons",
           scale: "Viridis",
-          min: 10000,
-          max: 1000000,
+          min: min_population,
+          max: max_population,
           tooltip: "label",
           legend:
           {
             position: "top right",
-            items: [{
-                value: 1000000,
-                label: '1M'},
-                {
-                value: 10000,
-                label: '10k'
-            }]
+            items: [
+              {
+                value: max_population,
+                label: max_population
+              },
+              {
+                value: half_population,
+                label: half_population
+              },
+              {
+                value: min_population,
+                label: min_population
+              }
+            ]
           }
         }
     }
   ) | safe }}
 {% endif %}
+
+<table>
+<thead>
+<tr>
+  <th>Area</th>
+  <th>Population estimate</th>
+</tr>
+<tr>
+<td>{{ title }} ({{ type }})</td>
+<td>{{ query.getPlaceData(key)[0]['Number of persons'] }}</td>
+</tr>
+{% for row in place_data %}
+<tr>
+<td>{{ row.name }} ({{ row.type }})</td>
+<td>{{ row['Number of persons'] }}</td>
+</tr>
+{% endfor %}
+</table>
