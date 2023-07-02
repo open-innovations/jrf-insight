@@ -2,8 +2,12 @@
   children:
     - title: The North
       url: /place/E12999901/
-    - title: West Yorkshire
-      url: /place/E47000003/
+    - title: North East
+      url: /place/E12000001/
+    - title: North West
+      url: /place/E12000002/
+    - title: Yorkshire and The Humber
+      url: /place/E12000003/
 
 - title: Spotlights
   children: 
