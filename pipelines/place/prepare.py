@@ -5,9 +5,8 @@ import json
 import pandas as pd
 import geopandas as gpd
 
-DATA_DIR = '../../../data'
-SRC_DATA_DIR = '../../../src/_data'
-OUTPUT_DIR = '../../../src/place'
+from params import DATA_DIR, SRC_DATA_DIR, OUTPUT_DIR
+
 
 
 class PlaceMetadata:

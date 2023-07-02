@@ -1,10 +1,11 @@
 vars:
-  - top: '../../..'
+  - top: '../..'
 stages:
   transform:
     cmd: papermill transform.ipynb output/transform.ipynb
     deps:
       - transform.ipynb
+      - params.py
       - geo.py
       - ${top}/data/geo/geography_tree.csv
       - ${top}/data/population-estimates/population-estimates.csv
@@ -22,6 +23,7 @@ stages:
     cmd: papermill geojson.ipynb output/geojson.ipynb
     deps:
       - geojson.ipynb
+      - params.py
       - ${top}/data/geo/cauth22.geojson
       - ${top}/data/geo/cty22.geojson
       - ${top}/data/geo/lad22.geojson
@@ -61,6 +63,7 @@ stages:
     cmd: python generate-list.py
     deps:
       - generate-list.py
+      - params.py
       - ${top}/data/interim/place_data.parquet
     outs:
       - places.yaml:
@@ -70,6 +73,7 @@ stages:
     cmd: python batch.py
     deps:
       - batch.py
+      - params.py
       - places.yaml
       - prepare.py
       - ${top}/data/interim/place_data.parquet

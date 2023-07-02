@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 
-geo_tree = pd.read_csv('../../../data/geo/geography_tree.csv')
+from params import DATA_DIR
+
+geo_tree = pd.read_csv(f'{DATA_DIR}/geo/geography_tree.csv')
 
 
 def get_all_codes():
@@ -32,7 +34,7 @@ def get_descendents(*codes):
 
 
 def get_lookup():
-    geo = pd.read_csv('../../../data/geo/geography_lookup.csv')
+    geo = pd.read_csv(f'{DATA_DIR}/geo/geography_lookup.csv')
     codes = geo.columns[geo.columns.str.endswith('CD')]
     names = geo.columns[geo.columns.str.endswith('NM')]
 

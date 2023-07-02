@@ -3,86 +3,98 @@ stages:
   transform:
     cmd: papermill transform.ipynb output/transform.ipynb
     deps:
-    - path: ../../../data/clif/clif_REL.csv
+    - path: ../../data/clif/clif_REL.csv
       hash: md5
       md5: 5f170525de60d7e2e144497b42a9ce7e
       size: 5129408
-    - path: ../../../data/council-tax-support/council-tax-support.csv
+    - path: ../../data/council-tax-support/council-tax-support.csv
       hash: md5
       md5: 54d688e22c6c85634b7d800c443e246f
       size: 1484585
-    - path: ../../../data/geo/geography_tree.csv
+    - path: ../../data/geo/geography_tree.csv
       hash: md5
       md5: e3ba05db1332445b12cf9dc324bba92e
       size: 58087
-    - path: ../../../data/population-estimates/population-estimates.csv
+    - path: ../../data/population-estimates/population-estimates.csv
       hash: md5
       md5: 1ca9a4cd3dec1d4fd0f2388fb2dfc9ed
       size: 671677
     - path: geo.py
       hash: md5
-      md5: 260646ad4f1028369d4df34584bcd920
-      size: 2325
+      md5: ed2908fa04eaef7d7f39c06a8ec912c9
+      size: 2350
+    - path: params.py
+      hash: md5
+      md5: cda61f98af8f1938c249423c819e2a1e
+      size: 122
     - path: transform.ipynb
       hash: md5
-      md5: 13d428301e8e8da4f38820a45b6819e6
-      size: 3663
+      md5: 71bfb44fb63a1923c8653b17c9a5cb7c
+      size: 3010
     outs:
-    - path: ../../../data/interim/place_data.json
+    - path: ../../data/interim/place_data.json
       hash: md5
       md5: ba315e4c7fdaf26638eb64f9f850e5be
       size: 484559
-    - path: ../../../data/interim/place_data.parquet
+    - path: ../../data/interim/place_data.parquet
       hash: md5
       md5: 2eb777f7c61b7e23c4dd932fb34b3541
       size: 74694
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
     deps:
-    - path: ../../../data/geo/cauth22.geojson
+    - path: ../../data/geo/cauth22.geojson
       hash: md5
       md5: e66ff77855f2f73178620a9cf6c5bc4c
       size: 19880
-    - path: ../../../data/geo/cty22.geojson
+    - path: ../../data/geo/cty22.geojson
       hash: md5
       md5: 99b9d868600d7a34e30cc242cb7b1eb6
       size: 16986
-    - path: ../../../data/geo/lad22.geojson
+    - path: ../../data/geo/lad22.geojson
       hash: md5
       md5: 2178172030185862c396652fa86c0ed1
       size: 88054
-    - path: ../../../data/geo/panrgn22.geojson
+    - path: ../../data/geo/panrgn22.geojson
       hash: md5
       md5: a900de22222959623905b921879f57f3
       size: 16719
-    - path: ../../../data/geo/rgn22.geojson
+    - path: ../../data/geo/rgn22.geojson
       hash: md5
       md5: 6295a45adee209c39e3b34442cbb1814
       size: 28694
-    - path: ../../../data/geo/wd22.geojson
+    - path: ../../data/geo/wd22.geojson
       hash: md5
       md5: 52b14cc60bba5971a5c951cbd8fc1542
       size: 962163
     - path: geojson.ipynb
       hash: md5
-      md5: cffaa53178c76a9a491091a9ec184b3a
-      size: 4325
+      md5: 6c72bc57938402b6b53bf73daff4c0b1
+      size: 4366
+    - path: params.py
+      hash: md5
+      md5: cda61f98af8f1938c249423c819e2a1e
+      size: 122
     outs:
-    - path: ../../../data/interim/shapes.parquet
+    - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: c38a063053d64182e5d08d6a519268c1
       size: 514139
   generate-list:
     cmd: python generate-list.py
     deps:
-    - path: ../../../data/interim/place_data.parquet
+    - path: ../../data/interim/place_data.parquet
       hash: md5
       md5: 2eb777f7c61b7e23c4dd932fb34b3541
       size: 74694
     - path: generate-list.py
       hash: md5
-      md5: 6730cd5edc3c4edd3c02ca92d59ffebc
-      size: 289
+      md5: 2d2c6db9bcdd6da6d781c3b071104b85
+      size: 315
+    - path: params.py
+      hash: md5
+      md5: cda61f98af8f1938c249423c819e2a1e
+      size: 122
     outs:
     - path: places.yaml
       hash: md5
@@ -91,11 +103,11 @@ stages:
   prepare-batch:
     cmd: python batch.py
     deps:
-    - path: ../../../data/interim/place_data.parquet
+    - path: ../../data/interim/place_data.parquet
       hash: md5
       md5: 2eb777f7c61b7e23c4dd932fb34b3541
       size: 74694
-    - path: ../../../data/interim/shapes.parquet
+    - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: c38a063053d64182e5d08d6a519268c1
       size: 514139
@@ -103,16 +115,20 @@ stages:
       hash: md5
       md5: 3e60fa59e5b6ba12559dfd793becffa8
       size: 330
+    - path: params.py
+      hash: md5
+      md5: cda61f98af8f1938c249423c819e2a1e
+      size: 122
     - path: places.yaml
       hash: md5
       md5: 664c94f0dde28b954f75c9d6e023b15d
       size: 19800
     - path: prepare.py
       hash: md5
-      md5: 993f1115ec2b986baa935202f3c0c5b7
-      size: 2744
+      md5: f8de92af400e8587e0566d5eb3ff3c96
+      size: 2702
     outs:
-    - path: ../../../src/place/
+    - path: ../../src/place/
       hash: md5
       md5: e59f049bba7d6267d9222b774a803de4.dir
       size: 2862480
