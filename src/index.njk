@@ -35,12 +35,10 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
     }
   ) | safe }} #}
 
-{# {{ place_data([key]) | dump() }} #}
-
 {% set place = search.page('place key=' + key) %}
 {{ comp.oi.map.zoomable({
         config: {
-          data: place.place_data.rows,
+          data: query.getPlaceData(place.relations.children),
           geojson: 
           {
             key: "ons_code",

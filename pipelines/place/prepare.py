@@ -79,14 +79,6 @@ def process(geography_code):
     with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:
         f.write(json.dumps(relations))
 
-    geography_codes = [geography_code] + relations['descendants']
-
-    place_data = all_place_data.filter_by_codes(geography_codes)
-
-    place_data.drop(columns=['children', 'direct_children', 'direct_parents', 'name', 'type']).pipe(
-        save_file, PLACE_DIR + "_data/"
-    )
-
     codes = relations['children']
     if len(codes) < 1:
         codes = [geography_code]
