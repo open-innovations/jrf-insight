@@ -10,8 +10,8 @@ tags:
     place: true
   },
   place_key: geography,
-  parents: place_page.direct_parents,
-  children: place_page.direct_children,
+  parents: place_page.relations.parents,
+  children: place_page.relations.children,
   place_prefix: '/spotlight/' + spotlight + '/'
 }) | safe }}
 

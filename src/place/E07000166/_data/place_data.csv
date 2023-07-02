@@ -1,9 +1,9 @@
-geography_code,Number of persons,number_of_children,pensioners,working_age,direct_parents
-E05014263,,,,,[]
-E05014280,,,,,[]
-E05014290,,,,,[]
-E05014297,,,,,[]
-E05014307,,,,,[]
-E05014312,,,,,[]
-E05014330,,,,,[]
-E07000166,50358.0,1217.0,987.0,1085.0,['E10000023']
+geography_code,Number of persons,number_of_children,pensioners,working_age
+E05014263,,,,
+E05014280,,,,
+E05014290,,,,
+E05014297,,,,
+E05014307,,,,
+E05014312,,,,
+E05014330,,,,
+E07000166,50358.0,1217.0,987.0,1085.0

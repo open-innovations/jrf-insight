@@ -59,7 +59,7 @@ def patch_missing_arrays(data, column_name):
 def get_place_data():
     place_data: list = []
 
-    for code in all_codes():
+    for code in get_all_codes():
         direct_parents = get_parents(code)
         direct_children = get_children(code)
         all_children = get_descendents(code)

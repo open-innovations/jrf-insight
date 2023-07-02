@@ -48,44 +48,47 @@ def save_geojson(data, path, filename):
         f.write(data.to_json())
 
 
-if __name__ == '__main__':
-    geography_code: str = sys.argv[1]
+all_place_data = PlaceData()
+
+def process(geography_code):
     PLACE_DIR = f'{OUTPUT_DIR}/{geography_code}/'
     os.makedirs(PLACE_DIR + "_data/", exist_ok=True)
 
-    all_place_data = PlaceData()
 
     this_place = all_place_data.filter_by_codes([geography_code]).iloc[0]
 
     with open(f"{PLACE_DIR}/index.njk", "w") as f:
-        f.writelines([
-            '---\n',
-            f"key: { geography_code }\n",
-            f"title: { this_place['name'] }\n",
-            f"type: { this_place['type'] }\n",
-            '---\n'
-        ])
+        f.write(
+            '---\nkey: ' + geography_code + 
+            '\ntitle: ' + this_place['name'] +
+            '\ntype: ' + this_place['type'] +
+            '\n---\n'
+        )
 
-    with open(f"{PLACE_DIR}/_data/all_children.json", "w") as f:
-        f.write(json.dumps(this_place['children'].tolist()))
+    relations = {
+        'descendants': this_place['children'].tolist(),
+        'children': this_place['direct_children'].tolist(),
+        'parents': this_place['direct_parents'].tolist(),
+    }
 
-    with open(f"{PLACE_DIR}/_data/direct_children.json", "w") as f:
-        f.write(json.dumps(this_place['direct_children'].tolist()))
+    with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:
+        f.write(json.dumps(relations))
 
-    with open(f"{PLACE_DIR}/_data/direct_parents.json", "w") as f:
-        f.write(json.dumps(this_place['direct_parents'].tolist()))
-
-    metadata = PlaceMetadata()
-    geography_codes = metadata.get_all_codes_for_code(geography_code)
+    geography_codes = [ geography_code ] + relations['descendants']
 
     place_data = all_place_data.filter_by_codes(geography_codes)
 
-    place_data.drop(columns=['children', 'direct_children', 'name', 'type']).pipe(
+    place_data.drop(columns=['children', 'direct_children', 'direct_parents', 'name', 'type']).pipe(
         save_file, PLACE_DIR + "_data/"
     )
 
-    codes = metadata.get_direct_children_for_code(geography_code)
+    codes = relations['children']
     if len(codes) < 1:
         codes = [geography_code]
     geojson = Shapes().filter_by_codes(codes)
     geojson.pipe(save_geojson, PLACE_DIR + "_data/", 'map.geojson')
+
+
+if __name__ == '__main__':
+    geography_code: str = sys.argv[1]
+    process(geography_code)
