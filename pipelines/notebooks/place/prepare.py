@@ -50,16 +50,22 @@ def save_geojson(data, path, filename):
 
 all_place_data = PlaceData()
 
+
+def shared_data():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(f'{OUTPUT_DIR}/_data.yml', 'w') as f:
+        f.write('layout: templates/place.njk\n')
+
+
 def process(geography_code):
     PLACE_DIR = f'{OUTPUT_DIR}/{geography_code}/'
     os.makedirs(PLACE_DIR + "_data/", exist_ok=True)
-
 
     this_place = all_place_data.filter_by_codes([geography_code]).iloc[0]
 
     with open(f"{PLACE_DIR}/index.njk", "w") as f:
         f.write(
-            '---\nkey: ' + geography_code + 
+            '---\nkey: ' + geography_code +
             '\ntitle: ' + this_place['name'] +
             '\ntype: ' + this_place['type'] +
             '\n---\n'
@@ -74,7 +80,7 @@ def process(geography_code):
     with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:
         f.write(json.dumps(relations))
 
-    geography_codes = [ geography_code ] + relations['descendants']
+    geography_codes = [geography_code] + relations['descendants']
 
     place_data = all_place_data.filter_by_codes(geography_codes)
 

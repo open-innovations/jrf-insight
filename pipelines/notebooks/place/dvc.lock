@@ -10214,22 +10214,22 @@ stages:
       size: 514139
     - path: batch.py
       hash: md5
-      md5: a1585297c237378ddb5f7a08c3478b27
-      size: 193
+      md5: c1a3f4b8ce60b6439c43c67a30caeaa7
+      size: 224
     - path: places.yaml
       hash: md5
       md5: 664c94f0dde28b954f75c9d6e023b15d
       size: 19800
     - path: prepare.py
       hash: md5
-      md5: bdfb69f83f72e72cac8dcbe87ce4a8b0
-      size: 2564
+      md5: 534b882ae2cf6b1f7402b6b2efa4f8f6
+      size: 2726
     outs:
-    - path: ../../../src/place
+    - path: ../../../src/place/
       hash: md5
-      md5: e94894a84223b30a0ad1c7435f054ce3.dir
-      size: 2862436
-      nfiles: 6600
+      md5: 6505ab17f0958a71343453c81cad0483.dir
+      size: 2862464
+      nfiles: 6601
   transform:
     cmd: papermill transform.ipynb output/transform.ipynb
     deps:
