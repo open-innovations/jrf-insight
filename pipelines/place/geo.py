@@ -1,3 +1,5 @@
+import yaml
+
 import pandas as pd
 import numpy as np
 
@@ -58,13 +60,20 @@ def patch_missing_arrays(data, column_name):
     return data
 
 
+def get_place_list():
+    with open('places.yaml') as f:
+        places = yaml.safe_load(f)
+    return places
+
+
 def get_place_data():
     place_data: list = []
+    places: list = get_place_list()
 
     for code in get_all_codes():
-        direct_parents = get_parents(code)
-        direct_children = get_children(code)
-        all_children = get_descendents(code)
+        direct_parents = [c for c in get_parents(code) if c in places]
+        direct_children = [c for c in get_children(code) if c in places]
+        all_children = [c for c in get_descendents(code) if c in places]
         place_data.append({
             'key': code,
             'children': all_children,
