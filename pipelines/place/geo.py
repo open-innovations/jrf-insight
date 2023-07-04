@@ -28,6 +28,13 @@ def get_children(code):
     return geo_tree[geo_tree.parent == code].child.to_list()
 
 
+def get_ancestors(*codes):
+    parents = np.unique([get_parents(code) for code in codes]).tolist()
+    if len(parents) == 0:
+        return []
+    return parents + get_ancestors(*parents)
+
+
 def get_descendents(*codes):
     children = flatten([get_children(code) for code in codes])
     if (len(children) == 0):
@@ -74,15 +81,25 @@ def get_place_data():
         direct_parents = [c for c in get_parents(code) if c in places]
         direct_children = [c for c in get_children(code) if c in places]
         all_children = [c for c in get_descendents(code) if c in places]
+        ancestors = get_ancestors(code)
         place_data.append({
             'key': code,
             'children': all_children,
             'direct_parents': direct_parents,
             'direct_children': direct_children,
+            'ancestors': ancestors,
         })
     place_data = pd.DataFrame(place_data).set_index('key').merge(
         right=get_lookup(), left_index=True, right_index=True, how='outer')
 
-    place_data = place_data.pipe(patch_missing_arrays, 'children').pipe(
-        patch_missing_arrays, 'direct_children').pipe(patch_missing_arrays, 'direct_parents')
+    place_data = place_data.pipe(
+        patch_missing_arrays, 'children'
+    ).pipe(
+        patch_missing_arrays, 'direct_children'
+    ).pipe(
+        patch_missing_arrays, 'direct_parents'
+    ).pipe(
+        patch_missing_arrays, 'ancestors'
+    )
+
     return place_data

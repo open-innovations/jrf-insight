@@ -74,6 +74,7 @@ def process(geography_code):
         'descendants': this_place['children'].tolist(),
         'children': this_place['direct_children'].tolist(),
         'parents': this_place['direct_parents'].tolist(),
+        'ancestors': this_place['ancestors'].tolist(),
     }
 
     with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:

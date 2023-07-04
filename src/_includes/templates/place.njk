@@ -5,12 +5,13 @@ tags:
 ---
 
 <p>
-This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
+Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
 
 {{ comp.nav_block({
   place_key: key,
   parents: relations.parents,
+  ancestors: relations.ancestors,
   children: relations.children,
   dir: {
     spotlight: true
@@ -44,7 +45,7 @@ This is a mockup place page for {{ title }} ({{ key }}) which is a {{ type }}.
           key: "geography_code",
           value: "Number of persons",
           scale: "Viridis",
-          min: min_population,
+          min: 0,
           max: max_population,
           tooltip: "label",
           legend:

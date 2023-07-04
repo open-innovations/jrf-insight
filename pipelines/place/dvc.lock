@@ -13,16 +13,16 @@ stages:
       size: 1484585
     - path: ../../data/geo/geography_tree.csv
       hash: md5
-      md5: 055b260d873591b2c8b6c7d8dccb24fd
-      size: 57907
+      md5: 5b3cd5714f487269a63ef9d581cc77a5
+      size: 57831
     - path: ../../data/population-estimates/population-estimates.csv
       hash: md5
       md5: 1ca9a4cd3dec1d4fd0f2388fb2dfc9ed
       size: 671677
     - path: geo.py
       hash: md5
-      md5: 5d4bb185d91248b7d9542398223b42a2
-      size: 2595
+      md5: 0d40dac8d468366f0976aa5114675d05
+      size: 2949
     - path: params.py
       hash: md5
       md5: cda61f98af8f1938c249423c819e2a1e
@@ -33,17 +33,17 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 71bfb44fb63a1923c8653b17c9a5cb7c
-      size: 3010
+      md5: 76e29ab138977b7f9e2b70166a30fa5b
+      size: 2998
     outs:
     - path: ../../data/interim/place_data.json
       hash: md5
-      md5: 371784fd61a45ce12bd6669f7cb9cc82
-      size: 474290
+      md5: 80a3c48612a19797391c97144ff0464c
+      size: 565954
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 9033c564fd4b1e52e986ece8d5ecacfb
-      size: 74048
+      md5: a1c542e17de389e6ddc66d94325c9556
+      size: 76493
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
     deps:
@@ -113,8 +113,8 @@ stages:
     deps:
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 9033c564fd4b1e52e986ece8d5ecacfb
-      size: 74048
+      md5: a1c542e17de389e6ddc66d94325c9556
+      size: 76493
     - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: c38a063053d64182e5d08d6a519268c1
@@ -133,11 +133,11 @@ stages:
       size: 19740
     - path: prepare.py
       hash: md5
-      md5: 213d1dded433b1f733a20c98aba65dcf
-      size: 2421
+      md5: 6507f08d14192378ee036d66a1095302
+      size: 2476
     outs:
     - path: ../../src/place/
       hash: md5
-      md5: 46ebf800083989bd3afb6be57414dfcc.dir
-      size: 2541706
+      md5: 3e4c86368c221efe229c67f1f94fe0dc.dir
+      size: 2640574
       nfiles: 4936

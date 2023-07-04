@@ -8,17 +8,17 @@ css: |
       color: white;
     }
     & ul {
-      & > * {
-        flex-grow: 1
-      }
       display: flex;
       list-style: none;
       gap: 0.5em;
       &.place {
         flex-direction: column;
-        & ul {
-          flex-wrap: wrap;
-        }
+      }
+      & ul {
+        flex-wrap: wrap;
+      }
+      .spotlight-at-place ul {
+        display: unset;
       }
     }
   }
@@ -34,11 +34,11 @@ css: |
     {% endif %}
     <li>
       <ul class="place">
-        {% if parents and parents.length > 0 %}
+        {% if ancestors and ancestors.length > 0 %}
           <li>
-            <h{{ heading_level }}>Larger</h{{ heading_level }}>
+            <h{{ heading_level }}>Upper geographies</h{{ heading_level }}>
             <ul id="contained-by-places">
-              {% for id in parents %}
+              {% for id in ancestors | reverse %}
                 <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
               {% endfor %}
             </ul>
@@ -46,7 +46,7 @@ css: |
         {% endif %}
         {% if children and children.length > 0 %}
           <li>
-            <h{{ heading_level }}>Smaller</h{{ heading_level }}>
+            <h{{ heading_level }}>Lower geographies</h{{ heading_level }}>
             <ul id="contains-places">
               {% for id in children %}
                 <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>

@@ -1,1 +1,1 @@
-<a href="{{ prefix or '/place/' }}{{ place }}/">{{ places[place].name or '! ' + place + ' !' }}</a>
+<a href="{{ prefix or '/place/' }}{{ place }}/">{{ places[place].name or '! ' + place + ' !' }} ({{ comp.place.type({ id: place }) }})</a>

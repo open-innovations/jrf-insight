@@ -5,11 +5,14 @@ tags:
 ---
 {% set place_page = search.page("place key=" + geography) %}
 
+<p>Spotlight page for {{ title }} in {{ place_page.title }} ({{ comp.place.type({ id: geography }) }}).</p>
+
 {{ comp.nav_block({
   dir: {
     place: true
   },
   place_key: geography,
+  ancestors: place_page.relations.ancestors,
   parents: place_page.relations.parents,
   children: place_page.relations.children,
   place_prefix: '/spotlight/' + spotlight + '/'
