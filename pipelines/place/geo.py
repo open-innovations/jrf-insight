@@ -74,32 +74,32 @@ def get_place_list():
 
 
 def get_place_data():
+    '''
+    Gets all topological data about the place: key, ancestors, parents and children.
+    Merges with lookup data to add in the place name and type.
+    '''
     place_data: list = []
     places: list = get_place_list()
 
     for code in get_all_codes():
-        direct_parents = [c for c in get_parents(code) if c in places]
-        direct_children = [c for c in get_children(code) if c in places]
-        all_children = [c for c in get_descendents(code) if c in places]
         ancestors = get_ancestors(code)
+        parents = [c for c in get_parents(code) if c in places]
+        children = [c for c in get_children(code) if c in places]
         place_data.append({
             'key': code,
-            'children': all_children,
-            'direct_parents': direct_parents,
-            'direct_children': direct_children,
             'ancestors': ancestors,
+            'parents': parents,
+            'children': children,
         })
     place_data = pd.DataFrame(place_data).set_index('key').merge(
         right=get_lookup(), left_index=True, right_index=True, how='outer')
 
     place_data = place_data.pipe(
-        patch_missing_arrays, 'children'
-    ).pipe(
-        patch_missing_arrays, 'direct_children'
-    ).pipe(
-        patch_missing_arrays, 'direct_parents'
-    ).pipe(
         patch_missing_arrays, 'ancestors'
+    ).pipe(
+        patch_missing_arrays, 'parents'
+    ).pipe(
+        patch_missing_arrays, 'children'
     )
 
     return place_data

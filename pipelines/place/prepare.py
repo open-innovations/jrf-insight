@@ -15,11 +15,8 @@ class PlaceMetadata:
         with open(place_metadata_file) as f:
             self.data = json.loads(f.read())
 
-    def get_all_codes_for_code(self, code):
-        return [code] + self.data[code].get('children', [])
-
-    def get_direct_children_for_code(self, code):
-        return self.data[code].get('direct_children', [])
+    def get_children_for_code(self, code):
+        return self.data[code].get('children', [])
 
 
 class PlaceData:
@@ -71,10 +68,9 @@ def process(geography_code):
         )
 
     relations = {
-        'descendants': this_place['children'].tolist(),
-        'children': this_place['direct_children'].tolist(),
-        'parents': this_place['direct_parents'].tolist(),
         'ancestors': this_place['ancestors'].tolist(),
+        'parents': this_place['parents'].tolist(),
+        'children': this_place['children'].tolist(),
     }
 
     with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:
