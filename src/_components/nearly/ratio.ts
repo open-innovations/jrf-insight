@@ -2,7 +2,7 @@ import { ratioed, readableDirection } from "https://github.com/dringtech/nearly/
 
 export default function(context: { value: number, withDirection: boolean }) {
   const { value, withDirection = false } = context;
-  const ratio = ratioed(value, { maxDenominator: 100 });
+  const ratio = ratioed(value, { maxDenominator: 20 });
   if (!ratio) return `ERROR calculating ratio for ${value}`;
   
   const output = `${
