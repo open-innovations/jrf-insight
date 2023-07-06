@@ -1,6 +1,8 @@
 @import 'css/base.css';
 @import 'css/jrf.css';
+@import 'css/typography.css';
 
 @import 'css/nav.css';
+@import 'css/grid.css';
 
 @import 'css/temporary-styling-to-be-removed-or-migrated.css';

@@ -3,10 +3,30 @@ layout: ./page.njk
 tags:
   - place
 ---
+{% set this_place_data = query.getPlaceData([key])[0] %}
+
+{% if (relations.children | length) > 0 %}
+{% set place_data = query.getPlaceData(relations.children) %}
+{% else %}
+{% set place_data = [this_place_data] %}
+{% endif %}
 
 <p>
 Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
+
+{% if this_place_data['number_of_children'] %}
+{% comp 'grid.block', { classes: 'headline' } %}
+{% set proportion = this_place_data['number_of_children'] / this_place_data['Number of persons'] %}
+<p class="big-number">
+  {{ comp.nearly.ratio({ value: proportion }) }}
+</p>
+<p>
+  In {{ title}}, {{ comp.nearly.ratio({ value: proportion, withDirection: true }) }}
+  ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
+</p>
+{% endcomp %}
+{% endif %}
 
 {{ comp.nav_block({
   place_key: key,
@@ -18,18 +38,12 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   }
 }) | safe }}
 
-{% if (relations.children | length) > 0 %}
-{% set place_data = query.getPlaceData(relations.children) %}
-{% else %}
-{% set place_data = query.getPlaceData([key]) %}
-{% endif %}
 
 {% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
 {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
 {% set half_population = (max_population - min_population) / 2 + min_population %}
 
 {% if map %}
-
   {{ comp.oi.map.zoomable({
         config: {
           data: place_data,
@@ -76,17 +90,21 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <tr>
   <th>Area</th>
   <th>Population estimate</th>
+  <th>Children in poverty</th>
 </tr>
+</thead>
 {% if (relations.children | length) > 0 %}
 <tr>
 <td>{{ title }} ({{ type }})</td>
 <td>{{ query.getPlaceData(key)[0]['Number of persons'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['number_of_children'] }}</td>
 </tr>
 {% endif %}
 {% for row in place_data %}
 <tr>
 <td>{{ row.name }} ({{ row.type }})</td>
 <td>{{ row['Number of persons'] }}</td>
+<td>{{ row['number_of_children'] }}</td>
 </tr>
 {% endfor %}
 </table>

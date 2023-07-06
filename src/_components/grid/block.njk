@@ -1,0 +1,10 @@
+---
+css: |
+  .grid-block {
+    padding: 1em;
+    background: #aaa;
+  }
+---
+<div class="grid-block {{ classes }}">
+  {{- content | safe -}}
+</div>

@@ -1,0 +1,5 @@
+.grid-block {
+  &.headline {
+    text-align: center;
+  }
+}
