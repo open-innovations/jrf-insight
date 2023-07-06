@@ -3,7 +3,7 @@ layout: ./page.njk
 tags:
   - place
 ---
-{% set this_place_data = query.getPlaceData([key])[0] %}
+{% set this_place_data = query.getDataForPlace(key) %}
 
 {% if (relations.children | length) > 0 %}
 {% set place_data = query.getPlaceData(relations.children) %}
