@@ -15,6 +15,16 @@ tags:
 Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
 
+{% comp 'grid.block', { classes: 'headline' } %}
+{% set population = this_place_data['Number of persons'] %}
+<p class="big-number" data-number={{ population }}>
+  {{ population }}
+</p>
+<p>
+  The population of {{ title }} is <span data-number={{ population }}>.
+</p>
+{% endcomp %}
+
 {% if this_place_data['number_of_children'] %}
 {% comp 'grid.block', { classes: 'headline' } %}
 {% set proportion = this_place_data['number_of_children'] / this_place_data['Number of persons'] %}

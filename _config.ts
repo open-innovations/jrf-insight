@@ -1,6 +1,7 @@
 import lume from "lume/mod.ts";
 import jsonLoader from "lume/core/loaders/json.ts";
 import base_path from "lume/plugins/base_path.ts";
+import esbuild from "lume/plugins/esbuild.ts";
 import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
@@ -36,6 +37,7 @@ site.use(base_path());
 site.use(metas());
 site.use(postcss());
 site.use(svgo());
+site.use(esbuild());
 
 site.remoteFile(
   "/assets/images/jrf_logo.svg",
