@@ -21,11 +21,15 @@ install pip and then pipenv in a linux environment. Dependencies in the
 
 ## Pipelines / DVC
 
-`pipelines` contains the subfolders - `extract` `transform` and `prepare`, where
-we extract the data, transform it into a required shapem and prepare it for
+`pipelines` contains various subfodlers, where
+we extract the data, transform it into a required shape and prepare it for
 visualisation. These are different "stages".
 
-The `extract` folder contains the stages `probe`: make the lookups for everything available in statxplore, `describe`: make metadata for the datasets, `extract`: get the data from files in `json/data`.
+The `pipelines/extract` folder contains the stages `probe`: make the lookups for everything available in statxplore, `describe`: make metadata for the datasets, `extract`: get the data from files in `json/data`.
+
+`pipelines/place` contains all the processing for place-based data prep and visualisation.
+
+`pipelines/prepare` was used initially to make example visualisations, and is now depracated. 
 
 You can run pipelines using DVC. Run `dvc init` to initialise the directory.
 Then `dvc repro pipelines/<stage>/dvc.yaml` to run the pipelines. If there are
@@ -33,4 +37,4 @@ no changes to files, the stage will skip.
 
 ## Data
 
-Lookups for the statXplore API requests stored in `data/lookups`. Data is stored in `data/csv`. This data has been accessed and used in accordance with the [Open Government License](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+Lookups for the statXplore API requests stored in `data/lookups`. Data is stored in `data/`. This data has been accessed and used in accordance with the [Open Government License](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
