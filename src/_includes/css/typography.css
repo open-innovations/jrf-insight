@@ -1,3 +1,8 @@
+body {
+  font-size: min(5vw, 1.5rem);
+  line-height: 1.5;
+}
+
 .big-number {
-  font-size: 4em;
+  font-size: min(17vw, 4em);
 }

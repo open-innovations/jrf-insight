@@ -1,8 +1,4 @@
 
-body {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-  line-height: 1.5;
-}
 body > header {
   font-family: HouschkaAltPro-Medium,sans-serif;
   text-transform: uppercase;
