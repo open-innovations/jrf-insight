@@ -1,12 +1,20 @@
 ---
 js: |
   addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.menu button').forEach(button => {
-      button.addEventListener('click', function () {
-        const expanded = this.getAttribute('aria-expanded') === 'true' || false;
-        this.setAttribute('aria-expanded', !expanded);
-        const menu = this.nextElementSibling;
-        menu.hidden = !menu.hidden;
+    document.querySelectorAll('.menu').forEach((menu) => {
+      const buttons = menu.querySelectorAll('button');
+      buttons.forEach(button => {
+        button.addEventListener('click', function () {
+          buttons.forEach(b => {
+            if (b == this) return;
+            b.setAttribute('aria-expanded', false);
+            b.nextElementSibling.hidden = true;
+          })
+          const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+          this.setAttribute('aria-expanded', !expanded);
+          const menu = this.nextElementSibling;
+          menu.hidden = !menu.hidden;
+        });
       });
     });
   });
