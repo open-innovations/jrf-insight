@@ -25,6 +25,17 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
 {% endcomp %}
 
+{% comp 'grid.block', { classes: 'headline' } %}
+{% set area = this_place_data['Area in sq km'] %}
+<p class="big-number" data-number={{ area }}>
+  {{ area }} square km
+</p>
+<p>
+  The area of {{ title }} is <span data-number={{ area }}>{{ area }}</span> square km.
+</p>
+{% endcomp %}
+
+
 {% if this_place_data['number_of_children'] %}
 {% comp 'grid.block', { classes: 'headline' } %}
 {% set proportion = this_place_data['number_of_children'] / this_place_data['Number of persons'] %}
@@ -100,6 +111,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <tr>
   <th>Area</th>
   <th>Population estimate</th>
+  <th>Area in sq km</th>
+  <th>Number of households</th>
+  <th>GVA (£m)</td>
   <th>Children in poverty</th>
 </tr>
 </thead>
@@ -107,6 +121,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <tr>
 <td>{{ title }} ({{ type }})</td>
 <td>{{ query.getPlaceData(key)[0]['Number of persons'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['Area in sq km'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['Number of households'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['GVA (\\u00a3m)'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['number_of_children'] }}</td>
 </tr>
 {% endif %}
@@ -114,6 +131,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <tr>
 <td>{{ row.name }} ({{ row.type }})</td>
 <td>{{ row['Number of persons'] }}</td>
+<td>{{ row['Area in sq km'] }}</td>
+<td>{{ row['Number of households'] }}</td>
+<td>{{ row['GVA (\\u00a3m)'] }}</td>
 <td>{{ row['number_of_children'] }}</td>
 </tr>
 {% endfor %}
