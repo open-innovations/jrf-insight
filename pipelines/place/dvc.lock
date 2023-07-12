@@ -121,8 +121,8 @@ stages:
       size: 514139
     - path: batch.py
       hash: md5
-      md5: 3e60fa59e5b6ba12559dfd793becffa8
-      size: 330
+      md5: 470f05519c8c907c964c7e686977acff
+      size: 519
     - path: params.py
       hash: md5
       md5: cda61f98af8f1938c249423c819e2a1e
