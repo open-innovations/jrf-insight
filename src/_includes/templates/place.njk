@@ -38,7 +38,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 
 {% if this_place_data['children_in_low_income'] %}
 {% comp 'grid.block', { classes: 'headline' } %}
-{% set proportion = this_place_data['children_in_low_income'] / this_place_data['Number of persons'] %}
+{% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
 <p class="big-number">
   {{ comp.nearly.ratio({ value: proportion }) }}
 </p>
@@ -115,6 +115,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   <th>Number of households</th>
   <th>GVA (£m)</td>
   <th>Children in poverty</th>
+  <th>Number of Children</th>
 </tr>
 </thead>
 {% if (relations.children | length) > 0 %}
@@ -125,6 +126,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <td>{{ query.getPlaceData(key)[0]['Number of households'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['GVA (\\u00a3m)'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['children_in_low_income'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['number_of_children'] }}</td>
 </tr>
 {% endif %}
 {% for row in place_data %}
@@ -135,6 +137,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <td>{{ row['Number of households'] }}</td>
 <td>{{ row['GVA (\\u00a3m)'] }}</td>
 <td>{{ row['children_in_low_income'] }}</td>
+<td>{{ row['number_of_children'] }}</td>
 </tr>
 {% endfor %}
 </table>
