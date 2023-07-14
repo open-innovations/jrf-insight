@@ -1,0 +1,526 @@
+date,geography_code,geography_type,age_band,variable_name,value
+2021,E06000001,lad21,0-4,Number of persons,4969
+2021,E06000001,lad21,11-15,Number of persons,5898
+2021,E06000001,lad21,16-19,Number of persons,4123
+2021,E06000001,lad21,20-64,Number of persons,52496
+2021,E06000001,lad21,5-10,Number of persons,6749
+2021,E06000001,lad21,65+,Number of persons,18336
+2021,E06000001,lad21,All Ages,Number of persons,92571
+2021,E06000002,lad21,0-4,Number of persons,8881
+2021,E06000002,lad21,11-15,Number of persons,9240
+2021,E06000002,lad21,16-19,Number of persons,6801
+2021,E06000002,lad21,20-64,Number of persons,82668
+2021,E06000002,lad21,5-10,Number of persons,11775
+2021,E06000002,lad21,65+,Number of persons,24369
+2021,E06000002,lad21,All Ages,Number of persons,143734
+2021,E06000003,lad21,0-4,Number of persons,6747
+2021,E06000003,lad21,11-15,Number of persons,7927
+2021,E06000003,lad21,16-19,Number of persons,5633
+2021,E06000003,lad21,20-64,Number of persons,74866
+2021,E06000003,lad21,5-10,Number of persons,9506
+2021,E06000003,lad21,65+,Number of persons,31937
+2021,E06000003,lad21,All Ages,Number of persons,136616
+2021,E06000004,lad21,0-4,Number of persons,10602
+2021,E06000004,lad21,11-15,Number of persons,12796
+2021,E06000004,lad21,16-19,Number of persons,8439
+2021,E06000004,lad21,20-64,Number of persons,112569
+2021,E06000004,lad21,5-10,Number of persons,15106
+2021,E06000004,lad21,65+,Number of persons,37518
+2021,E06000004,lad21,All Ages,Number of persons,197030
+2021,E06000005,lad21,0-4,Number of persons,5473
+2021,E06000005,lad21,11-15,Number of persons,6603
+2021,E06000005,lad21,16-19,Number of persons,4683
+2021,E06000005,lad21,20-64,Number of persons,61544
+2021,E06000005,lad21,5-10,Number of persons,7648
+2021,E06000005,lad21,65+,Number of persons,22271
+2021,E06000005,lad21,All Ages,Number of persons,108222
+2021,E06000006,lad21,0-4,Number of persons,6914
+2021,E06000006,lad21,11-15,Number of persons,8126
+2021,E06000006,lad21,16-19,Number of persons,5606
+2021,E06000006,lad21,20-64,Number of persons,74290
+2021,E06000006,lad21,5-10,Number of persons,9465
+2021,E06000006,lad21,65+,Number of persons,24176
+2021,E06000006,lad21,All Ages,Number of persons,128577
+2021,E06000007,lad21,0-4,Number of persons,10543
+2021,E06000007,lad21,11-15,Number of persons,12683
+2021,E06000007,lad21,16-19,Number of persons,8940
+2021,E06000007,lad21,20-64,Number of persons,123795
+2021,E06000007,lad21,5-10,Number of persons,14904
+2021,E06000007,lad21,65+,Number of persons,40362
+2021,E06000007,lad21,All Ages,Number of persons,211227
+2021,E06000008,lad21,0-4,Number of persons,10033
+2021,E06000008,lad21,11-15,Number of persons,11682
+2021,E06000008,lad21,16-19,Number of persons,8686
+2021,E06000008,lad21,20-64,Number of persons,88465
+2021,E06000008,lad21,5-10,Number of persons,13506
+2021,E06000008,lad21,65+,Number of persons,22550
+2021,E06000008,lad21,All Ages,Number of persons,154922
+2021,E06000009,lad21,0-4,Number of persons,7296
+2021,E06000009,lad21,11-15,Number of persons,7894
+2021,E06000009,lad21,16-19,Number of persons,5914
+2021,E06000009,lad21,20-64,Number of persons,81084
+2021,E06000009,lad21,5-10,Number of persons,9404
+2021,E06000009,lad21,65+,Number of persons,29362
+2021,E06000009,lad21,All Ages,Number of persons,140954
+2021,E06000010,lad21,0-4,Number of persons,15786
+2021,E06000010,lad21,11-15,Number of persons,16421
+2021,E06000010,lad21,16-19,Number of persons,12216
+2021,E06000010,lad21,20-64,Number of persons,160206
+2021,E06000010,lad21,5-10,Number of persons,20718
+2021,E06000010,lad21,65+,Number of persons,41116
+2021,E06000010,lad21,All Ages,Number of persons,266463
+2021,E06000011,lad21,0-4,Number of persons,14686
+2021,E06000011,lad21,11-15,Number of persons,18276
+2021,E06000011,lad21,16-19,Number of persons,13612
+2021,E06000011,lad21,20-64,Number of persons,184468
+2021,E06000011,lad21,5-10,Number of persons,21036
+2021,E06000011,lad21,65+,Number of persons,91065
+2021,E06000011,lad21,All Ages,Number of persons,343143
+2021,E06000012,lad21,0-4,Number of persons,8359
+2021,E06000012,lad21,11-15,Number of persons,9517
+2021,E06000012,lad21,16-19,Number of persons,6726
+2021,E06000012,lad21,20-64,Number of persons,88070
+2021,E06000012,lad21,5-10,Number of persons,11485
+2021,E06000012,lad21,65+,Number of persons,33040
+2021,E06000012,lad21,All Ages,Number of persons,157197
+2021,E06000013,lad21,0-4,Number of persons,8405
+2021,E06000013,lad21,11-15,Number of persons,10095
+2021,E06000013,lad21,16-19,Number of persons,7088
+2021,E06000013,lad21,20-64,Number of persons,95202
+2021,E06000013,lad21,5-10,Number of persons,11634
+2021,E06000013,lad21,65+,Number of persons,37516
+2021,E06000013,lad21,All Ages,Number of persons,169940
+2021,E06000014,lad21,0-4,Number of persons,8560
+2021,E06000014,lad21,11-15,Number of persons,10148
+2021,E06000014,lad21,16-19,Number of persons,12065
+2021,E06000014,lad21,20-64,Number of persons,119921
+2021,E06000014,lad21,5-10,Number of persons,11978
+2021,E06000014,lad21,65+,Number of persons,39000
+2021,E06000014,lad21,All Ages,Number of persons,201672
+2021,E06000047,lad21,0-4,Number of persons,24546
+2021,E06000047,lad21,11-15,Number of persons,29295
+2021,E06000047,lad21,16-19,Number of persons,24935
+2021,E06000047,lad21,20-64,Number of persons,296411
+2021,E06000047,lad21,5-10,Number of persons,34169
+2021,E06000047,lad21,65+,Number of persons,111990
+2021,E06000047,lad21,All Ages,Number of persons,521346
+2021,E06000049,lad21,0-4,Number of persons,19963
+2021,E06000049,lad21,11-15,Number of persons,22699
+2021,E06000049,lad21,16-19,Number of persons,15857
+2021,E06000049,lad21,20-64,Number of persons,225251
+2021,E06000049,lad21,5-10,Number of persons,26773
+2021,E06000049,lad21,65+,Number of persons,89985
+2021,E06000049,lad21,All Ages,Number of persons,400528
+2021,E06000050,lad21,0-4,Number of persons,17495
+2021,E06000050,lad21,11-15,Number of persons,20214
+2021,E06000050,lad21,16-19,Number of persons,14988
+2021,E06000050,lad21,20-64,Number of persons,204766
+2021,E06000050,lad21,5-10,Number of persons,23937
+2021,E06000050,lad21,65+,Number of persons,76299
+2021,E06000050,lad21,All Ages,Number of persons,357699
+2021,E06000057,lad21,0-4,Number of persons,14198
+2021,E06000057,lad21,11-15,Number of persons,17265
+2021,E06000057,lad21,16-19,Number of persons,12591
+2021,E06000057,lad21,20-64,Number of persons,174987
+2021,E06000057,lad21,5-10,Number of persons,20236
+2021,E06000057,lad21,65+,Number of persons,82281
+2021,E06000057,lad21,All Ages,Number of persons,321558
+2021,E07000026,lad21,0-4,Number of persons,4312
+2021,E07000026,lad21,11-15,Number of persons,5361
+2021,E07000026,lad21,16-19,Number of persons,3678
+2021,E07000026,lad21,20-64,Number of persons,53042
+2021,E07000026,lad21,5-10,Number of persons,5960
+2021,E07000026,lad21,65+,Number of persons,24031
+2021,E07000026,lad21,All Ages,Number of persons,96384
+2021,E07000027,lad21,0-4,Number of persons,3403
+2021,E07000027,lad21,11-15,Number of persons,3671
+2021,E07000027,lad21,16-19,Number of persons,2800
+2021,E07000027,lad21,20-64,Number of persons,38525
+2021,E07000027,lad21,5-10,Number of persons,4403
+2021,E07000027,lad21,65+,Number of persons,14573
+2021,E07000027,lad21,All Ages,Number of persons,67375
+2021,E07000028,lad21,0-4,Number of persons,5367
+2021,E07000028,lad21,11-15,Number of persons,6011
+2021,E07000028,lad21,16-19,Number of persons,4451
+2021,E07000028,lad21,20-64,Number of persons,63080
+2021,E07000028,lad21,5-10,Number of persons,7333
+2021,E07000028,lad21,65+,Number of persons,24013
+2021,E07000028,lad21,All Ages,Number of persons,110255
+2021,E07000029,lad21,0-4,Number of persons,3108
+2021,E07000029,lad21,11-15,Number of persons,3614
+2021,E07000029,lad21,16-19,Number of persons,2550
+2021,E07000029,lad21,20-64,Number of persons,37878
+2021,E07000029,lad21,5-10,Number of persons,4383
+2021,E07000029,lad21,65+,Number of persons,15643
+2021,E07000029,lad21,All Ages,Number of persons,67176
+2021,E07000030,lad21,0-4,Number of persons,2151
+2021,E07000030,lad21,11-15,Number of persons,2821
+2021,E07000030,lad21,16-19,Number of persons,2089
+2021,E07000030,lad21,20-64,Number of persons,30237
+2021,E07000030,lad21,5-10,Number of persons,3139
+2021,E07000030,lad21,65+,Number of persons,14518
+2021,E07000030,lad21,All Ages,Number of persons,54955
+2021,E07000031,lad21,0-4,Number of persons,3911
+2021,E07000031,lad21,11-15,Number of persons,5344
+2021,E07000031,lad21,16-19,Number of persons,4246
+2021,E07000031,lad21,20-64,Number of persons,56285
+2021,E07000031,lad21,5-10,Number of persons,5421
+2021,E07000031,lad21,65+,Number of persons,29469
+2021,E07000031,lad21,All Ages,Number of persons,104676
+2021,E07000117,lad21,0-4,Number of persons,5715
+2021,E07000117,lad21,11-15,Number of persons,6273
+2021,E07000117,lad21,16-19,Number of persons,4347
+2021,E07000117,lad21,20-64,Number of persons,53978
+2021,E07000117,lad21,5-10,Number of persons,7407
+2021,E07000117,lad21,65+,Number of persons,17001
+2021,E07000117,lad21,All Ages,Number of persons,94721
+2021,E07000118,lad21,0-4,Number of persons,5993
+2021,E07000118,lad21,11-15,Number of persons,6851
+2021,E07000118,lad21,16-19,Number of persons,4654
+2021,E07000118,lad21,20-64,Number of persons,67738
+2021,E07000118,lad21,5-10,Number of persons,8443
+2021,E07000118,lad21,65+,Number of persons,24258
+2021,E07000118,lad21,All Ages,Number of persons,117937
+2021,E07000119,lad21,0-4,Number of persons,3311
+2021,E07000119,lad21,11-15,Number of persons,4062
+2021,E07000119,lad21,16-19,Number of persons,3001
+2021,E07000119,lad21,20-64,Number of persons,43873
+2021,E07000119,lad21,5-10,Number of persons,4770
+2021,E07000119,lad21,65+,Number of persons,22828
+2021,E07000119,lad21,All Ages,Number of persons,81845
+2021,E07000120,lad21,0-4,Number of persons,4907
+2021,E07000120,lad21,11-15,Number of persons,5289
+2021,E07000120,lad21,16-19,Number of persons,3959
+2021,E07000120,lad21,20-64,Number of persons,46663
+2021,E07000120,lad21,5-10,Number of persons,6333
+2021,E07000120,lad21,65+,Number of persons,15110
+2021,E07000120,lad21,All Ages,Number of persons,82261
+2021,E07000121,lad21,0-4,Number of persons,6662
+2021,E07000121,lad21,11-15,Number of persons,7492
+2021,E07000121,lad21,16-19,Number of persons,8466
+2021,E07000121,lad21,20-64,Number of persons,81044
+2021,E07000121,lad21,5-10,Number of persons,9025
+2021,E07000121,lad21,65+,Number of persons,29473
+2021,E07000121,lad21,All Ages,Number of persons,142162
+2021,E07000122,lad21,0-4,Number of persons,5875
+2021,E07000122,lad21,11-15,Number of persons,6654
+2021,E07000122,lad21,16-19,Number of persons,4585
+2021,E07000122,lad21,20-64,Number of persons,53455
+2021,E07000122,lad21,5-10,Number of persons,7918
+2021,E07000122,lad21,65+,Number of persons,17302
+2021,E07000122,lad21,All Ages,Number of persons,95789
+2021,E07000123,lad21,0-4,Number of persons,8923
+2021,E07000123,lad21,11-15,Number of persons,9179
+2021,E07000123,lad21,16-19,Number of persons,7785
+2021,E07000123,lad21,20-64,Number of persons,88622
+2021,E07000123,lad21,5-10,Number of persons,11134
+2021,E07000123,lad21,65+,Number of persons,21974
+2021,E07000123,lad21,All Ages,Number of persons,147617
+2021,E07000124,lad21,0-4,Number of persons,2655
+2021,E07000124,lad21,11-15,Number of persons,3744
+2021,E07000124,lad21,16-19,Number of persons,2606
+2021,E07000124,lad21,20-64,Number of persons,34189
+2021,E07000124,lad21,5-10,Number of persons,3745
+2021,E07000124,lad21,65+,Number of persons,14968
+2021,E07000124,lad21,All Ages,Number of persons,61907
+2021,E07000125,lad21,0-4,Number of persons,3773
+2021,E07000125,lad21,11-15,Number of persons,4523
+2021,E07000125,lad21,16-19,Number of persons,3053
+2021,E07000125,lad21,20-64,Number of persons,40649
+2021,E07000125,lad21,5-10,Number of persons,5279
+2021,E07000125,lad21,65+,Number of persons,13733
+2021,E07000125,lad21,All Ages,Number of persons,71010
+2021,E07000126,lad21,0-4,Number of persons,5430
+2021,E07000126,lad21,11-15,Number of persons,6431
+2021,E07000126,lad21,16-19,Number of persons,4530
+2021,E07000126,lad21,20-64,Number of persons,62920
+2021,E07000126,lad21,5-10,Number of persons,7666
+2021,E07000126,lad21,65+,Number of persons,24227
+2021,E07000126,lad21,All Ages,Number of persons,111204
+2021,E07000127,lad21,0-4,Number of persons,5213
+2021,E07000127,lad21,11-15,Number of persons,6557
+2021,E07000127,lad21,16-19,Number of persons,7125
+2021,E07000127,lad21,20-64,Number of persons,65104
+2021,E07000127,lad21,5-10,Number of persons,7268
+2021,E07000127,lad21,65+,Number of persons,25858
+2021,E07000127,lad21,All Ages,Number of persons,117125
+2021,E07000128,lad21,0-4,Number of persons,4827
+2021,E07000128,lad21,11-15,Number of persons,5972
+2021,E07000128,lad21,16-19,Number of persons,4584
+2021,E07000128,lad21,20-64,Number of persons,59098
+2021,E07000128,lad21,5-10,Number of persons,6773
+2021,E07000128,lad21,65+,Number of persons,31203
+2021,E07000128,lad21,All Ages,Number of persons,112457
+2021,E07000163,lad21,0-4,Number of persons,2338
+2021,E07000163,lad21,11-15,Number of persons,3019
+2021,E07000163,lad21,16-19,Number of persons,2081
+2021,E07000163,lad21,20-64,Number of persons,30582
+2021,E07000163,lad21,5-10,Number of persons,3302
+2021,E07000163,lad21,65+,Number of persons,15768
+2021,E07000163,lad21,All Ages,Number of persons,57090
+2021,E07000164,lad21,0-4,Number of persons,3782
+2021,E07000164,lad21,11-15,Number of persons,4563
+2021,E07000164,lad21,16-19,Number of persons,3437
+2021,E07000164,lad21,20-64,Number of persons,49036
+2021,E07000164,lad21,5-10,Number of persons,5353
+2021,E07000164,lad21,65+,Number of persons,24866
+2021,E07000164,lad21,All Ages,Number of persons,91037
+2021,E07000165,lad21,0-4,Number of persons,7234
+2021,E07000165,lad21,11-15,Number of persons,9766
+2021,E07000165,lad21,16-19,Number of persons,8286
+2021,E07000165,lad21,20-64,Number of persons,90063
+2021,E07000165,lad21,5-10,Number of persons,10333
+2021,E07000165,lad21,65+,Number of persons,38423
+2021,E07000165,lad21,All Ages,Number of persons,164105
+2021,E07000166,lad21,0-4,Number of persons,2307
+2021,E07000166,lad21,11-15,Number of persons,2635
+2021,E07000166,lad21,16-19,Number of persons,2380
+2021,E07000166,lad21,20-64,Number of persons,28216
+2021,E07000166,lad21,5-10,Number of persons,3086
+2021,E07000166,lad21,65+,Number of persons,11734
+2021,E07000166,lad21,All Ages,Number of persons,50358
+2021,E07000167,lad21,0-4,Number of persons,2268
+2021,E07000167,lad21,11-15,Number of persons,2877
+2021,E07000167,lad21,16-19,Number of persons,2106
+2021,E07000167,lad21,20-64,Number of persons,29182
+2021,E07000167,lad21,5-10,Number of persons,3210
+2021,E07000167,lad21,65+,Number of persons,15254
+2021,E07000167,lad21,All Ages,Number of persons,54897
+2021,E07000168,lad21,0-4,Number of persons,4685
+2021,E07000168,lad21,11-15,Number of persons,5550
+2021,E07000168,lad21,16-19,Number of persons,4240
+2021,E07000168,lad21,20-64,Number of persons,58077
+2021,E07000168,lad21,5-10,Number of persons,6326
+2021,E07000168,lad21,65+,Number of persons,30081
+2021,E07000168,lad21,All Ages,Number of persons,108959
+2021,E07000169,lad21,0-4,Number of persons,4958
+2021,E07000169,lad21,11-15,Number of persons,5341
+2021,E07000169,lad21,16-19,Number of persons,3678
+2021,E07000169,lad21,20-64,Number of persons,53201
+2021,E07000169,lad21,5-10,Number of persons,6333
+2021,E07000169,lad21,65+,Number of persons,18890
+2021,E07000169,lad21,All Ages,Number of persons,92401
+2021,E08000001,lad21,0-4,Number of persons,18255
+2021,E08000001,lad21,11-15,Number of persons,20644
+2021,E08000001,lad21,16-19,Number of persons,14627
+2021,E08000001,lad21,20-64,Number of persons,166892
+2021,E08000001,lad21,5-10,Number of persons,24623
+2021,E08000001,lad21,65+,Number of persons,51000
+2021,E08000001,lad21,All Ages,Number of persons,296041
+2021,E08000002,lad21,0-4,Number of persons,11095
+2021,E08000002,lad21,11-15,Number of persons,12695
+2021,E08000002,lad21,16-19,Number of persons,8962
+2021,E08000002,lad21,20-64,Number of persons,110385
+2021,E08000002,lad21,5-10,Number of persons,15049
+2021,E08000002,lad21,65+,Number of persons,35637
+2021,E08000002,lad21,All Ages,Number of persons,193823
+2021,E08000003,lad21,0-4,Number of persons,33932
+2021,E08000003,lad21,11-15,Number of persons,35759
+2021,E08000003,lad21,16-19,Number of persons,33524
+2021,E08000003,lad21,20-64,Number of persons,350224
+2021,E08000003,lad21,5-10,Number of persons,43832
+2021,E08000003,lad21,65+,Number of persons,52582
+2021,E08000003,lad21,All Ages,Number of persons,549853
+2021,E08000004,lad21,0-4,Number of persons,15894
+2021,E08000004,lad21,11-15,Number of persons,17911
+2021,E08000004,lad21,16-19,Number of persons,12963
+2021,E08000004,lad21,20-64,Number of persons,135533
+2021,E08000004,lad21,5-10,Number of persons,20950
+2021,E08000004,lad21,65+,Number of persons,38821
+2021,E08000004,lad21,All Ages,Number of persons,242072
+2021,E08000005,lad21,0-4,Number of persons,14497
+2021,E08000005,lad21,11-15,Number of persons,15619
+2021,E08000005,lad21,16-19,Number of persons,10707
+2021,E08000005,lad21,20-64,Number of persons,127509
+2021,E08000005,lad21,5-10,Number of persons,18693
+2021,E08000005,lad21,65+,Number of persons,37062
+2021,E08000005,lad21,All Ages,Number of persons,224087
+2021,E08000006,lad21,0-4,Number of persons,17189
+2021,E08000006,lad21,11-15,Number of persons,15664
+2021,E08000006,lad21,16-19,Number of persons,12231
+2021,E08000006,lad21,20-64,Number of persons,169507
+2021,E08000006,lad21,5-10,Number of persons,20141
+2021,E08000006,lad21,65+,Number of persons,36032
+2021,E08000006,lad21,All Ages,Number of persons,270764
+2021,E08000007,lad21,0-4,Number of persons,16514
+2021,E08000007,lad21,11-15,Number of persons,17615
+2021,E08000007,lad21,16-19,Number of persons,11790
+2021,E08000007,lad21,20-64,Number of persons,167988
+2021,E08000007,lad21,5-10,Number of persons,21732
+2021,E08000007,lad21,65+,Number of persons,59604
+2021,E08000007,lad21,All Ages,Number of persons,295243
+2021,E08000008,lad21,0-4,Number of persons,13540
+2021,E08000008,lad21,11-15,Number of persons,14555
+2021,E08000008,lad21,16-19,Number of persons,9939
+2021,E08000008,lad21,20-64,Number of persons,134690
+2021,E08000008,lad21,5-10,Number of persons,17772
+2021,E08000008,lad21,65+,Number of persons,40703
+2021,E08000008,lad21,All Ages,Number of persons,231199
+2021,E08000009,lad21,0-4,Number of persons,13308
+2021,E08000009,lad21,11-15,Number of persons,16021
+2021,E08000009,lad21,16-19,Number of persons,10609
+2021,E08000009,lad21,20-64,Number of persons,134610
+2021,E08000009,lad21,5-10,Number of persons,19529
+2021,E08000009,lad21,65+,Number of persons,41469
+2021,E08000009,lad21,All Ages,Number of persons,235546
+2021,E08000010,lad21,0-4,Number of persons,17650
+2021,E08000010,lad21,11-15,Number of persons,19591
+2021,E08000010,lad21,16-19,Number of persons,13892
+2021,E08000010,lad21,20-64,Number of persons,191358
+2021,E08000010,lad21,5-10,Number of persons,23285
+2021,E08000010,lad21,65+,Number of persons,63983
+2021,E08000010,lad21,All Ages,Number of persons,329759
+2021,E08000011,lad21,0-4,Number of persons,9792
+2021,E08000011,lad21,11-15,Number of persons,9096
+2021,E08000011,lad21,16-19,Number of persons,6727
+2021,E08000011,lad21,20-64,Number of persons,91510
+2021,E08000011,lad21,5-10,Number of persons,11409
+2021,E08000011,lad21,65+,Number of persons,26440
+2021,E08000011,lad21,All Ages,Number of persons,154974
+2021,E08000012,lad21,0-4,Number of persons,26258
+2021,E08000012,lad21,11-15,Number of persons,24771
+2021,E08000012,lad21,16-19,Number of persons,26768
+2021,E08000012,lad21,20-64,Number of persons,299753
+2021,E08000012,lad21,5-10,Number of persons,32060
+2021,E08000012,lad21,65+,Number of persons,74878
+2021,E08000012,lad21,All Ages,Number of persons,484488
+2021,E08000013,lad21,0-4,Number of persons,9599
+2021,E08000013,lad21,11-15,Number of persons,10551
+2021,E08000013,lad21,16-19,Number of persons,7500
+2021,E08000013,lad21,20-64,Number of persons,105502
+2021,E08000013,lad21,5-10,Number of persons,12432
+2021,E08000013,lad21,65+,Number of persons,37807
+2021,E08000013,lad21,All Ages,Number of persons,183391
+2021,E08000014,lad21,0-4,Number of persons,13497
+2021,E08000014,lad21,11-15,Number of persons,15240
+2021,E08000014,lad21,16-19,Number of persons,11233
+2021,E08000014,lad21,20-64,Number of persons,156393
+2021,E08000014,lad21,5-10,Number of persons,18171
+2021,E08000014,lad21,65+,Number of persons,65158
+2021,E08000014,lad21,All Ages,Number of persons,279692
+2021,E08000015,lad21,0-4,Number of persons,16237
+2021,E08000015,lad21,11-15,Number of persons,19140
+2021,E08000015,lad21,16-19,Number of persons,13629
+2021,E08000015,lad21,20-64,Number of persons,178169
+2021,E08000015,lad21,5-10,Number of persons,22606
+2021,E08000015,lad21,65+,Number of persons,70819
+2021,E08000015,lad21,All Ages,Number of persons,320600
+2021,E08000016,lad21,0-4,Number of persons,13354
+2021,E08000016,lad21,11-15,Number of persons,14109
+2021,E08000016,lad21,16-19,Number of persons,9810
+2021,E08000016,lad21,20-64,Number of persons,142414
+2021,E08000016,lad21,5-10,Number of persons,17301
+2021,E08000016,lad21,65+,Number of persons,47905
+2021,E08000016,lad21,All Ages,Number of persons,244893
+2021,E08000017,lad21,0-4,Number of persons,16911
+2021,E08000017,lad21,11-15,Number of persons,18363
+2021,E08000017,lad21,16-19,Number of persons,12900
+2021,E08000017,lad21,20-64,Number of persons,178399
+2021,E08000017,lad21,5-10,Number of persons,21887
+2021,E08000017,lad21,65+,Number of persons,60245
+2021,E08000017,lad21,All Ages,Number of persons,308705
+2021,E08000018,lad21,0-4,Number of persons,14536
+2021,E08000018,lad21,11-15,Number of persons,16326
+2021,E08000018,lad21,16-19,Number of persons,11618
+2021,E08000018,lad21,20-64,Number of persons,151807
+2021,E08000018,lad21,5-10,Number of persons,19345
+2021,E08000018,lad21,65+,Number of persons,52551
+2021,E08000018,lad21,All Ages,Number of persons,266183
+2021,E08000019,lad21,0-4,Number of persons,29932
+2021,E08000019,lad21,11-15,Number of persons,31560
+2021,E08000019,lad21,16-19,Number of persons,29793
+2021,E08000019,lad21,20-64,Number of persons,329347
+2021,E08000019,lad21,5-10,Number of persons,38502
+2021,E08000019,lad21,65+,Number of persons,95267
+2021,E08000019,lad21,All Ages,Number of persons,554401
+2021,E08000021,lad21,0-4,Number of persons,15482
+2021,E08000021,lad21,11-15,Number of persons,16020
+2021,E08000021,lad21,16-19,Number of persons,18308
+2021,E08000021,lad21,20-64,Number of persons,183436
+2021,E08000021,lad21,5-10,Number of persons,20158
+2021,E08000021,lad21,65+,Number of persons,44860
+2021,E08000021,lad21,All Ages,Number of persons,298264
+2021,E08000022,lad21,0-4,Number of persons,10859
+2021,E08000022,lad21,11-15,Number of persons,12119
+2021,E08000022,lad21,16-19,Number of persons,8248
+2021,E08000022,lad21,20-64,Number of persons,120355
+2021,E08000022,lad21,5-10,Number of persons,14357
+2021,E08000022,lad21,65+,Number of persons,43213
+2021,E08000022,lad21,All Ages,Number of persons,209151
+2021,E08000023,lad21,0-4,Number of persons,7757
+2021,E08000023,lad21,11-15,Number of persons,8453
+2021,E08000023,lad21,16-19,Number of persons,5988
+2021,E08000023,lad21,20-64,Number of persons,84341
+2021,E08000023,lad21,5-10,Number of persons,10316
+2021,E08000023,lad21,65+,Number of persons,31060
+2021,E08000023,lad21,All Ages,Number of persons,147915
+2021,E08000024,lad21,0-4,Number of persons,13753
+2021,E08000024,lad21,11-15,Number of persons,15884
+2021,E08000024,lad21,16-19,Number of persons,11659
+2021,E08000024,lad21,20-64,Number of persons,157890
+2021,E08000024,lad21,5-10,Number of persons,18386
+2021,E08000024,lad21,65+,Number of persons,56639
+2021,E08000024,lad21,All Ages,Number of persons,274211
+2021,E08000032,lad21,0-4,Number of persons,35807
+2021,E08000032,lad21,11-15,Number of persons,41071
+2021,E08000032,lad21,16-19,Number of persons,30317
+2021,E08000032,lad21,20-64,Number of persons,308715
+2021,E08000032,lad21,5-10,Number of persons,47577
+2021,E08000032,lad21,65+,Number of persons,83489
+2021,E08000032,lad21,All Ages,Number of persons,546976
+2021,E08000033,lad21,0-4,Number of persons,11228
+2021,E08000033,lad21,11-15,Number of persons,13199
+2021,E08000033,lad21,16-19,Number of persons,9263
+2021,E08000033,lad21,20-64,Number of persons,118192
+2021,E08000033,lad21,5-10,Number of persons,15440
+2021,E08000033,lad21,65+,Number of persons,39496
+2021,E08000033,lad21,All Ages,Number of persons,206818
+2021,E08000034,lad21,0-4,Number of persons,24948
+2021,E08000034,lad21,11-15,Number of persons,28318
+2021,E08000034,lad21,16-19,Number of persons,21462
+2021,E08000034,lad21,20-64,Number of persons,247996
+2021,E08000034,lad21,5-10,Number of persons,33373
+2021,E08000034,lad21,65+,Number of persons,77258
+2021,E08000034,lad21,All Ages,Number of persons,433355
+2021,E08000035,lad21,0-4,Number of persons,46367
+2021,E08000035,lad21,11-15,Number of persons,47296
+2021,E08000035,lad21,16-19,Number of persons,40782
+2021,E08000035,lad21,20-64,Number of persons,487597
+2021,E08000035,lad21,5-10,Number of persons,59572
+2021,E08000035,lad21,65+,Number of persons,127422
+2021,E08000035,lad21,All Ages,Number of persons,809036
+2021,E08000036,lad21,0-4,Number of persons,19924
+2021,E08000036,lad21,11-15,Number of persons,20592
+2021,E08000036,lad21,16-19,Number of persons,14201
+2021,E08000036,lad21,20-64,Number of persons,206694
+2021,E08000036,lad21,5-10,Number of persons,25341
+2021,E08000036,lad21,65+,Number of persons,67050
+2021,E08000036,lad21,All Ages,Number of persons,353802
+2021,E08000037,lad21,0-4,Number of persons,10006
+2021,E08000037,lad21,11-15,Number of persons,10959
+2021,E08000037,lad21,16-19,Number of persons,8039
+2021,E08000037,lad21,20-64,Number of persons,113743
+2021,E08000037,lad21,5-10,Number of persons,13424
+2021,E08000037,lad21,65+,Number of persons,39983
+2021,E08000037,lad21,All Ages,Number of persons,196154
+2021,E10000006,lad21,0-4,Number of persons,22252
+2021,E10000006,lad21,11-15,Number of persons,26822
+2021,E10000006,lad21,16-19,Number of persons,19814
+2021,E10000006,lad21,20-64,Number of persons,279047
+2021,E10000006,lad21,5-10,Number of persons,30639
+2021,E10000006,lad21,65+,Number of persons,122247
+2021,E10000006,lad21,All Ages,Number of persons,500821
+2021,E10000017,lad21,0-4,Number of persons,63284
+2021,E10000017,lad21,11-15,Number of persons,73027
+2021,E10000017,lad21,16-19,Number of persons,58695
+2021,E10000017,lad21,20-64,Number of persons,697333
+2021,E10000017,lad21,5-10,Number of persons,85761
+2021,E10000017,lad21,65+,Number of persons,257935
+2021,E10000017,lad21,All Ages,Number of persons,1236035
+2021,E10000023,lad21,0-4,Number of persons,27572
+2021,E10000023,lad21,11-15,Number of persons,33751
+2021,E10000023,lad21,16-19,Number of persons,26208
+2021,E10000023,lad21,20-64,Number of persons,338357
+2021,E10000023,lad21,5-10,Number of persons,37943
+2021,E10000023,lad21,65+,Number of persons,155016
+2021,E10000023,lad21,All Ages,Number of persons,618847
