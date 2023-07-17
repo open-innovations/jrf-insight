@@ -46,8 +46,8 @@ process_imd_lad <- function(files = NULL) {
     }) |>
       dplyr::bind_rows() |>
       dplyr::distinct() |>
-      tidyr::pivot_longer(-c(geography_code, geography_name), names_to = 'variable') |>
-      dplyr::filter(variable == 'IMD - Average score')
+      tidyr::pivot_longer(-c(geography_code, geography_name), names_to = 'variable_name') |>
+      dplyr::filter(variable_name == 'IMD - Average score')
     return(data)
 }
 
