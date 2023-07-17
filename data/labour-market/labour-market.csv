@@ -1,0 +1,235 @@
+date,geography_code,geography_name,variable_code,variable_name,value
+2022-12-01,E06000005,Darlington,18,Economic activity rate - aged 16-64,79.1
+2022-12-01,E06000005,Darlington,84,Unemployment rate - aged 16-64,3.1
+2022-12-01,E06000005,Darlington,111,% who are economically inactive - aged 16-64,20.9
+2022-12-01,E06000047,County Durham,18,Economic activity rate - aged 16-64,75.7
+2022-12-01,E06000047,County Durham,84,Unemployment rate - aged 16-64,4.6
+2022-12-01,E06000047,County Durham,111,% who are economically inactive - aged 16-64,24.3
+2022-12-01,E06000001,Hartlepool,18,Economic activity rate - aged 16-64,72.7
+2022-12-01,E06000001,Hartlepool,84,Unemployment rate - aged 16-64,6.2
+2022-12-01,E06000001,Hartlepool,111,% who are economically inactive - aged 16-64,27.3
+2022-12-01,E06000002,Middlesbrough,18,Economic activity rate - aged 16-64,70.7
+2022-12-01,E06000002,Middlesbrough,84,Unemployment rate - aged 16-64,6.8
+2022-12-01,E06000002,Middlesbrough,111,% who are economically inactive - aged 16-64,29.3
+2022-12-01,E06000057,Northumberland,18,Economic activity rate - aged 16-64,74.2
+2022-12-01,E06000057,Northumberland,84,Unemployment rate - aged 16-64,5
+2022-12-01,E06000057,Northumberland,111,% who are economically inactive - aged 16-64,25.8
+2022-12-01,E06000003,Redcar and Cleveland,18,Economic activity rate - aged 16-64,71.5
+2022-12-01,E06000003,Redcar and Cleveland,84,Unemployment rate - aged 16-64,2.4
+2022-12-01,E06000003,Redcar and Cleveland,111,% who are economically inactive - aged 16-64,28.5
+2022-12-01,E06000004,Stockton-on-Tees,18,Economic activity rate - aged 16-64,76.4
+2022-12-01,E06000004,Stockton-on-Tees,84,Unemployment rate - aged 16-64,3.6
+2022-12-01,E06000004,Stockton-on-Tees,111,% who are economically inactive - aged 16-64,23.6
+2022-12-01,E08000037,Gateshead,18,Economic activity rate - aged 16-64,73.4
+2022-12-01,E08000037,Gateshead,84,Unemployment rate - aged 16-64,3.8
+2022-12-01,E08000037,Gateshead,111,% who are economically inactive - aged 16-64,26.6
+2022-12-01,E08000021,Newcastle upon Tyne,18,Economic activity rate - aged 16-64,70.6
+2022-12-01,E08000021,Newcastle upon Tyne,84,Unemployment rate - aged 16-64,4.2
+2022-12-01,E08000021,Newcastle upon Tyne,111,% who are economically inactive - aged 16-64,29.4
+2022-12-01,E08000022,North Tyneside,18,Economic activity rate - aged 16-64,78.8
+2022-12-01,E08000022,North Tyneside,84,Unemployment rate - aged 16-64,4.9
+2022-12-01,E08000022,North Tyneside,111,% who are economically inactive - aged 16-64,21.2
+2022-12-01,E08000023,South Tyneside,18,Economic activity rate - aged 16-64,69.4
+2022-12-01,E08000023,South Tyneside,84,Unemployment rate - aged 16-64,10.6
+2022-12-01,E08000023,South Tyneside,111,% who are economically inactive - aged 16-64,30.6
+2022-12-01,E08000024,Sunderland,18,Economic activity rate - aged 16-64,73.7
+2022-12-01,E08000024,Sunderland,84,Unemployment rate - aged 16-64,3.7
+2022-12-01,E08000024,Sunderland,111,% who are economically inactive - aged 16-64,26.3
+2022-12-01,E06000008,Blackburn with Darwen,18,Economic activity rate - aged 16-64,72.6
+2022-12-01,E06000008,Blackburn with Darwen,84,Unemployment rate - aged 16-64,4.7
+2022-12-01,E06000008,Blackburn with Darwen,111,% who are economically inactive - aged 16-64,27.4
+2022-12-01,E06000009,Blackpool,18,Economic activity rate - aged 16-64,76.8
+2022-12-01,E06000009,Blackpool,84,Unemployment rate - aged 16-64,6
+2022-12-01,E06000009,Blackpool,111,% who are economically inactive - aged 16-64,23.2
+2022-12-01,E06000049,Cheshire East,18,Economic activity rate - aged 16-64,82.3
+2022-12-01,E06000049,Cheshire East,84,Unemployment rate - aged 16-64,4.1
+2022-12-01,E06000049,Cheshire East,111,% who are economically inactive - aged 16-64,17.7
+2022-12-01,E06000050,Cheshire West and Chester,18,Economic activity rate - aged 16-64,74.4
+2022-12-01,E06000050,Cheshire West and Chester,84,Unemployment rate - aged 16-64,2.6
+2022-12-01,E06000050,Cheshire West and Chester,111,% who are economically inactive - aged 16-64,25.6
+2022-12-01,E06000006,Halton,18,Economic activity rate - aged 16-64,79.7
+2022-12-01,E06000006,Halton,84,Unemployment rate - aged 16-64,2.5
+2022-12-01,E06000006,Halton,111,% who are economically inactive - aged 16-64,20.3
+2022-12-01,E06000007,Warrington,18,Economic activity rate - aged 16-64,79.6
+2022-12-01,E06000007,Warrington,84,Unemployment rate - aged 16-64,2.3
+2022-12-01,E06000007,Warrington,111,% who are economically inactive - aged 16-64,20.4
+2022-12-01,E07000026,Allerdale,18,Economic activity rate - aged 16-64,82.6
+2022-12-01,E07000026,Allerdale,84,Unemployment rate - aged 16-64,5.8
+2022-12-01,E07000026,Allerdale,111,% who are economically inactive - aged 16-64,17.4
+2022-12-01,E07000027,Barrow-in-Furness,18,Economic activity rate - aged 16-64,67.3
+2022-12-01,E07000027,Barrow-in-Furness,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000027,Barrow-in-Furness,111,% who are economically inactive - aged 16-64,32.7
+2022-12-01,E07000028,Carlisle,18,Economic activity rate - aged 16-64,83.2
+2022-12-01,E07000028,Carlisle,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000028,Carlisle,111,% who are economically inactive - aged 16-64,16.8
+2022-12-01,E07000029,Copeland,18,Economic activity rate - aged 16-64,79.9
+2022-12-01,E07000029,Copeland,84,Unemployment rate - aged 16-64,7.9
+2022-12-01,E07000029,Copeland,111,% who are economically inactive - aged 16-64,20.1
+2022-12-01,E07000030,Eden,18,Economic activity rate - aged 16-64,81.9
+2022-12-01,E07000030,Eden,84,Unemployment rate - aged 16-64,7.4
+2022-12-01,E07000030,Eden,111,% who are economically inactive - aged 16-64,18.1
+2022-12-01,E07000031,South Lakeland,18,Economic activity rate - aged 16-64,83.1
+2022-12-01,E07000031,South Lakeland,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000031,South Lakeland,111,% who are economically inactive - aged 16-64,16.9
+2022-12-01,E08000001,Bolton,18,Economic activity rate - aged 16-64,73.8
+2022-12-01,E08000001,Bolton,84,Unemployment rate - aged 16-64,6
+2022-12-01,E08000001,Bolton,111,% who are economically inactive - aged 16-64,26.2
+2022-12-01,E08000002,Bury,18,Economic activity rate - aged 16-64,81.5
+2022-12-01,E08000002,Bury,84,Unemployment rate - aged 16-64,2.7
+2022-12-01,E08000002,Bury,111,% who are economically inactive - aged 16-64,18.5
+2022-12-01,E08000003,Manchester,18,Economic activity rate - aged 16-64,72.1
+2022-12-01,E08000003,Manchester,84,Unemployment rate - aged 16-64,6
+2022-12-01,E08000003,Manchester,111,% who are economically inactive - aged 16-64,27.9
+2022-12-01,E08000004,Oldham,18,Economic activity rate - aged 16-64,76
+2022-12-01,E08000004,Oldham,84,Unemployment rate - aged 16-64,3.1
+2022-12-01,E08000004,Oldham,111,% who are economically inactive - aged 16-64,24
+2022-12-01,E08000005,Rochdale,18,Economic activity rate - aged 16-64,69.1
+2022-12-01,E08000005,Rochdale,84,Unemployment rate - aged 16-64,2.8
+2022-12-01,E08000005,Rochdale,111,% who are economically inactive - aged 16-64,30.9
+2022-12-01,E08000006,Salford,18,Economic activity rate - aged 16-64,75
+2022-12-01,E08000006,Salford,84,Unemployment rate - aged 16-64,7.1
+2022-12-01,E08000006,Salford,111,% who are economically inactive - aged 16-64,25
+2022-12-01,E08000007,Stockport,18,Economic activity rate - aged 16-64,82.9
+2022-12-01,E08000007,Stockport,84,Unemployment rate - aged 16-64,5.1
+2022-12-01,E08000007,Stockport,111,% who are economically inactive - aged 16-64,17.1
+2022-12-01,E08000008,Tameside,18,Economic activity rate - aged 16-64,78.4
+2022-12-01,E08000008,Tameside,84,Unemployment rate - aged 16-64,3.7
+2022-12-01,E08000008,Tameside,111,% who are economically inactive - aged 16-64,21.6
+2022-12-01,E08000009,Trafford,18,Economic activity rate - aged 16-64,77.2
+2022-12-01,E08000009,Trafford,84,Unemployment rate - aged 16-64,4.5
+2022-12-01,E08000009,Trafford,111,% who are economically inactive - aged 16-64,22.8
+2022-12-01,E08000010,Wigan,18,Economic activity rate - aged 16-64,80.7
+2022-12-01,E08000010,Wigan,84,Unemployment rate - aged 16-64,5.9
+2022-12-01,E08000010,Wigan,111,% who are economically inactive - aged 16-64,19.3
+2022-12-01,E07000117,Burnley,18,Economic activity rate - aged 16-64,71.3
+2022-12-01,E07000117,Burnley,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000117,Burnley,111,% who are economically inactive - aged 16-64,28.7
+2022-12-01,E07000118,Chorley,18,Economic activity rate - aged 16-64,73.3
+2022-12-01,E07000118,Chorley,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000118,Chorley,111,% who are economically inactive - aged 16-64,26.7
+2022-12-01,E07000119,Fylde,18,Economic activity rate - aged 16-64,79.8
+2022-12-01,E07000119,Fylde,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000119,Fylde,111,% who are economically inactive - aged 16-64,20.2
+2022-12-01,E07000120,Hyndburn,18,Economic activity rate - aged 16-64,79.5
+2022-12-01,E07000120,Hyndburn,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000120,Hyndburn,111,% who are economically inactive - aged 16-64,20.5
+2022-12-01,E07000121,Lancaster,18,Economic activity rate - aged 16-64,77.8
+2022-12-01,E07000121,Lancaster,84,Unemployment rate - aged 16-64,4.4
+2022-12-01,E07000121,Lancaster,111,% who are economically inactive - aged 16-64,22.2
+2022-12-01,E07000122,Pendle,18,Economic activity rate - aged 16-64,70
+2022-12-01,E07000122,Pendle,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000122,Pendle,111,% who are economically inactive - aged 16-64,30
+2022-12-01,E07000123,Preston,18,Economic activity rate - aged 16-64,73.1
+2022-12-01,E07000123,Preston,84,Unemployment rate - aged 16-64,5.5
+2022-12-01,E07000123,Preston,111,% who are economically inactive - aged 16-64,26.9
+2022-12-01,E07000124,Ribble Valley,18,Economic activity rate - aged 16-64,80.9
+2022-12-01,E07000124,Ribble Valley,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000124,Ribble Valley,111,% who are economically inactive - aged 16-64,19.1
+2022-12-01,E07000125,Rossendale,18,Economic activity rate - aged 16-64,82.6
+2022-12-01,E07000125,Rossendale,84,Unemployment rate - aged 16-64,7.3
+2022-12-01,E07000125,Rossendale,111,% who are economically inactive - aged 16-64,17.4
+2022-12-01,E07000126,South Ribble,18,Economic activity rate - aged 16-64,87.8
+2022-12-01,E07000126,South Ribble,84,Unemployment rate - aged 16-64,3.6
+2022-12-01,E07000126,South Ribble,111,% who are economically inactive - aged 16-64,12.2
+2022-12-01,E07000127,West Lancashire,18,Economic activity rate - aged 16-64,73
+2022-12-01,E07000127,West Lancashire,84,Unemployment rate - aged 16-64,6.3
+2022-12-01,E07000127,West Lancashire,111,% who are economically inactive - aged 16-64,27
+2022-12-01,E07000128,Wyre,18,Economic activity rate - aged 16-64,73.9
+2022-12-01,E07000128,Wyre,84,Unemployment rate - aged 16-64,5.2
+2022-12-01,E07000128,Wyre,111,% who are economically inactive - aged 16-64,26.1
+2022-12-01,E08000011,Knowsley,18,Economic activity rate - aged 16-64,78.2
+2022-12-01,E08000011,Knowsley,84,Unemployment rate - aged 16-64,3.1
+2022-12-01,E08000011,Knowsley,111,% who are economically inactive - aged 16-64,21.8
+2022-12-01,E08000012,Liverpool,18,Economic activity rate - aged 16-64,71.9
+2022-12-01,E08000012,Liverpool,84,Unemployment rate - aged 16-64,2.7
+2022-12-01,E08000012,Liverpool,111,% who are economically inactive - aged 16-64,28.1
+2022-12-01,E08000014,Sefton,18,Economic activity rate - aged 16-64,77.6
+2022-12-01,E08000014,Sefton,84,Unemployment rate - aged 16-64,4.3
+2022-12-01,E08000014,Sefton,111,% who are economically inactive - aged 16-64,22.4
+2022-12-01,E08000013,St. Helens,18,Economic activity rate - aged 16-64,76.1
+2022-12-01,E08000013,St. Helens,84,Unemployment rate - aged 16-64,3.3
+2022-12-01,E08000013,St. Helens,111,% who are economically inactive - aged 16-64,23.9
+2022-12-01,E08000015,Wirral,18,Economic activity rate - aged 16-64,79.2
+2022-12-01,E08000015,Wirral,84,Unemployment rate - aged 16-64,3
+2022-12-01,E08000015,Wirral,111,% who are economically inactive - aged 16-64,20.8
+2022-12-01,E06000011,East Riding of Yorkshire,18,Economic activity rate - aged 16-64,79.7
+2022-12-01,E06000011,East Riding of Yorkshire,84,Unemployment rate - aged 16-64,2.6
+2022-12-01,E06000011,East Riding of Yorkshire,111,% who are economically inactive - aged 16-64,20.3
+2022-12-01,E06000010,"Kingston upon Hull, City of",18,Economic activity rate - aged 16-64,74.8
+2022-12-01,E06000010,"Kingston upon Hull, City of",84,Unemployment rate - aged 16-64,6.1
+2022-12-01,E06000010,"Kingston upon Hull, City of",111,% who are economically inactive - aged 16-64,25.2
+2022-12-01,E06000012,North East Lincolnshire,18,Economic activity rate - aged 16-64,74.1
+2022-12-01,E06000012,North East Lincolnshire,84,Unemployment rate - aged 16-64,3.2
+2022-12-01,E06000012,North East Lincolnshire,111,% who are economically inactive - aged 16-64,25.9
+2022-12-01,E06000013,North Lincolnshire,18,Economic activity rate - aged 16-64,80.2
+2022-12-01,E06000013,North Lincolnshire,84,Unemployment rate - aged 16-64,2.4
+2022-12-01,E06000013,North Lincolnshire,111,% who are economically inactive - aged 16-64,19.8
+2022-12-01,E06000014,York,18,Economic activity rate - aged 16-64,86.5
+2022-12-01,E06000014,York,84,Unemployment rate - aged 16-64,1.2
+2022-12-01,E06000014,York,111,% who are economically inactive - aged 16-64,13.5
+2022-12-01,E07000163,Craven,18,Economic activity rate - aged 16-64,73.9
+2022-12-01,E07000163,Craven,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000163,Craven,111,% who are economically inactive - aged 16-64,26.1
+2022-12-01,E07000164,Hambleton,18,Economic activity rate - aged 16-64,82.8
+2022-12-01,E07000164,Hambleton,84,Unemployment rate - aged 16-64,4.6
+2022-12-01,E07000164,Hambleton,111,% who are economically inactive - aged 16-64,17.2
+2022-12-01,E07000165,Harrogate,18,Economic activity rate - aged 16-64,82.2
+2022-12-01,E07000165,Harrogate,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000165,Harrogate,111,% who are economically inactive - aged 16-64,17.8
+2022-12-01,E07000166,Richmondshire,18,Economic activity rate - aged 16-64,83.9
+2022-12-01,E07000166,Richmondshire,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000166,Richmondshire,111,% who are economically inactive - aged 16-64,16.1
+2022-12-01,E07000167,Ryedale,18,Economic activity rate - aged 16-64,80
+2022-12-01,E07000167,Ryedale,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000167,Ryedale,111,% who are economically inactive - aged 16-64,20
+2022-12-01,E07000168,Scarborough,18,Economic activity rate - aged 16-64,74.7
+2022-12-01,E07000168,Scarborough,84,Unemployment rate - aged 16-64,4.1
+2022-12-01,E07000168,Scarborough,111,% who are economically inactive - aged 16-64,25.3
+2022-12-01,E07000169,Selby,18,Economic activity rate - aged 16-64,80.9
+2022-12-01,E07000169,Selby,84,Unemployment rate - aged 16-64,NA
+2022-12-01,E07000169,Selby,111,% who are economically inactive - aged 16-64,19.1
+2022-12-01,E08000016,Barnsley,18,Economic activity rate - aged 16-64,76.1
+2022-12-01,E08000016,Barnsley,84,Unemployment rate - aged 16-64,2.7
+2022-12-01,E08000016,Barnsley,111,% who are economically inactive - aged 16-64,23.9
+2022-12-01,E08000017,Doncaster,18,Economic activity rate - aged 16-64,76.6
+2022-12-01,E08000017,Doncaster,84,Unemployment rate - aged 16-64,3.4
+2022-12-01,E08000017,Doncaster,111,% who are economically inactive - aged 16-64,23.4
+2022-12-01,E08000018,Rotherham,18,Economic activity rate - aged 16-64,75.1
+2022-12-01,E08000018,Rotherham,84,Unemployment rate - aged 16-64,2.5
+2022-12-01,E08000018,Rotherham,111,% who are economically inactive - aged 16-64,24.9
+2022-12-01,E08000019,Sheffield,18,Economic activity rate - aged 16-64,78.3
+2022-12-01,E08000019,Sheffield,84,Unemployment rate - aged 16-64,7
+2022-12-01,E08000019,Sheffield,111,% who are economically inactive - aged 16-64,21.7
+2022-12-01,E08000032,Bradford,18,Economic activity rate - aged 16-64,74.6
+2022-12-01,E08000032,Bradford,84,Unemployment rate - aged 16-64,5.6
+2022-12-01,E08000032,Bradford,111,% who are economically inactive - aged 16-64,25.4
+2022-12-01,E08000033,Calderdale,18,Economic activity rate - aged 16-64,76.2
+2022-12-01,E08000033,Calderdale,84,Unemployment rate - aged 16-64,4.5
+2022-12-01,E08000033,Calderdale,111,% who are economically inactive - aged 16-64,23.8
+2022-12-01,E08000034,Kirklees,18,Economic activity rate - aged 16-64,73.3
+2022-12-01,E08000034,Kirklees,84,Unemployment rate - aged 16-64,4.1
+2022-12-01,E08000034,Kirklees,111,% who are economically inactive - aged 16-64,26.7
+2022-12-01,E08000035,Leeds,18,Economic activity rate - aged 16-64,79.3
+2022-12-01,E08000035,Leeds,84,Unemployment rate - aged 16-64,2.5
+2022-12-01,E08000035,Leeds,111,% who are economically inactive - aged 16-64,20.7
+2022-12-01,E08000036,Wakefield,18,Economic activity rate - aged 16-64,74.4
+2022-12-01,E08000036,Wakefield,84,Unemployment rate - aged 16-64,2.2
+2022-12-01,E08000036,Wakefield,111,% who are economically inactive - aged 16-64,25.6
+2022-12-01,E10000006,Cumbria,18,Economic activity rate - aged 16-64,80.3
+2022-12-01,E10000006,Cumbria,84,Unemployment rate - aged 16-64,4.4
+2022-12-01,E10000006,Cumbria,111,% who are economically inactive - aged 16-64,19.7
+2022-12-01,E10000017,Lancashire,18,Economic activity rate - aged 16-64,76.5
+2022-12-01,E10000017,Lancashire,84,Unemployment rate - aged 16-64,3.9
+2022-12-01,E10000017,Lancashire,111,% who are economically inactive - aged 16-64,23.5
+2022-12-01,E10000023,North Yorkshire,18,Economic activity rate - aged 16-64,80
+2022-12-01,E10000023,North Yorkshire,84,Unemployment rate - aged 16-64,2
+2022-12-01,E10000023,North Yorkshire,111,% who are economically inactive - aged 16-64,20
+2022-12-01,E12000001,North East,18,Economic activity rate - aged 16-64,74
+2022-12-01,E12000001,North East,84,Unemployment rate - aged 16-64,4.7
+2022-12-01,E12000001,North East,111,% who are economically inactive - aged 16-64,26
+2022-12-01,E12000002,North West,18,Economic activity rate - aged 16-64,76.7
+2022-12-01,E12000002,North West,84,Unemployment rate - aged 16-64,4.1
+2022-12-01,E12000002,North West,111,% who are economically inactive - aged 16-64,23.3
+2022-12-01,E12000003,Yorkshire and The Humber,18,Economic activity rate - aged 16-64,77.4
+2022-12-01,E12000003,Yorkshire and The Humber,84,Unemployment rate - aged 16-64,3.6
+2022-12-01,E12000003,Yorkshire and The Humber,111,% who are economically inactive - aged 16-64,22.6
