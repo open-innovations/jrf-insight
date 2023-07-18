@@ -17,6 +17,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 
 {% set population = this_place_data['Number of persons'] %}
 {% set area = this_place_data['Area in sq km'] | round(-1) %}
+{% set population_density = (
+  this_place_data['Number of persons'] / this_place_data['Area in sq km']
+) | round(0) %}
 
 {% comp 'layout.two_column' %}
   {% comp 'layout.stack' %}
@@ -27,8 +30,8 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     }) | safe }}
 
     {{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
+      number: population_density,
+      display: population_density + ' population per square km',
       description: 'POPULATION DENSITY'
     }) | safe }}
 
@@ -60,8 +63,8 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     }) | safe }}
 
     {{ comp.info.headline({
-      number: 0,
-      display: 0,
+      number: this_place_data['imd_older_people'],
+      display: this_place_data['imd_older_people'],
       description: 'IMD - OLDER PEOPLE (OR MAYBE PENSION CREDIT)'
     }) | safe }}
 
