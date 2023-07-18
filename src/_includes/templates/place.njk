@@ -27,9 +27,33 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     }) | safe }}
 
     {{ comp.info.headline({
-      number: area,
-      display: area + ' square km',
-      description: 'The area of ' + title + ' is <span data-number='+ area +'>'+ area +'</span> square km.'
+      number: 'NA',
+      display: 'NA',
+      description: 'POPULATION DENSITY'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 'NA',
+      display: 'NA',
+      description: 'URBAN VS RURAL'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 'NA',
+      display: 'NA',
+      description: 'EMPLOYMENT'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 'NA',
+      display: 'NA',
+      description: 'HOUSEHOLD INCOME - GDHI'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 'NA',
+      display: 'NA',
+      description: 'HOURLY WAGE'
     }) | safe }}
   {% endcomp %}
 
@@ -37,19 +61,19 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     {{ comp.info.headline({
       number: 0,
       display: 0,
-      description: 'IMD - children'
+      description: 'CHILD POVERTY (FROM LOUGHBOROUGH)'
     }) | safe }}
 
     {{ comp.info.headline({
       number: 0,
       display: 0,
-      description: 'IMD - old-people'
+      description: 'IMD - OLDER PEOPLE'
     }) | safe }}
 
     {{ comp.info.headline({
       number: 0,
       display: 0,
-      description: 'IMD - health'
+      description: 'IMD - HEALTH'
     }) | safe }}
   {% endcomp %}
 {% endcomp %}

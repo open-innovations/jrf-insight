@@ -1,3 +1,13 @@
+---
+css: |
+  .grid-block {
+    &.headline {
+      text-align: center;
+      color: white;
+      background: var(--jrf-pink);
+    }
+  }
+---
 {% comp 'grid.block', { classes: 'headline' } %}
   <p class="big-number" data-number={{ number | safe }}>
      {{ display | safe }}
