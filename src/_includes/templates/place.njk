@@ -191,10 +191,13 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <tr>
   <th>Area</th>
   <th>Children in poverty</th>
-  <th>Number of Children</th>
-  <th>IMD average Score</th>
+  <th>Number of children</th>
+  <th>IMD average score</th>
+  <th>IMD - children</th>
+  <th>IMD - older people</th>
   <th>Households in poverty</th>
   <th>Unemployment rate aged 16-64 (%)</th>
+  <th>Economically inactive (%)</th>
 </tr>
 </thead>
 {% if (relations.children | length) > 0 %}
@@ -202,9 +205,12 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <td>{{ title }} ({{ type }})</td>
 <td>{{ query.getPlaceData(key)[0]['children_in_low_income'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['number_of_children'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['IMD - average score'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['IMD'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['imd_children'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['imd_older_people'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['Households in poverty'] }}</td>
 <td>{{ query.getPlaceData(key)[0]['unemployment_rate_16_64'] }}</td>
+<td>{{ query.getPlaceData(key)[0]['economic_inactivity_16_64'] }}</td>
 </tr>
 {% endif %}
 {% for row in place_data %}
@@ -212,9 +218,12 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 <td>{{ row.name }} ({{ row.type }})</td>
 <td>{{ row['children_in_low_income'] }}</td>
 <td>{{ row['number_of_children'] }}</td>
-<td>{{ row['IMD - average score'] }}</td>
+<td>{{ row['IMD'] }}</td>
+<td>{{ row['imd_children'] }}</td>
+<td>{{ row['imd_older_people'] }}</td>
 <td>{{ row['Households in poverty'] }}</td>
 <td>{{ row['unemployment_rate_16_64'] }}</td>
+<td>{{ row['economic_inactivity_16_64'] }}</td>
 </tr>
 {% endfor %}
 </table>
