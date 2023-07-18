@@ -17,8 +17,8 @@ stages:
       size: 59478
     - path: ../../data/population-estimates/population-estimates.csv
       hash: md5
-      md5: bf1451d5a25a965e894339acccde6f8d
-      size: 679232
+      md5: 9f52f5f7a87a63acc0285c88ddc974e0
+      size: 12002252
     - path: geo.py
       hash: md5
       md5: 83af2d3c5fa6cb3e594c1187fb6f069a
@@ -33,18 +33,18 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: a81fc69bbad20c5c6bdbd3571948714e
-      size: 48262
+      md5: 672897a9e2bfed8aeb5f3f9857f4b633
+      size: 53447
     outs:
     - path: ../../data/interim/place_data.json
       hash: md5
-      md5: d6c5963f21968a702781e984cdbe1314
-      size: 814607
+      md5: fa11e522d127738e3b7d0ce6e0638fbe
+      size: 986507
       isexec: true
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: becd94ee331b54dcb5d5338dc8e3f9cb
-      size: 87874
+      md5: d3f8141727f665edb7d5e8efebc22beb
+      size: 100548
       isexec: true
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
@@ -117,8 +117,8 @@ stages:
     deps:
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: becd94ee331b54dcb5d5338dc8e3f9cb
-      size: 87874
+      md5: d3f8141727f665edb7d5e8efebc22beb
+      size: 100548
     - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: c38a063053d64182e5d08d6a519268c1
