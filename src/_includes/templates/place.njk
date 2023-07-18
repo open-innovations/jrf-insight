@@ -50,11 +50,6 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
       description: 'HOUSEHOLD INCOME - GDHI'
     }) | safe }}
 
-    {{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
-      description: 'HOURLY WAGE'
-    }) | safe }}
   {% endcomp %}
 
   {% comp 'layout.stack' %}
@@ -67,14 +62,33 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     {{ comp.info.headline({
       number: 0,
       display: 0,
-      description: 'IMD - OLDER PEOPLE'
+      description: 'IMD - OLDER PEOPLE (OR MAYBE PENSION CREDIT)'
     }) | safe }}
 
     {{ comp.info.headline({
       number: 0,
       display: 0,
-      description: 'IMD - HEALTH'
+      description: 'IMD - OVERALL'
     }) | safe }}
+
+    {{ comp.info.headline({
+      number: 'NA',
+      display: 'NA',
+      description: 'PROPORTION BELOW / ABOVE LIVING WAGE'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 0,
+      display: 0,
+      description: 'PHE FINGERTIPS / ONS LONG TERM CONDITIONS'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: 0,
+      display: 0,
+      description: 'LONELINESS AND SOCIAL ISOLATION'
+    }) | safe }}
+
   {% endcomp %}
 {% endcomp %}
 
