@@ -16,7 +16,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
 
 {% set population = this_place_data['Number of persons'] %}
-{% set area = this_place_data['Area in sq km'] %}
+{% set area = this_place_data['Area in sq km'] | round(-1) %}
 
 {% comp 'layout.two_column' %}
   {% comp 'layout.stack' %}
@@ -39,11 +39,13 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
       display: 0,
       description: 'IMD - children'
     }) | safe }}
+
     {{ comp.info.headline({
       number: 0,
       display: 0,
       description: 'IMD - old-people'
     }) | safe }}
+
     {{ comp.info.headline({
       number: 0,
       display: 0,

@@ -4,5 +4,5 @@ body {
 }
 
 .big-number {
-  font-size: min(17vw, 4em);
+  font-size: min(17vw, 2em);
 }

@@ -1,8 +1,18 @@
 ---
 css: |
   .two-column {
-    display: flex;
-    gap: 1.5rem;
+    display: grid;
+    grid-gap: 1.5rem;
+
+    @supports (width: min(250px, 100%)) {
+      & {
+        grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+      }
+    }
+  
+    & > * {
+      min-width: 50%;
+    }
   }
 ---
 <div class="two-column">
