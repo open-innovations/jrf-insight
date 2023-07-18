@@ -1,344 +1,1030 @@
-geography_code,geography_name,variable_name,value
-E06000001,Hartlepool,IMD - Average score,35.037
-E06000002,Middlesbrough,IMD - Average score,40.46
-E06000003,Redcar and Cleveland,IMD - Average score,29.792
-E06000004,Stockton-on-Tees,IMD - Average score,25.79
-E06000005,Darlington,IMD - Average score,25.657
-E06000006,Halton,IMD - Average score,32.325
-E06000007,Warrington,IMD - Average score,18.942
-E06000008,Blackburn with Darwen,IMD - Average score,36.013
-E06000009,Blackpool,IMD - Average score,45.039
-E06000010,"Kingston upon Hull, City of",IMD - Average score,40.564
-E06000011,East Riding of Yorkshire,IMD - Average score,15.605
-E06000012,North East Lincolnshire,IMD - Average score,31.335
-E06000013,North Lincolnshire,IMD - Average score,22.096
-E06000014,York,IMD - Average score,11.727
-E06000015,Derby,IMD - Average score,26.323
-E06000016,Leicester,IMD - Average score,30.877
-E06000017,Rutland,IMD - Average score,8.381
-E06000018,Nottingham,IMD - Average score,34.891
-E06000019,"Herefordshire, County of",IMD - Average score,18.89
-E06000020,Telford and Wrekin,IMD - Average score,24.988
-E06000021,Stoke-on-Trent,IMD - Average score,34.504
-E06000022,Bath and North East Somerset,IMD - Average score,11.745
-E06000023,"Bristol, City of",IMD - Average score,26.363
-E06000024,North Somerset,IMD - Average score,15.825
-E06000025,South Gloucestershire,IMD - Average score,11.66
-E06000026,Plymouth,IMD - Average score,26.619
-E06000027,Torbay,IMD - Average score,28.104
-E06000030,Swindon,IMD - Average score,18.622
-E06000031,Peterborough,IMD - Average score,27.821
-E06000032,Luton,IMD - Average score,25.908
-E06000033,Southend-on-Sea,IMD - Average score,22.375
-E06000034,Thurrock,IMD - Average score,20.928
-E06000035,Medway,IMD - Average score,23.936
-E06000036,Bracknell Forest,IMD - Average score,10.241
-E06000037,West Berkshire,IMD - Average score,9.952
-E06000038,Reading,IMD - Average score,19.619
-E06000039,Slough,IMD - Average score,22.965
-E06000040,Windsor and Maidenhead,IMD - Average score,8.376
-E06000041,Wokingham,IMD - Average score,5.846
-E06000042,Milton Keynes,IMD - Average score,17.98
-E06000043,Brighton and Hove,IMD - Average score,20.761
-E06000044,Portsmouth,IMD - Average score,26.899
-E06000045,Southampton,IMD - Average score,26.876
-E06000046,Isle of Wight,IMD - Average score,23.294
-E06000047,County Durham,IMD - Average score,26.793
-E06000049,Cheshire East,IMD - Average score,14.475
-E06000050,Cheshire West and Chester,IMD - Average score,18.083
-E06000051,Shropshire,IMD - Average score,17.153
-E06000052,Cornwall,IMD - Average score,23.072
-E06000053,Isles of Scilly,IMD - Average score,12.005
-E06000054,Wiltshire,IMD - Average score,13.447
-E06000055,Bedford,IMD - Average score,18.932
-E06000056,Central Bedfordshire,IMD - Average score,12.152
-E06000057,Northumberland,IMD - Average score,22.079
-E06000058,"Bournemouth, Christchurch and Poole",IMD - Average score,18.173
-E06000059,Dorset,IMD - Average score,15.735
-E07000004,Aylesbury Vale,IMD - Average score,11.183
-E07000005,Chiltern,IMD - Average score,6.952
-E07000006,South Bucks,IMD - Average score,9.481
-E07000007,Wycombe,IMD - Average score,10.742
-E07000008,Cambridge,IMD - Average score,14.855
-E07000009,East Cambridgeshire,IMD - Average score,11.507
-E07000010,Fenland,IMD - Average score,25.426
-E07000011,Huntingdonshire,IMD - Average score,12.55
-E07000012,South Cambridgeshire,IMD - Average score,8.496
-E07000026,Allerdale,IMD - Average score,22.938
-E07000027,Barrow-in-Furness,IMD - Average score,31.117
-E07000028,Carlisle,IMD - Average score,21.997
-E07000029,Copeland,IMD - Average score,25.012
-E07000030,Eden,IMD - Average score,16.328
-E07000031,South Lakeland,IMD - Average score,12.501
-E07000032,Amber Valley,IMD - Average score,17.97
-E07000033,Bolsover,IMD - Average score,25.047
-E07000034,Chesterfield,IMD - Average score,24.926
-E07000035,Derbyshire Dales,IMD - Average score,11.895
-E07000036,Erewash,IMD - Average score,18.818
-E07000037,High Peak,IMD - Average score,15.642
-E07000038,North East Derbyshire,IMD - Average score,17.399
-E07000039,South Derbyshire,IMD - Average score,14.494
-E07000040,East Devon,IMD - Average score,12.764
-E07000041,Exeter,IMD - Average score,16.215
-E07000042,Mid Devon,IMD - Average score,16.928
-E07000043,North Devon,IMD - Average score,20.559
-E07000044,South Hams,IMD - Average score,13.724
-E07000045,Teignbridge,IMD - Average score,15.893
-E07000046,Torridge,IMD - Average score,23.269
-E07000047,West Devon,IMD - Average score,18.052
-E07000061,Eastbourne,IMD - Average score,22.11
-E07000062,Hastings,IMD - Average score,34.281
-E07000063,Lewes,IMD - Average score,15.758
-E07000064,Rother,IMD - Average score,19.768
-E07000065,Wealden,IMD - Average score,12.311
-E07000066,Basildon,IMD - Average score,23.243
-E07000067,Braintree,IMD - Average score,14.723
-E07000068,Brentwood,IMD - Average score,10.007
-E07000069,Castle Point,IMD - Average score,16.842
-E07000070,Chelmsford,IMD - Average score,12.221
-E07000071,Colchester,IMD - Average score,16.778
-E07000072,Epping Forest,IMD - Average score,15.068
-E07000073,Harlow,IMD - Average score,21.413
-E07000074,Maldon,IMD - Average score,14.169
-E07000075,Rochford,IMD - Average score,10.449
-E07000076,Tendring,IMD - Average score,30.484
-E07000077,Uttlesford,IMD - Average score,9.258
-E07000078,Cheltenham,IMD - Average score,14.26
-E07000079,Cotswold,IMD - Average score,11.061
-E07000080,Forest of Dean,IMD - Average score,18.013
-E07000081,Gloucester,IMD - Average score,21.807
-E07000082,Stroud,IMD - Average score,10.797
-E07000083,Tewkesbury,IMD - Average score,12.142
-E07000084,Basingstoke and Deane,IMD - Average score,12.823
-E07000085,East Hampshire,IMD - Average score,10.284
-E07000086,Eastleigh,IMD - Average score,10.192
-E07000087,Fareham,IMD - Average score,9.019
-E07000088,Gosport,IMD - Average score,20.541
-E07000089,Hart,IMD - Average score,5.544
-E07000090,Havant,IMD - Average score,21.806
-E07000091,New Forest,IMD - Average score,13.015
-E07000092,Rushmoor,IMD - Average score,15.903
-E07000093,Test Valley,IMD - Average score,11.931
-E07000094,Winchester,IMD - Average score,9.615
-E07000095,Broxbourne,IMD - Average score,17.989
-E07000096,Dacorum,IMD - Average score,13.004
-E07000098,Hertsmere,IMD - Average score,13.938
-E07000099,North Hertfordshire,IMD - Average score,11.627
-E07000102,Three Rivers,IMD - Average score,9.871
-E07000103,Watford,IMD - Average score,15.41
-E07000105,Ashford,IMD - Average score,18.546
-E07000106,Canterbury,IMD - Average score,16.798
-E07000107,Dartford,IMD - Average score,18.812
-E07000108,Dover,IMD - Average score,22.161
-E07000109,Gravesham,IMD - Average score,21.414
-E07000110,Maidstone,IMD - Average score,16.503
-E07000111,Sevenoaks,IMD - Average score,12.437
-E07000112,Folkestone and Hythe,IMD - Average score,24.149
-E07000113,Swale,IMD - Average score,27.076
-E07000114,Thanet,IMD - Average score,31.314
-E07000115,Tonbridge and Malling,IMD - Average score,13.333
-E07000116,Tunbridge Wells,IMD - Average score,11.31
-E07000117,Burnley,IMD - Average score,37.793
-E07000118,Chorley,IMD - Average score,16.863
-E07000119,Fylde,IMD - Average score,15.875
-E07000120,Hyndburn,IMD - Average score,34.333
-E07000121,Lancaster,IMD - Average score,24.165
-E07000122,Pendle,IMD - Average score,30.723
-E07000123,Preston,IMD - Average score,29.531
-E07000124,Ribble Valley,IMD - Average score,10.594
-E07000125,Rossendale,IMD - Average score,24.062
-E07000126,South Ribble,IMD - Average score,15.33
-E07000127,West Lancashire,IMD - Average score,18.645
-E07000128,Wyre,IMD - Average score,20.858
-E07000129,Blaby,IMD - Average score,10.629
-E07000130,Charnwood,IMD - Average score,13.238
-E07000131,Harborough,IMD - Average score,8.015
-E07000132,Hinckley and Bosworth,IMD - Average score,13.461
-E07000133,Melton,IMD - Average score,12.532
-E07000134,North West Leicestershire,IMD - Average score,14.573
-E07000135,Oadby and Wigston,IMD - Average score,12.958
-E07000136,Boston,IMD - Average score,22.967
-E07000137,East Lindsey,IMD - Average score,29.892
-E07000138,Lincoln,IMD - Average score,26.889
-E07000139,North Kesteven,IMD - Average score,11.553
-E07000140,South Holland,IMD - Average score,17.896
-E07000141,South Kesteven,IMD - Average score,13.499
-E07000142,West Lindsey,IMD - Average score,20.355
-E07000143,Breckland,IMD - Average score,19.614
-E07000144,Broadland,IMD - Average score,11.817
-E07000145,Great Yarmouth,IMD - Average score,33.097
-E07000146,King's Lynn and West Norfolk,IMD - Average score,23.72
-E07000147,North Norfolk,IMD - Average score,21.058
-E07000148,Norwich,IMD - Average score,27.599
-E07000149,South Norfolk,IMD - Average score,13.318
-E07000150,Corby,IMD - Average score,25.706
-E07000151,Daventry,IMD - Average score,13.184
-E07000152,East Northamptonshire,IMD - Average score,13.897
-E07000153,Kettering,IMD - Average score,19.23
-E07000154,Northampton,IMD - Average score,23.358
-E07000155,South Northamptonshire,IMD - Average score,7.652
-E07000156,Wellingborough,IMD - Average score,21.676
-E07000163,Craven,IMD - Average score,12.76
-E07000164,Hambleton,IMD - Average score,11.987
-E07000165,Harrogate,IMD - Average score,10.897
-E07000166,Richmondshire,IMD - Average score,12.135
-E07000167,Ryedale,IMD - Average score,15.665
-E07000168,Scarborough,IMD - Average score,26.28
-E07000169,Selby,IMD - Average score,12.73
-E07000170,Ashfield,IMD - Average score,26.308
-E07000171,Bassetlaw,IMD - Average score,22.588
-E07000172,Broxtowe,IMD - Average score,14.238
-E07000173,Gedling,IMD - Average score,14.894
-E07000174,Mansfield,IMD - Average score,28.503
-E07000175,Newark and Sherwood,IMD - Average score,19.227
-E07000176,Rushcliffe,IMD - Average score,7.18
-E07000177,Cherwell,IMD - Average score,14.41
-E07000178,Oxford,IMD - Average score,16.707
-E07000179,South Oxfordshire,IMD - Average score,8.459
-E07000180,Vale of White Horse,IMD - Average score,8.358
-E07000181,West Oxfordshire,IMD - Average score,8.684
-E07000187,Mendip,IMD - Average score,16.6
-E07000188,Sedgemoor,IMD - Average score,21.306
-E07000189,South Somerset,IMD - Average score,17.347
-E07000192,Cannock Chase,IMD - Average score,20.426
-E07000193,East Staffordshire,IMD - Average score,19.028
-E07000194,Lichfield,IMD - Average score,12.566
-E07000195,Newcastle-under-Lyme,IMD - Average score,18.929
-E07000196,South Staffordshire,IMD - Average score,13.124
-E07000197,Stafford,IMD - Average score,13.678
-E07000198,Staffordshire Moorlands,IMD - Average score,15.04
-E07000199,Tamworth,IMD - Average score,21.061
-E07000200,Babergh,IMD - Average score,14.267
-E07000202,Ipswich,IMD - Average score,25.89
-E07000203,Mid Suffolk,IMD - Average score,13.225
-E07000207,Elmbridge,IMD - Average score,7.944
-E07000208,Epsom and Ewell,IMD - Average score,8.833
-E07000209,Guildford,IMD - Average score,9.395
-E07000210,Mole Valley,IMD - Average score,9.511
-E07000211,Reigate and Banstead,IMD - Average score,11.276
-E07000212,Runnymede,IMD - Average score,12.012
-E07000213,Spelthorne,IMD - Average score,14.943
-E07000214,Surrey Heath,IMD - Average score,8.066
-E07000215,Tandridge,IMD - Average score,11.896
-E07000216,Waverley,IMD - Average score,7.494
-E07000217,Woking,IMD - Average score,10.804
-E07000218,North Warwickshire,IMD - Average score,17.907
-E07000219,Nuneaton and Bedworth,IMD - Average score,23.54
-E07000220,Rugby,IMD - Average score,14.119
-E07000221,Stratford-on-Avon,IMD - Average score,11.728
-E07000222,Warwick,IMD - Average score,12.005
-E07000223,Adur,IMD - Average score,17.594
-E07000224,Arun,IMD - Average score,18.638
-E07000225,Chichester,IMD - Average score,14.085
-E07000226,Crawley,IMD - Average score,18.94
-E07000227,Horsham,IMD - Average score,9.89
-E07000228,Mid Sussex,IMD - Average score,7.747
-E07000229,Worthing,IMD - Average score,17.012
-E07000234,Bromsgrove,IMD - Average score,11.697
-E07000235,Malvern Hills,IMD - Average score,16.066
-E07000236,Redditch,IMD - Average score,22.524
-E07000237,Worcester,IMD - Average score,20.414
-E07000238,Wychavon,IMD - Average score,15.766
-E07000239,Wyre Forest,IMD - Average score,22.437
-E07000240,St Albans,IMD - Average score,8.339
-E07000241,Welwyn Hatfield,IMD - Average score,14.215
-E07000242,East Hertfordshire,IMD - Average score,8.188
-E07000243,Stevenage,IMD - Average score,19.695
-E07000244,East Suffolk,IMD - Average score,19.56
-E07000245,West Suffolk,IMD - Average score,16.245
-E07000246,Somerset West and Taunton,IMD - Average score,19.142
-E08000001,Bolton,IMD - Average score,30.691
-E08000002,Bury,IMD - Average score,23.682
-E08000003,Manchester,IMD - Average score,40.005
-E08000004,Oldham,IMD - Average score,33.155
-E08000005,Rochdale,IMD - Average score,34.415
-E08000006,Salford,IMD - Average score,34.21
-E08000007,Stockport,IMD - Average score,20.826
-E08000008,Tameside,IMD - Average score,31.374
-E08000009,Trafford,IMD - Average score,16.088
-E08000010,Wigan,IMD - Average score,25.713
-E08000011,Knowsley,IMD - Average score,43.006
-E08000012,Liverpool,IMD - Average score,42.412
-E08000013,St. Helens,IMD - Average score,31.518
-E08000014,Sefton,IMD - Average score,27.035
-E08000015,Wirral,IMD - Average score,29.589
-E08000016,Barnsley,IMD - Average score,29.933
-E08000017,Doncaster,IMD - Average score,30.289
-E08000018,Rotherham,IMD - Average score,29.55
-E08000019,Sheffield,IMD - Average score,27.06
-E08000021,Newcastle upon Tyne,IMD - Average score,29.79
-E08000022,North Tyneside,IMD - Average score,22.279
-E08000023,South Tyneside,IMD - Average score,31.509
-E08000024,Sunderland,IMD - Average score,30.586
-E08000025,Birmingham,IMD - Average score,38.067
-E08000026,Coventry,IMD - Average score,25.613
-E08000027,Dudley,IMD - Average score,24.103
-E08000028,Sandwell,IMD - Average score,34.884
-E08000029,Solihull,IMD - Average score,17.37
-E08000030,Walsall,IMD - Average score,31.555
-E08000031,Wolverhampton,IMD - Average score,32.102
-E08000032,Bradford,IMD - Average score,34.666
-E08000033,Calderdale,IMD - Average score,26.351
-E08000034,Kirklees,IMD - Average score,25.151
-E08000035,Leeds,IMD - Average score,27.301
-E08000036,Wakefield,IMD - Average score,27.306
-E08000037,Gateshead,IMD - Average score,28.217
-E09000001,City of London,IMD - Average score,14.72
-E09000002,Barking and Dagenham,IMD - Average score,32.768
-E09000003,Barnet,IMD - Average score,16.148
-E09000004,Bexley,IMD - Average score,16.273
-E09000005,Brent,IMD - Average score,25.558
-E09000006,Bromley,IMD - Average score,14.163
-E09000007,Camden,IMD - Average score,20.131
-E09000008,Croydon,IMD - Average score,22.477
-E09000009,Ealing,IMD - Average score,22.71
-E09000010,Enfield,IMD - Average score,25.781
-E09000011,Greenwich,IMD - Average score,24.464
-E09000012,Hackney,IMD - Average score,32.526
-E09000013,Hammersmith and Fulham,IMD - Average score,22.27
-E09000014,Haringey,IMD - Average score,27.956
-E09000015,Harrow,IMD - Average score,15.031
-E09000016,Havering,IMD - Average score,16.789
-E09000017,Hillingdon,IMD - Average score,18.223
-E09000018,Hounslow,IMD - Average score,21.487
-E09000019,Islington,IMD - Average score,27.535
-E09000020,Kensington and Chelsea,IMD - Average score,21.526
-E09000021,Kingston upon Thames,IMD - Average score,11.381
-E09000022,Lambeth,IMD - Average score,25.422
-E09000023,Lewisham,IMD - Average score,26.661
-E09000024,Merton,IMD - Average score,14.649
-E09000025,Newham,IMD - Average score,29.577
-E09000026,Redbridge,IMD - Average score,17.203
-E09000027,Richmond upon Thames,IMD - Average score,9.425
-E09000028,Southwark,IMD - Average score,25.811
-E09000029,Sutton,IMD - Average score,13.987
-E09000030,Tower Hamlets,IMD - Average score,27.913
-E09000031,Waltham Forest,IMD - Average score,25.209
-E09000032,Wandsworth,IMD - Average score,16.611
-E09000033,Westminster,IMD - Average score,20.339
-E10000002,Buckinghamshire,IMD - Average score,10.052
-E10000003,Cambridgeshire,IMD - Average score,13.858
-E10000006,Cumbria,IMD - Average score,21.261
-E10000007,Derbyshire,IMD - Average score,18.392
-E10000008,Devon,IMD - Average score,16.607
-E10000011,East Sussex,IMD - Average score,19.77
-E10000012,Essex,IMD - Average score,17.016
-E10000013,Gloucestershire,IMD - Average score,14.932
-E10000014,Hampshire,IMD - Average score,12.693
-E10000015,Hertfordshire,IMD - Average score,12.732
-E10000016,Kent,IMD - Average score,19.538
-E10000017,Lancashire,IMD - Average score,23.443
-E10000018,Leicestershire,IMD - Average score,12.33
-E10000019,Lincolnshire,IMD - Average score,20.29
-E10000020,Norfolk,IMD - Average score,21.183
-E10000021,Northamptonshire,IMD - Average score,18.605
-E10000023,North Yorkshire,IMD - Average score,14.762
-E10000024,Nottinghamshire,IMD - Average score,18.999
-E10000025,Oxfordshire,IMD - Average score,11.656
-E10000027,Somerset,IMD - Average score,18.553
-E10000028,Staffordshire,IMD - Average score,16.567
-E10000029,Suffolk,IMD - Average score,18.46
-E10000030,Surrey,IMD - Average score,10.087
-E10000031,Warwickshire,IMD - Average score,15.64
-E10000032,West Sussex,IMD - Average score,14.429
-E10000034,Worcestershire,IMD - Average score,18.089
+dataset,geography_code,geography_name,variable_name,value
+IMD,E06000001,Hartlepool,Average score,35.037
+IMD,E06000002,Middlesbrough,Average score,40.46
+IMD,E06000003,Redcar and Cleveland,Average score,29.792
+IMD,E06000004,Stockton-on-Tees,Average score,25.79
+IMD,E06000005,Darlington,Average score,25.657
+IMD,E06000006,Halton,Average score,32.325
+IMD,E06000007,Warrington,Average score,18.942
+IMD,E06000008,Blackburn with Darwen,Average score,36.013
+IMD,E06000009,Blackpool,Average score,45.039
+IMD,E06000010,"Kingston upon Hull, City of",Average score,40.564
+IMD,E06000011,East Riding of Yorkshire,Average score,15.605
+IMD,E06000012,North East Lincolnshire,Average score,31.335
+IMD,E06000013,North Lincolnshire,Average score,22.096
+IMD,E06000014,York,Average score,11.727
+IMD,E06000015,Derby,Average score,26.323
+IMD,E06000016,Leicester,Average score,30.877
+IMD,E06000017,Rutland,Average score,8.381
+IMD,E06000018,Nottingham,Average score,34.891
+IMD,E06000019,"Herefordshire, County of",Average score,18.89
+IMD,E06000020,Telford and Wrekin,Average score,24.988
+IMD,E06000021,Stoke-on-Trent,Average score,34.504
+IMD,E06000022,Bath and North East Somerset,Average score,11.745
+IMD,E06000023,"Bristol, City of",Average score,26.363
+IMD,E06000024,North Somerset,Average score,15.825
+IMD,E06000025,South Gloucestershire,Average score,11.66
+IMD,E06000026,Plymouth,Average score,26.619
+IMD,E06000027,Torbay,Average score,28.104
+IMD,E06000030,Swindon,Average score,18.622
+IMD,E06000031,Peterborough,Average score,27.821
+IMD,E06000032,Luton,Average score,25.908
+IMD,E06000033,Southend-on-Sea,Average score,22.375
+IMD,E06000034,Thurrock,Average score,20.928
+IMD,E06000035,Medway,Average score,23.936
+IMD,E06000036,Bracknell Forest,Average score,10.241
+IMD,E06000037,West Berkshire,Average score,9.952
+IMD,E06000038,Reading,Average score,19.619
+IMD,E06000039,Slough,Average score,22.965
+IMD,E06000040,Windsor and Maidenhead,Average score,8.376
+IMD,E06000041,Wokingham,Average score,5.846
+IMD,E06000042,Milton Keynes,Average score,17.98
+IMD,E06000043,Brighton and Hove,Average score,20.761
+IMD,E06000044,Portsmouth,Average score,26.899
+IMD,E06000045,Southampton,Average score,26.876
+IMD,E06000046,Isle of Wight,Average score,23.294
+IMD,E06000047,County Durham,Average score,26.793
+IMD,E06000049,Cheshire East,Average score,14.475
+IMD,E06000050,Cheshire West and Chester,Average score,18.083
+IMD,E06000051,Shropshire,Average score,17.153
+IMD,E06000052,Cornwall,Average score,23.072
+IMD,E06000053,Isles of Scilly,Average score,12.005
+IMD,E06000054,Wiltshire,Average score,13.447
+IMD,E06000055,Bedford,Average score,18.932
+IMD,E06000056,Central Bedfordshire,Average score,12.152
+IMD,E06000057,Northumberland,Average score,22.079
+IMD,E06000058,"Bournemouth, Christchurch and Poole",Average score,18.173
+IMD,E06000059,Dorset,Average score,15.735
+IMD,E07000004,Aylesbury Vale,Average score,11.183
+IMD,E07000005,Chiltern,Average score,6.952
+IMD,E07000006,South Bucks,Average score,9.481
+IMD,E07000007,Wycombe,Average score,10.742
+IMD,E07000008,Cambridge,Average score,14.855
+IMD,E07000009,East Cambridgeshire,Average score,11.507
+IMD,E07000010,Fenland,Average score,25.426
+IMD,E07000011,Huntingdonshire,Average score,12.55
+IMD,E07000012,South Cambridgeshire,Average score,8.496
+IMD,E07000026,Allerdale,Average score,22.938
+IMD,E07000027,Barrow-in-Furness,Average score,31.117
+IMD,E07000028,Carlisle,Average score,21.997
+IMD,E07000029,Copeland,Average score,25.012
+IMD,E07000030,Eden,Average score,16.328
+IMD,E07000031,South Lakeland,Average score,12.501
+IMD,E07000032,Amber Valley,Average score,17.97
+IMD,E07000033,Bolsover,Average score,25.047
+IMD,E07000034,Chesterfield,Average score,24.926
+IMD,E07000035,Derbyshire Dales,Average score,11.895
+IMD,E07000036,Erewash,Average score,18.818
+IMD,E07000037,High Peak,Average score,15.642
+IMD,E07000038,North East Derbyshire,Average score,17.399
+IMD,E07000039,South Derbyshire,Average score,14.494
+IMD,E07000040,East Devon,Average score,12.764
+IMD,E07000041,Exeter,Average score,16.215
+IMD,E07000042,Mid Devon,Average score,16.928
+IMD,E07000043,North Devon,Average score,20.559
+IMD,E07000044,South Hams,Average score,13.724
+IMD,E07000045,Teignbridge,Average score,15.893
+IMD,E07000046,Torridge,Average score,23.269
+IMD,E07000047,West Devon,Average score,18.052
+IMD,E07000061,Eastbourne,Average score,22.11
+IMD,E07000062,Hastings,Average score,34.281
+IMD,E07000063,Lewes,Average score,15.758
+IMD,E07000064,Rother,Average score,19.768
+IMD,E07000065,Wealden,Average score,12.311
+IMD,E07000066,Basildon,Average score,23.243
+IMD,E07000067,Braintree,Average score,14.723
+IMD,E07000068,Brentwood,Average score,10.007
+IMD,E07000069,Castle Point,Average score,16.842
+IMD,E07000070,Chelmsford,Average score,12.221
+IMD,E07000071,Colchester,Average score,16.778
+IMD,E07000072,Epping Forest,Average score,15.068
+IMD,E07000073,Harlow,Average score,21.413
+IMD,E07000074,Maldon,Average score,14.169
+IMD,E07000075,Rochford,Average score,10.449
+IMD,E07000076,Tendring,Average score,30.484
+IMD,E07000077,Uttlesford,Average score,9.258
+IMD,E07000078,Cheltenham,Average score,14.26
+IMD,E07000079,Cotswold,Average score,11.061
+IMD,E07000080,Forest of Dean,Average score,18.013
+IMD,E07000081,Gloucester,Average score,21.807
+IMD,E07000082,Stroud,Average score,10.797
+IMD,E07000083,Tewkesbury,Average score,12.142
+IMD,E07000084,Basingstoke and Deane,Average score,12.823
+IMD,E07000085,East Hampshire,Average score,10.284
+IMD,E07000086,Eastleigh,Average score,10.192
+IMD,E07000087,Fareham,Average score,9.019
+IMD,E07000088,Gosport,Average score,20.541
+IMD,E07000089,Hart,Average score,5.544
+IMD,E07000090,Havant,Average score,21.806
+IMD,E07000091,New Forest,Average score,13.015
+IMD,E07000092,Rushmoor,Average score,15.903
+IMD,E07000093,Test Valley,Average score,11.931
+IMD,E07000094,Winchester,Average score,9.615
+IMD,E07000095,Broxbourne,Average score,17.989
+IMD,E07000096,Dacorum,Average score,13.004
+IMD,E07000098,Hertsmere,Average score,13.938
+IMD,E07000099,North Hertfordshire,Average score,11.627
+IMD,E07000102,Three Rivers,Average score,9.871
+IMD,E07000103,Watford,Average score,15.41
+IMD,E07000105,Ashford,Average score,18.546
+IMD,E07000106,Canterbury,Average score,16.798
+IMD,E07000107,Dartford,Average score,18.812
+IMD,E07000108,Dover,Average score,22.161
+IMD,E07000109,Gravesham,Average score,21.414
+IMD,E07000110,Maidstone,Average score,16.503
+IMD,E07000111,Sevenoaks,Average score,12.437
+IMD,E07000112,Folkestone and Hythe,Average score,24.149
+IMD,E07000113,Swale,Average score,27.076
+IMD,E07000114,Thanet,Average score,31.314
+IMD,E07000115,Tonbridge and Malling,Average score,13.333
+IMD,E07000116,Tunbridge Wells,Average score,11.31
+IMD,E07000117,Burnley,Average score,37.793
+IMD,E07000118,Chorley,Average score,16.863
+IMD,E07000119,Fylde,Average score,15.875
+IMD,E07000120,Hyndburn,Average score,34.333
+IMD,E07000121,Lancaster,Average score,24.165
+IMD,E07000122,Pendle,Average score,30.723
+IMD,E07000123,Preston,Average score,29.531
+IMD,E07000124,Ribble Valley,Average score,10.594
+IMD,E07000125,Rossendale,Average score,24.062
+IMD,E07000126,South Ribble,Average score,15.33
+IMD,E07000127,West Lancashire,Average score,18.645
+IMD,E07000128,Wyre,Average score,20.858
+IMD,E07000129,Blaby,Average score,10.629
+IMD,E07000130,Charnwood,Average score,13.238
+IMD,E07000131,Harborough,Average score,8.015
+IMD,E07000132,Hinckley and Bosworth,Average score,13.461
+IMD,E07000133,Melton,Average score,12.532
+IMD,E07000134,North West Leicestershire,Average score,14.573
+IMD,E07000135,Oadby and Wigston,Average score,12.958
+IMD,E07000136,Boston,Average score,22.967
+IMD,E07000137,East Lindsey,Average score,29.892
+IMD,E07000138,Lincoln,Average score,26.889
+IMD,E07000139,North Kesteven,Average score,11.553
+IMD,E07000140,South Holland,Average score,17.896
+IMD,E07000141,South Kesteven,Average score,13.499
+IMD,E07000142,West Lindsey,Average score,20.355
+IMD,E07000143,Breckland,Average score,19.614
+IMD,E07000144,Broadland,Average score,11.817
+IMD,E07000145,Great Yarmouth,Average score,33.097
+IMD,E07000146,King's Lynn and West Norfolk,Average score,23.72
+IMD,E07000147,North Norfolk,Average score,21.058
+IMD,E07000148,Norwich,Average score,27.599
+IMD,E07000149,South Norfolk,Average score,13.318
+IMD,E07000150,Corby,Average score,25.706
+IMD,E07000151,Daventry,Average score,13.184
+IMD,E07000152,East Northamptonshire,Average score,13.897
+IMD,E07000153,Kettering,Average score,19.23
+IMD,E07000154,Northampton,Average score,23.358
+IMD,E07000155,South Northamptonshire,Average score,7.652
+IMD,E07000156,Wellingborough,Average score,21.676
+IMD,E07000163,Craven,Average score,12.76
+IMD,E07000164,Hambleton,Average score,11.987
+IMD,E07000165,Harrogate,Average score,10.897
+IMD,E07000166,Richmondshire,Average score,12.135
+IMD,E07000167,Ryedale,Average score,15.665
+IMD,E07000168,Scarborough,Average score,26.28
+IMD,E07000169,Selby,Average score,12.73
+IMD,E07000170,Ashfield,Average score,26.308
+IMD,E07000171,Bassetlaw,Average score,22.588
+IMD,E07000172,Broxtowe,Average score,14.238
+IMD,E07000173,Gedling,Average score,14.894
+IMD,E07000174,Mansfield,Average score,28.503
+IMD,E07000175,Newark and Sherwood,Average score,19.227
+IMD,E07000176,Rushcliffe,Average score,7.18
+IMD,E07000177,Cherwell,Average score,14.41
+IMD,E07000178,Oxford,Average score,16.707
+IMD,E07000179,South Oxfordshire,Average score,8.459
+IMD,E07000180,Vale of White Horse,Average score,8.358
+IMD,E07000181,West Oxfordshire,Average score,8.684
+IMD,E07000187,Mendip,Average score,16.6
+IMD,E07000188,Sedgemoor,Average score,21.306
+IMD,E07000189,South Somerset,Average score,17.347
+IMD,E07000192,Cannock Chase,Average score,20.426
+IMD,E07000193,East Staffordshire,Average score,19.028
+IMD,E07000194,Lichfield,Average score,12.566
+IMD,E07000195,Newcastle-under-Lyme,Average score,18.929
+IMD,E07000196,South Staffordshire,Average score,13.124
+IMD,E07000197,Stafford,Average score,13.678
+IMD,E07000198,Staffordshire Moorlands,Average score,15.04
+IMD,E07000199,Tamworth,Average score,21.061
+IMD,E07000200,Babergh,Average score,14.267
+IMD,E07000202,Ipswich,Average score,25.89
+IMD,E07000203,Mid Suffolk,Average score,13.225
+IMD,E07000207,Elmbridge,Average score,7.944
+IMD,E07000208,Epsom and Ewell,Average score,8.833
+IMD,E07000209,Guildford,Average score,9.395
+IMD,E07000210,Mole Valley,Average score,9.511
+IMD,E07000211,Reigate and Banstead,Average score,11.276
+IMD,E07000212,Runnymede,Average score,12.012
+IMD,E07000213,Spelthorne,Average score,14.943
+IMD,E07000214,Surrey Heath,Average score,8.066
+IMD,E07000215,Tandridge,Average score,11.896
+IMD,E07000216,Waverley,Average score,7.494
+IMD,E07000217,Woking,Average score,10.804
+IMD,E07000218,North Warwickshire,Average score,17.907
+IMD,E07000219,Nuneaton and Bedworth,Average score,23.54
+IMD,E07000220,Rugby,Average score,14.119
+IMD,E07000221,Stratford-on-Avon,Average score,11.728
+IMD,E07000222,Warwick,Average score,12.005
+IMD,E07000223,Adur,Average score,17.594
+IMD,E07000224,Arun,Average score,18.638
+IMD,E07000225,Chichester,Average score,14.085
+IMD,E07000226,Crawley,Average score,18.94
+IMD,E07000227,Horsham,Average score,9.89
+IMD,E07000228,Mid Sussex,Average score,7.747
+IMD,E07000229,Worthing,Average score,17.012
+IMD,E07000234,Bromsgrove,Average score,11.697
+IMD,E07000235,Malvern Hills,Average score,16.066
+IMD,E07000236,Redditch,Average score,22.524
+IMD,E07000237,Worcester,Average score,20.414
+IMD,E07000238,Wychavon,Average score,15.766
+IMD,E07000239,Wyre Forest,Average score,22.437
+IMD,E07000240,St Albans,Average score,8.339
+IMD,E07000241,Welwyn Hatfield,Average score,14.215
+IMD,E07000242,East Hertfordshire,Average score,8.188
+IMD,E07000243,Stevenage,Average score,19.695
+IMD,E07000244,East Suffolk,Average score,19.56
+IMD,E07000245,West Suffolk,Average score,16.245
+IMD,E07000246,Somerset West and Taunton,Average score,19.142
+IMD,E08000001,Bolton,Average score,30.691
+IMD,E08000002,Bury,Average score,23.682
+IMD,E08000003,Manchester,Average score,40.005
+IMD,E08000004,Oldham,Average score,33.155
+IMD,E08000005,Rochdale,Average score,34.415
+IMD,E08000006,Salford,Average score,34.21
+IMD,E08000007,Stockport,Average score,20.826
+IMD,E08000008,Tameside,Average score,31.374
+IMD,E08000009,Trafford,Average score,16.088
+IMD,E08000010,Wigan,Average score,25.713
+IMD,E08000011,Knowsley,Average score,43.006
+IMD,E08000012,Liverpool,Average score,42.412
+IMD,E08000013,St. Helens,Average score,31.518
+IMD,E08000014,Sefton,Average score,27.035
+IMD,E08000015,Wirral,Average score,29.589
+IMD,E08000016,Barnsley,Average score,29.933
+IMD,E08000017,Doncaster,Average score,30.289
+IMD,E08000018,Rotherham,Average score,29.55
+IMD,E08000019,Sheffield,Average score,27.06
+IMD,E08000021,Newcastle upon Tyne,Average score,29.79
+IMD,E08000022,North Tyneside,Average score,22.279
+IMD,E08000023,South Tyneside,Average score,31.509
+IMD,E08000024,Sunderland,Average score,30.586
+IMD,E08000025,Birmingham,Average score,38.067
+IMD,E08000026,Coventry,Average score,25.613
+IMD,E08000027,Dudley,Average score,24.103
+IMD,E08000028,Sandwell,Average score,34.884
+IMD,E08000029,Solihull,Average score,17.37
+IMD,E08000030,Walsall,Average score,31.555
+IMD,E08000031,Wolverhampton,Average score,32.102
+IMD,E08000032,Bradford,Average score,34.666
+IMD,E08000033,Calderdale,Average score,26.351
+IMD,E08000034,Kirklees,Average score,25.151
+IMD,E08000035,Leeds,Average score,27.301
+IMD,E08000036,Wakefield,Average score,27.306
+IMD,E08000037,Gateshead,Average score,28.217
+IMD,E09000001,City of London,Average score,14.72
+IMD,E09000002,Barking and Dagenham,Average score,32.768
+IMD,E09000003,Barnet,Average score,16.148
+IMD,E09000004,Bexley,Average score,16.273
+IMD,E09000005,Brent,Average score,25.558
+IMD,E09000006,Bromley,Average score,14.163
+IMD,E09000007,Camden,Average score,20.131
+IMD,E09000008,Croydon,Average score,22.477
+IMD,E09000009,Ealing,Average score,22.71
+IMD,E09000010,Enfield,Average score,25.781
+IMD,E09000011,Greenwich,Average score,24.464
+IMD,E09000012,Hackney,Average score,32.526
+IMD,E09000013,Hammersmith and Fulham,Average score,22.27
+IMD,E09000014,Haringey,Average score,27.956
+IMD,E09000015,Harrow,Average score,15.031
+IMD,E09000016,Havering,Average score,16.789
+IMD,E09000017,Hillingdon,Average score,18.223
+IMD,E09000018,Hounslow,Average score,21.487
+IMD,E09000019,Islington,Average score,27.535
+IMD,E09000020,Kensington and Chelsea,Average score,21.526
+IMD,E09000021,Kingston upon Thames,Average score,11.381
+IMD,E09000022,Lambeth,Average score,25.422
+IMD,E09000023,Lewisham,Average score,26.661
+IMD,E09000024,Merton,Average score,14.649
+IMD,E09000025,Newham,Average score,29.577
+IMD,E09000026,Redbridge,Average score,17.203
+IMD,E09000027,Richmond upon Thames,Average score,9.425
+IMD,E09000028,Southwark,Average score,25.811
+IMD,E09000029,Sutton,Average score,13.987
+IMD,E09000030,Tower Hamlets,Average score,27.913
+IMD,E09000031,Waltham Forest,Average score,25.209
+IMD,E09000032,Wandsworth,Average score,16.611
+IMD,E09000033,Westminster,Average score,20.339
+IDACI,E06000001,Hartlepool,Average score,0.283
+IDACI,E06000002,Middlesbrough,Average score,0.327
+IDACI,E06000003,Redcar and Cleveland,Average score,0.256
+IDACI,E06000004,Stockton-on-Tees,Average score,0.209
+IDACI,E06000005,Darlington,Average score,0.203
+IDACI,E06000006,Halton,Average score,0.239
+IDACI,E06000007,Warrington,Average score,0.132
+IDACI,E06000008,Blackburn with Darwen,Average score,0.228
+IDACI,E06000009,Blackpool,Average score,0.307
+IDACI,E06000010,"Kingston upon Hull, City of",Average score,0.298
+IDACI,E06000011,East Riding of Yorkshire,Average score,0.118
+IDACI,E06000012,North East Lincolnshire,Average score,0.274
+IDACI,E06000013,North Lincolnshire,Average score,0.183
+IDACI,E06000014,York,Average score,0.1
+IDACI,E06000015,Derby,Average score,0.211
+IDACI,E06000016,Leicester,Average score,0.242
+IDACI,E06000017,Rutland,Average score,0.072
+IDACI,E06000018,Nottingham,Average score,0.298
+IDACI,E06000019,"Herefordshire, County of",Average score,0.124
+IDACI,E06000020,Telford and Wrekin,Average score,0.213
+IDACI,E06000021,Stoke-on-Trent,Average score,0.257
+IDACI,E06000022,Bath and North East Somerset,Average score,0.104
+IDACI,E06000023,"Bristol, City of",Average score,0.206
+IDACI,E06000024,North Somerset,Average score,0.124
+IDACI,E06000025,South Gloucestershire,Average score,0.104
+IDACI,E06000026,Plymouth,Average score,0.203
+IDACI,E06000027,Torbay,Average score,0.219
+IDACI,E06000030,Swindon,Average score,0.149
+IDACI,E06000031,Peterborough,Average score,0.208
+IDACI,E06000032,Luton,Average score,0.196
+IDACI,E06000033,Southend-on-Sea,Average score,0.192
+IDACI,E06000034,Thurrock,Average score,0.186
+IDACI,E06000035,Medway,Average score,0.189
+IDACI,E06000036,Bracknell Forest,Average score,0.089
+IDACI,E06000037,West Berkshire,Average score,0.087
+IDACI,E06000038,Reading,Average score,0.16
+IDACI,E06000039,Slough,Average score,0.147
+IDACI,E06000040,Windsor and Maidenhead,Average score,0.067
+IDACI,E06000041,Wokingham,Average score,0.056
+IDACI,E06000042,Milton Keynes,Average score,0.15
+IDACI,E06000043,Brighton and Hove,Average score,0.153
+IDACI,E06000044,Portsmouth,Average score,0.202
+IDACI,E06000045,Southampton,Average score,0.205
+IDACI,E06000046,Isle of Wight,Average score,0.18
+IDACI,E06000047,County Durham,Average score,0.222
+IDACI,E06000049,Cheshire East,Average score,0.107
+IDACI,E06000050,Cheshire West and Chester,Average score,0.145
+IDACI,E06000051,Shropshire,Average score,0.12
+IDACI,E06000052,Cornwall,Average score,0.164
+IDACI,E06000053,Isles of Scilly,Average score,0.032
+IDACI,E06000054,Wiltshire,Average score,0.102
+IDACI,E06000055,Bedford,Average score,0.151
+IDACI,E06000056,Central Bedfordshire,Average score,0.114
+IDACI,E06000057,Northumberland,Average score,0.174
+IDACI,E06000058,"Bournemouth, Christchurch and Poole",Average score,0.147
+IDACI,E06000059,Dorset,Average score,0.121
+IDACI,E07000004,Aylesbury Vale,Average score,0.089
+IDACI,E07000005,Chiltern,Average score,0.061
+IDACI,E07000006,South Bucks,Average score,0.077
+IDACI,E07000007,Wycombe,Average score,0.097
+IDACI,E07000008,Cambridge,Average score,0.122
+IDACI,E07000009,East Cambridgeshire,Average score,0.083
+IDACI,E07000010,Fenland,Average score,0.201
+IDACI,E07000011,Huntingdonshire,Average score,0.107
+IDACI,E07000012,South Cambridgeshire,Average score,0.075
+IDACI,E07000026,Allerdale,Average score,0.151
+IDACI,E07000027,Barrow-in-Furness,Average score,0.199
+IDACI,E07000028,Carlisle,Average score,0.149
+IDACI,E07000029,Copeland,Average score,0.164
+IDACI,E07000030,Eden,Average score,0.087
+IDACI,E07000031,South Lakeland,Average score,0.07
+IDACI,E07000032,Amber Valley,Average score,0.15
+IDACI,E07000033,Bolsover,Average score,0.204
+IDACI,E07000034,Chesterfield,Average score,0.202
+IDACI,E07000035,Derbyshire Dales,Average score,0.087
+IDACI,E07000036,Erewash,Average score,0.171
+IDACI,E07000037,High Peak,Average score,0.122
+IDACI,E07000038,North East Derbyshire,Average score,0.145
+IDACI,E07000039,South Derbyshire,Average score,0.114
+IDACI,E07000040,East Devon,Average score,0.104
+IDACI,E07000041,Exeter,Average score,0.136
+IDACI,E07000042,Mid Devon,Average score,0.116
+IDACI,E07000043,North Devon,Average score,0.132
+IDACI,E07000044,South Hams,Average score,0.102
+IDACI,E07000045,Teignbridge,Average score,0.129
+IDACI,E07000046,Torridge,Average score,0.156
+IDACI,E07000047,West Devon,Average score,0.121
+IDACI,E07000061,Eastbourne,Average score,0.193
+IDACI,E07000062,Hastings,Average score,0.265
+IDACI,E07000063,Lewes,Average score,0.128
+IDACI,E07000064,Rother,Average score,0.16
+IDACI,E07000065,Wealden,Average score,0.097
+IDACI,E07000066,Basildon,Average score,0.197
+IDACI,E07000067,Braintree,Average score,0.122
+IDACI,E07000068,Brentwood,Average score,0.089
+IDACI,E07000069,Castle Point,Average score,0.154
+IDACI,E07000070,Chelmsford,Average score,0.108
+IDACI,E07000071,Colchester,Average score,0.148
+IDACI,E07000072,Epping Forest,Average score,0.124
+IDACI,E07000073,Harlow,Average score,0.186
+IDACI,E07000074,Maldon,Average score,0.118
+IDACI,E07000075,Rochford,Average score,0.096
+IDACI,E07000076,Tendring,Average score,0.25
+IDACI,E07000077,Uttlesford,Average score,0.063
+IDACI,E07000078,Cheltenham,Average score,0.13
+IDACI,E07000079,Cotswold,Average score,0.083
+IDACI,E07000080,Forest of Dean,Average score,0.14
+IDACI,E07000081,Gloucester,Average score,0.174
+IDACI,E07000082,Stroud,Average score,0.095
+IDACI,E07000083,Tewkesbury,Average score,0.112
+IDACI,E07000084,Basingstoke and Deane,Average score,0.099
+IDACI,E07000085,East Hampshire,Average score,0.077
+IDACI,E07000086,Eastleigh,Average score,0.085
+IDACI,E07000087,Fareham,Average score,0.076
+IDACI,E07000088,Gosport,Average score,0.158
+IDACI,E07000089,Hart,Average score,0.055
+IDACI,E07000090,Havant,Average score,0.185
+IDACI,E07000091,New Forest,Average score,0.108
+IDACI,E07000092,Rushmoor,Average score,0.114
+IDACI,E07000093,Test Valley,Average score,0.095
+IDACI,E07000094,Winchester,Average score,0.072
+IDACI,E07000095,Broxbourne,Average score,0.155
+IDACI,E07000096,Dacorum,Average score,0.119
+IDACI,E07000098,Hertsmere,Average score,0.108
+IDACI,E07000099,North Hertfordshire,Average score,0.106
+IDACI,E07000102,Three Rivers,Average score,0.092
+IDACI,E07000103,Watford,Average score,0.115
+IDACI,E07000105,Ashford,Average score,0.154
+IDACI,E07000106,Canterbury,Average score,0.147
+IDACI,E07000107,Dartford,Average score,0.137
+IDACI,E07000108,Dover,Average score,0.194
+IDACI,E07000109,Gravesham,Average score,0.172
+IDACI,E07000110,Maidstone,Average score,0.134
+IDACI,E07000111,Sevenoaks,Average score,0.11
+IDACI,E07000112,Folkestone and Hythe,Average score,0.201
+IDACI,E07000113,Swale,Average score,0.212
+IDACI,E07000114,Thanet,Average score,0.239
+IDACI,E07000115,Tonbridge and Malling,Average score,0.114
+IDACI,E07000116,Tunbridge Wells,Average score,0.089
+IDACI,E07000117,Burnley,Average score,0.255
+IDACI,E07000118,Chorley,Average score,0.12
+IDACI,E07000119,Fylde,Average score,0.109
+IDACI,E07000120,Hyndburn,Average score,0.219
+IDACI,E07000121,Lancaster,Average score,0.175
+IDACI,E07000122,Pendle,Average score,0.184
+IDACI,E07000123,Preston,Average score,0.204
+IDACI,E07000124,Ribble Valley,Average score,0.058
+IDACI,E07000125,Rossendale,Average score,0.176
+IDACI,E07000126,South Ribble,Average score,0.118
+IDACI,E07000127,West Lancashire,Average score,0.159
+IDACI,E07000128,Wyre,Average score,0.163
+IDACI,E07000129,Blaby,Average score,0.088
+IDACI,E07000130,Charnwood,Average score,0.122
+IDACI,E07000131,Harborough,Average score,0.067
+IDACI,E07000132,Hinckley and Bosworth,Average score,0.11
+IDACI,E07000133,Melton,Average score,0.106
+IDACI,E07000134,North West Leicestershire,Average score,0.123
+IDACI,E07000135,Oadby and Wigston,Average score,0.118
+IDACI,E07000136,Boston,Average score,0.161
+IDACI,E07000137,East Lindsey,Average score,0.22
+IDACI,E07000138,Lincoln,Average score,0.231
+IDACI,E07000139,North Kesteven,Average score,0.101
+IDACI,E07000140,South Holland,Average score,0.143
+IDACI,E07000141,South Kesteven,Average score,0.129
+IDACI,E07000142,West Lindsey,Average score,0.18
+IDACI,E07000143,Breckland,Average score,0.129
+IDACI,E07000144,Broadland,Average score,0.086
+IDACI,E07000145,Great Yarmouth,Average score,0.248
+IDACI,E07000146,King's Lynn and West Norfolk,Average score,0.159
+IDACI,E07000147,North Norfolk,Average score,0.136
+IDACI,E07000148,Norwich,Average score,0.238
+IDACI,E07000149,South Norfolk,Average score,0.098
+IDACI,E07000150,Corby,Average score,0.181
+IDACI,E07000151,Daventry,Average score,0.101
+IDACI,E07000152,East Northamptonshire,Average score,0.111
+IDACI,E07000153,Kettering,Average score,0.152
+IDACI,E07000154,Northampton,Average score,0.168
+IDACI,E07000155,South Northamptonshire,Average score,0.056
+IDACI,E07000156,Wellingborough,Average score,0.176
+IDACI,E07000163,Craven,Average score,0.069
+IDACI,E07000164,Hambleton,Average score,0.086
+IDACI,E07000165,Harrogate,Average score,0.067
+IDACI,E07000166,Richmondshire,Average score,0.079
+IDACI,E07000167,Ryedale,Average score,0.107
+IDACI,E07000168,Scarborough,Average score,0.182
+IDACI,E07000169,Selby,Average score,0.104
+IDACI,E07000170,Ashfield,Average score,0.219
+IDACI,E07000171,Bassetlaw,Average score,0.164
+IDACI,E07000172,Broxtowe,Average score,0.13
+IDACI,E07000173,Gedling,Average score,0.138
+IDACI,E07000174,Mansfield,Average score,0.212
+IDACI,E07000175,Newark and Sherwood,Average score,0.153
+IDACI,E07000176,Rushcliffe,Average score,0.065
+IDACI,E07000177,Cherwell,Average score,0.105
+IDACI,E07000178,Oxford,Average score,0.158
+IDACI,E07000179,South Oxfordshire,Average score,0.074
+IDACI,E07000180,Vale of White Horse,Average score,0.08
+IDACI,E07000181,West Oxfordshire,Average score,0.079
+IDACI,E07000187,Mendip,Average score,0.123
+IDACI,E07000188,Sedgemoor,Average score,0.161
+IDACI,E07000189,South Somerset,Average score,0.132
+IDACI,E07000192,Cannock Chase,Average score,0.172
+IDACI,E07000193,East Staffordshire,Average score,0.132
+IDACI,E07000194,Lichfield,Average score,0.112
+IDACI,E07000195,Newcastle-under-Lyme,Average score,0.145
+IDACI,E07000196,South Staffordshire,Average score,0.11
+IDACI,E07000197,Stafford,Average score,0.106
+IDACI,E07000198,Staffordshire Moorlands,Average score,0.107
+IDACI,E07000199,Tamworth,Average score,0.174
+IDACI,E07000200,Babergh,Average score,0.109
+IDACI,E07000202,Ipswich,Average score,0.19
+IDACI,E07000203,Mid Suffolk,Average score,0.098
+IDACI,E07000207,Elmbridge,Average score,0.069
+IDACI,E07000208,Epsom and Ewell,Average score,0.073
+IDACI,E07000209,Guildford,Average score,0.084
+IDACI,E07000210,Mole Valley,Average score,0.064
+IDACI,E07000211,Reigate and Banstead,Average score,0.091
+IDACI,E07000212,Runnymede,Average score,0.103
+IDACI,E07000213,Spelthorne,Average score,0.123
+IDACI,E07000214,Surrey Heath,Average score,0.071
+IDACI,E07000215,Tandridge,Average score,0.09
+IDACI,E07000216,Waverley,Average score,0.064
+IDACI,E07000217,Woking,Average score,0.087
+IDACI,E07000218,North Warwickshire,Average score,0.129
+IDACI,E07000219,Nuneaton and Bedworth,Average score,0.188
+IDACI,E07000220,Rugby,Average score,0.116
+IDACI,E07000221,Stratford-on-Avon,Average score,0.084
+IDACI,E07000222,Warwick,Average score,0.089
+IDACI,E07000223,Adur,Average score,0.143
+IDACI,E07000224,Arun,Average score,0.136
+IDACI,E07000225,Chichester,Average score,0.107
+IDACI,E07000226,Crawley,Average score,0.156
+IDACI,E07000227,Horsham,Average score,0.066
+IDACI,E07000228,Mid Sussex,Average score,0.065
+IDACI,E07000229,Worthing,Average score,0.125
+IDACI,E07000234,Bromsgrove,Average score,0.095
+IDACI,E07000235,Malvern Hills,Average score,0.128
+IDACI,E07000236,Redditch,Average score,0.164
+IDACI,E07000237,Worcester,Average score,0.168
+IDACI,E07000238,Wychavon,Average score,0.113
+IDACI,E07000239,Wyre Forest,Average score,0.181
+IDACI,E07000240,St Albans,Average score,0.072
+IDACI,E07000241,Welwyn Hatfield,Average score,0.133
+IDACI,E07000242,East Hertfordshire,Average score,0.076
+IDACI,E07000243,Stevenage,Average score,0.173
+IDACI,E07000244,East Suffolk,Average score,0.15
+IDACI,E07000245,West Suffolk,Average score,0.102
+IDACI,E07000246,Somerset West and Taunton,Average score,0.128
+IDACI,E08000001,Bolton,Average score,0.219
+IDACI,E08000002,Bury,Average score,0.169
+IDACI,E08000003,Manchester,Average score,0.297
+IDACI,E08000004,Oldham,Average score,0.233
+IDACI,E08000005,Rochdale,Average score,0.235
+IDACI,E08000006,Salford,Average score,0.241
+IDACI,E08000007,Stockport,Average score,0.146
+IDACI,E08000008,Tameside,Average score,0.223
+IDACI,E08000009,Trafford,Average score,0.117
+IDACI,E08000010,Wigan,Average score,0.174
+IDACI,E08000011,Knowsley,Average score,0.303
+IDACI,E08000012,Liverpool,Average score,0.299
+IDACI,E08000013,St. Helens,Average score,0.237
+IDACI,E08000014,Sefton,Average score,0.188
+IDACI,E08000015,Wirral,Average score,0.218
+IDACI,E08000016,Barnsley,Average score,0.225
+IDACI,E08000017,Doncaster,Average score,0.227
+IDACI,E08000018,Rotherham,Average score,0.221
+IDACI,E08000019,Sheffield,Average score,0.219
+IDACI,E08000021,Newcastle upon Tyne,Average score,0.247
+IDACI,E08000022,North Tyneside,Average score,0.179
+IDACI,E08000023,South Tyneside,Average score,0.267
+IDACI,E08000024,Sunderland,Average score,0.243
+IDACI,E08000025,Birmingham,Average score,0.276
+IDACI,E08000026,Coventry,Average score,0.218
+IDACI,E08000027,Dudley,Average score,0.206
+IDACI,E08000028,Sandwell,Average score,0.263
+IDACI,E08000029,Solihull,Average score,0.148
+IDACI,E08000030,Walsall,Average score,0.261
+IDACI,E08000031,Wolverhampton,Average score,0.271
+IDACI,E08000032,Bradford,Average score,0.225
+IDACI,E08000033,Calderdale,Average score,0.196
+IDACI,E08000034,Kirklees,Average score,0.177
+IDACI,E08000035,Leeds,Average score,0.203
+IDACI,E08000036,Wakefield,Average score,0.197
+IDACI,E08000037,Gateshead,Average score,0.204
+IDACI,E09000001,City of London,Average score,0.071
+IDACI,E09000002,Barking and Dagenham,Average score,0.238
+IDACI,E09000003,Barnet,Average score,0.126
+IDACI,E09000004,Bexley,Average score,0.16
+IDACI,E09000005,Brent,Average score,0.182
+IDACI,E09000006,Bromley,Average score,0.131
+IDACI,E09000007,Camden,Average score,0.193
+IDACI,E09000008,Croydon,Average score,0.185
+IDACI,E09000009,Ealing,Average score,0.166
+IDACI,E09000010,Enfield,Average score,0.225
+IDACI,E09000011,Greenwich,Average score,0.212
+IDACI,E09000012,Hackney,Average score,0.249
+IDACI,E09000013,Hammersmith and Fulham,Average score,0.186
+IDACI,E09000014,Haringey,Average score,0.208
+IDACI,E09000015,Harrow,Average score,0.123
+IDACI,E09000016,Havering,Average score,0.16
+IDACI,E09000017,Hillingdon,Average score,0.157
+IDACI,E09000018,Hounslow,Average score,0.17
+IDACI,E09000019,Islington,Average score,0.275
+IDACI,E09000020,Kensington and Chelsea,Average score,0.129
+IDACI,E09000021,Kingston upon Thames,Average score,0.1
+IDACI,E09000022,Lambeth,Average score,0.229
+IDACI,E09000023,Lewisham,Average score,0.229
+IDACI,E09000024,Merton,Average score,0.134
+IDACI,E09000025,Newham,Average score,0.201
+IDACI,E09000026,Redbridge,Average score,0.137
+IDACI,E09000027,Richmond upon Thames,Average score,0.07
+IDACI,E09000028,Southwark,Average score,0.241
+IDACI,E09000029,Sutton,Average score,0.126
+IDACI,E09000030,Tower Hamlets,Average score,0.266
+IDACI,E09000031,Waltham Forest,Average score,0.192
+IDACI,E09000032,Wandsworth,Average score,0.154
+IDACI,E09000033,Westminster,Average score,0.183
+IDAOPI,E06000001,Hartlepool,Average score,0.228
+IDAOPI,E06000002,Middlesbrough,Average score,0.233
+IDAOPI,E06000003,Redcar and Cleveland,Average score,0.168
+IDAOPI,E06000004,Stockton-on-Tees,Average score,0.16
+IDAOPI,E06000005,Darlington,Average score,0.152
+IDAOPI,E06000006,Halton,Average score,0.181
+IDAOPI,E06000007,Warrington,Average score,0.121
+IDAOPI,E06000008,Blackburn with Darwen,Average score,0.238
+IDAOPI,E06000009,Blackpool,Average score,0.231
+IDAOPI,E06000010,"Kingston upon Hull, City of",Average score,0.257
+IDAOPI,E06000011,East Riding of Yorkshire,Average score,0.108
+IDAOPI,E06000012,North East Lincolnshire,Average score,0.17
+IDAOPI,E06000013,North Lincolnshire,Average score,0.135
+IDAOPI,E06000014,York,Average score,0.094
+IDAOPI,E06000015,Derby,Average score,0.168
+IDAOPI,E06000016,Leicester,Average score,0.298
+IDAOPI,E06000017,Rutland,Average score,0.064
+IDAOPI,E06000018,Nottingham,Average score,0.238
+IDAOPI,E06000019,"Herefordshire, County of",Average score,0.109
+IDAOPI,E06000020,Telford and Wrekin,Average score,0.166
+IDAOPI,E06000021,Stoke-on-Trent,Average score,0.184
+IDAOPI,E06000022,Bath and North East Somerset,Average score,0.096
+IDAOPI,E06000023,"Bristol, City of",Average score,0.175
+IDAOPI,E06000024,North Somerset,Average score,0.104
+IDAOPI,E06000025,South Gloucestershire,Average score,0.087
+IDAOPI,E06000026,Plymouth,Average score,0.153
+IDAOPI,E06000027,Torbay,Average score,0.174
+IDAOPI,E06000030,Swindon,Average score,0.131
+IDAOPI,E06000031,Peterborough,Average score,0.169
+IDAOPI,E06000032,Luton,Average score,0.198
+IDAOPI,E06000033,Southend-on-Sea,Average score,0.153
+IDAOPI,E06000034,Thurrock,Average score,0.148
+IDAOPI,E06000035,Medway,Average score,0.133
+IDAOPI,E06000036,Bracknell Forest,Average score,0.099
+IDAOPI,E06000037,West Berkshire,Average score,0.076
+IDAOPI,E06000038,Reading,Average score,0.173
+IDAOPI,E06000039,Slough,Average score,0.214
+IDAOPI,E06000040,Windsor and Maidenhead,Average score,0.079
+IDAOPI,E06000041,Wokingham,Average score,0.056
+IDAOPI,E06000042,Milton Keynes,Average score,0.131
+IDAOPI,E06000043,Brighton and Hove,Average score,0.187
+IDAOPI,E06000044,Portsmouth,Average score,0.171
+IDAOPI,E06000045,Southampton,Average score,0.173
+IDAOPI,E06000046,Isle of Wight,Average score,0.132
+IDAOPI,E06000047,County Durham,Average score,0.17
+IDAOPI,E06000049,Cheshire East,Average score,0.086
+IDAOPI,E06000050,Cheshire West and Chester,Average score,0.113
+IDAOPI,E06000051,Shropshire,Average score,0.113
+IDAOPI,E06000052,Cornwall,Average score,0.138
+IDAOPI,E06000053,Isles of Scilly,Average score,0.05
+IDAOPI,E06000054,Wiltshire,Average score,0.087
+IDAOPI,E06000055,Bedford,Average score,0.115
+IDAOPI,E06000056,Central Bedfordshire,Average score,0.087
+IDAOPI,E06000057,Northumberland,Average score,0.115
+IDAOPI,E06000058,"Bournemouth, Christchurch and Poole",Average score,0.13
+IDAOPI,E06000059,Dorset,Average score,0.087
+IDAOPI,E07000004,Aylesbury Vale,Average score,0.082
+IDAOPI,E07000005,Chiltern,Average score,0.057
+IDAOPI,E07000006,South Bucks,Average score,0.069
+IDAOPI,E07000007,Wycombe,Average score,0.087
+IDAOPI,E07000008,Cambridge,Average score,0.112
+IDAOPI,E07000009,East Cambridgeshire,Average score,0.095
+IDAOPI,E07000010,Fenland,Average score,0.142
+IDAOPI,E07000011,Huntingdonshire,Average score,0.081
+IDAOPI,E07000012,South Cambridgeshire,Average score,0.069
+IDAOPI,E07000026,Allerdale,Average score,0.115
+IDAOPI,E07000027,Barrow-in-Furness,Average score,0.147
+IDAOPI,E07000028,Carlisle,Average score,0.114
+IDAOPI,E07000029,Copeland,Average score,0.121
+IDAOPI,E07000030,Eden,Average score,0.076
+IDAOPI,E07000031,South Lakeland,Average score,0.074
+IDAOPI,E07000032,Amber Valley,Average score,0.118
+IDAOPI,E07000033,Bolsover,Average score,0.146
+IDAOPI,E07000034,Chesterfield,Average score,0.15
+IDAOPI,E07000035,Derbyshire Dales,Average score,0.076
+IDAOPI,E07000036,Erewash,Average score,0.122
+IDAOPI,E07000037,High Peak,Average score,0.108
+IDAOPI,E07000038,North East Derbyshire,Average score,0.117
+IDAOPI,E07000039,South Derbyshire,Average score,0.097
+IDAOPI,E07000040,East Devon,Average score,0.085
+IDAOPI,E07000041,Exeter,Average score,0.128
+IDAOPI,E07000042,Mid Devon,Average score,0.103
+IDAOPI,E07000043,North Devon,Average score,0.121
+IDAOPI,E07000044,South Hams,Average score,0.095
+IDAOPI,E07000045,Teignbridge,Average score,0.114
+IDAOPI,E07000046,Torridge,Average score,0.118
+IDAOPI,E07000047,West Devon,Average score,0.102
+IDAOPI,E07000061,Eastbourne,Average score,0.133
+IDAOPI,E07000062,Hastings,Average score,0.196
+IDAOPI,E07000063,Lewes,Average score,0.101
+IDAOPI,E07000064,Rother,Average score,0.104
+IDAOPI,E07000065,Wealden,Average score,0.081
+IDAOPI,E07000066,Basildon,Average score,0.146
+IDAOPI,E07000067,Braintree,Average score,0.112
+IDAOPI,E07000068,Brentwood,Average score,0.08
+IDAOPI,E07000069,Castle Point,Average score,0.117
+IDAOPI,E07000070,Chelmsford,Average score,0.083
+IDAOPI,E07000071,Colchester,Average score,0.107
+IDAOPI,E07000072,Epping Forest,Average score,0.112
+IDAOPI,E07000073,Harlow,Average score,0.15
+IDAOPI,E07000074,Maldon,Average score,0.096
+IDAOPI,E07000075,Rochford,Average score,0.092
+IDAOPI,E07000076,Tendring,Average score,0.15
+IDAOPI,E07000077,Uttlesford,Average score,0.077
+IDAOPI,E07000078,Cheltenham,Average score,0.099
+IDAOPI,E07000079,Cotswold,Average score,0.076
+IDAOPI,E07000080,Forest of Dean,Average score,0.111
+IDAOPI,E07000081,Gloucester,Average score,0.132
+IDAOPI,E07000082,Stroud,Average score,0.088
+IDAOPI,E07000083,Tewkesbury,Average score,0.082
+IDAOPI,E07000084,Basingstoke and Deane,Average score,0.083
+IDAOPI,E07000085,East Hampshire,Average score,0.067
+IDAOPI,E07000086,Eastleigh,Average score,0.081
+IDAOPI,E07000087,Fareham,Average score,0.067
+IDAOPI,E07000088,Gosport,Average score,0.105
+IDAOPI,E07000089,Hart,Average score,0.054
+IDAOPI,E07000090,Havant,Average score,0.119
+IDAOPI,E07000091,New Forest,Average score,0.077
+IDAOPI,E07000092,Rushmoor,Average score,0.204
+IDAOPI,E07000093,Test Valley,Average score,0.073
+IDAOPI,E07000094,Winchester,Average score,0.073
+IDAOPI,E07000095,Broxbourne,Average score,0.123
+IDAOPI,E07000096,Dacorum,Average score,0.094
+IDAOPI,E07000098,Hertsmere,Average score,0.113
+IDAOPI,E07000099,North Hertfordshire,Average score,0.092
+IDAOPI,E07000102,Three Rivers,Average score,0.087
+IDAOPI,E07000103,Watford,Average score,0.129
+IDAOPI,E07000105,Ashford,Average score,0.114
+IDAOPI,E07000106,Canterbury,Average score,0.114
+IDAOPI,E07000107,Dartford,Average score,0.106
+IDAOPI,E07000108,Dover,Average score,0.12
+IDAOPI,E07000109,Gravesham,Average score,0.125
+IDAOPI,E07000110,Maidstone,Average score,0.097
+IDAOPI,E07000111,Sevenoaks,Average score,0.077
+IDAOPI,E07000112,Folkestone and Hythe,Average score,0.139
+IDAOPI,E07000113,Swale,Average score,0.136
+IDAOPI,E07000114,Thanet,Average score,0.174
+IDAOPI,E07000115,Tonbridge and Malling,Average score,0.087
+IDAOPI,E07000116,Tunbridge Wells,Average score,0.089
+IDAOPI,E07000117,Burnley,Average score,0.186
+IDAOPI,E07000118,Chorley,Average score,0.116
+IDAOPI,E07000119,Fylde,Average score,0.105
+IDAOPI,E07000120,Hyndburn,Average score,0.184
+IDAOPI,E07000121,Lancaster,Average score,0.142
+IDAOPI,E07000122,Pendle,Average score,0.187
+IDAOPI,E07000123,Preston,Average score,0.194
+IDAOPI,E07000124,Ribble Valley,Average score,0.071
+IDAOPI,E07000125,Rossendale,Average score,0.154
+IDAOPI,E07000126,South Ribble,Average score,0.1
+IDAOPI,E07000127,West Lancashire,Average score,0.14
+IDAOPI,E07000128,Wyre,Average score,0.128
+IDAOPI,E07000129,Blaby,Average score,0.089
+IDAOPI,E07000130,Charnwood,Average score,0.102
+IDAOPI,E07000131,Harborough,Average score,0.072
+IDAOPI,E07000132,Hinckley and Bosworth,Average score,0.092
+IDAOPI,E07000133,Melton,Average score,0.077
+IDAOPI,E07000134,North West Leicestershire,Average score,0.097
+IDAOPI,E07000135,Oadby and Wigston,Average score,0.107
+IDAOPI,E07000136,Boston,Average score,0.15
+IDAOPI,E07000137,East Lindsey,Average score,0.152
+IDAOPI,E07000138,Lincoln,Average score,0.178
+IDAOPI,E07000139,North Kesteven,Average score,0.099
+IDAOPI,E07000140,South Holland,Average score,0.112
+IDAOPI,E07000141,South Kesteven,Average score,0.094
+IDAOPI,E07000142,West Lindsey,Average score,0.106
+IDAOPI,E07000143,Breckland,Average score,0.109
+IDAOPI,E07000144,Broadland,Average score,0.083
+IDAOPI,E07000145,Great Yarmouth,Average score,0.17
+IDAOPI,E07000146,King's Lynn and West Norfolk,Average score,0.124
+IDAOPI,E07000147,North Norfolk,Average score,0.106
+IDAOPI,E07000148,Norwich,Average score,0.202
+IDAOPI,E07000149,South Norfolk,Average score,0.09
+IDAOPI,E07000150,Corby,Average score,0.147
+IDAOPI,E07000151,Daventry,Average score,0.078
+IDAOPI,E07000152,East Northamptonshire,Average score,0.098
+IDAOPI,E07000153,Kettering,Average score,0.117
+IDAOPI,E07000154,Northampton,Average score,0.144
+IDAOPI,E07000155,South Northamptonshire,Average score,0.068
+IDAOPI,E07000156,Wellingborough,Average score,0.132
+IDAOPI,E07000163,Craven,Average score,0.081
+IDAOPI,E07000164,Hambleton,Average score,0.077
+IDAOPI,E07000165,Harrogate,Average score,0.077
+IDAOPI,E07000166,Richmondshire,Average score,0.077
+IDAOPI,E07000167,Ryedale,Average score,0.092
+IDAOPI,E07000168,Scarborough,Average score,0.144
+IDAOPI,E07000169,Selby,Average score,0.092
+IDAOPI,E07000170,Ashfield,Average score,0.144
+IDAOPI,E07000171,Bassetlaw,Average score,0.118
+IDAOPI,E07000172,Broxtowe,Average score,0.109
+IDAOPI,E07000173,Gedling,Average score,0.105
+IDAOPI,E07000174,Mansfield,Average score,0.147
+IDAOPI,E07000175,Newark and Sherwood,Average score,0.101
+IDAOPI,E07000176,Rushcliffe,Average score,0.076
+IDAOPI,E07000177,Cherwell,Average score,0.088
+IDAOPI,E07000178,Oxford,Average score,0.127
+IDAOPI,E07000179,South Oxfordshire,Average score,0.066
+IDAOPI,E07000180,Vale of White Horse,Average score,0.065
+IDAOPI,E07000181,West Oxfordshire,Average score,0.071
+IDAOPI,E07000187,Mendip,Average score,0.101
+IDAOPI,E07000188,Sedgemoor,Average score,0.111
+IDAOPI,E07000189,South Somerset,Average score,0.096
+IDAOPI,E07000192,Cannock Chase,Average score,0.153
+IDAOPI,E07000193,East Staffordshire,Average score,0.112
+IDAOPI,E07000194,Lichfield,Average score,0.092
+IDAOPI,E07000195,Newcastle-under-Lyme,Average score,0.119
+IDAOPI,E07000196,South Staffordshire,Average score,0.104
+IDAOPI,E07000197,Stafford,Average score,0.083
+IDAOPI,E07000198,Staffordshire Moorlands,Average score,0.097
+IDAOPI,E07000199,Tamworth,Average score,0.152
+IDAOPI,E07000200,Babergh,Average score,0.088
+IDAOPI,E07000202,Ipswich,Average score,0.15
+IDAOPI,E07000203,Mid Suffolk,Average score,0.083
+IDAOPI,E07000207,Elmbridge,Average score,0.074
+IDAOPI,E07000208,Epsom and Ewell,Average score,0.072
+IDAOPI,E07000209,Guildford,Average score,0.071
+IDAOPI,E07000210,Mole Valley,Average score,0.063
+IDAOPI,E07000211,Reigate and Banstead,Average score,0.076
+IDAOPI,E07000212,Runnymede,Average score,0.089
+IDAOPI,E07000213,Spelthorne,Average score,0.084
+IDAOPI,E07000214,Surrey Heath,Average score,0.066
+IDAOPI,E07000215,Tandridge,Average score,0.068
+IDAOPI,E07000216,Waverley,Average score,0.067
+IDAOPI,E07000217,Woking,Average score,0.084
+IDAOPI,E07000218,North Warwickshire,Average score,0.113
+IDAOPI,E07000219,Nuneaton and Bedworth,Average score,0.141
+IDAOPI,E07000220,Rugby,Average score,0.097
+IDAOPI,E07000221,Stratford-on-Avon,Average score,0.082
+IDAOPI,E07000222,Warwick,Average score,0.096
+IDAOPI,E07000223,Adur,Average score,0.118
+IDAOPI,E07000224,Arun,Average score,0.108
+IDAOPI,E07000225,Chichester,Average score,0.082
+IDAOPI,E07000226,Crawley,Average score,0.137
+IDAOPI,E07000227,Horsham,Average score,0.066
+IDAOPI,E07000228,Mid Sussex,Average score,0.068
+IDAOPI,E07000229,Worthing,Average score,0.115
+IDAOPI,E07000234,Bromsgrove,Average score,0.082
+IDAOPI,E07000235,Malvern Hills,Average score,0.091
+IDAOPI,E07000236,Redditch,Average score,0.141
+IDAOPI,E07000237,Worcester,Average score,0.128
+IDAOPI,E07000238,Wychavon,Average score,0.092
+IDAOPI,E07000239,Wyre Forest,Average score,0.123
+IDAOPI,E07000240,St Albans,Average score,0.073
+IDAOPI,E07000241,Welwyn Hatfield,Average score,0.103
+IDAOPI,E07000242,East Hertfordshire,Average score,0.08
+IDAOPI,E07000243,Stevenage,Average score,0.135
+IDAOPI,E07000244,East Suffolk,Average score,0.105
+IDAOPI,E07000245,West Suffolk,Average score,0.096
+IDAOPI,E07000246,Somerset West and Taunton,Average score,0.109
+IDAOPI,E08000001,Bolton,Average score,0.191
+IDAOPI,E08000002,Bury,Average score,0.145
+IDAOPI,E08000003,Manchester,Average score,0.336
+IDAOPI,E08000004,Oldham,Average score,0.187
+IDAOPI,E08000005,Rochdale,Average score,0.203
+IDAOPI,E08000006,Salford,Average score,0.218
+IDAOPI,E08000007,Stockport,Average score,0.129
+IDAOPI,E08000008,Tameside,Average score,0.177
+IDAOPI,E08000009,Trafford,Average score,0.13
+IDAOPI,E08000010,Wigan,Average score,0.16
+IDAOPI,E08000011,Knowsley,Average score,0.294
+IDAOPI,E08000012,Liverpool,Average score,0.3
+IDAOPI,E08000013,St. Helens,Average score,0.168
+IDAOPI,E08000014,Sefton,Average score,0.169
+IDAOPI,E08000015,Wirral,Average score,0.166
+IDAOPI,E08000016,Barnsley,Average score,0.163
+IDAOPI,E08000017,Doncaster,Average score,0.159
+IDAOPI,E08000018,Rotherham,Average score,0.164
+IDAOPI,E08000019,Sheffield,Average score,0.181
+IDAOPI,E08000021,Newcastle upon Tyne,Average score,0.218
+IDAOPI,E08000022,North Tyneside,Average score,0.16
+IDAOPI,E08000023,South Tyneside,Average score,0.214
+IDAOPI,E08000024,Sunderland,Average score,0.217
+IDAOPI,E08000025,Birmingham,Average score,0.258
+IDAOPI,E08000026,Coventry,Average score,0.19
+IDAOPI,E08000027,Dudley,Average score,0.162
+IDAOPI,E08000028,Sandwell,Average score,0.26
+IDAOPI,E08000029,Solihull,Average score,0.111
+IDAOPI,E08000030,Walsall,Average score,0.212
+IDAOPI,E08000031,Wolverhampton,Average score,0.225
+IDAOPI,E08000032,Bradford,Average score,0.208
+IDAOPI,E08000033,Calderdale,Average score,0.14
+IDAOPI,E08000034,Kirklees,Average score,0.149
+IDAOPI,E08000035,Leeds,Average score,0.156
+IDAOPI,E08000036,Wakefield,Average score,0.145
+IDAOPI,E08000037,Gateshead,Average score,0.194
+IDAOPI,E09000001,City of London,Average score,0.083
+IDAOPI,E09000002,Barking and Dagenham,Average score,0.261
+IDAOPI,E09000003,Barnet,Average score,0.163
+IDAOPI,E09000004,Bexley,Average score,0.109
+IDAOPI,E09000005,Brent,Average score,0.258
+IDAOPI,E09000006,Bromley,Average score,0.101
+IDAOPI,E09000007,Camden,Average score,0.232
+IDAOPI,E09000008,Croydon,Average score,0.156
+IDAOPI,E09000009,Ealing,Average score,0.223
+IDAOPI,E09000010,Enfield,Average score,0.21
+IDAOPI,E09000011,Greenwich,Average score,0.234
+IDAOPI,E09000012,Hackney,Average score,0.407
+IDAOPI,E09000013,Hammersmith and Fulham,Average score,0.256
+IDAOPI,E09000014,Haringey,Average score,0.299
+IDAOPI,E09000015,Harrow,Average score,0.173
+IDAOPI,E09000016,Havering,Average score,0.117
+IDAOPI,E09000017,Hillingdon,Average score,0.145
+IDAOPI,E09000018,Hounslow,Average score,0.197
+IDAOPI,E09000019,Islington,Average score,0.336
+IDAOPI,E09000020,Kensington and Chelsea,Average score,0.199
+IDAOPI,E09000021,Kingston upon Thames,Average score,0.117
+IDAOPI,E09000022,Lambeth,Average score,0.302
+IDAOPI,E09000023,Lewisham,Average score,0.24
+IDAOPI,E09000024,Merton,Average score,0.151
+IDAOPI,E09000025,Newham,Average score,0.373
+IDAOPI,E09000026,Redbridge,Average score,0.195
+IDAOPI,E09000027,Richmond upon Thames,Average score,0.094
+IDAOPI,E09000028,Southwark,Average score,0.312
+IDAOPI,E09000029,Sutton,Average score,0.114
+IDAOPI,E09000030,Tower Hamlets,Average score,0.439
+IDAOPI,E09000031,Waltham Forest,Average score,0.228
+IDAOPI,E09000032,Wandsworth,Average score,0.21
+IDAOPI,E09000033,Westminster,Average score,0.226
+IMD,E10000002,Buckinghamshire,Average score,10.052
+IMD,E10000003,Cambridgeshire,Average score,13.858
+IMD,E10000006,Cumbria,Average score,21.261
+IMD,E10000007,Derbyshire,Average score,18.392
+IMD,E10000008,Devon,Average score,16.607
+IMD,E10000011,East Sussex,Average score,19.77
+IMD,E10000012,Essex,Average score,17.016
+IMD,E10000013,Gloucestershire,Average score,14.932
+IMD,E10000014,Hampshire,Average score,12.693
+IMD,E10000015,Hertfordshire,Average score,12.732
+IMD,E10000016,Kent,Average score,19.538
+IMD,E10000017,Lancashire,Average score,23.443
+IMD,E10000018,Leicestershire,Average score,12.33
+IMD,E10000019,Lincolnshire,Average score,20.29
+IMD,E10000020,Norfolk,Average score,21.183
+IMD,E10000021,Northamptonshire,Average score,18.605
+IMD,E10000023,North Yorkshire,Average score,14.762
+IMD,E10000024,Nottinghamshire,Average score,18.999
+IMD,E10000025,Oxfordshire,Average score,11.656
+IMD,E10000027,Somerset,Average score,18.553
+IMD,E10000028,Staffordshire,Average score,16.567
+IMD,E10000029,Suffolk,Average score,18.46
+IMD,E10000030,Surrey,Average score,10.087
+IMD,E10000031,Warwickshire,Average score,15.64
+IMD,E10000032,West Sussex,Average score,14.429
+IMD,E10000034,Worcestershire,Average score,18.089
+IDACI,E10000002,Buckinghamshire,Average score,0.085
+IDACI,E10000003,Cambridgeshire,Average score,0.111
+IDACI,E10000006,Cumbria,Average score,0.138
+IDACI,E10000007,Derbyshire,Average score,0.152
+IDACI,E10000008,Devon,Average score,0.123
+IDACI,E10000011,East Sussex,Average score,0.161
+IDACI,E10000012,Essex,Average score,0.144
+IDACI,E10000013,Gloucestershire,Average score,0.126
+IDACI,E10000014,Hampshire,Average score,0.101
+IDACI,E10000015,Hertfordshire,Average score,0.111
+IDACI,E10000016,Kent,Average score,0.158
+IDACI,E10000017,Lancashire,Average score,0.167
+IDACI,E10000018,Leicestershire,Average score,0.106
+IDACI,E10000019,Lincolnshire,Average score,0.164
+IDACI,E10000020,Norfolk,Average score,0.155
+IDACI,E10000021,Northamptonshire,Average score,0.142
+IDACI,E10000023,North Yorkshire,Average score,0.099
+IDACI,E10000024,Nottinghamshire,Average score,0.155
+IDACI,E10000025,Oxfordshire,Average score,0.101
+IDACI,E10000027,Somerset,Average score,0.136
+IDACI,E10000028,Staffordshire,Average score,0.131
+IDACI,E10000029,Suffolk,Average score,0.135
+IDACI,E10000030,Surrey,Average score,0.083
+IDACI,E10000031,Warwickshire,Average score,0.122
+IDACI,E10000032,West Sussex,Average score,0.11
+IDACI,E10000034,Worcestershire,Average score,0.142
+IDAOPI,E10000002,Buckinghamshire,Average score,0.077
+IDAOPI,E10000003,Cambridgeshire,Average score,0.096
+IDAOPI,E10000006,Cumbria,Average score,0.105
+IDAOPI,E10000007,Derbyshire,Average score,0.117
+IDAOPI,E10000008,Devon,Average score,0.106
+IDAOPI,E10000011,East Sussex,Average score,0.114
+IDAOPI,E10000012,Essex,Average score,0.113
+IDAOPI,E10000013,Gloucestershire,Average score,0.098
+IDAOPI,E10000014,Hampshire,Average score,0.086
+IDAOPI,E10000015,Hertfordshire,Average score,0.099
+IDAOPI,E10000016,Kent,Average score,0.116
+IDAOPI,E10000017,Lancashire,Average score,0.141
+IDAOPI,E10000018,Leicestershire,Average score,0.092
+IDAOPI,E10000019,Lincolnshire,Average score,0.124
+IDAOPI,E10000020,Norfolk,Average score,0.121
+IDAOPI,E10000021,Northamptonshire,Average score,0.114
+IDAOPI,E10000023,North Yorkshire,Average score,0.094
+IDAOPI,E10000024,Nottinghamshire,Average score,0.114
+IDAOPI,E10000025,Oxfordshire,Average score,0.081
+IDAOPI,E10000027,Somerset,Average score,0.104
+IDAOPI,E10000028,Staffordshire,Average score,0.11
+IDAOPI,E10000029,Suffolk,Average score,0.104
+IDAOPI,E10000030,Surrey,Average score,0.073
+IDAOPI,E10000031,Warwickshire,Average score,0.104
+IDAOPI,E10000032,West Sussex,Average score,0.095
+IDAOPI,E10000034,Worcestershire,Average score,0.107

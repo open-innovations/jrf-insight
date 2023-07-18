@@ -21,7 +21,7 @@ imd_lad_lower_file <- list.files('data-raw/imd', pattern = 'File_10', full.names
 
 # readxl::excel_sheets(imd_lad_lower_file)
 imd_lower_lad <- readxl::read_excel(imd_lad_lower_file, sheet = 'IMD')
-
+imd_lower_lad_idaci <- readxl::read_excel(imd_lad_lower_file, sheet = "IDACI")
 imd_lad_upper_file <- list.files('data-raw/imd', 'File_11', full.names = TRUE)
 
 # readxl::excel_sheets(imd_lad_upper_file)
@@ -35,19 +35,27 @@ process_imd_lad <- function(files = NULL) {
     files <- list.files('data-raw/imd', 'Local_Authority', full.names = T)
   }
     data <- lapply(files, function(file) {
-      x <- readxl::read_excel(file, sheet = 'IMD')
-      if (any(grepl('Upper Tier', names(x)))) {
-        x <- x |>
-          dplyr::filter(substr(`Upper Tier Local Authority District code (2019)`, 1, 3) == "E10")
-      }
-      names(x)[1:2] <- c('geography_code', 'geography_name')
+      # create sheets to iterate through
+      imd_sheets_to_import <- c('IMD', 'IDACI', 'IDAOPI')
 
-      return(x)
+      build1 <- lapply(imd_sheets_to_import, function(sht) {
+        x <- readxl::read_excel(file, sheet = sht)
+        if (any(grepl('Upper Tier', names(x)))) {
+          x <- x |>
+            dplyr::filter(substr(`Upper Tier Local Authority District code (2019)`, 1, 3) == "E10")
+        }
+        names(x)[1:2] <- c('geography_code', 'geography_name')
+        names(x) <- sub('[A-Za-z]* - ', '', names(x)) # remove variable prefix
+        return(x)
+      }) |>
+        setNames(imd_sheets_to_import) |>
+        dplyr::bind_rows(.id = 'dataset')
+      return(build1)
     }) |>
       dplyr::bind_rows() |>
       dplyr::distinct() |>
-      tidyr::pivot_longer(-c(geography_code, geography_name), names_to = 'variable_name') |>
-      dplyr::filter(variable_name == 'IMD - Average score')
+      tidyr::pivot_longer(-c(dataset, geography_code, geography_name), names_to = 'variable_name') |>
+      dplyr::filter(variable_name == 'Average score')
     return(data)
 }
 
