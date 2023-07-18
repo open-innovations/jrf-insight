@@ -1,0 +1,10 @@
+---
+css: |
+  .stack > * + * {
+    margin-block-start: 1.5rem;
+  }
+---
+
+<div class="stack">
+    {{ content | safe }}
+</div>

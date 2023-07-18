@@ -1,0 +1,8 @@
+{% comp 'grid.block', { classes: 'headline' } %}
+  <p class="big-number" data-number={{ number | safe }}>
+     {{ display | safe }}
+  </p>
+  <p>
+    {{ description | safe }}
+  </p>
+{% endcomp %}

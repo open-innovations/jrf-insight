@@ -15,25 +15,46 @@ tags:
 Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 </p>
 
-{% comp 'grid.block', { classes: 'headline' } %}
 {% set population = this_place_data['Number of persons'] %}
-<p class="big-number" data-number={{ population }}>
-  {{ population }}
-</p>
-<p>
-  The population of {{ title }} is <span data-number={{ population }}>.
-</p>
+{% set area = this_place_data['Area in sq km'] %}
+
+{% comp 'layout.two_column' %}
+  {% comp 'layout.stack' %}
+    {{ comp.info.headline({
+      number: population,
+      display: population,
+      description: 'The population of ' + title + ' is <span data-number=' + population + '>.'
+    }) | safe }}
+
+    {{ comp.info.headline({
+      number: area,
+      display: area + ' square km',
+      description: 'The area of ' + title + ' is <span data-number='+ area +'>'+ area +'</span> square km.'
+    }) | safe }}
+  {% endcomp %}
+
+  {% comp 'layout.stack' %}
+    {{ comp.info.headline({
+      number: 0,
+      display: 0,
+      description: 'IMD - children'
+    }) | safe }}
+    {{ comp.info.headline({
+      number: 0,
+      display: 0,
+      description: 'IMD - old-people'
+    }) | safe }}
+    {{ comp.info.headline({
+      number: 0,
+      display: 0,
+      description: 'IMD - health'
+    }) | safe }}
+  {% endcomp %}
 {% endcomp %}
 
-{% comp 'grid.block', { classes: 'headline' } %}
-{% set area = this_place_data['Area in sq km'] %}
-<p class="big-number" data-number={{ area }}>
-  {{ area }} square km
-</p>
-<p>
-  The area of {{ title }} is <span data-number={{ area }}>{{ area }}</span> square km.
-</p>
-{% endcomp %}
+
+
+
 
 
 {% if this_place_data['children_in_low_income'] %}
