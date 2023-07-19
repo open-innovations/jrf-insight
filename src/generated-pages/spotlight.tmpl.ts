@@ -6,7 +6,7 @@ type SpotlightData = {
 
 export default function* ({ spotlights, places }: {
   spotlights: Record<string, SpotlightData>,
-  places: string[]
+  places: string[],
 }) {
   for (const [spotlight, spotlightData] of Object.entries(spotlights)) {
     const { name } = spotlightData;
@@ -16,7 +16,7 @@ export default function* ({ spotlights, places }: {
       target: `/spotlight/${spotlight}/E12999901/`,
     };
 
-    for (const place in places) {
+    for (const place of places.list) {
       yield {
         url: `/spotlight/${spotlight}/${place}/`,
         title: name,
