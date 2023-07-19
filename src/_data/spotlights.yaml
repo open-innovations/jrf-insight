@@ -1,0 +1,18 @@
+economic_insecurity:
+  name: Economic Insecurity
+housing:
+  name: Housing
+homelessness:
+  name: Homelessness
+children:
+  name: Children
+young_people:
+  name: Young People
+work_and_employment:
+  name: Work and Employment
+social_inclusion:
+  name: Social Inclusion
+health:
+  name: Health
+older_people:
+  name: Older people

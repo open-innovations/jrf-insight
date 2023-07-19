@@ -21,6 +21,14 @@ css: |
         display: unset;
       }
     }
+    & > ul {
+      display: flex;
+      & > * {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 20ch;
+      }
+    }
   }
 ---
 {% set heading_level = 3 %}

@@ -1,6 +1,13 @@
 export const layout = 'templates/spotlight/base.njk';
 
-export default function* ({ spotlights, places }) {
+type SpotlightData = {
+  name: string,
+}
+
+export default function* ({ spotlights, places }: {
+  spotlights: Record<string, SpotlightData>,
+  places: string[]
+}) {
   for (const [spotlight, spotlightData] of Object.entries(spotlights)) {
     const { name } = spotlightData;
     yield {
@@ -9,11 +16,10 @@ export default function* ({ spotlights, places }) {
       target: `/spotlight/${spotlight}/E12999901/`,
     };
 
-    for (const place of Object.keys(places)) {
+    for (const place in places) {
       yield {
         url: `/spotlight/${spotlight}/${place}/`,
         title: name,
-        geography_name: places[place].name,
         spotlight: spotlight,
         geography: place,
       };
