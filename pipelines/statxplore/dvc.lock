@@ -48,20 +48,24 @@ stages:
       size: 167521
       nfiles: 324
   describe:
-    cmd: PYTHONPATH= python pipelines/extract/describe.py
+    cmd: PYTHONPATH= python pipelines/statxplore/describe.py
     deps:
     - path: data/lookups
-      md5: 1b1cc7c9263bb9ec8a7d4efb5cf8cf52.dir
-      size: 272832
+      hash: md5
+      md5: 07631856ad5646ef2bd02734e2fcfbae.dir
+      size: 272897
       nfiles: 431
-    - path: pipelines/extract/describe.py
-      md5: 9be157f78a0590bc9be6912aa65cb9e3
-      size: 3894
-    - path: pipelines/extract/utils.py
-      md5: 15493a2a1b03c662531afd90c92c8e78
-      size: 12244
+    - path: pipelines/statxplore/describe.py
+      hash: md5
+      md5: f8358e1cd28f95a712f71547d034ce05
+      size: 3918
+    - path: pipelines/statxplore/utils.py
+      hash: md5
+      md5: 48f06f142dbaf83397c16dbf007376fc
+      size: 12247
     outs:
-    - path: pipelines/extract/json/metadata
+    - path: pipelines/statxplore/json/metadata
+      hash: md5
       md5: c6a03ccd3f3f59941ddde60546ed118d.dir
       size: 18701
       nfiles: 107

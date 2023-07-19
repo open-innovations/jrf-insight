@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WP_Sustainment", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WP_Sustainment:F_WP_DATE:DATE_NAME"
+        ]
+    ]
+}

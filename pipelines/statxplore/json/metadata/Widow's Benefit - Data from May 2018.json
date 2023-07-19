@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WB_New", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WB_New:F_WB_QTR_New:DATE_NAME"
+        ]
+    ]
+}

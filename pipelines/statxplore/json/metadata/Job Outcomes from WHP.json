@@ -1,0 +1,9 @@
+{
+    "database": "str:database:WHP_Outcomes", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:WHP_Outcomes:F_WHP_DATE:DATE_NAME"
+        ]
+    ]
+}
