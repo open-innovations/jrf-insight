@@ -4,8 +4,8 @@ from describe import query_to_pandas
 import json
 
 GEOLOOKUP = "data/geo/geography_lookup.csv"
-HBAI_JSON = 'pipelines/extract/json/data/HBAI.json'
-CLIF_JSONS = ['pipelines/extract/json/data/CLIF_REL.json', 'pipelines/extract/json/data/CLIF_ABS.json']
+HBAI_JSON = 'pipelines/statxplore/json/data/HBAI.json'
+CLIF_JSONS = ['pipelines/statxplore/json/data/CLIF_REL.json', 'pipelines/statxplore/json/data/CLIF_ABS.json']
 #dates = ['1011', '1112', '1213', '1314', '1415', '1516', '1617', '1718', '1819', '1920', '2021', '2122']
 
 def houses_below_avg_income():
@@ -42,7 +42,7 @@ def houses_below_avg_income():
         with open(HBAI_JSON, "w") as jsonFile:
             data = json.dump(data, jsonFile)
         
-        HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/extract/json/data/HBAI.json').reset_index()
+        HBAI = query_to_pandas(STATXPLORE_API_KEY, 'pipelines/statxplore/json/data/HBAI.json').reset_index()
         HBAI[['geography_name', 'geography_code']] = HBAI[location].str.split('(', expand=True)
         HBAI['geography_code'] = HBAI['geography_code'].str.replace(')', '')
         HBAI['geography_name'] = HBAI['geography_name'].str.strip()

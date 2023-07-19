@@ -78,7 +78,7 @@ def metadata():
             print('No date fields')
             continue
         filename = f'{base_name.iloc[0]}.json'
-        METADATA_DIR = 'pipelines/extract/json/metadata/'
+        METADATA_DIR = 'pipelines/statxplore/json/metadata/'
         statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename=filename, DIR=METADATA_DIR)
 
         print(f'finished {base_name}')

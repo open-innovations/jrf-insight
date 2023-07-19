@@ -1,9 +1,0 @@
-{
-    "database": "str:database:SMI_CASELOAD", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:SMI_CASELOAD:F_SMI_DATE:DATE_NAME"
-        ]
-    ]
-}

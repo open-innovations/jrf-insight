@@ -1,9 +1,0 @@
-{
-    "database": "str:database:UC_WCA_CASE", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:UC_WCA_CASE:F_UC_WCA_MONTH:DATE_NAME"
-        ]
-    ]
-}

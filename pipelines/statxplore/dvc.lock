@@ -1,25 +1,25 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: PYTHONPATH= python pipelines/extract/extract.py
+    cmd: PYTHONPATH= python pipelines/statxplore/extract.py
     deps:
     - path: data/geo/geography_lookup.csv
       hash: md5
       md5: 30f94e93cbd3128ba0c45febd8000df9
       size: 199535
-    - path: pipelines/extract/extract.py
+    - path: pipelines/statxplore/extract.py
       hash: md5
-      md5: 08821d2a4a89b7967d14a7b3c2751830
-      size: 3857
-    - path: pipelines/extract/json/data
+      md5: 883c99b809ee7e7779eecea98761d04d
+      size: 3869
+    - path: pipelines/statxplore/json/data
       hash: md5
       md5: 5b69722e0a58b9d2b09c5e73600bdb6c.dir
       size: 68885
       nfiles: 3
-    - path: pipelines/extract/utils.py
+    - path: pipelines/statxplore/utils.py
       hash: md5
-      md5: db19d1de663431224d0417a082171974
-      size: 12244
+      md5: 48f06f142dbaf83397c16dbf007376fc
+      size: 12247
     outs:
     - path: data/clif
       hash: md5
@@ -32,14 +32,16 @@ stages:
       size: 427968
       nfiles: 6
   probe:
-    cmd: PYTHONPATH= python pipelines/extract/probe.py
+    cmd: PYTHONPATH= python pipelines/statxplore/probe.py
     deps:
-    - path: pipelines/extract/probe.py
-      md5: f570e9a0f9092c5fcb1e3e02a660ce37
+    - path: pipelines/statxplore/probe.py
+      hash: md5
+      md5: 249162b3e57ab628456b4ed549239105
       size: 1157
-    - path: pipelines/extract/utils.py
-      md5: 15493a2a1b03c662531afd90c92c8e78
-      size: 12244
+    - path: pipelines/statxplore/utils.py
+      hash: md5
+      md5: 48f06f142dbaf83397c16dbf007376fc
+      size: 12247
     outs:
     - path: data/lookups
       md5: 58372dbb6994acbf262b651c7bcfa744.dir

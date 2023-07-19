@@ -1,9 +1,0 @@
-{
-    "database": "str:database:WHP_First_Earnings", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:WHP_First_Earnings:V_F_WHP_FIRST_EARNINGS:START_MONTH"
-        ]
-    ]
-}

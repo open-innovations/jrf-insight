@@ -1,9 +1,0 @@
-{
-    "database": "str:database:UC_Households", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:UC_Households:F_UC_HH_DATE:DATE_NAME"
-        ]
-    ]
-}

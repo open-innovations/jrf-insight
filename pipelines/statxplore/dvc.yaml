@@ -1,0 +1,39 @@
+stages:
+  probe:
+    cmd: PYTHONPATH= python pipelines/statxplore/probe.py
+    # always_changed: true
+    wdir: ../..
+    deps:
+      - pipelines/statxplore/probe.py
+      - pipelines/statxplore/utils.py
+    outs:
+      - data/lookups:
+          cache: false
+          persist: false
+  describe:
+    cmd: PYTHONPATH= python pipelines/statxplore/describe.py
+    # always_changed: true
+    wdir: ../..
+    deps:
+      - pipelines/statxplore/describe.py
+      - pipelines/statxplore/utils.py
+      - data/lookups
+    outs:
+      - pipelines/statxplore/json/metadata:
+          cache: false
+          persist: false
+  extract:
+    cmd: PYTHONPATH= python pipelines/statxplore/extract.py
+    wdir: ../..
+    deps:
+      - pipelines/statxplore/extract.py
+      - pipelines/statxplore/utils.py
+      - pipelines/statxplore/json/data
+      - data/geo/geography_lookup.csv
+    outs: 
+      - data/hbai:
+          cache: false
+          persist: false
+      - data/clif:
+          cache: false
+          persist: false

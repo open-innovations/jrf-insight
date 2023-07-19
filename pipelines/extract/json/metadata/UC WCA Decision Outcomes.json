@@ -1,9 +1,0 @@
-{
-    "database": "str:database:UC_WCA_DEC", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:UC_WCA_DEC:F_UC_WCA_DEC_MONTH:DATE_NAME"
-        ]
-    ]
-}

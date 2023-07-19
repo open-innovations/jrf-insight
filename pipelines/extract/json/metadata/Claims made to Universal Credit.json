@@ -1,9 +1,0 @@
-{
-    "database": "str:database:UC_Claims", 
-    "measures": [], 
-    "dimensions": [
-        [
-            "str:field:UC_Claims:F_UC_WEEKS:WEEK_NAME"
-        ]
-    ]
-}
