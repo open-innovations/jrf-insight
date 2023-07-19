@@ -6,9 +6,9 @@ tags:
 {% set this_place_data = query.getDataForPlace(key) %}
 
 {% if (relations.children | length) > 0 %}
-{% set place_data = query.getPlaceData(relations.children) %}
+  {% set place_data = query.getPlaceData(relations.children) %}
 {% else %}
-{% set place_data = [this_place_data] %}
+  {% set place_data = [this_place_data] %}
 {% endif %}
 
 <p>
@@ -17,100 +17,93 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 
 {% set population = this_place_data['Number of persons'] %}
 {% set area = this_place_data['Area in sq km'] | round(-1) %}
-{% set population_density = (
-  this_place_data['Number of persons'] / this_place_data['Area in sq km']
-) | round(0) %}
+{% set population_density = (this_place_data['Number of persons'] / this_place_data['Area in sq km']) | round(0) %}
 
 {% comp 'layout.two_column' %}
-  {% comp 'layout.stack' %}
-    {{ comp.info.headline({
+{% comp 'layout.stack' %}
+{{ comp.info.headline({
       number: population,
       display: population,
       description: 'The population of ' + title + ' is <span data-number=' + population + '>.'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: population_density,
       display: population_density + ' population per square km',
       description: 'POPULATION DENSITY'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 'NA',
       display: 'NA',
       description: 'URBAN VS RURAL'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 'NA',
       display: 'NA',
       description: 'EMPLOYMENT'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 'NA',
       display: 'NA',
       description: 'HOUSEHOLD INCOME - GDHI'
     }) | safe }}
 
-  {% endcomp %}
+{% endcomp %}
 
-  {% comp 'layout.stack' %}
-    {{ comp.info.headline({
+{% comp 'layout.stack' %}
+{{ comp.info.headline({
       number: 0,
       display: 0,
       description: 'CHILD POVERTY (FROM LOUGHBOROUGH)'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: this_place_data['imd_older_people'],
       display: this_place_data['imd_older_people'],
       description: 'IMD - OLDER PEOPLE (OR MAYBE PENSION CREDIT)'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 0,
       display: 0,
       description: 'IMD - OVERALL'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 'NA',
       display: 'NA',
       description: 'PROPORTION BELOW / ABOVE LIVING WAGE'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 0,
       display: 0,
       description: 'PHE FINGERTIPS / ONS LONG TERM CONDITIONS'
     }) | safe }}
 
-    {{ comp.info.headline({
+{{ comp.info.headline({
       number: 0,
       display: 0,
       description: 'LONELINESS AND SOCIAL ISOLATION'
     }) | safe }}
 
-  {% endcomp %}
+{% endcomp %}
 {% endcomp %}
 
-
-
-
-
-
 {% if this_place_data['children_in_low_income'] %}
-{% comp 'grid.block', { classes: 'headline' } %}
-{% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
-<p class="big-number">
-  {{ comp.nearly.ratio({ value: proportion }) }}
-</p>
-<p>
+  {% comp 'grid.block', {classes: 'headline'} %}
+  {% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
+  <p class="big-number">
+    {{ comp.nearly.ratio({ value: proportion }) }}
+  </p>
+  <p>
   In {{ title}}, {{ comp.nearly.ratio({ value: proportion, withDirection: true }) }}
   ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
 </p>
-{% endcomp %}
+  {% endcomp %}
 {% endif %}
 
 {{ comp.nav_block({
@@ -122,7 +115,6 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     spotlight: true
   }
 }) | safe }}
-
 
 {% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
 {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
@@ -170,77 +162,70 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   ) | safe }}
 {% endif %}
 
-<table>
-<thead>
-<tr>
-  <th>Area</th>
-  <th>Population estimate</th>
-  <th>Area in sq km</th>
-  <th>Number of households</th>
-  <th>GVA (£m)</td>
-  <th>Population density</th>
-</tr>
-</thead>
-{% if (relations.children | length) > 0 %}
-<tr>
-<td>{{ title }} ({{ type }})</td>
-<td>{{ query.getPlaceData(key)[0]['Number of persons'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['Area in sq km'] | round(0) }}</td>
-<td>{{ query.getPlaceData(key)[0]['Number of households'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['GVA'] | round(0)}}</td>
-<td>{{ query.getPlaceData(key)[0]['Population density'] | round(0) }}</td>
-</tr>
-{% endif %}
-{% for row in place_data %}
-<tr>
-<td>{{ row.name }} ({{ row.type }})</td>
-<td>{{ row['Number of persons'] }}</td>
-<td>{{ row['Area in sq km'] | round(0) }}</td>
-<td>{{ row['Number of households'] }}</td>
-<td>{{ row['GVA'] | round(0)}}</td>
-<td>{{ row['Population density'] | round(0) }}</td>
-</tr>
-{% endfor %}
-</table>
+{% set all_places = [
+  relations.ancestors | reverse,
+  key,
+  relations.children
+] | flatten %}
 
-<table>
-<thead>
-<tr>
-  <th>Area</th>
-  <th>Children in poverty</th>
-  <th>Number of children</th>
-  <th>IMD average score</th>
-  <th>IMD - children</th>
-  <th>IMD - older people</th>
-  <th>Households in poverty</th>
-  <th>Unemployment rate aged 16-64 (%)</th>
-  <th>Economically inactive (%)</th>
-</tr>
-</thead>
-{% if (relations.children | length) > 0 %}
-<tr>
-<td>{{ title }} ({{ type }})</td>
-<td>{{ query.getPlaceData(key)[0]['children_in_low_income'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['number_of_children'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['IMD'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['imd_children'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['imd_older_people'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['Households in poverty'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['unemployment_rate_16_64'] }}</td>
-<td>{{ query.getPlaceData(key)[0]['economic_inactivity_16_64'] }}</td>
-</tr>
-{% endif %}
-{% for row in place_data %}
-<tr>
-<td>{{ row.name }} ({{ row.type }})</td>
-<td>{{ row['children_in_low_income'] }}</td>
-<td>{{ row['number_of_children'] }}</td>
-<td>{{ row['IMD'] }}</td>
-<td>{{ row['imd_children'] }}</td>
-<td>{{ row['imd_older_people'] }}</td>
-<td>{{ row['Households in poverty'] }}</td>
-<td>{{ row['unemployment_rate_16_64'] }}</td>
-<td>{{ row['economic_inactivity_16_64'] }}</td>
-</tr>
-{% endfor %}
-</table>
+{% set place_data_all = query.getDataForPlaces(all_places) %}
+
+{% macro place_data_table(places, row_titles, columns, here) %}
+  <table>
+    <thead>
+      <tr>
+        <th>Area</th>
+        {% for row_title, _ in columns %}
+          <th>{{ row_title }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in places %}
+        <tr
+          {%- if row['geography_code'] == here %} class='here'{% endif -%}
+        >
+          <td>
+            {%- if row['geography_code'] != here %}
+              <a href="/place/{{ row['geography_code'] }}/">
+              {% endif -%}
+              {{ row['name'] }} ({{ comp.place.type({ id: row['geography_code'] }) }})
+            {%- if row['geography_code'] != here %}
+              </a>
+            {% endif -%}
+          </td>
+          {% for _, column in columns %}
+            <td>{{ (row[column] | round(0)) or '—' }}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endmacro %}
+
+{{ place_data_table(
+  places=place_data_all,
+  here=key,
+  columns={
+    'Population estimate': 'Number of persons',
+    'Area in sq km': 'Area in sq km',
+    'Number of households': 'Number of households',
+    'GVA (£m)': 'GVA',
+    'Population density': 'Population density'
+  }
+) }}
+
+{{ place_data_table(
+  places=place_data_all,
+  here=key,
+  columns={
+    'Children in poverty': 'children_in_low_income',
+    'Number of children': 'number_of_children',
+    'IMD average score': 'IMD',
+    'IMD - children': 'imd_children',
+    'IMD - older people': 'imd_older_people',
+    'Households in poverty': 'Households in poverty',
+    'Unemployment rate aged 16-64 (%)': 'unemployment_rate_16_64',
+    'Economically inactive (%)': 'economic_inactivity_16_64'
+  }
+) }}

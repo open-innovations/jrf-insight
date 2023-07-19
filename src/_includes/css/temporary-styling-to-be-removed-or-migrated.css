@@ -73,4 +73,5 @@ table, th, td{
 td {
   text-align: center;
 }
-tr:nth-child(even) {background-color: #dbdbdb;}
+tr:nth-child(odd) {background-color: #dbdbdb;}
+tr.here { background-color: yellow; }

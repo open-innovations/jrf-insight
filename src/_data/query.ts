@@ -1,1 +1,1 @@
-export { getPlaceData, getDataForPlace } from '../../data/interim/data.ts'
+export { getPlaceData, getDataForPlace, getDataForPlaces } from '../../data/interim/data.ts'

@@ -19,3 +19,13 @@ export function getPlaceData(codes: Array<string>) {
 export function getDataForPlace(code: string) {
   return placeData.find(x => x.geography_code === code);
 }
+
+/**
+ * Returns the place data for a list of places, preserving ordering
+ * 
+ * @param codes geography codes to find
+ * @returns 
+ */
+export function getDataForPlaces(codes: Array<string>) {
+  return codes.map(getDataForPlace);
+}
