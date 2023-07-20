@@ -54,19 +54,10 @@ def shared_data():
 
 
 def process(geography_code):
-    PLACE_FILE = f'{OUTPUT_DIR}/{geography_code}.njk'
     PLACE_DATA_DIR = f'{SRC_DATA_DIR}/place/{geography_code}'
     os.makedirs(PLACE_DATA_DIR, exist_ok=True)
 
     this_place = all_place_data.filter_by_codes([geography_code]).iloc[0]
-
-    with open(f"{PLACE_FILE}", "w") as f:
-        f.write(
-            '---\nkey: ' + geography_code +
-            '\ntitle: ' + this_place['name'] +
-            '\ntype: ' + this_place['type'] +
-            '\n---\n'
-        )
 
     relations = {
         'ancestors': this_place['ancestors'].tolist(),

@@ -8,7 +8,6 @@ from prepare import process, shared_data
 chunksize = cpu_count()
 
 if __name__ == "__main__":
-    shared_data()
     with open('places.yaml') as f:
         places = yaml.safe_load(f.read())
     chunks = [places[i:i+chunksize] for i in range(0, len(places), chunksize)]

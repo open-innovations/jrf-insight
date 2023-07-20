@@ -83,9 +83,6 @@ stages:
       - ${top}/data/interim/place_data.parquet
       - ${top}/data/interim/shapes.parquet
     outs:
-      - ${top}/src/place/:
-          cache: false
-          persist: false
       - ${top}/src/_data/place/:
           cache: false
           persist: false
