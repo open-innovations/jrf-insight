@@ -2,7 +2,6 @@ import lume from "lume/mod.ts";
 import jsonLoader from "lume/core/loaders/json.ts";
 import base_path from "lume/plugins/base_path.ts";
 import esbuild from "lume/plugins/esbuild.ts";
-import filterPages from "lume/plugins/filter_pages.ts";
 import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
@@ -39,13 +38,7 @@ site.use(metas());
 site.use(postcss());
 site.use(svgo());
 site.use(esbuild());
-site.use(filterPages({
-  fn: (page) => {
-    const { places, key } = page.data;
-    if (places?.list && key) return places.list.includes(key);
-    return true;
-  }
-}));
+
 
 site.remoteFile(
   "/assets/images/jrf_logo.svg",
