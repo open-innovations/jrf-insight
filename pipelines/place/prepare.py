@@ -54,12 +54,13 @@ def shared_data():
 
 
 def process(geography_code):
-    PLACE_DIR = f'{OUTPUT_DIR}/{geography_code}/'
-    os.makedirs(PLACE_DIR + "_data/", exist_ok=True)
+    PLACE_FILE = f'{OUTPUT_DIR}/{geography_code}.njk'
+    PLACE_DATA_DIR = f'{SRC_DATA_DIR}/place/{geography_code}'
+    os.makedirs(PLACE_DATA_DIR, exist_ok=True)
 
     this_place = all_place_data.filter_by_codes([geography_code]).iloc[0]
 
-    with open(f"{PLACE_DIR}/index.njk", "w") as f:
+    with open(f"{PLACE_FILE}", "w") as f:
         f.write(
             '---\nkey: ' + geography_code +
             '\ntitle: ' + this_place['name'] +
@@ -73,14 +74,14 @@ def process(geography_code):
         'children': this_place['children'].tolist(),
     }
 
-    with open(f"{PLACE_DIR}/_data/relations.json", "w") as f:
+    with open(f"{PLACE_DATA_DIR}/relations.json", "w") as f:
         f.write(json.dumps(relations))
 
     codes = relations['children']
     if len(codes) < 1:
         codes = [geography_code]
     geojson = Shapes().filter_by_codes(codes)
-    geojson.pipe(save_geojson, PLACE_DIR + "_data/", 'map.geojson')
+    geojson.pipe(save_geojson, PLACE_DATA_DIR, 'map.geojson')
 
 
 if __name__ == '__main__':

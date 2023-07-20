@@ -86,3 +86,6 @@ stages:
       - ${top}/src/place/:
           cache: false
           persist: false
+      - ${top}/src/_data/place/:
+          cache: false
+          persist: false

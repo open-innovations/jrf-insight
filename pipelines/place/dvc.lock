@@ -133,11 +133,16 @@ stages:
       size: 19740
     - path: prepare.py
       hash: md5
-      md5: 6823c8a29f9189e41029767f3bf11069
-      size: 2287
+      md5: adb7118d15c93268413f8e6559228011
+      size: 2331
     outs:
+    - path: ../../src/_data/place/
+      hash: md5
+      md5: 3e91c38063aa38a77dcff9d8d474f4fe.dir
+      size: 2434279
+      nfiles: 3290
     - path: ../../src/place/
       hash: md5
-      md5: 556f9e55a5104a320e06023eb4f0ff95.dir
-      size: 2525303
-      nfiles: 4936
+      md5: e569b22012f29b589a4f4a1650ccb983.dir
+      size: 91024
+      nfiles: 1646

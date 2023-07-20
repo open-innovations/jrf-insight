@@ -5,8 +5,8 @@ tags:
 ---
 {% set this_place_data = query.getDataForPlace(key) %}
 
-{% if (relations.children | length) > 0 %}
-  {% set place_data = query.getPlaceData(relations.children) %}
+{% if (place[key].relations.children | length) > 0 %}
+  {% set place_data = query.getPlaceData(place[key].relations.children) %}
 {% else %}
   {% set place_data = [this_place_data] %}
 {% endif %}
@@ -108,9 +108,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 
 {{ comp.nav_block({
   place_key: key,
-  parents: relations.parents,
-  ancestors: relations.ancestors,
-  children: relations.children,
+  parents: place[key].relations.parents,
+  ancestors: place[key].relations.ancestors,
+  children: place[key].relations.children,
   dir: {
     spotlight: true
   }
@@ -120,13 +120,13 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
 {% set half_population = (max_population - min_population) / 2 + min_population %}
 
-{% if map %}
+{% if place[key].map %}
   {{ comp.oi.map.zoomable({
         config: {
           data: place_data,
           geojson: 
           {
-            data: map,
+            data: place[key].map,
             key: 'ons_code'
           },
           columns: [{
@@ -163,9 +163,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% endif %}
 
 {% set all_places = [
-  relations.ancestors | reverse,
+  place[key].relations.ancestors | reverse,
   key,
-  relations.children
+  place[key].relations.children
 ] | flatten %}
 
 {% set place_data_all = query.getDataForPlaces(all_places) %}
