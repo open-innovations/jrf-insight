@@ -1,11 +1,11 @@
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 import yaml
 
 
 from progress.bar import Bar
 from prepare import process, shared_data
 
-chunksize = 4
+chunksize = cpu_count()
 
 if __name__ == "__main__":
     shared_data()
@@ -16,4 +16,4 @@ if __name__ == "__main__":
     with Pool(processes=chunksize) as pool, Bar('Processing', max=len(places)) as bar:
         for chunk in chunks:
             pool.map(process, chunk)
-            bar.next(chunksize)
+            bar.next(len(chunk))
