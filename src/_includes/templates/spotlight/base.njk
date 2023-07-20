@@ -3,7 +3,7 @@ layout: ../page.njk
 tags:
   - spotlight
 ---
-{% set place_page = search.page("place key=" + geography) %}
+{% set place_page = place[geography] %}
 
 <p>Spotlight page for {{ title }} in {{ place_page.title }} ({{ comp.place.type({ id: geography }) }}).</p>
 
