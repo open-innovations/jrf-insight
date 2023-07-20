@@ -1,11 +1,11 @@
 ---
-layout: ../page.njk
+layout: ./page.njk
 tags:
   - spotlight
 ---
 {% set place_page = place[geography] %}
 
-<p>Spotlight page for {{ title }} in {{ place_page.title }} ({{ comp.place.type({ id: geography }) }}).</p>
+{% include 'partials/spotlight/' + spotlight + '/headlines.njk' %}
 
 {{ comp.nav_block({
   dir: {
@@ -18,4 +18,4 @@ tags:
   place_prefix: '/spotlight/' + spotlight + '/'
 }) | safe }}
 
-{{ content | safe }}
+{% include 'partials/spotlight/' + spotlight + '/content.njk' %}

@@ -1,4 +1,4 @@
-export const layout = 'templates/spotlight/base.njk';
+export const layout = 'templates/spotlight.njk';
 
 type SpotlightData = {
   name: string,
