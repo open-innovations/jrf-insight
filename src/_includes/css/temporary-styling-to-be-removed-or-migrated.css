@@ -75,3 +75,10 @@ td {
 }
 tr:nth-child(odd) {background-color: #dbdbdb;}
 tr.here { background-color: yellow; }
+
+a.broken {
+  border: 5px solid red;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+}

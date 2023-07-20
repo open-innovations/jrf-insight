@@ -64,4 +64,14 @@ site.filter("getattr", (a: Record<string, unknown>[], attr: string) => a.map(x =
 site.filter("max", (arr: number[]) => (Math.max(...arr)));
 site.filter("min", (arr: number[]) => (Math.min(...arr)));
 
+// Add broken link class if running in SMALL_SITE mode
+site.process(['.html'], (page) => {
+  if (Deno.env.get('SMALL_SITE') === undefined) return;
+  page.document?.querySelectorAll('a[href]').forEach(link => {
+    const target = link.getAttribute('href');
+    if (page.data.search.page(`url=${target}`)) return;
+    link.classList.add('broken');
+  });
+});
+
 export default site;
