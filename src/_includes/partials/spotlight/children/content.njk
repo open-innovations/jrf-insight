@@ -1,3 +1,6 @@
+{% set number_of_children = this_place_data['number_of_children'] %}
+{% set children_low_income = this_place_data['children_in_low_income'] %}
+{% set child_poverty_rate = (children_low_income / number_of_children)*100 %}
 <ul>
     <li> Child Poverty</li>
     <li>Children in Need census</li>
@@ -6,3 +9,10 @@
     <li>EYFS profile</li>
     <li>FSM</li>
 </ul>
+{% comp 'layout.stack' %}
+    {{ comp.info.headline({
+        number: child_poverty_rate,
+        display: child_poverty_rate,
+        description: 'Percentage of children living in low income poverty'
+        }) | safe }}
+{% endcomp %}

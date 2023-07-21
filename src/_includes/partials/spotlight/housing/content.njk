@@ -1,6 +1,25 @@
+{% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
+{% set ct_working_age = this_place_data['council_tax_working_age'] %}
+
+{% comp 'layout.two_column' %}
+
+    {{ comp.info.headline({
+        number: ct_working_age,
+        display: ct_working_age,
+        description: 'Number of working-age people claiming council tax support'
+        }) | safe }}
+    {{ comp.info.headline({
+        number: ct_pensioners,
+        display: ct_pensioners,
+        description: 'Number of pensioners claiming council tax support'
+        }) | safe }}
+
+{% endcomp %}
+
 <ul>
     <li>Household Income</li>
     <li>Fuel poverty</li>
     <li>Overcrowding</li>
     <li>Tenure type</li>
+    <li>Council tax support</li>
 </ul>

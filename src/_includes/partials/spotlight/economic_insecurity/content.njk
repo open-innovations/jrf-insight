@@ -1,11 +1,17 @@
 {% set savings = this_place_data['households_low_income_no_savings'] %}
+{% set imd_average_score = this_place_data['imd_average_score'] %}
 
 {% comp 'layout.stack' %}
-{{ comp.info.headline({
-      number: savings,
-      display: savings,
-      description: 'Number of households with no savings or investments'
-    }) | safe }}
+    {{ comp.info.headline({
+        number: savings,
+        display: savings,
+        description: 'Number of households with no savings or investments'
+        }) | safe }}
+    {{ comp.info.headline({
+        number: imd_average_score,
+        display: imd_average_score,
+        description: 'IMD - average score'
+        }) | safe }}
 
 {% endcomp %}
 <ul>
@@ -13,4 +19,3 @@
     <li>IMD</li>
     <li>Savings and Investments</li>
 </ul>
-{{ this_place_data | dump(2) }}
