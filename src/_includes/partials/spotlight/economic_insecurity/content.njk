@@ -1,5 +1,16 @@
+{% set savings = this_place_data['households_low_income_no_savings'] %}
+
+{% comp 'layout.stack' %}
+{{ comp.info.headline({
+      number: savings,
+      display: savings,
+      description: 'Number of households with no savings or investments'
+    }) | safe }}
+
+{% endcomp %}
 <ul>
     <li>Weekly Earning</li>
     <li>IMD</li>
     <li>Savings and Investments</li>
 </ul>
+{{ this_place_data | dump(2) }}
