@@ -26,19 +26,20 @@ const site = lume({
 site.process([".html"], autoDependency);
 
 // Add broken link class if running in SMALL_SITE mode
-site.process(['.html'], (page) => {
-  if (Deno.env.get('SMALL_SITE') === undefined) return;
-  page.document?.querySelectorAll('a[href]').forEach(link => {
-    const target = site.url(link.getAttribute('href'));
-    if (
-      !target.startsWith('/') ||
-      target.startsWith('//') ||
-      target.startsWith('..')
-    ) return;
-    if (page.data.search.page(`url=${target}`)) return;
-    link.classList.add('broken');
-  });
-});
+if (Deno.env.get('SMALL_SITE') !== undefined) {
+  site.process(['.html'], (page) => {
+    page.document?.querySelectorAll('a[href]').forEach(link => {
+      const target = site.url(link.getAttribute('href'));
+      if (
+        !target.startsWith('/') ||
+        target.startsWith('//') ||
+        target.startsWith('..')
+      ) return;
+      if (page.data.search.page(`url=${target}`)) return;
+      link.classList.add('broken');
+    });
+  });  
+}
 
 site.loadData([".csv"], csvLoader);
 site.loadData([".geojson"], jsonLoader);
