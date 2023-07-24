@@ -6,3 +6,6 @@ jrf-insight.Rproj
 /model.pkl
 
 __pycache__/
+
+*.cpuprofile
+*.heapprofile

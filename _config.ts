@@ -4,11 +4,12 @@ import base_path from "lume/plugins/base_path.ts";
 import esbuild from "lume/plugins/esbuild.ts";
 import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
-import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
+// import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
+import autoDependency from "./patch/auto-dependency.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.0/loaders/csv-loader.ts";
 import oiCharts from "oi-lume-charts/mod.ts";
 import svgo from "lume/plugins/svgo.ts";
-import inline from "lume/plugins/inline.ts";
+// import inline from "lume/plugins/inline.ts";
 
 const site = lume({
   src: "./src",
@@ -23,6 +24,7 @@ const site = lume({
   }
 });
 
+// TODO make this more efficient:
 site.process([".html"], autoDependency);
 
 // Add broken link class if running in SMALL_SITE mode
@@ -49,7 +51,8 @@ site.use(oiCharts({
     family: "chaparral-pro,sans-serif",
   },
 }));
-site.use(inline());
+// TODO make this more efficient:
+// site.use(inline());
 site.use(base_path());
 site.use(metas());
 site.use(postcss());

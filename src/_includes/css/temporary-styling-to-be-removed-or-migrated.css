@@ -11,7 +11,7 @@ body > header {
       flex-grow: 1;
     }
   }
-  & svg {
+  & svg, img[inline] {
     max-height: 4rem;
     width: auto;
   }

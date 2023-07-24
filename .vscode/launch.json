@@ -1,0 +1,31 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "Profile lume build",
+      "type": "node",
+      "program": "${workspaceFolder}/profile.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "/home/giles/.deno/bin/deno",
+      // "profileStartup": true,
+      "env": {
+        "DENO_V8_FLAGS": "--max-old-space-size=8192",
+      },
+      "runtimeArgs": [
+        "run",
+        "--unstable",
+        // "--import-map",
+        // "./import_map.json",
+        "--config",
+        "./deno.json",
+        "--inspect-brk",
+        "--allow-all"
+      ],
+      "attachSimplePort": 9229
+    }
+]
+}
