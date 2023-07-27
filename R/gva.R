@@ -108,8 +108,9 @@ gva_lsoa <- readxl::read_excel('~/Data/ONS/Regional Accounts/GVA/uksmallareagvae
   dplyr::select(date,
                 geography_code = `LSOA code`,
                 variable_name, variable_unit,
-                value) |>
-  dplyr::filter(date == max(date))
+                value)
+# |>
+#   dplyr::filter(date == max(date))
 
 lsoa_wd <- readxl::read_excel("~/Data/Geodata/Lookups/LSOA11_WD21_LAD21_EW_LU_V2.xlsx") |>
   dplyr::select(LSOA11CD, WD21CD)
