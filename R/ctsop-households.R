@@ -20,7 +20,33 @@ households_lad <- CTSOP4_1_2022_03_31 |>
                 variable_name,
                 value = all_properties)
 
-geography_lookup <- read_csv("data/geo/geography_lookup.csv")
+households_wd <- CTSOP4_1_2022_03_31 |>
+  # filter for LAUA only
+  dplyr::filter(geography == 'LSOA') |>
+  # filter for all bands
+  dplyr::filter(band == 'All') |>
+  # add date and variable
+  dplyr::mutate(date = '2022',
+                variable_name = "Number of households",
+                all_properties = as.integer(all_properties)) |>
+  # reduce cols
+  dplyr::select(date,
+                geography_code = ecode,
+                variable_name,
+                value = all_properties)
+
+lsoa_wd <- readxl::read_excel("~/Data/Geodata/Lookups/LSOA11_WD21_LAD21_EW_LU_V2.xlsx") |>
+  dplyr::select(LSOA11CD, WD21CD)
+
+joined <- dplyr::inner_join(households_wd, lsoa_wd,
+                            by = c('geography_code' = 'LSOA11CD')) |>
+  dplyr::select(-geography_code) |>
+  dplyr::rename(geography_code = WD21CD) |>
+  dplyr::group_by(date, geography_code, variable_name) |>
+  dplyr::summarise(value = sum(value))
+
+
+geography_lookup <- readr::read_csv("data/geo/geography_lookup.csv")
 
 lad_cauth <- geography_lookup |>
   dplyr::select(LAD22CD, CAUTH22CD) |>
@@ -69,11 +95,12 @@ panrgn <- households_lad |>
   dplyr::summarise(value = sum(value)) |>
   dplyr::rename(geography_code = PANRGN22CD)
 
-households <- dplyr::bind_rows(lad,
-                        cauth,
-                        cty,
-                        rgn,
-                        panrgn)
+households <- dplyr::bind_rows(joined,
+                               lad,
+                               cauth,
+                               cty,
+                               rgn,
+                               panrgn)
 
 readr::write_csv(households, 'data/households/households.csv')
 
