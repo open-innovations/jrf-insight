@@ -1,317 +1,321 @@
-geography_code,geography_name,"Total number of households assessed,2 Grand Total Total initial assessments,2"
-E12000003,Yorkshire and The Humber,8250
-E12000004,East Midlands,6390
-E12000005,West Midlands,8310
-E12000006,East of England,8340
-E12000007,London,14870
-E12000008,South East,11860
-E12000009,South West,7730
-E07000223,Adur,48
-E07000026,Allerdale,124
-E07000032,Amber Valley,165
-E07000224,Arun,275
-E07000170,Ashfield,179
-E07000105,Ashford,165
-E07000200,Babergh,101
-E09000002,Barking & Dagenham,339
-E09000003,Barnet,616
-E08000016,Barnsley,249
-E07000027,Barrow-in-Furness,86
-E07000066,Basildon,217
-E07000084,Basingstoke & Deane,155
-E07000171,Bassetlaw,97
-E06000022,Bath & North East Somerset,159
-E06000055,Bedford,352
-E09000004,Bexley,192
-E08000025,Birmingham,1585
-E07000129,Blaby,125
-E06000008,Blackburn with Darwen,274
-E06000009,Blackpool,517
-E07000033,Bolsover,86
-E08000001,Bolton,650
-E07000136,Boston,..
-E06000058,"Bournemouth, Christchurch and Poole",639
-E06000036,Bracknell Forest,203
-E08000032,Bradford,706
-E07000067,Braintree,105
-E07000143,Breckland,156
-E09000005,Brent,790
-E07000068,Brentwood,45
-E06000043,Brighton & Hove,450
-E06000023,Bristol,807
-E07000144,Broadland,96
-E09000006,Bromley,554
-E07000234,Bromsgrove,102
-E07000095,Broxbourne,154
-E07000172,Broxtowe,111
-E06000060,Buckinghamshire,965
-E07000117,Burnley,135
-E08000002,Bury,355
-E08000033,Calderdale,268
-E07000008,Cambridge,183
-E09000007,Camden,236
-E07000192,Cannock Chase,78
-E07000106,Canterbury,256
-E07000028,Carlisle,159
-E07000069,Castle Point,75
-E06000056,Central Bedfordshire,396
-E07000130,Charnwood,118
-E07000070,Chelmsford,250
-E07000078,Cheltenham,140
-E07000177,Cherwell,132
-E06000049,Cheshire East,432
-E06000050,Cheshire West & Chester,484
-E07000034,Chesterfield,151
-E07000225,Chichester,122
-E07000118,Chorley,145
-E09000001,City of London,9
-E07000071,Colchester,212
-E07000029,Copeland,95
-E06000052,Cornwall,742
-E07000079,Cotswold,54
-E08000026,Coventry,819
-E07000163,Craven,39
-E07000226,Crawley,159
-E09000008,Croydon,..
-E07000096,Dacorum,196
-E06000005,Darlington,335
-E07000107,Dartford,195
-E06000015,Derby,607
-E07000035,Derbyshire Dales,55
-E08000017,Doncaster,650
-E06000059,Dorset,494
-E07000108,Dover,131
-E08000027,Dudley,791
-E06000047,Durham,802
-E09000009,Ealing,886
-E07000009,East Cambridgeshire,147
-E07000040,East Devon,184
-E07000085,East Hampshire,114
-E07000242,East Hertfordshire,133
-E07000137,East Lindsey,163
-E06000011,East Riding of Yorkshire,276
-E07000193,East Staffordshire,71
-E07000244,East Suffolk,305
-E07000061,Eastbourne,169
-E07000086,Eastleigh,74
-E07000030,Eden,67
-E07000207,Elmbridge,91
-E09000010,Enfield,845
-E07000072,Epping Forest,112
-E07000208,Epsom & Ewell,64
-E07000036,Erewash,111
-E07000041,Exeter,327
-E07000087,Fareham,121
-E07000010,Fenland,138
-E07000112,Folkestone & Hythe,138
-E07000080,Forest of Dean,98
-E07000119,Fylde,73
-E08000037,Gateshead,478
-E07000173,Gedling,91
-E07000081,Gloucester,333
-E07000088,Gosport,144
-E07000109,Gravesham,175
-E07000145,Great Yarmouth,287
-E09000011,Greenwich,428
-E07000209,Guildford,123
-E09000012,Hackney,633
-E06000006,Halton,..
-E07000164,Hambleton,66
-E09000013,Hammersmith & Fulham,254
-E07000131,Harborough,77
-E09000014,Haringey,651
-E07000073,Harlow,106
-E07000165,Harrogate,205
-E09000015,Harrow,299
-E07000089,Hart,54
-E06000001,Hartlepool,174
-E07000062,Hastings,264
-E07000090,Havant,180
-E09000016,Havering,460
-E06000019,Herefordshire,384
-E07000098,Hertsmere,127
-E07000037,High Peak,106
-E09000017,Hillingdon,558
-E07000132,Hinckley & Bosworth,143
-E07000227,Horsham,112
-E09000018,Hounslow,..
-E07000011,Huntingdonshire,278
-E07000120,Hyndburn,63
-E07000202,Ipswich,360
-E06000046,Isle of Wight,214
-E06000053,Isles of Scilly,0
-E09000019,Islington,557
-E09000020,Kensington & Chelsea,381
-E07000146,King's Lynn & West Norfolk,173
-E06000010,Kingston upon Hull,1088
-E09000021,Kingston upon Thames,96
-E08000034,Kirklees,506
-E08000011,Knowsley,308
-E09000022,Lambeth,727
-E07000121,Lancaster,212
-E08000035,Leeds,1213
-E06000016,Leicester,745
-E07000063,Lewes,49
-E09000023,Lewisham,543
-E07000194,Lichfield,95
-E07000138,Lincoln,233
-E08000012,Liverpool,339
-E06000032,Luton,437
-E07000110,Maidstone,305
-E07000074,Maldon,27
-E07000235,Malvern Hills,56
-E08000003,Manchester,1701
-E07000174,Mansfield,117
-E06000035,Medway Towns,464
-E07000133,Melton,124
-E07000187,Mendip,133
-E09000024,Merton,215
-E07000042,Mid Devon,152
-E07000203,Mid Suffolk,97
-E07000228,Mid Sussex,102
-E06000002,Middlesbrough,382
-E06000042,Milton Keynes,442
-E07000210,Mole Valley,74
-E07000091,New Forest,181
-E07000175,Newark & Sherwood,85
-E08000021,Newcastle on Tyne,633
-E07000195,Newcastle under Lyme,132
-E09000025,Newham,589
-E07000043,North Devon,220
-E07000038,North East Derbyshire,68
-E06000012,North East Lincolnshire,345
-E07000099,North Hertfordshire,95
-E07000139,North Kesteven,107
-E06000013,North Lincolnshire,253
-E07000147,North Norfolk,109
-E06000061,North Northamptonshire,411
-E06000024,North Somerset,190
-E08000022,North Tyneside,255
-E07000218,North Warwickshire,29
-E07000134,North West Leicestershire,100
-E06000057,Northumberland,269
-E07000148,Norwich,528
-E06000018,Nottingham,666
-E07000219,Nuneaton & Bedworth,207
-E07000135,Oadby & Wigston,81
-E08000004,Oldham,648
-E07000178,Oxford,167
-E07000122,Pendle,202
-E06000031,Peterborough,423
-E06000026,Plymouth,497
-E06000044,Portsmouth,650
-E07000123,Preston,78
-E06000038,Reading,621
-E09000026,Redbridge,270
-E06000003,Redcar & Cleveland,104
-E07000236,Redditch,147
-E07000211,Reigate & Banstead,127
-E07000124,Ribble Valley,23
-E09000027,Richmond upon Thames,139
-E07000166,Richmondshire,52
-E08000005,Rochdale,415
-E07000075,Rochford,70
-E07000125,Rossendale,173
-E07000064,Rother,149
-E08000018,Rotherham,366
-E07000220,Rugby,..
-E07000212,Runnymede,80
-E07000176,Rushcliffe,74
-E07000092,Rushmoor,137
-E06000017,Rutland,39
-E07000167,Ryedale,61
-E08000006,Salford,887
-E08000028,Sandwell,446
-E07000168,Scarborough,208
-E07000188,Sedgemoor,183
-E08000014,Sefton,284
-E07000169,Selby,73
-E07000111,Sevenoaks,115
-E08000019,Sheffield,971
-E06000051,Shropshire,368
-E06000039,Slough,211
-E08000029,Solihull,237
-E07000246,Somerset West and Taunton,134
-E07000012,South Cambridgeshire,124
-E07000039,South Derbyshire,66
-E06000025,South Gloucestershire,170
-E07000044,South Hams,102
-E07000140,South Holland,88
-E07000141,South Kesteven,163
-E07000031,South Lakeland,123
-E07000149,South Norfolk,67
-E07000179,South Oxfordshire,144
-E07000126,South Ribble,169
-E07000189,South Somerset,234
-E07000196,South Staffordshire,40
-E08000023,South Tyneside,280
-E06000045,Southampton,500
-E06000033,Southend-on-Sea,202
-E09000028,Southwark,716
-E07000213,Spelthorne,106
-E07000240,St Albans,83
-E08000013,St Helens,179
-E07000197,Stafford,94
-E07000198,Staffordshire Moorlands,70
-E07000243,Stevenage,115
-E08000007,Stockport,350
-E06000004,Stockton-on-Tees,871
-E06000021,Stoke-on-Trent,419
-E07000221,Stratford-on-Avon,135
-E07000082,Stroud,115
-E08000024,Sunderland,527
-E07000214,Surrey Heath,37
-E09000029,Sutton,242
-E07000113,Swale,222
-E06000030,Swindon,354
-E08000008,Tameside,383
-E07000199,Tamworth,79
-E07000215,Tandridge,69
-E07000045,Teignbridge,141
-E06000020,Telford & Wrekin,378
-E07000076,Tendring,212
-E07000093,Test Valley,125
-E07000083,Tewkesbury,120
-E07000114,Thanet,182
-E07000102,Three Rivers,120
-E06000034,Thurrock,212
-E07000115,Tonbridge & Malling,104
-E06000027,Torbay,372
-E07000046,Torridge,121
-E09000030,Tower Hamlets,718
-E08000009,Trafford,258
-E07000116,Tunbridge Wells,111
-E07000077,Uttlesford,47
-E07000180,Vale of White Horse,122
-E08000036,Wakefield,433
-E08000030,Walsall,193
-E09000031,Waltham Forest,298
-E09000032,Wandsworth,501
-E06000007,Warrington,486
-E07000222,Warwick,172
-E07000103,Watford,106
-E07000216,Waverley,89
-E07000065,Wealden,107
-E07000241,Welwyn Hatfield,375
-E06000037,West Berkshire,126
-E07000047,West Devon,57
-E07000127,West Lancashire,63
-E07000142,West Lindsey,167
-E06000062,West Northamptonshire,578
-E07000181,West Oxfordshire,85
-E07000245,West Suffolk,186
-E09000033,Westminster,578
-E08000010,Wigan,696
-E06000054,Wiltshire,453
-E07000094,Winchester,94
-E06000040,Windsor & Maidenhead,108
-E08000015,Wirral,298
-E07000217,Woking,74
-E06000041,Wokingham,152
-E08000031,Wolverhampton,476
-E07000237,Worcester,248
-E07000229,Worthing,134
-E07000238,Wychavon,135
-E07000128,Wyre,132
-E07000239,Wyre Forest,185
-E06000014,York,225
+date,geography_code,geography_name,variable_name,value
+2023 Q1,E92000001,ENGLAND,Total households assessed as owed a duty,79840
+2023 Q1,E12000007,London,Total households assessed as owed a duty,14320
+2023 Q1,E12000001,North East,Total households assessed as owed a duty,4990
+2023 Q1,E12000002,North West,Total households assessed as owed a duty,12060
+2023 Q1,E12000003,Yorkshire and The Humber,Total households assessed as owed a duty,8070
+2023 Q1,E12000004,East Midlands,Total households assessed as owed a duty,6270
+2023 Q1,E12000005,West Midlands,Total households assessed as owed a duty,8040
+2023 Q1,E12000006,East of England,Total households assessed as owed a duty,7640
+2023 Q1,E12000007,London,Total households assessed as owed a duty,14320
+2023 Q1,E12000008,South East,Total households assessed as owed a duty,10930
+2023 Q1,E12000009,South West,Total households assessed as owed a duty,7520
+2023 Q1,E07000223,Adur,Total households assessed as owed a duty,47
+2023 Q1,E07000026,Allerdale,Total households assessed as owed a duty,124
+2023 Q1,E07000032,Amber Valley,Total households assessed as owed a duty,157
+2023 Q1,E07000224,Arun,Total households assessed as owed a duty,230
+2023 Q1,E07000170,Ashfield,Total households assessed as owed a duty,178
+2023 Q1,E07000105,Ashford,Total households assessed as owed a duty,165
+2023 Q1,E07000200,Babergh,Total households assessed as owed a duty,101
+2023 Q1,E09000002,Barking & Dagenham,Total households assessed as owed a duty,325
+2023 Q1,E09000003,Barnet,Total households assessed as owed a duty,594
+2023 Q1,E08000016,Barnsley,Total households assessed as owed a duty,248
+2023 Q1,E07000027,Barrow-in-Furness,Total households assessed as owed a duty,83
+2023 Q1,E07000066,Basildon,Total households assessed as owed a duty,216
+2023 Q1,E07000084,Basingstoke & Deane,Total households assessed as owed a duty,153
+2023 Q1,E07000171,Bassetlaw,Total households assessed as owed a duty,95
+2023 Q1,E06000022,Bath & North East Somerset,Total households assessed as owed a duty,159
+2023 Q1,E06000055,Bedford,Total households assessed as owed a duty,349
+2023 Q1,E09000004,Bexley,Total households assessed as owed a duty,189
+2023 Q1,E08000025,Birmingham,Total households assessed as owed a duty,1550
+2023 Q1,E07000129,Blaby,Total households assessed as owed a duty,123
+2023 Q1,E06000008,Blackburn with Darwen,Total households assessed as owed a duty,263
+2023 Q1,E06000009,Blackpool,Total households assessed as owed a duty,502
+2023 Q1,E07000033,Bolsover,Total households assessed as owed a duty,86
+2023 Q1,E08000001,Bolton,Total households assessed as owed a duty,586
+2023 Q1,E07000136,Boston,Total households assessed as owed a duty,NA
+2023 Q1,E06000058,"Bournemouth, Christchurch and Poole",Total households assessed as owed a duty,637
+2023 Q1,E06000036,Bracknell Forest,Total households assessed as owed a duty,156
+2023 Q1,E08000032,Bradford,Total households assessed as owed a duty,658
+2023 Q1,E07000067,Braintree,Total households assessed as owed a duty,105
+2023 Q1,E07000143,Breckland,Total households assessed as owed a duty,156
+2023 Q1,E09000005,Brent,Total households assessed as owed a duty,766
+2023 Q1,E07000068,Brentwood,Total households assessed as owed a duty,45
+2023 Q1,E06000043,Brighton & Hove,Total households assessed as owed a duty,428
+2023 Q1,E06000023,Bristol,Total households assessed as owed a duty,758
+2023 Q1,E07000144,Broadland,Total households assessed as owed a duty,96
+2023 Q1,E09000006,Bromley,Total households assessed as owed a duty,520
+2023 Q1,E07000234,Bromsgrove,Total households assessed as owed a duty,101
+2023 Q1,E07000095,Broxbourne,Total households assessed as owed a duty,143
+2023 Q1,E07000172,Broxtowe,Total households assessed as owed a duty,109
+2023 Q1,E06000060,Buckinghamshire,Total households assessed as owed a duty,718
+2023 Q1,E07000117,Burnley,Total households assessed as owed a duty,135
+2023 Q1,E08000002,Bury,Total households assessed as owed a duty,347
+2023 Q1,E08000033,Calderdale,Total households assessed as owed a duty,263
+2023 Q1,E07000008,Cambridge,Total households assessed as owed a duty,165
+2023 Q1,E09000007,Camden,Total households assessed as owed a duty,215
+2023 Q1,E07000192,Cannock Chase,Total households assessed as owed a duty,78
+2023 Q1,E07000106,Canterbury,Total households assessed as owed a duty,215
+2023 Q1,E07000028,Carlisle,Total households assessed as owed a duty,159
+2023 Q1,E07000069,Castle Point,Total households assessed as owed a duty,75
+2023 Q1,E06000056,Central Bedfordshire,Total households assessed as owed a duty,377
+2023 Q1,E07000130,Charnwood,Total households assessed as owed a duty,118
+2023 Q1,E07000070,Chelmsford,Total households assessed as owed a duty,246
+2023 Q1,E07000078,Cheltenham,Total households assessed as owed a duty,140
+2023 Q1,E07000177,Cherwell,Total households assessed as owed a duty,132
+2023 Q1,E06000049,Cheshire East,Total households assessed as owed a duty,429
+2023 Q1,E06000050,Cheshire West & Chester,Total households assessed as owed a duty,478
+2023 Q1,E07000034,Chesterfield,Total households assessed as owed a duty,142
+2023 Q1,E07000225,Chichester,Total households assessed as owed a duty,121
+2023 Q1,E07000118,Chorley,Total households assessed as owed a duty,145
+2023 Q1,E09000001,City of London,Total households assessed as owed a duty,9
+2023 Q1,E07000071,Colchester,Total households assessed as owed a duty,194
+2023 Q1,E07000029,Copeland,Total households assessed as owed a duty,95
+2023 Q1,E06000052,Cornwall,Total households assessed as owed a duty,741
+2023 Q1,E07000079,Cotswold,Total households assessed as owed a duty,54
+2023 Q1,E08000026,Coventry,Total households assessed as owed a duty,803
+2023 Q1,E07000163,Craven,Total households assessed as owed a duty,38
+2023 Q1,E07000226,Crawley,Total households assessed as owed a duty,151
+2023 Q1,E09000008,Croydon,Total households assessed as owed a duty,NA
+2023 Q1,E07000096,Dacorum,Total households assessed as owed a duty,195
+2023 Q1,E06000005,Darlington,Total households assessed as owed a duty,321
+2023 Q1,E07000107,Dartford,Total households assessed as owed a duty,194
+2023 Q1,E06000015,Derby,Total households assessed as owed a duty,588
+2023 Q1,E07000035,Derbyshire Dales,Total households assessed as owed a duty,51
+2023 Q1,E08000017,Doncaster,Total households assessed as owed a duty,650
+2023 Q1,E06000059,Dorset,Total households assessed as owed a duty,441
+2023 Q1,E07000108,Dover,Total households assessed as owed a duty,130
+2023 Q1,E08000027,Dudley,Total households assessed as owed a duty,654
+2023 Q1,E06000047,Durham,Total households assessed as owed a duty,797
+2023 Q1,E09000009,Ealing,Total households assessed as owed a duty,880
+2023 Q1,E07000009,East Cambridgeshire,Total households assessed as owed a duty,144
+2023 Q1,E07000040,East Devon,Total households assessed as owed a duty,175
+2023 Q1,E07000085,East Hampshire,Total households assessed as owed a duty,113
+2023 Q1,E07000242,East Hertfordshire,Total households assessed as owed a duty,132
+2023 Q1,E07000137,East Lindsey,Total households assessed as owed a duty,162
+2023 Q1,E06000011,East Riding of Yorkshire,Total households assessed as owed a duty,264
+2023 Q1,E07000193,East Staffordshire,Total households assessed as owed a duty,67
+2023 Q1,E07000244,East Suffolk,Total households assessed as owed a duty,299
+2023 Q1,E07000061,Eastbourne,Total households assessed as owed a duty,165
+2023 Q1,E07000086,Eastleigh,Total households assessed as owed a duty,74
+2023 Q1,E07000030,Eden,Total households assessed as owed a duty,62
+2023 Q1,E07000207,Elmbridge,Total households assessed as owed a duty,87
+2023 Q1,E09000010,Enfield,Total households assessed as owed a duty,822
+2023 Q1,E07000072,Epping Forest,Total households assessed as owed a duty,112
+2023 Q1,E07000208,Epsom & Ewell,Total households assessed as owed a duty,62
+2023 Q1,E07000036,Erewash,Total households assessed as owed a duty,109
+2023 Q1,E07000041,Exeter,Total households assessed as owed a duty,325
+2023 Q1,E07000087,Fareham,Total households assessed as owed a duty,83
+2023 Q1,E07000010,Fenland,Total households assessed as owed a duty,127
+2023 Q1,E07000112,Folkestone & Hythe,Total households assessed as owed a duty,136
+2023 Q1,E07000080,Forest of Dean,Total households assessed as owed a duty,90
+2023 Q1,E07000119,Fylde,Total households assessed as owed a duty,73
+2023 Q1,E08000037,Gateshead,Total households assessed as owed a duty,469
+2023 Q1,E07000173,Gedling,Total households assessed as owed a duty,91
+2023 Q1,E07000081,Gloucester,Total households assessed as owed a duty,331
+2023 Q1,E07000088,Gosport,Total households assessed as owed a duty,144
+2023 Q1,E07000109,Gravesham,Total households assessed as owed a duty,170
+2023 Q1,E07000145,Great Yarmouth,Total households assessed as owed a duty,228
+2023 Q1,E09000011,Greenwich,Total households assessed as owed a duty,426
+2023 Q1,E07000209,Guildford,Total households assessed as owed a duty,121
+2023 Q1,E09000012,Hackney,Total households assessed as owed a duty,626
+2023 Q1,E06000006,Halton,Total households assessed as owed a duty,NA
+2023 Q1,E07000164,Hambleton,Total households assessed as owed a duty,63
+2023 Q1,E09000013,Hammersmith & Fulham,Total households assessed as owed a duty,250
+2023 Q1,E07000131,Harborough,Total households assessed as owed a duty,76
+2023 Q1,E09000014,Haringey,Total households assessed as owed a duty,613
+2023 Q1,E07000073,Harlow,Total households assessed as owed a duty,102
+2023 Q1,E07000165,Harrogate,Total households assessed as owed a duty,205
+2023 Q1,E09000015,Harrow,Total households assessed as owed a duty,290
+2023 Q1,E07000089,Hart,Total households assessed as owed a duty,54
+2023 Q1,E06000001,Hartlepool,Total households assessed as owed a duty,174
+2023 Q1,E07000062,Hastings,Total households assessed as owed a duty,263
+2023 Q1,E07000090,Havant,Total households assessed as owed a duty,178
+2023 Q1,E09000016,Havering,Total households assessed as owed a duty,458
+2023 Q1,E06000019,Herefordshire,Total households assessed as owed a duty,383
+2023 Q1,E07000098,Hertsmere,Total households assessed as owed a duty,126
+2023 Q1,E07000037,High Peak,Total households assessed as owed a duty,103
+2023 Q1,E09000017,Hillingdon,Total households assessed as owed a duty,548
+2023 Q1,E07000132,Hinckley & Bosworth,Total households assessed as owed a duty,142
+2023 Q1,E07000227,Horsham,Total households assessed as owed a duty,111
+2023 Q1,E09000018,Hounslow,Total households assessed as owed a duty,NA
+2023 Q1,E07000011,Huntingdonshire,Total households assessed as owed a duty,275
+2023 Q1,E07000120,Hyndburn,Total households assessed as owed a duty,63
+2023 Q1,E07000202,Ipswich,Total households assessed as owed a duty,277
+2023 Q1,E06000046,Isle of Wight,Total households assessed as owed a duty,193
+2023 Q1,E06000053,Isles of Scilly,Total households assessed as owed a duty,0
+2023 Q1,E09000019,Islington,Total households assessed as owed a duty,541
+2023 Q1,E09000020,Kensington & Chelsea,Total households assessed as owed a duty,350
+2023 Q1,E07000146,King's Lynn & West Norfolk,Total households assessed as owed a duty,138
+2023 Q1,E06000010,Kingston upon Hull,Total households assessed as owed a duty,1029
+2023 Q1,E09000021,Kingston upon Thames,Total households assessed as owed a duty,95
+2023 Q1,E08000034,Kirklees,Total households assessed as owed a duty,494
+2023 Q1,E08000011,Knowsley,Total households assessed as owed a duty,293
+2023 Q1,E09000022,Lambeth,Total households assessed as owed a duty,727
+2023 Q1,E07000121,Lancaster,Total households assessed as owed a duty,207
+2023 Q1,E08000035,Leeds,Total households assessed as owed a duty,1212
+2023 Q1,E06000016,Leicester,Total households assessed as owed a duty,732
+2023 Q1,E07000063,Lewes,Total households assessed as owed a duty,49
+2023 Q1,E09000023,Lewisham,Total households assessed as owed a duty,539
+2023 Q1,E07000194,Lichfield,Total households assessed as owed a duty,93
+2023 Q1,E07000138,Lincoln,Total households assessed as owed a duty,233
+2023 Q1,E08000012,Liverpool,Total households assessed as owed a duty,336
+2023 Q1,E06000032,Luton,Total households assessed as owed a duty,425
+2023 Q1,E07000110,Maidstone,Total households assessed as owed a duty,273
+2023 Q1,E07000074,Maldon,Total households assessed as owed a duty,26
+2023 Q1,E07000235,Malvern Hills,Total households assessed as owed a duty,56
+2023 Q1,E08000003,Manchester,Total households assessed as owed a duty,1667
+2023 Q1,E07000174,Mansfield,Total households assessed as owed a duty,117
+2023 Q1,E06000035,Medway Towns,Total households assessed as owed a duty,460
+2023 Q1,E07000133,Melton,Total households assessed as owed a duty,120
+2023 Q1,E07000187,Mendip,Total households assessed as owed a duty,133
+2023 Q1,E09000024,Merton,Total households assessed as owed a duty,211
+2023 Q1,E07000042,Mid Devon,Total households assessed as owed a duty,141
+2023 Q1,E07000203,Mid Suffolk,Total households assessed as owed a duty,97
+2023 Q1,E07000228,Mid Sussex,Total households assessed as owed a duty,102
+2023 Q1,E06000002,Middlesbrough,Total households assessed as owed a duty,382
+2023 Q1,E06000042,Milton Keynes,Total households assessed as owed a duty,434
+2023 Q1,E07000210,Mole Valley,Total households assessed as owed a duty,71
+2023 Q1,E07000091,New Forest,Total households assessed as owed a duty,170
+2023 Q1,E07000175,Newark & Sherwood,Total households assessed as owed a duty,80
+2023 Q1,E08000021,Newcastle on Tyne,Total households assessed as owed a duty,602
+2023 Q1,E07000195,Newcastle under Lyme,Total households assessed as owed a duty,130
+2023 Q1,E09000025,Newham,Total households assessed as owed a duty,589
+2023 Q1,E07000043,North Devon,Total households assessed as owed a duty,217
+2023 Q1,E07000038,North East Derbyshire,Total households assessed as owed a duty,67
+2023 Q1,E06000012,North East Lincolnshire,Total households assessed as owed a duty,342
+2023 Q1,E07000099,North Hertfordshire,Total households assessed as owed a duty,95
+2023 Q1,E07000139,North Kesteven,Total households assessed as owed a duty,107
+2023 Q1,E06000013,North Lincolnshire,Total households assessed as owed a duty,252
+2023 Q1,E07000147,North Norfolk,Total households assessed as owed a duty,109
+2023 Q1,E06000061,North Northamptonshire,Total households assessed as owed a duty,407
+2023 Q1,E06000024,North Somerset,Total households assessed as owed a duty,189
+2023 Q1,E08000022,North Tyneside,Total households assessed as owed a duty,253
+2023 Q1,E07000218,North Warwickshire,Total households assessed as owed a duty,29
+2023 Q1,E07000134,North West Leicestershire,Total households assessed as owed a duty,94
+2023 Q1,E06000057,Northumberland,Total households assessed as owed a duty,269
+2023 Q1,E07000148,Norwich,Total households assessed as owed a duty,261
+2023 Q1,E06000018,Nottingham,Total households assessed as owed a duty,657
+2023 Q1,E07000219,Nuneaton & Bedworth,Total households assessed as owed a duty,201
+2023 Q1,E07000135,Oadby & Wigston,Total households assessed as owed a duty,81
+2023 Q1,E08000004,Oldham,Total households assessed as owed a duty,644
+2023 Q1,E07000178,Oxford,Total households assessed as owed a duty,160
+2023 Q1,E07000122,Pendle,Total households assessed as owed a duty,92
+2023 Q1,E06000031,Peterborough,Total households assessed as owed a duty,423
+2023 Q1,E06000026,Plymouth,Total households assessed as owed a duty,458
+2023 Q1,E06000044,Portsmouth,Total households assessed as owed a duty,629
+2023 Q1,E07000123,Preston,Total households assessed as owed a duty,78
+2023 Q1,E06000038,Reading,Total households assessed as owed a duty,354
+2023 Q1,E09000026,Redbridge,Total households assessed as owed a duty,260
+2023 Q1,E06000003,Redcar & Cleveland,Total households assessed as owed a duty,103
+2023 Q1,E07000236,Redditch,Total households assessed as owed a duty,144
+2023 Q1,E07000211,Reigate & Banstead,Total households assessed as owed a duty,127
+2023 Q1,E07000124,Ribble Valley,Total households assessed as owed a duty,23
+2023 Q1,E09000027,Richmond upon Thames,Total households assessed as owed a duty,123
+2023 Q1,E07000166,Richmondshire,Total households assessed as owed a duty,52
+2023 Q1,E08000005,Rochdale,Total households assessed as owed a duty,414
+2023 Q1,E07000075,Rochford,Total households assessed as owed a duty,68
+2023 Q1,E07000125,Rossendale,Total households assessed as owed a duty,173
+2023 Q1,E07000064,Rother,Total households assessed as owed a duty,147
+2023 Q1,E08000018,Rotherham,Total households assessed as owed a duty,366
+2023 Q1,E07000220,Rugby,Total households assessed as owed a duty,NA
+2023 Q1,E07000212,Runnymede,Total households assessed as owed a duty,80
+2023 Q1,E07000176,Rushcliffe,Total households assessed as owed a duty,74
+2023 Q1,E07000092,Rushmoor,Total households assessed as owed a duty,137
+2023 Q1,E06000017,Rutland,Total households assessed as owed a duty,36
+2023 Q1,E07000167,Ryedale,Total households assessed as owed a duty,61
+2023 Q1,E08000006,Salford,Total households assessed as owed a duty,883
+2023 Q1,E08000028,Sandwell,Total households assessed as owed a duty,444
+2023 Q1,E07000168,Scarborough,Total households assessed as owed a duty,207
+2023 Q1,E07000188,Sedgemoor,Total households assessed as owed a duty,179
+2023 Q1,E08000014,Sefton,Total households assessed as owed a duty,282
+2023 Q1,E07000169,Selby,Total households assessed as owed a duty,72
+2023 Q1,E07000111,Sevenoaks,Total households assessed as owed a duty,100
+2023 Q1,E08000019,Sheffield,Total households assessed as owed a duty,961
+2023 Q1,E06000051,Shropshire,Total households assessed as owed a duty,364
+2023 Q1,E06000039,Slough,Total households assessed as owed a duty,210
+2023 Q1,E08000029,Solihull,Total households assessed as owed a duty,231
+2023 Q1,E07000246,Somerset West and Taunton,Total households assessed as owed a duty,131
+2023 Q1,E07000012,South Cambridgeshire,Total households assessed as owed a duty,121
+2023 Q1,E07000039,South Derbyshire,Total households assessed as owed a duty,66
+2023 Q1,E06000025,South Gloucestershire,Total households assessed as owed a duty,170
+2023 Q1,E07000044,South Hams,Total households assessed as owed a duty,97
+2023 Q1,E07000140,South Holland,Total households assessed as owed a duty,84
+2023 Q1,E07000141,South Kesteven,Total households assessed as owed a duty,161
+2023 Q1,E07000031,South Lakeland,Total households assessed as owed a duty,122
+2023 Q1,E07000149,South Norfolk,Total households assessed as owed a duty,67
+2023 Q1,E07000179,South Oxfordshire,Total households assessed as owed a duty,144
+2023 Q1,E07000126,South Ribble,Total households assessed as owed a duty,169
+2023 Q1,E07000189,South Somerset,Total households assessed as owed a duty,233
+2023 Q1,E07000196,South Staffordshire,Total households assessed as owed a duty,40
+2023 Q1,E08000023,South Tyneside,Total households assessed as owed a duty,280
+2023 Q1,E06000045,Southampton,Total households assessed as owed a duty,499
+2023 Q1,E06000033,Southend-on-Sea,Total households assessed as owed a duty,202
+2023 Q1,E09000028,Southwark,Total households assessed as owed a duty,674
+2023 Q1,E07000213,Spelthorne,Total households assessed as owed a duty,106
+2023 Q1,E07000240,St Albans,Total households assessed as owed a duty,82
+2023 Q1,E08000013,St Helens,Total households assessed as owed a duty,179
+2023 Q1,E07000197,Stafford,Total households assessed as owed a duty,93
+2023 Q1,E07000198,Staffordshire Moorlands,Total households assessed as owed a duty,70
+2023 Q1,E07000243,Stevenage,Total households assessed as owed a duty,110
+2023 Q1,E08000007,Stockport,Total households assessed as owed a duty,347
+2023 Q1,E06000004,Stockton-on-Tees,Total households assessed as owed a duty,838
+2023 Q1,E06000021,Stoke-on-Trent,Total households assessed as owed a duty,405
+2023 Q1,E07000221,Stratford-on-Avon,Total households assessed as owed a duty,135
+2023 Q1,E07000082,Stroud,Total households assessed as owed a duty,113
+2023 Q1,E08000024,Sunderland,Total households assessed as owed a duty,504
+2023 Q1,E07000214,Surrey Heath,Total households assessed as owed a duty,34
+2023 Q1,E09000029,Sutton,Total households assessed as owed a duty,227
+2023 Q1,E07000113,Swale,Total households assessed as owed a duty,204
+2023 Q1,E06000030,Swindon,Total households assessed as owed a duty,353
+2023 Q1,E08000008,Tameside,Total households assessed as owed a duty,383
+2023 Q1,E07000199,Tamworth,Total households assessed as owed a duty,78
+2023 Q1,E07000215,Tandridge,Total households assessed as owed a duty,69
+2023 Q1,E07000045,Teignbridge,Total households assessed as owed a duty,140
+2023 Q1,E06000020,Telford & Wrekin,Total households assessed as owed a duty,377
+2023 Q1,E07000076,Tendring,Total households assessed as owed a duty,205
+2023 Q1,E07000093,Test Valley,Total households assessed as owed a duty,122
+2023 Q1,E07000083,Tewkesbury,Total households assessed as owed a duty,120
+2023 Q1,E07000114,Thanet,Total households assessed as owed a duty,180
+2023 Q1,E07000102,Three Rivers,Total households assessed as owed a duty,96
+2023 Q1,E06000034,Thurrock,Total households assessed as owed a duty,211
+2023 Q1,E07000115,Tonbridge & Malling,Total households assessed as owed a duty,104
+2023 Q1,E06000027,Torbay,Total households assessed as owed a duty,372
+2023 Q1,E07000046,Torridge,Total households assessed as owed a duty,112
+2023 Q1,E09000030,Tower Hamlets,Total households assessed as owed a duty,654
+2023 Q1,E08000009,Trafford,Total households assessed as owed a duty,258
+2023 Q1,E07000116,Tunbridge Wells,Total households assessed as owed a duty,108
+2023 Q1,E07000077,Uttlesford,Total households assessed as owed a duty,47
+2023 Q1,E07000180,Vale of White Horse,Total households assessed as owed a duty,122
+2023 Q1,E08000036,Wakefield,Total households assessed as owed a duty,422
+2023 Q1,E08000030,Walsall,Total households assessed as owed a duty,192
+2023 Q1,E09000031,Waltham Forest,Total households assessed as owed a duty,295
+2023 Q1,E09000032,Wandsworth,Total households assessed as owed a duty,444
+2023 Q1,E06000007,Warrington,Total households assessed as owed a duty,479
+2023 Q1,E07000222,Warwick,Total households assessed as owed a duty,153
+2023 Q1,E07000103,Watford,Total households assessed as owed a duty,101
+2023 Q1,E07000216,Waverley,Total households assessed as owed a duty,82
+2023 Q1,E07000065,Wealden,Total households assessed as owed a duty,105
+2023 Q1,E07000241,Welwyn Hatfield,Total households assessed as owed a duty,291
+2023 Q1,E06000037,West Berkshire,Total households assessed as owed a duty,120
+2023 Q1,E07000047,West Devon,Total households assessed as owed a duty,54
+2023 Q1,E07000127,West Lancashire,Total households assessed as owed a duty,63
+2023 Q1,E07000142,West Lindsey,Total households assessed as owed a duty,166
+2023 Q1,E06000062,West Northamptonshire,Total households assessed as owed a duty,567
+2023 Q1,E07000181,West Oxfordshire,Total households assessed as owed a duty,83
+2023 Q1,E07000245,West Suffolk,Total households assessed as owed a duty,182
+2023 Q1,E09000033,Westminster,Total households assessed as owed a duty,536
+2023 Q1,E08000010,Wigan,Total households assessed as owed a duty,691
+2023 Q1,E06000054,Wiltshire,Total households assessed as owed a duty,452
+2023 Q1,E07000094,Winchester,Total households assessed as owed a duty,94
+2023 Q1,E06000040,Windsor & Maidenhead,Total households assessed as owed a duty,108
+2023 Q1,E08000015,Wirral,Total households assessed as owed a duty,286
+2023 Q1,E07000217,Woking,Total households assessed as owed a duty,64
+2023 Q1,E06000041,Wokingham,Total households assessed as owed a duty,151
+2023 Q1,E08000031,Wolverhampton,Total households assessed as owed a duty,463
+2023 Q1,E07000237,Worcester,Total households assessed as owed a duty,245
+2023 Q1,E07000229,Worthing,Total households assessed as owed a duty,132
+2023 Q1,E07000238,Wychavon,Total households assessed as owed a duty,134
+2023 Q1,E07000128,Wyre,Total households assessed as owed a duty,126
+2023 Q1,E07000239,Wyre Forest,Total households assessed as owed a duty,185
+2023 Q1,E06000014,York,Total households assessed as owed a duty,215
