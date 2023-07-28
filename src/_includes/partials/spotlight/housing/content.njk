@@ -1,6 +1,12 @@
 {% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
 {% set ct_working_age = this_place_data['council_tax_working_age'] %}
+{% set smi_loans_in_payment_households = this_place_data['smi_loans_in_payment_households'] %}
+{% set homeless = this_place_data['Total households assessed as owed a duty'] %}
+{% set housing_benefit = this_place_data['HB_claimants'] %}
+{% set number_of_households = this_place_data['Number of households'] %}
+{% set housing_benefit_norm = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
 
+{% comp 'layout.stack' %}
 {% comp 'layout.two_column' %}
 
     {{ comp.info.headline({
@@ -13,9 +19,24 @@
         display: ct_pensioners,
         description: 'Number of pensioners claiming council tax support'
         }) | safe }}
+    {{ comp.info.headline({
+        number: homeless,
+        display: homeless,
+        description: 'Households assessed as homeless (missing E05)'
+        }) | safe }}
+    {{ comp.info.headline({
+        number: smi_loans_in_payment_households,
+        display: smi_loans_in_payment_households,
+        description: 'Number of people with support with mortgage interest (region only)'
+        }) | safe }}
+    {{ comp.info.headline({
+        number: housing_benefit_norm,
+        display: housing_benefit_norm,
+        description: 'Percentage of households receiving housing benefit'
+        }) | safe }}
 
 {% endcomp %}
-
+{% endcomp %}
 <ul>
     <li>Household Income</li>
     <li>Fuel poverty</li>

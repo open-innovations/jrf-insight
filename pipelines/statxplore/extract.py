@@ -8,7 +8,11 @@ HBAI_JSON = 'pipelines/statxplore/json/data/HBAI.json'
 CLIF_JSONS = ['pipelines/statxplore/json/data/CLIF_REL.json', 'pipelines/statxplore/json/data/CLIF_ABS.json']
 SMI_households = 'pipelines/statxplore/json/data/SMI_households.json'
 SMI_amount = 'pipelines/statxplore/json/data/SMI_amount.json'
+HB_JSONS = ['pipelines/statxplore/json/data/Housing Benefit/claimants_region.json',
+            'pipelines/statxplore/json/data/Housing Benefit/claimants_LA.json',
+            'pipelines/statxplore/json/data/Housing Benefit/claimants_ward.json']
 #dates = ['1011', '1112', '1213', '1314', '1415', '1516', '1617', '1718', '1819', '1920', '2021', '2122']
+GEOLOOKUP_DF = pd.read_csv(GEOLOOKUP)
 
 def houses_below_avg_income():
     """
@@ -59,7 +63,7 @@ def houses_below_avg_income():
 def children_in_low_income_families():
     for JSON in CLIF_JSONS:
         CLIF = query_to_pandas(STATXPLORE_API_KEY, JSON).reset_index()
-        GEOLOOKUP_DF = pd.read_csv(GEOLOOKUP)
+
         
         name_to_code_dict = dict(list(zip(GEOLOOKUP_DF.LAD22NM, GEOLOOKUP_DF.LAD22CD)))
         CLIF.rename(columns=name_to_code_dict, inplace=True, errors="raise")    
@@ -76,7 +80,6 @@ def children_in_low_income_families():
 
 def support_mortgage_interest(JSON, variable_name):
     SMI = query_to_pandas(STATXPLORE_API_KEY, JSON).reset_index()
-    GEOLOOKUP_DF = pd.read_csv(GEOLOOKUP)
     name_to_code_dict = dict(list(zip(GEOLOOKUP_DF.RGN22NM, GEOLOOKUP_DF.RGN22CD)))
     SMI.rename(columns=name_to_code_dict, inplace=True, errors="raise")
     SMI['Quarter'] = pd.to_datetime(SMI['Quarter'], format='%b-%y').dt.strftime('%Y-%m')
@@ -86,9 +89,35 @@ def support_mortgage_interest(JSON, variable_name):
     SMI.to_csv(f'data/smi/{variable_name}.csv')
     return SMI
 
+def housing_benefit_claimants(JSON, name_type, code_type):
+    HB = query_to_pandas(STATXPLORE_API_KEY, JSON).reset_index()
+    name_to_code_dict = dict(list(zip(GEOLOOKUP_DF[f'{name_type}'], GEOLOOKUP_DF[f'{code_type}'])))
+    #print(name_to_code_dict)
+    #name_to_code_dict
+    #print(len(HB.columns.to_list()))
+    HB.rename(columns=name_to_code_dict, inplace=True, errors="ignore")
+    HB['Month'] = HB['Month'].str.split().str[0]
+    HB['Month'] = pd.to_datetime(HB['Month'], format='%Y%m').dt.strftime('%Y-%m')
+    return HB
 if __name__ == '__main__':
     
     houses_below_avg_income()
     children_in_low_income_families()
     support_mortgage_interest(SMI_households, 'smi_loans_in_payment_households')
     support_mortgage_interest(SMI_amount, 'smi_in_payment_amount')
+    HB_RGN = housing_benefit_claimants(HB_JSONS[0], "RGN22NM", "RGN22CD")
+    HB_LA = housing_benefit_claimants(HB_JSONS[1], "LAD22NM", "LAD22CD")
+    HB_WD = housing_benefit_claimants(HB_JSONS[2], "WD22NM", "WD22CD")
+    HB_joined = pd.concat([
+        HB_RGN,
+        HB_LA,
+        HB_WD
+    ])
+    value_vars = HB_joined.columns.to_list()
+    geography_codes = [i for i in value_vars if i.startswith('E') and len(i) == 9]
+    HB = HB_joined.melt(id_vars=["Month"], value_vars=geography_codes, var_name="geography_code")
+    HB = HB[HB.value.notnull()]
+    HB['variable_name'] = 'HB_claimants'
+    os.makedirs('data/HB', exist_ok=True)
+    HB.to_csv(f'data/HB/claimants.csv')
+    #print(HB)
