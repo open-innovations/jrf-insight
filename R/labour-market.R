@@ -13,8 +13,7 @@ lm <- labour_market |>
                 value = obs_value) |>
   dplyr::distinct() |> # lower tier will have duplicated
   dplyr::mutate(date = as.Date(paste0(date, '-01'))) |>
-  dplyr::filter(measures_name == 'Variable',
-                date == max(date)) |>
+  dplyr::filter(measures_name == 'Variable') |>
   dplyr::select(-measures_name)
 
 readr::write_csv(lm, 'data/labour-market/labour-market.csv')
