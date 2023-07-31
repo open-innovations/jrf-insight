@@ -5,10 +5,22 @@
 {% set housing_benefit = this_place_data['HB_claimants'] %}
 {% set number_of_households = this_place_data['Number of households'] %}
 {% set housing_benefit_norm = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
+{% set house_prices = this_place_data['Median house price'] %}
 
 {% comp 'layout.stack' %}
 {% comp 'layout.two_column' %}
-
+{% if house_prices %}
+    {% set class = "data" %}
+{% else %}
+    {% set class = "missing" %}
+{% endif %}
+    <div class= {{ class }}>
+    {{ comp.info.headline({
+        number: house_prices,
+        display: house_prices,
+        description: 'Median house price (£)'
+        }) | safe }}
+    </div>
     {{ comp.info.headline({
         number: ct_working_age,
         display: ct_working_age,
@@ -34,7 +46,6 @@
         display: housing_benefit_norm,
         description: 'Percentage of households receiving housing benefit'
         }) | safe }}
-
 {% endcomp %}
 {% endcomp %}
 <ul>
@@ -44,3 +55,44 @@
     <li><a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a></li>
     <li><a href="https://github.com/open-innovations/jrf-insight/tree/main/data/council-tax-support">Council tax support</a></li>
 </ul>
+{% set geo = geography %}
+{{ comp.oi.chart.line({
+    config: {
+      "legend": { 
+        "show": true
+      },
+      "data": time_series.house_prices.rows,
+      "axis": {
+            "x": {
+              "title": {
+                "label": "Year"
+                }
+              },
+            "y": {
+              "title": {
+                "label": "Median House Prices (£)"
+              },
+              "grid": {
+                "show": true
+              },
+              "tickSpacing": 50000,
+              "min": 0,
+              "max": 300000
+            }
+          },
+      "series": [
+        {
+        "title": "E12000003",
+        "x": "date",
+        "y": "E12000003",
+        "colour": "#13242F",
+        "line": {
+          "stroke-dasharray": "0 10"
+          }
+        }
+      ]
+    }
+    })| safe
+}}
+
+
