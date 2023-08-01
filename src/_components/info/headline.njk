@@ -7,12 +7,38 @@ css: |
       background: var(--jrf-pink);
     }
   }
+  .grid-block {
+    &.missing {
+      text-align: center;
+      color: white;
+      background: repeating-linear-gradient(
+        -45deg,
+        red,
+        red 20px,
+        grey 20px,
+        grey 40px
+      );
+    }
+  }
 ---
-{% comp 'grid.block', { classes: 'headline' } %}
-  <p class="big-number" data-number={{ number | safe }}>
-     {{ display | safe }}
-  </p>
-  <p>
-    {{ description | safe }}
-  </p>
-{% endcomp %}
+{% set len = number | length %}
+
+{% if number == 0 or len == 0%}
+  {% comp 'grid.block', { classes: 'missing' } %}
+    <p class="big-number" data-number={{ number | safe }}>
+      {{ display | safe }}
+    </p>
+    <p>
+      {{ description | safe }}
+    </p>
+  {% endcomp %}
+{% else %}
+  {% comp 'grid.block', { classes: 'headline' } %}
+    <p class="big-number" data-number={{ number | safe }}>
+      {{ display | safe }}
+    </p>
+    <p>
+      {{ description | safe }}
+    </p>
+  {% endcomp %}
+{% endif %}

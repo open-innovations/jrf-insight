@@ -9,18 +9,11 @@
 
 {% comp 'layout.stack' %}
 {% comp 'layout.two_column' %}
-{% if house_prices %}
-    {% set class = "data" %}
-{% else %}
-    {% set class = "missing" %}
-{% endif %}
-    <div class= {{ class }}>
     {{ comp.info.headline({
         number: house_prices,
         display: house_prices,
         description: 'Median house price (£)'
         }) | safe }}
-    </div>
     {{ comp.info.headline({
         number: ct_working_age,
         display: ct_working_age,
