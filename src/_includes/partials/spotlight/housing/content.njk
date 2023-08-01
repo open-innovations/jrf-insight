@@ -52,7 +52,6 @@
 {% set geo = geography %}
 {% comp 'layout.two_column' %}
 {% if geo in time_series.house_prices.names %}
-  <p class='centred'>Current rental prices (£ pcm) </p>
     {{ comp.oi.chart.line({
       config: {
         "legend": { 
