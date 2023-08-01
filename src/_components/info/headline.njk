@@ -11,25 +11,19 @@ css: |
     &.missing {
       text-align: center;
       color: white;
-      background: repeating-linear-gradient(
-        -45deg,
-        red,
-        red 20px,
-        grey 20px,
-        grey 40px
-      );
+      background: var(--jrf-dark-blue);
     }
   }
 ---
 {% set len = number | length %}
 
-{% if number == 0 or len == 0%}
+{% if number == 0 or len == 0 %}
   {% comp 'grid.block', { classes: 'missing' } %}
     <p class="big-number" data-number={{ number | safe }}>
       {{ display | safe }}
     </p>
     <p>
-      {{ description | safe }}
+      {{ description | safe }} (DATA NOT AVAILABLE)
     </p>
   {% endcomp %}
 {% else %}
