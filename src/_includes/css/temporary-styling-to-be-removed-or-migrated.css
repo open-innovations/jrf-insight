@@ -91,21 +91,11 @@ a.broken {
         grey 40px
       );
   }
-.corner-flash {
-  background: yellow;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  transform: translate(-50%, -50%) rotate(-45deg) translateY(5rem);
-  transition: transform 0.2s ease;
-  box-shadow: 0 0 10px 1px hsla(0,0%,50%,0.9);
-}
-  & .message {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5rem 0;
-    width: -moz-max-content;
-    width: max-content;
-    color: #111;
+
+  p {
+    & .note {
+      background: var(--jrf-dark-blue);
+      color: white;
+      text-align: center;
+    }
   }

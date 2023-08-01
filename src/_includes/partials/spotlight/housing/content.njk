@@ -48,44 +48,47 @@
     <li><a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a></li>
     <li><a href="https://github.com/open-innovations/jrf-insight/tree/main/data/council-tax-support">Council tax support</a></li>
 </ul>
+
 {% set geo = geography %}
-{{ comp.oi.chart.line({
-    config: {
-      "legend": { 
-        "show": true
-      },
-      "data": time_series.house_prices.rows,
-      "axis": {
-            "x": {
-              "title": {
-                "label": "Year"
-                }
-              },
-            "y": {
-              "title": {
-                "label": "Median House Prices (£)"
-              },
-              "grid": {
-                "show": true
-              },
-              "tickSpacing": 50000,
-              "min": 0,
-              "max": 300000
+{# {{ time_series.house_prices.names | dump(2)}} #}
+{% if geo in time_series.house_prices.names %}
+  {# {{ geo | dump(2) }}  #}
+    {{ comp.oi.chart.line({
+      config: {
+        "legend": { 
+          "show": true
+        },
+        "data": time_series.house_prices.rows,
+        "axis": {
+              "x": {
+                "title": {
+                  "label": "Year"
+                  }
+                },
+              "y": {
+                "title": {
+                  "label": "Median House Prices (£)"
+                },
+                "grid": {
+                  "show": true
+                },
+                "tickSpacing": 50000,
+                "min": 0,
+                "max": 300000
+              }
+            },
+        "series": [
+          {
+          "title": geo,
+          "x": "date",
+          "y": geo,
+          "colour": "#13242F",
+          "line": {
+            "stroke-dasharray": "0 10"
             }
-          },
-      "series": [
-        {
-        "title": "E12000003",
-        "x": "date",
-        "y": "E12000003",
-        "colour": "#13242F",
-        "line": {
-          "stroke-dasharray": "0 10"
           }
-        }
-      ]
-    }
-    })| safe
-}}
-
-
+        ]
+      }
+      })| safe
+  }}
+{% endif %}
