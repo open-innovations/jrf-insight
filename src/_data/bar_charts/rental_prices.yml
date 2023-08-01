@@ -1,0 +1,21 @@
+- title: "One bedroom"  
+  value: "bed1"
+  colour: "#13242F"
+- title: "Two Bedrooms"  
+  value: "bed2"
+  colour: "#ce0058"
+- title: "Three bedrooms"
+  value: "bed3"
+  colour: "#3EB1C8"
+- title: "Four+ bedrooms"
+  value: "bed4plus"
+  colour: red
+- title: "Room"
+  value: "room"
+  colour: green
+- title: "Studio"
+  value: "studio"
+  colour: blue
+- title: "Total"
+  value: "total"
+  colour: pink

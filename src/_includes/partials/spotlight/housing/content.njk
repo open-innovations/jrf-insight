@@ -50,9 +50,9 @@
 </ul>
 
 {% set geo = geography %}
-{# {{ time_series.house_prices.names | dump(2)}} #}
+{% comp 'layout.two_column' %}
 {% if geo in time_series.house_prices.names %}
-  {# {{ geo | dump(2) }}  #}
+  <p class='centred'>Current rental prices (£ pcm) </p>
     {{ comp.oi.chart.line({
       config: {
         "legend": { 
@@ -92,3 +92,28 @@
       })| safe
   }}
 {% endif %}
+{% if geo in bar_charts.current_rental_prices.names %}
+  {{comp.oi.chart.bar({
+    config: {
+      data: bar_charts.current_rental_prices,
+      stacked: false,
+      legend: { 
+        show: true
+        },
+      category: "property_code",
+      series: [
+        {
+        "title": geo,  
+        "value": geo,
+        "colour": "#13242F"
+      }], 
+      axis: {
+        x: {
+          tickSpacing: 400
+          }
+        }
+      }
+    }) | safe
+  }}
+{% endif %}
+{% endcomp %}
