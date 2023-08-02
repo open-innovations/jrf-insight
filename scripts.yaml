@@ -1,0 +1,9 @@
+scripts:
+  provision:
+    pll:
+      - desc: Provision duckdb
+        cmd: scripts/provision-duckdb.ts
+        allow:
+          net: github.com,objects.githubusercontent.com
+          write: lib
+          read: lib
