@@ -24,6 +24,16 @@ const site = lume({
   }
 });
 
+site.addEventListener("beforeBuild", () => {
+  console.log("The build is about to start");
+  console.time("dataLoad");
+});
+
+site.addEventListener("beforeRender", () => {
+  console.timeEnd("dataLoad");
+  console.log("All pages and data loaded");
+})
+
 // TODO make this more efficient:
 site.process([".html"], autoDependency);
 
