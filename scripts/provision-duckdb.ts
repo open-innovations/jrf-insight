@@ -5,6 +5,10 @@ const { os } = Deno.build;
 
 const targetDirectory = new URL(import.meta.resolve('../lib')).pathname;
 
+async function checkFile(filename: string) {
+  await Deno.lstat(`${targetDirectory}/${filename}`);
+}
+
 async function extractFilesFromZip(url: string, files: string[]) {
   // Reading a zip from a fetch response body:
   const req = await fetch(url);
@@ -23,16 +27,19 @@ async function extractFilesFromZip(url: string, files: string[]) {
   }
 }
 
-async function fileExists(filename: string) {
-  return (await Deno.lstat(`${targetDirectory}/${filename}`)).isFile
-}
-
 switch (os) {
   case 'linux': {
     const library = 'libduckdb.so';
-    if (await fileExists(library)) break;
-    console.log(`Downloading ${library}`);
-    await extractFilesFromZip('https://github.com/duckdb/duckdb/releases/download/v0.8.1/libduckdb-linux-amd64.zip', [library]);
+    try {
+      await checkFile(library);
+    } catch(e) {
+      if (e.name === 'NotFound') {
+        console.log(`Downloading ${library}`);
+        await extractFilesFromZip('https://github.com/duckdb/duckdb/releases/download/v0.8.1/libduckdb-linux-amd64.zip', [library]);
+      } else {
+        throw e;
+      }
+    }
     break;
   }
   default:
