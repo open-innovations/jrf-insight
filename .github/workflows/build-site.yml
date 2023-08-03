@@ -19,7 +19,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      DENO_DIR: .deno-cache
+
     steps:
+      - name: Cache Deno dependencies 
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.DENO_DIR }}
+          key: ${{ secrets.DENO_CACHE_KEY }}-${{ hashFiles('deno.lock') }}
       - name: Build the site
         uses: dringtech/lume-build@v1.1.0
         with:
