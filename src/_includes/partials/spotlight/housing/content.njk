@@ -124,8 +124,7 @@
 <p> test </p>
 
 {% set chart_data = time_series.individual(geo) %}
-{{ chart_data | dump }}
-{# {% if chart_data.rows | length > 0 %}
+{% if chart_data.rows | length > 0 %}
     {{ comp.oi.chart.line({
       config: {
         legend: { 
@@ -149,21 +148,39 @@
               spacing: 50000
             },
             min: 0,
-            max: 3000000
+            max: 1000000
           }
         },
         series: [
           {
             title: "Child",
-            x: "date",
+            x: "Financial Year",
             y: "Child",
             colour: "#13242F",
             line: {
               "stroke-dasharray": "0 10"
+            }
+          },
+          {
+            title: "Working Age",
+            x: "Financial Year",
+            y: "Working-Age",
+            colour: "#13242F",
+            line: {
+              "stroke-dasharray": "0 15"
+            }
+          },
+          {
+            title: "Pensioner",
+            x: "Financial Year",
+            y: "Pensioner",
+            colour: "#13242F",
+            line: {
+              "stroke-dasharray": "0 20"
             }
           }
         ]
       }
     })| safe
   }}
-{% endif %} #}
+{% endif %}
