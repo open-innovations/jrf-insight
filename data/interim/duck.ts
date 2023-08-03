@@ -1,71 +1,89 @@
-// To get this to work, libduckdb.so needs to be downloaded from 
+// To get this to work, libduckdb.so needs to be downloaded from
 import { open } from "https://cdn.jsdelivr.net/gh/dringtech/duckdb@b9cb4d0/mod.ts";
 
-const db = open(':memory:');
+const db = open(":memory:");
 const connection = db.connect();
 
-// Setup data
-connection.query("CREATE TABLE current_rental_prices AS SELECT * FROM './data/interim/current_rental_prices.csv'");
-connection.query("CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv')");
+/**
+ * SETUP DATA
+ */
+connection.query(
+  "CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv')",
+);
+connection.query(
+  "CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv')",
+);
 
-function makeFakeCSV(rows: Record<string, unknown>[]) {
-  const names = Object.keys(rows[0]);
-  return {
-    names,
-    rows,
-  }
-}
+/*
+ * ACCESS FUNCTIONS
+ */
+export const getRentalPrices = () =>
+  runQuery(
+    () => connection.query("SELECT * FROM current_rental_prices"),
+  );
 
-function fakeCSVLoader(query: string) {
-  const rows = connection.query(query);
-  return makeFakeCSV(rows);
-}
+export const getCurrentRentalPricesForPlace = (place: string) =>
+  runQuery(
+    () =>
+      connection.query(
+        `SELECT property_code, ${place} FROM current_rental_prices`,
+      ),
+  );
 
-// Access functions
-export function getRentalPrices() {
-  return fakeCSVLoader('SELECT * FROM current_rental_prices');
-}
+export const getHousePrices = () =>
+  runQuery(
+    () => connection.query("SELECT * FROM house_prices").map(formatDate),
+  );
 
+export const getHousePricesForPlace = (place: string) =>
+  runQuery(
+    () =>
+      connection.query(`SELECT date, ${place} FROM house_prices`).map(
+        formatDate,
+      ),
+  );
 
-export function getCurrentRentalPricesForPlace(place: string) {
-  const currentRentalPricesForPlace = connection.prepare('SELECT property_code, COLUMNS(?::VARCHAR) FROM current_rental_prices');
-  try {
-    const data = currentRentalPricesForPlace.query(place)
-    return makeFakeCSV(data);
-  } catch(e) {
-    console.error(e);
-    return {
-      rows: [],
-      names: [],
-    }
-  }
-}
-
-export function getHousePrices() {
-  return fakeCSVLoader('SELECT * FROM house_prices');
-}
-
-export function getHousePricesForPlace(place: string) {
-  const query = `SELECT date, ${place} FROM house_prices`;
-  try {
-    const data = connection.query(query).map(({ date, ...rest }) => ({
-      date: new Date(date).toISOString().split('T').shift(),
-      ...rest,
-    }));
-    return makeFakeCSV(data);
-  } catch(e) {
-    console.error(e);
-    return {
-      rows: [],
-      names: [],
-    }
-  }
-}
-
+/**
+ * Utility functions below
+ */
 function cleanup() {
-  console.log('Closing duckDB!');
+  console.log("Closing duckDB!");
   connection.close();
   db.close();
 }
 
 addEventListener("unload", cleanup);
+
+type QueryResult = Record<string, unknown>[];
+
+function runQuery(query: () => QueryResult) {
+  let data;
+  try {
+    data = query();
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
+  return makeFakeCSV(data);
+}
+
+function makeFakeCSV(rows: QueryResult) {
+  if (rows.length === 0) {
+    return {
+      names: [],
+      rows,
+    };
+  }
+  const names = Object.keys(rows[0]);
+  return {
+    names,
+    rows,
+  };
+}
+
+const formatDate = (
+  { date, ...rest }: { date: string | number; [k: string]: unknown },
+) => ({
+  date: new Date(date).toISOString().split("T").shift(),
+  ...rest,
+});
