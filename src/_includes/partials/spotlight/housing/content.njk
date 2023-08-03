@@ -122,3 +122,48 @@
 {% endif %}
 {% endcomp %}
 <p> test </p>
+
+{% set chart_data = time_series.individual(geo) %}
+{{ chart_data | dump }}
+{# {% if chart_data.rows | length > 0 %}
+    {{ comp.oi.chart.line({
+      config: {
+        legend: { 
+          show: true
+        },
+        data: chart_data,
+        axis: {
+          x: {
+            title: {
+              label: "Year"
+            }
+          },
+          y: {
+            title: {
+              label: "Number of households in low income"
+            },
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 50000
+            },
+            min: 0,
+            max: 3000000
+          }
+        },
+        series: [
+          {
+            title: "Child",
+            x: "date",
+            y: "Child",
+            colour: "#13242F",
+            line: {
+              "stroke-dasharray": "0 10"
+            }
+          }
+        ]
+      }
+    })| safe
+  }}
+{% endif %} #}
