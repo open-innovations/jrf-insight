@@ -57,7 +57,7 @@
         "legend": { 
           "show": true
         },
-        "data": time_series.house_prices.rows,
+        "data": query.house_prices_for_place(geo),
         "axis": {
               "x": {
                 "title": {
@@ -94,7 +94,7 @@
 {% if geo in bar_charts.current_rental_prices.names %}
   {{comp.oi.chart.bar({
     config: {
-      data: bar_charts.current_rental_prices,
+      data: query.current_rental_prices_for_place(geo),
       stacked: false,
       legend: { 
         show: true
