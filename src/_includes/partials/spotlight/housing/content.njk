@@ -54,41 +54,43 @@
 {% if geo in time_series.house_prices.names %}
     {{ comp.oi.chart.line({
       config: {
-        "legend": { 
-          "show": true
+        legend: { 
+          show: true
         },
-        "data": query.house_prices_for_place(geo),
-        "axis": {
-              "x": {
-                "title": {
-                  "label": "Year"
-                  }
-                },
-              "y": {
-                "title": {
-                  "label": "Median House Prices (£)"
-                },
-                "grid": {
-                  "show": true
-                },
-                "tickSpacing": 50000,
-                "min": 0,
-                "max": 300000
-              }
+        data: query.house_prices_for_place(geo),
+        axis: {
+          x: {
+            title: {
+              label: "Year"
+            }
+          },
+          y: {
+            title: {
+              label: "Median House Prices (£)"
             },
-        "series": [
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 50000
+            },
+            min: 0,
+            max: 300000
+          }
+        },
+        series: [
           {
-          "title": this_place_data.name,
-          "x": "date",
-          "y": geo,
-          "colour": "#13242F",
-          "line": {
-            "stroke-dasharray": "0 10"
+            title: this_place_data.name,
+            x: "date",
+            y: geo,
+            colour: "#13242F",
+            line: {
+              "stroke-dasharray": "0 10"
             }
           }
         ]
       }
-      })| safe
+    })| safe
   }}
 {% endif %}
 {% if geo in bar_charts.current_rental_prices.names %}
@@ -98,20 +100,23 @@
       stacked: false,
       legend: { 
         show: true
-        },
+      },
       category: "property_code",
       series: [
         {
         "title": this_place_data.name,  
         "value": geo,
         "colour": "#13242F"
-      }], 
+        }
+      ], 
       axis: {
         x: {
-          tickSpacing: 400
+          tick: {
+            spacing: 400
           }
         }
       }
+    }
     }) | safe
   }}
 {% endif %}
