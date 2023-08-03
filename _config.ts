@@ -7,7 +7,7 @@ import postcss from "lume/plugins/postcss.ts";
 // import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import autoDependency from "./patch/auto-dependency.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.0/loaders/csv-loader.ts";
-import oiCharts from "oi-lume-charts/mod.ts";
+import oiViz from "oi-lume-viz/mod.ts";
 import svgo from "lume/plugins/svgo.ts";
 // import inline from "lume/plugins/inline.ts";
 
@@ -56,7 +56,7 @@ if (Deno.env.get('SMALL_SITE') !== undefined) {
 site.loadData([".csv"], csvLoader);
 site.loadData([".geojson"], jsonLoader);
 
-site.use(oiCharts({
+site.use(oiViz({
   font: {
     family: "chaparral-pro,sans-serif",
   },
