@@ -121,10 +121,9 @@
   }}
 {% endif %}
 {% endcomp %}
-<p> test </p>
-
 {% set chart_data = time_series.individual(geo) %}
 {% if chart_data.rows | length > 0 %}
+  <p style="text-align: center;">Number of people living in low income households by age category</p>
     {{ comp.oi.chart.line({
       config: {
         legend: { 
@@ -154,7 +153,7 @@
         series: [
           {
             title: "Child",
-            x: "Financial Year",
+            x: "date",
             y: "Child",
             colour: "#3EB1C8",
             line: {
@@ -163,7 +162,7 @@
           },
           {
             title: "Working Age",
-            x: "Financial Year",
+            x: "date",
             y: "Working-Age",
             colour: "#13242F",
             line: {
@@ -172,7 +171,7 @@
           },
           {
             title: "Pensioner",
-            x: "Financial Year",
+            x: "date",
             y: "Pensioner",
             colour: "#ce0058",
             line: {

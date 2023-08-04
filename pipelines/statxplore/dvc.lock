@@ -13,9 +13,9 @@ stages:
       size: 6289
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: d83010dadbf7091711817abba00d3a5c.dir
-      size: 702133
-      nfiles: 8
+      md5: 290047c15e4b767d1b28bde87ebd62f9.dir
+      size: 702212
+      nfiles: 9
     - path: pipelines/statxplore/utils.py
       hash: md5
       md5: 48f06f142dbaf83397c16dbf007376fc
