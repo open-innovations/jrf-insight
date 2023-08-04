@@ -47,7 +47,7 @@ export const getHousePricesForPlace = (place: string) =>
 
 export const typeOfIndividual = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT "date", "Type of Individual by Age Category", value FROM hbai WHERE geography_code=='${place}') ON "Type of Individual by Age Category" USING AVG(value);`)
+    () => connection.query(`PIVOT (SELECT "date", "Type of Individual by Age Category", percent FROM hbai WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Type of Individual by Age Category" USING AVG(percent);`)
   );
 
 /**
