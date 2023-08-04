@@ -53,7 +53,9 @@ stages:
       - ${top}/data/interim/house_prices.csv:
           persist: false
           cache: false
-
+      - ${top}/data/interim/hbai_age_category.csv:
+          persist: false
+          cache: false
 
   # generate_places:
   #   cmd: python generate_params.py

@@ -13,7 +13,9 @@ connection.query(
 connection.query(
   "CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv')",
 );
-
+connection.query(
+  "CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv')",
+);
 /*
  * ACCESS FUNCTIONS
  */
@@ -41,6 +43,11 @@ export const getHousePricesForPlace = (place: string) =>
       connection.query(`SELECT date, ${place} FROM house_prices`).map(
         formatDate,
       ),
+  );
+
+export const typeOfIndividual = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT "date", "Type of Individual by Age Category", percent FROM hbai WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Type of Individual by Age Category" USING AVG(percent);`)
   );
 
 /**
