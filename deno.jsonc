@@ -1,5 +1,5 @@
 {
-  "lock": false,
+  "lock": true,
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --v8-flags=--max-old-space-size=8192 --unstable -A -",
     "build": "deno task vr provision; LD_LIBRARY_PATH=./lib deno task lume",
