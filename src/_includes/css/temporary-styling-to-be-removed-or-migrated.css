@@ -70,6 +70,11 @@ table, th, td{
   border: 1px solid black;
   border-collapse: collapse;
 }
+.top_trump_invert{
+  & th, tr, td {
+  border: 1px solid var(--jrf-pink)
+  }
+}
 td {
   text-align: center;
 }

@@ -12,3 +12,33 @@
     min-width: 50%;
   }
 }
+.top_trump{
+  & table {
+      width: 100%;
+      border: thin var(--jrf-dark-blue) solid;
+  & tr, td {
+      width: 33%;
+      background-color: var(--jrf-pink);
+      text-align: center;
+      color: white
+    }
+  & th {
+      color: white;
+  }
+  }
+}
+.top_trump_invert{
+  & table {
+    width: 100%;
+    border: thin var(--jrf-pink) solid;
+  & tr, td, th {
+      width: 33%;
+      background-color: var(--jrf-dark-blue);
+      text-align: center;
+      color: white
+    }
+  & th {
+      color: white;
+    }
+  }
+}
