@@ -18,9 +18,13 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set population = this_place_data['Number of persons'] %}
 {% set area = this_place_data['Area in sq km'] | round(-1) %}
 {% set population_density = (this_place_data['Number of persons'] / this_place_data['Area in sq km']) | round(0) %}
-{% set ratio_people_in_low_income = (this_place_data['total_number_of_people_low_income_households'] / population) %}
 
-{% comp 'layout.two_column' %}
+{% set ratio_people_in_low_income = (this_place_data['total_number_of_people_low_income_households'] / population) %}
+{% set ratio_unemployment_16_64 = (this_place_data['unemployment_rate_16_64'] / 100) %}
+{% set ratio_economically_inactive = (this_place_data['economic_inactivity_16_64'] / 100) %}
+{% set ratio_children_in_low_income = (this_place_data['children_in_low_income'] / this_place_data['number_of_children']) %}
+
+{# {% comp 'layout.two_column' %}
 {% comp 'layout.stack' %}
 {{ comp.info.headline({
       number: population,
@@ -92,9 +96,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     }) | safe }}
 
 {% endcomp %}
-{% endcomp %}
+{% endcomp %} #}
 
-{% if this_place_data['children_in_low_income'] %}
+{# {% if this_place_data['children_in_low_income'] %}
   {% comp 'grid.block', {classes: 'headline'} %}
   {% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
   <p class="big-number">
@@ -105,7 +109,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
 </p>
   {% endcomp %}
-{% endif %}
+{% endif %} #}
 
 {{ comp.nav_block({
   place_key: key,
@@ -172,7 +176,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set place_data_all = query.getDataForPlaces(all_places) %}
 
 {% macro place_data_table(places, row_titles, columns, here) %}
-  <table>
+  <table class='place-data'>
     <thead>
       <tr>
         <th>Area</th>
@@ -222,7 +226,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   columns={
     'Children in poverty': 'children_in_low_income',
     'Number of children': 'number_of_children',
-    'IMD average score': 'IMD',
+    'IMD average score': 'imd_average_score',
     'IMD - children': 'imd_children',
     'IMD - older people': 'imd_older_people',
     'Number of people living in low-income households': 'total_number_of_people_low_income_households',
@@ -231,53 +235,72 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   }
 ) }}
 
-{# <div class='top_trump'>
-  <table>
-    <tr>
-      <th colspan='2'>{{ title }} - place-based statistics</th>
-    </tr>
-    <tr>
-      <td>Population estimate</td>
-      <td>{{ population }}</td>
-    </tr>
-    <tr>
-      <td>Population density (people per square km)</td>
-      <td>{{ population_density }}</td>
-    </tr>
-    <tr>
-      <td>Number of households</td>
-      <td>{{ this_place_data['Number of households'] }}</td>
-    </tr>
-    <tr>
-      <td>GVA (£)</td>
-      <td>{{ this_place_data['GVA'] }}</td>
-    </tr>
-  </table>
-</div>
+{% macro top_trump_table(name, style, columns) %}
+{# name: name of the table
+   style: styling of the table.
+   columns: data to put in the table
 #}
-{% macro stats_table(columns) %}
-  <div class='top_trump_invert'>
-  <table>
+  <table class = "{{ style }}">
     <tr>
-      <th colspan='3'>{{ title }} - poverty statistics</th>
+      <th colspan='3'>{{ title }} - {{ name }}</th>
     </tr>
     {% for item in columns %}
     <tr>
         <td>{{ item.name }}</td>
-        <td>{{ item.data }}</td>
-        {% if item.simple_data %}
-          <td>{{ comp.nearly.ratio({ value: item.simple_data, withDirection: true }) }}</td>
+        {% if item.data %}
+          <td>{{ item.data }}
+          {% if item.simple_data != null %}
+            ({{ comp.nearly.ratio({ value: item.simple_data, withDirection: true }) }})
+          {% endif %}
+          </td>
         {% else %}
-          <td></td>
+          <td>--</td>
         {% endif %}
     </tr>
     {% endfor %}
   </table>
-  </div>
 {% endmacro %}
 
-{{ stats_table(
+{{ top_trump_table(
+  name="Place statistics",
+  style="top-trump-table",
   columns=[
+      {
+        name: 'Population estimate', 
+        data: population, 
+        simple_data: null,
+        post_processed: true
+      },
+      {
+        name: 'Area (sq km)', 
+        data: area, 
+        simple_data: null,
+        post_processed: true
+      },
+      {
+        name: "Population density (per square km)",
+        data: population_density,
+        simple_data: null,
+        post_processed: true
+      },
+      {
+        name: "Number of households",
+        data: this_place_data["Number of households"],
+        simple_data: null
+      },
+      {
+        name: "GVA {£m}",
+        data: this_place_data["GVA"],
+        simple_data: null
+      }
+      ]
+  ) 
+}}
+
+{{ top_trump_table(
+  name="Poverty statistics",
+  style="top-trump-table top-trump-invert",
+  columns= [
       {
         name: 'People in low income households', 
         data: this_place_data['total_number_of_people_low_income_households'], 
@@ -286,7 +309,34 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
       {
         name: 'Unemployment rate',
         data: this_place_data['unemployment_rate_16_64'],
+        simple_data: ratio_unemployment_16_64
+      },
+      {
+        name: 'Economically inactive',
+        data: this_place_data['economic_inactivity_16_64'],
+        simple_data: ratio_economically_inactive
+      },
+      {
+        name: 'Children in low income households',
+        data: this_place_data['children_in_low_income'],
+        simple_data: ratio_children_in_low_income
+      },
+      {
+        name: 'IMD average score',
+        data: this_place_data['imd_average_score'],
+        simple_data: null
+      },
+      {
+        name: 'IMD for children',
+        data: this_place_data['imd_children'],
+        simple_data: null
+      },
+      {
+        name: 'IMD for odler people',
+        data: this_place_data['imd_older_people'],
         simple_data: null
       }
+      ]
   ) 
 }}
+{{ this_place_data['total_number_of_people_low_income_households'] }}

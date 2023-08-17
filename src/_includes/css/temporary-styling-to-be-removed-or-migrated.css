@@ -66,20 +66,18 @@ body > header {
     align-items: center;
   }
 }
-table, th, td{
-  border: 1px solid black;
+.place-data{
   border-collapse: collapse;
-}
-.top_trump_invert{
-  & th, tr, td {
-  border: 1px solid var(--jrf-pink)
+  & th, td{
+    border: 1px solid black;
+    padding: 0 0.25em;
   }
+  & td {
+    text-align: center;
+  }
+  & tr:nth-child(odd) {background-color: #dbdbdb;}
+  & tr.here { background-color: yellow; }
 }
-td {
-  text-align: center;
-}
-tr:nth-child(odd) {background-color: #dbdbdb;}
-tr.here { background-color: yellow; }
 
 a.broken {
   border: 5px solid red;
@@ -87,20 +85,11 @@ a.broken {
   cursor: default;
   text-decoration: line-through;
 }
-.missing > .grid-block.headline{
-      background: repeating-linear-gradient(
-        -45deg,
-        red,
-        red 20px,
-        grey 20px,
-        grey 40px
-      );
-  }
 
-  p {
-    & .note {
-      background: var(--jrf-dark-blue);
-      color: white;
-      text-align: center;
-    }
+p {
+  & .note {
+    background: var(--jrf-dark-blue);
+    color: white;
+    text-align: center;
   }
+}
