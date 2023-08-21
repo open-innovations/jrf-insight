@@ -93,5 +93,9 @@ site.filter("flatten", (arr: Array<unknown>) => {
 site.filter("getattr", (a: Record<string, unknown>[], attr: string) => a.map(x => x[attr]))
 site.filter("max", (arr: number[]) => (Math.max(...arr)));
 site.filter("min", (arr: number[]) => (Math.min(...arr)));
-
+site.filter("localise", (num: number) => num.toLocaleString());
+site.filter(
+  "percentagize",
+  (num: number, ref, points = 1) => (num * 100 / ref).toFixed(points) + "%",
+);
 export default site;

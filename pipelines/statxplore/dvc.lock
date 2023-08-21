@@ -5,21 +5,21 @@ stages:
     deps:
     - path: data/geo/geography_lookup.csv
       hash: md5
-      md5: 30f94e93cbd3128ba0c45febd8000df9
-      size: 199535
+      md5: b60b26cdf24ceeeb602e765dc700cf97
+      size: 197974
     - path: pipelines/statxplore/extract.py
       hash: md5
-      md5: 6ef249e0cb65bc1bd3a410c453309a43
-      size: 6289
+      md5: 93fb99678d5a045bd508dafffec5b072
+      size: 6167
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: 290047c15e4b767d1b28bde87ebd62f9.dir
-      size: 702212
+      md5: ab2e03259e2e40fb65f4980651065854.dir
+      size: 702082
       nfiles: 9
     - path: pipelines/statxplore/utils.py
       hash: md5
-      md5: 48f06f142dbaf83397c16dbf007376fc
-      size: 12247
+      md5: d993daa6d26ce8e795fb62aafb20f554
+      size: 11920
     outs:
     - path: data/clif
       hash: md5

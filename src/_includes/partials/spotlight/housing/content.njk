@@ -1,11 +1,55 @@
 {% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
 {% set ct_working_age = this_place_data['council_tax_working_age'] %}
+{% set ct_pensioners_ratio = (this_place_data['council_tax_pensioners'] / this_place_data['number_of_pensioners']) %}
+{% set ct_working_age_ratio = (this_place_data['council_tax_working_age'] / this_place_data['number_of_working_age']) %}
+
 {% set smi_loans_in_payment_households = this_place_data['smi_loans_in_payment_households'] %}
+
 {% set homeless = this_place_data['Total households assessed as owed a duty'] %}
+{% set homeless_ratio = (this_place_data['Total households assessed as owed a duty'] / this_place_data['Number of households']) %}
+
 {% set housing_benefit = this_place_data['HB_claimants'] %}
 {% set number_of_households = this_place_data['Number of households'] %}
-{% set housing_benefit_norm = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
+{% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
 {% set house_prices = this_place_data['Median house price'] %}
+
+{{ top_trump_table(
+  name="spotlight statistics",
+  style="top-trump-table top-trump-invert",
+  columns= [
+      {
+        name: 'Median house price (£)', 
+        data: house_prices, 
+        simple_data: null
+      },
+      {
+        name: 'Number of working-age people claiming council tax support', 
+        data: ct_working_age, 
+        simple_data: ct_working_age_ratio
+      },
+      {
+        name: 'Number of pensioners claiming council tax support', 
+        data: ct_pensioners, 
+        simple_data: ct_pensioners_ratio
+      },
+      {
+        name: 'Households assessed as homeless', 
+        data: homeless, 
+        simple_data: homeless_ratio
+      },
+      {
+        name: 'Number of people with support with mortgage interest', 
+        data: smi_loans_in_payment_households, 
+        simple_data: null
+      },
+      {
+        name: 'Percentage of households receiving housing benefit', 
+        data: housing_benefit_percent, 
+        simple_data: housing_benefit_percent/100
+      }
+      ]
+  ) 
+}}
 
 {% comp 'layout.stack' %}
 {% comp 'layout.two_column' %}
@@ -35,8 +79,8 @@
         description: 'Number of people with support with mortgage interest'
         }) | safe }}
     {{ comp.info.headline({
-        number: housing_benefit_norm,
-        display: housing_benefit_norm,
+        number: housing_benefit_percent,
+        display: housing_benefit_percent,
         description: 'Percentage of households receiving housing benefit'
         }) | safe }}
 {% endcomp %}
