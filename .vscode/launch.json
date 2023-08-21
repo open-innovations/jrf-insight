@@ -13,7 +13,7 @@
       "runtimeExecutable": "/home/giles/.deno/bin/deno",
       // "profileStartup": true,
       "env": {
-        "DENO_V8_FLAGS": "--max-old-space-size=8192",
+        "DENO_V8_FLAGS": "--max-old-space-size=1536",
         // "SMALL_SITE": "true",
       },
       "runtimeArgs": [
