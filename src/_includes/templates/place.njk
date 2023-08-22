@@ -19,11 +19,10 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set area = this_place_data['Area in sq km'] | round(-1) %}
 {% set population_density = (this_place_data['Number of persons'] / this_place_data['Area in sq km']) | round(0) %}
 
-{% set ratio_people_in_low_income = (this_place_data['total_number_of_people_low_income_households'] / population) %}
+{% set ratio_people_in_low_income = (this_place_data['percent_in_low_income']/100) %}
 {% set ratio_unemployment_16_64 = (this_place_data['unemployment_rate_16_64'] / 100) %}
 {% set ratio_economically_inactive = (this_place_data['economic_inactivity_16_64'] / 100) %}
 {% set ratio_children_in_low_income = (this_place_data['children_in_low_income'] / this_place_data['number_of_children']) %}
-
 {# {% comp 'layout.two_column' %}
 {% comp 'layout.stack' %}
 {{ comp.info.headline({
@@ -269,7 +268,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   columns= [
       {
         name: 'People in low income households', 
-        data: this_place_data['total_number_of_people_low_income_households'], 
+        data: this_place_data['total_low_income'], 
         simple_data: ratio_people_in_low_income
       },
       {
@@ -327,7 +326,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     'IMD average score': 'imd_average_score',
     'IMD - children': 'imd_children',
     'IMD - older people': 'imd_older_people',
-    'Number of people living in low-income households': 'total_number_of_people_low_income_households',
+    'Number of people living in low-income households': 'total_low_income',
     'Unemployment rate aged 16-64 (%)': 'unemployment_rate_16_64',
     'Economically inactive (%)': 'economic_inactivity_16_64'
   }
