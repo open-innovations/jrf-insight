@@ -15,28 +15,23 @@
 
 .top-trump-table {
   width: 100%;
-  border-collapse: collapse;
-  border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 0.2em;
+  --table-colour: var(--jrf-dark-blue);
   & th, td {
-    padding: 0 0.25em;
-    width: 33%;
+    width: 50%;
     text-align: center;
     color: white;
-    border: thin var(--jrf-strong-pink) solid;
-    background-color: var(--jrf-dark-blue);
-    }
-  & tr:last-of-type {
+    background-color: var(--table-colour);
+  }
+  /* & tr:last-of-type td {
       border-bottom: 0.3rem solid var(--jrf-purple);
-    }
+    } */
   & tr:hover td {
       background-color: var(--jrf-purple);
   }
 }
 
-.top-trump-invert{
-  & th, td {
-    color: white;
-    border: thin var(--jrf-dark-blue) solid;
-    background-color: var(--jrf-strong-pink);
-  }
+.top-trump-invert {
+  --table-colour: var(--jrf-strong-pink);
 }
