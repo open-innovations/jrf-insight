@@ -52,20 +52,11 @@ body > header {
   text-align: center;
 }
 
-.oi-legend {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
-  & * + * {
-    margin-top: 0;
-  }
-  & .legend-item {
-    gap: 0.3em;
-    display: flex;
-    align-items: center;
-  }
+/* TODO fix in lume charts */
+.oi-legend-inner .oi-legend-item .oi-legend-icon {
+  display: inline-block !important;
 }
+
 .place-data{
   border-collapse: collapse;
   & th, td{

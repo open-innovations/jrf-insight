@@ -15,20 +15,20 @@
       url: /spotlight/economic_insecurity/
     - title: Housing
       url: /spotlight/housing/
-    - title: Homelessness
-      url: /spotlight/homelessness/
-    - title: Children
-      url: /spotlight/children/
-    - title: Young People
-      url: /spotlight/young_people/
-    - title: Work and Employment
-      url: /spotlight/work_and_employment/
-    - title: Social Inclusion
-      url: /spotlight/social_inclusion/
+    # - title: Homelessness
+    #   url: /spotlight/homelessness/
+    # - title: Children
+    #   url: /spotlight/children/
+    # - title: Young People
+    #   url: /spotlight/young_people/
+    # - title: Work and Employment
+    #   url: /spotlight/work_and_employment/
+    # - title: Social Inclusion
+    #   url: /spotlight/social_inclusion/
     - title: Health
       url: /spotlight/health/
-    - title: Older People
-      url: /spotlight/older_people/  
+    # - title: Older People
+    #   url: /spotlight/older_people/  
 
 - title: Themes
   children:

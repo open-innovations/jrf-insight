@@ -69,9 +69,11 @@ css: |
         <h{{ heading_level}}>Spotlights</h{{ heading_level }}>
         <ul>
           {% for spotlight_key in spotlights | keys %}
+            {% if spotlights[spotlight_key].draft !== true %}
             <li>
               <a href="/spotlight/{{ spotlight_key }}/{{ place_key }}/">{{ spotlights[spotlight_key].name }}</a>
             </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </li>
