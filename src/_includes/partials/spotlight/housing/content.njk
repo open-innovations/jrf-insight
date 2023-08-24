@@ -1,3 +1,4 @@
+{% set geo = geography %}
 {% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
 {% set ct_working_age = this_place_data['council_tax_working_age'] %}
 {% set ct_pensioners_ratio = (this_place_data['council_tax_pensioners'] / this_place_data['number_of_pensioners']) %}
@@ -52,7 +53,7 @@
 }}
 
 {% comp 'layout.stack' %}
-{% comp 'layout.two_column' %}
+  {% comp 'layout.two_column' %}
     {{ comp.info.headline({
         number: house_prices,
         display: house_prices,
@@ -83,8 +84,9 @@
         display: housing_benefit_percent,
         description: 'Percentage of households receiving housing benefit'
         }) | safe }}
+  {% endcomp %}
 {% endcomp %}
-{% endcomp %}
+
 <ul>
     <li>Household Income</li>
     <li>Fuel poverty</li>
@@ -93,10 +95,12 @@
     <li><a href="https://github.com/open-innovations/jrf-insight/tree/main/data/council-tax-support">Council tax support</a></li>
 </ul>
 
-{% set geo = geography %}
-{% comp 'layout.two_column' %}
-{% if geo in time_series.house_prices.names %}
-    {{ comp.oi.chart.line({
+{# start of graphs tabset #}
+<h2>Detail</h2>
+{% comp 'layout.tab.set' %}
+
+{% if geo in time_series.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+  {{ comp.oi.chart.line({
       config: {
         legend: { 
           show: true
@@ -136,8 +140,9 @@
       }
     })| safe
   }}
-{% endif %}
-{% if geo in bar_charts.current_rental_prices.names %}
+{% endcomp %}{% endif %}
+
+{% if geo in bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
   {{comp.oi.chart.bar({
     config: {
       data: query.current_rental_prices_for_place(geo),
@@ -163,10 +168,10 @@
     }
     }) | safe
   }}
-{% endif %}
-{% endcomp %}
+{% endcomp %}{% endif %}
+
 {% set chart_data = time_series.individual(geo) %}
-{% if chart_data.rows | length > 0 %}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
   <p style="text-align: center;">Number of people living in low income households by age category</p>
     {{ comp.oi.chart.line({
       config: {
@@ -226,5 +231,7 @@
       }
     })| safe
   }}
-{% endif %}
-<p> test </p>
+{% endcomp %}{% endif %}
+
+{% endcomp %}
+{# end of graphs tabset #}
