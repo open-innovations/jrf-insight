@@ -16,7 +16,7 @@
 .top-trump-table {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 0.2em;
+  border-spacing: 0.15em;
   --table-colour: var(--jrf-dark-blue);
   & th, td {
     width: 50%;
