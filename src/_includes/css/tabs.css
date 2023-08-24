@@ -1,0 +1,15 @@
+tab-set {
+  --border: 1px solid grey;
+  & [role="tablist"] {
+    display: flex;
+  }
+  & [role="tab"] {
+    display: block;
+    border: var(--border);
+    padding: 0.5em 1em;
+  }
+  & [role="tabpanel"] {
+    border: var(--border);
+    padding: 1em;
+  }  
+}

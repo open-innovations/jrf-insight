@@ -29,3 +29,13 @@ toggle-section {
     display: none;
   }
 }
+
+/* Some of this should not be living here! */
+tab-set {
+  & [hidden] {
+    display: none;
+  }
+  & ul {
+    list-style: none;
+  }
+}
