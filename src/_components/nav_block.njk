@@ -1,82 +1,70 @@
 ---
 css: |
   nav.nav-block {
-    --background: #aaa;
+    --background: #888;
+    --colour: #eee;
     background: var(--background);
+    color: var(--colour);
     padding: 0.5em;
+    font-size: 0.7em;
     & a {
-      color: white;
+      color: inherit;
     }
     & ul {
-      display: flex;
       list-style: none;
-      gap: 0.5em;
-      &.place {
-        flex-direction: column;
-      }
-      & ul {
-        flex-wrap: wrap;
-      }
-      .spotlight-at-place ul {
-        display: unset;
-      }
-    }
-    & > ul {
       display: flex;
-      & > * {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 20ch;
+      flex-wrap: wrap;
+      column-gap: 1.5em;
+    }
+    & h3 {
+      border-top: 1px solid var(--colour);
+      & + * {
+        padding-bottom: 1em;
       }
     }
   }
 ---
-{% set heading_level = 3 %}
-<nav class='nav-block'>
-  <ul>
-    {% if dir.place or false %}
-      <li>
-        <h{{ heading_level}}>Place</h{{ heading_level }}>
-        {{ comp.link.place({ place: place_key }) | safe }}
-      </li>
-    {% endif %}
-    <li>
-      <ul class="place">
-        {% if ancestors and ancestors.length > 0 %}
-          <li>
-            <h{{ heading_level }}>Upper geographies</h{{ heading_level }}>
-            <ul id="contained-by-places">
-              {% for id in ancestors | reverse %}
-                <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
-              {% endfor %}
-            </ul>
-          </li>
+{% set heading_level = 2 %}
+<nav class='nav-block' data-dependencies="/assets/js/inclusive.js">
+  <h{{ heading_level }}>Navigation</h{{ heading_level }}>
+  {% if dir.place or false %}
+  <toggle-section>
+    <h{{ heading_level + 1 }}>Place</h{{ heading_level + 1 }}>
+    {{ comp.link.place({ place: place_key }) | safe }}
+  </toggle-section>
+  {% endif %}
+  {% if dir.spotlight or false %}
+  <toggle-section id="spotlight-at-place">
+    <h{{ heading_level + 1 }}>Spotlights</h{{ heading_level + 1 }}>
+    <ul>
+      {% for spotlight_key in spotlights | keys %}
+        {% if spotlights[spotlight_key].draft !== true %}
+        <li>
+          <a href="/spotlight/{{ spotlight_key }}/{{ place_key }}/">{{ spotlights[spotlight_key].name }}</a>
+        </li>
         {% endif %}
-        {% if children and children.length > 0 %}
-          <li>
-            <h{{ heading_level }}>Lower geographies</h{{ heading_level }}>
-            <ul id="contains-places">
-              {% for id in children %}
-                <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endif %}
-      </ul>
-    </li>
-    {% if dir.spotlight or false %}
-      <li id="spotlight-at-place">
-        <h{{ heading_level}}>Spotlights</h{{ heading_level }}>
-        <ul>
-          {% for spotlight_key in spotlights | keys %}
-            {% if spotlights[spotlight_key].draft !== true %}
-            <li>
-              <a href="/spotlight/{{ spotlight_key }}/{{ place_key }}/">{{ spotlights[spotlight_key].name }}</a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
-    {% endif %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </toggle-section>
+  {% endif %}
+  {% if ancestors and ancestors.length > 0 %}
+  <toggle-section>
+    <h{{ heading_level + 1 }}>Upper geographies</h{{ heading_level + 1 }}>
+    <ul id="contained-by-places">
+      {% for id in ancestors | reverse %}
+      <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
+      {% endfor %}
+    </ul>
+  </toggle-section>
+  {% endif %}
+  {% if children and children.length > 0 %}
+  <toggle-section>
+    <h{{ heading_level + 1 }}>Lower geographies</h{{ heading_level + 1 }}>
+    <ul id="contains-places">
+      {% for id in children %}
+        <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
+      {% endfor %}
+    </ul>
+  </toggle-section>
+  {% endif %}
 </nav>
