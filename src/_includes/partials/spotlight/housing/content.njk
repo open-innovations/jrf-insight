@@ -52,7 +52,7 @@
   ) 
 }}
 
-{% comp 'layout.stack' %}
+{# {% comp 'layout.stack' %}
   {% comp 'layout.two_column' %}
     {{ comp.info.headline({
         number: house_prices,
@@ -85,7 +85,7 @@
         description: 'Percentage of households receiving housing benefit'
         }) | safe }}
   {% endcomp %}
-{% endcomp %}
+{% endcomp %} #}
 
 <ul>
     <li>Household Income</li>
