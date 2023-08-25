@@ -99,7 +99,8 @@
 <h2>Detail</h2>
 {% comp 'layout.tab.set' %}
 
-{% if geo in time_series.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+{% if geo in time_series.spotlight.housing.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+  <p style="text-align: center;">Median house prices over time</p>
   {{ comp.oi.chart.line({
       config: {
         legend: { 
@@ -143,6 +144,7 @@
 {% endcomp %}{% endif %}
 
 {% if geo in bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
+  <p style="text-align: center;">Current median rental prices by type of property</p>
   {{comp.oi.chart.bar({
     config: {
       data: query.current_rental_prices_for_place(geo),
@@ -170,7 +172,7 @@
   }}
 {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.individual(geo) %}
+{% set chart_data = time_series.place.type_of_individual(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
   <p style="text-align: center;">Number of people living in low income households by age category</p>
     {{ comp.oi.chart.line({
