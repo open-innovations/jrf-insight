@@ -101,12 +101,13 @@
 
 {% if geo in time_series.spotlight.housing.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
   <p style="text-align: center;">Median house prices over time</p>
+  {% set chart_data = query.house_prices_for_place(geo) %}
   {{ comp.oi.chart.line({
       config: {
         legend: { 
           show: true
         },
-        data: query.house_prices_for_place(geo),
+        data: chart_data,
         axis: {
           x: {
             title: {
@@ -124,7 +125,7 @@
               spacing: 50000
             },
             min: 0,
-            max: 300000
+            max: 350000 
           }
         },
         series: [
@@ -157,7 +158,7 @@
         {
         "title": this_place_data.name,  
         "value": geo,
-        "colour": "#13242F"
+        "colour": "#64A70B"
         }
       ], 
       axis: {
