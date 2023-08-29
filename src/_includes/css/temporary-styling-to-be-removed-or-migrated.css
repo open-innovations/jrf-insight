@@ -80,6 +80,9 @@ body > header {
   top: 0;
   text-align: center;
 }
+.oi-series-lock {
+  background: lightgray !important; 
+}
 .place-data{
   border-collapse: collapse;
   & th, td{
