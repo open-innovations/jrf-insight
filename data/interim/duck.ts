@@ -16,6 +16,10 @@ connection.query(
 connection.query(
   "CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv')",
 );
+
+connection.query(
+  "CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv')",
+);
 /*
  * ACCESS FUNCTIONS
  */
@@ -48,6 +52,11 @@ export const getHousePricesForPlace = (place: string) =>
 export const HBAItypeOfIndividual = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT "date", "Type of Individual by Age Category", percent FROM hbai WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Type of Individual by Age Category" USING AVG(percent);`)
+  );
+
+export const freeSchoolMeals = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT "date", "phase", fsm_eligible_percent FROM fsm WHERE geography_code=='${place}') ON "phase" USING AVG(fsm_eligible_percent);`)
   );
 
 /**

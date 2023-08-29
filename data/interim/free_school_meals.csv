@@ -1,0 +1,1916 @@
+,date,geography_code,phase,fsm_eligible_percent
+24,202021,E12000001,Pupil referral unit,56.6
+25,202021,E12000001,Special school,49.6
+26,202021,E12000001,State-funded nursery,4.4
+27,202021,E12000001,State-funded primary,27.4
+28,202021,E12000001,State-funded secondary,23.9
+29,202021,E12000001,Total,26.3
+30,202021,E12000002,Pupil referral unit,53.0
+31,202021,E12000002,Special school,44.4
+32,202021,E12000002,State-funded nursery,3.1
+33,202021,E12000002,State-funded primary,23.0
+34,202021,E12000002,State-funded secondary,21.3
+35,202021,E12000002,Total,22.7
+54,202021,E12000003,Pupil referral unit,56.2
+55,202021,E12000003,Special school,42.9
+56,202021,E12000003,State-funded nursery,4.5
+57,202021,E12000003,State-funded primary,22.1
+58,202021,E12000003,State-funded secondary,20.8
+59,202021,E12000003,Total,21.9
+909,201920,E12000003,Total,19.4
+915,201920,E12000001,Total,23.5
+916,201920,E12000002,Total,20.2
+919,201920,E12000003,Non-maintained special school,34.6
+922,201920,E12000001,Non-maintained special school,24.7
+924,201920,E12000002,Non-maintained special school,19.4
+928,201920,E12000003,Pupil referral unit,51.4
+931,201920,E12000001,Pupil referral unit,51.4
+933,201920,E12000002,Pupil referral unit,48.8
+937,201920,E12000003,State-funded nursery,3.4
+941,201920,E12000001,State-funded nursery,3.2
+943,201920,E12000002,State-funded nursery,2.9
+945,201920,E12000003,State-funded primary,19.7
+949,201920,E12000001,State-funded primary,24.4
+952,201920,E12000002,State-funded primary,20.4
+954,201920,E12000003,State-funded secondary,18.3
+959,201920,E12000001,State-funded secondary,21.2
+961,201920,E12000002,State-funded secondary,18.8
+963,201920,E12000003,State-funded special school,41.5
+968,201920,E12000001,State-funded special school,48.9
+970,201920,E12000002,State-funded special school,43.4
+1867,201819,E12000003,Total,17.4
+1868,201819,E12000001,Total,21.0
+1869,201819,E12000002,Total,18.0
+1874,201819,E12000001,Non-maintained special school,21.4
+1877,201819,E12000003,Non-maintained special school,37.0
+1878,201819,E12000002,Non-maintained special school,21.8
+1881,201819,E12000002,Pupil referral unit,47.0
+1886,201819,E12000003,Pupil referral unit,48.3
+1887,201819,E12000001,Pupil referral unit,44.3
+1890,201819,E12000002,State-funded nursery,3.3
+1896,201819,E12000003,State-funded nursery,3.3
+1897,201819,E12000001,State-funded nursery,3.6
+1904,201819,E12000003,State-funded primary,17.7
+1905,201819,E12000001,State-funded primary,22.0
+1906,201819,E12000002,State-funded primary,18.2
+1912,201819,E12000003,State-funded secondary,16.2
+1913,201819,E12000001,State-funded secondary,18.7
+1914,201819,E12000002,State-funded secondary,16.8
+1921,201819,E12000003,State-funded special school,40.1
+1922,201819,E12000001,State-funded special school,46.5
+1923,201819,E12000002,State-funded special school,41.6
+2823,201718,E12000003,Total,15.5
+2825,201718,E12000001,Total,18.5
+2826,201718,E12000002,Total,16.1
+2833,201718,E12000001,Non-maintained special school,25.4
+2834,201718,E12000002,Non-maintained special school,23.5
+2838,201718,E12000003,Non-maintained special school,29.0
+2842,201718,E12000001,Pupil referral unit,44.3
+2843,201718,E12000002,Pupil referral unit,44.5
+2847,201718,E12000003,Pupil referral unit,42.8
+2852,201718,E12000001,State-funded nursery,4.2
+2853,201718,E12000002,State-funded nursery,3.0
+2856,201718,E12000003,State-funded nursery,2.4
+2861,201718,E12000001,State-funded primary,19.1
+2862,201718,E12000002,State-funded primary,16.3
+2865,201718,E12000003,State-funded primary,15.7
+2868,201718,E12000003,State-funded secondary,14.5
+2871,201718,E12000001,State-funded secondary,16.5
+2872,201718,E12000002,State-funded secondary,14.8
+2877,201718,E12000003,State-funded special school,37.9
+2879,201718,E12000001,State-funded special school,44.2
+2880,201718,E12000002,State-funded special school,39.9
+3786,201617,E12000001,Total,18.4
+3787,201617,E12000002,Total,16.2
+3789,201617,E12000003,Total,15.8
+3792,201617,E12000003,Non-maintained special school,38.6
+3794,201617,E12000001,Non-maintained special school,18.6
+3795,201617,E12000002,Non-maintained special school,31.3
+3801,201617,E12000003,Pupil referral unit,45.9
+3803,201617,E12000001,Pupil referral unit,43.7
+3804,201617,E12000002,Pupil referral unit,42.2
+3811,201617,E12000003,State-funded nursery,3.2
+3813,201617,E12000001,State-funded nursery,4.1
+3814,201617,E12000002,State-funded nursery,3.2
+3820,201617,E12000003,State-funded primary,16.0
+3822,201617,E12000001,State-funded primary,19.0
+3823,201617,E12000002,State-funded primary,16.3
+3831,201617,E12000001,State-funded secondary,16.5
+3832,201617,E12000002,State-funded secondary,15.0
+3834,201617,E12000003,State-funded secondary,14.7
+3840,201617,E12000001,State-funded special school,42.5
+3841,201617,E12000002,State-funded special school,40.3
+3843,201617,E12000003,State-funded special school,38.8
+4742,201516,E12000001,Total,18.4
+4745,201516,E12000003,Total,15.5
+4749,201516,E12000002,Total,16.4
+4751,201516,E12000001,Non-maintained special school,17.8
+4753,201516,E12000002,Non-maintained special school,22.7
+4758,201516,E12000003,Non-maintained special school,34.6
+4763,201516,E12000003,Pupil referral unit,46.0
+4765,201516,E12000001,Pupil referral unit,46.5
+4767,201516,E12000002,Pupil referral unit,43.2
+4769,201516,E12000002,State-funded nursery,3.6
+4770,201516,E12000001,State-funded nursery,2.9
+4777,201516,E12000003,State-funded nursery,2.3
+4778,201516,E12000002,State-funded primary,16.6
+4783,201516,E12000001,State-funded primary,19.2
+4786,201516,E12000003,State-funded primary,15.8
+4787,201516,E12000002,State-funded secondary,15.2
+4790,201516,E12000001,State-funded secondary,16.4
+4795,201516,E12000003,State-funded secondary,14.5
+4796,201516,E12000003,State-funded special school,38.9
+4798,201516,E12000002,State-funded special school,40.8
+4801,201516,E12000001,State-funded special school,41.8
+358,202021,E08000020,Pupil referral unit,64.8
+359,202021,E08000020,Special school,44.8
+360,202021,E08000020,State-funded nursery,0.0
+361,202021,E08000020,State-funded primary,25.2
+362,202021,E08000020,State-funded secondary,21.6
+363,202021,E08000020,Total,24.2
+364,202021,E08000021,Pupil referral unit,65.1
+365,202021,E08000021,Special school,54.6
+366,202021,E08000021,State-funded nursery,19.8
+367,202021,E08000021,State-funded primary,36.2
+368,202021,E08000021,State-funded secondary,32.7
+369,202021,E08000021,Total,35.0
+370,202021,E08000022,Pupil referral unit,50.5
+371,202021,E08000022,Special school,39.0
+372,202021,E08000022,State-funded nursery,0.0
+373,202021,E08000022,State-funded primary,22.7
+374,202021,E08000022,State-funded secondary,16.9
+375,202021,E08000022,Total,20.6
+376,202021,E08000023,Pupil referral unit,54.0
+377,202021,E08000023,Special school,52.2
+378,202021,E08000023,State-funded nursery,0.4
+379,202021,E08000023,State-funded primary,28.9
+380,202021,E08000023,State-funded secondary,23.6
+381,202021,E08000023,Total,27.1
+382,202021,E08000024,Pupil referral unit,65.9
+383,202021,E08000024,Special school,52.4
+384,202021,E08000024,State-funded nursery,5.4
+385,202021,E08000024,State-funded primary,26.1
+386,202021,E08000024,State-funded secondary,28.0
+387,202021,E08000024,Total,27.1
+388,202021,E06000001,Pupil referral unit,66.7
+389,202021,E06000001,Special school,54.8
+390,202021,E06000001,State-funded primary,33.2
+391,202021,E06000001,State-funded secondary,33.7
+392,202021,E06000001,Total,33.8
+393,202021,E06000002,Pupil referral unit,56.6
+394,202021,E06000002,Special school,54.0
+395,202021,E06000002,State-funded primary,33.6
+396,202021,E06000002,State-funded secondary,33.5
+397,202021,E06000002,Total,34.1
+398,202021,E06000003,Pupil referral unit,60.3
+399,202021,E06000003,Special school,48.4
+400,202021,E06000003,State-funded primary,26.2
+401,202021,E06000003,State-funded secondary,24.0
+402,202021,E06000003,Total,25.9
+403,202021,E06000004,Pupil referral unit,65.4
+404,202021,E06000004,Special school,49.6
+405,202021,E06000004,State-funded primary,23.1
+406,202021,E06000004,State-funded secondary,22.3
+407,202021,E06000004,Total,23.4
+408,202021,E06000047,Pupil referral unit,41.7
+409,202021,E06000047,Special school,53.0
+410,202021,E06000047,State-funded nursery,0.0
+411,202021,E06000047,State-funded primary,28.6
+412,202021,E06000047,State-funded secondary,22.7
+413,202021,E06000047,Total,26.4
+414,202021,E06000005,Pupil referral unit,55.6
+415,202021,E06000005,Special school,51.5
+416,202021,E06000005,State-funded nursery,0.0
+417,202021,E06000005,State-funded primary,27.0
+418,202021,E06000005,State-funded secondary,20.4
+419,202021,E06000005,Total,24.5
+420,202021,E06000048,Pupil referral unit,33.3
+421,202021,E06000048,Special school,45.4
+422,202021,E06000048,State-funded primary,19.6
+423,202021,E06000048,State-funded secondary,16.6
+424,202021,E06000048,Total,18.7
+425,202021,E08000011,Pupil referral unit,73.9
+426,202021,E08000011,Special school,55.8
+427,202021,E08000011,State-funded primary,33.9
+428,202021,E08000011,State-funded secondary,42.4
+429,202021,E08000011,Total,37.0
+430,202021,E08000012,Pupil referral unit,23.1
+431,202021,E08000012,Special school,51.7
+432,202021,E08000012,State-funded nursery,4.4
+433,202021,E08000012,State-funded primary,30.3
+434,202021,E08000012,State-funded secondary,27.9
+435,202021,E08000012,Total,29.5
+436,202021,E08000013,Pupil referral unit,45.2
+437,202021,E08000013,Special school,40.7
+438,202021,E08000013,State-funded nursery,0.0
+439,202021,E08000013,State-funded primary,21.8
+440,202021,E08000013,State-funded secondary,21.7
+441,202021,E08000013,Total,22.1
+442,202021,E08000014,Pupil referral unit,55.4
+443,202021,E08000014,Special school,44.9
+444,202021,E08000014,State-funded nursery,0.0
+445,202021,E08000014,State-funded primary,20.6
+446,202021,E08000014,State-funded secondary,18.7
+447,202021,E08000014,Total,20.3
+448,202021,E08000015,Special school,48.2
+449,202021,E08000015,State-funded nursery,10.1
+450,202021,E08000015,State-funded primary,25.5
+451,202021,E08000015,State-funded secondary,21.0
+452,202021,E08000015,Total,24.0
+453,202021,E08000001,Pupil referral unit,55.0
+454,202021,E08000001,Special school,38.5
+455,202021,E08000001,State-funded nursery,0.4
+456,202021,E08000001,State-funded primary,22.8
+457,202021,E08000001,State-funded secondary,22.9
+458,202021,E08000001,Total,23.1
+459,202021,E08000002,Pupil referral unit,52.6
+460,202021,E08000002,Special school,37.2
+461,202021,E08000002,State-funded nursery,44.7
+462,202021,E08000002,State-funded primary,19.7
+463,202021,E08000002,State-funded secondary,19.3
+464,202021,E08000002,Total,20.0
+465,202021,E08000003,Pupil referral unit,77.7
+466,202021,E08000003,Special school,56.8
+467,202021,E08000003,State-funded nursery,17.0
+468,202021,E08000003,State-funded primary,35.5
+469,202021,E08000003,State-funded secondary,34.9
+470,202021,E08000003,Total,35.8
+471,202021,E08000004,Pupil referral unit,27.7
+472,202021,E08000004,Special school,39.1
+473,202021,E08000004,State-funded primary,24.3
+474,202021,E08000004,State-funded secondary,23.5
+475,202021,E08000004,Total,24.3
+476,202021,E08000005,Pupil referral unit,65.6
+477,202021,E08000005,Special school,42.8
+478,202021,E08000005,State-funded nursery,0.0
+479,202021,E08000005,State-funded primary,24.1
+480,202021,E08000005,State-funded secondary,26.0
+481,202021,E08000005,Total,25.2
+482,202021,E08000006,Pupil referral unit,56.0
+483,202021,E08000006,Special school,53.7
+484,202021,E08000006,State-funded primary,28.7
+485,202021,E08000006,State-funded secondary,29.8
+486,202021,E08000006,Total,29.7
+487,202021,E08000007,Pupil referral unit,54.9
+488,202021,E08000007,Special school,35.6
+489,202021,E08000007,State-funded nursery,11.6
+490,202021,E08000007,State-funded primary,15.6
+491,202021,E08000007,State-funded secondary,16.9
+492,202021,E08000007,Total,16.5
+493,202021,E08000008,Pupil referral unit,45.3
+494,202021,E08000008,Special school,39.9
+495,202021,E08000008,State-funded primary,26.0
+496,202021,E08000008,State-funded secondary,22.4
+497,202021,E08000008,Total,24.9
+498,202021,E08000009,Pupil referral unit,38.7
+499,202021,E08000009,Special school,38.2
+500,202021,E08000009,State-funded primary,12.8
+501,202021,E08000009,State-funded secondary,11.5
+502,202021,E08000009,Total,12.7
+503,202021,E08000010,Pupil referral unit,55.1
+504,202021,E08000010,Special school,41.1
+505,202021,E08000010,State-funded nursery,0.0
+506,202021,E08000010,State-funded primary,23.6
+507,202021,E08000010,State-funded secondary,19.6
+508,202021,E08000010,Total,22.3
+509,202021,E06000006,Pupil referral unit,68.8
+510,202021,E06000006,Special school,50.3
+511,202021,E06000006,State-funded nursery,0.0
+512,202021,E06000006,State-funded primary,34.8
+513,202021,E06000006,State-funded secondary,33.2
+514,202021,E06000006,Total,34.2
+515,202021,E06000007,Pupil referral unit,0.0
+516,202021,E06000007,Special school,47.5
+517,202021,E06000007,State-funded nursery,1.1
+518,202021,E06000007,State-funded primary,19.8
+519,202021,E06000007,State-funded secondary,14.7
+520,202021,E06000007,Total,18.0
+521,202021,E10000017,Pupil referral unit,53.9
+522,202021,E10000017,Special school,41.1
+523,202021,E10000017,State-funded nursery,0.0
+524,202021,E10000017,State-funded primary,19.5
+525,202021,E10000017,State-funded secondary,18.0
+526,202021,E10000017,Total,19.2
+527,202021,E06000008,Pupil referral unit,77.9
+528,202021,E06000008,Special school,36.7
+529,202021,E06000008,State-funded nursery,0.0
+530,202021,E06000008,State-funded primary,21.4
+531,202021,E06000008,State-funded secondary,21.3
+532,202021,E06000008,Total,21.6
+533,202021,E06000009,Pupil referral unit,56.9
+534,202021,E06000009,Special school,51.5
+535,202021,E06000009,State-funded primary,35.6
+536,202021,E06000009,State-funded secondary,37.2
+537,202021,E06000009,Total,36.8
+538,202021,E06000049,Pupil referral unit,45.9
+539,202021,E06000049,Special school,33.9
+540,202021,E06000049,State-funded nursery,0.0
+541,202021,E06000049,State-funded primary,13.7
+542,202021,E06000049,State-funded secondary,12.0
+543,202021,E06000049,Total,13.2
+544,202021,E06000050,Pupil referral unit,35.3
+545,202021,E06000050,Special school,41.7
+546,202021,E06000050,State-funded nursery,0.0
+547,202021,E06000050,State-funded primary,16.9
+548,202021,E06000050,State-funded secondary,15.4
+549,202021,E06000050,Total,16.8
+550,202021,E10000006,Pupil referral unit,51.9
+551,202021,E10000006,Special school,34.1
+552,202021,E10000006,State-funded nursery,0.8
+553,202021,E10000006,State-funded primary,15.2
+554,202021,E10000006,State-funded secondary,13.6
+555,202021,E10000006,Total,14.7
+817,202021,E08000016,Pupil referral unit,69.6
+818,202021,E08000016,Special school,52.6
+819,202021,E08000016,State-funded primary,25.7
+820,202021,E08000016,State-funded secondary,23.7
+821,202021,E08000016,Total,25.3
+822,202021,E08000017,Pupil referral unit,45.0
+823,202021,E08000017,Special school,39.8
+824,202021,E08000017,State-funded primary,24.7
+825,202021,E08000017,State-funded secondary,22.7
+826,202021,E08000017,Total,24.1
+827,202021,E08000018,Pupil referral unit,59.3
+828,202021,E08000018,Special school,41.1
+829,202021,E08000018,State-funded nursery,0.0
+830,202021,E08000018,State-funded primary,21.8
+831,202021,E08000018,State-funded secondary,20.7
+832,202021,E08000018,Total,21.7
+833,202021,E08000019,Pupil referral unit,62.4
+834,202021,E08000019,Special school,49.7
+835,202021,E08000019,State-funded nursery,29.1
+836,202021,E08000019,State-funded primary,28.1
+837,202021,E08000019,State-funded secondary,24.5
+838,202021,E08000019,Total,27.0
+839,202021,E08000032,Pupil referral unit,56.7
+840,202021,E08000032,Special school,36.3
+841,202021,E08000032,State-funded nursery,4.5
+842,202021,E08000032,State-funded primary,22.9
+843,202021,E08000032,State-funded secondary,24.5
+844,202021,E08000032,Total,23.7
+845,202021,E08000033,Pupil referral unit,57.8
+846,202021,E08000033,Special school,44.5
+847,202021,E08000033,State-funded primary,21.8
+848,202021,E08000033,State-funded secondary,18.9
+849,202021,E08000033,Total,20.8
+850,202021,E08000034,Pupil referral unit,78.1
+851,202021,E08000034,Special school,45.9
+852,202021,E08000034,State-funded nursery,0.0
+853,202021,E08000034,State-funded primary,21.5
+854,202021,E08000034,State-funded secondary,24.2
+855,202021,E08000034,Total,22.9
+856,202021,E08000035,Pupil referral unit,50.0
+857,202021,E08000035,Special school,46.5
+858,202021,E08000035,State-funded primary,22.7
+859,202021,E08000035,State-funded secondary,22.1
+860,202021,E08000035,Total,22.8
+861,202021,E08000036,Pupil referral unit,55.6
+862,202021,E08000036,Special school,43.9
+863,202021,E08000036,State-funded nursery,0.0
+864,202021,E08000036,State-funded primary,19.2
+865,202021,E08000036,State-funded secondary,18.5
+866,202021,E08000036,Total,19.3
+867,202021,E06000010,Pupil referral unit,54.5
+868,202021,E06000010,Special school,51.3
+869,202021,E06000010,State-funded nursery,8.3
+870,202021,E06000010,State-funded primary,28.9
+871,202021,E06000010,State-funded secondary,26.8
+872,202021,E06000010,Total,28.6
+873,202021,E06000011,Pupil referral unit,58.9
+874,202021,E06000011,Special school,33.6
+875,202021,E06000011,State-funded nursery,0.0
+876,202021,E06000011,State-funded primary,16.4
+877,202021,E06000011,State-funded secondary,16.0
+878,202021,E06000011,Total,16.3
+879,202021,E06000012,Pupil referral unit,63.5
+880,202021,E06000012,Special school,45.5
+881,202021,E06000012,State-funded nursery,0.0
+882,202021,E06000012,State-funded primary,26.7
+883,202021,E06000012,State-funded secondary,23.8
+884,202021,E06000012,Total,25.9
+885,202021,E06000013,Pupil referral unit,100.0
+886,202021,E06000013,Special school,37.6
+887,202021,E06000013,State-funded primary,23.0
+888,202021,E06000013,State-funded secondary,22.0
+889,202021,E06000013,Total,22.7
+890,202021,E10000023,Pupil referral unit,50.0
+891,202021,E10000023,Special school,35.4
+892,202021,E10000023,State-funded nursery,7.1
+893,202021,E10000023,State-funded primary,14.3
+894,202021,E10000023,State-funded secondary,11.0
+895,202021,E10000023,Total,13.1
+896,202021,E06000014,Pupil referral unit,42.5
+897,202021,E06000014,Special school,29.2
+898,202021,E06000014,State-funded nursery,0.0
+899,202021,E06000014,State-funded primary,12.5
+900,202021,E06000014,State-funded secondary,11.0
+901,202021,E06000014,Total,12.2
+974,201920,E06000007,Total,15.6
+975,201920,E08000012,Total,26.9
+976,201920,E08000032,Total,20.7
+978,201920,E08000007,Total,14.5
+979,201920,E06000008,Total,19.3
+980,201920,E06000014,Total,10.5
+981,201920,E08000009,Total,10.9
+985,201920,E06000003,Total,22.8
+986,201920,E08000016,Total,22.5
+987,201920,E08000036,Total,17.2
+997,201920,E08000006,Total,26.9
+1000,201920,E06000009,Total,32.4
+1003,201920,E06000049,Total,11.3
+1008,201920,E06000004,Total,20.3
+1015,201920,E10000017,Total,17.2
+1016,201920,E10000023,Total,11.4
+1024,201920,E08000001,Total,20.3
+1025,201920,E06000010,Total,25.6
+1037,201920,E10000006,Total,12.7
+1039,201920,E06000047,Total,23.7
+1041,201920,E08000017,Total,20.4
+1052,201920,E08000035,Total,20.1
+1053,201920,E06000002,Total,30.3
+1056,201920,E08000002,Total,17.8
+1057,201920,E08000018,Total,19.3
+1058,201920,E08000020,Total,21.3
+1061,201920,E08000021,Total,31.8
+1068,201920,E06000001,Total,30.9
+1071,201920,E08000015,Total,21.5
+1077,201920,E08000010,Total,19.5
+1078,201920,E06000011,Total,14.7
+1079,201920,E06000005,Total,21.3
+1081,201920,E06000012,Total,22.6
+1087,201920,E08000023,Total,24.9
+1091,201920,E08000003,Total,31.5
+1092,201920,E06000013,Total,19.6
+1093,201920,E06000048,Total,16.5
+1094,201920,E08000011,Total,34.1
+1095,201920,E08000019,Total,24.7
+1098,201920,E08000024,Total,24.2
+1100,201920,E08000014,Total,18.5
+1102,201920,E08000034,Total,21.0
+1104,201920,E06000050,Total,14.8
+1107,201920,E08000013,Total,19.4
+1108,201920,E08000033,Total,19.1
+1109,201920,E08000008,Total,21.9
+1117,201920,E08000004,Total,21.3
+1118,201920,E06000006,Total,31.1
+1119,201920,E08000005,Total,22.9
+1120,201920,E08000022,Total,18.2
+1123,201920,E06000007,Non-maintained special school,94.7
+1126,201920,E08000012,Non-maintained special school,8.8
+1127,201920,E08000033,Non-maintained special school,70.0
+1128,201920,E06000049,Non-maintained special school,0.0
+1130,201920,E08000017,Non-maintained special school,43.3
+1133,201920,E08000007,Non-maintained special school,20.1
+1134,201920,E10000023,Non-maintained special school,15.0
+1144,201920,E08000019,Non-maintained special school,21.9
+1145,201920,E08000021,Non-maintained special school,24.4
+1149,201920,E08000001,Non-maintained special school,0.0
+1151,201920,E06000048,Non-maintained special school,27.9
+1152,201920,E08000022,Non-maintained special school,24.1
+1153,201920,E08000013,Non-maintained special school,0.0
+1154,201920,E08000014,Non-maintained special school,12.5
+1155,201920,E08000035,Non-maintained special school,26.8
+1158,201920,E08000034,Non-maintained special school,4.2
+1159,201920,E08000015,Non-maintained special school,20.0
+1160,201920,E08000009,Non-maintained special school,27.7
+1164,201920,E06000007,Pupil referral unit,36.4
+1167,201920,E10000017,Pupil referral unit,47.1
+1168,201920,E08000012,Pupil referral unit,30.8
+1169,201920,E08000033,Pupil referral unit,57.4
+1170,201920,E08000008,Pupil referral unit,45.2
+1171,201920,E06000014,Pupil referral unit,37.7
+1172,201920,E08000010,Pupil referral unit,46.7
+1173,201920,E06000049,Pupil referral unit,20.0
+1177,201920,E06000004,Pupil referral unit,53.0
+1178,201920,E08000017,Pupil referral unit,40.5
+1179,201920,E06000010,Pupil referral unit,51.1
+1187,201920,E08000007,Pupil referral unit,50.0
+1188,201920,E10000023,Pupil referral unit,44.9
+1190,201920,E06000009,Pupil referral unit,56.0
+1197,201920,E06000047,Pupil referral unit,34.0
+1203,201920,E06000008,Pupil referral unit,57.3
+1212,201920,E08000002,Pupil referral unit,45.5
+1213,201920,E06000011,Pupil referral unit,49.2
+1214,201920,E08000020,Pupil referral unit,51.9
+1219,201920,E08000016,Pupil referral unit,47.4
+1224,201920,E06000005,Pupil referral unit,52.9
+1225,201920,E08000018,Pupil referral unit,55.3
+1239,201920,E08000036,Pupil referral unit,48.1
+1240,201920,E06000003,Pupil referral unit,62.4
+1243,201920,E08000003,Pupil referral unit,74.8
+1244,201920,E08000019,Pupil referral unit,60.6
+1246,201920,E08000021,Pupil referral unit,54.3
+1255,201920,E06000001,Pupil referral unit,77.8
+1256,201920,E06000002,Pupil referral unit,49.2
+1263,201920,E06000006,Pupil referral unit,63.3
+1264,201920,E06000012,Pupil referral unit,56.2
+1266,201920,E06000013,Pupil referral unit,83.3
+1267,201920,E08000022,Pupil referral unit,49.4
+1272,201920,E08000024,Pupil referral unit,61.8
+1275,201920,E06000048,Pupil referral unit,77.8
+1276,201920,E08000004,Pupil referral unit,23.1
+1277,201920,E08000011,Pupil referral unit,72.3
+1278,201920,E08000005,Pupil referral unit,51.1
+1279,201920,E08000032,Pupil referral unit,55.9
+1283,201920,E08000013,Pupil referral unit,22.0
+1285,201920,E08000014,Pupil referral unit,45.2
+1286,201920,E08000035,Pupil referral unit,55.6
+1288,201920,E08000001,Pupil referral unit,47.5
+1289,201920,E06000050,Pupil referral unit,40.0
+1294,201920,E08000034,Pupil referral unit,62.3
+1295,201920,E08000009,Pupil referral unit,38.9
+1297,201920,E10000006,Pupil referral unit,36.9
+1301,201920,E08000006,Pupil referral unit,57.4
+1302,201920,E08000023,Pupil referral unit,51.6
+1305,201920,E06000007,State-funded nursery,1.0
+1307,201920,E10000017,State-funded nursery,0.0
+1308,201920,E08000012,State-funded nursery,5.2
+1310,201920,E06000014,State-funded nursery,2.2
+1311,201920,E06000049,State-funded nursery,0.0
+1320,201920,E08000007,State-funded nursery,6.6
+1321,201920,E10000023,State-funded nursery,3.9
+1327,201920,E08000001,State-funded nursery,0.3
+1328,201920,E06000010,State-funded nursery,10.3
+1333,201920,E06000008,State-funded nursery,0.0
+1340,201920,E08000002,State-funded nursery,37.5
+1341,201920,E10000006,State-funded nursery,1.9
+1342,201920,E08000020,State-funded nursery,0.0
+1343,201920,E06000047,State-funded nursery,0.0
+1352,201920,E06000011,State-funded nursery,0.0
+1353,201920,E06000005,State-funded nursery,0.0
+1354,201920,E08000018,State-funded nursery,0.0
+1361,201920,E08000036,State-funded nursery,0.0
+1366,201920,E08000003,State-funded nursery,24.2
+1367,201920,E08000019,State-funded nursery,22.4
+1369,201920,E08000021,State-funded nursery,18.5
+1374,201920,E08000015,State-funded nursery,9.4
+1376,201920,E08000010,State-funded nursery,0.5
+1377,201920,E06000006,State-funded nursery,0.0
+1378,201920,E06000012,State-funded nursery,1.7
+1379,201920,E08000022,State-funded nursery,0.0
+1384,201920,E08000032,State-funded nursery,3.5
+1387,201920,E08000024,State-funded nursery,0.4
+1388,201920,E08000014,State-funded nursery,0.3
+1390,201920,E06000050,State-funded nursery,0.0
+1395,201920,E08000013,State-funded nursery,0.0
+1396,201920,E08000034,State-funded nursery,0.0
+1402,201920,E08000005,State-funded nursery,0.0
+1403,201920,E08000023,State-funded nursery,2.8
+1406,201920,E10000017,State-funded primary,17.5
+1407,201920,E08000012,State-funded primary,27.4
+1410,201920,E08000008,State-funded primary,23.0
+1411,201920,E06000014,State-funded primary,11.0
+1412,201920,E06000049,State-funded primary,11.5
+1416,201920,E06000004,State-funded primary,20.0
+1417,201920,E08000017,State-funded primary,20.5
+1426,201920,E08000033,State-funded primary,20.2
+1427,201920,E10000023,State-funded primary,12.6
+1429,201920,E06000009,State-funded primary,30.8
+1437,201920,E08000001,State-funded primary,19.8
+1438,201920,E06000010,State-funded primary,25.8
+1444,201920,E08000007,State-funded primary,13.8
+1445,201920,E06000008,State-funded primary,19.3
+1454,201920,E08000002,State-funded primary,17.4
+1455,201920,E10000006,State-funded primary,13.3
+1456,201920,E08000020,State-funded primary,22.2
+1465,201920,E06000011,State-funded primary,15.4
+1466,201920,E06000047,State-funded primary,25.9
+1467,201920,E06000005,State-funded primary,23.1
+1468,201920,E08000018,State-funded primary,19.4
+1482,201920,E08000036,State-funded primary,17.2
+1483,201920,E06000003,State-funded primary,23.0
+1487,201920,E08000003,State-funded primary,31.2
+1497,201920,E06000001,State-funded primary,30.1
+1499,201920,E08000015,State-funded primary,22.8
+1505,201920,E08000010,State-funded primary,20.6
+1506,201920,E08000019,State-funded primary,25.8
+1507,201920,E06000012,State-funded primary,23.6
+1508,201920,E08000021,State-funded primary,33.5
+1509,201920,E06000013,State-funded primary,19.9
+1510,201920,E08000022,State-funded primary,19.3
+1520,201920,E06000048,State-funded primary,17.3
+1521,201920,E08000004,State-funded primary,21.0
+1522,201920,E08000011,State-funded primary,31.3
+1523,201920,E08000032,State-funded primary,19.8
+1527,201920,E08000024,State-funded primary,23.2
+1529,201920,E06000002,State-funded primary,29.5
+1530,201920,E08000014,State-funded primary,19.1
+1532,201920,E06000050,State-funded primary,15.1
+1537,201920,E08000013,State-funded primary,19.2
+1538,201920,E08000034,State-funded primary,19.1
+1539,201920,E08000009,State-funded primary,10.9
+1540,201920,E08000035,State-funded primary,20.3
+1544,201920,E08000016,State-funded primary,22.9
+1548,201920,E06000006,State-funded primary,32.2
+1550,201920,E08000005,State-funded primary,22.3
+1551,201920,E08000006,State-funded primary,25.8
+1552,201920,E06000007,State-funded primary,17.1
+1553,201920,E08000023,State-funded primary,26.1
+1558,201920,E06000007,State-funded secondary,12.6
+1559,201920,E08000012,State-funded secondary,25.5
+1562,201920,E08000008,State-funded secondary,19.3
+1563,201920,E06000014,State-funded secondary,9.0
+1564,201920,E06000049,State-funded secondary,10.5
+1568,201920,E06000004,State-funded secondary,19.4
+1577,201920,E08000006,State-funded secondary,27.4
+1578,201920,E08000033,State-funded secondary,16.9
+1579,201920,E10000023,State-funded secondary,9.3
+1580,201920,E06000009,State-funded secondary,33.3
+1586,201920,E08000001,State-funded secondary,20.4
+1587,201920,E06000010,State-funded secondary,24.0
+1595,201920,E10000017,State-funded secondary,16.0
+1606,201920,E10000006,State-funded secondary,11.4
+1607,201920,E08000020,State-funded secondary,18.6
+1616,201920,E06000011,State-funded secondary,13.7
+1617,201920,E06000047,State-funded secondary,20.0
+1618,201920,E08000017,State-funded secondary,19.5
+1624,201920,E06000008,State-funded secondary,19.1
+1631,201920,E08000036,State-funded secondary,16.3
+1632,201920,E06000002,State-funded secondary,30.2
+1633,201920,E06000003,State-funded secondary,21.0
+1635,201920,E08000002,State-funded secondary,17.3
+1636,201920,E08000003,State-funded secondary,30.7
+1637,201920,E08000018,State-funded secondary,18.4
+1647,201920,E06000001,State-funded secondary,31.0
+1648,201920,E08000015,State-funded secondary,18.7
+1653,201920,E08000010,State-funded secondary,17.1
+1654,201920,E06000012,State-funded secondary,20.1
+1655,201920,E08000021,State-funded secondary,28.7
+1656,201920,E06000005,State-funded secondary,17.7
+1658,201920,E08000022,State-funded secondary,15.6
+1666,201920,E06000048,State-funded secondary,14.6
+1667,201920,E06000013,State-funded secondary,18.7
+1668,201920,E08000011,State-funded secondary,38.7
+1669,201920,E08000019,State-funded secondary,22.0
+1670,201920,E08000032,State-funded secondary,21.9
+1675,201920,E08000024,State-funded secondary,25.3
+1677,201920,E08000014,State-funded secondary,16.8
+1680,201920,E06000050,State-funded secondary,13.2
+1683,201920,E08000013,State-funded secondary,19.1
+1684,201920,E08000007,State-funded secondary,14.6
+1685,201920,E08000034,State-funded secondary,22.8
+1686,201920,E08000009,State-funded secondary,9.8
+1687,201920,E08000035,State-funded secondary,19.0
+1692,201920,E08000016,State-funded secondary,20.7
+1699,201920,E08000004,State-funded secondary,20.8
+1700,201920,E06000006,State-funded secondary,29.5
+1701,201920,E08000005,State-funded secondary,23.1
+1702,201920,E08000023,State-funded secondary,22.0
+1708,201920,E06000007,State-funded special school,41.1
+1710,201920,E08000012,State-funded special school,52.7
+1711,201920,E08000032,State-funded special school,32.9
+1714,201920,E08000008,State-funded special school,39.6
+1715,201920,E06000008,State-funded special school,33.4
+1716,201920,E06000014,State-funded special school,27.3
+1717,201920,E06000049,State-funded special school,32.4
+1727,201920,E08000006,State-funded special school,48.3
+1729,201920,E06000009,State-funded special school,50.2
+1737,201920,E06000004,State-funded special school,45.5
+1738,201920,E08000001,State-funded special school,43.0
+1739,201920,E06000010,State-funded special school,47.0
+1747,201920,E10000017,State-funded special school,40.2
+1748,201920,E10000023,State-funded special school,34.0
+1757,201920,E10000006,State-funded special school,34.3
+1767,201920,E06000011,State-funded special school,31.9
+1768,201920,E06000047,State-funded special school,50.9
+1769,201920,E08000017,State-funded special school,38.7
+1784,201920,E08000036,State-funded special school,47.0
+1785,201920,E06000002,State-funded special school,53.4
+1788,201920,E08000002,State-funded special school,34.6
+1789,201920,E08000018,State-funded special school,40.6
+1790,201920,E08000020,State-funded special school,42.3
+1793,201920,E08000021,State-funded special school,56.0
+1799,201920,E06000001,State-funded special school,52.1
+1800,201920,E06000003,State-funded special school,47.3
+1801,201920,E08000015,State-funded special school,47.6
+1806,201920,E08000010,State-funded special school,39.1
+1807,201920,E06000005,State-funded special school,52.0
+1809,201920,E06000048,State-funded special school,43.0
+1816,201920,E06000012,State-funded special school,42.2
+1817,201920,E08000003,State-funded special school,52.1
+1818,201920,E06000013,State-funded special school,37.0
+1819,201920,E08000011,State-funded special school,53.4
+1820,201920,E08000019,State-funded special school,50.7
+1823,201920,E08000024,State-funded special school,50.7
+1826,201920,E08000033,State-funded special school,37.3
+1827,201920,E08000014,State-funded special school,44.0
+1829,201920,E08000034,State-funded special school,45.8
+1831,201920,E06000050,State-funded special school,40.9
+1834,201920,E08000013,State-funded special school,44.1
+1835,201920,E08000007,State-funded special school,37.2
+1836,201920,E08000009,State-funded special school,35.3
+1837,201920,E08000035,State-funded special school,44.9
+1844,201920,E08000016,State-funded special school,50.6
+1848,201920,E08000004,State-funded special school,37.7
+1849,201920,E06000006,State-funded special school,48.4
+1850,201920,E08000005,State-funded special school,43.4
+1851,201920,E08000022,State-funded special school,43.1
+1852,201920,E08000023,State-funded special school,53.2
+1925,201819,E08000014,Total,16.5
+1926,201819,E08000008,Total,19.5
+1927,201819,E08000036,Total,15.1
+1928,201819,E08000017,Total,17.9
+1930,201819,E06000012,Total,19.3
+1931,201819,E08000002,Total,16.1
+1935,201819,E06000009,Total,28.4
+1937,201819,E08000012,Total,25.5
+1938,201819,E08000034,Total,20.0
+1939,201819,E08000023,Total,22.4
+1941,201819,E08000006,Total,24.2
+1942,201819,E06000014,Total,9.0
+1943,201819,E08000024,Total,22.3
+1946,201819,E08000009,Total,9.2
+1947,201819,E10000006,Total,11.2
+1948,201819,E08000015,Total,19.5
+1949,201819,E06000010,Total,23.3
+1965,201819,E08000010,Total,16.8
+1975,201819,E06000049,Total,9.8
+1976,201819,E08000013,Total,17.4
+1977,201819,E08000007,Total,13.0
+1978,201819,E08000035,Total,18.2
+1981,201819,E06000007,Total,13.1
+2001,201819,E06000050,Total,13.3
+2008,201819,E06000003,Total,20.1
+2012,201819,E08000020,Total,18.7
+2014,201819,E08000021,Total,29.8
+2024,201819,E06000004,Total,18.1
+2029,201819,E06000005,Total,19.8
+2031,201819,E06000048,Total,14.3
+2040,201819,E06000001,Total,29.0
+2045,201819,E08000001,Total,18.1
+2046,201819,E08000018,Total,16.8
+2047,201819,E06000011,Total,13.3
+2049,201819,E08000003,Total,28.0
+2050,201819,E08000032,Total,18.3
+2051,201819,E06000013,Total,16.5
+2052,201819,E08000011,Total,31.4
+2053,201819,E08000004,Total,19.6
+2054,201819,E08000033,Total,16.8
+2056,201819,E08000022,Total,15.1
+2065,201819,E06000002,Total,26.9
+2067,201819,E08000016,Total,20.4
+2068,201819,E06000006,Total,27.9
+2069,201819,E08000019,Total,22.7
+2070,201819,E06000047,Total,20.9
+2073,201819,E10000017,Total,15.3
+2074,201819,E08000005,Total,20.8
+2075,201819,E06000008,Total,16.9
+2076,201819,E10000023,Total,9.8
+2077,201819,E08000015,Non-maintained special school,25.3
+2078,201819,E08000009,Non-maintained special school,35.5
+2079,201819,E08000017,Non-maintained special school,50.0
+2085,201819,E08000007,Non-maintained special school,21.8
+2086,201819,E08000035,Non-maintained special school,31.2
+2087,201819,E08000013,Non-maintained special school,0.0
+2088,201819,E08000001,Non-maintained special school,0.0
+2095,201819,E06000049,Non-maintained special school,0.0
+2107,201819,E08000021,Non-maintained special school,21.2
+2108,201819,E08000022,Non-maintained special school,20.5
+2110,201819,E06000048,Non-maintained special school,25.0
+2111,201819,E08000033,Non-maintained special school,76.5
+2112,201819,E08000019,Non-maintained special school,12.1
+2113,201819,E10000023,Non-maintained special school,18.3
+2114,201819,E08000034,Non-maintained special school,4.0
+2116,201819,E08000012,Non-maintained special school,9.3
+2117,201819,E08000014,Non-maintained special school,17.4
+2118,201819,E06000007,Non-maintained special school,96.7
+2119,201819,E08000009,Pupil referral unit,38.5
+2120,201819,E06000010,Pupil referral unit,57.6
+2121,201819,E06000003,Pupil referral unit,50.7
+2122,201819,E08000015,Pupil referral unit,38.5
+2123,201819,E08000017,Pupil referral unit,35.4
+2126,201819,E06000013,Pupil referral unit,55.6
+2127,201819,E08000003,Pupil referral unit,70.4
+2130,201819,E08000012,Pupil referral unit,18.9
+2131,201819,E08000034,Pupil referral unit,58.5
+2132,201819,E08000024,Pupil referral unit,53.0
+2135,201819,E08000007,Pupil referral unit,33.7
+2136,201819,E08000013,Pupil referral unit,32.2
+2137,201819,E08000035,Pupil referral unit,52.9
+2139,201819,E10000006,Pupil referral unit,34.9
+2141,201819,E08000010,Pupil referral unit,34.2
+2142,201819,E06000011,Pupil referral unit,48.5
+2157,201819,E06000006,Pupil referral unit,68.8
+2166,201819,E06000049,Pupil referral unit,18.2
+2167,201819,E08000008,Pupil referral unit,40.3
+2168,201819,E08000036,Pupil referral unit,35.6
+2171,201819,E10000017,Pupil referral unit,48.4
+2182,201819,E06000050,Pupil referral unit,34.1
+2202,201819,E08000021,Pupil referral unit,38.9
+2204,201819,E08000022,Pupil referral unit,36.5
+2212,201819,E06000004,Pupil referral unit,52.5
+2213,201819,E06000047,Pupil referral unit,46.7
+2214,201819,E08000018,Pupil referral unit,48.4
+2218,201819,E06000048,Pupil referral unit,83.3
+2219,201819,E08000032,Pupil referral unit,48.4
+2220,201819,E08000011,Pupil referral unit,69.5
+2221,201819,E08000033,Pupil referral unit,68.3
+2226,201819,E06000001,Pupil referral unit,68.2
+2227,201819,E06000002,Pupil referral unit,31.0
+2229,201819,E08000016,Pupil referral unit,53.6
+2232,201819,E08000001,Pupil referral unit,57.6
+2233,201819,E08000002,Pupil referral unit,38.2
+2234,201819,E08000019,Pupil referral unit,57.1
+2235,201819,E08000020,Pupil referral unit,34.2
+2237,201819,E08000004,Pupil referral unit,25.8
+2238,201819,E10000023,Pupil referral unit,38.5
+2239,201819,E08000005,Pupil referral unit,54.5
+2244,201819,E08000023,Pupil referral unit,37.3
+2250,201819,E08000014,Pupil referral unit,39.1
+2253,201819,E06000007,Pupil referral unit,16.7
+2254,201819,E06000012,Pupil referral unit,47.2
+2255,201819,E06000005,Pupil referral unit,56.7
+2257,201819,E06000008,Pupil referral unit,59.3
+2258,201819,E08000006,Pupil referral unit,51.5
+2259,201819,E06000009,Pupil referral unit,45.8
+2260,201819,E06000014,Pupil referral unit,31.9
+2261,201819,E06000010,State-funded nursery,4.1
+2262,201819,E08000015,State-funded nursery,7.4
+2265,201819,E08000003,State-funded nursery,30.2
+2266,201819,E06000007,State-funded nursery,0.0
+2270,201819,E08000012,State-funded nursery,4.8
+2271,201819,E08000034,State-funded nursery,0.0
+2273,201819,E08000024,State-funded nursery,1.1
+2276,201819,E08000007,State-funded nursery,10.9
+2277,201819,E08000013,State-funded nursery,0.0
+2280,201819,E10000006,State-funded nursery,1.8
+2282,201819,E08000010,State-funded nursery,0.0
+2283,201819,E06000011,State-funded nursery,0.0
+2297,201819,E06000049,State-funded nursery,0.0
+2298,201819,E10000017,State-funded nursery,0.0
+2303,201819,E06000050,State-funded nursery,0.0
+2325,201819,E08000021,State-funded nursery,23.1
+2326,201819,E08000022,State-funded nursery,0.0
+2330,201819,E08000018,State-funded nursery,0.2
+2332,201819,E08000032,State-funded nursery,3.7
+2339,201819,E08000001,State-funded nursery,0.5
+2340,201819,E08000002,State-funded nursery,53.1
+2342,201819,E08000019,State-funded nursery,22.0
+2343,201819,E08000020,State-funded nursery,0.0
+2344,201819,E06000047,State-funded nursery,0.0
+2345,201819,E08000005,State-funded nursery,0.0
+2350,201819,E08000023,State-funded nursery,0.3
+2351,201819,E08000014,State-funded nursery,0.0
+2352,201819,E08000036,State-funded nursery,0.0
+2355,201819,E06000006,State-funded nursery,0.0
+2356,201819,E06000012,State-funded nursery,0.0
+2357,201819,E06000005,State-funded nursery,0.0
+2359,201819,E06000008,State-funded nursery,0.0
+2360,201819,E10000023,State-funded nursery,3.1
+2361,201819,E06000014,State-funded nursery,4.0
+2362,201819,E08000009,State-funded primary,8.7
+2363,201819,E06000003,State-funded primary,20.5
+2364,201819,E08000015,State-funded primary,20.6
+2365,201819,E08000017,State-funded primary,18.3
+2366,201819,E06000010,State-funded primary,23.0
+2370,201819,E06000013,State-funded primary,16.7
+2372,201819,E08000003,State-funded primary,27.8
+2373,201819,E06000007,State-funded primary,14.3
+2380,201819,E08000012,State-funded primary,25.7
+2381,201819,E08000006,State-funded primary,23.6
+2382,201819,E08000034,State-funded primary,18.3
+2384,201819,E08000024,State-funded primary,21.9
+2388,201819,E08000013,State-funded primary,17.4
+2390,201819,E08000035,State-funded primary,18.6
+2392,201819,E10000006,State-funded primary,11.8
+2403,201819,E08000010,State-funded primary,17.5
+2414,201819,E06000049,State-funded primary,10.0
+2415,201819,E08000007,State-funded primary,12.5
+2427,201819,E08000008,State-funded primary,19.8
+2428,201819,E06000050,State-funded primary,13.4
+2453,201819,E08000021,State-funded primary,31.4
+2460,201819,E06000004,State-funded primary,18.0
+2462,201819,E08000018,State-funded primary,16.9
+2466,201819,E06000048,State-funded primary,15.1
+2467,201819,E08000032,State-funded primary,17.7
+2468,201819,E08000022,State-funded primary,16.4
+2469,201819,E08000011,State-funded primary,28.5
+2471,201819,E08000033,State-funded primary,17.8
+2477,201819,E06000001,State-funded primary,28.9
+2478,201819,E08000016,State-funded primary,20.7
+2482,201819,E08000001,State-funded primary,17.6
+2483,201819,E06000011,State-funded primary,14.1
+2485,201819,E08000019,State-funded primary,23.7
+2486,201819,E08000020,State-funded primary,19.4
+2487,201819,E06000047,State-funded primary,22.6
+2489,201819,E08000004,State-funded primary,19.3
+2490,201819,E10000017,State-funded primary,15.7
+2491,201819,E08000005,State-funded primary,20.0
+2492,201819,E10000023,State-funded primary,10.7
+2496,201819,E08000023,State-funded primary,23.2
+2501,201819,E06000002,State-funded primary,26.1
+2502,201819,E08000014,State-funded primary,17.1
+2503,201819,E08000036,State-funded primary,15.2
+2505,201819,E06000006,State-funded primary,29.4
+2506,201819,E06000012,State-funded primary,20.0
+2507,201819,E06000005,State-funded primary,21.3
+2508,201819,E08000002,State-funded primary,15.6
+2510,201819,E06000008,State-funded primary,16.9
+2511,201819,E06000009,State-funded primary,27.0
+2512,201819,E06000014,State-funded primary,9.4
+2513,201819,E08000009,State-funded secondary,8.6
+2514,201819,E06000003,State-funded secondary,17.9
+2515,201819,E08000017,State-funded secondary,16.5
+2519,201819,E06000007,State-funded secondary,10.6
+2523,201819,E06000009,State-funded secondary,28.9
+2526,201819,E08000012,State-funded secondary,24.3
+2527,201819,E08000034,State-funded secondary,21.6
+2528,201819,E08000024,State-funded secondary,22.8
+2532,201819,E08000006,State-funded secondary,23.7
+2533,201819,E06000014,State-funded secondary,7.6
+2534,201819,E08000013,State-funded secondary,16.5
+2535,201819,E08000035,State-funded secondary,16.8
+2537,201819,E10000006,State-funded secondary,10.0
+2538,201819,E08000015,State-funded secondary,16.8
+2539,201819,E06000010,State-funded secondary,22.1
+2551,201819,E08000010,State-funded secondary,15.0
+2562,201819,E06000049,State-funded secondary,9.1
+2563,201819,E08000007,State-funded secondary,12.7
+2573,201819,E08000008,State-funded secondary,18.0
+2574,201819,E06000050,State-funded secondary,11.8
+2597,201819,E08000021,State-funded secondary,26.5
+2598,201819,E06000005,State-funded secondary,17.0
+2609,201819,E06000004,State-funded secondary,16.9
+2610,201819,E08000018,State-funded secondary,16.0
+2615,201819,E06000048,State-funded secondary,12.3
+2616,201819,E08000003,State-funded secondary,26.7
+2617,201819,E08000032,State-funded secondary,19.1
+2618,201819,E08000022,State-funded secondary,12.3
+2624,201819,E06000001,State-funded secondary,28.0
+2629,201819,E08000001,State-funded secondary,18.2
+2630,201819,E06000011,State-funded secondary,12.1
+2632,201819,E08000020,State-funded secondary,16.6
+2633,201819,E06000047,State-funded secondary,17.6
+2636,201819,E08000004,State-funded secondary,19.2
+2637,201819,E06000013,State-funded secondary,15.7
+2638,201819,E08000011,State-funded secondary,36.5
+2639,201819,E08000005,State-funded secondary,21.3
+2640,201819,E08000033,State-funded secondary,14.8
+2641,201819,E10000023,State-funded secondary,8.1
+2647,201819,E08000023,State-funded secondary,20.2
+2652,201819,E08000014,State-funded secondary,15.0
+2653,201819,E08000016,State-funded secondary,18.7
+2654,201819,E08000036,State-funded secondary,14.3
+2655,201819,E06000002,State-funded secondary,26.9
+2657,201819,E06000006,State-funded secondary,25.9
+2658,201819,E08000019,State-funded secondary,20.1
+2659,201819,E06000012,State-funded secondary,17.0
+2660,201819,E08000002,State-funded secondary,16.0
+2662,201819,E10000017,State-funded secondary,14.0
+2663,201819,E06000008,State-funded secondary,16.3
+2664,201819,E08000008,State-funded special school,37.8
+2665,201819,E06000003,State-funded special school,47.1
+2666,201819,E08000017,State-funded special school,35.4
+2673,201819,E06000009,State-funded special school,49.2
+2675,201819,E08000012,State-funded special school,51.6
+2676,201819,E08000034,State-funded special school,46.1
+2680,201819,E08000006,State-funded special school,45.8
+2681,201819,E06000014,State-funded special school,26.8
+2682,201819,E08000024,State-funded special school,49.4
+2684,201819,E08000009,State-funded special school,33.5
+2685,201819,E10000006,State-funded special school,32.4
+2686,201819,E08000015,State-funded special school,46.3
+2687,201819,E06000010,State-funded special school,46.9
+2699,201819,E08000010,State-funded special school,36.9
+2710,201819,E06000049,State-funded special school,31.6
+2711,201819,E08000013,State-funded special school,43.6
+2712,201819,E08000007,State-funded special school,36.0
+2713,201819,E08000035,State-funded special school,43.1
+2716,201819,E06000007,State-funded special school,38.4
+2719,201819,E08000020,State-funded special school,39.9
+2737,201819,E06000050,State-funded special school,39.2
+2748,201819,E08000021,State-funded special school,54.1
+2757,201819,E06000004,State-funded special school,42.4
+2758,201819,E08000018,State-funded special school,39.1
+2764,201819,E06000005,State-funded special school,46.6
+2765,201819,E08000032,State-funded special school,31.6
+2766,201819,E06000048,State-funded special school,40.0
+2773,201819,E06000001,State-funded special school,51.0
+2778,201819,E08000001,State-funded special school,38.8
+2779,201819,E06000011,State-funded special school,32.4
+2782,201819,E08000003,State-funded special school,48.5
+2783,201819,E08000004,State-funded special school,38.2
+2784,201819,E06000013,State-funded special school,36.9
+2785,201819,E08000011,State-funded special school,53.6
+2786,201819,E08000033,State-funded special school,35.6
+2787,201819,E10000023,State-funded special school,32.4
+2789,201819,E08000022,State-funded special school,40.1
+2794,201819,E08000023,State-funded special school,51.3
+2799,201819,E08000014,State-funded special school,41.1
+2800,201819,E08000016,State-funded special school,47.7
+2801,201819,E08000036,State-funded special school,44.4
+2803,201819,E06000002,State-funded special school,52.0
+2805,201819,E06000006,State-funded special school,45.2
+2806,201819,E08000019,State-funded special school,47.4
+2807,201819,E06000012,State-funded special school,42.5
+2808,201819,E06000047,State-funded special school,47.5
+2809,201819,E08000002,State-funded special school,33.3
+2811,201819,E10000017,State-funded special school,38.5
+2812,201819,E08000005,State-funded special school,41.0
+2813,201819,E06000008,State-funded special school,34.9
+2885,201718,E08000009,Total,8.6
+2886,201718,E08000016,Total,18.0
+2887,201718,E06000003,Total,18.0
+2888,201718,E06000004,Total,16.4
+2889,201718,E08000017,Total,15.3
+2891,201718,E10000017,Total,13.5
+2898,201718,E08000024,Total,21.0
+2908,201718,E08000013,Total,15.8
+2909,201718,E08000007,Total,11.4
+2910,201718,E08000035,Total,15.6
+2913,201718,E10000006,Total,9.9
+2914,201718,E08000015,Total,17.0
+2915,201718,E06000010,Total,22.5
+2916,201718,E08000001,Total,15.9
+2917,201718,E08000018,Total,15.1
+2923,201718,E08000010,Total,14.3
+2924,201718,E06000006,Total,26.1
+2925,201718,E06000011,Total,11.8
+2929,201718,E08000021,Total,25.6
+2942,201718,E06000012,Total,15.9
+2943,201718,E06000047,Total,18.1
+2946,201718,E06000048,Total,12.3
+2951,201718,E06000050,Total,11.6
+2953,201718,E08000002,Total,14.8
+2957,201718,E08000011,Total,29.1
+2958,201718,E08000004,Total,17.6
+2959,201718,E08000033,Total,14.4
+2960,201718,E08000022,Total,12.6
+2979,201718,E06000007,Total,11.0
+2984,201718,E08000005,Total,18.9
+2985,201718,E06000008,Total,15.2
+2986,201718,E10000023,Total,8.1
+2987,201718,E08000012,Total,24.0
+2992,201718,E06000001,Total,25.8
+2998,201718,E08000036,Total,13.1
+3005,201718,E06000005,Total,16.6
+3006,201718,E08000019,Total,20.3
+3007,201718,E08000020,Total,15.9
+3008,201718,E06000009,Total,25.5
+3010,201718,E08000006,Total,21.6
+3011,201718,E08000034,Total,19.0
+3012,201718,E06000014,Total,7.6
+3016,201718,E08000014,Total,15.3
+3017,201718,E08000008,Total,17.4
+3019,201718,E06000002,Total,24.2
+3027,201718,E08000003,Total,24.8
+3028,201718,E08000032,Total,17.7
+3029,201718,E06000013,Total,13.7
+3034,201718,E06000049,Total,8.4
+3035,201718,E08000023,Total,19.2
+3036,201718,E08000017,Non-maintained special school,57.7
+3038,201718,E08000013,Non-maintained special school,0.0
+3040,201718,E08000035,Non-maintained special school,23.6
+3045,201718,E08000001,Non-maintained special school,3.9
+3046,201718,E08000019,Non-maintained special school,23.5
+3049,201718,E06000007,Non-maintained special school,100.0
+3051,201718,E08000022,Non-maintained special school,21.9
+3058,201718,E08000033,Non-maintained special school,50.8
+3061,201718,E08000012,Non-maintained special school,13.5
+3065,201718,E08000034,Non-maintained special school,4.8
+3067,201718,E08000014,Non-maintained special school,11.1
+3069,201718,E06000048,Non-maintained special school,13.5
+3070,201718,E08000021,Non-maintained special school,33.1
+3072,201718,E08000007,Non-maintained special school,21.8
+3073,201718,E08000015,Non-maintained special school,24.7
+3074,201718,E08000009,Non-maintained special school,34.2
+3076,201718,E10000023,Non-maintained special school,10.3
+3078,201718,E06000049,Non-maintained special school,0.0
+3080,201718,E10000006,Pupil referral unit,28.7
+3081,201718,E06000003,Pupil referral unit,34.4
+3082,201718,E08000015,Pupil referral unit,45.1
+3083,201718,E08000017,Pupil referral unit,30.7
+3084,201718,E06000004,Pupil referral unit,57.4
+3085,201718,E06000047,Pupil referral unit,47.6
+3086,201718,E08000018,Pupil referral unit,56.5
+3091,201718,E06000008,Pupil referral unit,55.6
+3096,201718,E08000013,Pupil referral unit,26.7
+3097,201718,E08000035,Pupil referral unit,43.3
+3111,201718,E08000010,Pupil referral unit,30.1
+3112,201718,E06000011,Pupil referral unit,46.6
+3113,201718,E08000001,Pupil referral unit,50.0
+3114,201718,E08000002,Pupil referral unit,33.0
+3115,201718,E08000019,Pupil referral unit,56.5
+3117,201718,E08000008,Pupil referral unit,32.2
+3118,201718,E06000050,Pupil referral unit,14.3
+3122,201718,E06000006,Pupil referral unit,68.8
+3123,201718,E06000012,Pupil referral unit,44.4
+3124,201718,E08000020,Pupil referral unit,33.0
+3127,201718,E08000022,Pupil referral unit,35.7
+3137,201718,E06000007,Pupil referral unit,16.7
+3140,201718,E06000013,Pupil referral unit,40.0
+3141,201718,E06000005,Pupil referral unit,46.2
+3144,201718,E08000011,Pupil referral unit,64.4
+3145,201718,E08000033,Pupil referral unit,51.9
+3148,201718,E08000003,Pupil referral unit,65.4
+3152,201718,E08000005,Pupil referral unit,44.9
+3153,201718,E08000023,Pupil referral unit,14.3
+3171,201718,E10000017,Pupil referral unit,46.7
+3175,201718,E08000006,Pupil referral unit,45.2
+3176,201718,E06000009,Pupil referral unit,47.6
+3177,201718,E06000014,Pupil referral unit,30.4
+3178,201718,E08000012,Pupil referral unit,26.2
+3179,201718,E08000034,Pupil referral unit,43.5
+3183,201718,E08000016,Pupil referral unit,48.0
+3184,201718,E06000001,Pupil referral unit,57.9
+3187,201718,E08000036,Pupil referral unit,31.3
+3188,201718,E06000002,Pupil referral unit,38.6
+3189,201718,E08000014,Pupil referral unit,43.2
+3196,201718,E06000048,Pupil referral unit,80.0
+3197,201718,E08000032,Pupil referral unit,44.0
+3198,201718,E08000021,Pupil referral unit,52.8
+3199,201718,E08000007,Pupil referral unit,28.4
+3204,201718,E06000010,Pupil referral unit,40.4
+3205,201718,E08000009,Pupil referral unit,19.6
+3211,201718,E08000004,Pupil referral unit,31.3
+3212,201718,E10000023,Pupil referral unit,36.6
+3218,201718,E06000049,Pupil referral unit,19.2
+3219,201718,E08000024,Pupil referral unit,56.4
+3222,201718,E10000006,State-funded nursery,1.1
+3223,201718,E08000015,State-funded nursery,5.5
+3224,201718,E06000010,State-funded nursery,0.8
+3226,201718,E08000018,State-funded nursery,0.0
+3229,201718,E06000008,State-funded nursery,0.0
+3234,201718,E08000013,State-funded nursery,0.0
+3244,201718,E08000010,State-funded nursery,0.0
+3245,201718,E08000001,State-funded nursery,0.0
+3246,201718,E06000011,State-funded nursery,0.0
+3248,201718,E08000019,State-funded nursery,24.6
+3249,201718,E06000050,State-funded nursery,0.0
+3253,201718,E08000002,State-funded nursery,51.1
+3254,201718,E06000006,State-funded nursery,0.0
+3255,201718,E06000012,State-funded nursery,0.0
+3256,201718,E08000020,State-funded nursery,0.0
+3257,201718,E06000047,State-funded nursery,0.0
+3260,201718,E08000022,State-funded nursery,0.0
+3270,201718,E06000005,State-funded nursery,0.0
+3278,201718,E08000003,State-funded nursery,22.8
+3279,201718,E06000007,State-funded nursery,0.0
+3280,201718,E08000005,State-funded nursery,0.0
+3281,201718,E10000023,State-funded nursery,2.4
+3282,201718,E08000023,State-funded nursery,0.0
+3295,201718,E10000017,State-funded nursery,0.0
+3296,201718,E06000014,State-funded nursery,0.0
+3297,201718,E08000012,State-funded nursery,4.0
+3298,201718,E08000034,State-funded nursery,0.0
+3301,201718,E08000036,State-funded nursery,0.0
+3302,201718,E08000014,State-funded nursery,0.0
+3308,201718,E08000032,State-funded nursery,1.9
+3310,201718,E08000021,State-funded nursery,20.3
+3311,201718,E08000007,State-funded nursery,13.0
+3318,201718,E06000049,State-funded nursery,0.0
+3320,201718,E08000024,State-funded nursery,1.3
+3322,201718,E10000006,State-funded primary,10.6
+3323,201718,E06000003,State-funded primary,17.6
+3324,201718,E08000015,State-funded primary,18.0
+3325,201718,E08000017,State-funded primary,15.5
+3326,201718,E06000004,State-funded primary,16.3
+3328,201718,E08000018,State-funded primary,15.0
+3332,201718,E06000008,State-funded primary,15.0
+3340,201718,E08000013,State-funded primary,16.0
+3341,201718,E08000035,State-funded primary,15.9
+3353,201718,E08000007,State-funded primary,11.1
+3358,201718,E06000010,State-funded primary,22.2
+3359,201718,E08000001,State-funded primary,15.4
+3360,201718,E06000011,State-funded primary,12.5
+3363,201718,E08000008,State-funded primary,16.9
+3364,201718,E06000050,State-funded primary,11.9
+3367,201718,E08000010,State-funded primary,14.7
+3369,201718,E06000006,State-funded primary,27.8
+3370,201718,E08000019,State-funded primary,20.9
+3371,201718,E06000012,State-funded primary,15.8
+3372,201718,E08000020,State-funded primary,16.3
+3373,201718,E06000047,State-funded primary,19.3
+3388,201718,E06000005,State-funded primary,18.1
+3389,201718,E08000002,State-funded primary,14.4
+3392,201718,E08000022,State-funded primary,13.1
+3393,201718,E08000011,State-funded primary,26.2
+3399,201718,E08000003,State-funded primary,24.5
+3400,201718,E06000007,State-funded primary,11.6
+3403,201718,E08000005,State-funded primary,18.3
+3404,201718,E08000033,State-funded primary,15.6
+3405,201718,E10000023,State-funded primary,8.8
+3406,201718,E08000023,State-funded primary,19.5
+3426,201718,E08000012,State-funded primary,24.5
+3427,201718,E08000006,State-funded primary,21.3
+3428,201718,E08000034,State-funded primary,17.8
+3431,201718,E08000016,State-funded primary,18.3
+3432,201718,E06000001,State-funded primary,26.4
+3434,201718,E08000036,State-funded primary,12.9
+3435,201718,E06000002,State-funded primary,23.4
+3436,201718,E08000014,State-funded primary,15.9
+3446,201718,E06000048,State-funded primary,12.4
+3447,201718,E08000032,State-funded primary,17.2
+3449,201718,E08000021,State-funded primary,26.7
+3450,201718,E06000009,State-funded primary,24.8
+3453,201718,E06000014,State-funded primary,7.9
+3457,201718,E08000009,State-funded primary,8.3
+3463,201718,E08000004,State-funded primary,17.1
+3464,201718,E10000017,State-funded primary,13.9
+3465,201718,E06000013,State-funded primary,13.6
+3468,201718,E06000049,State-funded primary,8.7
+3470,201718,E08000024,State-funded primary,20.8
+3474,201718,E08000009,State-funded secondary,7.9
+3475,201718,E10000006,State-funded secondary,8.7
+3476,201718,E06000003,State-funded secondary,17.3
+3477,201718,E08000017,State-funded secondary,14.3
+3478,201718,E06000004,State-funded secondary,15.2
+3479,201718,E08000018,State-funded secondary,14.4
+3490,201718,E08000013,State-funded secondary,14.7
+3501,201718,E08000007,State-funded secondary,10.8
+3502,201718,E08000035,State-funded secondary,14.5
+3505,201718,E08000015,State-funded secondary,14.5
+3506,201718,E06000010,State-funded secondary,21.6
+3507,201718,E08000001,State-funded secondary,16.1
+3508,201718,E06000011,State-funded secondary,10.6
+3512,201718,E08000008,State-funded secondary,17.5
+3517,201718,E08000010,State-funded secondary,12.8
+3518,201718,E06000006,State-funded secondary,23.7
+3519,201718,E08000019,State-funded secondary,18.1
+3520,201718,E06000012,State-funded secondary,14.9
+3521,201718,E08000020,State-funded secondary,14.1
+3522,201718,E06000047,State-funded secondary,15.4
+3537,201718,E08000002,State-funded secondary,14.5
+3540,201718,E08000022,State-funded secondary,10.9
+3544,201718,E06000050,State-funded secondary,10.0
+3549,201718,E08000011,State-funded secondary,34.1
+3550,201718,E08000005,State-funded secondary,19.1
+3551,201718,E08000033,State-funded secondary,12.2
+3552,201718,E10000023,State-funded secondary,6.7
+3553,201718,E08000023,State-funded secondary,17.6
+3568,201718,E06000007,State-funded secondary,9.3
+3569,201718,E06000005,State-funded secondary,13.5
+3572,201718,E06000008,State-funded secondary,14.5
+3573,201718,E08000012,State-funded secondary,22.4
+3574,201718,E08000034,State-funded secondary,20.1
+3580,201718,E06000001,State-funded secondary,23.8
+3583,201718,E08000016,State-funded secondary,16.5
+3584,201718,E08000036,State-funded secondary,12.6
+3585,201718,E08000014,State-funded secondary,13.7
+3594,201718,E06000048,State-funded secondary,11.4
+3595,201718,E08000003,State-funded secondary,23.6
+3596,201718,E08000032,State-funded secondary,18.3
+3597,201718,E06000009,State-funded secondary,24.8
+3599,201718,E08000006,State-funded secondary,20.6
+3600,201718,E06000014,State-funded secondary,6.4
+3604,201718,E06000002,State-funded secondary,23.9
+3612,201718,E08000004,State-funded secondary,17.2
+3613,201718,E10000017,State-funded secondary,12.2
+3614,201718,E06000013,State-funded secondary,13.3
+3615,201718,E08000021,State-funded secondary,22.9
+3620,201718,E06000049,State-funded secondary,7.5
+3621,201718,E08000024,State-funded secondary,21.3
+3625,201718,E08000009,State-funded special school,31.8
+3626,201718,E06000003,State-funded special school,46.0
+3627,201718,E08000017,State-funded special school,34.2
+3628,201718,E06000004,State-funded special school,41.1
+3630,201718,E10000017,State-funded special school,35.9
+3638,201718,E08000024,State-funded special school,43.5
+3649,201718,E08000013,State-funded special school,42.1
+3650,201718,E08000007,State-funded special school,34.0
+3651,201718,E08000035,State-funded special school,39.0
+3654,201718,E10000006,State-funded special school,31.1
+3655,201718,E08000015,State-funded special school,43.0
+3656,201718,E06000010,State-funded special school,46.7
+3657,201718,E08000001,State-funded special school,35.5
+3658,201718,E08000018,State-funded special school,37.8
+3659,201718,E06000011,State-funded special school,31.2
+3665,201718,E08000010,State-funded special school,34.2
+3666,201718,E06000006,State-funded special school,44.2
+3667,201718,E08000019,State-funded special school,45.4
+3671,201718,E08000021,State-funded special school,50.9
+3683,201718,E06000012,State-funded special school,39.6
+3684,201718,E06000047,State-funded special school,45.6
+3687,201718,E06000048,State-funded special school,38.1
+3690,201718,E08000022,State-funded special school,36.3
+3693,201718,E06000050,State-funded special school,36.7
+3695,201718,E08000002,State-funded special school,31.7
+3700,201718,E08000011,State-funded special school,55.6
+3701,201718,E08000033,State-funded special school,27.3
+3702,201718,E08000023,State-funded special school,48.8
+3718,201718,E06000007,State-funded special school,36.7
+3722,201718,E08000005,State-funded special school,40.0
+3723,201718,E06000008,State-funded special school,35.6
+3724,201718,E10000023,State-funded special school,28.3
+3725,201718,E08000012,State-funded special school,51.7
+3726,201718,E08000034,State-funded special school,45.7
+3732,201718,E06000001,State-funded special school,46.7
+3736,201718,E08000036,State-funded special school,41.0
+3744,201718,E06000005,State-funded special school,44.6
+3745,201718,E08000032,State-funded special school,32.5
+3746,201718,E08000020,State-funded special school,40.0
+3747,201718,E06000009,State-funded special school,45.1
+3749,201718,E08000006,State-funded special school,47.8
+3750,201718,E06000014,State-funded special school,25.8
+3754,201718,E08000014,State-funded special school,40.0
+3755,201718,E08000008,State-funded special school,34.5
+3757,201718,E06000002,State-funded special school,51.7
+3759,201718,E08000016,State-funded special school,45.7
+3766,201718,E08000003,State-funded special school,44.5
+3767,201718,E08000004,State-funded special school,40.8
+3768,201718,E06000013,State-funded special school,35.5
+3772,201718,E06000049,State-funded special school,28.9
+3844,201617,E08000014,Total,15.9
+3845,201617,E08000008,Total,17.7
+3846,201617,E08000036,Total,12.8
+3847,201617,E06000002,Total,25.7
+3856,201617,E08000005,Total,19.6
+3857,201617,E06000008,Total,14.9
+3858,201617,E10000023,Total,7.2
+3859,201617,E08000033,Total,13.7
+3860,201617,E08000023,Total,19.7
+3861,201617,E08000016,Total,18.8
+3863,201617,E06000050,Total,11.1
+3864,201617,E08000015,Total,16.7
+3865,201617,E08000009,Total,9.1
+3874,201617,E08000006,Total,20.9
+3875,201617,E06000009,Total,26.0
+3876,201617,E06000014,Total,7.5
+3877,201617,E08000012,Total,24.1
+3879,201617,E08000034,Total,18.9
+3880,201617,E06000010,Total,23.2
+3882,201617,E10000006,Total,9.3
+3885,201617,E08000010,Total,14.1
+3886,201617,E06000003,Total,18.3
+3887,201617,E06000004,Total,17.1
+3888,201617,E08000017,Total,15.7
+3899,201617,E08000007,Total,13.8
+3905,201617,E08000001,Total,16.2
+3907,201617,E08000018,Total,15.4
+3915,201617,E06000049,Total,8.2
+3922,201617,E06000006,Total,23.6
+3923,201617,E06000011,Total,11.5
+3924,201617,E06000047,Total,18.8
+3925,201617,E08000020,Total,15.7
+3943,201617,E08000002,Total,14.7
+3944,201617,E06000012,Total,16.4
+3945,201617,E06000005,Total,17.4
+3946,201617,E08000019,Total,21.9
+3947,201617,E08000021,Total,23.4
+3955,201617,E08000024,Total,20.9
+3956,201617,E06000001,Total,22.7
+3962,201617,E06000007,Total,10.2
+3964,201617,E08000003,Total,26.0
+3965,201617,E06000013,Total,14.0
+3966,201617,E06000048,Total,11.8
+3967,201617,E08000032,Total,18.1
+3976,201617,E08000013,Total,16.9
+3978,201617,E08000035,Total,16.3
+3987,201617,E10000017,Total,13.2
+3988,201617,E08000004,Total,17.1
+3989,201617,E08000022,Total,12.9
+3990,201617,E08000011,Total,28.2
+3996,201617,E08000009,Non-maintained special school,40.2
+3997,201617,E08000015,Non-maintained special school,21.8
+4003,201617,E08000034,Non-maintained special school,7.1
+4004,201617,E08000017,Non-maintained special school,62.5
+4007,201617,E08000007,Non-maintained special school,18.5
+4008,201617,E08000013,Non-maintained special school,0.0
+4010,201617,E08000035,Non-maintained special school,26.3
+4012,201617,E08000001,Non-maintained special school,100.0
+4014,201617,E06000049,Non-maintained special school,0.0
+4016,201617,E08000019,Non-maintained special school,22.9
+4022,201617,E06000007,Non-maintained special school,94.3
+4023,201617,E08000021,Non-maintained special school,15.8
+4028,201617,E06000048,Non-maintained special school,7.4
+4029,201617,E08000022,Non-maintained special school,22.7
+4032,201617,E10000023,Non-maintained special school,23.5
+4033,201617,E08000033,Non-maintained special school,66.1
+4035,201617,E08000014,Non-maintained special school,8.5
+4039,201617,E08000012,Non-maintained special school,18.3
+4040,201617,E08000009,Pupil referral unit,31.9
+4041,201617,E06000003,Pupil referral unit,20.4
+4042,201617,E08000015,Pupil referral unit,46.3
+4049,201617,E06000009,Pupil referral unit,46.2
+4050,201617,E06000014,Pupil referral unit,35.8
+4051,201617,E08000012,Pupil referral unit,18.3
+4052,201617,E08000006,Pupil referral unit,35.0
+4053,201617,E08000034,Pupil referral unit,69.2
+4054,201617,E08000024,Pupil referral unit,41.5
+4057,201617,E08000017,Pupil referral unit,37.2
+4058,201617,E06000010,Pupil referral unit,43.8
+4060,201617,E10000006,Pupil referral unit,51.9
+4062,201617,E08000010,Pupil referral unit,37.4
+4071,201617,E08000007,Pupil referral unit,39.8
+4072,201617,E08000013,Pupil referral unit,34.5
+4073,201617,E08000035,Pupil referral unit,37.5
+4078,201617,E06000004,Pupil referral unit,58.8
+4079,201617,E08000018,Pupil referral unit,52.4
+4081,201617,E08000020,Pupil referral unit,34.8
+4090,201617,E06000049,Pupil referral unit,10.0
+4091,201617,E08000008,Pupil referral unit,10.9
+4097,201617,E08000001,Pupil referral unit,53.8
+4098,201617,E08000002,Pupil referral unit,36.8
+4099,201617,E06000011,Pupil referral unit,34.0
+4100,201617,E06000047,Pupil referral unit,56.3
+4109,201617,E06000050,Pupil referral unit,21.4
+4114,201617,E06000006,Pupil referral unit,54.5
+4115,201617,E06000005,Pupil referral unit,18.8
+4116,201617,E08000019,Pupil referral unit,59.4
+4117,201617,E06000012,Pupil referral unit,59.1
+4118,201617,E08000021,Pupil referral unit,63.1
+4134,201617,E08000003,Pupil referral unit,70.8
+4135,201617,E06000007,Pupil referral unit,66.7
+4136,201617,E06000048,Pupil referral unit,66.7
+4137,201617,E08000032,Pupil referral unit,44.0
+4138,201617,E08000022,Pupil referral unit,30.9
+4145,201617,E06000001,Pupil referral unit,55.0
+4151,201617,E10000017,Pupil referral unit,43.0
+4152,201617,E08000004,Pupil referral unit,28.8
+4153,201617,E06000013,Pupil referral unit,100.0
+4154,201617,E08000011,Pupil referral unit,54.4
+4155,201617,E08000033,Pupil referral unit,50.9
+4161,201617,E06000002,Pupil referral unit,28.8
+4162,201617,E08000014,Pupil referral unit,31.2
+4163,201617,E08000016,Pupil referral unit,54.5
+4164,201617,E08000036,Pupil referral unit,35.9
+4171,201617,E06000008,Pupil referral unit,30.1
+4172,201617,E08000005,Pupil referral unit,60.7
+4173,201617,E10000023,Pupil referral unit,34.6
+4174,201617,E08000023,Pupil referral unit,36.4
+4188,201617,E08000012,State-funded nursery,6.8
+4189,201617,E08000034,State-funded nursery,0.0
+4190,201617,E08000024,State-funded nursery,2.3
+4193,201617,E10000006,State-funded nursery,2.9
+4195,201617,E08000015,State-funded nursery,8.5
+4204,201617,E06000014,State-funded nursery,0.0
+4205,201617,E08000013,State-funded nursery,0.0
+4206,201617,E06000010,State-funded nursery,1.4
+4209,201617,E08000010,State-funded nursery,0.0
+4212,201617,E08000018,State-funded nursery,0.0
+4215,201617,E06000049,State-funded nursery,0.0
+4216,201617,E08000007,State-funded nursery,14.7
+4222,201617,E08000001,State-funded nursery,0.3
+4223,201617,E06000011,State-funded nursery,1.1
+4224,201617,E08000020,State-funded nursery,0.0
+4225,201617,E06000047,State-funded nursery,0.0
+4232,201617,E06000050,State-funded nursery,0.0
+4236,201617,E06000006,State-funded nursery,0.0
+4237,201617,E06000005,State-funded nursery,0.0
+4238,201617,E08000002,State-funded nursery,23.1
+4239,201617,E08000019,State-funded nursery,32.1
+4240,201617,E06000012,State-funded nursery,4.1
+4241,201617,E08000021,State-funded nursery,20.3
+4251,201617,E08000003,State-funded nursery,16.5
+4252,201617,E06000007,State-funded nursery,0.0
+4253,201617,E08000032,State-funded nursery,1.5
+4264,201617,E10000017,State-funded nursery,0.0
+4265,201617,E08000022,State-funded nursery,0.0
+4269,201617,E08000014,State-funded nursery,0.0
+4270,201617,E08000036,State-funded nursery,0.0
+4275,201617,E06000008,State-funded nursery,0.0
+4276,201617,E08000005,State-funded nursery,0.0
+4277,201617,E10000023,State-funded nursery,2.6
+4278,201617,E08000023,State-funded nursery,0.3
+4283,201617,E08000009,State-funded primary,9.0
+4284,201617,E06000003,State-funded primary,18.1
+4292,201617,E06000008,State-funded primary,14.7
+4293,201617,E08000012,State-funded primary,24.1
+4294,201617,E08000034,State-funded primary,18.0
+4296,201617,E08000024,State-funded primary,20.8
+4299,201617,E08000017,State-funded primary,15.8
+4301,201617,E10000006,State-funded primary,9.9
+4303,201617,E08000015,State-funded primary,17.8
+4312,201617,E06000009,State-funded primary,25.1
+4315,201617,E08000006,State-funded primary,20.3
+4316,201617,E06000014,State-funded primary,7.8
+4317,201617,E08000013,State-funded primary,17.0
+4318,201617,E08000035,State-funded primary,16.6
+4319,201617,E06000010,State-funded primary,22.5
+4322,201617,E08000010,State-funded primary,14.7
+4323,201617,E06000004,State-funded primary,16.6
+4324,201617,E08000018,State-funded primary,15.4
+4335,201617,E06000049,State-funded primary,8.7
+4336,201617,E08000007,State-funded primary,13.5
+4341,201617,E08000001,State-funded primary,15.6
+4342,201617,E06000011,State-funded primary,12.4
+4343,201617,E08000020,State-funded primary,15.7
+4344,201617,E06000047,State-funded primary,20.1
+4354,201617,E08000008,State-funded primary,17.1
+4355,201617,E06000050,State-funded primary,11.5
+4360,201617,E06000006,State-funded primary,24.3
+4361,201617,E08000002,State-funded primary,14.4
+4362,201617,E08000019,State-funded primary,22.7
+4363,201617,E08000021,State-funded primary,23.9
+4364,201617,E06000005,State-funded primary,19.0
+4383,201617,E06000007,State-funded primary,10.6
+4384,201617,E06000012,State-funded primary,16.4
+4385,201617,E06000048,State-funded primary,12.0
+4386,201617,E08000003,State-funded primary,25.7
+4387,201617,E08000032,State-funded primary,17.4
+4394,201617,E06000001,State-funded primary,23.1
+4404,201617,E08000004,State-funded primary,16.4
+4405,201617,E10000017,State-funded primary,13.6
+4406,201617,E06000013,State-funded primary,14.2
+4407,201617,E08000022,State-funded primary,13.5
+4408,201617,E08000011,State-funded primary,25.6
+4415,201617,E06000002,State-funded primary,24.9
+4416,201617,E08000014,State-funded primary,16.6
+4417,201617,E08000016,State-funded primary,19.1
+4418,201617,E08000036,State-funded primary,12.7
+4425,201617,E08000005,State-funded primary,18.9
+4426,201617,E08000033,State-funded primary,14.3
+4427,201617,E10000023,State-funded primary,7.7
+4428,201617,E08000023,State-funded primary,19.7
+4434,201617,E08000008,State-funded secondary,18.2
+4435,201617,E08000036,State-funded secondary,12.4
+4436,201617,E06000003,State-funded secondary,17.2
+4445,201617,E08000005,State-funded secondary,19.9
+4446,201617,E06000008,State-funded secondary,14.8
+4447,201617,E10000023,State-funded secondary,6.1
+4448,201617,E08000012,State-funded secondary,23.1
+4449,201617,E08000034,State-funded secondary,19.6
+4450,201617,E08000024,State-funded secondary,21.3
+4453,201617,E08000017,State-funded secondary,14.8
+4455,201617,E08000009,State-funded secondary,8.0
+4456,201617,E10000006,State-funded secondary,8.2
+4457,201617,E08000015,State-funded secondary,14.0
+4466,201617,E06000009,State-funded secondary,25.8
+4469,201617,E08000006,State-funded secondary,20.4
+4470,201617,E06000014,State-funded secondary,6.2
+4471,201617,E08000013,State-funded secondary,15.7
+4472,201617,E06000010,State-funded secondary,23.2
+4477,201617,E08000010,State-funded secondary,12.4
+4478,201617,E06000004,State-funded secondary,16.4
+4488,201617,E06000049,State-funded secondary,7.3
+4489,201617,E08000007,State-funded secondary,13.1
+4490,201617,E08000035,State-funded secondary,15.1
+4495,201617,E08000001,State-funded secondary,16.4
+4496,201617,E08000018,State-funded secondary,14.6
+4497,201617,E06000011,State-funded secondary,10.3
+4498,201617,E06000047,State-funded secondary,16.0
+4499,201617,E08000020,State-funded secondary,14.4
+4514,201617,E06000006,State-funded secondary,22.6
+4515,201617,E08000002,State-funded secondary,14.5
+4516,201617,E08000019,State-funded secondary,19.3
+4525,201617,E06000050,State-funded secondary,9.4
+4534,201617,E06000007,State-funded secondary,8.8
+4535,201617,E06000012,State-funded secondary,15.3
+4536,201617,E06000005,State-funded secondary,14.4
+4537,201617,E08000032,State-funded secondary,18.9
+4538,201617,E08000021,State-funded secondary,21.4
+4548,201617,E06000001,State-funded secondary,20.7
+4557,201617,E08000003,State-funded secondary,25.1
+4558,201617,E08000004,State-funded secondary,17.1
+4559,201617,E06000013,State-funded secondary,12.9
+4560,201617,E06000048,State-funded secondary,11.0
+4563,201617,E08000022,State-funded secondary,11.1
+4568,201617,E08000014,State-funded secondary,14.5
+4570,201617,E06000002,State-funded secondary,25.7
+4576,201617,E10000017,State-funded secondary,12.1
+4577,201617,E08000011,State-funded secondary,33.3
+4578,201617,E08000033,State-funded secondary,12.3
+4579,201617,E08000023,State-funded secondary,18.7
+4584,201617,E08000016,State-funded secondary,17.0
+4585,201617,E08000014,State-funded special school,40.9
+4586,201617,E08000008,State-funded special school,39.7
+4587,201617,E08000036,State-funded special school,42.8
+4596,201617,E08000005,State-funded special school,40.4
+4597,201617,E06000008,State-funded special school,32.5
+4598,201617,E10000023,State-funded special school,27.2
+4599,201617,E08000012,State-funded special school,54.2
+4600,201617,E08000034,State-funded special school,48.0
+4601,201617,E08000023,State-funded special school,49.8
+4603,201617,E08000016,State-funded special school,45.2
+4605,201617,E08000015,State-funded special school,42.5
+4606,201617,E08000009,State-funded special school,33.3
+4608,201617,E06000003,State-funded special school,46.1
+4618,201617,E08000006,State-funded special school,48.1
+4619,201617,E06000009,State-funded special school,43.4
+4620,201617,E06000014,State-funded special school,25.7
+4621,201617,E08000024,State-funded special school,42.0
+4622,201617,E06000010,State-funded special school,47.9
+4625,201617,E10000006,State-funded special school,27.4
+4629,201617,E08000010,State-funded special school,37.5
+4630,201617,E06000004,State-funded special school,42.0
+4631,201617,E08000017,State-funded special school,35.5
+4641,201617,E08000013,State-funded special school,45.6
+4642,201617,E08000007,State-funded special school,35.8
+4643,201617,E08000035,State-funded special school,37.6
+4648,201617,E08000001,State-funded special school,34.2
+4649,201617,E06000011,State-funded special school,30.4
+4650,201617,E06000047,State-funded special school,46.1
+4651,201617,E08000018,State-funded special school,40.1
+4653,201617,E08000020,State-funded special school,39.2
+4661,201617,E06000049,State-funded special school,30.6
+4666,201617,E06000006,State-funded special school,42.7
+4667,201617,E08000002,State-funded special school,34.7
+4675,201617,E06000050,State-funded special school,36.0
+4686,201617,E06000012,State-funded special school,38.6
+4687,201617,E06000005,State-funded special school,43.3
+4688,201617,E08000019,State-funded special school,47.6
+4690,201617,E08000021,State-funded special school,39.3
+4698,201617,E06000001,State-funded special school,45.6
+4704,201617,E06000007,State-funded special school,37.2
+4707,201617,E08000003,State-funded special school,45.6
+4708,201617,E06000013,State-funded special school,37.9
+4709,201617,E06000048,State-funded special school,34.9
+4710,201617,E08000032,State-funded special school,34.3
+4712,201617,E08000022,State-funded special school,35.3
+4720,201617,E06000002,State-funded special school,50.9
+4727,201617,E10000017,State-funded special school,35.6
+4728,201617,E08000011,State-funded special school,53.1
+4729,201617,E08000004,State-funded special school,42.8
+4730,201617,E08000033,State-funded special school,29.1
+4820,201516,E08000013,Total,16.8
+4839,201516,E08000023,Total,19.1
+4840,201516,E08000014,Total,14.7
+4845,201516,E08000022,Total,13.2
+4846,201516,E06000001,Total,22.1
+4847,201516,E08000017,Total,16.0
+4852,201516,E08000020,Total,15.7
+4855,201516,E08000005,Total,19.1
+4858,201516,E08000004,Total,18.2
+4859,201516,E08000007,Total,13.7
+4860,201516,E08000001,Total,16.3
+4861,201516,E06000008,Total,15.4
+4863,201516,E06000003,Total,18.5
+4864,201516,E08000008,Total,18.4
+4867,201516,E08000009,Total,9.3
+4870,201516,E06000048,Total,11.9
+4871,201516,E08000010,Total,14.2
+4872,201516,E06000009,Total,25.2
+4873,201516,E08000003,Total,27.5
+4874,201516,E06000049,Total,7.8
+4880,201516,E08000006,Total,21.6
+4881,201516,E06000006,Total,27.4
+4887,201516,E06000047,Total,18.7
+4888,201516,E08000011,Total,29.1
+4894,201516,E10000006,Total,9.3
+4895,201516,E06000004,Total,18.2
+4898,201516,E08000033,Total,13.8
+4900,201516,E08000034,Total,18.9
+4903,201516,E06000014,Total,8.1
+4904,201516,E06000013,Total,13.8
+4905,201516,E06000002,Total,27.5
+4906,201516,E08000021,Total,23.6
+4907,201516,E08000012,Total,24.7
+4912,201516,E08000002,Total,15.0
+4913,201516,E08000035,Total,16.4
+4914,201516,E08000032,Total,17.6
+4921,201516,E06000011,Total,11.1
+4929,201516,E08000036,Total,13.3
+4930,201516,E06000005,Total,17.3
+4931,201516,E10000023,Total,7.2
+4933,201516,E08000016,Total,20.2
+4935,201516,E08000019,Total,18.9
+4937,201516,E06000007,Total,10.0
+4941,201516,E06000012,Total,16.5
+4944,201516,E08000024,Total,19.4
+4947,201516,E08000018,Total,15.4
+4949,201516,E06000010,Total,23.1
+4950,201516,E08000015,Total,17.0
+4951,201516,E10000017,Total,13.4
+4955,201516,E06000050,Total,10.6
+4960,201516,E08000014,Non-maintained special school,2.1
+4964,201516,E08000022,Non-maintained special school,28.0
+4965,201516,E08000015,Non-maintained special school,15.7
+4966,201516,E06000049,Non-maintained special school,0.0
+4967,201516,E08000021,Non-maintained special school,4.7
+4969,201516,E08000013,Non-maintained special school,0.0
+4970,201516,E08000033,Non-maintained special school,69.1
+4972,201516,E06000048,Non-maintained special school,12.0
+4973,201516,E08000017,Non-maintained special school,70.0
+4974,201516,E08000009,Non-maintained special school,36.8
+4979,201516,E08000012,Non-maintained special school,23.5
+4980,201516,E08000019,Non-maintained special school,0.0
+4981,201516,E08000035,Non-maintained special school,16.9
+4988,201516,E08000007,Non-maintained special school,24.1
+4994,201516,E10000023,Non-maintained special school,27.8
+4995,201516,E06000007,Non-maintained special school,70.3
+4996,201516,E08000034,Non-maintained special school,14.3
+4999,201516,E08000001,Non-maintained special school,0.0
+5020,201516,E08000004,Pupil referral unit,36.1
+5023,201516,E08000010,Pupil referral unit,46.6
+5027,201516,E08000015,Pupil referral unit,43.5
+5032,201516,E08000012,Pupil referral unit,23.4
+5040,201516,E08000024,Pupil referral unit,45.3
+5041,201516,E06000002,Pupil referral unit,21.4
+5043,201516,E06000001,Pupil referral unit,57.1
+5044,201516,E08000014,Pupil referral unit,35.1
+5046,201516,E08000006,Pupil referral unit,43.5
+5048,201516,E08000021,Pupil referral unit,60.4
+5050,201516,E06000005,Pupil referral unit,55.6
+5051,201516,E08000022,Pupil referral unit,30.1
+5052,201516,E08000034,Pupil referral unit,56.2
+5054,201516,E06000009,Pupil referral unit,41.5
+5055,201516,E06000049,Pupil referral unit,34.5
+5056,201516,E06000011,Pupil referral unit,45.0
+5058,201516,E06000048,Pupil referral unit,33.3
+5059,201516,E08000009,Pupil referral unit,27.3
+5061,201516,E08000007,Pupil referral unit,39.1
+5062,201516,E08000001,Pupil referral unit,51.0
+5063,201516,E08000036,Pupil referral unit,38.4
+5068,201516,E06000003,Pupil referral unit,21.1
+5069,201516,E06000006,Pupil referral unit,53.8
+5070,201516,E08000023,Pupil referral unit,36.8
+5071,201516,E08000003,Pupil referral unit,71.5
+5073,201516,E06000008,Pupil referral unit,30.6
+5075,201516,E08000020,Pupil referral unit,35.2
+5076,201516,E08000011,Pupil referral unit,50.0
+5077,201516,E08000013,Pupil referral unit,39.7
+5087,201516,E06000047,Pupil referral unit,59.2
+5089,201516,E10000023,Pupil referral unit,25.3
+5091,201516,E06000004,Pupil referral unit,42.9
+5092,201516,E06000013,Pupil referral unit,40.0
+5097,201516,E06000014,Pupil referral unit,41.1
+5098,201516,E08000017,Pupil referral unit,43.2
+5103,201516,E08000008,Pupil referral unit,37.5
+5104,201516,E10000006,Pupil referral unit,43.4
+5106,201516,E10000017,Pupil referral unit,44.9
+5108,201516,E08000019,Pupil referral unit,52.9
+5111,201516,E08000005,Pupil referral unit,57.3
+5112,201516,E08000035,Pupil referral unit,48.1
+5114,201516,E08000002,Pupil referral unit,26.3
+5121,201516,E08000016,Pupil referral unit,50.0
+5122,201516,E08000018,Pupil referral unit,51.9
+5125,201516,E08000033,Pupil referral unit,60.5
+5128,201516,E06000010,Pupil referral unit,50.5
+5129,201516,E06000007,Pupil referral unit,0.0
+5134,201516,E08000032,Pupil referral unit,40.6
+5135,201516,E06000012,Pupil referral unit,48.4
+5138,201516,E06000050,Pupil referral unit,45.5
+5150,201516,E08000020,State-funded nursery,0.0
+5155,201516,E08000014,State-funded nursery,6.8
+5156,201516,E08000015,State-funded nursery,3.9
+5161,201516,E08000001,State-funded nursery,0.2
+5165,201516,E08000023,State-funded nursery,0.3
+5171,201516,E08000024,State-funded nursery,0.7
+5174,201516,E06000006,State-funded nursery,0.0
+5177,201516,E08000021,State-funded nursery,19.9
+5178,201516,E06000005,State-funded nursery,0.0
+5180,201516,E08000022,State-funded nursery,0.9
+5185,201516,E08000012,State-funded nursery,6.6
+5186,201516,E06000011,State-funded nursery,0.5
+5194,201516,E08000013,State-funded nursery,0.0
+5199,201516,E08000005,State-funded nursery,0.0
+5202,201516,E10000023,State-funded nursery,3.6
+5204,201516,E08000010,State-funded nursery,0.8
+5206,201516,E08000032,State-funded nursery,1.6
+5207,201516,E08000018,State-funded nursery,0.0
+5210,201516,E06000014,State-funded nursery,4.3
+5213,201516,E08000003,State-funded nursery,23.7
+5215,201516,E10000006,State-funded nursery,0.7
+5217,201516,E10000017,State-funded nursery,0.0
+5222,201516,E06000050,State-funded nursery,0.0
+5223,201516,E08000019,State-funded nursery,20.9
+5226,201516,E06000047,State-funded nursery,0.0
+5227,201516,E06000008,State-funded nursery,0.0
+5229,201516,E08000002,State-funded nursery,26.6
+5230,201516,E06000049,State-funded nursery,0.0
+5232,201516,E06000007,State-funded nursery,0.0
+5234,201516,E08000036,State-funded nursery,0.0
+5236,201516,E08000007,State-funded nursery,19.3
+5237,201516,E06000012,State-funded nursery,0.6
+5239,201516,E06000010,State-funded nursery,1.1
+5240,201516,E08000034,State-funded nursery,0.0
+5251,201516,E08000009,State-funded primary,9.5
+5252,201516,E08000006,State-funded primary,21.4
+5264,201516,E06000001,State-funded primary,22.7
+5268,201516,E06000002,State-funded primary,27.3
+5276,201516,E08000010,State-funded primary,14.7
+5283,201516,E08000023,State-funded primary,19.1
+5285,201516,E08000015,State-funded primary,18.2
+5288,201516,E06000006,State-funded primary,27.7
+5292,201516,E08000021,State-funded primary,24.4
+5294,201516,E06000005,State-funded primary,18.3
+5296,201516,E08000022,State-funded primary,13.7
+5298,201516,E06000049,State-funded primary,8.4
+5300,201516,E08000024,State-funded primary,19.5
+5304,201516,E08000012,State-funded primary,24.7
+5305,201516,E06000011,State-funded primary,11.8
+5306,201516,E08000014,State-funded primary,15.1
+5308,201516,E08000020,State-funded primary,16.3
+5312,201516,E08000034,State-funded primary,18.5
+5313,201516,E06000004,State-funded primary,18.3
+5314,201516,E06000007,State-funded primary,10.4
+5315,201516,E08000007,State-funded primary,13.5
+5317,201516,E08000033,State-funded primary,14.5
+5320,201516,E08000011,State-funded primary,26.4
+5321,201516,E08000003,State-funded primary,27.5
+5325,201516,E06000048,State-funded primary,12.3
+5326,201516,E08000013,State-funded primary,17.0
+5327,201516,E06000003,State-funded primary,18.4
+5328,201516,E08000036,State-funded primary,13.3
+5331,201516,E06000010,State-funded primary,22.3
+5333,201516,E10000006,State-funded primary,9.9
+5338,201516,E06000013,State-funded primary,14.4
+5339,201516,E06000014,State-funded primary,8.6
+5340,201516,E08000019,State-funded primary,19.2
+5344,201516,E06000047,State-funded primary,19.9
+5349,201516,E06000008,State-funded primary,15.6
+5350,201516,E08000008,State-funded primary,17.8
+5352,201516,E06000050,State-funded primary,11.0
+5357,201516,E10000017,State-funded primary,13.9
+5360,201516,E08000017,State-funded primary,16.4
+5363,201516,E08000002,State-funded primary,14.5
+5365,201516,E08000035,State-funded primary,16.9
+5370,201516,E08000005,State-funded primary,17.9
+5376,201516,E08000016,State-funded primary,20.5
+5381,201516,E08000001,State-funded primary,15.8
+5382,201516,E06000012,State-funded primary,16.6
+5385,201516,E08000018,State-funded primary,15.5
+5389,201516,E08000032,State-funded primary,16.6
+5390,201516,E08000004,State-funded primary,17.2
+5391,201516,E06000009,State-funded primary,24.7
+5393,201516,E10000023,State-funded primary,7.6
+5406,201516,E06000005,State-funded secondary,14.9
+5409,201516,E08000014,State-funded secondary,13.5
+5410,201516,E08000020,State-funded secondary,13.7
+5415,201516,E06000002,State-funded secondary,26.8
+5427,201516,E06000048,State-funded secondary,11.0
+5434,201516,E08000006,State-funded secondary,20.7
+5437,201516,E08000011,State-funded secondary,34.3
+5442,201516,E08000022,State-funded secondary,11.5
+5444,201516,E06000001,State-funded secondary,19.9
+5445,201516,E08000023,State-funded secondary,18.6
+5446,201516,E06000008,State-funded secondary,14.9
+5451,201516,E06000003,State-funded secondary,17.4
+5452,201516,E08000018,State-funded secondary,14.7
+5455,201516,E08000009,State-funded secondary,8.1
+5458,201516,E08000021,State-funded secondary,21.1
+5459,201516,E08000012,State-funded secondary,23.8
+5462,201516,E08000017,State-funded secondary,14.8
+5466,201516,E10000017,State-funded secondary,12.0
+5468,201516,E06000047,State-funded secondary,16.2
+5471,201516,E08000005,State-funded secondary,20.4
+5472,201516,E08000010,State-funded secondary,12.5
+5473,201516,E08000013,State-funded secondary,15.3
+5475,201516,E06000004,State-funded secondary,16.9
+5479,201516,E08000016,State-funded secondary,18.3
+5481,201516,E06000006,State-funded secondary,27.4
+5483,201516,E08000035,State-funded secondary,15.1
+5485,201516,E08000032,State-funded secondary,19.0
+5486,201516,E08000002,State-funded secondary,14.9
+5488,201516,E08000034,State-funded secondary,18.8
+5494,201516,E08000004,State-funded secondary,18.6
+5495,201516,E08000003,State-funded secondary,26.4
+5498,201516,E06000014,State-funded secondary,6.4
+5501,201516,E08000024,State-funded secondary,19.5
+5502,201516,E08000001,State-funded secondary,16.6
+5505,201516,E06000012,State-funded secondary,15.3
+5506,201516,E06000013,State-funded secondary,12.1
+5509,201516,E06000009,State-funded secondary,24.7
+5514,201516,E08000007,State-funded secondary,12.7
+5518,201516,E08000019,State-funded secondary,17.2
+5520,201516,E06000049,State-funded secondary,6.7
+5523,201516,E10000023,State-funded secondary,6.2
+5524,201516,E08000033,State-funded secondary,12.2
+5525,201516,E08000036,State-funded secondary,12.6
+5529,201516,E06000007,State-funded secondary,8.7
+5531,201516,E06000010,State-funded secondary,23.1
+5534,201516,E10000006,State-funded secondary,8.2
+5536,201516,E08000015,State-funded secondary,14.4
+5539,201516,E06000011,State-funded secondary,10.0
+5541,201516,E06000050,State-funded secondary,9.1
+5544,201516,E08000008,State-funded secondary,18.7
+5552,201516,E08000014,State-funded special school,38.9
+5557,201516,E06000002,State-funded special school,49.0
+5560,201516,E08000020,State-funded special school,38.7
+5566,201516,E06000001,State-funded special school,48.5
+5572,201516,E06000048,State-funded special school,36.6
+5579,201516,E08000011,State-funded special school,53.6
+5582,201516,E06000006,State-funded special school,43.1
+5585,201516,E08000023,State-funded special school,42.2
+5586,201516,E06000008,State-funded special school,36.0
+5592,201516,E08000022,State-funded special school,36.3
+5594,201516,E06000003,State-funded special school,46.7
+5595,201516,E08000018,State-funded special school,39.3
+5599,201516,E08000009,State-funded special school,34.7
+5604,201516,E08000006,State-funded special school,46.0
+5605,201516,E08000008,State-funded special school,38.7
+5611,201516,E08000017,State-funded special school,34.9
+5612,201516,E08000003,State-funded special school,45.4
+5617,201516,E06000004,State-funded special school,42.7
+5618,201516,E06000047,State-funded special school,45.6
+5621,201516,E08000004,State-funded special school,46.7
+5622,201516,E08000010,State-funded special school,39.4
+5623,201516,E08000013,State-funded special school,48.1
+5633,201516,E06000011,State-funded special school,29.5
+5635,201516,E06000014,State-funded special school,24.6
+5636,201516,E08000002,State-funded special school,36.7
+5637,201516,E10000017,State-funded special school,36.2
+5638,201516,E08000007,State-funded special school,37.2
+5641,201516,E06000013,State-funded special school,36.2
+5642,201516,E08000032,State-funded special school,34.2
+5645,201516,E08000021,State-funded special school,37.3
+5646,201516,E08000012,State-funded special school,54.2
+5648,201516,E08000034,State-funded special school,50.7
+5649,201516,E06000012,State-funded special school,37.9
+5652,201516,E08000035,State-funded special school,39.0
+5656,201516,E08000024,State-funded special school,39.3
+5665,201516,E06000009,State-funded special school,43.1
+5667,201516,E06000005,State-funded special school,48.6
+5672,201516,E08000019,State-funded special school,42.2
+5674,201516,E06000049,State-funded special school,29.7
+5676,201516,E06000050,State-funded special school,34.0
+5677,201516,E08000033,State-funded special school,33.0
+5678,201516,E08000036,State-funded special school,44.6
+5679,201516,E08000001,State-funded special school,31.5
+5680,201516,E08000016,State-funded special school,50.2
+5682,201516,E06000007,State-funded special school,39.5
+5684,201516,E06000010,State-funded special school,49.7
+5687,201516,E10000006,State-funded special school,27.6
+5689,201516,E08000015,State-funded special school,44.1
+5694,201516,E10000023,State-funded special school,26.5
+5695,201516,E08000005,State-funded special school,44.5

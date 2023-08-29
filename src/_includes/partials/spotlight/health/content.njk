@@ -1,5 +1,122 @@
+{% set geo = geography %}
 <ul>
     <li>Adult obesity</li>
     <li>Long-term conditions</li>
     <li>Disability</li>
 </ul>
+
+{% comp 'layout.tab.set' %}
+
+{% set chart_data = time_series.spotlight.health.free_school_meals(geo) %}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
+  <p style="text-align: center;">Free school meals</p>
+    {{ comp.oi.chart.line({
+      config: {
+        legend: { 
+          show: true
+        },
+        data: chart_data,
+        axis: {
+          x: {
+            title: {
+              label: "Year"
+            },
+            ticks: [
+            {
+              value: 201516,
+              label: "2015/16"
+            },
+            {
+              value: 201718,
+              label: "2017/18"
+            },
+            {
+              value: 202021,
+              label: "2020/21"
+            }
+            ]
+          },
+          y: {
+            title: {
+              label: "Percentage of students elgiible"
+            },
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 10
+            },
+            min: 0,
+            max: 50
+          }
+        },
+        series: [
+          {
+            title: "Total",
+            x: "date",
+            y: "Total",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "State-funded primary",
+            x: "date",
+            y: "State-funded primary",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "State-funded secondary",
+            x: "date",
+            y: "State-funded secondary",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "State-funded special school",
+            x: "date",
+            y: "State-funded special school",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "Special school",
+            x: "date",
+            y: "Special school",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          }
+          }
+        ]
+      }
+    )| safe
+  }}
+  <p style='text-align: center;'> 
+    Data for Autumn 2020/21 combines State-funded special school 
+    and Non-maintained special schools under a single heading of 
+    Special school. For previous years these are presented separately.
+    </p>
+  {% endcomp %}{% endif %}
+
+{% endcomp %}
+{# end of tab set #}
