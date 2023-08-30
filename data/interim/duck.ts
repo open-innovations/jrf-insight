@@ -24,6 +24,9 @@ connection.query(
 connection.query(
   "CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv')"
 )
+connection.query(
+  "CREATE TABLE happiness AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv')"
+)
 /*
  * ACCESS FUNCTIONS
  */
@@ -63,11 +66,14 @@ export const freeSchoolMeals = (place: string) =>
     () => connection.query(`PIVOT (SELECT "date", "phase", fsm_eligible_percent FROM fsm WHERE geography_code=='${place}') ON "phase" USING AVG(fsm_eligible_percent);`)
   );
 
-  export const savingsInvestments = (place: string) =>
+export const savingsInvestments = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT "date", "Savings and Investments of Adults in the Family of the Individual", percent FROM savings WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Savings and Investments of Adults in the Family of the Individual" USING AVG(percent);`)
-  );
-
+);
+export const happiness = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM happiness WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Happiness') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
+);
 /**
  * Utility functions below
  */

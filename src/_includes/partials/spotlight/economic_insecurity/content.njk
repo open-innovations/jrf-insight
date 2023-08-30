@@ -20,7 +20,7 @@
 
 {% set chart_data = time_series.spotlight.economic_insecurity.savings_investments(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
-  <p style="text-align: center;">Savings and Investments</p>
+  <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
     {{ comp.oi.chart.line({
       config: {
         legend: { 
@@ -35,7 +35,7 @@
           },
           y: {
             title: {
-              label: "Percent of people of population in low income."
+              label: "Percent of population"
             },
             grid: {
               show: true

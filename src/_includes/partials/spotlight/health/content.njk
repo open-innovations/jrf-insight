@@ -118,5 +118,98 @@
     </p>
   {% endcomp %}{% endif %}
 
+{% set chart_data = time_series.spotlight.health.happiness(geo) %}
+{{ chart_data }}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Happiness', id: 'happiness' } %}
+  <p style="text-align: center;">Happiness</p>
+    {{ comp.oi.chart.line({
+      config: {
+        legend: { 
+          show: true
+        },
+        data: chart_data,
+        axis: {
+          x: {
+            title: {
+              label: "Time"
+            },
+            ticks: [
+              {
+              value: "2019-20",
+              grid: true,
+              label: "2019-20",
+              tickSize: 5
+              }
+            ]
+          },
+          y: {
+            title: {
+              label: "Percentage of population"
+            },
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 10
+            },
+            min: 0,
+            max: 50
+          }
+        },
+        series: [
+          {
+            title: "Poor",
+            x: "Time",
+            y: "Poor",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "Fair",
+            x: "Time",
+            y: "Fair",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "Good",
+            x: "Time",
+            y: "Good",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          },
+          {
+            title: "Very good",
+            x: "Time",
+            y: "Very good",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          }
+          }
+        ]
+      }
+    )| safe
+  }}
+  <p style='text-align: center;'> 
+    </p>
+  {% endcomp %}{% endif %}
+
 {% endcomp %}
 {# end of tab set #}
+
