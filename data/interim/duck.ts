@@ -20,6 +20,10 @@ connection.query(
 connection.query(
   "CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv')",
 );
+
+connection.query(
+  "CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv')"
+)
 /*
  * ACCESS FUNCTIONS
  */
@@ -57,6 +61,11 @@ export const HBAItypeOfIndividual = (place: string) =>
 export const freeSchoolMeals = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT "date", "phase", fsm_eligible_percent FROM fsm WHERE geography_code=='${place}') ON "phase" USING AVG(fsm_eligible_percent);`)
+  );
+
+  export const savingsInvestments = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT "date", "Savings and Investments of Adults in the Family of the Individual", percent FROM savings WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Savings and Investments of Adults in the Family of the Individual" USING AVG(percent);`)
   );
 
 /**
