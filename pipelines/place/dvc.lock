@@ -33,8 +33,8 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 320c24733853b9b9d18faa37ffbe3e6c
-      size: 90024
+      md5: bbb6f05e82d09a63d115a0944e12a9d0
+      size: 99077
     outs:
     - path: ../../data/interim/current_rental_prices.csv
       hash: md5
@@ -53,13 +53,13 @@ stages:
       isexec: true
     - path: ../../data/interim/place_data.json
       hash: md5
-      md5: ba1a35903df17a8c98727dc9fe1aaf1b
-      size: 1369138
+      md5: 85da9e79d41a46dbb8b43bbc57d4ae48
+      size: 1417017
       isexec: true
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 681b67c73ef6321ce54896a629718a18
-      size: 153388
+      md5: 051ac440096d357337a13d1381eda201
+      size: 153723
       isexec: true
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
@@ -132,8 +132,8 @@ stages:
     deps:
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 681b67c73ef6321ce54896a629718a18
-      size: 153388
+      md5: 051ac440096d357337a13d1381eda201
+      size: 153723
     - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: c38a063053d64182e5d08d6a519268c1
