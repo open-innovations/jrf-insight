@@ -1,0 +1,37 @@
+---
+layout: ./page.njk
+---
+
+<h2>Dimensions</h2>
+
+<table class='top-trump-table'>
+  <thead>
+    <tr>
+      <th>Dimension</th>
+      <th>Total categories</th>
+    </tr>
+  </thead>
+{% for d in dimensions %}
+  <tr>
+    <td>{{ d.name }}</td>
+    <td>{{ d.values | length }}</td>
+  </tr>
+{% endfor %}
+</table>
+
+<h2>Facts</h2>
+
+<table class='top-trump-table top-trump-invert'>
+  <thead>
+    <tr>
+      <th>Fact</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+{% for f in facts %}
+  <tr>
+    <td>{{ f.name }}</td>
+    <td>{{ f.type }}</td>
+  </tr>
+{% endfor %}
+</table>
