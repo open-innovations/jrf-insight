@@ -7,6 +7,7 @@ html {
   font-size: 100%;
   scroll-padding-block-start: 5em;
   scroll-behavior: smooth;
+  background-color: #fefefe;
 }
 
 .page-flow {
@@ -14,6 +15,10 @@ html {
   margin-left: auto;
   margin-right: auto;
   padding: 0.5em 1em;
+}
+
+* {
+  background-color: inherit;
 }
 
 main > * + * {
