@@ -9,6 +9,3 @@ __pycache__/
 
 *.cpuprofile
 *.heapprofile
-
-
-deno.lock
