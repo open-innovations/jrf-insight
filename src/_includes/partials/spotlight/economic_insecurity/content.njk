@@ -18,6 +18,102 @@
 
 {% comp 'layout.tab.set' %}
 
+{% set chart_data = time_series.spotlight.economic_insecurity.unemployment(geo) %}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Unemployment', id: 'unemployment' } %}
+  <p style="text-align: center;">Rate of unemployment</p>
+    {{ comp.oi.chart.line({
+      config: {
+        legend: { 
+          show: true
+        },
+        data: chart_data,
+        axis: {
+          x: {
+            title: {
+              label: "Year"
+            }
+          },
+          y: {
+            title: {
+              label: "Rate"
+            },
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 3
+            },
+            min: 0,
+            max: 15
+          }
+        },
+        series: [
+          {
+            title: "Unemployment rate - aged 16-64",
+            x: "date",
+            y: "Unemployment rate - aged 16-64",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          }
+          }
+        ]
+      }
+    )| safe
+  }}
+  {% endcomp %}{% endif %}
+
+{% set chart_data = time_series.spotlight.economic_insecurity.economic_inactivity(geo) %}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Economic Inactivity', id: 'economic-inactivity' } %}
+  <p style="text-align: center;">Rate of economic inactivity</p>
+    {{ comp.oi.chart.line({
+      config: {
+        legend: { 
+          show: true
+        },
+        data: chart_data,
+        axis: {
+          x: {
+            title: {
+              label: "Year"
+            }
+          },
+          y: {
+            title: {
+              label: "Rate"
+            },
+            grid: {
+              show: true
+            },
+            tick: {
+              spacing: 20
+            },
+            min: 0,
+            max: 100
+          }
+        },
+        series: [
+          {
+            title: "Economic activity rate - aged 16-64",
+            x: "date",
+            y: "Economic activity rate - aged 16-64",
+            line: {
+              "stroke-dasharray": "5 10"
+            },
+            points: {
+              size: 12
+            }
+          }
+          }
+        ]
+      }
+    )| safe
+  }}
+  {% endcomp %}{% endif %}
+
 {% set chart_data = time_series.spotlight.economic_insecurity.savings_investments(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
   <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
