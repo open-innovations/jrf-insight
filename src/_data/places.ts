@@ -6,7 +6,7 @@ const removeE11 = (place: string) => !place.match(/^E11/);
 
 export const lookup = getPlaceDataLookup();
 
-const smallSitePivot = 'E08000035';
+const smallSitePivot = 'E06000014';
 
 const smallSiteFilter = (place: string) => {
   if (!SMALL_SITE) return true;

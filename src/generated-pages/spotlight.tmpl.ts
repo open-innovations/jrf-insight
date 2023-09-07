@@ -1,7 +1,8 @@
 export const layout = 'templates/spotlight.njk';
 
 type SpotlightData = {
-  name: string,
+  name: string;
+  draft: boolean;
 }
 
 export default function* ({ spotlights, places }: {
@@ -9,6 +10,7 @@ export default function* ({ spotlights, places }: {
   places: string[],
 }) {
   for (const [spotlight, spotlightData] of Object.entries(spotlights)) {
+    if (spotlightData.draft === true) continue;
     const { name } = spotlightData;
     yield {
       url: `/spotlight/${spotlight}/`,

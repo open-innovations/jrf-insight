@@ -4,15 +4,21 @@ housing:
   name: Housing
 homelessness:
   name: Homelessness
+  draft: true
 children:
   name: Children
+  draft: true
 young_people:
   name: Young People
+  draft: true
 work_and_employment:
   name: Work and Employment
+  draft: true
 social_inclusion:
   name: Social Inclusion
+  draft: true
 health:
   name: Health
 older_people:
   name: Older people
+  draft: true

@@ -1,7 +1,7 @@
 {
-  "lock": false,
+  "lock": true,
   "tasks": {
-    "lume": "echo \"import 'lume/cli.ts'\" | deno run --v8-flags=--max-old-space-size=8192 --unstable -A -",
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run --v8-flags=--max-old-space-size=1536 --unstable -A -",
     "build": "deno task vr provision; LD_LIBRARY_PATH=./lib deno task lume",
     "serve": "deno task build -s",
     "vr": "deno run -qA https://code.velociraptor.run",
@@ -11,5 +11,11 @@
     "lume/": "https://deno.land/x/lume@v1.18.2/",
     "std/": "https://deno.land/std@0.151.0/",
     "oi-lume-viz/": "https://deno.land/x/oi_lume_viz@v0.11.0/"
+  },
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom"
+    ]
   }
 }

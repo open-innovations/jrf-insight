@@ -19,7 +19,11 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set area = this_place_data['Area in sq km'] | round(-1) %}
 {% set population_density = (this_place_data['Number of persons'] / this_place_data['Area in sq km']) | round(0) %}
 
-{% comp 'layout.two_column' %}
+{% set ratio_people_in_low_income = (this_place_data['percent_in_low_income']/100) %}
+{% set ratio_unemployment_16_64 = (this_place_data['unemployment_rate_16_64'] / 100) %}
+{% set ratio_economically_inactive = (this_place_data['economic_inactivity_16_64'] / 100) %}
+{% set ratio_children_in_low_income = (this_place_data['children_in_low_income'] / this_place_data['number_of_children']) %}
+{# {% comp 'layout.two_column' %}
 {% comp 'layout.stack' %}
 {{ comp.info.headline({
       number: population,
@@ -91,9 +95,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
     }) | safe }}
 
 {% endcomp %}
-{% endcomp %}
+{% endcomp %} #}
 
-{% if this_place_data['children_in_low_income'] %}
+{# {% if this_place_data['children_in_low_income'] %}
   {% comp 'grid.block', {classes: 'headline'} %}
   {% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
   <p class="big-number">
@@ -104,7 +108,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
 </p>
   {% endcomp %}
-{% endif %}
+{% endif %} #}
 
 {{ comp.nav_block({
   place_key: key,
@@ -121,7 +125,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set half_population = (max_population - min_population) / 2 + min_population %}
 
 {% if place[key].map %}
-  {{ comp.oi.map.zoomable({
+  {{ comp.oi.map.svg({
         config: {
           data: place_data,
           geojson: 
@@ -171,7 +175,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 {% set place_data_all = query.getDataForPlaces(all_places) %}
 
 {% macro place_data_table(places, row_titles, columns, here) %}
-  <table>
+  <table class='place-data'>
     <thead>
       <tr>
         <th>Area</th>
@@ -203,6 +207,104 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   </table>
 {% endmacro %}
 
+{% macro top_trump_table(name, style, columns) %}
+  <table class = "{{ style }}">
+    <tr>
+      <th colspan='3'>{{ title }} - {{ name }}</th>
+    </tr>
+    {% for item in columns %}
+    <tr>
+        <td>{{ item.name }}</td>
+        {% if item.data %}
+          <td>{{ item.data }}
+          {% if item.simple_data != null %}
+            ({{ comp.nearly.ratio({ value: item.simple_data, withDirection: true }) }})
+          {% endif %}
+          </td>
+        {% else %}
+          <td>--</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+  </table>
+{% endmacro %}
+
+{{ top_trump_table(
+  name="Place statistics",
+  style="top-trump-table",
+  columns=[
+      {
+        name: 'Population estimate', 
+        data: population, 
+        simple_data: null
+      },
+      {
+        name: 'Area (sq km)', 
+        data: area, 
+        simple_data: null
+      },
+      {
+        name: "Population density (per square km)",
+        data: population_density,
+        simple_data: null
+      },
+      {
+        name: "Number of households",
+        data: this_place_data["Number of households"],
+        simple_data: null
+      },
+      {
+        name: "GVA {£m}",
+        data: this_place_data["GVA"],
+        simple_data: null
+      }
+      ]
+  ) 
+}}
+
+{{ top_trump_table(
+  name="Poverty statistics",
+  style="top-trump-table top-trump-invert",
+  columns= [
+      {
+        name: 'People in low income households', 
+        data: this_place_data['total_low_income'], 
+        simple_data: ratio_people_in_low_income
+      },
+      {
+        name: 'Unemployment (%)',
+        data: this_place_data['unemployment_rate_16_64'],
+        simple_data: ratio_unemployment_16_64
+      },
+      {
+        name: 'Economic Inactivity (%)',
+        data: this_place_data['economic_inactivity_16_64'],
+        simple_data: ratio_economically_inactive
+      },
+      {
+        name: 'Children in low income households',
+        data: this_place_data['children_in_low_income'],
+        simple_data: ratio_children_in_low_income
+      },
+      {
+        name: 'IMD average score',
+        data: this_place_data['imd_average_score'],
+        simple_data: null
+      },
+      {
+        name: 'IMD for children',
+        data: this_place_data['imd_children'],
+        simple_data: null
+      },
+      {
+        name: 'IMD for older people',
+        data: this_place_data['imd_older_people'],
+        simple_data: null
+      }
+      ]
+  ) 
+}}
+
 {{ place_data_table(
   places=place_data_all,
   here=key,
@@ -221,10 +323,10 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   columns={
     'Children in poverty': 'children_in_low_income',
     'Number of children': 'number_of_children',
-    'IMD average score': 'IMD',
+    'IMD average score': 'imd_average_score',
     'IMD - children': 'imd_children',
     'IMD - older people': 'imd_older_people',
-    'Number of people living in low-income households': 'total_number_of_people_low_income_households',
+    'Number of people living in low-income households': 'total_low_income',
     'Unemployment rate aged 16-64 (%)': 'unemployment_rate_16_64',
     'Economically inactive (%)': 'economic_inactivity_16_64'
   }

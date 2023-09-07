@@ -12,3 +12,26 @@
     min-width: 50%;
   }
 }
+
+.top-trump-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0.15em;
+  --table-colour: var(--jrf-dark-blue);
+  & th, td {
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: var(--table-colour);
+  }
+  /* & tr:last-of-type td {
+      border-bottom: 0.3rem solid var(--jrf-purple);
+    } */
+  & tr:hover td {
+      background-color: var(--jrf-purple);
+  }
+}
+
+.top-trump-invert {
+  --table-colour: var(--jrf-strong-pink);
+}

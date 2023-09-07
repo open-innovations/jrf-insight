@@ -1,14 +1,59 @@
+{% set geo = geography %}
 {% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
 {% set ct_working_age = this_place_data['council_tax_working_age'] %}
+{% set ct_pensioners_ratio = (this_place_data['council_tax_pensioners'] / this_place_data['number_of_pensioners']) %}
+{% set ct_working_age_ratio = (this_place_data['council_tax_working_age'] / this_place_data['number_of_working_age']) %}
+
 {% set smi_loans_in_payment_households = this_place_data['smi_loans_in_payment_households'] %}
+
 {% set homeless = this_place_data['Total households assessed as owed a duty'] %}
+{% set homeless_ratio = (this_place_data['Total households assessed as owed a duty'] / this_place_data['Number of households']) %}
+
 {% set housing_benefit = this_place_data['HB_claimants'] %}
 {% set number_of_households = this_place_data['Number of households'] %}
-{% set housing_benefit_norm = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
+{% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
 {% set house_prices = this_place_data['Median house price'] %}
 
-{% comp 'layout.stack' %}
-{% comp 'layout.two_column' %}
+{{ top_trump_table(
+  name="spotlight statistics",
+  style="top-trump-table top-trump-invert",
+  columns= [
+      {
+        name: 'Median house price (£)', 
+        data: house_prices, 
+        simple_data: null
+      },
+      {
+        name: 'Number of working-age people claiming council tax support', 
+        data: ct_working_age, 
+        simple_data: ct_working_age_ratio
+      },
+      {
+        name: 'Number of pensioners claiming council tax support', 
+        data: ct_pensioners, 
+        simple_data: ct_pensioners_ratio
+      },
+      {
+        name: 'Households assessed as homeless', 
+        data: homeless, 
+        simple_data: homeless_ratio
+      },
+      {
+        name: 'Number of people with support with mortgage interest', 
+        data: smi_loans_in_payment_households, 
+        simple_data: null
+      },
+      {
+        name: 'Percentage of households receiving housing benefit', 
+        data: housing_benefit_percent, 
+        simple_data: housing_benefit_percent/100
+      }
+      ]
+  ) 
+}}
+
+{# {% comp 'layout.stack' %}
+  {% comp 'layout.two_column' %}
     {{ comp.info.headline({
         number: house_prices,
         display: house_prices,
@@ -35,12 +80,13 @@
         description: 'Number of people with support with mortgage interest'
         }) | safe }}
     {{ comp.info.headline({
-        number: housing_benefit_norm,
-        display: housing_benefit_norm,
+        number: housing_benefit_percent,
+        display: housing_benefit_percent,
         description: 'Percentage of households receiving housing benefit'
         }) | safe }}
-{% endcomp %}
-{% endcomp %}
+  {% endcomp %}
+{% endcomp %} #}
+
 <ul>
     <li>Household Income</li>
     <li>Fuel poverty</li>
@@ -49,15 +95,19 @@
     <li><a href="https://github.com/open-innovations/jrf-insight/tree/main/data/council-tax-support">Council tax support</a></li>
 </ul>
 
-{% set geo = geography %}
-{% comp 'layout.two_column' %}
-{% if geo in time_series.house_prices.names %}
-    {{ comp.oi.chart.line({
+{# start of graphs tabset #}
+<h2>Detail</h2>
+{% comp 'layout.tab.set' %}
+
+{% if geo in time_series.spotlight.housing.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+  <p style="text-align: center;">Median house prices over time</p>
+  {% set chart_data = query.house_prices_for_place(geo) %}
+  {{ comp.oi.chart.line({
       config: {
         legend: { 
           show: true
         },
-        data: query.house_prices_for_place(geo),
+        data: chart_data,
         axis: {
           x: {
             title: {
@@ -75,7 +125,7 @@
               spacing: 50000
             },
             min: 0,
-            max: 300000
+            max: 350000 
           }
         },
         series: [
@@ -92,8 +142,10 @@
       }
     })| safe
   }}
-{% endif %}
-{% if geo in bar_charts.current_rental_prices.names %}
+{% endcomp %}{% endif %}
+
+{% if geo in bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
+  <p style="text-align: center;">Current median rental prices by type of property</p>
   {{comp.oi.chart.bar({
     config: {
       data: query.current_rental_prices_for_place(geo),
@@ -106,7 +158,7 @@
         {
         "title": this_place_data.name,  
         "value": geo,
-        "colour": "#13242F"
+        "colour": "#64A70B"
         }
       ], 
       axis: {
@@ -119,10 +171,10 @@
     }
     }) | safe
   }}
-{% endif %}
-{% endcomp %}
-{% set chart_data = time_series.individual(geo) %}
-{% if chart_data.rows | length > 0 %}
+{% endcomp %}{% endif %}
+
+{% set chart_data = time_series.place.type_of_individual(geo) %}
+{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
   <p style="text-align: center;">Number of people living in low income households by age category</p>
     {{ comp.oi.chart.line({
       config: {
@@ -182,5 +234,7 @@
       }
     })| safe
   }}
-{% endif %}
-<p> test </p>
+{% endcomp %}{% endif %}
+
+{% endcomp %}
+{# end of graphs tabset #}

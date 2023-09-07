@@ -1,0 +1,22 @@
+tab-set {
+  --border-width: 2px;
+  --border: var(--border-width) solid grey;
+  & [role="tablist"] {
+    display: flex;
+    gap: var(--border-width);
+  }
+  & [role="tab"] {
+    display: block;
+    position: relative;
+    padding: 0.5em 1em;
+    &[aria-selected=true] {
+      border: var(--border);
+      border-bottom-width: 0;
+      top: var(--border-width);
+    }
+  }
+  & [role="tabpanel"] {
+    border: var(--border);
+    padding: 1em;
+  }  
+}

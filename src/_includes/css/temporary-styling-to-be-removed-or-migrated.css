@@ -52,29 +52,49 @@ body > header {
   text-align: center;
 }
 
-.oi-legend {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
-  & * + * {
-    margin-top: 0;
-  }
-  & .legend-item {
-    gap: 0.3em;
-    display: flex;
-    align-items: center;
-  }
+/* TODO fix in lume charts */
+/* .oi-legend-inner .oi-legend-item .oi-legend-icon {
+  display: inline-block !important;
+} */
+.oi-legend-inner .oi-legend-icon {
+  /* display: inline-block; */
+  height: 1.25em;
+  aspect-ratio: 1 / 1;
+  margin-right: 0.25em;
+  opacity: 1;
+  float: left;
 }
-table, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
+.oi-legend-left, .oi-legend-right {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  text-align: left;
 }
-td {
+.oi-legend-left {
+  left: 0;
+}
+.oi-legend-right {
+  right: 0;
+}
+.oi-legend-top {
+  top: 0;
   text-align: center;
 }
-tr:nth-child(odd) {background-color: #dbdbdb;}
-tr.here { background-color: yellow; }
+.oi-series-lock {
+  background: lightgray !important; 
+}
+.place-data{
+  border-collapse: collapse;
+  & th, td{
+    border: 1px solid black;
+    padding: 0 0.25em;
+  }
+  & td {
+    text-align: center;
+  }
+  & tr:nth-child(odd) {background-color: #dbdbdb;}
+  & tr.here { background-color: yellow; }
+}
 
 a.broken {
   border: 5px solid red;
@@ -82,20 +102,11 @@ a.broken {
   cursor: default;
   text-decoration: line-through;
 }
-.missing > .grid-block.headline{
-      background: repeating-linear-gradient(
-        -45deg,
-        red,
-        red 20px,
-        grey 20px,
-        grey 40px
-      );
-  }
 
-  p {
-    & .note {
-      background: var(--jrf-dark-blue);
-      color: white;
-      text-align: center;
-    }
+p {
+  & .note {
+    background: var(--jrf-dark-blue);
+    color: white;
+    text-align: center;
   }
+}

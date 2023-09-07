@@ -10,7 +10,27 @@ tags:
 {% else %}
   {% set place_data = [this_place_data] %}
 {% endif %}
-
+{% macro top_trump_table(name, style, columns) %}
+  <table class = "{{ style }}">
+    <tr>
+      <th colspan='3'>{{ title }} - {{ name }}</th>
+    </tr>
+    {% for item in columns %}
+    <tr>
+        <td>{{ item.name }}</td>
+        {% if item.data %}
+          <td>{{ item.data }}
+          {% if item.simple_data != null %}
+            ({{ comp.nearly.ratio({ value: item.simple_data, withDirection: true }) }})
+          {% endif %}
+          </td>
+        {% else %}
+          <td>--</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+  </table>
+{% endmacro %}
 {% include 'partials/spotlight/' + spotlight + '/headlines.njk' %}
 
 {{ comp.nav_block({
