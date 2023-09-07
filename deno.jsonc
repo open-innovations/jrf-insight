@@ -8,9 +8,7 @@
     "update-lock": "deno cache --reload --lock=deno.lock --lock-write _config.ts"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.18.2/",
-    "std/": "https://deno.land/std@0.151.0/",
-    "oi-lume-viz/": "https://deno.land/x/oi_lume_viz@v0.11.0/"
+    "lume/": "https://deno.land/x/lume@v1.18.5/"
   },
   "compilerOptions": {
     "lib": [
