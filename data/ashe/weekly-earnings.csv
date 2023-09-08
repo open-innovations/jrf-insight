@@ -165,3 +165,169 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000035,Leeds,mean_weekly_wage,608.10000000000002
 2022,E08000036,Wakefield,median_weekly_wage,475.30000000000001
 2022,E08000036,Wakefield,mean_weekly_wage,554.79999999999995
+2022,E12000001,North East,median_annual_wage,25347
+2022,E12000001,North East,mean_annual_wage,28934
+2022,E06000005,Darlington UA,median_annual_wage,26184
+2022,E06000005,Darlington UA,mean_annual_wage,30318
+2022,E06000001,Hartlepool UA,median_annual_wage,24537
+2022,E06000001,Hartlepool UA,mean_annual_wage,25602
+2022,E06000002,Middlesbrough UA,median_annual_wage,x
+2022,E06000002,Middlesbrough UA,mean_annual_wage,25967
+2022,E06000003,Redcar and Cleveland UA,median_annual_wage,22172
+2022,E06000003,Redcar and Cleveland UA,mean_annual_wage,26201
+2022,E06000004,Stockton-on-Tees UA,median_annual_wage,26819
+2022,E06000004,Stockton-on-Tees UA,mean_annual_wage,28725
+2022,E06000047,County Durham UA,median_annual_wage,25904
+2022,E06000047,County Durham UA,mean_annual_wage,29572
+2022,E06000057,Northumberland UA,median_annual_wage,24655
+2022,E06000057,Northumberland UA,mean_annual_wage,29867
+2022,E11000007,Tyne and Wear Met County,median_annual_wage,25404
+2022,E11000007,Tyne and Wear Met County,mean_annual_wage,29105
+2022,E08000037,Gateshead,median_annual_wage,25024
+2022,E08000037,Gateshead,mean_annual_wage,28530
+2022,E08000021,Newcastle upon Tyne,median_annual_wage,27005
+2022,E08000021,Newcastle upon Tyne,mean_annual_wage,33037
+2022,E08000022,North Tyneside,median_annual_wage,27009
+2022,E08000022,North Tyneside,mean_annual_wage,30517
+2022,E08000023,South Tyneside,median_annual_wage,25093
+2022,E08000023,South Tyneside,mean_annual_wage,28013
+2022,E08000024,Sunderland,median_annual_wage,23655
+2022,E08000024,Sunderland,mean_annual_wage,25661
+2022,E12000002,North West,median_annual_wage,26121
+2022,E12000002,North West,mean_annual_wage,30248
+2022,E06000008,Blackburn with Darwen UA,median_annual_wage,23205
+2022,E06000008,Blackburn with Darwen UA,mean_annual_wage,24844
+2022,E06000009,Blackpool UA,median_annual_wage,21771
+2022,E06000009,Blackpool UA,mean_annual_wage,23410
+2022,E06000006,Halton UA,median_annual_wage,25890
+2022,E06000006,Halton UA,mean_annual_wage,30873
+2022,E06000007,Warrington UA,median_annual_wage,27750
+2022,E06000007,Warrington UA,mean_annual_wage,32912
+2022,E06000049,Cheshire East UA,median_annual_wage,28497
+2022,E06000049,Cheshire East UA,mean_annual_wage,35735
+2022,E06000050,Cheshire West and Chester,median_annual_wage,28005
+2022,E06000050,Cheshire West and Chester,mean_annual_wage,33538
+2022,E10000006,Cumbria,median_annual_wage,26019
+2022,E10000006,Cumbria,mean_annual_wage,29693
+2022,E07000026,Allerdale,median_annual_wage,26755
+2022,E07000026,Allerdale,mean_annual_wage,31856
+2022,E07000027,Barrow-in-Furness,median_annual_wage,26215
+2022,E07000027,Barrow-in-Furness,mean_annual_wage,30999
+2022,E07000028,Carlisle,median_annual_wage,x
+2022,E07000028,Carlisle,mean_annual_wage,25514
+2022,E07000029,Copeland,median_annual_wage,27873
+2022,E07000029,Copeland,mean_annual_wage,32571
+2022,E07000030,Eden,median_annual_wage,24647
+2022,E07000030,Eden,mean_annual_wage,27943
+2022,E07000031,South Lakeland,median_annual_wage,27849
+2022,E07000031,South Lakeland,mean_annual_wage,29481
+2022,E11000001,Greater Manchester Met County,median_annual_wage,25809
+2022,E11000001,Greater Manchester Met County,mean_annual_wage,29983
+2022,E08000001,Bolton,median_annual_wage,25290
+2022,E08000001,Bolton,mean_annual_wage,29955
+2022,E08000002,Bury,median_annual_wage,27688
+2022,E08000002,Bury,mean_annual_wage,31244
+2022,E08000003,Manchester,median_annual_wage,24101
+2022,E08000003,Manchester,mean_annual_wage,28258
+2022,E08000004,Oldham,median_annual_wage,24174
+2022,E08000004,Oldham,mean_annual_wage,27176
+2022,E08000005,Rochdale,median_annual_wage,23817
+2022,E08000005,Rochdale,mean_annual_wage,27871
+2022,E08000006,Salford,median_annual_wage,28081
+2022,E08000006,Salford,mean_annual_wage,30154
+2022,E08000007,Stockport,median_annual_wage,28095
+2022,E08000007,Stockport,mean_annual_wage,33347
+2022,E08000008,Tameside,median_annual_wage,25078
+2022,E08000008,Tameside,mean_annual_wage,28795
+2022,E08000009,Trafford,median_annual_wage,30412
+2022,E08000009,Trafford,mean_annual_wage,35827
+2022,E08000010,Wigan,median_annual_wage,25329
+2022,E08000010,Wigan,mean_annual_wage,28537
+2022,E10000017,Lancashire,median_annual_wage,25732
+2022,E10000017,Lancashire,mean_annual_wage,29519
+2022,E07000117,Burnley,median_annual_wage,24428
+2022,E07000117,Burnley,mean_annual_wage,27945
+2022,E07000118,Chorley,median_annual_wage,27855
+2022,E07000118,Chorley,mean_annual_wage,30905
+2022,E07000119,Fylde,median_annual_wage,27742
+2022,E07000119,Fylde,mean_annual_wage,31064
+2022,E07000120,Hyndburn,median_annual_wage,24365
+2022,E07000120,Hyndburn,mean_annual_wage,30264
+2022,E07000121,Lancaster,median_annual_wage,26246
+2022,E07000121,Lancaster,mean_annual_wage,28253
+2022,E07000122,Pendle,median_annual_wage,22575
+2022,E07000122,Pendle,mean_annual_wage,25481
+2022,E07000123,Preston,median_annual_wage,24416
+2022,E07000123,Preston,mean_annual_wage,26130
+2022,E07000124,Ribble Valley,median_annual_wage,27838
+2022,E07000124,Ribble Valley,mean_annual_wage,34439
+2022,E07000125,Rossendale,median_annual_wage,23671
+2022,E07000125,Rossendale,mean_annual_wage,28045
+2022,E07000126,South Ribble,median_annual_wage,25959
+2022,E07000126,South Ribble,mean_annual_wage,29305
+2022,E07000127,West Lancashire,median_annual_wage,26862
+2022,E07000127,West Lancashire,mean_annual_wage,33526
+2022,E07000128,Wyre,median_annual_wage,27011
+2022,E07000128,Wyre,mean_annual_wage,30915
+2022,E11000002,Merseyside Met County,median_annual_wage,26398
+2022,E11000002,Merseyside Met County,mean_annual_wage,29833
+2022,E08000011,Knowsley,median_annual_wage,25735
+2022,E08000011,Knowsley,mean_annual_wage,28817
+2022,E08000012,Liverpool,median_annual_wage,26303
+2022,E08000012,Liverpool,mean_annual_wage,29159
+2022,E08000013,St. Helens,median_annual_wage,27545
+2022,E08000013,St. Helens,mean_annual_wage,31954
+2022,E08000014,Sefton,median_annual_wage,24829
+2022,E08000014,Sefton,mean_annual_wage,28417
+2022,E08000015,Wirral,median_annual_wage,27509
+2022,E08000015,Wirral,mean_annual_wage,31182
+2022,E12000003,Yorkshire and The Humber,median_annual_wage,25952
+2022,E12000003,Yorkshire and The Humber,mean_annual_wage,30172
+2022,E06000011,East Riding of Yorkshire UA,median_annual_wage,28067
+2022,E06000011,East Riding of Yorkshire UA,mean_annual_wage,31118
+2022,E06000010,Kingston upon Hull UA,median_annual_wage,23350
+2022,E06000010,Kingston upon Hull UA,mean_annual_wage,24271
+2022,E06000012,North East Lincolnshire UA,median_annual_wage,24811
+2022,E06000012,North East Lincolnshire UA,mean_annual_wage,28683
+2022,E06000013,North Lincolnshire UA,median_annual_wage,25253
+2022,E06000013,North Lincolnshire UA,mean_annual_wage,29829
+2022,E06000014,York UA,median_annual_wage,27507
+2022,E06000014,York UA,mean_annual_wage,32222
+2022,E10000023,North Yorkshire,median_annual_wage,25806
+2022,E10000023,North Yorkshire,mean_annual_wage,30846
+2022,E07000163,Craven,median_annual_wage,22033
+2022,E07000163,Craven,mean_annual_wage,31720
+2022,E07000164,Hambleton,median_annual_wage,25205
+2022,E07000164,Hambleton,mean_annual_wage,30569
+2022,E07000165,Harrogate,median_annual_wage,27788
+2022,E07000165,Harrogate,mean_annual_wage,33547
+2022,E07000166,Richmondshire,median_annual_wage,26126
+2022,E07000166,Richmondshire,mean_annual_wage,28590
+2022,E07000167,Ryedale,median_annual_wage,23629
+2022,E07000167,Ryedale,mean_annual_wage,27499
+2022,E07000168,Scarborough,median_annual_wage,x
+2022,E07000168,Scarborough,mean_annual_wage,26385
+2022,E07000169,Selby,median_annual_wage,27842
+2022,E07000169,Selby,mean_annual_wage,32846
+2022,E11000003,South Yorkshire Met County,median_annual_wage,25233
+2022,E11000003,South Yorkshire Met County,mean_annual_wage,29234
+2022,E08000016,Barnsley,median_annual_wage,24835
+2022,E08000016,Barnsley,mean_annual_wage,27967
+2022,E08000017,Doncaster,median_annual_wage,25356
+2022,E08000017,Doncaster,mean_annual_wage,30401
+2022,E08000018,Rotherham,median_annual_wage,24246
+2022,E08000018,Rotherham,mean_annual_wage,27853
+2022,E08000019,Sheffield,median_annual_wage,25965
+2022,E08000019,Sheffield,mean_annual_wage,29920
+2022,E11000006,West Yorkshire Met County,median_annual_wage,26662
+2022,E11000006,West Yorkshire Met County,mean_annual_wage,31025
+2022,E08000032,Bradford,median_annual_wage,25299
+2022,E08000032,Bradford,mean_annual_wage,29812
+2022,E08000033,Calderdale,median_annual_wage,26136
+2022,E08000033,Calderdale,mean_annual_wage,29763
+2022,E08000034,Kirklees,median_annual_wage,26420
+2022,E08000034,Kirklees,mean_annual_wage,29308
+2022,E08000035,Leeds,median_annual_wage,28639
+2022,E08000035,Leeds,mean_annual_wage,34015
+2022,E08000036,Wakefield,median_annual_wage,24825
+2022,E08000036,Wakefield,mean_annual_wage,28743
