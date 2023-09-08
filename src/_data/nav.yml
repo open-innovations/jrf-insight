@@ -1,44 +1,5 @@
-- title: Places
-  children:
-    - title: The North
-      url: /place/E12999901/
-    - title: North East
-      url: /place/E12000001/
-    - title: North West
-      url: /place/E12000002/
-    - title: Yorkshire and The Humber
-      url: /place/E12000003/
-
-- title: Spotlights
-  children: 
-    - title: Economic Insecurity
-      url: /spotlight/economic_insecurity/
-    - title: Housing
-      url: /spotlight/housing/
-    # - title: Homelessness
-    #   url: /spotlight/homelessness/
-    # - title: Children
-    #   url: /spotlight/children/
-    # - title: Young People
-    #   url: /spotlight/young_people/
-    # - title: Work and Employment
-    #   url: /spotlight/work_and_employment/
-    # - title: Social Inclusion
-    #   url: /spotlight/social_inclusion/
-    - title: Health
-      url: /spotlight/health/
-    # - title: Older People
-    #   url: /spotlight/older_people/  
-
-- title: Themes
-  children:
-    - title: Care, Families & Relationships
-      url: /care-families-relationships/
-    - title: Work, Tech, Markets & Risk Sharing
-      url: ""
-    - title: Housing & Land
-      url: "/cities/"
-    - title: Destitution & Deep Poverty
-      url: ""
-    - title: Assets, Debt, Wealth & Ownership
-      url: ""
+places:
+  - E12999901
+  - E12000001
+  - E12000002
+  - E12000003

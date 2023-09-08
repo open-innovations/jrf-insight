@@ -8,31 +8,18 @@ const connection = db.connect();
  * SETUP DATA
  */
 connection.query(
-  "CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv')",
-);
-connection.query(
-  "CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv')",
-);
-connection.query(
-  "CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv')",
+  `
+  CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv');
+  CREATE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claimant-count/claimant-count.csv');
+  CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv');
+  CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
+  CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv');
+  CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
+  CREATE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv');
+  CREATE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv');
+  `
 );
 
-connection.query(
-  "CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv')",
-);
-
-connection.query(
-  "CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv')"
-)
-connection.query(
-  "CREATE TABLE happiness AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv')"
-)
-connection.query(
-  "CREATE TABLE anxiety AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv')"
-)
-connection.query(
-  "CREATE TABLE unemployment AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv')"
-)
 /*
  * ACCESS FUNCTIONS
  */
@@ -78,19 +65,31 @@ export const savingsInvestments = (place: string) =>
 );
 export const happiness = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM happiness WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Happiness') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
+    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Happiness') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
 );
 export const anxiety = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM anxiety WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Anxiety') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
+    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Anxiety') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
+);
+export const worthwhile = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Worthwhile') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
+);
+export const life_satisfaction = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Life satisfaction') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
 );
 export const unemployment = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM unemployment WHERE "geography_code"=='${place}' AND "variable_name"=='Unemployment rate - aged 16-64') ON "variable_name" USING AVG(value);`)
+    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='Unemployment rate - aged 16-64') ON "variable_name" USING AVG(value);`)
 );
 export const economic_inactivity = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM unemployment WHERE "geography_code"=='${place}' AND "variable_name"=='Economic activity rate - aged 16-64') ON "variable_name" USING AVG(value);`)
+    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='Economic activity rate - aged 16-64') ON "variable_name" USING AVG(value);`)
+);
+export const claimant = (place: string) =>
+  runQuery(
+    () => connection.query(`from claimants select value where geography_code=='${place}' and variable_name=='Claimants as a proportion of residents aged 16-64';`)
 );
 /**
  * Utility functions below

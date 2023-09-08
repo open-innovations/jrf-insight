@@ -13,12 +13,11 @@
         display: imd_average_score,
         description: 'IMD - average score'
         }) | safe }}
-
 {% endcomp %}
-
+{% set claimants = time_series.spotlight.economic_insecurity.claimant(geo) %}
+{{ claimants.rows | dump() }}
 {% comp 'layout.tab.set' %}
-
-{% set chart_data = time_series.spotlight.economic_insecurity.unemployment(geo) %}
+{% set chart_data = data.spotlight.economic_insecurity.time_series.unemployment(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Unemployment', id: 'unemployment' } %}
   <p style="text-align: center;">Rate of unemployment</p>
     {{ comp.oi.chart.line({

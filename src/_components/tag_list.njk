@@ -1,0 +1,32 @@
+---
+css: |
+  :root {
+    --tag-color: inherit;
+    --tag-background: inherit;
+    --tag-border: 1px solid currentcolor;
+    --tag-border-radius: 2em;
+    --tag-font-size: 1em;
+    --tag-spacing: 0.2em;
+    --tag-padding: 0.1em 1em;
+  }
+  ul.tag-list {
+    list-style: none;
+    display: flex;
+    gap: var(--tag-spacing);
+    flex-wrap: wrap;
+    font-size: var(--tag-font-size);
+  }
+  ul.tag-list li {
+    color: var(--tag-color);
+    border: var(--tag-border);
+    border-radius: var(--tag-border-radius);
+    background: var(--tag-background);
+    padding: var(--tag-padding);
+  }
+---
+
+<ul class="tag-list">
+  {% for v in values %}
+    <li>{{ v }}</li>
+  {% endfor %}
+</ul>

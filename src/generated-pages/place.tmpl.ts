@@ -10,20 +10,25 @@ interface PlaceGenOptions {
     list: Array<PlaceKey>;
     lookup: Record<PlaceKey, PlaceDetails>;
   };
+  nav: {
+    places: Array<PlaceKey>;
+  }
 }
 
 export const layout = "templates/place.njk";
 
 export const tags = ["place"];
 
-export default function* ({ places }: PlaceGenOptions) {
+export default function* ({ places, nav }: PlaceGenOptions) {
   for (const place of places.list) {
     const { key, name, type } = places.lookup[place];
+    const navOrder = nav.places.findIndex(x => x === key) + 1 || undefined;
     yield {
       url: `/place/${key}/`,
       key,
       title: name,
       type: type,
+      navOrder,
     };
   }
 }
