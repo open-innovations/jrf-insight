@@ -4,24 +4,29 @@ layout: ./page.njk
 
 <h2>Dimensions</h2>
 
-<table class='top-trump-table'>
+<table class="top-trump-table">
   <thead>
     <tr>
-      <th>Dimension</th>
-      <th>Total categories</th>
+      <th style="width:unset;">Dimension</th>
+      <th style="width:unset;">Levels</th>
     </tr>
   </thead>
 {% for d in dimensions %}
   <tr>
-    <td>{{ d.name }}</td>
-    <td>{{ d.values | length }}</td>
+    <td style="width:30%;">{{ d.name }}</td>
+    <td style="width:unset;font-size:0.7em;">
+    <div style="display:flex;align-items:baseline;gap:1em;">
+      <p>{{ d.values | length }}:</p>
+      {{ comp.tag_list({ values: d.values }) | safe }}
+    </div>
+    </td>
   </tr>
 {% endfor %}
 </table>
 
 <h2>Facts</h2>
 
-<table class='top-trump-table top-trump-invert'>
+<table class="top-trump-table top-trump-invert">
   <thead>
     <tr>
       <th>Fact</th>
