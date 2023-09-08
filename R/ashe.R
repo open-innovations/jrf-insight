@@ -7,9 +7,9 @@ ashe_file_8_7a <- "data-raw/ashe/ashetable82022provisional/PROV - Home Geography
 ashe_sheets <- readxl::excel_sheets(ashe_file_8_1a)
 # "All"
 
-geography_code_name_only <- read_csv("data/geo/geography_code_name_only.csv")
+geography_code_name_only <- readr::read_csv("data/geo/geography_code_name_only.csv")
 
-ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4) |>
+ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4, na = c("x", "..", ":", "-")) |>
   dplyr::mutate(date = "2022") |>
   dplyr::select(date,
                 geography_code = Code,
@@ -19,7 +19,7 @@ ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4) |>
   tidyr::pivot_longer(c(median_weekly_wage, mean_weekly_wage), names_to = "variable_name") |>
   dplyr::filter(geography_code %in% geography_code_name_only$code)
 
-ashe_8_7a <- readxl::read_excel(ashe_file_8_7a, sheet = "All", skip = 4) |>
+ashe_8_7a <- readxl::read_excel(ashe_file_8_7a, sheet = "All", skip = 4, na = c("x", "..", ":", "-")) |>
   dplyr::mutate(date = "2022") |>
   dplyr::select(date,
                 geography_code = Code,
