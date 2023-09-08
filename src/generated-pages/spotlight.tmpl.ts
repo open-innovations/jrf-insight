@@ -1,5 +1,7 @@
 export const layout = 'templates/spotlight.njk';
 
+export const tags = ['spotlight']
+
 type SpotlightData = {
   name: string;
   draft: boolean;
@@ -14,6 +16,9 @@ export default function* ({ spotlights, places }: {
     const { name } = spotlightData;
     yield {
       url: `/spotlight/${spotlight}/`,
+      tags: ['main'],
+      title: name,
+      spotlight: spotlight,
       layout: 'templates/redirect.njk',
       target: `/spotlight/${spotlight}/E12999901/`,
     };
