@@ -72,11 +72,12 @@ site.use(metas());
 site.use(postcss());
 site.use(svgo());
 site.use(esbuild());
-site.use(pagefind({
-  indexing: {
-    glob: "{index.html,spotlight/*/E12999901/index.html,place/**/*.html,metadata/**/*.html}",
-  }
-}));
+// site.use(pagefind({
+//   indexing: {
+//     // glob: "{index.html,spotlight/*/E12999901/index.html,place/**/*.html,metadata/**/*.html}",
+//     glob: "place/**/*.html",
+//   }
+// }));
 
 site.remoteFile(
   "/assets/images/jrf_logo.svg",
