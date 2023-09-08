@@ -2,45 +2,52 @@
 
 fuel_poverty_file <- "data-raw/fuel-poverty/sub-regional-fuel-poverty-2022-tables.xlsx"
 
-sheets <- readxl::excel_sheets(fuel_poverty_file)
-sheets <- sheets[grepl("Table [23]", sheets)]
+geography_code_name_only <- readr::read_csv("data/geo/geography_code_name_only.csv")
 
-fuel_poverty <- lapply(sheets, function(sht){
-  x <- readxl::read_excel(fuel_poverty_file, sheet = sht, skip = 2) |>
-    dplyr::filter(!is.na(`Number of households`))
+fuel_poverty <- readxl::read_excel(fuel_poverty_file, sheet = "Table 2", skip = 2) |>
+  dplyr::filter(!is.na(`Number of households`)) |>
+  dplyr::mutate(date = "2022") |>
+  dplyr::mutate(`Area names` = dplyr::coalesce(`Area names`, `...3`, `...4`)) |>
+  dplyr::mutate(`Proportion of households fuel poor (%)` =
+                  as.numeric(`Proportion of households fuel poor (%)`)) |>
+  dplyr::select(date,
+                geography_code = `Area Codes`,
+                geography_name = `Area names`,
+                `Number of households`,
+                `Number of households in fuel poverty`,
+                `Proportion of households fuel poor (%)`) |>
+  tidyr::pivot_longer(4:6, names_to = "variable_name") |>
+  dplyr::filter(geography_code %in% geography_code_name_only$code)
 
-  if (sht == "Table 2") {
-    x <- x |>
-      dplyr::mutate(`Area type` = dplyr::case_when(
-        !is.na(`Area names`) ~ "rgn",
-        !is.na(`...3`) ~ "cty",
-        !is.na(`...4`) ~ "lad"
-      ),
-      .before = `Number of households`) |>
-      dplyr::mutate(`Area names` = dplyr::coalesce(`Area names`, `...3`, `...4`)) |>
-      dplyr::select(-c(`...3`, `...4`)) |>
-      dplyr::mutate(`Proportion of households fuel poor (%)` =
-                      as.numeric(`Proportion of households fuel poor (%)`)) |>
-      dplyr::rename(geography_code = `Area Codes`,
-                    geography_name = `Area names`,
-                    geography_type = `Area type`)
-  }
+fuel_poverty_lsoa <- readxl::read_excel(fuel_poverty_file, sheet = "Table 3", skip = 2, guess_max = Inf) |>
+  dplyr::filter(!is.na(`Number of households`)) |>
+  dplyr::mutate(date = "2022") |>
+  dplyr::mutate(`Proportion of households fuel poor (%)` =
+                  as.numeric(`Proportion of households fuel poor (%)`)) |>
+  dplyr::select(date,
+                lsoa_code = `LSOA Code`,
+                `Number of households`,
+                `Number of households in fuel poverty`,
+                `Proportion of households fuel poor (%)`)
 
-  if (sht == "Table 3") {
-    x <- x |>
-      dplyr::select(-c(`LA Code`, `LA Name`, Region)) |>
-      dplyr::rename(geography_code = `LSOA Code`,
-                    geography_name = `LSOA Name`) |>
-      dplyr::mutate(geography_type = 'lsoa', .after = 'geography_name')
-  }
+LSOA11_WD21_LAD21_EW_LU_V2 <- readxl::read_excel("~/Data/Geodata/Lookups/LSOA11_WD21_LAD21_EW_LU_V2.xlsx") |>
+  dplyr::select(LSOA11CD, WD21CD, WD21NM) |>
+  dplyr::distinct()
 
-  x <- x |>
-    tidyr::pivot_longer(!dplyr::starts_with('geography'),
-                        names_to = "variable")
-  return(x)
-}) |>
-  setNames(c('rgn-la', 'lsoa')) |>
-  dplyr::bind_rows()
+fuel_poverty_ward <- dplyr::left_join(fuel_poverty_lsoa,
+                                      LSOA11_WD21_LAD21_EW_LU_V2,
+                                      by = c("lsoa_code" = "LSOA11CD")) |>
+  dplyr::group_by(date, WD21CD, WD21NM) |>
+  dplyr::summarise(`Number of households` = sum(`Number of households`),
+                   `Number of households in fuel poverty` = sum(`Number of households in fuel poverty`)) |>
+  dplyr::mutate(`Proportion of households fuel poor (%)` =
+                  `Number of households in fuel poverty` /
+                  `Number of households` * 100) |>
+  dplyr::rename(geography_code = WD21CD,
+                geography_name = WD21NM) |>
+  tidyr::pivot_longer(4:6, names_to = "variable_name") |>
+  dplyr::filter(geography_code %in% geography_code_name_only$code)
 
-# source(url('https://raw.githubusercontent.com/economic-analytics/edd/main/R/utils-df-to-edd_obj.R'))
+fuel_poverty_final <- dplyr::bind_rows(fuel_poverty, fuel_poverty_ward)
 
+readr::write_csv(fuel_poverty_final, "data/fuel-poverty/fuel-poverty.csv")
