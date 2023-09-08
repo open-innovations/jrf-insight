@@ -14,8 +14,8 @@ layout: ./page.njk
 {% for d in dimensions %}
   <tr>
     <td style="width:30%;">{{ d.name }}</td>
-    <td style="width:unset;font-size:0.7em;">
-    <div style="display:flex;align-items:baseline;gap:1em;">
+    <td style="width:unset;font-size:0.7em;max-height:10em;">
+    <div style="display:flex;align-items:baseline;gap:1em;max-height:10em;overflow-y:auto;">
       <p>{{ d.values | length }}:</p>
       {{ comp.tag_list({ values: d.values }) | safe }}
     </div>
