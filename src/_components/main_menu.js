@@ -5,6 +5,7 @@ export default function ({ search, comp }) {
   const items = [
     { title: 'Places', children: places },
     { title: 'Spotlights', children: spotlights },
+    { title: 'Data', url: '/metadata/' }
   ];
 
   return comp.menu({ items, classes: 'page-flow' })
