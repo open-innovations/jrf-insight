@@ -8,31 +8,17 @@ const connection = db.connect();
  * SETUP DATA
  */
 connection.query(
-  "CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv')",
+  `
+  CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv');
+  CREATE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claimant-count/claimant-count.csv');
+  CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv');
+  CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
+  CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv');
+  CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
+  CREATE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv');
+  CREATE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv');
+  `
 );
-connection.query(
-  "CREATE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claimant-count/claimant-count.csv')",
-);
-connection.query(
-  "CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv')",
-);
-connection.query(
-  "CREATE TABLE hbai AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv')",
-);
-
-connection.query(
-  "CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv')",
-);
-
-connection.query(
-  "CREATE TABLE savings AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv')"
-)
-connection.query(
-  "CREATE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv')"
-)
-connection.query(
-  "CREATE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv')"
-)
 
 /*
  * ACCESS FUNCTIONS
