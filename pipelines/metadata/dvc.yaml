@@ -1,0 +1,13 @@
+vars:
+  - top: '../..'
+stages:
+  prepare:
+    cmd: papermill prepare.ipynb output/prep-metadata.ipynb
+    deps:
+      - prepare.ipynb
+      - ${top}/data
+    outs:
+      - ${top}/src/_data/metadata/catalogue.json:
+          persist: false
+          cache: false
+
