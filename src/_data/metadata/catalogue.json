@@ -586,45 +586,61 @@
     "facts":[
       {
         "name":"mean_annual_wage",
-        "type":"object",
+        "type":"float64",
         "description":{
-          "count":83,
-          "unique":83,
-          "top":"25602",
-          "freq":1
+          "count":83.0,
+          "mean":29666.313253012,
+          "std":2501.5129710994,
+          "min":23410.0,
+          "25%":28255.5,
+          "50%":29763.0,
+          "75%":31012.0,
+          "max":35827.0
         },
         "na":0
       },
       {
         "name":"mean_weekly_wage",
-        "type":"object",
+        "type":"float64",
         "description":{
-          "count":83,
-          "unique":80,
-          "top":"554.29999999999995",
-          "freq":2
+          "count":83.0,
+          "mean":566.7301204819,
+          "std":42.620611454,
+          "min":440.3,
+          "25%":547.85,
+          "50%":560.9,
+          "75%":590.35,
+          "max":687.4
         },
         "na":0
       },
       {
         "name":"median_annual_wage",
-        "type":"object",
+        "type":"float64",
         "description":{
-          "count":83,
-          "unique":81,
-          "top":"x",
-          "freq":3
+          "count":80.0,
+          "mean":25841.0375,
+          "std":1677.7568014024,
+          "min":21771.0,
+          "25%":24821.5,
+          "50%":25897.0,
+          "75%":27009.5,
+          "max":30412.0
         },
-        "na":0
+        "na":3
       },
       {
         "name":"median_weekly_wage",
-        "type":"object",
+        "type":"float64",
         "description":{
-          "count":83,
-          "unique":76,
-          "top":"536.60000000000002",
-          "freq":2
+          "count":83.0,
+          "mean":498.9518072289,
+          "std":31.6503433552,
+          "min":407.4,
+          "25%":480.45,
+          "50%":495.6,
+          "75%":516.4,
+          "max":592.9
         },
         "na":0
       }
