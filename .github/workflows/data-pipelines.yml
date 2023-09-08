@@ -1,0 +1,46 @@
+name: Data Pipeline
+
+"on":
+  workflow_dispatch:
+  # schedule:
+    # * is a special character in YAML so you have to quote this string
+    # - cron: "30 23 * * *"
+  push:
+    paths:
+      - 'data/**'
+      - 'pipelines/**'
+      - '.github/workflows/data-pipelines.yml'
+
+
+jobs:
+  data-pipe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: pipenv
+
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+
+      - name: Install dependencies
+        run: pipenv sync
+
+      - name: Run DVC pipelines
+        env:
+          STATXPLORE_API_KEY: ${{ secrets.STATXPLORE_API_KEY }}
+
+        run: |
+          pipenv run dvc update -R data
+          pipenv run dvc repro -R pipelines/place/ pipelines/metadata/
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Data updates
+          file_pattern: data src
