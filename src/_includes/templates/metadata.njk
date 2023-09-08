@@ -31,12 +31,22 @@ layout: ./page.njk
     <tr>
       <th>Fact</th>
       <th>Type</th>
+      <th>Min</th>
+      <th>Mean</th>
+      <th>Max</th>
+      <th>Missing</th>
     </tr>
   </thead>
 {% for f in facts %}
-  <tr>
-    <td>{{ f.name }}</td>
-    <td>{{ f.type }}</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>{{ f.name }}</td>
+      <td>{{ f.type }}</td>
+      <td>{{ f.description.min | round(1) }}</td>
+      <td>{{ f.description.mean | round(1) }}</td>
+      <td>{{ f.description.max | round(1) }}</td>
+      <td>{{ f.na }}</td>
+    </tr>
+  </tbody>
 {% endfor %}
 </table>
