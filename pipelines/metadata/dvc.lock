@@ -3,10 +3,10 @@ stages:
   prepare:
     cmd: papermill prepare.ipynb output/prep-metadata.ipynb
     deps:
-    - path: ../../data
+    - path: ../../data/
       hash: md5
-      md5: 4eb2f576c51ca650de89dc4246c57bf1.dir
-      size: 54547332
+      md5: ba33a4943eda25be7fbb86dd554961a0.dir
+      size: 54547181
       nfiles: 482
     - path: prepare.ipynb
       hash: md5

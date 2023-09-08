@@ -5,7 +5,7 @@ stages:
     cmd: papermill prepare.ipynb output/prep-metadata.ipynb
     deps:
       - prepare.ipynb
-      - ${top}/data
+      - ${top}/data/
     outs:
       - ${top}/src/_data/metadata/catalogue.json:
           persist: false
