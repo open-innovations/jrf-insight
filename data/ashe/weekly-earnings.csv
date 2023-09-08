@@ -1,0 +1,167 @@
+date,geography_code,geography_name,variable_name,value
+2022,E12000001,North East,median_weekly_wage,490.60000000000002
+2022,E12000001,North East,mean_weekly_wage,553.79999999999995
+2022,E06000005,Darlington UA,median_weekly_wage,482.19999999999999
+2022,E06000005,Darlington UA,mean_weekly_wage,562.79999999999995
+2022,E06000001,Hartlepool UA,median_weekly_wage,498.30000000000001
+2022,E06000001,Hartlepool UA,mean_weekly_wage,522.70000000000005
+2022,E06000002,Middlesbrough UA,median_weekly_wage,454.5
+2022,E06000002,Middlesbrough UA,mean_weekly_wage,524.5
+2022,E06000003,Redcar and Cleveland UA,median_weekly_wage,440.69999999999999
+2022,E06000003,Redcar and Cleveland UA,mean_weekly_wage,507.39999999999998
+2022,E06000004,Stockton-on-Tees UA,median_weekly_wage,509.19999999999999
+2022,E06000004,Stockton-on-Tees UA,mean_weekly_wage,549.39999999999998
+2022,E06000047,County Durham UA,median_weekly_wage,489.19999999999999
+2022,E06000047,County Durham UA,mean_weekly_wage,556.60000000000002
+2022,E06000057,Northumberland UA,median_weekly_wage,488.69999999999999
+2022,E06000057,Northumberland UA,mean_weekly_wage,589.20000000000005
+2022,E11000007,Tyne and Wear Met County,median_weekly_wage,495.60000000000002
+2022,E11000007,Tyne and Wear Met County,mean_weekly_wage,552.89999999999998
+2022,E08000037,Gateshead,median_weekly_wage,494.89999999999998
+2022,E08000037,Gateshead,mean_weekly_wage,549.89999999999998
+2022,E08000021,Newcastle upon Tyne,median_weekly_wage,507.19999999999999
+2022,E08000021,Newcastle upon Tyne,mean_weekly_wage,588.20000000000005
+2022,E08000022,North Tyneside,median_weekly_wage,528.20000000000005
+2022,E08000022,North Tyneside,mean_weekly_wage,596.39999999999998
+2022,E08000023,South Tyneside,median_weekly_wage,497.69999999999999
+2022,E08000023,South Tyneside,mean_weekly_wage,536.89999999999998
+2022,E08000024,Sunderland,median_weekly_wage,461.19999999999999
+2022,E08000024,Sunderland,mean_weekly_wage,495.19999999999999
+2022,E12000002,North West,median_weekly_wage,504.5
+2022,E12000002,North West,mean_weekly_wage,579.20000000000005
+2022,E06000008,Blackburn with Darwen UA,median_weekly_wage,465.60000000000002
+2022,E06000008,Blackburn with Darwen UA,mean_weekly_wage,507.60000000000002
+2022,E06000009,Blackpool UA,median_weekly_wage,407.39999999999998
+2022,E06000009,Blackpool UA,mean_weekly_wage,440.30000000000001
+2022,E06000006,Halton UA,median_weekly_wage,486.80000000000001
+2022,E06000006,Halton UA,mean_weekly_wage,572.10000000000002
+2022,E06000007,Warrington UA,median_weekly_wage,536.20000000000005
+2022,E06000007,Warrington UA,mean_weekly_wage,615.39999999999998
+2022,E06000049,Cheshire East UA,median_weekly_wage,537.10000000000002
+2022,E06000049,Cheshire East UA,mean_weekly_wage,661.20000000000005
+2022,E06000050,Cheshire West and Chester,median_weekly_wage,526.89999999999998
+2022,E06000050,Cheshire West and Chester,mean_weekly_wage,617.10000000000002
+2022,E10000006,Cumbria,median_weekly_wage,511.69999999999999
+2022,E10000006,Cumbria,mean_weekly_wage,569.29999999999995
+2022,E07000026,Allerdale,median_weekly_wage,539
+2022,E07000026,Allerdale,mean_weekly_wage,611.39999999999998
+2022,E07000027,Barrow-in-Furness,median_weekly_wage,549.29999999999995
+2022,E07000027,Barrow-in-Furness,mean_weekly_wage,608.89999999999998
+2022,E07000028,Carlisle,median_weekly_wage,477.10000000000002
+2022,E07000028,Carlisle,mean_weekly_wage,503.60000000000002
+2022,E07000029,Copeland,median_weekly_wage,551.39999999999998
+2022,E07000029,Copeland,mean_weekly_wage,631.29999999999995
+2022,E07000030,Eden,median_weekly_wage,504.80000000000001
+2022,E07000030,Eden,mean_weekly_wage,547.89999999999998
+2022,E07000031,South Lakeland,median_weekly_wage,496.30000000000001
+2022,E07000031,South Lakeland,mean_weekly_wage,536.29999999999995
+2022,E11000001,Greater Manchester Met County,median_weekly_wage,507.30000000000001
+2022,E11000001,Greater Manchester Met County,mean_weekly_wage,583.70000000000005
+2022,E08000001,Bolton,median_weekly_wage,495.39999999999998
+2022,E08000001,Bolton,mean_weekly_wage,584.20000000000005
+2022,E08000002,Bury,median_weekly_wage,551.39999999999998
+2022,E08000002,Bury,mean_weekly_wage,614
+2022,E08000003,Manchester,median_weekly_wage,480.69999999999999
+2022,E08000003,Manchester,mean_weekly_wage,540.10000000000002
+2022,E08000004,Oldham,median_weekly_wage,495.60000000000002
+2022,E08000004,Oldham,mean_weekly_wage,556.70000000000005
+2022,E08000005,Rochdale,median_weekly_wage,472.30000000000001
+2022,E08000005,Rochdale,mean_weekly_wage,536.79999999999995
+2022,E08000006,Salford,median_weekly_wage,535.79999999999995
+2022,E08000006,Salford,mean_weekly_wage,591.20000000000005
+2022,E08000007,Stockport,median_weekly_wage,550
+2022,E08000007,Stockport,mean_weekly_wage,654.60000000000002
+2022,E08000008,Tameside,median_weekly_wage,489.10000000000002
+2022,E08000008,Tameside,mean_weekly_wage,550.20000000000005
+2022,E08000009,Trafford,median_weekly_wage,592.89999999999998
+2022,E08000009,Trafford,mean_weekly_wage,687.39999999999998
+2022,E08000010,Wigan,median_weekly_wage,499.89999999999998
+2022,E08000010,Wigan,mean_weekly_wage,559.60000000000002
+2022,E10000017,Lancashire,median_weekly_wage,487.39999999999998
+2022,E10000017,Lancashire,mean_weekly_wage,558.89999999999998
+2022,E07000117,Burnley,median_weekly_wage,464.10000000000002
+2022,E07000117,Burnley,mean_weekly_wage,520.60000000000002
+2022,E07000118,Chorley,median_weekly_wage,549.5
+2022,E07000118,Chorley,mean_weekly_wage,621.70000000000005
+2022,E07000119,Fylde,median_weekly_wage,525.20000000000005
+2022,E07000119,Fylde,mean_weekly_wage,593.79999999999995
+2022,E07000120,Hyndburn,median_weekly_wage,503.69999999999999
+2022,E07000120,Hyndburn,mean_weekly_wage,587.39999999999998
+2022,E07000121,Lancaster,median_weekly_wage,475.5
+2022,E07000121,Lancaster,mean_weekly_wage,518.20000000000005
+2022,E07000122,Pendle,median_weekly_wage,438.80000000000001
+2022,E07000122,Pendle,mean_weekly_wage,514.29999999999995
+2022,E07000123,Preston,median_weekly_wage,440.89999999999998
+2022,E07000123,Preston,mean_weekly_wage,523.10000000000002
+2022,E07000124,Ribble Valley,median_weekly_wage,537.29999999999995
+2022,E07000124,Ribble Valley,mean_weekly_wage,648.79999999999995
+2022,E07000125,Rossendale,median_weekly_wage,463
+2022,E07000125,Rossendale,mean_weekly_wage,545.10000000000002
+2022,E07000126,South Ribble,median_weekly_wage,484.5
+2022,E07000126,South Ribble,mean_weekly_wage,548.5
+2022,E07000127,West Lancashire,median_weekly_wage,491
+2022,E07000127,West Lancashire,mean_weekly_wage,559.39999999999998
+2022,E07000128,Wyre,median_weekly_wage,479.30000000000001
+2022,E07000128,Wyre,mean_weekly_wage,568.79999999999995
+2022,E11000002,Merseyside Met County,median_weekly_wage,511.89999999999998
+2022,E11000002,Merseyside Met County,mean_weekly_wage,574.29999999999995
+2022,E08000011,Knowsley,median_weekly_wage,519.29999999999995
+2022,E08000011,Knowsley,mean_weekly_wage,573.60000000000002
+2022,E08000012,Liverpool,median_weekly_wage,509.39999999999998
+2022,E08000012,Liverpool,mean_weekly_wage,568.89999999999998
+2022,E08000013,St. Helens,median_weekly_wage,547.89999999999998
+2022,E08000013,St. Helens,mean_weekly_wage,608.20000000000005
+2022,E08000014,Sefton,median_weekly_wage,480.19999999999999
+2022,E08000014,Sefton,mean_weekly_wage,550.5
+2022,E08000015,Wirral,median_weekly_wage,522
+2022,E08000015,Wirral,mean_weekly_wage,584.20000000000005
+2022,E12000003,Yorkshire and The Humber,median_weekly_wage,499.39999999999998
+2022,E12000003,Yorkshire and The Humber,mean_weekly_wage,567.89999999999998
+2022,E06000011,East Riding of Yorkshire UA,median_weekly_wage,535.79999999999995
+2022,E06000011,East Riding of Yorkshire UA,mean_weekly_wage,599.29999999999995
+2022,E06000010,Kingston upon Hull UA,median_weekly_wage,466.60000000000002
+2022,E06000010,Kingston upon Hull UA,mean_weekly_wage,489.69999999999999
+2022,E06000012,North East Lincolnshire UA,median_weekly_wage,492.69999999999999
+2022,E06000012,North East Lincolnshire UA,mean_weekly_wage,560.89999999999998
+2022,E06000013,North Lincolnshire UA,median_weekly_wage,511.89999999999998
+2022,E06000013,North Lincolnshire UA,mean_weekly_wage,589.5
+2022,E06000014,York UA,median_weekly_wage,505.19999999999999
+2022,E06000014,York UA,mean_weekly_wage,594.20000000000005
+2022,E10000023,North Yorkshire,median_weekly_wage,494.89999999999998
+2022,E10000023,North Yorkshire,mean_weekly_wage,580.10000000000002
+2022,E07000163,Craven,median_weekly_wage,470.80000000000001
+2022,E07000163,Craven,mean_weekly_wage,616.39999999999998
+2022,E07000164,Hambleton,median_weekly_wage,502.89999999999998
+2022,E07000164,Hambleton,mean_weekly_wage,573.10000000000002
+2022,E07000165,Harrogate,median_weekly_wage,536.60000000000002
+2022,E07000165,Harrogate,mean_weekly_wage,629.79999999999995
+2022,E07000166,Richmondshire,median_weekly_wage,487.60000000000002
+2022,E07000166,Richmondshire,mean_weekly_wage,548.79999999999995
+2022,E07000167,Ryedale,median_weekly_wage,421.60000000000002
+2022,E07000167,Ryedale,mean_weekly_wage,468.30000000000001
+2022,E07000168,Scarborough,median_weekly_wage,471.80000000000001
+2022,E07000168,Scarborough,mean_weekly_wage,512.5
+2022,E07000169,Selby,median_weekly_wage,535.89999999999998
+2022,E07000169,Selby,mean_weekly_wage,627.10000000000002
+2022,E11000003,South Yorkshire Met County,median_weekly_wage,488.69999999999999
+2022,E11000003,South Yorkshire Met County,mean_weekly_wage,553.79999999999995
+2022,E08000016,Barnsley,median_weekly_wage,493.5
+2022,E08000016,Barnsley,mean_weekly_wage,554.29999999999995
+2022,E08000017,Doncaster,median_weekly_wage,494.19999999999999
+2022,E08000017,Doncaster,mean_weekly_wage,554.29999999999995
+2022,E08000018,Rotherham,median_weekly_wage,476.19999999999999
+2022,E08000018,Rotherham,mean_weekly_wage,546.29999999999995
+2022,E08000019,Sheffield,median_weekly_wage,492.10000000000002
+2022,E08000019,Sheffield,mean_weekly_wage,557
+2022,E11000006,West Yorkshire Met County,median_weekly_wage,504.30000000000001
+2022,E11000006,West Yorkshire Met County,mean_weekly_wage,573.20000000000005
+2022,E08000032,Bradford,median_weekly_wage,476.89999999999998
+2022,E08000032,Bradford,mean_weekly_wage,547.79999999999995
+2022,E08000033,Calderdale,median_weekly_wage,494.39999999999998
+2022,E08000033,Calderdale,mean_weekly_wage,563.10000000000002
+2022,E08000034,Kirklees,median_weekly_wage,513.5
+2022,E08000034,Kirklees,mean_weekly_wage,554
+2022,E08000035,Leeds,median_weekly_wage,536.60000000000002
+2022,E08000035,Leeds,mean_weekly_wage,608.10000000000002
+2022,E08000036,Wakefield,median_weekly_wage,475.30000000000001
+2022,E08000036,Wakefield,mean_weekly_wage,554.79999999999995
