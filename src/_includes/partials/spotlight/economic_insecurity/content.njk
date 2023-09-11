@@ -1,8 +1,44 @@
 {% set savings = this_place_data['households_low_income_no_savings'] %}
 {% set imd_average_score = this_place_data['imd_average_score'] %}
+{% set claimants = this_place_data['Claimants as a proportion of residents aged 16-64'] %}
+{% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
+{% set mean_weekly_wage = this_place_data['mean_weekly_wage'] %}
 {% set geo = geography %}
 
-{% comp 'layout.stack' %}
+{{ top_trump_table(
+  name="spotlight statistics",
+  style="top-trump-table top-trump-invert",
+  columns= [
+      {
+        name: 'Low income households with no savings or investments', 
+        data: savings, 
+        simple_data: null
+      },
+      {
+        name: 'IMD average score', 
+        data: imd_average_score, 
+        simple_data: null
+      },
+      {
+        name: 'Claimants as a proportion of residents aged 16-64 (UC & JSA)', 
+        data: claimants, 
+        simple_data: null
+      },
+      {
+        name: 'Mean weekly wage (£)', 
+        data: mean_weekly_wage, 
+        simple_data: null
+      },
+      {
+        name: 'Median weekly wage (£)', 
+        data: median_weekly_wage, 
+        simple_data: null
+      }
+      ]
+  ) 
+}}
+
+{# {% comp 'layout.two_column' %}
     {{ comp.info.headline({
         number: savings,
         display: savings,
@@ -13,9 +49,13 @@
         display: imd_average_score,
         description: 'IMD - average score'
         }) | safe }}
-{% endcomp %}
-{% set claimants = time_series.spotlight.economic_insecurity.claimant(geo) %}
-{{ claimants.rows | dump() }}
+    {{ comp.info.headline({
+        number: claimants,
+        display: claimants,
+        description: 'Claimants as a percentage of residents aged 16-64 (JSA and UC)'
+        }) | safe }}
+{% endcomp %} #}
+
 {% comp 'layout.tab.set' %}
 {% set chart_data = data.spotlight.economic_insecurity.time_series.unemployment(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Unemployment', id: 'unemployment' } %}
