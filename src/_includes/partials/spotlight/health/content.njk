@@ -7,7 +7,7 @@
 
 {% comp 'layout.tab.set' %}
 
-{% set chart_data = time_series.spotlight.health.free_school_meals(geo) %}
+{% set chart_data = data.spotlight.health.time_series.freeSchoolMeals(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
   <p style="text-align: center;">Free school meals</p>
     {{ comp.oi.chart.line({
@@ -118,7 +118,7 @@
     </p>
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.health.happiness(geo) %}
+{% set chart_data = data.spotlight.health.time_series.happiness(geo) %}
 {{ chart_data }}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Happiness', id: 'happiness' } %}
   <p style="text-align: center;">Happiness</p>
@@ -210,7 +210,7 @@
     </p>
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.health.worthwhile(geo) %}
+{% set chart_data = data.spotlight.health.time_series.worthwhile(geo) %}
 {{ chart_data }}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Worthwhile', id: 'worthwhile' } %}
   <p style="text-align: center;">Worthwhile</p>
@@ -302,7 +302,7 @@
     </p>
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.health.life_satisfaction(geo) %}
+{% set chart_data = data.spotlight.health.time_series.life_satisfaction(geo) %}
 {{ chart_data }}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Life satisfaction', id: 'life-satisfaction' } %}
   <p style="text-align: center;">Life satisfaction</p>
@@ -394,7 +394,7 @@
     </p>
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.health.anxiety(geo) %}
+{% set chart_data = data.spotlight.health.time_series.anxiety(geo) %}
 {{ chart_data }}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Anxiety', id: 'anxiety' } %}
   <p style="text-align: center;">Anxiety</p>

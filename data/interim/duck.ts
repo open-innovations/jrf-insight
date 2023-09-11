@@ -25,26 +25,26 @@ connection.query(
  */
 export const getRentalPrices = () =>
   runQuery(
-    () => connection.query("SELECT * FROM current_rental_prices"),
+    () => connection.query("SELECT * FROM current_rental_prices;"),
   );
 
 export const getCurrentRentalPricesForPlace = (place: string) =>
   runQuery(
     () =>
       connection.query(
-        `SELECT property_code, ${place} FROM current_rental_prices`,
+        `SELECT property_code, ${place} FROM current_rental_prices;`,
       ),
   );
 
 export const getHousePrices = () =>
   runQuery(
-    () => connection.query("SELECT * FROM house_prices").map(formatDate),
+    () => connection.query("SELECT * FROM house_prices;").map(formatDate),
   );
 
 export const getHousePricesForPlace = (place: string) =>
   runQuery(
     () =>
-      connection.query(`SELECT date, ${place} FROM house_prices`).map(
+      connection.query(`SELECT date, ${place} FROM house_prices;`).map(
         formatDate,
       ),
   );
