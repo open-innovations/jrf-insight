@@ -11,3 +11,5 @@ __pycache__/
 *.heapprofile
 
 _bin/
+
+deno.lock
