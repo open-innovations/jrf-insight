@@ -85,7 +85,7 @@ export const unemployment = (place: string) =>
 );
 export const economic_inactivity = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='Economic activity rate - aged 16-64') ON "variable_name" USING AVG(value);`)
+    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='% who are economically inactive - aged 16-64') ON "variable_name" USING AVG(value);`)
 );
 export const claimant = (place: string) =>
   runQuery(

@@ -3,6 +3,7 @@
 {% set claimants = this_place_data['Claimants as a proportion of residents aged 16-64'] %}
 {% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
 {% set mean_weekly_wage = this_place_data['mean_weekly_wage'] %}
+{% set fuel_poverty = this_place_data['Proportion of households fuel poor (%)'] %}
 {% set geo = geography %}
 
 {{ top_trump_table(
@@ -128,17 +129,17 @@
               show: true
             },
             tick: {
-              spacing: 20
+              spacing: 10
             },
             min: 0,
-            max: 100
+            max: 40
           }
         },
         series: [
           {
-            title: "Economic activity rate - aged 16-64",
+            title: "% who are economically inactive - aged 16-64",
             x: "date",
-            y: "Economic activity rate - aged 16-64",
+            y: "% who are economically inactive - aged 16-64",
             line: {
               "stroke-dasharray": "5 10"
             },
