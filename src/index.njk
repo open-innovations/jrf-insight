@@ -1,43 +1,70 @@
 ---
-title: Data Insight Example
+title: Home
 key: E12999901
 ---
 <p>
-  This is a prototype of the Insight Finder site created by <a href="https://www.jrf.org.uk/">The Joseph Rowntree Foundation</a>
+  Welcome to the {{ metas.site }}.
+  This is prototype site brings together poverty-related data across the North of England
+  with an aim of putting actionable insignt into the hands of practitioners.
+</p>
+
+<h2>What you will find on this site</h2>
+
+{% comp 'grid.masonry', { style: "--masonry-brick-size:12em;" } %}
+
+{% comp 'link.block_link', { href: "/place/", style: "--normal-color:white;--normal-background:var(--jrf-purple);" } %}
+{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
+  <div class="big-number">{{ places.list | length }} places</div>
+  <p>profiling key information about a place</p>
+{% endcomp %}
+{% endcomp %}
+
+{% comp 'link.block_link', { href: "/spotlight/", style: "--normal-color:white;--normal-background:var(--jrf-strong-pink);" } %}
+{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
+  <div class="big-number">{{ search.pages("spotlight main") | length }} spotlights</div>
+  <p>shedding light on a poverty-related topic</p>
+{% endcomp %}
+{% endcomp %}
+
+
+{% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-moderate-cyan);" } %}
+{% comp 'grid.block', { style: "text-align:center;" } %}
+  <div class="big-number">{{ metadata.catalogue | length }} datasets</div>
+  <p> cataloguing the sources of the data shown on the site</p>
+{% endcomp %}
+{% endcomp %}
+
+{% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-green);" } %}
+{% comp 'grid.block', { style: "text-align:center;" } %}
+  <p>Latest data updated on</p>
+  <div class="big-number">{{ site.timestamp.data | date('HUMAN_DATE') }}</div>
+  <p>{{ site.timestamp.data | date('TIME') }}</p>
+{% endcomp %}
+{% endcomp %}
+
+{% endcomp %}
+
+<h2>Search bar</h2>
+<p>Use the input below to search for content from across the site. The site knows about places in the North of England (to ward level) and poverty related data.</p>
+<div id="search"></div>
+
+
+<h2>About this site</h2>
+
+<p>
+  This is a prototype was created <a href="https://www.jrf.org.uk/">The Joseph Rowntree Foundation</a>
   and <a href="https://open-innovations.org/">Open Innovations</a>.
   Please see the <a href="//open-innovations.org/projects/jrf/north-insight-finder/">Open Innovations project page</a> for more info.
 </p>
 
-<h2>Search bar</h2>
 
-<div id="search"></div>
-
-<h2>Intro text</h2>
+{% if false %}
 
 <h2>General headlines and top-level region visualisations</h2>
 
 <p>
 Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK Poverty report</a>.
 </p>
-{# {{ comp.oi.map.zoomable({
-        config: {
-          data: [{
-            code: null,
-            name: "The North",
-            colour: '#3EB1C8'
-          }],
-          geojson: {
-            key: RGN21NM,
-            data: geojson.the_north
-          },
-          key: name,
-          tooltip: name,
-          value: 1000
-        }
-    }
-  ) | safe }} #}
-
-{# {% set place_data = search.page('place key=' + key) %} #}
 {{ comp.oi.map.zoomable({
         config: {
           data: query.getPlaceData(place[key].relations.children),
@@ -71,25 +98,4 @@ Maybe drawn from <a href="https://www.jrf.org.uk/report/uk-poverty-2023">JRF UK 
     }
   ) | safe }}
 
-
-{# <h2> Number of people in Low Income* in {{example.stats.latest_date | replace("(covid2122, div)", '') }}</h2>
-<div>
-{{ comp.oi.dashboard({
-  config: {
-    title: "Type of Individual by Age Category",
-    value: "Count",
-    width: 100px,
-    data: example.dashboard.rows,
-    panels: [
-      { name: "Child",
-        colour: "#13242F" },
-      { name: "Working-Age",
-        colour: "#ce0058" },
-      { name: "Pensioner", 
-        colour: "#3EB1C8" } 
-    ]
-  }
-  }) | safe
-}}
-</div>
-<p> *Below 60 per cent of median net household income (BHC) in latest prices</p> #}
+{% endif %}

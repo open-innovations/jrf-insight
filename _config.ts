@@ -3,8 +3,10 @@ import lume from "lume/mod.ts";
 import esbuild from "lume/plugins/esbuild.ts";
 // import base_path from "lume/plugins/base_path.ts";
 import base_path from "./patch/lume/base_path.ts";
+import date from "lume/plugins/date.ts";
 // import inline from "lume/plugins/inline.ts";
-import pagefind from "lume/plugins/pagefind.ts";
+// import pagefind from "lume/plugins/pagefind.ts";
+import pagefind from "./patch/lume/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 // import metas from "lume/plugins/metas.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.1/loaders/csv-loader.ts";
@@ -13,7 +15,6 @@ import svgo from "lume/plugins/svgo.ts";
 import metas from "./patch/lume/metas.ts";
 // import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import autoDependency from "./patch/auto-dependency.ts";
-
 
 const site = lume({
   src: "./src",
@@ -67,17 +68,17 @@ site.use(oiViz({
 }));
 // TODO make this more efficient:
 // site.use(inline());
+site.use(date());
 site.use(base_path());
 site.use(metas());
 site.use(postcss());
 site.use(svgo());
 site.use(esbuild());
-// site.use(pagefind({
-//   indexing: {
-//     // glob: "{index.html,spotlight/*/E12999901/index.html,place/**/*.html,metadata/**/*.html}",
-//     glob: "place/**/*.html",
-//   }
-// }));
+site.use(pagefind({
+  indexing: {
+    glob: "{index.html,spotlight/*/E12999901/index.html,place/**/*.html,metadata/**/*.html}",
+  }
+}));
 
 site.remoteFile(
   "/assets/images/jrf_logo.svg",

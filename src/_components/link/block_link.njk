@@ -1,0 +1,20 @@
+---
+css: |
+  .block-link {
+    display: block;
+    height: auto;
+    text-decoration: none;
+    --normal-color: white;
+    --normal-background: gray;
+    --highlight-color: white;
+    --highlight-background: black;
+    color: var(--normal-color);
+    background: var(--normal-background);
+    &:hover {
+      text-decoration: underline;
+      color: var(--highlight-color);
+      background: var(--highlight-background);
+    }
+  }
+---
+<a class="block-link" href="{{ href }}" style="{{ style }}">{{ content | safe }}</a>

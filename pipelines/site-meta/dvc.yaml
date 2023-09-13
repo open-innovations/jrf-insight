@@ -1,0 +1,5 @@
+stages:
+  data-updated:
+    cmd: python timestamp.py ../../src/_data/site/timestamp/data.yml
+    deps:
+      - ../../data/interim

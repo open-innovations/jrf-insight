@@ -2,9 +2,10 @@
 css: |
   .grid-block {
     padding: 1em;
-    background: #aaa;
+    color: var(--color, inherit);
+    background: var(--background, inherit);
   }
 ---
-<div class="grid-block {{ classes }}">
+<div class="grid-block {{ classes }}" style="{{ style }}">
   {{- content | safe -}}
 </div>

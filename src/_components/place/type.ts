@@ -13,7 +13,7 @@ const types: Record<string, string> = {
   E47: 'Combined Authority'
 }
 
-export default function({ id}: { id: string }) {
+export default function({ id }: { id: string }) {
   const prefix = id.slice(0, 3);
   if (prefix === 'E12' && id.slice(3, 7) === '9999') return 'Pan-region';
   return types[prefix] || `${prefix} Unknown`;

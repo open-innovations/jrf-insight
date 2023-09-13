@@ -1,0 +1,15 @@
+---
+title: Spotlight Index
+url: /spotlight/
+---
+
+{% comp 'grid.auto' %}
+{% for page in search.pages("spotlight main", "title") %}
+  {% comp "link.block_link", { href: page.url, style: "--normal-background:var(--jrf-strong-pink);" } %}
+  {% comp 'grid.block' %}
+  <h2>{{ page.title }}</h2>
+  <p>{{ page.description }}</p>
+  {% endcomp %}
+  {% endcomp %}
+{% endfor %}
+{% endcomp %}
