@@ -106,7 +106,7 @@
   }}
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.economic_insecurity.economic_inactivity(geo) %}
+{% set chart_data = data.spotlight.economic_insecurity.time_series.economic_inactivity(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Economic Inactivity', id: 'economic-inactivity' } %}
   <p style="text-align: center;">Rate of economic inactivity</p>
     {{ comp.oi.chart.line({
@@ -154,7 +154,7 @@
   }}
   {% endcomp %}{% endif %}
 
-{% set chart_data = time_series.spotlight.economic_insecurity.savings_investments(geo) %}
+{% set chart_data = data.spotlight.economic_insecurity.time_series.savings_investments(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
   <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
     {{ comp.oi.chart.line({
