@@ -33,8 +33,8 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 2d07374c19ff6deef48f1a4efd8f7a83
-      size: 101260
+      md5: 5147f4c2aaaa78486f7f76e345f7aaa7
+      size: 101505
     outs:
     - path: ../../data/interim/current_rental_prices.csv
       hash: md5
