@@ -18,54 +18,65 @@ stages:
       nfiles: 9
     - path: pipelines/statxplore/utils.py
       hash: md5
-      md5: fece339f296186e0bc51b57522010a19
-      size: 12007
+      md5: 5a56c580c4985f7011ec92f7bbec22ab
+      size: 12337
     outs:
     - path: data/HB/claimants.csv
       hash: md5
       md5: 9257200c933aea270ca87a3c9d9f9454
       size: 3766189
+      isexec: true
     - path: data/clif/clif_ABS.csv
       hash: md5
       md5: 77ec46fe27de7f7bcc6f5e76c3618812
       size: 5367510
+      isexec: true
     - path: data/clif/clif_REL.csv
       hash: md5
       md5: 316de9b77ab78697531e257e1b4796e0
       size: 5373056
+      isexec: true
     - path: data/hbai/Age of the Youngest Child in the Family of the Individual.csv
       hash: md5
       md5: 16d341f4ba042827b887e0e10893234e
       size: 66604
+      isexec: true
     - path: data/hbai/Ethnic Group of the Head of the Household (please calculate
         three-year averages - click on i for the correct method).csv
       hash: md5
       md5: 205736b9aafd8d0899d9a475b2452c96
       size: 92164
+      isexec: true
     - path: data/hbai/Number of Children in the Family of the Individual.csv
       hash: md5
       md5: b0fe2eb018129a3daeb27ed5f9abd2f0
       size: 55248
+      isexec: true
     - path: data/hbai/Savings and Investments of Adults in the Family of the Individual.csv
       hash: md5
       md5: 527f93156a617685dee55361ee00034c
       size: 126397
+      isexec: true
     - path: data/hbai/Tenure Type of the Household of the Individual.csv
       hash: md5
       md5: 7820919108a895b6c9a2cd54b40ae7ed
       size: 48635
+      isexec: true
     - path: data/hbai/Type of Individual by Age Category.csv
       hash: md5
       md5: a3463d28a353a73e89de5a507489e9fc
       size: 38920
+      isexec: true
     - path: data/smi/smi_in_payment_amount.csv
       hash: md5
       md5: 2ff667c2110aa862a738aa5db395ed64
       size: 3721
+      isexec: true
     - path: data/smi/smi_loans_in_payment_households.csv
       hash: md5
       md5: 9c67380f3fa50de53598327efcbdb660
       size: 3609
+      isexec: true
   probe:
     cmd: PYTHONPATH= python pipelines/statxplore/probe.py
     deps:
