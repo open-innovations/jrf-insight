@@ -4,6 +4,7 @@ export const tags = ['spotlight']
 
 type SpotlightData = {
   name: string;
+  description?: string;
   draft: boolean;
 }
 
@@ -13,12 +14,13 @@ export default function* ({ spotlights, places }: {
 }) {
   for (const [spotlight, spotlightData] of Object.entries(spotlights)) {
     if (spotlightData.draft === true) continue;
-    const { name } = spotlightData;
+    const { name, description } = spotlightData;
     yield {
       url: `/spotlight/${spotlight}/`,
       tags: ['main'],
       title: name,
       spotlight: spotlight,
+      description: description,
       layout: 'templates/redirect.njk',
       target: `/spotlight/${spotlight}/E12999901/`,
     };

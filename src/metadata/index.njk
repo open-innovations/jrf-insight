@@ -2,11 +2,12 @@
 title: Metadata index
 ---
 
-{% for group in search.values("group", "metadata") | sort %}
-  <h2>Group {{ group }}</h2>
-  <ul>
-  {% for page in search.pages('metadata group='+group, 'id') %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
-  </ul>
-{% endfor%}
+{% comp 'grid.masonry' %}
+{% for page in search.pages('metadata', 'id') %}
+  {% comp 'link.block_link', { href: page.url } %}
+  {% comp 'grid.block' %}
+  <p>{{ page.title | replace('-', ' ') }}</p>
+  {% endcomp %}
+  {% endcomp %}
+{% endfor %}
+{% endcomp %}
