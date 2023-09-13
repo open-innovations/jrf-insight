@@ -7,6 +7,9 @@ from statxplore import http_session
 from statxplore import objects
 
 STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
+if STATXPLORE_API_KEY == None:
+  raise Exception('Please set the STATEXPORE_API_KEY')
+
 JSONDIR = 'pipelines/statxplore/json/'
 session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
 

@@ -23,7 +23,7 @@ stages:
   #         cache: false
   #         persist: false
   extract:
-    cmd: PYTHONPATH= python pipelines/statxplore/extract.py
+    cmd: python pipelines/statxplore/extract.py
     wdir: ../..
     deps:
       - pipelines/statxplore/extract.py
@@ -31,9 +31,36 @@ stages:
       - pipelines/statxplore/json/data
       - data/geo/geography_lookup.csv
     outs: 
-      - data/hbai:
+      - data/hbai/Age of the Youngest Child in the Family of the Individual.csv:
           cache: false
           persist: false
-      - data/clif:
+      - data/hbai/Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method).csv:
+          cache: false
+          persist: false
+      - data/hbai/Number of Children in the Family of the Individual.csv:
+          cache: false
+          persist: false
+      - data/hbai/Savings and Investments of Adults in the Family of the Individual.csv:
+          cache: false
+          persist: false
+      - data/hbai/Tenure Type of the Household of the Individual.csv:
+          cache: false
+          persist: false
+      - data/hbai/Type of Individual by Age Category.csv:
+          cache: false
+          persist: false
+      - data/clif/clif_ABS.csv:
+          cache: false
+          persist: false
+      - data/clif/clif_REL.csv:
+          cache: false
+          persist: false
+      - data/smi/smi_in_payment_amount.csv:
+          cache: false
+          persist: false
+      - data/smi/smi_loans_in_payment_households.csv:
+          cache: false
+          persist: false
+      - data/HB/claimants.csv:
           cache: false
           persist: false

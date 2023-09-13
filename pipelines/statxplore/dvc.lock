@@ -1,7 +1,7 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: PYTHONPATH= python pipelines/statxplore/extract.py
+    cmd: python pipelines/statxplore/extract.py
     deps:
     - path: data/geo/geography_lookup.csv
       hash: md5
@@ -18,19 +18,54 @@ stages:
       nfiles: 9
     - path: pipelines/statxplore/utils.py
       hash: md5
-      md5: d993daa6d26ce8e795fb62aafb20f554
-      size: 11920
+      md5: fece339f296186e0bc51b57522010a19
+      size: 12007
     outs:
-    - path: data/clif
+    - path: data/HB/claimants.csv
       hash: md5
-      md5: d6216316f9a929f295c48728376a4828.dir
-      size: 10740566
-      nfiles: 2
-    - path: data/hbai
+      md5: 9257200c933aea270ca87a3c9d9f9454
+      size: 3766189
+    - path: data/clif/clif_ABS.csv
       hash: md5
-      md5: 7f7420bc5c57a5fae9220c3b9cfc0b16.dir
-      size: 427968
-      nfiles: 6
+      md5: 77ec46fe27de7f7bcc6f5e76c3618812
+      size: 5367510
+    - path: data/clif/clif_REL.csv
+      hash: md5
+      md5: 316de9b77ab78697531e257e1b4796e0
+      size: 5373056
+    - path: data/hbai/Age of the Youngest Child in the Family of the Individual.csv
+      hash: md5
+      md5: 16d341f4ba042827b887e0e10893234e
+      size: 66604
+    - path: data/hbai/Ethnic Group of the Head of the Household (please calculate
+        three-year averages - click on i for the correct method).csv
+      hash: md5
+      md5: 205736b9aafd8d0899d9a475b2452c96
+      size: 92164
+    - path: data/hbai/Number of Children in the Family of the Individual.csv
+      hash: md5
+      md5: b0fe2eb018129a3daeb27ed5f9abd2f0
+      size: 55248
+    - path: data/hbai/Savings and Investments of Adults in the Family of the Individual.csv
+      hash: md5
+      md5: 527f93156a617685dee55361ee00034c
+      size: 126397
+    - path: data/hbai/Tenure Type of the Household of the Individual.csv
+      hash: md5
+      md5: 7820919108a895b6c9a2cd54b40ae7ed
+      size: 48635
+    - path: data/hbai/Type of Individual by Age Category.csv
+      hash: md5
+      md5: a3463d28a353a73e89de5a507489e9fc
+      size: 38920
+    - path: data/smi/smi_in_payment_amount.csv
+      hash: md5
+      md5: 2ff667c2110aa862a738aa5db395ed64
+      size: 3721
+    - path: data/smi/smi_loans_in_payment_households.csv
+      hash: md5
+      md5: 9c67380f3fa50de53598327efcbdb660
+      size: 3609
   probe:
     cmd: PYTHONPATH= python pipelines/statxplore/probe.py
     deps:
