@@ -110,5 +110,6 @@ site.filter(
 );
 
 site.filter("values", (o) => Object.values(o));
+site.filter("pick", (list, keys) => keys.map(i => list[i] || null))
 
 export default site;

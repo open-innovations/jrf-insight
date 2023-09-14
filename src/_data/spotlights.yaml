@@ -6,15 +6,16 @@ economic_insecurity:
     This spotlight explores poverty through the lens of economic markers.
   infographics:
     people-in-deprived-places:
-      title: x% of people in this area live in the most deprived places
-    percentage_benefits_claimants:
-      title: UC / JSA Claimants as a proportion of residents
+      description: x% of people in this area live in the most deprived places
+      background: var(--jrf-moderate-cyan)
+    percentage-benefits-claimants:
+      description: UC / JSA Claimants as a proportion of residents
     item_three:
-      title: ???
+      description: ???
     item_four:
-      title: ???
+      description: ???
     item_five:
-      title: ???
+      description: ???
 
 housing:
   name: Housing
