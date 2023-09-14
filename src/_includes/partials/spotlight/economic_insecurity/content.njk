@@ -40,7 +40,10 @@
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-
+{% set chart_data = dataset
+  .fuel_poverty
+  .get_fuel_poverty_for_place(geography) %}
+<pre style="font-size: 0.7em;">{{ chart_data | dump(2) }}</pre>
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
