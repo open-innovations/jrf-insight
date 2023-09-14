@@ -12,13 +12,6 @@ key: E12999901
 
 {% comp 'grid.masonry', { style: "--masonry-brick-size:12em;" } %}
 
-{% comp 'link.block_link', { href: "/place/", style: "--normal-color:white;--normal-background:var(--jrf-purple);" } %}
-{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
-  <div class="big-number">{{ places.list | length }} places</div>
-  <p>profiling key information about a place</p>
-{% endcomp %}
-{% endcomp %}
-
 {% comp 'link.block_link', { href: "/spotlight/", style: "--normal-color:white;--normal-background:var(--jrf-strong-pink);" } %}
 {% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
   <div class="big-number">{{ search.pages("spotlight main") | length }} spotlights</div>
@@ -26,6 +19,12 @@ key: E12999901
 {% endcomp %}
 {% endcomp %}
 
+{% comp 'link.block_link', { href: "/place/", style: "--normal-color:white;--normal-background:var(--jrf-purple);" } %}
+{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
+  <div class="big-number">{{ places.list | length }} places</div>
+  <p>profiling key information about a place</p>
+{% endcomp %}
+{% endcomp %}
 
 {% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-moderate-cyan);" } %}
 {% comp 'grid.block', { style: "text-align:center;" } %}
