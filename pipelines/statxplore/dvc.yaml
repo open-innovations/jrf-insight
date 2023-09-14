@@ -32,7 +32,7 @@ stages:
     wdir: ../..
     deps:
       - pipelines/statxplore/extract.py
-      - pipelines/statxplore/utils.py
+      - pipelines/statxplore/api.py
       - pipelines/statxplore/json/data
       - data/geo/geography_lookup.csv
     outs: 

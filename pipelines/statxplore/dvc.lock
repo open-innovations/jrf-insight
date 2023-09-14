@@ -7,6 +7,10 @@ stages:
       hash: md5
       md5: b60b26cdf24ceeeb602e765dc700cf97
       size: 197974
+    - path: pipelines/statxplore/api.py
+      hash: md5
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
     - path: pipelines/statxplore/extract.py
       hash: md5
       md5: 7fcb112ffc876814fffa83311e5437c0
@@ -16,10 +20,6 @@ stages:
       md5: 2599316234adc9721270cac969790f1e.dir
       size: 702214
       nfiles: 8
-    - path: pipelines/statxplore/utils.py
-      hash: md5
-      md5: 2f221d5823d34fdee79a2f3146c2675e
-      size: 11903
     outs:
     - path: data/HB/claimants.csv
       hash: md5
@@ -41,44 +41,6 @@ stages:
       hash: md5
       md5: 9c67380f3fa50de53598327efcbdb660
       size: 3609
-  probe:
-    cmd: PYTHONPATH= python pipelines/statxplore/probe.py
-    deps:
-    - path: pipelines/statxplore/probe.py
-      hash: md5
-      md5: 249162b3e57ab628456b4ed549239105
-      size: 1157
-    - path: pipelines/statxplore/utils.py
-      hash: md5
-      md5: 48f06f142dbaf83397c16dbf007376fc
-      size: 12247
-    outs:
-    - path: data/lookups
-      md5: 58372dbb6994acbf262b651c7bcfa744.dir
-      size: 167521
-      nfiles: 324
-  describe:
-    cmd: PYTHONPATH= python pipelines/statxplore/describe.py
-    deps:
-    - path: data/lookups
-      hash: md5
-      md5: 07631856ad5646ef2bd02734e2fcfbae.dir
-      size: 272897
-      nfiles: 431
-    - path: pipelines/statxplore/describe.py
-      hash: md5
-      md5: f8358e1cd28f95a712f71547d034ce05
-      size: 3918
-    - path: pipelines/statxplore/utils.py
-      hash: md5
-      md5: 48f06f142dbaf83397c16dbf007376fc
-      size: 12247
-    outs:
-    - path: pipelines/statxplore/json/metadata
-      hash: md5
-      md5: c6a03ccd3f3f59941ddde60546ed118d.dir
-      size: 18701
-      nfiles: 107
   extract-hbai:
     cmd: papermill hbai.ipynb ../../data/_working/output/hbai.ipynb
     deps:
