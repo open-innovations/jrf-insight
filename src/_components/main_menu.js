@@ -6,6 +6,7 @@ export default function ({ search, comp }) {
     { title: 'Places', children: places },
     { title: 'Spotlights', children: spotlights },
     { title: 'Data', url: '/metadata/' },
+    { title: 'About', url: '/about/' },
     { title: 'Search', url: '/search/' },
   ];
 
