@@ -9,74 +9,38 @@ stages:
       size: 197974
     - path: pipelines/statxplore/extract.py
       hash: md5
-      md5: 93fb99678d5a045bd508dafffec5b072
-      size: 6167
+      md5: 7fcb112ffc876814fffa83311e5437c0
+      size: 4256
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: ab2e03259e2e40fb65f4980651065854.dir
-      size: 702082
-      nfiles: 9
+      md5: 2599316234adc9721270cac969790f1e.dir
+      size: 702214
+      nfiles: 8
     - path: pipelines/statxplore/utils.py
       hash: md5
-      md5: 5a56c580c4985f7011ec92f7bbec22ab
-      size: 12337
+      md5: 2f221d5823d34fdee79a2f3146c2675e
+      size: 11903
     outs:
     - path: data/HB/claimants.csv
       hash: md5
       md5: 9257200c933aea270ca87a3c9d9f9454
       size: 3766189
-      isexec: true
     - path: data/clif/clif_ABS.csv
       hash: md5
       md5: 77ec46fe27de7f7bcc6f5e76c3618812
       size: 5367510
-      isexec: true
     - path: data/clif/clif_REL.csv
       hash: md5
       md5: 316de9b77ab78697531e257e1b4796e0
       size: 5373056
-      isexec: true
-    - path: data/hbai/Age of the Youngest Child in the Family of the Individual.csv
-      hash: md5
-      md5: 16d341f4ba042827b887e0e10893234e
-      size: 66604
-      isexec: true
-    - path: data/hbai/Ethnic Group of the Head of the Household (please calculate
-        three-year averages - click on i for the correct method).csv
-      hash: md5
-      md5: 205736b9aafd8d0899d9a475b2452c96
-      size: 92164
-      isexec: true
-    - path: data/hbai/Number of Children in the Family of the Individual.csv
-      hash: md5
-      md5: b0fe2eb018129a3daeb27ed5f9abd2f0
-      size: 55248
-      isexec: true
-    - path: data/hbai/Savings and Investments of Adults in the Family of the Individual.csv
-      hash: md5
-      md5: 527f93156a617685dee55361ee00034c
-      size: 126397
-      isexec: true
-    - path: data/hbai/Tenure Type of the Household of the Individual.csv
-      hash: md5
-      md5: 7820919108a895b6c9a2cd54b40ae7ed
-      size: 48635
-      isexec: true
-    - path: data/hbai/Type of Individual by Age Category.csv
-      hash: md5
-      md5: a3463d28a353a73e89de5a507489e9fc
-      size: 38920
-      isexec: true
     - path: data/smi/smi_in_payment_amount.csv
       hash: md5
       md5: 2ff667c2110aa862a738aa5db395ed64
       size: 3721
-      isexec: true
     - path: data/smi/smi_loans_in_payment_households.csv
       hash: md5
       md5: 9c67380f3fa50de53598327efcbdb660
       size: 3609
-      isexec: true
   probe:
     cmd: PYTHONPATH= python pipelines/statxplore/probe.py
     deps:
@@ -115,3 +79,45 @@ stages:
       md5: c6a03ccd3f3f59941ddde60546ed118d.dir
       size: 18701
       nfiles: 107
+  extract-hbai:
+    cmd: papermill hbai.ipynb ../../data/_working/output/hbai.ipynb
+    deps:
+    - path: api.py
+      hash: md5
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
+    - path: hbai.ipynb
+      hash: md5
+      md5: eb31fd068826d2d65482c5150347adaf
+      size: 4017
+    - path: json/data/HBAI.json
+      hash: md5
+      md5: 2f8057486298e99807d3fe211eace969
+      size: 636
+    outs:
+    - path: ../../data/hbai/Age of the Youngest Child in the Family of the Individual.csv
+      hash: md5
+      md5: 16d341f4ba042827b887e0e10893234e
+      size: 66604
+    - path: ../../data/hbai/Ethnic Group of the Head of the Household (please calculate
+        three-year averages - click on i for the correct method).csv
+      hash: md5
+      md5: 205736b9aafd8d0899d9a475b2452c96
+      size: 92164
+    - path: ../../data/hbai/Number of Children in the Family of the Individual.csv
+      hash: md5
+      md5: b0fe2eb018129a3daeb27ed5f9abd2f0
+      size: 55248
+    - path: ../../data/hbai/Savings and Investments of Adults in the Family of the
+        Individual.csv
+      hash: md5
+      md5: 527f93156a617685dee55361ee00034c
+      size: 126397
+    - path: ../../data/hbai/Tenure Type of the Household of the Individual.csv
+      hash: md5
+      md5: 7820919108a895b6c9a2cd54b40ae7ed
+      size: 48635
+    - path: ../../data/hbai/Type of Individual by Age Category.csv
+      hash: md5
+      md5: a3463d28a353a73e89de5a507489e9fc
+      size: 38920

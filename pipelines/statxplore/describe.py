@@ -2,9 +2,9 @@ import os
 import pandas as pd
 import json
 import glob
-from utils import statxplore_to_json, STATXPLORE_API_KEY, slugify
+from api import STATXPLORE_API_KEY
+from utils import statxplore_to_json
 import statxplorer
-from probe import session
 
 def query_to_pandas(KEY, path_to_json):
     '''get the table and store the results as a dataframe'''

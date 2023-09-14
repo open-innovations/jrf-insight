@@ -1,27 +1,32 @@
+vars:
+  - top: '../..'
 stages:
-  # probe:
-  #   cmd: PYTHONPATH= python pipelines/statxplore/probe.py
-  #   # always_changed: true
-  #   wdir: ../..
-  #   deps:
-  #     - pipelines/statxplore/probe.py
-  #     - pipelines/statxplore/utils.py
-  #   outs:
-  #     - data/lookups:
-  #         cache: false
-  #         persist: false
-  # describe:
-  #   cmd: PYTHONPATH= python pipelines/statxplore/describe.py
-  #   # always_changed: true
-  #   wdir: ../..
-  #   deps:
-  #     - pipelines/statxplore/describe.py
-  #     - pipelines/statxplore/utils.py
-  #     - data/lookups
-  #   outs:
-  #     - pipelines/statxplore/json/metadata:
-  #         cache: false
-  #         persist: false
+  extract-hbai:
+    cmd: papermill hbai.ipynb ${top}/data/_working/output/hbai.ipynb
+    always_changed: true
+    deps:
+      - hbai.ipynb
+      - api.py
+      - json/data/HBAI.json
+    outs: 
+      - ${top}/data/hbai/Age of the Youngest Child in the Family of the Individual.csv:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method).csv:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/Number of Children in the Family of the Individual.csv:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/Savings and Investments of Adults in the Family of the Individual.csv:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/Tenure Type of the Household of the Individual.csv:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/Type of Individual by Age Category.csv:
+          cache: false
+          persist: false
   extract:
     cmd: python pipelines/statxplore/extract.py
     wdir: ../..
@@ -31,24 +36,6 @@ stages:
       - pipelines/statxplore/json/data
       - data/geo/geography_lookup.csv
     outs: 
-      - data/hbai/Age of the Youngest Child in the Family of the Individual.csv:
-          cache: false
-          persist: false
-      - data/hbai/Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method).csv:
-          cache: false
-          persist: false
-      - data/hbai/Number of Children in the Family of the Individual.csv:
-          cache: false
-          persist: false
-      - data/hbai/Savings and Investments of Adults in the Family of the Individual.csv:
-          cache: false
-          persist: false
-      - data/hbai/Tenure Type of the Household of the Individual.csv:
-          cache: false
-          persist: false
-      - data/hbai/Type of Individual by Age Category.csv:
-          cache: false
-          persist: false
       - data/clif/clif_ABS.csv:
           cache: false
           persist: false
