@@ -2,7 +2,7 @@
 import { open } from "https://cdn.jsdelivr.net/gh/dringtech/duckdb@b9cb4d0/mod.ts";
 
 const db = open(":memory:");
-const connection = db.connect();
+export const connection = db.connect();
 
 /**
  * SETUP DATA
@@ -59,10 +59,6 @@ export const freeSchoolMeals = (place: string) =>
     () => connection.query(`PIVOT (SELECT "date", "phase", fsm_eligible_percent FROM fsm WHERE geography_code=='${place}') ON "phase" USING AVG(fsm_eligible_percent);`)
   );
 
-export const savingsInvestments = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT "date", "Savings and Investments of Adults in the Family of the Individual", percent FROM savings WHERE geography_code=='${place}' AND variable_name=='In low income (below threshold)') ON "Savings and Investments of Adults in the Family of the Individual" USING AVG(percent);`)
-);
 export const happiness = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Happiness') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
@@ -79,6 +75,7 @@ export const life_satisfaction = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Life satisfaction') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
 );
+
 export const unemployment = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='Unemployment rate - aged 16-64') ON "variable_name" USING AVG(value);`)
@@ -104,7 +101,7 @@ addEventListener("unload", cleanup);
 
 type QueryResult = Record<string, unknown>[];
 
-function runQuery(query: () => QueryResult) {
+export function runQuery(query: () => QueryResult) {
   let data;
   try {
     data = query();
