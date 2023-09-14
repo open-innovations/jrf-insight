@@ -1,0 +1,8 @@
+dimension_name,dimension
+Month,str:field:BSP_Claims:F_BSP_MONTH:MONTH_NAME
+National - Regional - LA - OAs,str:field:BSP_Claims:V_F_BSP_Claims:coa_code
+National - Regional - LA - Ward,str:field:BSP_Claims:V_F_BSP_Claims:WARD_CODE
+Westminster Parliamentary Constituencies,str:field:BSP_Claims:V_F_BSP_Claims:PARLC_CODE
+Age (years and bands),str:field:BSP_Claims:V_F_BSP_Claims:AGE
+Gender,str:field:BSP_Claims:V_F_BSP_Claims:gender
+Decision,str:field:BSP_Claims:V_F_BSP_Claims:decision_detail

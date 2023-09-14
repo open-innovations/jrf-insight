@@ -119,26 +119,6 @@ def get_variables(session, database_id):
     return measures, measure_names, dimensions, dimension_names
 
 
-def make_csv(ids, labels, OUTDIR, type=None):
-    '''
-    Makes csv files 
-    '''
-    
-    # if a database, there is only id and label, 
-    # so iterating would write each character to a new line.
-
-    if type == 'database':
-        df = pd.DataFrame([[ids, labels]], columns=['{}'.format(
-            type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
-    else:
-        df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=[
-                          '{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
-
-    df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
-
-    return
-
-
 def group_to_fields(session, locator):
     '''
     Take the 'group' names and return the field
@@ -327,3 +307,7 @@ def value_looper(array):
         # array.
         for item in array:
             yield item
+
+
+def sanitize_filepart(part: str) -> str:
+    return re.sub(r'[:\/]+', '', part)

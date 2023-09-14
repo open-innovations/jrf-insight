@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import glob
 from api import STATXPLORE_API_KEY
-from utils import statxplore_to_json
+from utils import statxplore_to_json, sanitize_filepart
 import statxplorer
 
 def query_to_pandas(KEY, path_to_json):
@@ -69,7 +69,7 @@ def metadata():
     for i, j, k in zip(database_list, dimension_list, folder_list):
         dataset = pd.read_csv(i)
         base = dataset['database']
-        base_name = dataset['database_name']
+        base_name = sanitize_filepart(dataset['database_name'].iloc[0])
         dimension = pd.read_csv(j)
         date_api_call, frequency = datetype_from_dimension(dimension)
 
@@ -77,7 +77,7 @@ def metadata():
         if date_api_call.empty:
             print('No date fields')
             continue
-        filename = f'{base_name.iloc[0]}.json'
+        filename = f'{base_name}.json'
         METADATA_DIR = 'pipelines/statxplore/json/metadata/'
         statxplore_to_json(database=base.iloc[0], dimensions=[[date_api_call.iloc[0]]], measures=[], filename=filename, DIR=METADATA_DIR)
 

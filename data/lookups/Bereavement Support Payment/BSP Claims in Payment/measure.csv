@@ -1,0 +1,2 @@
+measure_name,measure
+Claims in Payment,str:count:BSP_Payment:V_F_BSP_Payments
