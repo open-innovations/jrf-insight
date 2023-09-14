@@ -27,6 +27,6 @@ css: |
 
 <ul class="tag-list">
   {% for v in values %}
-    <li>{{ v }}</li>
+    <li>{{ v | safe }}</li>
   {% endfor %}
 </ul>

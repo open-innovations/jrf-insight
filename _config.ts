@@ -108,4 +108,7 @@ site.filter(
   "percentagize",
   (num: number, ref, points = 1) => (num * 100 / ref).toFixed(points) + "%",
 );
+
+site.filter("values", (o) => Object.values(o));
+
 export default site;

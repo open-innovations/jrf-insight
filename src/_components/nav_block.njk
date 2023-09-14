@@ -6,7 +6,15 @@ css: |
     background: var(--background);
     color: var(--colour);
     padding: 0.5em;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    & .inline {
+      border-top: 1px solid var(--colour);
+      display: flex;
+      gap: 2em;
+      & > *:first-child {
+        flex-grow: 1;
+      }
+    }
     & a {
       color: inherit;
     }
@@ -14,13 +22,10 @@ css: |
       list-style: none;
       display: flex;
       flex-wrap: wrap;
-      column-gap: 1.5em;
+      column-gap: 1.2em;
     }
-    & h3 {
+    & toggle-section h3, & .inline {
       border-top: 1px solid var(--colour);
-      & + * {
-        padding-bottom: 1em;
-      }
     }
   }
 ---
@@ -28,35 +33,36 @@ css: |
 <nav class='nav-block' data-dependencies="/assets/js/inclusive.js">
   <h{{ heading_level }}>Navigation</h{{ heading_level }}>
   {% if dir.place or false %}
-  <toggle-section>
+  <div class="inline">
     <h{{ heading_level + 1 }}>Place</h{{ heading_level + 1 }}>
     {{ comp.link.place({ place: place_key }) | safe }}
-  </toggle-section>
+  </div>
   {% endif %}
+
   {% if dir.spotlight or false %}
-  <toggle-section id="spotlight-at-place">
+  <div id="spotlight-at-place" class="inline">
     <h{{ heading_level + 1 }}>Spotlights</h{{ heading_level + 1 }}>
     <ul>
-      {% for spotlight_key in spotlights | keys %}
-        {% if spotlights[spotlight_key].draft !== true %}
+      {% for spotlight in search.pages('spotlight geography=' + place_key + ' url!=' + current_page ) %}
         <li>
-          <a href="/spotlight/{{ spotlight_key }}/{{ place_key }}/">{{ spotlights[spotlight_key].name }}</a>
+          <a href="{{ spotlight.url }}">{{ spotlight.title }}</a>
         </li>
-        {% endif %}
       {% endfor %}
     </ul>
-  </toggle-section>
+  </div>
   {% endif %}
+
   {% if ancestors and ancestors.length > 0 %}
-  <toggle-section>
+  <div class="inline">
     <h{{ heading_level + 1 }}>Upper geographies</h{{ heading_level + 1 }}>
     <ul id="contained-by-places">
       {% for id in ancestors | reverse %}
       <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
       {% endfor %}
     </ul>
-  </toggle-section>
+  </div>
   {% endif %}
+
   {% if children and children.length > 0 %}
   <toggle-section>
     <h{{ heading_level + 1 }}>Lower geographies</h{{ heading_level + 1 }}>

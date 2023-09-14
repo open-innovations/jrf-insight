@@ -1,0 +1,7 @@
+{% comp 'grid.auto', { style: "--color:white;--background:#777;" } %}
+  {% for g in infographics %}
+    {% comp 'grid.block' %}
+      {{ g.title }}
+    {% endcomp %}
+  {% endfor %}
+{% endcomp %}

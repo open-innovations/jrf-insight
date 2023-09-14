@@ -3,8 +3,35 @@ layout: ./page.njk
 tags:
   - spotlight
 ---
+
 {% set place_page = place[geography] %}
 {% set this_place_data = query.getDataForPlace(geography) %}
+
+<p>{{ description | md | safe }}</p>
+<p>This is the {{ title }} spotlight page for {{ this_place_data.name }}.</p>
+
+{# Navigation block #}
+{{ comp.nav_block({
+  current_page: url,
+  dir: {
+    place: true,
+    spotlight: true
+  },
+  place_key: geography,
+  ancestors: place_page.relations.ancestors,
+  parents: place_page.relations.parents,
+  children: place_page.relations.children,
+  place_prefix: '/spotlight/' + spotlight + '/'
+}) | safe }}
+
+{# Infographics, as defined in the _data/spotlights.yaml #}
+{{ comp.info.infographic_block({
+  infographics: infographics | values
+}) | safe }}
+
+
+
+
 {% if (place[geography].relations.children | length) > 0 %}
   {% set place_data = query.getPlaceData(place[geography].relations.children) %}
 {% else %}
@@ -31,17 +58,8 @@ tags:
     {% endfor %}
   </table>
 {% endmacro %}
-{% include 'partials/spotlight/' + spotlight + '/headlines.njk' %}
 
-{{ comp.nav_block({
-  dir: {
-    place: true
-  },
-  place_key: geography,
-  ancestors: place_page.relations.ancestors,
-  parents: place_page.relations.parents,
-  children: place_page.relations.children,
-  place_prefix: '/spotlight/' + spotlight + '/'
-}) | safe }}
+{% include 'partials/spotlight/' + spotlight + '/headlines.njk' ignore missing %}
+
 
 {% include 'partials/spotlight/' + spotlight + '/content.njk' %}
