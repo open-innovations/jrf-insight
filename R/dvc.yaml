@@ -25,7 +25,6 @@ stages:
     wdir: ..
     deps:
       - R/labour-market.R
-      - data/raw/labour-market.csv
     outs:
       - data/labour-market/labour-market.csv:
           persist: false

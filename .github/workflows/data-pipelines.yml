@@ -5,11 +5,11 @@ name: Data Pipeline
   # schedule:
     # * is a special character in YAML so you have to quote this string
     # - cron: "30 23 * * *"
-  push:
-    paths:
-      - 'data/**'
-      - 'pipelines/**'
-      - '.github/workflows/data-pipelines.yml'
+  # push:
+  #   paths:
+  #     - 'data/**'
+  #     - 'pipelines/**'
+  #     - '.github/workflows/data-pipelines.yml'
 
 
 jobs:
