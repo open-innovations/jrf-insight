@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  labour-market:
+    cmd: Rscript R/labour-market.R
+    deps:
+    - path: R/labour-market.R
+      hash: md5
+      md5: ab2d6aee2d48ce52c82f7c93586661ce
+      size: 1028
+    outs:
+    - path: data/labour-market/labour-market.csv
+      hash: md5
+      md5: 1ca0a68f97f69d55a3c9400744633bed
+      size: 1346432
+  claimant-count:
+    cmd: Rscript R/claimant-count.R
+    deps:
+    - path: R/claimant-count.R
+      hash: md5
+      md5: 8006a21a03f085ac8f6d2b08d90569b4
+      size: 2709
+    outs:
+    - path: data/claimant-count/claimant-count.csv
+      hash: md5
+      md5: 7fec2353941532014ca9695c83f1e69a
+      size: 324025
