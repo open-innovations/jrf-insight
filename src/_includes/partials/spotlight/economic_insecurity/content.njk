@@ -1,4 +1,4 @@
-{% set this_place = search.page('place key=' + geography) %}
+{% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
 
 <h3>Broad datasets</h3>
 
@@ -123,13 +123,12 @@
 See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty
 </p>
 
+
 {% set savings = this_place_data['households_low_income_no_savings'] %}
 {% set imd_average_score = this_place_data['imd_average_score'] %}
-{% set claimants = this_place_data['Claimants as a proportion of residents aged 16-64'] %}
 {% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
 {% set mean_weekly_wage = this_place_data['mean_weekly_wage'] %}
 {% set fuel_poverty = this_place_data['Proportion of households fuel poor (%)'] %}
-{% set geo = geography %}
 
 {{ top_trump_table(
   name="spotlight statistics",
@@ -147,7 +146,7 @@ See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-oppo
       },
       {
         name: 'Claimants as a proportion of residents aged 16-64 (UC & JSA)', 
-        data: claimants, 
+        data: place_headlines.percentage_benefits_claimants, 
         simple_data: null
       },
       {

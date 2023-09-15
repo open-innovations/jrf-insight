@@ -1,12 +1,15 @@
 {% set style -%}
 --color:{{ color or 'white' }};--background:{{ background or 'black' }};
 {%- endset %}
+
 {% comp 'grid.auto', { style: style } %}
   {% for item in items %}
     {% comp 'grid.block', {
       style: "--background:" + item.background | d('unset') + ";--color:" + item.color | d('unset') + ";"
     } %}
       {{ comp.info.graphic({
+        key: item.key,
+        value: item.value,
         description: item.description
       }) | safe }}
     {% endcomp %}

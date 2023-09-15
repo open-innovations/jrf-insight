@@ -75,18 +75,6 @@ export const life_satisfaction = (place: string) =>
     () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Life satisfaction') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
 );
 
-export const unemployment = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='Unemployment rate - aged 16-64') ON "variable_name" USING AVG(value);`)
-);
-export const economic_inactivity = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT date, CAST(value AS decimal(5,2)) as value, variable_name, geography_code FROM lm WHERE "geography_code"=='${place}' AND "variable_name"=='% who are economically inactive - aged 16-64') ON "variable_name" USING AVG(value);`)
-);
-export const claimant = (place: string) =>
-  runQuery(
-    () => connection.query(`from claimants select value where geography_code=='${place}' and variable_name=='Claimants as a proportion of residents aged 16-64';`)
-);
 /**
  * Utility functions below
  */
@@ -100,7 +88,7 @@ addEventListener("unload", cleanup);
 
 type QueryResult = Record<string, unknown>[];
 
-export function runQuery(query: () => QueryResult) {
+export function run(query: () => QueryResult) {
   let data;
   try {
     data = query();
@@ -108,10 +96,14 @@ export function runQuery(query: () => QueryResult) {
     console.error(e);
     return [];
   }
-  return makeFakeCSV(data);
+  return data;
 }
 
-function makeFakeCSV(rows: QueryResult) {
+export function runQuery(query: () => QueryResult) {
+  return makeFakeCSV(run(query));
+}
+
+export function makeFakeCSV(rows: QueryResult) {
   if (rows.length === 0) {
     return {
       names: [],

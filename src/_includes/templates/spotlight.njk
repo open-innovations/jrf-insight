@@ -2,10 +2,9 @@
 layout: ./page.njk
 tags:
   - spotlight
-infographic_keys:
-  - percentage-benefits-claimants
-  - people-in-deprived-places
 ---
+
+{% set this_place = search.page('place key=' + geography) %}
 
 {% set place_page = place[geography] %}
 {% set this_place_data = query.getDataForPlace(geography) %}
@@ -33,7 +32,7 @@ infographic_keys:
   which could be overriden per page.
 #}
 {{ comp.info.grid({
-  items: infographics | pick(infographic_keys),
+  items: infographics,
   background: 'var(--jrf-strong-pink)'
 }) | safe }}
 

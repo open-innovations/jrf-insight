@@ -1,1 +1,6 @@
-{{ description }}
+{% if not value %}
+    <p>No data available for this place</p>
+{% else %}
+    <p class="big-number" data-number={{ value | safe }}>{{ value | safe }}</p>
+{% endif %}
+<p>{{ description }}</p>
