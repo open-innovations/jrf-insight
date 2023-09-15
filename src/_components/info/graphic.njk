@@ -1,6 +1,50 @@
-{% if not value %}
-    <p>No data available for this place</p>
+---
+css: |
+    .infographic {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        & > * {
+            border: 1px solid black;
+        }
+        & .impact {
+            font-size: 5em;
+            font-weight: bold;
+        }
+        & .description {
+            font-size: 0.9em;
+        }
+    }
+---
+{% set personMarker = {
+    marker: {
+        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>'
+    }
+} %}
+
+<div class='infographic'>
+{% if value %}
+    {% if type == 'waffle' %}
+        {{ comp.oi.chart.waffle({
+            config: {
+                data: [ { 'value': value, 'rest': rest } ],
+                width: 200,
+                size: 10,
+                series: [
+                    { value: 'value', colour: 'white', points: personMarker }
+                ]
+            }
+        }) | safe }}
+    {% elif type == 'percentage' %}
+        <p class="impact">{{ value }}%</p>
+    {% else %}
+        <p class="impact">{{ value }}</p>
+    {% endif %}
 {% else %}
-    <p class="big-number" data-number={{ value | safe }}>{{ value | safe }}</p>
+    <p class="impact">No data</p>
+    <p>for this place</p>
 {% endif %}
-<p>{{ description }}</p>
+<p class="description">{{ description }}</p>
+</div>

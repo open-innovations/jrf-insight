@@ -11,6 +11,7 @@ export const getInfographicValuesForPlace = (placeCode: string) => {
 
   return {
     percentage_benefits_claimants,
+    people_in_deprived_places: 50,
   };
 };
 

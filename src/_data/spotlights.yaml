@@ -10,10 +10,12 @@ economic_insecurity:
       - people_in_deprived_places
     definitions:
       - key: people_in_deprived_places
-        description: x% of people in this area live in the most deprived places
+        description: x% of people in this area live in the most deprived places (FAKE NUMBERS)
         background: var(--jrf-moderate-cyan)
+        type: percentage
       - key: percentage_benefits_claimants
-        description: UC / JSA Claimants as a proportion of residents
+        description: Population claiming Universal Credit or Jobseeker's Allowance
+        type: waffle
       - key: item_three
         description: ???
       - key: item_four
