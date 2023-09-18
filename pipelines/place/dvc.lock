@@ -17,12 +17,12 @@ stages:
       size: 57831
     - path: ../../data/hbai/by_age_category.csv
       hash: md5
-      md5: 74ef3fdd6c25a6a832520652d338282b
-      size: 49671
+      md5: 2d36d5fccf953b3f4570662b37f0dcec
+      size: 42615
     - path: ../../data/hbai/by_savings_and_investments.csv
       hash: md5
-      md5: 69ac88d2a4ade25c6ab3e2c329c84601
-      size: 155068
+      md5: 20a1d1a44fad3c2b30b24ab42ac30470
+      size: 136252
     - path: ../../data/population-estimates/population-estimates.csv
       hash: md5
       md5: 7dd72902748ccb3cbd21d145df1fa2e9
@@ -50,8 +50,8 @@ stages:
       size: 19047
     - path: ../../data/interim/hbai_age_category.csv
       hash: md5
-      md5: 247960e7d8dfd89670bf10d5d05aa8dc
-      size: 64187
+      md5: 336c3b8cff6663ea275af843532b18d2
+      size: 57635
     - path: ../../data/interim/house_prices.csv
       hash: md5
       md5: c356638de25bb181d99f6af0ffb5f8be
@@ -133,11 +133,11 @@ stages:
     deps:
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 6b5cb520da9b0fe6d46ff5e4e3c30485
-      size: 156066
+      md5: 02216e6934965555ab11f130e9bf1eb4
+      size: 156000
     - path: ../../data/interim/shapes.parquet
       hash: md5
-      md5: c38a063053d64182e5d08d6a519268c1
+      md5: e273cc16c7db86803619205897fe4599
       size: 514139
     - path: batch.py
       hash: md5

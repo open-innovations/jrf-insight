@@ -5,9 +5,9 @@ stages:
     deps:
     - path: ../../data/
       hash: md5
-      md5: 6a66723e26bc86ea9f7d16a9473c3b8e.dir
-      size: 54825514
-      nfiles: 491
+      md5: 0ad03aa13149093ed782047cfa925349.dir
+      size: 95700401
+      nfiles: 497
     - path: prepare.ipynb
       hash: md5
       md5: d983363d652edbd9f52091aa4eda6bcb
@@ -15,5 +15,5 @@ stages:
     outs:
     - path: ../../src/_data/metadata/catalogue.json
       hash: md5
-      md5: e35fd50975c872e39410b6cc354db8ae
-      size: 2658182
+      md5: b73582a5f19e6fc70db36f504f674e00
+      size: 2655453

@@ -50,8 +50,8 @@ stages:
       size: 339
     - path: hbai.ipynb
       hash: md5
-      md5: c0bbc64091e3648413906b0f0e0c2b69
-      size: 3971
+      md5: 1336cea558fa527b646b9ee465eb5743
+      size: 114780
     - path: json/data/HBAI.json
       hash: md5
       md5: 2f8057486298e99807d3fe211eace969
@@ -59,25 +59,25 @@ stages:
     outs:
     - path: ../../data/hbai/by_age_category.csv
       hash: md5
-      md5: 74ef3fdd6c25a6a832520652d338282b
-      size: 49671
+      md5: 2d36d5fccf953b3f4570662b37f0dcec
+      size: 42615
     - path: ../../data/hbai/by_age_of_youngest_child.csv
       hash: md5
-      md5: c3dcf9c556e0ec42f1761d1e467f5a9d
-      size: 84523
+      md5: 28395be637986fcbd0a04b749dad63e6
+      size: 72763
     - path: ../../data/hbai/by_ethnic_group.csv
       hash: md5
-      md5: a0667f24054fce905f29bb6a9dd006ab
-      size: 113592
+      md5: 981186c38ba474406cdd002477c5a711
+      size: 99480
     - path: ../../data/hbai/by_number_of_children.csv
       hash: md5
-      md5: bc48b96234022a36766d84ffe0c55626
-      size: 69583
+      md5: a751842be6d91e101f74323543dcc017
+      size: 60175
     - path: ../../data/hbai/by_savings_and_investments.csv
       hash: md5
-      md5: 69ac88d2a4ade25c6ab3e2c329c84601
-      size: 155068
+      md5: 20a1d1a44fad3c2b30b24ab42ac30470
+      size: 136252
     - path: ../../data/hbai/by_tenure_type.csv
       hash: md5
-      md5: 19b2ae491840465138e544d51b1da529
-      size: 59386
+      md5: debd5fdb79cd3b61d666ee04ae2cbe40
+      size: 52330
