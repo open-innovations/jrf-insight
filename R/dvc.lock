@@ -29,8 +29,8 @@ stages:
     deps:
     - path: R/rental-prices.R
       hash: md5
-      md5: 39489a1e14bf3b15217a05e913f2aaa0
-      size: 1823
+      md5: 11d2737455d7a5333078fcb959ad5ac3
+      size: 1954
     outs:
     - path: data/rental-prices/rental-prices.csv
       hash: md5

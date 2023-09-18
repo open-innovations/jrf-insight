@@ -44,3 +44,7 @@ out <- rental_prices |>
 
 readr::write_csv(rental_prices, 'data/rental-prices/rental-prices.csv')
 saveRDS(out, 'data/rental-prices/rental-prices.rds')
+
+# Added this as it's a depdency of a directly loaded R script
+# This is a horrible kludge to make it work! ;-)
+library(lubridate)
