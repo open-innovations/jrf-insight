@@ -6,9 +6,7 @@ from collections import OrderedDict
 from statxplore import http_session
 from statxplore import objects
 
-STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
-if STATXPLORE_API_KEY == None:
-  raise Exception('Please set the STATEXPORE_API_KEY')
+from api import STATXPLORE_API_KEY
 
 JSONDIR = 'pipelines/statxplore/json/'
 session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
@@ -119,26 +117,6 @@ def get_variables(session, database_id):
     #     dimension_names.append("month")
     
     return measures, measure_names, dimensions, dimension_names
-
-
-def make_csv(ids, labels, OUTDIR, type=None):
-    '''
-    Makes csv files 
-    '''
-    
-    # if a database, there is only id and label, 
-    # so iterating would write each character to a new line.
-
-    if type == 'database':
-        df = pd.DataFrame([[ids, labels]], columns=['{}'.format(
-            type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
-    else:
-        df = pd.DataFrame([[i, j] for i, j in zip(ids, labels)], columns=[
-                          '{}'.format(type), '{}_name'.format(type)]).set_index('{}_name'.format(type))
-
-    df.to_csv(os.path.join(OUTDIR, '{}.csv'.format(type)))
-
-    return
 
 
 def group_to_fields(session, locator):
@@ -329,3 +307,7 @@ def value_looper(array):
         # array.
         for item in array:
             yield item
+
+
+def sanitize_filepart(part: str) -> str:
+    return re.sub(r'[:\/]+', '', part)

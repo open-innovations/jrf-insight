@@ -1,5 +1,28 @@
 economic_insecurity:
   name: Economic Insecurity
+  description: |
+    The lack of economic security can significantly impact peoples experience
+    of dignity, opportunity and hope.
+    This spotlight explores poverty through the lens of economic markers.
+  infographics:
+    defaults:
+      - percentage_benefits_claimants
+      - people_in_deprived_places
+    definitions:
+      - key: people_in_deprived_places
+        description: x% of people in this area live in the most deprived places (FAKE NUMBERS)
+        background: var(--jrf-moderate-cyan)
+        type: percentage
+      - key: percentage_benefits_claimants
+        description: Population claiming Universal Credit or Jobseeker's Allowance
+        type: waffle
+      - key: item_three
+        description: ???
+      - key: item_four
+        description: ???
+      - key: item_five
+        description: ???
+
 housing:
   name: Housing
 homelessness:

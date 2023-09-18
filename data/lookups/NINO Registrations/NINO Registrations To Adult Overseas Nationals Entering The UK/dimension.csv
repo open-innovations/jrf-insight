@@ -1,5 +1,6 @@
 dimension_name,dimension
-Quarter and Year of Registration,str:field:Ninos:F_NINO_QTR:QTR_NAME
+Quarter of Registration,str:field:Ninos:F_NINO_QTR:QTR_NAME
+Rolling year end June,str:field:Ninos:V_F_NINOS:QTR_JUNYR
 National - Regional - LAs - UK,str:field:Ninos:V_F_NINOS:UK_COA
 Westminster Parliamentary Constituency,str:field:Ninos:V_F_NINOS:PARLC_CODE
 National - Regional - LA - COAs - GB,str:field:Ninos:V_F_NINOS:GB_COA

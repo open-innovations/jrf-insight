@@ -1,11 +1,38 @@
+import logging
 import os
+
 import pandas as pd
 from statxplore import http_session
-from statxplore import objects
-from utils import get_ids, get_variables, make_csv
+from utils import get_ids, get_variables, sanitize_filepart
 
-STATXPLORE_API_KEY = os.getenv("STATXPLORE_API_KEY")
+from api import STATXPLORE_API_KEY
+
+logging.basicConfig(level=logging.INFO, encoding="utf-8")
+
 session = http_session.StatSession(api_key=STATXPLORE_API_KEY)
+
+def make_csv(ids, labels, OUTDIR, type=None):
+    '''
+    Makes csv files 
+    '''
+    
+    # if a database, there is only id and label, 
+    # so iterating would write each character to a new line.
+
+    if type == 'database':
+        df = pd.DataFrame(
+            [[ids, labels]], columns=[f'{type}', f'{type}_name']
+        ).set_index(f'{type}_name')
+    else:
+        df = pd.DataFrame(
+            [[i, j] for i, j in zip(ids, labels)],
+            columns=[f'{type}', f'{type}_name'],
+        ).set_index(f'{type}_name')
+
+    df.to_csv(os.path.join(OUTDIR, f'{type}.csv'))
+
+    return
+
 
 if __name__ == '__main__':
 
@@ -17,9 +44,9 @@ if __name__ == '__main__':
             measures, measure_names, dimensions, \
                 dimension_names = get_variables(session, database_id)
             
-            print(f'Got lookups for database {database_name} in folder {folder_name}')
+            logging.info('Got lookups for database "%s" in folder %s', database_name, folder_name)
 
-            OUTDIR = f'data/lookups/{folder_name}/{database_name}/'
+            OUTDIR = f'data/lookups/{sanitize_filepart(folder_name)}/{sanitize_filepart(database_name)}/'
             os.makedirs(OUTDIR, exist_ok=True)
 
             make_csv(measures, measure_names, OUTDIR, type='measure')

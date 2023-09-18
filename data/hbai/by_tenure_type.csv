@@ -1,0 +1,505 @@
+Financial Year,geography_code,Tenure Type of the Household of the Individual,income_status,value,variable_name
+1994-95,E12000001,All rented privately,Not in low income (at or above threshold),134962.0,population
+1994-95,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1396811.0,population
+1994-95,E12000001,Social rented sector tenants,Not in low income (at or above threshold),439412.0,population
+1994-95,E12000002,All rented privately,Not in low income (at or above threshold),363734.0,population
+1994-95,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3995432.0,population
+1994-95,E12000002,Social rented sector tenants,Not in low income (at or above threshold),929578.0,population
+1994-95,E12000003,All rented privately,Not in low income (at or above threshold),358460.0,population
+1994-95,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2709649.0,population
+1994-95,E12000003,Social rented sector tenants,Not in low income (at or above threshold),674924.0,population
+1995-96,E12000001,All rented privately,Not in low income (at or above threshold),109422.0,population
+1995-96,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1301708.0,population
+1995-96,E12000001,Social rented sector tenants,Not in low income (at or above threshold),495334.0,population
+1995-96,E12000002,All rented privately,Not in low income (at or above threshold),392397.0,population
+1995-96,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4116741.0,population
+1995-96,E12000002,Social rented sector tenants,Not in low income (at or above threshold),944319.0,population
+1995-96,E12000003,All rented privately,Not in low income (at or above threshold),344524.0,population
+1995-96,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2888736.0,population
+1995-96,E12000003,Social rented sector tenants,Not in low income (at or above threshold),581300.0,population
+1996-97,E12000001,All rented privately,Not in low income (at or above threshold),117387.0,population
+1996-97,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1414498.0,population
+1996-97,E12000001,Social rented sector tenants,Not in low income (at or above threshold),395509.0,population
+1996-97,E12000002,All rented privately,Not in low income (at or above threshold),387316.0,population
+1996-97,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3968406.0,population
+1996-97,E12000002,Social rented sector tenants,Not in low income (at or above threshold),891838.0,population
+1996-97,E12000003,All rented privately,Not in low income (at or above threshold),308485.0,population
+1996-97,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2843188.0,population
+1996-97,E12000003,Social rented sector tenants,Not in low income (at or above threshold),625131.0,population
+1997-98,E12000001,All rented privately,Not in low income (at or above threshold),136685.0,population
+1997-98,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1389684.0,population
+1997-98,E12000001,Social rented sector tenants,Not in low income (at or above threshold),392872.0,population
+1997-98,E12000002,All rented privately,Not in low income (at or above threshold),386311.0,population
+1997-98,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4021508.0,population
+1997-98,E12000002,Social rented sector tenants,Not in low income (at or above threshold),798770.0,population
+1997-98,E12000003,All rented privately,Not in low income (at or above threshold),302784.0,population
+1997-98,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2866645.0,population
+1997-98,E12000003,Social rented sector tenants,Not in low income (at or above threshold),596081.0,population
+1998-99,E12000001,All rented privately,Not in low income (at or above threshold),102587.0,population
+1998-99,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1361163.0,population
+1998-99,E12000001,Social rented sector tenants,Not in low income (at or above threshold),395300.0,population
+1998-99,E12000002,All rented privately,Not in low income (at or above threshold),372651.0,population
+1998-99,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4061560.0,population
+1998-99,E12000002,Social rented sector tenants,Not in low income (at or above threshold),654339.0,population
+1998-99,E12000003,All rented privately,Not in low income (at or above threshold),267584.0,population
+1998-99,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2875845.0,population
+1998-99,E12000003,Social rented sector tenants,Not in low income (at or above threshold),546710.0,population
+1999-00,E12000001,All rented privately,Not in low income (at or above threshold),138595.0,population
+1999-00,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1325776.0,population
+1999-00,E12000001,Social rented sector tenants,Not in low income (at or above threshold),390780.0,population
+1999-00,E12000002,All rented privately,Not in low income (at or above threshold),408826.0,population
+1999-00,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4187811.0,population
+1999-00,E12000002,Social rented sector tenants,Not in low income (at or above threshold),659223.0,population
+1999-00,E12000003,All rented privately,Not in low income (at or above threshold),297432.0,population
+1999-00,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2803343.0,population
+1999-00,E12000003,Social rented sector tenants,Not in low income (at or above threshold),656107.0,population
+2000-01,E12000001,All rented privately,Not in low income (at or above threshold),119883.0,population
+2000-01,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1412771.0,population
+2000-01,E12000001,Social rented sector tenants,Not in low income (at or above threshold),354171.0,population
+2000-01,E12000002,All rented privately,Not in low income (at or above threshold),360955.0,population
+2000-01,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4246425.0,population
+2000-01,E12000002,Social rented sector tenants,Not in low income (at or above threshold),716147.0,population
+2000-01,E12000003,All rented privately,Not in low income (at or above threshold),327745.0,population
+2000-01,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2923298.0,population
+2000-01,E12000003,Social rented sector tenants,Not in low income (at or above threshold),615280.0,population
+2001-02,E12000001,All rented privately,Not in low income (at or above threshold),99253.0,population
+2001-02,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1463774.0,population
+2001-02,E12000001,Social rented sector tenants,Not in low income (at or above threshold),402664.0,population
+2001-02,E12000002,All rented privately,Not in low income (at or above threshold),392288.0,population
+2001-02,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4083657.0,population
+2001-02,E12000002,Social rented sector tenants,Not in low income (at or above threshold),786218.0,population
+2001-02,E12000003,All rented privately,Not in low income (at or above threshold),354761.0,population
+2001-02,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2868868.0,population
+2001-02,E12000003,Social rented sector tenants,Not in low income (at or above threshold),619267.0,population
+2002-03,E12000001,All rented privately,Not in low income (at or above threshold),90819.0,population
+2002-03,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1380177.0,population
+2002-03,E12000001,Social rented sector tenants,Not in low income (at or above threshold),439860.0,population
+2002-03,E12000002,All rented privately,Not in low income (at or above threshold),407894.0,population
+2002-03,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4213203.0,population
+2002-03,E12000002,Social rented sector tenants,Not in low income (at or above threshold),767839.0,population
+2002-03,E12000003,All rented privately,Not in low income (at or above threshold),393962.0,population
+2002-03,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2947422.0,population
+2002-03,E12000003,Social rented sector tenants,Not in low income (at or above threshold),619529.0,population
+2003-04,E12000001,All rented privately,Not in low income (at or above threshold),99594.0,population
+2003-04,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1519452.0,population
+2003-04,E12000001,Social rented sector tenants,Not in low income (at or above threshold),357377.0,population
+2003-04,E12000002,All rented privately,Not in low income (at or above threshold),378193.0,population
+2003-04,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4247783.0,population
+2003-04,E12000002,Social rented sector tenants,Not in low income (at or above threshold),790672.0,population
+2003-04,E12000003,All rented privately,Not in low income (at or above threshold),381559.0,population
+2003-04,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2986307.0,population
+2003-04,E12000003,Social rented sector tenants,Not in low income (at or above threshold),618477.0,population
+2004-05,E12000001,All rented privately,Not in low income (at or above threshold),118121.0,population
+2004-05,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1529030.0,population
+2004-05,E12000001,Social rented sector tenants,Not in low income (at or above threshold),317835.0,population
+2004-05,E12000002,All rented privately,Not in low income (at or above threshold),516281.0,population
+2004-05,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4186354.0,population
+2004-05,E12000002,Social rented sector tenants,Not in low income (at or above threshold),801151.0,population
+2004-05,E12000003,All rented privately,Not in low income (at or above threshold),413614.0,population
+2004-05,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),3062253.0,population
+2004-05,E12000003,Social rented sector tenants,Not in low income (at or above threshold),607068.0,population
+2005-06,E12000001,All rented privately,Not in low income (at or above threshold),164162.0,population
+2005-06,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1419116.0,population
+2005-06,E12000001,Social rented sector tenants,Not in low income (at or above threshold),428521.0,population
+2005-06,E12000002,All rented privately,Not in low income (at or above threshold),519009.0,population
+2005-06,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4088293.0,population
+2005-06,E12000002,Social rented sector tenants,Not in low income (at or above threshold),784126.0,population
+2005-06,E12000003,All rented privately,Not in low income (at or above threshold),407035.0,population
+2005-06,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),3096225.0,population
+2005-06,E12000003,Social rented sector tenants,Not in low income (at or above threshold),532308.0,population
+2006-07,E12000001,All rented privately,Not in low income (at or above threshold),143868.0,population
+2006-07,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1466035.0,population
+2006-07,E12000001,Social rented sector tenants,Not in low income (at or above threshold),370067.0,population
+2006-07,E12000002,All rented privately,Not in low income (at or above threshold),502978.0,population
+2006-07,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4090434.0,population
+2006-07,E12000002,Social rented sector tenants,Not in low income (at or above threshold),777430.0,population
+2006-07,E12000003,All rented privately,Not in low income (at or above threshold),426142.0,population
+2006-07,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),3063123.0,population
+2006-07,E12000003,Social rented sector tenants,Not in low income (at or above threshold),511351.0,population
+2007-08,E12000001,All rented privately,Not in low income (at or above threshold),148048.0,population
+2007-08,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1419606.0,population
+2007-08,E12000001,Social rented sector tenants,Not in low income (at or above threshold),360016.0,population
+2007-08,E12000002,All rented privately,Not in low income (at or above threshold),573920.0,population
+2007-08,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4060137.0,population
+2007-08,E12000002,Social rented sector tenants,Not in low income (at or above threshold),743054.0,population
+2007-08,E12000003,All rented privately,Not in low income (at or above threshold),469414.0,population
+2007-08,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),3086630.0,population
+2007-08,E12000003,Social rented sector tenants,Not in low income (at or above threshold),504285.0,population
+2008-09,E12000001,All rented privately,Not in low income (at or above threshold),190526.0,population
+2008-09,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1476187.0,population
+2008-09,E12000001,Social rented sector tenants,Not in low income (at or above threshold),321348.0,population
+2008-09,E12000002,All rented privately,Not in low income (at or above threshold),655472.0,population
+2008-09,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4147022.0,population
+2008-09,E12000002,Social rented sector tenants,Not in low income (at or above threshold),781150.0,population
+2008-09,E12000003,All rented privately,Not in low income (at or above threshold),472047.0,population
+2008-09,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2980703.0,population
+2008-09,E12000003,Social rented sector tenants,Not in low income (at or above threshold),565765.0,population
+2009-10,E12000001,All rented privately,Not in low income (at or above threshold),206371.0,population
+2009-10,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1485685.0,population
+2009-10,E12000001,Social rented sector tenants,Not in low income (at or above threshold),346111.0,population
+2009-10,E12000002,All rented privately,Not in low income (at or above threshold),695873.0,population
+2009-10,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4095832.0,population
+2009-10,E12000002,Social rented sector tenants,Not in low income (at or above threshold),842293.0,population
+2009-10,E12000003,All rented privately,Not in low income (at or above threshold),637999.0,population
+2009-10,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2858676.0,population
+2009-10,E12000003,Social rented sector tenants,Not in low income (at or above threshold),597857.0,population
+2010-11,E12000001,All rented privately,Not in low income (at or above threshold),212853.0,population
+2010-11,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1478323.0,population
+2010-11,E12000001,Social rented sector tenants,Not in low income (at or above threshold),400849.0,population
+2010-11,E12000002,All rented privately,Not in low income (at or above threshold),838022.0,population
+2010-11,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4046907.0,population
+2010-11,E12000002,Social rented sector tenants,Not in low income (at or above threshold),804492.0,population
+2010-11,E12000003,All rented privately,Not in low income (at or above threshold),667935.0,population
+2010-11,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2820540.0,population
+2010-11,E12000003,Social rented sector tenants,Not in low income (at or above threshold),634423.0,population
+2011-12,E12000001,All rented privately,Not in low income (at or above threshold),254250.0,population
+2011-12,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1372255.0,population
+2011-12,E12000001,Social rented sector tenants,Not in low income (at or above threshold),459459.0,population
+2011-12,E12000002,All rented privately,Not in low income (at or above threshold),729645.0,population
+2011-12,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4068127.0,population
+2011-12,E12000002,Social rented sector tenants,Not in low income (at or above threshold),956443.0,population
+2011-12,E12000003,All rented privately,Not in low income (at or above threshold),651731.0,population
+2011-12,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2945668.0,population
+2011-12,E12000003,Social rented sector tenants,Not in low income (at or above threshold),665423.0,population
+2012-13,E12000001,All rented privately,Not in low income (at or above threshold),292582.0,population
+2012-13,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1413264.0,population
+2012-13,E12000001,Social rented sector tenants,Not in low income (at or above threshold),419783.0,population
+2012-13,E12000002,All rented privately,Not in low income (at or above threshold),830494.0,population
+2012-13,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4118885.0,population
+2012-13,E12000002,Social rented sector tenants,Not in low income (at or above threshold),816667.0,population
+2012-13,E12000003,All rented privately,Not in low income (at or above threshold),628961.0,population
+2012-13,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2850284.0,population
+2012-13,E12000003,Social rented sector tenants,Not in low income (at or above threshold),764113.0,population
+2013-14,E12000001,All rented privately,Not in low income (at or above threshold),357173.0,population
+2013-14,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1406159.0,population
+2013-14,E12000001,Social rented sector tenants,Not in low income (at or above threshold),372815.0,population
+2013-14,E12000002,All rented privately,Not in low income (at or above threshold),991424.0,population
+2013-14,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4014824.0,population
+2013-14,E12000002,Social rented sector tenants,Not in low income (at or above threshold),799924.0,population
+2013-14,E12000003,All rented privately,Not in low income (at or above threshold),795895.0,population
+2013-14,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2859867.0,population
+2013-14,E12000003,Social rented sector tenants,Not in low income (at or above threshold),706862.0,population
+2014-15,E12000001,All rented privately,Not in low income (at or above threshold),351300.0,population
+2014-15,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1345678.0,population
+2014-15,E12000001,Social rented sector tenants,Not in low income (at or above threshold),374321.0,population
+2014-15,E12000002,All rented privately,Not in low income (at or above threshold),892919.0,population
+2014-15,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4013445.0,population
+2014-15,E12000002,Social rented sector tenants,Not in low income (at or above threshold),783040.0,population
+2014-15,E12000003,All rented privately,Not in low income (at or above threshold),745788.0,population
+2014-15,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2992818.0,population
+2014-15,E12000003,Social rented sector tenants,Not in low income (at or above threshold),544525.0,population
+2015-16,E12000001,All rented privately,Not in low income (at or above threshold),374139.0,population
+2015-16,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1361121.0,population
+2015-16,E12000001,Social rented sector tenants,Not in low income (at or above threshold),372792.0,population
+2015-16,E12000002,All rented privately,Not in low income (at or above threshold),936610.0,population
+2015-16,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3981923.0,population
+2015-16,E12000002,Social rented sector tenants,Not in low income (at or above threshold),838700.0,population
+2015-16,E12000003,All rented privately,Not in low income (at or above threshold),882915.0,population
+2015-16,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2823491.0,population
+2015-16,E12000003,Social rented sector tenants,Not in low income (at or above threshold),585836.0,population
+2016-17,E12000001,All rented privately,Not in low income (at or above threshold),412244.0,population
+2016-17,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1335274.0,population
+2016-17,E12000001,Social rented sector tenants,Not in low income (at or above threshold),353616.0,population
+2016-17,E12000002,All rented privately,Not in low income (at or above threshold),1005378.0,population
+2016-17,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3873846.0,population
+2016-17,E12000002,Social rented sector tenants,Not in low income (at or above threshold),829680.0,population
+2016-17,E12000003,All rented privately,Not in low income (at or above threshold),811438.0,population
+2016-17,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2942343.0,population
+2016-17,E12000003,Social rented sector tenants,Not in low income (at or above threshold),607848.0,population
+2017-18,E12000001,All rented privately,Not in low income (at or above threshold),391976.0,population
+2017-18,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1334608.0,population
+2017-18,E12000001,Social rented sector tenants,Not in low income (at or above threshold),362509.0,population
+2017-18,E12000002,All rented privately,Not in low income (at or above threshold),1131990.0,population
+2017-18,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3869050.0,population
+2017-18,E12000002,Social rented sector tenants,Not in low income (at or above threshold),710640.0,population
+2017-18,E12000003,All rented privately,Not in low income (at or above threshold),654828.0,population
+2017-18,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2999679.0,population
+2017-18,E12000003,Social rented sector tenants,Not in low income (at or above threshold),611836.0,population
+2018-19,E12000001,All rented privately,Not in low income (at or above threshold),330351.0,population
+2018-19,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1426965.0,population
+2018-19,E12000001,Social rented sector tenants,Not in low income (at or above threshold),349024.0,population
+2018-19,E12000002,All rented privately,Not in low income (at or above threshold),1054088.0,population
+2018-19,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),3989836.0,population
+2018-19,E12000002,Social rented sector tenants,Not in low income (at or above threshold),817015.0,population
+2018-19,E12000003,All rented privately,Not in low income (at or above threshold),801024.0,population
+2018-19,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2759118.0,population
+2018-19,E12000003,Social rented sector tenants,Not in low income (at or above threshold),652923.0,population
+2019-20,E12000001,All rented privately,Not in low income (at or above threshold),277467.0,population
+2019-20,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1405763.0,population
+2019-20,E12000001,Social rented sector tenants,Not in low income (at or above threshold),274037.0,population
+2019-20,E12000002,All rented privately,Not in low income (at or above threshold),786790.0,population
+2019-20,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4053328.0,population
+2019-20,E12000002,Social rented sector tenants,Not in low income (at or above threshold),1040280.0,population
+2019-20,E12000003,All rented privately,Not in low income (at or above threshold),801315.0,population
+2019-20,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2820012.0,population
+2019-20,E12000003,Social rented sector tenants,Not in low income (at or above threshold),621433.0,population
+2020-21,E12000001,All rented privately,Not in low income (at or above threshold),0.0,population
+2020-21,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),0.0,population
+2020-21,E12000001,Social rented sector tenants,Not in low income (at or above threshold),0.0,population
+2020-21,E12000002,All rented privately,Not in low income (at or above threshold),0.0,population
+2020-21,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),0.0,population
+2020-21,E12000002,Social rented sector tenants,Not in low income (at or above threshold),0.0,population
+2020-21,E12000003,All rented privately,Not in low income (at or above threshold),0.0,population
+2020-21,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),0.0,population
+2020-21,E12000003,Social rented sector tenants,Not in low income (at or above threshold),0.0,population
+2021-22,E12000001,All rented privately,Not in low income (at or above threshold),361896.0,population
+2021-22,E12000001,Owned outright/buying with mortgage,Not in low income (at or above threshold),1316558.0,population
+2021-22,E12000001,Social rented sector tenants,Not in low income (at or above threshold),515682.0,population
+2021-22,E12000002,All rented privately,Not in low income (at or above threshold),910988.0,population
+2021-22,E12000002,Owned outright/buying with mortgage,Not in low income (at or above threshold),4047571.0,population
+2021-22,E12000002,Social rented sector tenants,Not in low income (at or above threshold),905512.0,population
+2021-22,E12000003,All rented privately,Not in low income (at or above threshold),759385.0,population
+2021-22,E12000003,Owned outright/buying with mortgage,Not in low income (at or above threshold),2883963.0,population
+2021-22,E12000003,Social rented sector tenants,Not in low income (at or above threshold),761619.0,population
+1994-95,E12000001,All rented privately,In low income (below threshold),49825.0,population
+1994-95,E12000001,Owned outright/buying with mortgage,In low income (below threshold),246441.0,population
+1994-95,E12000001,Social rented sector tenants,In low income (below threshold),283068.0,population
+1994-95,E12000002,All rented privately,In low income (below threshold),134215.0,population
+1994-95,E12000002,Owned outright/buying with mortgage,In low income (below threshold),739738.0,population
+1994-95,E12000002,Social rented sector tenants,In low income (below threshold),570457.0,population
+1994-95,E12000003,All rented privately,In low income (below threshold),123953.0,population
+1994-95,E12000003,Owned outright/buying with mortgage,In low income (below threshold),553167.0,population
+1994-95,E12000003,Social rented sector tenants,In low income (below threshold),462705.0,population
+1995-96,E12000001,All rented privately,In low income (below threshold),59955.0,population
+1995-96,E12000001,Owned outright/buying with mortgage,In low income (below threshold),270177.0,population
+1995-96,E12000001,Social rented sector tenants,In low income (below threshold),306715.0,population
+1995-96,E12000002,All rented privately,In low income (below threshold),105401.0,population
+1995-96,E12000002,Owned outright/buying with mortgage,In low income (below threshold),655546.0,population
+1995-96,E12000002,Social rented sector tenants,In low income (below threshold),507172.0,population
+1995-96,E12000003,All rented privately,In low income (below threshold),106417.0,population
+1995-96,E12000003,Owned outright/buying with mortgage,In low income (below threshold),582053.0,population
+1995-96,E12000003,Social rented sector tenants,In low income (below threshold),379243.0,population
+1996-97,E12000001,All rented privately,In low income (below threshold),60796.0,population
+1996-97,E12000001,Owned outright/buying with mortgage,In low income (below threshold),240683.0,population
+1996-97,E12000001,Social rented sector tenants,In low income (below threshold),308079.0,population
+1996-97,E12000002,All rented privately,In low income (below threshold),149886.0,population
+1996-97,E12000002,Owned outright/buying with mortgage,In low income (below threshold),725546.0,population
+1996-97,E12000002,Social rented sector tenants,In low income (below threshold),579375.0,population
+1996-97,E12000003,All rented privately,In low income (below threshold),92511.0,population
+1996-97,E12000003,Owned outright/buying with mortgage,In low income (below threshold),527755.0,population
+1996-97,E12000003,Social rented sector tenants,In low income (below threshold),484983.0,population
+1997-98,E12000001,All rented privately,In low income (below threshold),45807.0,population
+1997-98,E12000001,Owned outright/buying with mortgage,In low income (below threshold),246684.0,population
+1997-98,E12000001,Social rented sector tenants,In low income (below threshold),316585.0,population
+1997-98,E12000002,All rented privately,In low income (below threshold),154327.0,population
+1997-98,E12000002,Owned outright/buying with mortgage,In low income (below threshold),715599.0,population
+1997-98,E12000002,Social rented sector tenants,In low income (below threshold),610542.0,population
+1997-98,E12000003,All rented privately,In low income (below threshold),124983.0,population
+1997-98,E12000003,Owned outright/buying with mortgage,In low income (below threshold),521411.0,population
+1997-98,E12000003,Social rented sector tenants,In low income (below threshold),465801.0,population
+1998-99,E12000001,All rented privately,In low income (below threshold),71793.0,population
+1998-99,E12000001,Owned outright/buying with mortgage,In low income (below threshold),248246.0,population
+1998-99,E12000001,Social rented sector tenants,In low income (below threshold),341449.0,population
+1998-99,E12000002,All rented privately,In low income (below threshold),148160.0,population
+1998-99,E12000002,Owned outright/buying with mortgage,In low income (below threshold),897866.0,population
+1998-99,E12000002,Social rented sector tenants,In low income (below threshold),549884.0,population
+1998-99,E12000003,All rented privately,In low income (below threshold),114315.0,population
+1998-99,E12000003,Owned outright/buying with mortgage,In low income (below threshold),542046.0,population
+1998-99,E12000003,Social rented sector tenants,In low income (below threshold),531266.0,population
+1999-00,E12000001,All rented privately,In low income (below threshold),91797.0,population
+1999-00,E12000001,Owned outright/buying with mortgage,In low income (below threshold),246786.0,population
+1999-00,E12000001,Social rented sector tenants,In low income (below threshold),316547.0,population
+1999-00,E12000002,All rented privately,In low income (below threshold),108780.0,population
+1999-00,E12000002,Owned outright/buying with mortgage,In low income (below threshold),832692.0,population
+1999-00,E12000002,Social rented sector tenants,In low income (below threshold),467397.0,population
+1999-00,E12000003,All rented privately,In low income (below threshold),118960.0,population
+1999-00,E12000003,Owned outright/buying with mortgage,In low income (below threshold),572920.0,population
+1999-00,E12000003,Social rented sector tenants,In low income (below threshold),426967.0,population
+2000-01,E12000001,All rented privately,In low income (below threshold),64114.0,population
+2000-01,E12000001,Owned outright/buying with mortgage,In low income (below threshold),241929.0,population
+2000-01,E12000001,Social rented sector tenants,In low income (below threshold),309416.0,population
+2000-01,E12000002,All rented privately,In low income (below threshold),145473.0,population
+2000-01,E12000002,Owned outright/buying with mortgage,In low income (below threshold),714468.0,population
+2000-01,E12000002,Social rented sector tenants,In low income (below threshold),481326.0,population
+2000-01,E12000003,All rented privately,In low income (below threshold),110703.0,population
+2000-01,E12000003,Owned outright/buying with mortgage,In low income (below threshold),457628.0,population
+2000-01,E12000003,Social rented sector tenants,In low income (below threshold),442311.0,population
+2001-02,E12000001,All rented privately,In low income (below threshold),63766.0,population
+2001-02,E12000001,Owned outright/buying with mortgage,In low income (below threshold),240066.0,population
+2001-02,E12000001,Social rented sector tenants,In low income (below threshold),229211.0,population
+2001-02,E12000002,All rented privately,In low income (below threshold),148147.0,population
+2001-02,E12000002,Owned outright/buying with mortgage,In low income (below threshold),701499.0,population
+2001-02,E12000002,Social rented sector tenants,In low income (below threshold),549860.0,population
+2001-02,E12000003,All rented privately,In low income (below threshold),121996.0,population
+2001-02,E12000003,Owned outright/buying with mortgage,In low income (below threshold),435586.0,population
+2001-02,E12000003,Social rented sector tenants,In low income (below threshold),492235.0,population
+2002-03,E12000001,All rented privately,In low income (below threshold),46783.0,population
+2002-03,E12000001,Owned outright/buying with mortgage,In low income (below threshold),263313.0,population
+2002-03,E12000001,Social rented sector tenants,In low income (below threshold),274104.0,population
+2002-03,E12000002,All rented privately,In low income (below threshold),144976.0,population
+2002-03,E12000002,Owned outright/buying with mortgage,In low income (below threshold),675346.0,population
+2002-03,E12000002,Social rented sector tenants,In low income (below threshold),454371.0,population
+2002-03,E12000003,All rented privately,In low income (below threshold),125835.0,population
+2002-03,E12000003,Owned outright/buying with mortgage,In low income (below threshold),506662.0,population
+2002-03,E12000003,Social rented sector tenants,In low income (below threshold),316691.0,population
+2003-04,E12000001,All rented privately,In low income (below threshold),66789.0,population
+2003-04,E12000001,Owned outright/buying with mortgage,In low income (below threshold),210460.0,population
+2003-04,E12000001,Social rented sector tenants,In low income (below threshold),240669.0,population
+2003-04,E12000002,All rented privately,In low income (below threshold),154092.0,population
+2003-04,E12000002,Owned outright/buying with mortgage,In low income (below threshold),686951.0,population
+2003-04,E12000002,Social rented sector tenants,In low income (below threshold),434838.0,population
+2003-04,E12000003,All rented privately,In low income (below threshold),123110.0,population
+2003-04,E12000003,Owned outright/buying with mortgage,In low income (below threshold),527307.0,population
+2003-04,E12000003,Social rented sector tenants,In low income (below threshold),299190.0,population
+2004-05,E12000001,All rented privately,In low income (below threshold),58364.0,population
+2004-05,E12000001,Owned outright/buying with mortgage,In low income (below threshold),239170.0,population
+2004-05,E12000001,Social rented sector tenants,In low income (below threshold),231812.0,population
+2004-05,E12000002,All rented privately,In low income (below threshold),170522.0,population
+2004-05,E12000002,Owned outright/buying with mortgage,In low income (below threshold),611074.0,population
+2004-05,E12000002,Social rented sector tenants,In low income (below threshold),432490.0,population
+2004-05,E12000003,All rented privately,In low income (below threshold),100068.0,population
+2004-05,E12000003,Owned outright/buying with mortgage,In low income (below threshold),429821.0,population
+2004-05,E12000003,Social rented sector tenants,In low income (below threshold),358730.0,population
+2005-06,E12000001,All rented privately,In low income (below threshold),64169.0,population
+2005-06,E12000001,Owned outright/buying with mortgage,In low income (below threshold),218893.0,population
+2005-06,E12000001,Social rented sector tenants,In low income (below threshold),205981.0,population
+2005-06,E12000002,All rented privately,In low income (below threshold),196349.0,population
+2005-06,E12000002,Owned outright/buying with mortgage,In low income (below threshold),774953.0,population
+2005-06,E12000002,Social rented sector tenants,In low income (below threshold),383656.0,population
+2005-06,E12000003,All rented privately,In low income (below threshold),166208.0,population
+2005-06,E12000003,Owned outright/buying with mortgage,In low income (below threshold),500887.0,population
+2005-06,E12000003,Social rented sector tenants,In low income (below threshold),313304.0,population
+2006-07,E12000001,All rented privately,In low income (below threshold),106669.0,population
+2006-07,E12000001,Owned outright/buying with mortgage,In low income (below threshold),215287.0,population
+2006-07,E12000001,Social rented sector tenants,In low income (below threshold),204253.0,population
+2006-07,E12000002,All rented privately,In low income (below threshold),221980.0,population
+2006-07,E12000002,Owned outright/buying with mortgage,In low income (below threshold),733962.0,population
+2006-07,E12000002,Social rented sector tenants,In low income (below threshold),450398.0,population
+2006-07,E12000003,All rented privately,In low income (below threshold),164979.0,population
+2006-07,E12000003,Owned outright/buying with mortgage,In low income (below threshold),575966.0,population
+2006-07,E12000003,Social rented sector tenants,In low income (below threshold),299664.0,population
+2007-08,E12000001,All rented privately,In low income (below threshold),73819.0,population
+2007-08,E12000001,Owned outright/buying with mortgage,In low income (below threshold),259337.0,population
+2007-08,E12000001,Social rented sector tenants,In low income (below threshold),255138.0,population
+2007-08,E12000002,All rented privately,In low income (below threshold),182545.0,population
+2007-08,E12000002,Owned outright/buying with mortgage,In low income (below threshold),692831.0,population
+2007-08,E12000002,Social rented sector tenants,In low income (below threshold),552575.0,population
+2007-08,E12000003,All rented privately,In low income (below threshold),144103.0,population
+2007-08,E12000003,Owned outright/buying with mortgage,In low income (below threshold),550339.0,population
+2007-08,E12000003,Social rented sector tenants,In low income (below threshold),316262.0,population
+2008-09,E12000001,All rented privately,In low income (below threshold),82920.0,population
+2008-09,E12000001,Owned outright/buying with mortgage,In low income (below threshold),269549.0,population
+2008-09,E12000001,Social rented sector tenants,In low income (below threshold),181228.0,population
+2008-09,E12000002,All rented privately,In low income (below threshold),212609.0,population
+2008-09,E12000002,Owned outright/buying with mortgage,In low income (below threshold),635688.0,population
+2008-09,E12000002,Social rented sector tenants,In low income (below threshold),400222.0,population
+2008-09,E12000003,All rented privately,In low income (below threshold),187979.0,population
+2008-09,E12000003,Owned outright/buying with mortgage,In low income (below threshold),570833.0,population
+2008-09,E12000003,Social rented sector tenants,In low income (below threshold),326314.0,population
+2009-10,E12000001,All rented privately,In low income (below threshold),67206.0,population
+2009-10,E12000001,Owned outright/buying with mortgage,In low income (below threshold),245365.0,population
+2009-10,E12000001,Social rented sector tenants,In low income (below threshold),179036.0,population
+2009-10,E12000002,All rented privately,In low income (below threshold),248943.0,population
+2009-10,E12000002,Owned outright/buying with mortgage,In low income (below threshold),614601.0,population
+2009-10,E12000002,Social rented sector tenants,In low income (below threshold),365602.0,population
+2009-10,E12000003,All rented privately,In low income (below threshold),174075.0,population
+2009-10,E12000003,Owned outright/buying with mortgage,In low income (below threshold),569620.0,population
+2009-10,E12000003,Social rented sector tenants,In low income (below threshold),292348.0,population
+2010-11,E12000001,All rented privately,In low income (below threshold),91244.0,population
+2010-11,E12000001,Owned outright/buying with mortgage,In low income (below threshold),188467.0,population
+2010-11,E12000001,Social rented sector tenants,In low income (below threshold),168808.0,population
+2010-11,E12000002,All rented privately,In low income (below threshold),266818.0,population
+2010-11,E12000002,Owned outright/buying with mortgage,In low income (below threshold),603432.0,population
+2010-11,E12000002,Social rented sector tenants,In low income (below threshold),335822.0,population
+2010-11,E12000003,All rented privately,In low income (below threshold),175662.0,population
+2010-11,E12000003,Owned outright/buying with mortgage,In low income (below threshold),530907.0,population
+2010-11,E12000003,Social rented sector tenants,In low income (below threshold),331908.0,population
+2011-12,E12000001,All rented privately,In low income (below threshold),81975.0,population
+2011-12,E12000001,Owned outright/buying with mortgage,In low income (below threshold),193024.0,population
+2011-12,E12000001,Social rented sector tenants,In low income (below threshold),202240.0,population
+2011-12,E12000002,All rented privately,In low income (below threshold),240813.0,population
+2011-12,E12000002,Owned outright/buying with mortgage,In low income (below threshold),636134.0,population
+2011-12,E12000002,Social rented sector tenants,In low income (below threshold),336434.0,population
+2011-12,E12000003,All rented privately,In low income (below threshold),159909.0,population
+2011-12,E12000003,Owned outright/buying with mortgage,In low income (below threshold),578277.0,population
+2011-12,E12000003,Social rented sector tenants,In low income (below threshold),220592.0,population
+2012-13,E12000001,All rented privately,In low income (below threshold),56222.0,population
+2012-13,E12000001,Owned outright/buying with mortgage,In low income (below threshold),230098.0,population
+2012-13,E12000001,Social rented sector tenants,In low income (below threshold),157098.0,population
+2012-13,E12000002,All rented privately,In low income (below threshold),288942.0,population
+2012-13,E12000002,Owned outright/buying with mortgage,In low income (below threshold),575616.0,population
+2012-13,E12000002,Social rented sector tenants,In low income (below threshold),364685.0,population
+2012-13,E12000003,All rented privately,In low income (below threshold),175075.0,population
+2012-13,E12000003,Owned outright/buying with mortgage,In low income (below threshold),535741.0,population
+2012-13,E12000003,Social rented sector tenants,In low income (below threshold),295611.0,population
+2013-14,E12000001,All rented privately,In low income (below threshold),69218.0,population
+2013-14,E12000001,Owned outright/buying with mortgage,In low income (below threshold),156429.0,population
+2013-14,E12000001,Social rented sector tenants,In low income (below threshold),198782.0,population
+2013-14,E12000002,All rented privately,In low income (below threshold),248492.0,population
+2013-14,E12000002,Owned outright/buying with mortgage,In low income (below threshold),553783.0,population
+2013-14,E12000002,Social rented sector tenants,In low income (below threshold),372826.0,population
+2013-14,E12000003,All rented privately,In low income (below threshold),188849.0,population
+2013-14,E12000003,Owned outright/buying with mortgage,In low income (below threshold),442058.0,population
+2013-14,E12000003,Social rented sector tenants,In low income (below threshold),246893.0,population
+2014-15,E12000001,All rented privately,In low income (below threshold),94205.0,population
+2014-15,E12000001,Owned outright/buying with mortgage,In low income (below threshold),238958.0,population
+2014-15,E12000001,Social rented sector tenants,In low income (below threshold),167612.0,population
+2014-15,E12000002,All rented privately,In low income (below threshold),295224.0,population
+2014-15,E12000002,Owned outright/buying with mortgage,In low income (below threshold),594207.0,population
+2014-15,E12000002,Social rented sector tenants,In low income (below threshold),431329.0,population
+2014-15,E12000003,All rented privately,In low income (below threshold),189860.0,population
+2014-15,E12000003,Owned outright/buying with mortgage,In low income (below threshold),492951.0,population
+2014-15,E12000003,Social rented sector tenants,In low income (below threshold),296541.0,population
+2015-16,E12000001,All rented privately,In low income (below threshold),102963.0,population
+2015-16,E12000001,Owned outright/buying with mortgage,In low income (below threshold),186920.0,population
+2015-16,E12000001,Social rented sector tenants,In low income (below threshold),183933.0,population
+2015-16,E12000002,All rented privately,In low income (below threshold),300777.0,population
+2015-16,E12000002,Owned outright/buying with mortgage,In low income (below threshold),615873.0,population
+2015-16,E12000002,Social rented sector tenants,In low income (below threshold),367192.0,population
+2015-16,E12000003,All rented privately,In low income (below threshold),203057.0,population
+2015-16,E12000003,Owned outright/buying with mortgage,In low income (below threshold),512344.0,population
+2015-16,E12000003,Social rented sector tenants,In low income (below threshold),281084.0,population
+2016-17,E12000001,All rented privately,In low income (below threshold),130464.0,population
+2016-17,E12000001,Owned outright/buying with mortgage,In low income (below threshold),219844.0,population
+2016-17,E12000001,Social rented sector tenants,In low income (below threshold),139098.0,population
+2016-17,E12000002,All rented privately,In low income (below threshold),257051.0,population
+2016-17,E12000002,Owned outright/buying with mortgage,In low income (below threshold),742631.0,population
+2016-17,E12000002,Social rented sector tenants,In low income (below threshold),359595.0,population
+2016-17,E12000003,All rented privately,In low income (below threshold),232603.0,population
+2016-17,E12000003,Owned outright/buying with mortgage,In low income (below threshold),476320.0,population
+2016-17,E12000003,Social rented sector tenants,In low income (below threshold),241392.0,population
+2017-18,E12000001,All rented privately,In low income (below threshold),142690.0,population
+2017-18,E12000001,Owned outright/buying with mortgage,In low income (below threshold),208455.0,population
+2017-18,E12000001,Social rented sector tenants,In low income (below threshold),157359.0,population
+2017-18,E12000002,All rented privately,In low income (below threshold),300755.0,population
+2017-18,E12000002,Owned outright/buying with mortgage,In low income (below threshold),696817.0,population
+2017-18,E12000002,Social rented sector tenants,In low income (below threshold),422956.0,population
+2017-18,E12000003,All rented privately,In low income (below threshold),225005.0,population
+2017-18,E12000003,Owned outright/buying with mortgage,In low income (below threshold),513398.0,population
+2017-18,E12000003,Social rented sector tenants,In low income (below threshold),346251.0,population
+2018-19,E12000001,All rented privately,In low income (below threshold),128296.0,population
+2018-19,E12000001,Owned outright/buying with mortgage,In low income (below threshold),224953.0,population
+2018-19,E12000001,Social rented sector tenants,In low income (below threshold),155990.0,population
+2018-19,E12000002,All rented privately,In low income (below threshold),288013.0,population
+2018-19,E12000002,Owned outright/buying with mortgage,In low income (below threshold),713946.0,population
+2018-19,E12000002,Social rented sector tenants,In low income (below threshold),330341.0,population
+2018-19,E12000003,All rented privately,In low income (below threshold),353601.0,population
+2018-19,E12000003,Owned outright/buying with mortgage,In low income (below threshold),554936.0,population
+2018-19,E12000003,Social rented sector tenants,In low income (below threshold),282520.0,population
+2019-20,E12000001,All rented privately,In low income (below threshold),159558.0,population
+2019-20,E12000001,Owned outright/buying with mortgage,In low income (below threshold),295474.0,population
+2019-20,E12000001,Social rented sector tenants,In low income (below threshold),209705.0,population
+2019-20,E12000002,All rented privately,In low income (below threshold),290565.0,population
+2019-20,E12000002,Owned outright/buying with mortgage,In low income (below threshold),628029.0,population
+2019-20,E12000002,Social rented sector tenants,In low income (below threshold),414491.0,population
+2019-20,E12000003,All rented privately,In low income (below threshold),326574.0,population
+2019-20,E12000003,Owned outright/buying with mortgage,In low income (below threshold),566707.0,population
+2019-20,E12000003,Social rented sector tenants,In low income (below threshold),267390.0,population
+2020-21,E12000001,All rented privately,In low income (below threshold),0.0,population
+2020-21,E12000001,Owned outright/buying with mortgage,In low income (below threshold),0.0,population
+2020-21,E12000001,Social rented sector tenants,In low income (below threshold),0.0,population
+2020-21,E12000002,All rented privately,In low income (below threshold),0.0,population
+2020-21,E12000002,Owned outright/buying with mortgage,In low income (below threshold),0.0,population
+2020-21,E12000002,Social rented sector tenants,In low income (below threshold),0.0,population
+2020-21,E12000003,All rented privately,In low income (below threshold),0.0,population
+2020-21,E12000003,Owned outright/buying with mortgage,In low income (below threshold),0.0,population
+2020-21,E12000003,Social rented sector tenants,In low income (below threshold),0.0,population
+2021-22,E12000001,All rented privately,In low income (below threshold),122681.0,population
+2021-22,E12000001,Owned outright/buying with mortgage,In low income (below threshold),151741.0,population
+2021-22,E12000001,Social rented sector tenants,In low income (below threshold),149240.0,population
+2021-22,E12000002,All rented privately,In low income (below threshold),275155.0,population
+2021-22,E12000002,Owned outright/buying with mortgage,In low income (below threshold),697815.0,population
+2021-22,E12000002,Social rented sector tenants,In low income (below threshold),393392.0,population
+2021-22,E12000003,All rented privately,In low income (below threshold),212651.0,population
+2021-22,E12000003,Owned outright/buying with mortgage,In low income (below threshold),558820.0,population
+2021-22,E12000003,Social rented sector tenants,In low income (below threshold),253041.0,population

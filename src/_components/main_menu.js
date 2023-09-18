@@ -3,9 +3,12 @@ export default function ({ search, comp }) {
   const spotlights = search.pages('spotlight main', 'title').map(({ title, target }) => ({ title, url: target }));
 
   const items = [
-    { title: 'Places', children: places },
     { title: 'Spotlights', children: spotlights },
-    { title: 'Data', url: '/metadata/' }
+    { title: 'Places', children: places },
+    { title: 'Data', url: '/metadata/' },
+    { title: 'About', url: '/about/' },
+    // TODO make this float to the right and have a magnifying glass icon
+    { title: 'Search', url: '/search/' },
   ];
 
   return comp.menu({ items, classes: 'page-flow' })

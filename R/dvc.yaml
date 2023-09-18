@@ -1,0 +1,75 @@
+stages:
+  # ashe = COLLECTION - big one - more work required - unzip from file, etc
+
+  claimant-count:
+    cmd: Rscript R/claimant-count.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/claimant-count.R
+    outs:
+      - data/claimant-count/claimant-count.csv:
+          persist: false
+          cache: false
+
+  # cstop-households = COLLECTION
+  # fuel-poverty = COLLECTION
+  # gva - from EDD
+  # house-prices
+  # imd 
+  # individual-insolvencies = COLLECTION
+  # R/jobs-below-living-wage.R
+  # R/labour-market.R
+  labour-market:
+    cmd: Rscript R/labour-market.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/labour-market.R
+    outs:
+      - data/labour-market/labour-market.csv:
+          persist: false
+          cache: false
+
+  # R/local-council-tax-support.R
+  council-tax-support:
+    frozen: true
+    cmd: Rscript R/local-council-tax-support.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/local-council-tax-support.R
+    outs:
+      - data/council-tax-support/council-tax-support.csv:
+          persist: false
+          cache: false
+
+  # R/mortgage-landlord-possession.R
+  mortgage-landlord-possession:
+    frozen: true
+    cmd: Rscript R/mortgage-landlord-possession.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/mortgage-landlord-possession.R
+    outs: []
+
+  # R/population-estimates.R
+  # R/rental-prices.R
+  rental-prices:
+    # frozen: true
+    cmd: Rscript R/rental-prices.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/rental-prices.R
+    outs:
+      - data/rental-prices/rental-prices.csv:
+          persist: false
+          cache: false
+      - data/rental-prices/rental-prices.rds:
+          persist: false
+          cache: false
+
+  # R/statutory-homelessness.R
+  

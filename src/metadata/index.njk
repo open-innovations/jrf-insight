@@ -3,11 +3,20 @@ title: Metadata index
 ---
 
 {% comp 'grid.masonry' %}
-{% for page in search.pages('metadata', 'id') %}
+  {% for page in search.pages('metadata missing_specs=0', 'name') %}
+    {% comp 'link.block_link', { href: page.url } %}
+    {% comp 'grid.block', { style: '--background:var(--jrf-moderate-cyan);' } %}
+    <p>{{ page.title }}</p>
+    {% endcomp %}
+  {% endcomp %}
+{% endfor %}
+
+{% for page in search.pages('metadata missing_specs>0', 'missing_specs name') %}
   {% comp 'link.block_link', { href: page.url } %}
   {% comp 'grid.block' %}
-  <p>{{ page.title | replace('-', ' ') }}</p>
+  <p>{{ page.title }} ({{ page.missing_specs  }})</p>
   {% endcomp %}
   {% endcomp %}
 {% endfor %}
+
 {% endcomp %}

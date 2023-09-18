@@ -1,10 +1,15 @@
 vars:
   - top: '../..'
 stages:
-  prepare:
-    cmd: papermill prepare.ipynb output/prep-metadata.ipynb
+  list:
+    cmd: papermill list-metadata.ipynb output/list-metadata.ipynb
+    always_changed: true
     deps:
-      - prepare.ipynb
+      - list-metadata.ipynb
+  prepare:
+    cmd: papermill prep-metadata.ipynb output/prep-metadata.ipynb
+    deps:
+      - prep-metadata.ipynb
       - ${top}/data/
     outs:
       - ${top}/src/_data/metadata/catalogue.json:

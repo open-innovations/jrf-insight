@@ -1,0 +1,9 @@
+{
+    "database": "str:database:BSP_Claims", 
+    "measures": [], 
+    "dimensions": [
+        [
+            "str:field:BSP_Claims:F_BSP_MONTH:MONTH_NAME"
+        ]
+    ]
+}

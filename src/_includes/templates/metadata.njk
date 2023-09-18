@@ -2,6 +2,22 @@
 layout: ./page.njk
 ---
 
+{{ description | md | safe }}
+
+{% if source %}
+<p>The data originiates at <a href="{{ source.href }}">{{ source.title }}</a>.</p>
+{% endif %}
+
+<p>GitHub content for {{ title }}</p>
+
+<ul>
+{% if pipeline %}
+<li><a target="_blank" href="{{ 'https://github.com/open-innovations/jrf-insight/blob/main/' + pipeline }}">Data processing pipeline</a></li>
+{% endif %}
+{# TODO Make this a proper link #}
+<li><a target="_blank" href="{{ 'https://github.com/open-innovations/jrf-insight/blob/main/data/' + file }}">Processed data </a></li>
+</ul>
+
 <h2>Dimensions</h2>
 
 <table class="top-trump-table">

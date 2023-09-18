@@ -11,7 +11,6 @@ cc_data <- cc |>
   dplyr::select(date,
                 geography_code,
                 geography_name,
-                geography_type,
                 variable_name = measure_name,
                 value = obs_value) |>
   dplyr::distinct() # we have both upper and lower tier, so unitaries will appear in both - BUT ... looks like as I've called them on the same API call, the API has deduped

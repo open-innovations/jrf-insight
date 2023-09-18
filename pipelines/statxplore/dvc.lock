@@ -7,19 +7,19 @@ stages:
       hash: md5
       md5: b60b26cdf24ceeeb602e765dc700cf97
       size: 197974
+    - path: pipelines/statxplore/api.py
+      hash: md5
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
     - path: pipelines/statxplore/extract.py
       hash: md5
-      md5: 93fb99678d5a045bd508dafffec5b072
-      size: 6167
+      md5: 7fcb112ffc876814fffa83311e5437c0
+      size: 4256
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: ab2e03259e2e40fb65f4980651065854.dir
-      size: 702082
-      nfiles: 9
-    - path: pipelines/statxplore/utils.py
-      hash: md5
-      md5: fece339f296186e0bc51b57522010a19
-      size: 12007
+      md5: 2599316234adc9721270cac969790f1e.dir
+      size: 702214
+      nfiles: 8
     outs:
     - path: data/HB/claimants.csv
       hash: md5
@@ -33,31 +33,6 @@ stages:
       hash: md5
       md5: 316de9b77ab78697531e257e1b4796e0
       size: 5373056
-    - path: data/hbai/Age of the Youngest Child in the Family of the Individual.csv
-      hash: md5
-      md5: 16d341f4ba042827b887e0e10893234e
-      size: 66604
-    - path: data/hbai/Ethnic Group of the Head of the Household (please calculate
-        three-year averages - click on i for the correct method).csv
-      hash: md5
-      md5: 205736b9aafd8d0899d9a475b2452c96
-      size: 92164
-    - path: data/hbai/Number of Children in the Family of the Individual.csv
-      hash: md5
-      md5: b0fe2eb018129a3daeb27ed5f9abd2f0
-      size: 55248
-    - path: data/hbai/Savings and Investments of Adults in the Family of the Individual.csv
-      hash: md5
-      md5: 527f93156a617685dee55361ee00034c
-      size: 126397
-    - path: data/hbai/Tenure Type of the Household of the Individual.csv
-      hash: md5
-      md5: 7820919108a895b6c9a2cd54b40ae7ed
-      size: 48635
-    - path: data/hbai/Type of Individual by Age Category.csv
-      hash: md5
-      md5: a3463d28a353a73e89de5a507489e9fc
-      size: 38920
     - path: data/smi/smi_in_payment_amount.csv
       hash: md5
       md5: 2ff667c2110aa862a738aa5db395ed64
@@ -66,41 +41,43 @@ stages:
       hash: md5
       md5: 9c67380f3fa50de53598327efcbdb660
       size: 3609
-  probe:
-    cmd: PYTHONPATH= python pipelines/statxplore/probe.py
+  extract-hbai:
+    cmd: papermill hbai.ipynb ../../data/_working/output/hbai.ipynb
     deps:
-    - path: pipelines/statxplore/probe.py
+    - path: api.py
       hash: md5
-      md5: 249162b3e57ab628456b4ed549239105
-      size: 1157
-    - path: pipelines/statxplore/utils.py
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
+    - path: hbai.ipynb
       hash: md5
-      md5: 48f06f142dbaf83397c16dbf007376fc
-      size: 12247
+      md5: 1336cea558fa527b646b9ee465eb5743
+      size: 114780
+    - path: json/data/HBAI.json
+      hash: md5
+      md5: 2f8057486298e99807d3fe211eace969
+      size: 636
     outs:
-    - path: data/lookups
-      md5: 58372dbb6994acbf262b651c7bcfa744.dir
-      size: 167521
-      nfiles: 324
-  describe:
-    cmd: PYTHONPATH= python pipelines/statxplore/describe.py
-    deps:
-    - path: data/lookups
+    - path: ../../data/hbai/by_age_category.csv
       hash: md5
-      md5: 07631856ad5646ef2bd02734e2fcfbae.dir
-      size: 272897
-      nfiles: 431
-    - path: pipelines/statxplore/describe.py
+      md5: 2d36d5fccf953b3f4570662b37f0dcec
+      size: 42615
+    - path: ../../data/hbai/by_age_of_youngest_child.csv
       hash: md5
-      md5: f8358e1cd28f95a712f71547d034ce05
-      size: 3918
-    - path: pipelines/statxplore/utils.py
+      md5: 28395be637986fcbd0a04b749dad63e6
+      size: 72763
+    - path: ../../data/hbai/by_ethnic_group.csv
       hash: md5
-      md5: 48f06f142dbaf83397c16dbf007376fc
-      size: 12247
-    outs:
-    - path: pipelines/statxplore/json/metadata
+      md5: 981186c38ba474406cdd002477c5a711
+      size: 99480
+    - path: ../../data/hbai/by_number_of_children.csv
       hash: md5
-      md5: c6a03ccd3f3f59941ddde60546ed118d.dir
-      size: 18701
-      nfiles: 107
+      md5: a751842be6d91e101f74323543dcc017
+      size: 60175
+    - path: ../../data/hbai/by_savings_and_investments.csv
+      hash: md5
+      md5: 20a1d1a44fad3c2b30b24ab42ac30470
+      size: 136252
+    - path: ../../data/hbai/by_tenure_type.csv
+      hash: md5
+      md5: debd5fdb79cd3b61d666ee04ae2cbe40
+      size: 52330

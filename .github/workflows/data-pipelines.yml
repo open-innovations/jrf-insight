@@ -5,11 +5,11 @@ name: Data Pipeline
   # schedule:
     # * is a special character in YAML so you have to quote this string
     # - cron: "30 23 * * *"
-  push:
-    paths:
-      - 'data/**'
-      - 'pipelines/**'
-      - '.github/workflows/data-pipelines.yml'
+  # push:
+  #   paths:
+  #     - 'data/**'
+  #     - 'pipelines/**'
+  #     - '.github/workflows/data-pipelines.yml'
 
 
 jobs:
@@ -28,6 +28,15 @@ jobs:
       - name: Install pipenv
         run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
 
+      - name: 'Install R'
+        uses: r-lib/actions/setup-r@v2
+        with:
+          # r-version: '4.3.1'
+          use-public-rspm: true
+
+      - name: Setup {renv}
+        uses: r-lib/actions/setup-renv@v2
+
       - name: Install dependencies
         run: pipenv sync
 
@@ -37,10 +46,10 @@ jobs:
 
         run: |
           pipenv run dvc update -R data
-          pipenv run dvc repro -R pipelines/place/ pipelines/metadata/
+          pipenv run dvc repro -R R/ pipelines/ 
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Data updates
-          file_pattern: data src
+          file_pattern: data data-raw src
