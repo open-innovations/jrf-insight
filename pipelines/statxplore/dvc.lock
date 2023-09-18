@@ -50,36 +50,34 @@ stages:
       size: 339
     - path: hbai.ipynb
       hash: md5
-      md5: eb31fd068826d2d65482c5150347adaf
-      size: 4017
+      md5: c0bbc64091e3648413906b0f0e0c2b69
+      size: 3971
     - path: json/data/HBAI.json
       hash: md5
       md5: 2f8057486298e99807d3fe211eace969
       size: 636
     outs:
-    - path: ../../data/hbai/Age of the Youngest Child in the Family of the Individual.csv
+    - path: ../../data/hbai/by_age_category.csv
       hash: md5
-      md5: 16d341f4ba042827b887e0e10893234e
-      size: 66604
-    - path: ../../data/hbai/Ethnic Group of the Head of the Household (please calculate
-        three-year averages - click on i for the correct method).csv
+      md5: 74ef3fdd6c25a6a832520652d338282b
+      size: 49671
+    - path: ../../data/hbai/by_age_of_youngest_child.csv
       hash: md5
-      md5: 205736b9aafd8d0899d9a475b2452c96
-      size: 92164
-    - path: ../../data/hbai/Number of Children in the Family of the Individual.csv
+      md5: c3dcf9c556e0ec42f1761d1e467f5a9d
+      size: 84523
+    - path: ../../data/hbai/by_ethnic_group.csv
       hash: md5
-      md5: b0fe2eb018129a3daeb27ed5f9abd2f0
-      size: 55248
-    - path: ../../data/hbai/Savings and Investments of Adults in the Family of the
-        Individual.csv
+      md5: a0667f24054fce905f29bb6a9dd006ab
+      size: 113592
+    - path: ../../data/hbai/by_number_of_children.csv
       hash: md5
-      md5: 527f93156a617685dee55361ee00034c
-      size: 126397
-    - path: ../../data/hbai/Tenure Type of the Household of the Individual.csv
+      md5: bc48b96234022a36766d84ffe0c55626
+      size: 69583
+    - path: ../../data/hbai/by_savings_and_investments.csv
       hash: md5
-      md5: 7820919108a895b6c9a2cd54b40ae7ed
-      size: 48635
-    - path: ../../data/hbai/Type of Individual by Age Category.csv
+      md5: 69ac88d2a4ade25c6ab3e2c329c84601
+      size: 155068
+    - path: ../../data/hbai/by_tenure_type.csv
       hash: md5
-      md5: a3463d28a353a73e89de5a507489e9fc
-      size: 38920
+      md5: 19b2ae491840465138e544d51b1da529
+      size: 59386

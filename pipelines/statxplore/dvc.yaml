@@ -9,22 +9,22 @@ stages:
       - api.py
       - json/data/HBAI.json
     outs: 
-      - ${top}/data/hbai/Age of the Youngest Child in the Family of the Individual.csv:
+      - ${top}/data/hbai/by_age_category.csv:
           cache: false
           persist: false
-      - ${top}/data/hbai/Ethnic Group of the Head of the Household (please calculate three-year averages - click on i for the correct method).csv:
+      - ${top}/data/hbai/by_age_of_youngest_child.csv:
           cache: false
           persist: false
-      - ${top}/data/hbai/Number of Children in the Family of the Individual.csv:
+      - ${top}/data/hbai/by_ethnic_group.csv:
           cache: false
           persist: false
-      - ${top}/data/hbai/Savings and Investments of Adults in the Family of the Individual.csv:
+      - ${top}/data/hbai/by_number_of_children.csv:
           cache: false
           persist: false
-      - ${top}/data/hbai/Tenure Type of the Household of the Individual.csv:
+      - ${top}/data/hbai/by_savings_and_investments.csv:
           cache: false
           persist: false
-      - ${top}/data/hbai/Type of Individual by Age Category.csv:
+      - ${top}/data/hbai/by_tenure_type.csv:
           cache: false
           persist: false
   extract:

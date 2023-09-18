@@ -1,0 +1,673 @@
+Financial Year,geography_code,Number of Children in the Family of the Individual,income_status,value,variable_name
+1994-95,E12000001,No children,Not in low income (at or above threshold),1137063.0,households_in_low_income
+1994-95,E12000001,One child,Not in low income (at or above threshold),279926.0,households_in_low_income
+1994-95,E12000001,Three or more children,Not in low income (at or above threshold),157205.0,households_in_low_income
+1994-95,E12000001,Two children,Not in low income (at or above threshold),396991.0,households_in_low_income
+1994-95,E12000002,No children,Not in low income (at or above threshold),2973221.0,households_in_low_income
+1994-95,E12000002,One child,Not in low income (at or above threshold),831718.0,households_in_low_income
+1994-95,E12000002,Three or more children,Not in low income (at or above threshold),425452.0,households_in_low_income
+1994-95,E12000002,Two children,Not in low income (at or above threshold),1058353.0,households_in_low_income
+1994-95,E12000003,No children,Not in low income (at or above threshold),2134050.0,households_in_low_income
+1994-95,E12000003,One child,Not in low income (at or above threshold),564647.0,households_in_low_income
+1994-95,E12000003,Three or more children,Not in low income (at or above threshold),301189.0,households_in_low_income
+1994-95,E12000003,Two children,Not in low income (at or above threshold),743147.0,households_in_low_income
+1995-96,E12000001,No children,Not in low income (at or above threshold),1091057.0,households_in_low_income
+1995-96,E12000001,One child,Not in low income (at or above threshold),308869.0,households_in_low_income
+1995-96,E12000001,Three or more children,Not in low income (at or above threshold),158794.0,households_in_low_income
+1995-96,E12000001,Two children,Not in low income (at or above threshold),347744.0,households_in_low_income
+1995-96,E12000002,No children,Not in low income (at or above threshold),3068957.0,households_in_low_income
+1995-96,E12000002,One child,Not in low income (at or above threshold),777075.0,households_in_low_income
+1995-96,E12000002,Three or more children,Not in low income (at or above threshold),522940.0,households_in_low_income
+1995-96,E12000002,Two children,Not in low income (at or above threshold),1084485.0,households_in_low_income
+1995-96,E12000003,No children,Not in low income (at or above threshold),2112252.0,households_in_low_income
+1995-96,E12000003,One child,Not in low income (at or above threshold),585120.0,households_in_low_income
+1995-96,E12000003,Three or more children,Not in low income (at or above threshold),300068.0,households_in_low_income
+1995-96,E12000003,Two children,Not in low income (at or above threshold),817120.0,households_in_low_income
+1996-97,E12000001,No children,Not in low income (at or above threshold),1093767.0,households_in_low_income
+1996-97,E12000001,One child,Not in low income (at or above threshold),309198.0,households_in_low_income
+1996-97,E12000001,Three or more children,Not in low income (at or above threshold),132748.0,households_in_low_income
+1996-97,E12000001,Two children,Not in low income (at or above threshold),391681.0,households_in_low_income
+1996-97,E12000002,No children,Not in low income (at or above threshold),2973165.0,households_in_low_income
+1996-97,E12000002,One child,Not in low income (at or above threshold),841455.0,households_in_low_income
+1996-97,E12000002,Three or more children,Not in low income (at or above threshold),419433.0,households_in_low_income
+1996-97,E12000002,Two children,Not in low income (at or above threshold),1013507.0,households_in_low_income
+1996-97,E12000003,No children,Not in low income (at or above threshold),2142068.0,households_in_low_income
+1996-97,E12000003,One child,Not in low income (at or above threshold),583728.0,households_in_low_income
+1996-97,E12000003,Three or more children,Not in low income (at or above threshold),254379.0,households_in_low_income
+1996-97,E12000003,Two children,Not in low income (at or above threshold),796629.0,households_in_low_income
+1997-98,E12000001,No children,Not in low income (at or above threshold),1115103.0,households_in_low_income
+1997-98,E12000001,One child,Not in low income (at or above threshold),284444.0,households_in_low_income
+1997-98,E12000001,Three or more children,Not in low income (at or above threshold),128692.0,households_in_low_income
+1997-98,E12000001,Two children,Not in low income (at or above threshold),391002.0,households_in_low_income
+1997-98,E12000002,No children,Not in low income (at or above threshold),2998862.0,households_in_low_income
+1997-98,E12000002,One child,Not in low income (at or above threshold),828724.0,households_in_low_income
+1997-98,E12000002,Three or more children,Not in low income (at or above threshold),501037.0,households_in_low_income
+1997-98,E12000002,Two children,Not in low income (at or above threshold),877966.0,households_in_low_income
+1997-98,E12000003,No children,Not in low income (at or above threshold),2133348.0,households_in_low_income
+1997-98,E12000003,One child,Not in low income (at or above threshold),582667.0,households_in_low_income
+1997-98,E12000003,Three or more children,Not in low income (at or above threshold),288476.0,households_in_low_income
+1997-98,E12000003,Two children,Not in low income (at or above threshold),761019.0,households_in_low_income
+1998-99,E12000001,No children,Not in low income (at or above threshold),1108013.0,households_in_low_income
+1998-99,E12000001,One child,Not in low income (at or above threshold),298904.0,households_in_low_income
+1998-99,E12000001,Three or more children,Not in low income (at or above threshold),106973.0,households_in_low_income
+1998-99,E12000001,Two children,Not in low income (at or above threshold),345160.0,households_in_low_income
+1998-99,E12000002,No children,Not in low income (at or above threshold),2997814.0,households_in_low_income
+1998-99,E12000002,One child,Not in low income (at or above threshold),758783.0,households_in_low_income
+1998-99,E12000002,Three or more children,Not in low income (at or above threshold),437003.0,households_in_low_income
+1998-99,E12000002,Two children,Not in low income (at or above threshold),894950.0,households_in_low_income
+1998-99,E12000003,No children,Not in low income (at or above threshold),2067236.0,households_in_low_income
+1998-99,E12000003,One child,Not in low income (at or above threshold),621128.0,households_in_low_income
+1998-99,E12000003,Three or more children,Not in low income (at or above threshold),305312.0,households_in_low_income
+1998-99,E12000003,Two children,Not in low income (at or above threshold),696463.0,households_in_low_income
+1999-00,E12000001,No children,Not in low income (at or above threshold),1055042.0,households_in_low_income
+1999-00,E12000001,One child,Not in low income (at or above threshold),273948.0,households_in_low_income
+1999-00,E12000001,Three or more children,Not in low income (at or above threshold),130743.0,households_in_low_income
+1999-00,E12000001,Two children,Not in low income (at or above threshold),395418.0,households_in_low_income
+1999-00,E12000002,No children,Not in low income (at or above threshold),2998116.0,households_in_low_income
+1999-00,E12000002,One child,Not in low income (at or above threshold),845431.0,households_in_low_income
+1999-00,E12000002,Three or more children,Not in low income (at or above threshold),475860.0,households_in_low_income
+1999-00,E12000002,Two children,Not in low income (at or above threshold),936453.0,households_in_low_income
+1999-00,E12000003,No children,Not in low income (at or above threshold),2191241.0,households_in_low_income
+1999-00,E12000003,One child,Not in low income (at or above threshold),507909.0,households_in_low_income
+1999-00,E12000003,Three or more children,Not in low income (at or above threshold),347889.0,households_in_low_income
+1999-00,E12000003,Two children,Not in low income (at or above threshold),709843.0,households_in_low_income
+2000-01,E12000001,No children,Not in low income (at or above threshold),1103634.0,households_in_low_income
+2000-01,E12000001,One child,Not in low income (at or above threshold),297188.0,households_in_low_income
+2000-01,E12000001,Three or more children,Not in low income (at or above threshold),138453.0,households_in_low_income
+2000-01,E12000001,Two children,Not in low income (at or above threshold),347550.0,households_in_low_income
+2000-01,E12000002,No children,Not in low income (at or above threshold),2972395.0,households_in_low_income
+2000-01,E12000002,One child,Not in low income (at or above threshold),797212.0,households_in_low_income
+2000-01,E12000002,Three or more children,Not in low income (at or above threshold),481584.0,households_in_low_income
+2000-01,E12000002,Two children,Not in low income (at or above threshold),1072336.0,households_in_low_income
+2000-01,E12000003,No children,Not in low income (at or above threshold),2192874.0,households_in_low_income
+2000-01,E12000003,One child,Not in low income (at or above threshold),542628.0,households_in_low_income
+2000-01,E12000003,Three or more children,Not in low income (at or above threshold),387694.0,households_in_low_income
+2000-01,E12000003,Two children,Not in low income (at or above threshold),743127.0,households_in_low_income
+2001-02,E12000001,No children,Not in low income (at or above threshold),1134099.0,households_in_low_income
+2001-02,E12000001,One child,Not in low income (at or above threshold),298617.0,households_in_low_income
+2001-02,E12000001,Three or more children,Not in low income (at or above threshold),138202.0,households_in_low_income
+2001-02,E12000001,Two children,Not in low income (at or above threshold),394773.0,households_in_low_income
+2001-02,E12000002,No children,Not in low income (at or above threshold),3035636.0,households_in_low_income
+2001-02,E12000002,One child,Not in low income (at or above threshold),703412.0,households_in_low_income
+2001-02,E12000002,Three or more children,Not in low income (at or above threshold),454884.0,households_in_low_income
+2001-02,E12000002,Two children,Not in low income (at or above threshold),1068231.0,households_in_low_income
+2001-02,E12000003,No children,Not in low income (at or above threshold),2176041.0,households_in_low_income
+2001-02,E12000003,One child,Not in low income (at or above threshold),567570.0,households_in_low_income
+2001-02,E12000003,Three or more children,Not in low income (at or above threshold),314594.0,households_in_low_income
+2001-02,E12000003,Two children,Not in low income (at or above threshold),784691.0,households_in_low_income
+2002-03,E12000001,No children,Not in low income (at or above threshold),1160520.0,households_in_low_income
+2002-03,E12000001,One child,Not in low income (at or above threshold),298258.0,households_in_low_income
+2002-03,E12000001,Three or more children,Not in low income (at or above threshold),141315.0,households_in_low_income
+2002-03,E12000001,Two children,Not in low income (at or above threshold),310763.0,households_in_low_income
+2002-03,E12000002,No children,Not in low income (at or above threshold),3109212.0,households_in_low_income
+2002-03,E12000002,One child,Not in low income (at or above threshold),763132.0,households_in_low_income
+2002-03,E12000002,Three or more children,Not in low income (at or above threshold),528168.0,households_in_low_income
+2002-03,E12000002,Two children,Not in low income (at or above threshold),988424.0,households_in_low_income
+2002-03,E12000003,No children,Not in low income (at or above threshold),2291749.0,households_in_low_income
+2002-03,E12000003,One child,Not in low income (at or above threshold),527082.0,households_in_low_income
+2002-03,E12000003,Three or more children,Not in low income (at or above threshold),334006.0,households_in_low_income
+2002-03,E12000003,Two children,Not in low income (at or above threshold),808076.0,households_in_low_income
+2003-04,E12000001,No children,Not in low income (at or above threshold),1176812.0,households_in_low_income
+2003-04,E12000001,One child,Not in low income (at or above threshold),313086.0,households_in_low_income
+2003-04,E12000001,Three or more children,Not in low income (at or above threshold),146535.0,households_in_low_income
+2003-04,E12000001,Two children,Not in low income (at or above threshold),339990.0,households_in_low_income
+2003-04,E12000002,No children,Not in low income (at or above threshold),3124443.0,households_in_low_income
+2003-04,E12000002,One child,Not in low income (at or above threshold),818806.0,households_in_low_income
+2003-04,E12000002,Three or more children,Not in low income (at or above threshold),493634.0,households_in_low_income
+2003-04,E12000002,Two children,Not in low income (at or above threshold),979765.0,households_in_low_income
+2003-04,E12000003,No children,Not in low income (at or above threshold),2299463.0,households_in_low_income
+2003-04,E12000003,One child,Not in low income (at or above threshold),579220.0,households_in_low_income
+2003-04,E12000003,Three or more children,Not in low income (at or above threshold),327026.0,households_in_low_income
+2003-04,E12000003,Two children,Not in low income (at or above threshold),780634.0,households_in_low_income
+2004-05,E12000001,No children,Not in low income (at or above threshold),1201824.0,households_in_low_income
+2004-05,E12000001,One child,Not in low income (at or above threshold),274830.0,households_in_low_income
+2004-05,E12000001,Three or more children,Not in low income (at or above threshold),134251.0,households_in_low_income
+2004-05,E12000001,Two children,Not in low income (at or above threshold),354081.0,households_in_low_income
+2004-05,E12000002,No children,Not in low income (at or above threshold),3174869.0,households_in_low_income
+2004-05,E12000002,One child,Not in low income (at or above threshold),808658.0,households_in_low_income
+2004-05,E12000002,Three or more children,Not in low income (at or above threshold),500462.0,households_in_low_income
+2004-05,E12000002,Two children,Not in low income (at or above threshold),1019797.0,households_in_low_income
+2004-05,E12000003,No children,Not in low income (at or above threshold),2372603.0,households_in_low_income
+2004-05,E12000003,One child,Not in low income (at or above threshold),613139.0,households_in_low_income
+2004-05,E12000003,Three or more children,Not in low income (at or above threshold),348445.0,households_in_low_income
+2004-05,E12000003,Two children,Not in low income (at or above threshold),748748.0,households_in_low_income
+2005-06,E12000001,No children,Not in low income (at or above threshold),1198423.0,households_in_low_income
+2005-06,E12000001,One child,Not in low income (at or above threshold),355311.0,households_in_low_income
+2005-06,E12000001,Three or more children,Not in low income (at or above threshold),149027.0,households_in_low_income
+2005-06,E12000001,Two children,Not in low income (at or above threshold),309038.0,households_in_low_income
+2005-06,E12000002,No children,Not in low income (at or above threshold),3139340.0,households_in_low_income
+2005-06,E12000002,One child,Not in low income (at or above threshold),830662.0,households_in_low_income
+2005-06,E12000002,Three or more children,Not in low income (at or above threshold),443038.0,households_in_low_income
+2005-06,E12000002,Two children,Not in low income (at or above threshold),978388.0,households_in_low_income
+2005-06,E12000003,No children,Not in low income (at or above threshold),2373424.0,households_in_low_income
+2005-06,E12000003,One child,Not in low income (at or above threshold),591970.0,households_in_low_income
+2005-06,E12000003,Three or more children,Not in low income (at or above threshold),362965.0,households_in_low_income
+2005-06,E12000003,Two children,Not in low income (at or above threshold),707209.0,households_in_low_income
+2006-07,E12000001,No children,Not in low income (at or above threshold),1170737.0,households_in_low_income
+2006-07,E12000001,One child,Not in low income (at or above threshold),384192.0,households_in_low_income
+2006-07,E12000001,Three or more children,Not in low income (at or above threshold),118228.0,households_in_low_income
+2006-07,E12000001,Two children,Not in low income (at or above threshold),306813.0,households_in_low_income
+2006-07,E12000002,No children,Not in low income (at or above threshold),3066771.0,households_in_low_income
+2006-07,E12000002,One child,Not in low income (at or above threshold),899055.0,households_in_low_income
+2006-07,E12000002,Three or more children,Not in low income (at or above threshold),445870.0,households_in_low_income
+2006-07,E12000002,Two children,Not in low income (at or above threshold),959146.0,households_in_low_income
+2006-07,E12000003,No children,Not in low income (at or above threshold),2342055.0,households_in_low_income
+2006-07,E12000003,One child,Not in low income (at or above threshold),539224.0,households_in_low_income
+2006-07,E12000003,Three or more children,Not in low income (at or above threshold),317993.0,households_in_low_income
+2006-07,E12000003,Two children,Not in low income (at or above threshold),801344.0,households_in_low_income
+2007-08,E12000001,No children,Not in low income (at or above threshold),1130973.0,households_in_low_income
+2007-08,E12000001,One child,Not in low income (at or above threshold),322355.0,households_in_low_income
+2007-08,E12000001,Three or more children,Not in low income (at or above threshold),92900.0,households_in_low_income
+2007-08,E12000001,Two children,Not in low income (at or above threshold),381442.0,households_in_low_income
+2007-08,E12000002,No children,Not in low income (at or above threshold),3192260.0,households_in_low_income
+2007-08,E12000002,One child,Not in low income (at or above threshold),840232.0,households_in_low_income
+2007-08,E12000002,Three or more children,Not in low income (at or above threshold),429779.0,households_in_low_income
+2007-08,E12000002,Two children,Not in low income (at or above threshold),914840.0,households_in_low_income
+2007-08,E12000003,No children,Not in low income (at or above threshold),2405920.0,households_in_low_income
+2007-08,E12000003,One child,Not in low income (at or above threshold),586057.0,households_in_low_income
+2007-08,E12000003,Three or more children,Not in low income (at or above threshold),330069.0,households_in_low_income
+2007-08,E12000003,Two children,Not in low income (at or above threshold),738283.0,households_in_low_income
+2008-09,E12000001,No children,Not in low income (at or above threshold),1221829.0,households_in_low_income
+2008-09,E12000001,One child,Not in low income (at or above threshold),291007.0,households_in_low_income
+2008-09,E12000001,Three or more children,Not in low income (at or above threshold),156543.0,households_in_low_income
+2008-09,E12000001,Two children,Not in low income (at or above threshold),318682.0,households_in_low_income
+2008-09,E12000002,No children,Not in low income (at or above threshold),3287809.0,households_in_low_income
+2008-09,E12000002,One child,Not in low income (at or above threshold),959478.0,households_in_low_income
+2008-09,E12000002,Three or more children,Not in low income (at or above threshold),452223.0,households_in_low_income
+2008-09,E12000002,Two children,Not in low income (at or above threshold),884134.0,households_in_low_income
+2008-09,E12000003,No children,Not in low income (at or above threshold),2344263.0,households_in_low_income
+2008-09,E12000003,One child,Not in low income (at or above threshold),677545.0,households_in_low_income
+2008-09,E12000003,Three or more children,Not in low income (at or above threshold),289875.0,households_in_low_income
+2008-09,E12000003,Two children,Not in low income (at or above threshold),706832.0,households_in_low_income
+2009-10,E12000001,No children,Not in low income (at or above threshold),1185855.0,households_in_low_income
+2009-10,E12000001,One child,Not in low income (at or above threshold),358079.0,households_in_low_income
+2009-10,E12000001,Three or more children,Not in low income (at or above threshold),134101.0,households_in_low_income
+2009-10,E12000001,Two children,Not in low income (at or above threshold),360132.0,households_in_low_income
+2009-10,E12000002,No children,Not in low income (at or above threshold),3270648.0,households_in_low_income
+2009-10,E12000002,One child,Not in low income (at or above threshold),955707.0,households_in_low_income
+2009-10,E12000002,Three or more children,Not in low income (at or above threshold),407573.0,households_in_low_income
+2009-10,E12000002,Two children,Not in low income (at or above threshold),1000070.0,households_in_low_income
+2009-10,E12000003,No children,Not in low income (at or above threshold),2356973.0,households_in_low_income
+2009-10,E12000003,One child,Not in low income (at or above threshold),657676.0,households_in_low_income
+2009-10,E12000003,Three or more children,Not in low income (at or above threshold),326741.0,households_in_low_income
+2009-10,E12000003,Two children,Not in low income (at or above threshold),753142.0,households_in_low_income
+2010-11,E12000001,No children,Not in low income (at or above threshold),1269431.0,households_in_low_income
+2010-11,E12000001,One child,Not in low income (at or above threshold),297357.0,households_in_low_income
+2010-11,E12000001,Three or more children,Not in low income (at or above threshold),142455.0,households_in_low_income
+2010-11,E12000001,Two children,Not in low income (at or above threshold),382782.0,households_in_low_income
+2010-11,E12000002,No children,Not in low income (at or above threshold),3280108.0,households_in_low_income
+2010-11,E12000002,One child,Not in low income (at or above threshold),878297.0,households_in_low_income
+2010-11,E12000002,Three or more children,Not in low income (at or above threshold),430594.0,households_in_low_income
+2010-11,E12000002,Two children,Not in low income (at or above threshold),1100422.0,households_in_low_income
+2010-11,E12000003,No children,Not in low income (at or above threshold),2396779.0,households_in_low_income
+2010-11,E12000003,One child,Not in low income (at or above threshold),687610.0,households_in_low_income
+2010-11,E12000003,Three or more children,Not in low income (at or above threshold),306659.0,households_in_low_income
+2010-11,E12000003,Two children,Not in low income (at or above threshold),731850.0,households_in_low_income
+2011-12,E12000001,No children,Not in low income (at or above threshold),1170159.0,households_in_low_income
+2011-12,E12000001,One child,Not in low income (at or above threshold),406626.0,households_in_low_income
+2011-12,E12000001,Three or more children,Not in low income (at or above threshold),104632.0,households_in_low_income
+2011-12,E12000001,Two children,Not in low income (at or above threshold),404547.0,households_in_low_income
+2011-12,E12000002,No children,Not in low income (at or above threshold),3362256.0,households_in_low_income
+2011-12,E12000002,One child,Not in low income (at or above threshold),1066137.0,households_in_low_income
+2011-12,E12000002,Three or more children,Not in low income (at or above threshold),394199.0,households_in_low_income
+2011-12,E12000002,Two children,Not in low income (at or above threshold),931623.0,households_in_low_income
+2011-12,E12000003,No children,Not in low income (at or above threshold),2434216.0,households_in_low_income
+2011-12,E12000003,One child,Not in low income (at or above threshold),790430.0,households_in_low_income
+2011-12,E12000003,Three or more children,Not in low income (at or above threshold),404612.0,households_in_low_income
+2011-12,E12000003,Two children,Not in low income (at or above threshold),633564.0,households_in_low_income
+2012-13,E12000001,No children,Not in low income (at or above threshold),1287651.0,households_in_low_income
+2012-13,E12000001,One child,Not in low income (at or above threshold),318712.0,households_in_low_income
+2012-13,E12000001,Three or more children,Not in low income (at or above threshold),150336.0,households_in_low_income
+2012-13,E12000001,Two children,Not in low income (at or above threshold),368930.0,households_in_low_income
+2012-13,E12000002,No children,Not in low income (at or above threshold),3374152.0,households_in_low_income
+2012-13,E12000002,One child,Not in low income (at or above threshold),944427.0,households_in_low_income
+2012-13,E12000002,Three or more children,Not in low income (at or above threshold),458175.0,households_in_low_income
+2012-13,E12000002,Two children,Not in low income (at or above threshold),989292.0,households_in_low_income
+2012-13,E12000003,No children,Not in low income (at or above threshold),2445469.0,households_in_low_income
+2012-13,E12000003,One child,Not in low income (at or above threshold),700493.0,households_in_low_income
+2012-13,E12000003,Three or more children,Not in low income (at or above threshold),325638.0,households_in_low_income
+2012-13,E12000003,Two children,Not in low income (at or above threshold),771758.0,households_in_low_income
+2013-14,E12000001,No children,Not in low income (at or above threshold),1275276.0,households_in_low_income
+2013-14,E12000001,One child,Not in low income (at or above threshold),323943.0,households_in_low_income
+2013-14,E12000001,Three or more children,Not in low income (at or above threshold),213602.0,households_in_low_income
+2013-14,E12000001,Two children,Not in low income (at or above threshold),323326.0,households_in_low_income
+2013-14,E12000002,No children,Not in low income (at or above threshold),3292242.0,households_in_low_income
+2013-14,E12000002,One child,Not in low income (at or above threshold),1064469.0,households_in_low_income
+2013-14,E12000002,Three or more children,Not in low income (at or above threshold),446743.0,households_in_low_income
+2013-14,E12000002,Two children,Not in low income (at or above threshold),1002718.0,households_in_low_income
+2013-14,E12000003,No children,Not in low income (at or above threshold),2473476.0,households_in_low_income
+2013-14,E12000003,One child,Not in low income (at or above threshold),810897.0,households_in_low_income
+2013-14,E12000003,Three or more children,Not in low income (at or above threshold),342210.0,households_in_low_income
+2013-14,E12000003,Two children,Not in low income (at or above threshold),736041.0,households_in_low_income
+2014-15,E12000001,No children,Not in low income (at or above threshold),1225342.0,households_in_low_income
+2014-15,E12000001,One child,Not in low income (at or above threshold),339260.0,households_in_low_income
+2014-15,E12000001,Three or more children,Not in low income (at or above threshold),160281.0,households_in_low_income
+2014-15,E12000001,Two children,Not in low income (at or above threshold),346416.0,households_in_low_income
+2014-15,E12000002,No children,Not in low income (at or above threshold),3277923.0,households_in_low_income
+2014-15,E12000002,One child,Not in low income (at or above threshold),910569.0,households_in_low_income
+2014-15,E12000002,Three or more children,Not in low income (at or above threshold),416069.0,households_in_low_income
+2014-15,E12000002,Two children,Not in low income (at or above threshold),1084843.0,households_in_low_income
+2014-15,E12000003,No children,Not in low income (at or above threshold),2481662.0,households_in_low_income
+2014-15,E12000003,One child,Not in low income (at or above threshold),709000.0,households_in_low_income
+2014-15,E12000003,Three or more children,Not in low income (at or above threshold),308361.0,households_in_low_income
+2014-15,E12000003,Two children,Not in low income (at or above threshold),784108.0,households_in_low_income
+2015-16,E12000001,No children,Not in low income (at or above threshold),1289096.0,households_in_low_income
+2015-16,E12000001,One child,Not in low income (at or above threshold),342479.0,households_in_low_income
+2015-16,E12000001,Three or more children,Not in low income (at or above threshold),127479.0,households_in_low_income
+2015-16,E12000001,Two children,Not in low income (at or above threshold),348998.0,households_in_low_income
+2015-16,E12000002,No children,Not in low income (at or above threshold),3394576.0,households_in_low_income
+2015-16,E12000002,One child,Not in low income (at or above threshold),942582.0,households_in_low_income
+2015-16,E12000002,Three or more children,Not in low income (at or above threshold),459666.0,households_in_low_income
+2015-16,E12000002,Two children,Not in low income (at or above threshold),960409.0,households_in_low_income
+2015-16,E12000003,No children,Not in low income (at or above threshold),2549677.0,households_in_low_income
+2015-16,E12000003,One child,Not in low income (at or above threshold),644281.0,households_in_low_income
+2015-16,E12000003,Three or more children,Not in low income (at or above threshold),325477.0,households_in_low_income
+2015-16,E12000003,Two children,Not in low income (at or above threshold),772807.0,households_in_low_income
+2016-17,E12000001,No children,Not in low income (at or above threshold),1295830.0,households_in_low_income
+2016-17,E12000001,One child,Not in low income (at or above threshold),343704.0,households_in_low_income
+2016-17,E12000001,Three or more children,Not in low income (at or above threshold),132102.0,households_in_low_income
+2016-17,E12000001,Two children,Not in low income (at or above threshold),329498.0,households_in_low_income
+2016-17,E12000002,No children,Not in low income (at or above threshold),3386830.0,households_in_low_income
+2016-17,E12000002,One child,Not in low income (at or above threshold),899660.0,households_in_low_income
+2016-17,E12000002,Three or more children,Not in low income (at or above threshold),449953.0,households_in_low_income
+2016-17,E12000002,Two children,Not in low income (at or above threshold),972461.0,households_in_low_income
+2016-17,E12000003,No children,Not in low income (at or above threshold),2528928.0,households_in_low_income
+2016-17,E12000003,One child,Not in low income (at or above threshold),690680.0,households_in_low_income
+2016-17,E12000003,Three or more children,Not in low income (at or above threshold),376270.0,households_in_low_income
+2016-17,E12000003,Two children,Not in low income (at or above threshold),765751.0,households_in_low_income
+2017-18,E12000001,No children,Not in low income (at or above threshold),1281240.0,households_in_low_income
+2017-18,E12000001,One child,Not in low income (at or above threshold),308217.0,households_in_low_income
+2017-18,E12000001,Three or more children,Not in low income (at or above threshold),131033.0,households_in_low_income
+2017-18,E12000001,Two children,Not in low income (at or above threshold),368603.0,households_in_low_income
+2017-18,E12000002,No children,Not in low income (at or above threshold),3419547.0,households_in_low_income
+2017-18,E12000002,One child,Not in low income (at or above threshold),840384.0,households_in_low_income
+2017-18,E12000002,Three or more children,Not in low income (at or above threshold),415521.0,households_in_low_income
+2017-18,E12000002,Two children,Not in low income (at or above threshold),1036228.0,households_in_low_income
+2017-18,E12000003,No children,Not in low income (at or above threshold),2503927.0,households_in_low_income
+2017-18,E12000003,One child,Not in low income (at or above threshold),725167.0,households_in_low_income
+2017-18,E12000003,Three or more children,Not in low income (at or above threshold),286031.0,households_in_low_income
+2017-18,E12000003,Two children,Not in low income (at or above threshold),751218.0,households_in_low_income
+2018-19,E12000001,No children,Not in low income (at or above threshold),1312720.0,households_in_low_income
+2018-19,E12000001,One child,Not in low income (at or above threshold),307323.0,households_in_low_income
+2018-19,E12000001,Three or more children,Not in low income (at or above threshold),143599.0,households_in_low_income
+2018-19,E12000001,Two children,Not in low income (at or above threshold),342698.0,households_in_low_income
+2018-19,E12000002,No children,Not in low income (at or above threshold),3449983.0,households_in_low_income
+2018-19,E12000002,One child,Not in low income (at or above threshold),964205.0,households_in_low_income
+2018-19,E12000002,Three or more children,Not in low income (at or above threshold),494889.0,households_in_low_income
+2018-19,E12000002,Two children,Not in low income (at or above threshold),951862.0,households_in_low_income
+2018-19,E12000003,No children,Not in low income (at or above threshold),2495932.0,households_in_low_income
+2018-19,E12000003,One child,Not in low income (at or above threshold),699211.0,households_in_low_income
+2018-19,E12000003,Three or more children,Not in low income (at or above threshold),332505.0,households_in_low_income
+2018-19,E12000003,Two children,Not in low income (at or above threshold),685417.0,households_in_low_income
+2019-20,E12000001,No children,Not in low income (at or above threshold),1269183.0,households_in_low_income
+2019-20,E12000001,One child,Not in low income (at or above threshold),291282.0,households_in_low_income
+2019-20,E12000001,Three or more children,Not in low income (at or above threshold),83344.0,households_in_low_income
+2019-20,E12000001,Two children,Not in low income (at or above threshold),313458.0,households_in_low_income
+2019-20,E12000002,No children,Not in low income (at or above threshold),3431172.0,households_in_low_income
+2019-20,E12000002,One child,Not in low income (at or above threshold),1046623.0,households_in_low_income
+2019-20,E12000002,Three or more children,Not in low income (at or above threshold),435140.0,households_in_low_income
+2019-20,E12000002,Two children,Not in low income (at or above threshold),967463.0,households_in_low_income
+2019-20,E12000003,No children,Not in low income (at or above threshold),2563322.0,households_in_low_income
+2019-20,E12000003,One child,Not in low income (at or above threshold),553680.0,households_in_low_income
+2019-20,E12000003,Three or more children,Not in low income (at or above threshold),338325.0,households_in_low_income
+2019-20,E12000003,Two children,Not in low income (at or above threshold),787433.0,households_in_low_income
+2020-21,E12000001,No children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000001,One child,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000001,Three or more children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000001,Two children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000002,No children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000002,One child,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000002,Three or more children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000002,Two children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000003,No children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000003,One child,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000003,Three or more children,Not in low income (at or above threshold),0.0,households_in_low_income
+2020-21,E12000003,Two children,Not in low income (at or above threshold),0.0,households_in_low_income
+2021-22,E12000001,No children,Not in low income (at or above threshold),1301117.0,households_in_low_income
+2021-22,E12000001,One child,Not in low income (at or above threshold),320990.0,households_in_low_income
+2021-22,E12000001,Three or more children,Not in low income (at or above threshold),180460.0,households_in_low_income
+2021-22,E12000001,Two children,Not in low income (at or above threshold),391569.0,households_in_low_income
+2021-22,E12000002,No children,Not in low income (at or above threshold),3526447.0,households_in_low_income
+2021-22,E12000002,One child,Not in low income (at or above threshold),804868.0,households_in_low_income
+2021-22,E12000002,Three or more children,Not in low income (at or above threshold),549288.0,households_in_low_income
+2021-22,E12000002,Two children,Not in low income (at or above threshold),983468.0,households_in_low_income
+2021-22,E12000003,No children,Not in low income (at or above threshold),2547502.0,households_in_low_income
+2021-22,E12000003,One child,Not in low income (at or above threshold),565048.0,households_in_low_income
+2021-22,E12000003,Three or more children,Not in low income (at or above threshold),513440.0,households_in_low_income
+2021-22,E12000003,Two children,Not in low income (at or above threshold),778977.0,households_in_low_income
+1994-95,E12000001,No children,In low income (below threshold),264297.0,households_in_low_income
+1994-95,E12000001,One child,In low income (below threshold),69383.0,households_in_low_income
+1994-95,E12000001,Three or more children,In low income (below threshold),137307.0,households_in_low_income
+1994-95,E12000001,Two children,In low income (below threshold),108347.0,households_in_low_income
+1994-95,E12000002,No children,In low income (below threshold),623638.0,households_in_low_income
+1994-95,E12000002,One child,In low income (below threshold),166094.0,households_in_low_income
+1994-95,E12000002,Three or more children,In low income (below threshold),362958.0,households_in_low_income
+1994-95,E12000002,Two children,In low income (below threshold),291720.0,households_in_low_income
+1994-95,E12000003,No children,In low income (below threshold),515022.0,households_in_low_income
+1994-95,E12000003,One child,In low income (below threshold),126867.0,households_in_low_income
+1994-95,E12000003,Three or more children,In low income (below threshold),265568.0,households_in_low_income
+1994-95,E12000003,Two children,In low income (below threshold),232368.0,households_in_low_income
+1995-96,E12000001,No children,In low income (below threshold),296885.0,households_in_low_income
+1995-96,E12000001,One child,In low income (below threshold),73361.0,households_in_low_income
+1995-96,E12000001,Three or more children,In low income (below threshold),169447.0,households_in_low_income
+1995-96,E12000001,Two children,In low income (below threshold),97154.0,households_in_low_income
+1995-96,E12000002,No children,In low income (below threshold),559675.0,households_in_low_income
+1995-96,E12000002,One child,In low income (below threshold),158548.0,households_in_low_income
+1995-96,E12000002,Three or more children,In low income (below threshold),309125.0,households_in_low_income
+1995-96,E12000002,Two children,In low income (below threshold),240771.0,households_in_low_income
+1995-96,E12000003,No children,In low income (below threshold),518220.0,households_in_low_income
+1995-96,E12000003,One child,In low income (below threshold),93013.0,households_in_low_income
+1995-96,E12000003,Three or more children,In low income (below threshold),287139.0,households_in_low_income
+1995-96,E12000003,Two children,In low income (below threshold),169341.0,households_in_low_income
+1996-97,E12000001,No children,In low income (below threshold),282370.0,households_in_low_income
+1996-97,E12000001,One child,In low income (below threshold),88912.0,households_in_low_income
+1996-97,E12000001,Three or more children,In low income (below threshold),118025.0,households_in_low_income
+1996-97,E12000001,Two children,In low income (below threshold),120251.0,households_in_low_income
+1996-97,E12000002,No children,In low income (below threshold),641499.0,households_in_low_income
+1996-97,E12000002,One child,In low income (below threshold),180893.0,households_in_low_income
+1996-97,E12000002,Three or more children,In low income (below threshold),376598.0,households_in_low_income
+1996-97,E12000002,Two children,In low income (below threshold),255817.0,households_in_low_income
+1996-97,E12000003,No children,In low income (below threshold),476387.0,households_in_low_income
+1996-97,E12000003,One child,In low income (below threshold),145004.0,households_in_low_income
+1996-97,E12000003,Three or more children,In low income (below threshold),280537.0,households_in_low_income
+1996-97,E12000003,Two children,In low income (below threshold),203321.0,households_in_low_income
+1997-98,E12000001,No children,In low income (below threshold),273024.0,households_in_low_income
+1997-98,E12000001,One child,In low income (below threshold),101118.0,households_in_low_income
+1997-98,E12000001,Three or more children,In low income (below threshold),127179.0,households_in_low_income
+1997-98,E12000001,Two children,In low income (below threshold),107755.0,households_in_low_income
+1997-98,E12000002,No children,In low income (below threshold),653935.0,households_in_low_income
+1997-98,E12000002,One child,In low income (below threshold),168952.0,households_in_low_income
+1997-98,E12000002,Three or more children,In low income (below threshold),357686.0,households_in_low_income
+1997-98,E12000002,Two children,In low income (below threshold),299895.0,households_in_low_income
+1997-98,E12000003,No children,In low income (below threshold),509319.0,households_in_low_income
+1997-98,E12000003,One child,In low income (below threshold),114729.0,households_in_low_income
+1997-98,E12000003,Three or more children,In low income (below threshold),275816.0,households_in_low_income
+1997-98,E12000003,Two children,In low income (below threshold),212331.0,households_in_low_income
+1998-99,E12000001,No children,In low income (below threshold),283565.0,households_in_low_income
+1998-99,E12000001,One child,In low income (below threshold),93321.0,households_in_low_income
+1998-99,E12000001,Three or more children,In low income (below threshold),148913.0,households_in_low_income
+1998-99,E12000001,Two children,In low income (below threshold),135689.0,households_in_low_income
+1998-99,E12000002,No children,In low income (below threshold),661695.0,households_in_low_income
+1998-99,E12000002,One child,In low income (below threshold),181984.0,households_in_low_income
+1998-99,E12000002,Three or more children,In low income (below threshold),415840.0,households_in_low_income
+1998-99,E12000002,Two children,In low income (below threshold),336391.0,households_in_low_income
+1998-99,E12000003,No children,In low income (below threshold),554990.0,households_in_low_income
+1998-99,E12000003,One child,In low income (below threshold),132892.0,households_in_low_income
+1998-99,E12000003,Three or more children,In low income (below threshold),227739.0,households_in_low_income
+1998-99,E12000003,Two children,In low income (below threshold),272006.0,households_in_low_income
+1999-00,E12000001,No children,In low income (below threshold),343183.0,households_in_low_income
+1999-00,E12000001,One child,In low income (below threshold),104075.0,households_in_low_income
+1999-00,E12000001,Three or more children,In low income (below threshold),128956.0,households_in_low_income
+1999-00,E12000001,Two children,In low income (below threshold),78916.0,households_in_low_income
+1999-00,E12000002,No children,In low income (below threshold),607312.0,households_in_low_income
+1999-00,E12000002,One child,In low income (below threshold),200292.0,households_in_low_income
+1999-00,E12000002,Three or more children,In low income (below threshold),316193.0,households_in_low_income
+1999-00,E12000002,Two children,In low income (below threshold),285072.0,households_in_low_income
+1999-00,E12000003,No children,In low income (below threshold),498882.0,households_in_low_income
+1999-00,E12000003,One child,In low income (below threshold),140110.0,households_in_low_income
+1999-00,E12000003,Three or more children,In low income (below threshold),281388.0,households_in_low_income
+1999-00,E12000003,Two children,In low income (below threshold),198467.0,households_in_low_income
+2000-01,E12000001,No children,In low income (below threshold),294988.0,households_in_low_income
+2000-01,E12000001,One child,In low income (below threshold),80023.0,households_in_low_income
+2000-01,E12000001,Three or more children,In low income (below threshold),122868.0,households_in_low_income
+2000-01,E12000001,Two children,In low income (below threshold),117580.0,households_in_low_income
+2000-01,E12000002,No children,In low income (below threshold),672539.0,households_in_low_income
+2000-01,E12000002,One child,In low income (below threshold),171570.0,households_in_low_income
+2000-01,E12000002,Three or more children,In low income (below threshold),262050.0,households_in_low_income
+2000-01,E12000002,Two children,In low income (below threshold),235108.0,households_in_low_income
+2000-01,E12000003,No children,In low income (below threshold),490936.0,households_in_low_income
+2000-01,E12000003,One child,In low income (below threshold),139169.0,households_in_low_income
+2000-01,E12000003,Three or more children,In low income (below threshold),208495.0,households_in_low_income
+2000-01,E12000003,Two children,In low income (below threshold),172042.0,households_in_low_income
+2001-02,E12000001,No children,In low income (below threshold),265634.0,households_in_low_income
+2001-02,E12000001,One child,In low income (below threshold),75782.0,households_in_low_income
+2001-02,E12000001,Three or more children,In low income (below threshold),80965.0,households_in_low_income
+2001-02,E12000001,Two children,In low income (below threshold),110662.0,households_in_low_income
+2001-02,E12000002,No children,In low income (below threshold),676885.0,households_in_low_income
+2001-02,E12000002,One child,In low income (below threshold),187090.0,households_in_low_income
+2001-02,E12000002,Three or more children,In low income (below threshold),283222.0,households_in_low_income
+2001-02,E12000002,Two children,In low income (below threshold),252309.0,households_in_low_income
+2001-02,E12000003,No children,In low income (below threshold),507469.0,households_in_low_income
+2001-02,E12000003,One child,In low income (below threshold),136585.0,households_in_low_income
+2001-02,E12000003,Three or more children,In low income (below threshold),175948.0,households_in_low_income
+2001-02,E12000003,Two children,In low income (below threshold),229815.0,households_in_low_income
+2002-03,E12000001,No children,In low income (below threshold),267868.0,households_in_low_income
+2002-03,E12000001,One child,In low income (below threshold),67959.0,households_in_low_income
+2002-03,E12000001,Three or more children,In low income (below threshold),126447.0,households_in_low_income
+2002-03,E12000001,Two children,In low income (below threshold),121926.0,households_in_low_income
+2002-03,E12000002,No children,In low income (below threshold),605318.0,households_in_low_income
+2002-03,E12000002,One child,In low income (below threshold),200416.0,households_in_low_income
+2002-03,E12000002,Three or more children,In low income (below threshold),214456.0,households_in_low_income
+2002-03,E12000002,Two children,In low income (below threshold),254503.0,households_in_low_income
+2002-03,E12000003,No children,In low income (below threshold),456390.0,households_in_low_income
+2002-03,E12000003,One child,In low income (below threshold),142348.0,households_in_low_income
+2002-03,E12000003,Three or more children,In low income (below threshold),188283.0,households_in_low_income
+2002-03,E12000003,Two children,In low income (below threshold),162167.0,households_in_low_income
+2003-04,E12000001,No children,In low income (below threshold),247155.0,households_in_low_income
+2003-04,E12000001,One child,In low income (below threshold),75080.0,households_in_low_income
+2003-04,E12000001,Three or more children,In low income (below threshold),90039.0,households_in_low_income
+2003-04,E12000001,Two children,In low income (below threshold),105644.0,households_in_low_income
+2003-04,E12000002,No children,In low income (below threshold),597163.0,households_in_low_income
+2003-04,E12000002,One child,In low income (below threshold),224768.0,households_in_low_income
+2003-04,E12000002,Three or more children,In low income (below threshold),215428.0,households_in_low_income
+2003-04,E12000002,Two children,In low income (below threshold),238522.0,households_in_low_income
+2003-04,E12000003,No children,In low income (below threshold),451130.0,households_in_low_income
+2003-04,E12000003,One child,In low income (below threshold),149148.0,households_in_low_income
+2003-04,E12000003,Three or more children,In low income (below threshold),180489.0,households_in_low_income
+2003-04,E12000003,Two children,In low income (below threshold),168840.0,households_in_low_income
+2004-05,E12000001,No children,In low income (below threshold),232719.0,households_in_low_income
+2004-05,E12000001,One child,In low income (below threshold),76127.0,households_in_low_income
+2004-05,E12000001,Three or more children,In low income (below threshold),64501.0,households_in_low_income
+2004-05,E12000001,Two children,In low income (below threshold),155999.0,households_in_low_income
+2004-05,E12000002,No children,In low income (below threshold),620626.0,households_in_low_income
+2004-05,E12000002,One child,In low income (below threshold),173464.0,households_in_low_income
+2004-05,E12000002,Three or more children,In low income (below threshold),198927.0,households_in_low_income
+2004-05,E12000002,Two children,In low income (below threshold),221069.0,households_in_low_income
+2004-05,E12000003,No children,In low income (below threshold),419646.0,households_in_low_income
+2004-05,E12000003,One child,In low income (below threshold),125225.0,households_in_low_income
+2004-05,E12000003,Three or more children,In low income (below threshold),178609.0,households_in_low_income
+2004-05,E12000003,Two children,In low income (below threshold),165139.0,households_in_low_income
+2005-06,E12000001,No children,In low income (below threshold),235672.0,households_in_low_income
+2005-06,E12000001,One child,In low income (below threshold),68353.0,households_in_low_income
+2005-06,E12000001,Three or more children,In low income (below threshold),67719.0,households_in_low_income
+2005-06,E12000001,Two children,In low income (below threshold),117299.0,households_in_low_income
+2005-06,E12000002,No children,In low income (below threshold),668280.0,households_in_low_income
+2005-06,E12000002,One child,In low income (below threshold),210180.0,households_in_low_income
+2005-06,E12000002,Three or more children,In low income (below threshold),246883.0,households_in_low_income
+2005-06,E12000002,Two children,In low income (below threshold),229615.0,households_in_low_income
+2005-06,E12000003,No children,In low income (below threshold),475398.0,households_in_low_income
+2005-06,E12000003,One child,In low income (below threshold),128723.0,households_in_low_income
+2005-06,E12000003,Three or more children,In low income (below threshold),218639.0,households_in_low_income
+2005-06,E12000003,Two children,In low income (below threshold),157639.0,households_in_low_income
+2006-07,E12000001,No children,In low income (below threshold),258677.0,households_in_low_income
+2006-07,E12000001,One child,In low income (below threshold),75716.0,households_in_low_income
+2006-07,E12000001,Three or more children,In low income (below threshold),89521.0,households_in_low_income
+2006-07,E12000001,Two children,In low income (below threshold),102295.0,households_in_low_income
+2006-07,E12000002,No children,In low income (below threshold),732855.0,households_in_low_income
+2006-07,E12000002,One child,In low income (below threshold),212780.0,households_in_low_income
+2006-07,E12000002,Three or more children,In low income (below threshold),217146.0,households_in_low_income
+2006-07,E12000002,Two children,In low income (below threshold),243559.0,households_in_low_income
+2006-07,E12000003,No children,In low income (below threshold),536437.0,households_in_low_income
+2006-07,E12000003,One child,In low income (below threshold),131835.0,households_in_low_income
+2006-07,E12000003,Three or more children,In low income (below threshold),220130.0,households_in_low_income
+2006-07,E12000003,Two children,In low income (below threshold),152207.0,households_in_low_income
+2007-08,E12000001,No children,In low income (below threshold),320644.0,households_in_low_income
+2007-08,E12000001,One child,In low income (below threshold),102701.0,households_in_low_income
+2007-08,E12000001,Three or more children,In low income (below threshold),93413.0,households_in_low_income
+2007-08,E12000001,Two children,In low income (below threshold),71536.0,households_in_low_income
+2007-08,E12000002,No children,In low income (below threshold),652918.0,households_in_low_income
+2007-08,E12000002,One child,In low income (below threshold),222807.0,households_in_low_income
+2007-08,E12000002,Three or more children,In low income (below threshold),274343.0,households_in_low_income
+2007-08,E12000002,Two children,In low income (below threshold),277883.0,households_in_low_income
+2007-08,E12000003,No children,In low income (below threshold),487881.0,households_in_low_income
+2007-08,E12000003,One child,In low income (below threshold),126397.0,households_in_low_income
+2007-08,E12000003,Three or more children,In low income (below threshold),198657.0,households_in_low_income
+2007-08,E12000003,Two children,In low income (below threshold),197769.0,households_in_low_income
+2008-09,E12000001,No children,In low income (below threshold),265488.0,households_in_low_income
+2008-09,E12000001,One child,In low income (below threshold),83282.0,households_in_low_income
+2008-09,E12000001,Three or more children,In low income (below threshold),87049.0,households_in_low_income
+2008-09,E12000001,Two children,In low income (below threshold),97878.0,households_in_low_income
+2008-09,E12000002,No children,In low income (below threshold),586688.0,households_in_low_income
+2008-09,E12000002,One child,In low income (below threshold),234131.0,households_in_low_income
+2008-09,E12000002,Three or more children,In low income (below threshold),203865.0,households_in_low_income
+2008-09,E12000002,Two children,In low income (below threshold),223835.0,households_in_low_income
+2008-09,E12000003,No children,In low income (below threshold),539437.0,households_in_low_income
+2008-09,E12000003,One child,In low income (below threshold),150955.0,households_in_low_income
+2008-09,E12000003,Three or more children,In low income (below threshold),189876.0,households_in_low_income
+2008-09,E12000003,Two children,In low income (below threshold),204858.0,households_in_low_income
+2009-10,E12000001,No children,In low income (below threshold),269556.0,households_in_low_income
+2009-10,E12000001,One child,In low income (below threshold),62631.0,households_in_low_income
+2009-10,E12000001,Three or more children,In low income (below threshold),57790.0,households_in_low_income
+2009-10,E12000001,Two children,In low income (below threshold),101630.0,households_in_low_income
+2009-10,E12000002,No children,In low income (below threshold),618590.0,households_in_low_income
+2009-10,E12000002,One child,In low income (below threshold),209192.0,households_in_low_income
+2009-10,E12000002,Three or more children,In low income (below threshold),211724.0,households_in_low_income
+2009-10,E12000002,Two children,In low income (below threshold),189640.0,households_in_low_income
+2009-10,E12000003,No children,In low income (below threshold),543099.0,households_in_low_income
+2009-10,E12000003,One child,In low income (below threshold),129255.0,households_in_low_income
+2009-10,E12000003,Three or more children,In low income (below threshold),165935.0,households_in_low_income
+2009-10,E12000003,Two children,In low income (below threshold),197754.0,households_in_low_income
+2010-11,E12000001,No children,In low income (below threshold),220923.0,households_in_low_income
+2010-11,E12000001,One child,In low income (below threshold),81357.0,households_in_low_income
+2010-11,E12000001,Three or more children,In low income (below threshold),63019.0,households_in_low_income
+2010-11,E12000001,Two children,In low income (below threshold),83220.0,households_in_low_income
+2010-11,E12000002,No children,In low income (below threshold),624364.0,households_in_low_income
+2010-11,E12000002,One child,In low income (below threshold),229008.0,households_in_low_income
+2010-11,E12000002,Three or more children,In low income (below threshold),135682.0,households_in_low_income
+2010-11,E12000002,Two children,In low income (below threshold),217018.0,households_in_low_income
+2010-11,E12000003,No children,In low income (below threshold),498945.0,households_in_low_income
+2010-11,E12000003,One child,In low income (below threshold),181499.0,households_in_low_income
+2010-11,E12000003,Three or more children,In low income (below threshold),172793.0,households_in_low_income
+2010-11,E12000003,Two children,In low income (below threshold),185240.0,households_in_low_income
+2011-12,E12000001,No children,In low income (below threshold),284216.0,households_in_low_income
+2011-12,E12000001,One child,In low income (below threshold),85931.0,households_in_low_income
+2011-12,E12000001,Three or more children,In low income (below threshold),57253.0,households_in_low_income
+2011-12,E12000001,Two children,In low income (below threshold),49839.0,households_in_low_income
+2011-12,E12000002,No children,In low income (below threshold),602224.0,households_in_low_income
+2011-12,E12000002,One child,In low income (below threshold),157936.0,households_in_low_income
+2011-12,E12000002,Three or more children,In low income (below threshold),210514.0,households_in_low_income
+2011-12,E12000002,Two children,In low income (below threshold),242707.0,households_in_low_income
+2011-12,E12000003,No children,In low income (below threshold),528620.0,households_in_low_income
+2011-12,E12000003,One child,In low income (below threshold),127439.0,households_in_low_income
+2011-12,E12000003,Three or more children,In low income (below threshold),164434.0,households_in_low_income
+2011-12,E12000003,Two children,In low income (below threshold),138285.0,households_in_low_income
+2012-13,E12000001,No children,In low income (below threshold),224542.0,households_in_low_income
+2012-13,E12000001,One child,In low income (below threshold),69446.0,households_in_low_income
+2012-13,E12000001,Three or more children,In low income (below threshold),57528.0,households_in_low_income
+2012-13,E12000001,Two children,In low income (below threshold),91902.0,households_in_low_income
+2012-13,E12000002,No children,In low income (below threshold),635858.0,households_in_low_income
+2012-13,E12000002,One child,In low income (below threshold),206469.0,households_in_low_income
+2012-13,E12000002,Three or more children,In low income (below threshold),182717.0,households_in_low_income
+2012-13,E12000002,Two children,In low income (below threshold),204199.0,households_in_low_income
+2012-13,E12000003,No children,In low income (below threshold),526171.0,households_in_low_income
+2012-13,E12000003,One child,In low income (below threshold),181473.0,households_in_low_income
+2012-13,E12000003,Three or more children,In low income (below threshold),159293.0,households_in_low_income
+2012-13,E12000003,Two children,In low income (below threshold),139490.0,households_in_low_income
+2013-14,E12000001,No children,In low income (below threshold),262470.0,households_in_low_income
+2013-14,E12000001,One child,In low income (below threshold),61317.0,households_in_low_income
+2013-14,E12000001,Three or more children,In low income (below threshold),36155.0,households_in_low_income
+2013-14,E12000001,Two children,In low income (below threshold),64487.0,households_in_low_income
+2013-14,E12000002,No children,In low income (below threshold),625344.0,households_in_low_income
+2013-14,E12000002,One child,In low income (below threshold),240051.0,households_in_low_income
+2013-14,E12000002,Three or more children,In low income (below threshold),141015.0,households_in_low_income
+2013-14,E12000002,Two children,In low income (below threshold),168691.0,households_in_low_income
+2013-14,E12000003,No children,In low income (below threshold),462312.0,households_in_low_income
+2013-14,E12000003,One child,In low income (below threshold),152522.0,households_in_low_income
+2013-14,E12000003,Three or more children,In low income (below threshold),99424.0,households_in_low_income
+2013-14,E12000003,Two children,In low income (below threshold),163542.0,households_in_low_income
+2014-15,E12000001,No children,In low income (below threshold),284284.0,households_in_low_income
+2014-15,E12000001,One child,In low income (below threshold),106263.0,households_in_low_income
+2014-15,E12000001,Three or more children,In low income (below threshold),54658.0,households_in_low_income
+2014-15,E12000001,Two children,In low income (below threshold),55570.0,households_in_low_income
+2014-15,E12000002,No children,In low income (below threshold),688999.0,households_in_low_income
+2014-15,E12000002,One child,In low income (below threshold),223633.0,households_in_low_income
+2014-15,E12000002,Three or more children,In low income (below threshold),182093.0,households_in_low_income
+2014-15,E12000002,Two children,In low income (below threshold),226035.0,households_in_low_income
+2014-15,E12000003,No children,In low income (below threshold),480106.0,households_in_low_income
+2014-15,E12000003,One child,In low income (below threshold),150917.0,households_in_low_income
+2014-15,E12000003,Three or more children,In low income (below threshold),94497.0,households_in_low_income
+2014-15,E12000003,Two children,In low income (below threshold),253832.0,households_in_low_income
+2015-16,E12000001,No children,In low income (below threshold),233976.0,households_in_low_income
+2015-16,E12000001,One child,In low income (below threshold),81693.0,households_in_low_income
+2015-16,E12000001,Three or more children,In low income (below threshold),99244.0,households_in_low_income
+2015-16,E12000001,Two children,In low income (below threshold),58903.0,households_in_low_income
+2015-16,E12000002,No children,In low income (below threshold),668431.0,households_in_low_income
+2015-16,E12000002,One child,In low income (below threshold),158117.0,households_in_low_income
+2015-16,E12000002,Three or more children,In low income (below threshold),271266.0,households_in_low_income
+2015-16,E12000002,Two children,In low income (below threshold),186028.0,households_in_low_income
+2015-16,E12000003,No children,In low income (below threshold),489482.0,households_in_low_income
+2015-16,E12000003,One child,In low income (below threshold),115734.0,households_in_low_income
+2015-16,E12000003,Three or more children,In low income (below threshold),200213.0,households_in_low_income
+2015-16,E12000003,Two children,In low income (below threshold),191056.0,households_in_low_income
+2016-17,E12000001,No children,In low income (below threshold),232330.0,households_in_low_income
+2016-17,E12000001,One child,In low income (below threshold),87142.0,households_in_low_income
+2016-17,E12000001,Three or more children,In low income (below threshold),73371.0,households_in_low_income
+2016-17,E12000001,Two children,In low income (below threshold),96563.0,households_in_low_income
+2016-17,E12000002,No children,In low income (below threshold),703597.0,households_in_low_income
+2016-17,E12000002,One child,In low income (below threshold),138210.0,households_in_low_income
+2016-17,E12000002,Three or more children,In low income (below threshold),326242.0,households_in_low_income
+2016-17,E12000002,Two children,In low income (below threshold),191228.0,households_in_low_income
+2016-17,E12000003,No children,In low income (below threshold),508396.0,households_in_low_income
+2016-17,E12000003,One child,In low income (below threshold),137581.0,households_in_low_income
+2016-17,E12000003,Three or more children,In low income (below threshold),99570.0,households_in_low_income
+2016-17,E12000003,Two children,In low income (below threshold),204768.0,households_in_low_income
+2017-18,E12000001,No children,In low income (below threshold),284358.0,households_in_low_income
+2017-18,E12000001,One child,In low income (below threshold),59321.0,households_in_low_income
+2017-18,E12000001,Three or more children,In low income (below threshold),100712.0,households_in_low_income
+2017-18,E12000001,Two children,In low income (below threshold),64113.0,households_in_low_income
+2017-18,E12000002,No children,In low income (below threshold),688811.0,households_in_low_income
+2017-18,E12000002,One child,In low income (below threshold),137889.0,households_in_low_income
+2017-18,E12000002,Three or more children,In low income (below threshold),334632.0,households_in_low_income
+2017-18,E12000002,Two children,In low income (below threshold),259196.0,households_in_low_income
+2017-18,E12000003,No children,In low income (below threshold),521946.0,households_in_low_income
+2017-18,E12000003,One child,In low income (below threshold),173058.0,households_in_low_income
+2017-18,E12000003,Three or more children,In low income (below threshold),198712.0,households_in_low_income
+2017-18,E12000003,Two children,In low income (below threshold),190938.0,households_in_low_income
+2018-19,E12000001,No children,In low income (below threshold),252130.0,households_in_low_income
+2018-19,E12000001,One child,In low income (below threshold),104351.0,households_in_low_income
+2018-19,E12000001,Three or more children,In low income (below threshold),82390.0,households_in_low_income
+2018-19,E12000001,Two children,In low income (below threshold),70368.0,households_in_low_income
+2018-19,E12000002,No children,In low income (below threshold),660202.0,households_in_low_income
+2018-19,E12000002,One child,In low income (below threshold),189596.0,households_in_low_income
+2018-19,E12000002,Three or more children,In low income (below threshold),276236.0,households_in_low_income
+2018-19,E12000002,Two children,In low income (below threshold),206266.0,households_in_low_income
+2018-19,E12000003,No children,In low income (below threshold),580875.0,households_in_low_income
+2018-19,E12000003,One child,In low income (below threshold),135022.0,households_in_low_income
+2018-19,E12000003,Three or more children,In low income (below threshold),257435.0,households_in_low_income
+2018-19,E12000003,Two children,In low income (below threshold),217725.0,households_in_low_income
+2019-20,E12000001,No children,In low income (below threshold),293459.0,households_in_low_income
+2019-20,E12000001,One child,In low income (below threshold),82470.0,households_in_low_income
+2019-20,E12000001,Three or more children,In low income (below threshold),177872.0,households_in_low_income
+2019-20,E12000001,Two children,In low income (below threshold),110936.0,households_in_low_income
+2019-20,E12000002,No children,In low income (below threshold),669972.0,households_in_low_income
+2019-20,E12000002,One child,In low income (below threshold),161879.0,households_in_low_income
+2019-20,E12000002,Three or more children,In low income (below threshold),263012.0,households_in_low_income
+2019-20,E12000002,Two children,In low income (below threshold),238222.0,households_in_low_income
+2019-20,E12000003,No children,In low income (below threshold),582107.0,households_in_low_income
+2019-20,E12000003,One child,In low income (below threshold),127232.0,households_in_low_income
+2019-20,E12000003,Three or more children,In low income (below threshold),227352.0,households_in_low_income
+2019-20,E12000003,Two children,In low income (below threshold),223980.0,households_in_low_income
+2020-21,E12000001,No children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000001,One child,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000001,Three or more children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000001,Two children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000002,No children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000002,One child,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000002,Three or more children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000002,Two children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000003,No children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000003,One child,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000003,Three or more children,In low income (below threshold),0.0,households_in_low_income
+2020-21,E12000003,Two children,In low income (below threshold),0.0,households_in_low_income
+2021-22,E12000001,No children,In low income (below threshold),258732.0,households_in_low_income
+2021-22,E12000001,One child,In low income (below threshold),59953.0,households_in_low_income
+2021-22,E12000001,Three or more children,In low income (below threshold),57282.0,households_in_low_income
+2021-22,E12000001,Two children,In low income (below threshold),47695.0,households_in_low_income
+2021-22,E12000002,No children,In low income (below threshold),650529.0,households_in_low_income
+2021-22,E12000002,One child,In low income (below threshold),131596.0,households_in_low_income
+2021-22,E12000002,Three or more children,In low income (below threshold),367742.0,households_in_low_income
+2021-22,E12000002,Two children,In low income (below threshold),216495.0,households_in_low_income
+2021-22,E12000003,No children,In low income (below threshold),585245.0,households_in_low_income
+2021-22,E12000003,One child,In low income (below threshold),111171.0,households_in_low_income
+2021-22,E12000003,Three or more children,In low income (below threshold),186350.0,households_in_low_income
+2021-22,E12000003,Two children,In low income (below threshold),141746.0,households_in_low_income

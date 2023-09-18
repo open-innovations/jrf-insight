@@ -40,6 +40,8 @@ stages:
       - ${top}/data/population-estimates/population-estimates.csv
       - ${top}/data/council-tax-support/council-tax-support.csv
       - ${top}/data/clif/clif_REL.csv
+      - ${top}/data/hbai/by_age_category.csv
+      - ${top}/data/hbai/by_savings_and_investments.csv
     outs:
       - ${top}/data/interim/place_data.parquet:
           persist: false
