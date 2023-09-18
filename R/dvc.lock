@@ -17,10 +17,38 @@ stages:
     deps:
     - path: R/claimant-count.R
       hash: md5
-      md5: 8006a21a03f085ac8f6d2b08d90569b4
-      size: 2709
+      md5: ab4f9f7da2edd73bc7ec5484baef9b7a
+      size: 2869
     outs:
     - path: data/claimant-count/claimant-count.csv
       hash: md5
-      md5: 7fec2353941532014ca9695c83f1e69a
-      size: 324025
+      md5: 23edc1ea16f9c1ffd16b7ad15f83768b
+      size: 237479
+  rental-prices:
+    cmd: Rscript R/rental-prices.R
+    deps:
+    - path: R/rental-prices.R
+      hash: md5
+      md5: 39489a1e14bf3b15217a05e913f2aaa0
+      size: 1823
+    outs:
+    - path: data/rental-prices/rental-prices.csv
+      hash: md5
+      md5: 5a679e3745572515b5f57fc6f12bb308
+      size: 874413
+    - path: data/rental-prices/rental-prices.rds
+      hash: md5
+      md5: 63714e3fbc32514f558294d3e01c94b9
+      size: 36153
+  council-tax-support:
+    cmd: Rscript R/local-council-tax-support.R
+    deps:
+    - path: R/local-council-tax-support.R
+      hash: md5
+      md5: e376377d315bfebf269f3ad4bd51c69c
+      size: 1676
+    outs:
+    - path: data/council-tax-support/council-tax-support.csv
+      hash: md5
+      md5: 54d688e22c6c85634b7d800c443e246f
+      size: 1484585
