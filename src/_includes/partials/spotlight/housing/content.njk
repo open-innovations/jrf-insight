@@ -174,7 +174,7 @@
   }}
 {% endcomp %}{% endif %}
 
-{% set chart_data = data.place.time_series.low_income_type_of_individual(geo) %}
+{% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
   <p style="text-align: center;">Number of people living in low income households by age category</p>
     {{ comp.oi.chart.line({
