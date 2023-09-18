@@ -6,31 +6,37 @@
 - dataset: hbai
   file: hbai/by_age_category.csv
   name: HBAI by age category
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_age_category
 - dataset: hbai
   file: hbai/by_savings_and_investments.csv
   name: HBAI by savings and investments
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_savings_and_investments
 - dataset: hbai
   file: hbai/by_ethnic_group.csv
   name: HBAI by ethnic group
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_ethnic_group
 - dataset: hbai
   file: hbai/by_age_of_youngest_child.csv
   name: HBAI by age of youngest child in household
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_age_of_youngest_child
 - dataset: hbai
   file: hbai/by_tenure_type.csv
   name: HBAI by type of tenure
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_tenure_type
 - dataset: hbai
   file: hbai/by_number_of_children.csv
   name: HBAI by number of children in household
+  pipeline: pipelines/statxplore/hbai.ipynb
   type: .csv
   view: by_number_of_children
 - dataset: ashe
@@ -46,11 +52,13 @@
 - dataset: clif
   file: clif/clif_ABS.csv
   name: Children in low-income families ABS
+  pipeline: pipelines/statxplore/extract.py
   type: .csv
   view: clif_ABS
 - dataset: clif
   file: clif/clif_REL.csv
   name: Children in low-income families REL
+  pipeline: pipelines/statxplore/extract.py
   type: .csv
   view: clif_REL
 - dataset: fuel-poverty
@@ -70,6 +78,10 @@
   view: population-estimates
 - dataset: statutory-homelessness
   file: statutory-homelessness/statutory-homelessness.csv
+  name: Statutory homelessness
+  source:
+    href: https://www.gov.uk/government/collections/homelessness-statistics
+    title: UK Government Homelessness statistics
   type: .csv
   view: statutory-homelessness
 - dataset: labour-market
@@ -80,6 +92,7 @@
 - dataset: HB
   file: HB/claimants.csv
   name: Housing benefit claimants
+  pipeline: pipelines/statxplore/extract.py
   type: .csv
   view: claimants
 - dataset: gva
@@ -97,25 +110,33 @@
   view: claimant-count
 - dataset: house-prices
   file: house-prices/house-prices.csv
+  name: House Prices
   type: .csv
   view: house-prices
 - dataset: rental-prices
   file: rental-prices/rental-prices.csv
+  name: Rental Prices
   type: .csv
   view: rental-prices
 - dataset: imd
   file: imd/imd.csv
+  name: Indices of Multiple Deprivation
   type: .csv
   view: imd
 - dataset: smi
   file: smi/smi_loans_in_payment_households.csv
+  name: Support for Mortgage Interest households
+  pipeline: pipelines/statxplore/extract.py
   type: .csv
   view: smi_loans_in_payment_households
 - dataset: smi
   file: smi/smi_in_payment_amount.csv
+  name: Support for Mortgage Interest amount
+  pipeline: pipelines/statxplore/extract.py
   type: .csv
   view: smi_in_payment_amount
 - dataset: council-tax-support
   file: council-tax-support/council-tax-support.csv
+  name: Council Tax Support
   type: .csv
   view: council-tax-support
