@@ -2,7 +2,7 @@ import { connection } from "../../../data/interim/duck.ts";
 
 export const getInfographicValuesForPlace = (placeCode: string) => {
   const percentage_benefits_claimants = connection.query(`
-    SELECT value
+    SELECT CAST(value AS DOUBLE) AS value
     FROM claimants
     WHERE geography_code=='${placeCode}'
     AND variable_name=='Claimants as a proportion of residents aged 16-64'

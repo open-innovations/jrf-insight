@@ -15,7 +15,7 @@ economic_insecurity:
         type: percentage
       - key: percentage_benefits_claimants
         description: Population claiming Universal Credit or Jobseeker's Allowance
-        type: raw
+        type: waffle
       - key: item_three
         description: ???
       - key: item_four
