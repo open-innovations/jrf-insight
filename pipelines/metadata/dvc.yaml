@@ -1,6 +1,11 @@
 vars:
   - top: '../..'
 stages:
+  list:
+    cmd: papermill list-metadata.ipynb output/list-metadata.ipynb
+    always_changed: true
+    deps:
+      - list-metadata.ipynb
   prepare:
     cmd: papermill prepare.ipynb output/prep-metadata.ipynb
     deps:
