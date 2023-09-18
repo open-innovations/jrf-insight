@@ -4,10 +4,12 @@
   view: fsm_time_series
 - dataset: hbai
   file: hbai/by_age_category.csv
+  name: HBAI by age category
   type: .csv
   view: by_age_category
 - dataset: hbai
   file: hbai/by_savings_and_investments.csv
+  name: HBAI by savings and investments
   type: .csv
   view: by_savings_and_investments
 - dataset: hbai

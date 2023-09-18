@@ -87515,7 +87515,8 @@
       }
     ],
     "file":"HB\/claimants.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"ashe",
@@ -87767,7 +87768,8 @@
       }
     ],
     "file":"ashe\/weekly-earnings.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"claimant-count",
@@ -91224,7 +91226,8 @@
       }
     ],
     "file":"claimant-count\/claimant-count.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"clif",
@@ -91671,7 +91674,8 @@
       }
     ],
     "file":"clif\/clif_ABS.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"clif",
@@ -92118,7 +92122,8 @@
       }
     ],
     "file":"clif\/clif_REL.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"council-tax-support",
@@ -93247,7 +93252,8 @@
       }
     ],
     "file":"council-tax-support\/council-tax-support.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"fuel-poverty",
@@ -96098,7 +96104,8 @@
       }
     ],
     "file":"fuel-poverty\/fuel-poverty.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"gva",
@@ -104085,7 +104092,8 @@
       }
     ],
     "file":"gva\/gva.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"hbai",
@@ -104166,7 +104174,8 @@
       }
     ],
     "file":"hbai\/by_age_category.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":"HBAI by age category"
   },
   {
     "dataset":"hbai",
@@ -104249,7 +104258,8 @@
       }
     ],
     "file":"hbai\/by_age_of_youngest_child.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"hbai",
@@ -104333,7 +104343,8 @@
       }
     ],
     "file":"hbai\/by_ethnic_group.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"hbai",
@@ -104415,7 +104426,8 @@
       }
     ],
     "file":"hbai\/by_number_of_children.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"hbai",
@@ -104501,7 +104513,8 @@
       }
     ],
     "file":"hbai\/by_savings_and_investments.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":"HBAI by savings and investments"
   },
   {
     "dataset":"hbai",
@@ -104582,7 +104595,8 @@
       }
     ],
     "file":"hbai\/by_tenure_type.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"house-prices",
@@ -107306,7 +107320,8 @@
       }
     ],
     "file":"house-prices\/house-prices.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"households",
@@ -115263,7 +115278,8 @@
       }
     ],
     "file":"households\/households.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"imd",
@@ -115992,7 +116008,8 @@
       }
     ],
     "file":"imd\/imd.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"labour-market",
@@ -116300,7 +116317,8 @@
       }
     ],
     "file":"labour-market\/labour-market.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"population-estimates",
@@ -130949,7 +130967,8 @@
       }
     ],
     "file":"population-estimates\/population-estimates.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"population-estimates",
@@ -132318,7 +132337,8 @@
       }
     ],
     "file":"population-estimates\/population-estimates-ages.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"rental-prices",
@@ -133486,7 +133506,8 @@
       }
     ],
     "file":"rental-prices\/rental-prices.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"smi",
@@ -133609,7 +133630,8 @@
       }
     ],
     "file":"smi\/smi_in_payment_amount.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   },
   {
     "dataset":"smi",
@@ -133732,6 +133754,7 @@
       }
     ],
     "file":"smi\/smi_loans_in_payment_households.csv",
-    "type":".csv"
+    "type":".csv",
+    "name":null
   }
 ]
