@@ -7,9 +7,9 @@ stages:
     deps:
       - list-metadata.ipynb
   prepare:
-    cmd: papermill prepare.ipynb output/prep-metadata.ipynb
+    cmd: papermill prep-metadata.ipynb output/prep-metadata.ipynb
     deps:
-      - prepare.ipynb
+      - prep-metadata.ipynb
       - ${top}/data/
     outs:
       - ${top}/src/_data/metadata/catalogue.json:

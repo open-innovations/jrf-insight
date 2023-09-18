@@ -1,22 +1,22 @@
 schema: '2.0'
 stages:
   prepare:
-    cmd: papermill prepare.ipynb output/prep-metadata.ipynb
+    cmd: papermill prep-metadata.ipynb output/prep-metadata.ipynb
     deps:
     - path: ../../data/
       hash: md5
       md5: cde9aded755df6f50a2be12d2fbb5b5f.dir
       size: 95703173
       nfiles: 498
-    - path: prepare.ipynb
+    - path: prep-metadata.ipynb
       hash: md5
-      md5: d983363d652edbd9f52091aa4eda6bcb
-      size: 4119
+      md5: 5c6c524b7fe29bd64587fc9f2df96227
+      size: 7415
     outs:
     - path: ../../src/_data/metadata/catalogue.json
       hash: md5
-      md5: 01eb4ae7443f7a2c40bfdaae077c558f
-      size: 2655453
+      md5: 2f766cbdfab55256957823cdf9e733c6
+      size: 2656907
   list:
     cmd: papermill list-metadata.ipynb output/list-metadata.ipynb
     deps:
