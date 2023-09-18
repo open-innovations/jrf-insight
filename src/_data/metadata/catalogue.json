@@ -87515,8 +87515,9 @@
       }
     ],
     "file":"HB\/claimants.csv",
+    "name":"Housing benefit claimants",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"ashe",
@@ -87768,8 +87769,9 @@
       }
     ],
     "file":"ashe\/weekly-earnings.csv",
+    "name":"Annual Survey of Hours and Earnings Weekly Earnings",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"claimant-count",
@@ -91226,8 +91228,9 @@
       }
     ],
     "file":"claimant-count\/claimant-count.csv",
+    "name":"Universal Credit claimant count",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"clif",
@@ -91674,8 +91677,9 @@
       }
     ],
     "file":"clif\/clif_ABS.csv",
+    "name":"Children in low-income families ABS",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"clif",
@@ -92122,8 +92126,9 @@
       }
     ],
     "file":"clif\/clif_REL.csv",
+    "name":"Children in low-income families REL",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"council-tax-support",
@@ -93252,8 +93257,19 @@
       }
     ],
     "file":"council-tax-support\/council-tax-support.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
+  },
+  {
+    "dataset":"free-school-meals",
+    "view":"fsm_time_series",
+    "facts":null,
+    "dimensions":null,
+    "file":"free-school-meals\/fsm_time_series.csv",
+    "name":"Free School Meals",
+    "type":".csv",
+    "description":null
   },
   {
     "dataset":"fuel-poverty",
@@ -96104,8 +96120,9 @@
       }
     ],
     "file":"fuel-poverty\/fuel-poverty.csv",
+    "name":"Fuel Poverty",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"gva",
@@ -104092,8 +104109,9 @@
       }
     ],
     "file":"gva\/gva.csv",
+    "name":"Gross Value Added",
     "type":".csv",
-    "name":null
+    "description":"Gross value added (GVA) is an economic productivity metric that measures the contribution of a corporate subsidiary, company, or municipality to an economy, producer, sector, or region."
   },
   {
     "dataset":"hbai",
@@ -104174,8 +104192,9 @@
       }
     ],
     "file":"hbai\/by_age_category.csv",
+    "name":"HBAI by age category",
     "type":".csv",
-    "name":"HBAI by age category"
+    "description":null
   },
   {
     "dataset":"hbai",
@@ -104258,8 +104277,9 @@
       }
     ],
     "file":"hbai\/by_age_of_youngest_child.csv",
+    "name":"HBAI by age of youngest child in household",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"hbai",
@@ -104343,8 +104363,9 @@
       }
     ],
     "file":"hbai\/by_ethnic_group.csv",
+    "name":"HBAI by ethnic group",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"hbai",
@@ -104426,8 +104447,9 @@
       }
     ],
     "file":"hbai\/by_number_of_children.csv",
+    "name":"HBAI by number of children in household",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"hbai",
@@ -104513,8 +104535,9 @@
       }
     ],
     "file":"hbai\/by_savings_and_investments.csv",
+    "name":"HBAI by savings and investments",
     "type":".csv",
-    "name":"HBAI by savings and investments"
+    "description":null
   },
   {
     "dataset":"hbai",
@@ -104595,8 +104618,9 @@
       }
     ],
     "file":"hbai\/by_tenure_type.csv",
+    "name":"HBAI by type of tenure",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"house-prices",
@@ -107320,8 +107344,9 @@
       }
     ],
     "file":"house-prices\/house-prices.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"households",
@@ -115278,8 +115303,9 @@
       }
     ],
     "file":"households\/households.csv",
+    "name":"Council Tax stock of properties households",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"imd",
@@ -116008,8 +116034,9 @@
       }
     ],
     "file":"imd\/imd.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"labour-market",
@@ -116317,8 +116344,9 @@
       }
     ],
     "file":"labour-market\/labour-market.csv",
+    "name":"Labour market economic activity",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"population-estimates",
@@ -130967,8 +130995,9 @@
       }
     ],
     "file":"population-estimates\/population-estimates.csv",
+    "name":"Population estimates",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"population-estimates",
@@ -132337,8 +132366,9 @@
       }
     ],
     "file":"population-estimates\/population-estimates-ages.csv",
+    "name":"Population estimates by age band",
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"rental-prices",
@@ -133506,8 +133536,9 @@
       }
     ],
     "file":"rental-prices\/rental-prices.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"smi",
@@ -133630,8 +133661,9 @@
       }
     ],
     "file":"smi\/smi_in_payment_amount.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
   },
   {
     "dataset":"smi",
@@ -133754,7 +133786,18 @@
       }
     ],
     "file":"smi\/smi_loans_in_payment_households.csv",
+    "name":null,
     "type":".csv",
-    "name":null
+    "description":null
+  },
+  {
+    "dataset":"statutory-homelessness",
+    "view":"statutory-homelessness",
+    "facts":null,
+    "dimensions":null,
+    "file":"statutory-homelessness\/statutory-homelessness.csv",
+    "name":null,
+    "type":".csv",
+    "description":null
   }
 ]

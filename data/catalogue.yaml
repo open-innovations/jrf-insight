@@ -1,5 +1,6 @@
 - dataset: free-school-meals
   file: free-school-meals/fsm_time_series.csv
+  name: Free School Meals
   type: .csv
   view: fsm_time_series
 - dataset: hbai
@@ -14,46 +15,57 @@
   view: by_savings_and_investments
 - dataset: hbai
   file: hbai/by_ethnic_group.csv
+  name: HBAI by ethnic group
   type: .csv
   view: by_ethnic_group
 - dataset: hbai
   file: hbai/by_age_of_youngest_child.csv
+  name: HBAI by age of youngest child in household
   type: .csv
   view: by_age_of_youngest_child
 - dataset: hbai
   file: hbai/by_tenure_type.csv
+  name: HBAI by type of tenure
   type: .csv
   view: by_tenure_type
 - dataset: hbai
   file: hbai/by_number_of_children.csv
+  name: HBAI by number of children in household
   type: .csv
   view: by_number_of_children
 - dataset: ashe
   file: ashe/weekly-earnings.csv
+  name: Annual Survey of Hours and Earnings Weekly Earnings
   type: .csv
   view: weekly-earnings
 - dataset: households
   file: households/households.csv
+  name: Council Tax stock of properties households
   type: .csv
   view: households
 - dataset: clif
   file: clif/clif_ABS.csv
+  name: Children in low-income families ABS
   type: .csv
   view: clif_ABS
 - dataset: clif
   file: clif/clif_REL.csv
+  name: Children in low-income families REL
   type: .csv
   view: clif_REL
 - dataset: fuel-poverty
   file: fuel-poverty/fuel-poverty.csv
+  name: Fuel Poverty
   type: .csv
   view: fuel-poverty
 - dataset: population-estimates
   file: population-estimates/population-estimates-ages.csv
+  name: Population estimates by age band
   type: .csv
   view: population-estimates-ages
 - dataset: population-estimates
   file: population-estimates/population-estimates.csv
+  name: Population estimates
   type: .csv
   view: population-estimates
 - dataset: statutory-homelessness
@@ -62,40 +74,31 @@
   view: statutory-homelessness
 - dataset: labour-market
   file: labour-market/labour-market.csv
+  name: Labour market economic activity
   type: .csv
   view: labour-market
 - dataset: HB
   file: HB/claimants.csv
+  name: Housing benefit claimants
   type: .csv
   view: claimants
 - dataset: gva
+  description: Gross value added (GVA) is an economic productivity metric that measures
+    the contribution of a corporate subsidiary, company, or municipality to an economy,
+    producer, sector, or region.
   file: gva/gva.csv
+  name: Gross Value Added
   type: .csv
   view: gva
 - dataset: claimant-count
   file: claimant-count/claimant-count.csv
+  name: Universal Credit claimant count
   type: .csv
   view: claimant-count
 - dataset: house-prices
   file: house-prices/house-prices.csv
   type: .csv
   view: house-prices
-- dataset: geo
-  file: geo/geography_lookup.csv
-  type: .csv
-  view: geography_lookup
-- dataset: geo
-  file: geo/geography_code_name_only.csv
-  type: .csv
-  view: geography_code_name_only
-- dataset: geo
-  file: geo/area_of_places.csv
-  type: .csv
-  view: area_of_places
-- dataset: geo
-  file: geo/geography_tree.csv
-  type: .csv
-  view: geography_tree
 - dataset: rental-prices
   file: rental-prices/rental-prices.csv
   type: .csv

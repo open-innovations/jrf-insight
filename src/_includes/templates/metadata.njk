@@ -2,6 +2,11 @@
 layout: ./page.njk
 ---
 
+{{ description | md | safe }}
+
+{# TODO Make this a proper link #}
+<p>You can access <a target="_blank" href="{{ 'https://github.com/open-innovations/jrf-insight/blob/main/data/' + file }}">the data for {{ title }}</a> on the linked GitHub repository.</p>
+
 <h2>Dimensions</h2>
 
 <table class="top-trump-table">
