@@ -16,6 +16,7 @@ export function get_fuel_poverty(placeCodes: string[]) {
         SELECT
           date,
           geography_code,
+          geography_name,
           value,
           variable_name
         FROM fuel_poverty
@@ -26,3 +27,12 @@ export function get_fuel_poverty(placeCodes: string[]) {
       ;`)
   );
 }
+
+export const range = () => run(
+  () => connection.query(`SELECT
+      FLOOR(MIN(value)) as min,
+      CEIL(MAX(value)) as max
+    FROM fuel_poverty
+    WHERE variable_name=='Proportion of households fuel poor \(\%\)';
+  `).shift()
+)

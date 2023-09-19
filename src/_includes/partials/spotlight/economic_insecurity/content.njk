@@ -1,5 +1,6 @@
 {% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
-{% set place_and_children = [ geography, place[geography].relations.children ] | flat %}
+{% set place_children = place[geography].relations.children %}
+{% set place_and_children = [ geography, place_children ] | flat %}
 
 <h3>Key indicators</h3>
 
@@ -41,7 +42,44 @@
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-{{ dataset.fuel_poverty.get_fuel_poverty(place_and_children) | fake_csv | DEBUG | safe }}
+{% set fp_this = dataset.fuel_poverty.get_fuel_poverty([geography])[0] %}
+{% set range = dataset.fuel_poverty.range() %}
+{% set fp_all = dataset.fuel_poverty.get_fuel_poverty(place_and_children) %}
+
+{% if fp_this | length > 0 %}
+  <p>{{ this_place.title }}
+  has {{ fp_this["Number of households in fuel poverty"] }}
+  of {{ fp_this['Number of households'] }} households in fuel poverty.
+{% endif %}
+
+{% if fp_all.length > 0 %}
+{{ comp.oi.map.svg({
+  config: {
+    data: fp_all,
+    geojson: { data: place[geography].map, key: 'ons_code' },
+    background: {
+      geojson: 'map.england', colour: 'silver' },
+    columns: [
+      { name: 'tooltip', template: "{{ geography_name}}\n\n{{ Proportion of households fuel poor (%) | toFixed(1) }}% of households are fuel poor" }
+    ],
+    value: 'Proportion of households fuel poor (%)',
+    scale: 'Viridis',
+    min: range.min,
+    max: range.max,
+    legend: {
+      position: 'top right',
+      items: [
+        { value: range.max, label: range.max + '% (highest)' },
+        { value: (range.max + range.min) / 2, label: (range.max + range.min) / 2 + '%' },
+        { value: range.min, label: range.min + '% (lowest)' }
+      ]
+    },
+    key: 'geography_code',
+    tooltip: 'tooltip'
+  }
+}) | safe }}
+{% endif %}
+
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
