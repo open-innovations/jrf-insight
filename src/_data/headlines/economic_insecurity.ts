@@ -9,8 +9,18 @@ export const getInfographicValuesForPlace = (placeCode: string) => {
     LIMIT 1;
   `).shift()?.value;
 
+  const proportion_fuel_poverty = connection.query(`
+    SELECT CAST(value AS DOUBLE) as value
+    FROM fuel_poverty
+    WHERE geography_code=='${placeCode}'
+    AND variable_name=='Proportion of households fuel poor (%)'
+    ORDER BY date DESC
+    LIMIT 1;
+  `).shift()?.value;
+
   return {
     percentage_benefits_claimants,
+    proportion_fuel_poverty,
     people_in_deprived_places: 50,
   };
 };

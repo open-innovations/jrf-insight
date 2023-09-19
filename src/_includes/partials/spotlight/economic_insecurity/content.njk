@@ -1,9 +1,9 @@
 {% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
 {% set place_and_children = [ geography, place[geography].relations.children ] | flat %}
 
-<h3>Broad datasets</h3>
+<h3>Key indicators</h3>
 
-<p>The following datasets reflect the experience across the population of {{ this_place.title }}.</p>
+<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
 {% comp 'layout.tab.set' %}
 {#------------------------------------------------------------------------
