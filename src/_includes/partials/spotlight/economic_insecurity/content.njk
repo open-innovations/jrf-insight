@@ -50,7 +50,7 @@
 
 {% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
 {% set chart_data = dataset
-  .savings
+  .hbai
   .get_savings_and_investments_for_place(geography) %}
 {% if chart_data.rows | length > 0 %}
 
