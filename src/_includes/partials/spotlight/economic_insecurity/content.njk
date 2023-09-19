@@ -1,4 +1,5 @@
 {% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
+{% set place_and_children = [ geography, place[geography].relations.children ] | flat %}
 
 <h3>Broad datasets</h3>
 
@@ -40,10 +41,9 @@
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-{% set chart_data = dataset
-  .fuel_poverty
-  .get_fuel_poverty_for_place(geography) %}
-<pre style="font-size: 0.7em;">{{ chart_data | dump(2) }}</pre>
+<pre style="font-size: 0.7em;">
+{{ dataset.fuel_poverty.get_fuel_poverty(place_and_children) | fake_csv | dump(2) }}
+</pre>
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
@@ -101,15 +101,23 @@
       ]
     }
   }) | safe }}
+{% else %}
+  <p>No data available at this level</p>
 {% endif %}
 {% endcomp %}
 
 {% endcomp %}
 
-<h3>Specific Demographics</h3>
+<h3>Demographic breakdown</h3>
+
+<p>
+  Poverty can disproportionately affect certain groups.
+  This section presents analysis of {{ title }} with a focus on demographics.
+</p>
 
 {% comp 'layout.tab.set' %}
-{% comp 'layout.tab.panel', { label: 'Gender - pay gap / % jobs less than living wage' } %}
+{% comp 'layout.tab.panel', { label: 'Gender' } %}
+    Pay gap / % jobs less than living wage
 {% endcomp %}
 {% comp 'layout.tab.panel', {label: 'Ethnicity'} %}
 {% endcomp %}

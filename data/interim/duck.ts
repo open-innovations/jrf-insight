@@ -119,3 +119,5 @@ const formatDate = (
   date: new Date(date).toISOString().split("T").shift(),
   ...rest,
 });
+
+export const arrayToDuckSet = (a: string[]) => `(${a.map(e => `'${e}'`).join(',')})`
