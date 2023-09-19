@@ -41,13 +41,11 @@
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-<pre style="font-size: 0.7em;">
-{{ dataset.fuel_poverty.get_fuel_poverty(place_and_children) | fake_csv | dump(2) }}
-</pre>
+{{ dataset.fuel_poverty.get_fuel_poverty(place_and_children) | fake_csv | DEBUG | safe }}
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
-
+{{ dataset.ashe.weekly_earnings(place_and_children) | fake_csv | DEBUG | safe }}
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}

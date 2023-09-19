@@ -116,4 +116,6 @@ site.filter("pick", (list, keys) => keys.map(i => list[i] || null))
 site.filter("fake_csv", makeFakeCSV);
 site.filter("flat", (a: unknown[]) => a.flat());
 
+site.filter("DEBUG", (o) => `<pre style="font-size:0.7em">${JSON.stringify(o, null, 2)}</pre>`);
+
 export default site;
