@@ -1,13 +1,13 @@
 tab-set {
-  --border-width: 4px;
-  --colour: white;
-  --background: grey;
+  --border-width: 2px;
+  --colour: #343333;
+  --background: #eee;
   --selected-colour: black;
   --selected-background: white;
-  --unselected-colour: black;
-  --unselected-background: #ddd;
+  --unselected-colour: var(--color);
+  --unselected-background: var(--background);
   --hover-colour: white;
-  --hover-background: var(--jrf-moderate-cyan);
+  --hover-background: #343333;
   & [role="tablist"] {
     display: flex;
     gap: var(--border-width);
@@ -45,5 +45,6 @@ tab-set {
     border-color: var(--background);
     background-color: var(--selected-background);
     padding: 1em;
+    min-height: 20em;
   }  
 }
