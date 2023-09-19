@@ -13,7 +13,7 @@
 {% set chart_data = dataset
   .labour_market
   .get_economic_activity_for_place(geography) %}
-{% if chart_data.rows | length > 0 %}
+{% if chart_data | length > 0 %}
   {{ comp.oi.chart.line({
     config: {
       data: chart_data,
@@ -52,7 +52,7 @@
 {% set chart_data = dataset
   .hbai
   .get_savings_and_investments_for_place(geography) %}
-{% if chart_data.rows | length > 0 %}
+{% if chart_data | length > 0 %}
 
   <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
   <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>

@@ -1,8 +1,8 @@
-import { connection, run, makeFakeCSV } from "../../../data/interim/duck.ts";
+import { connection, run } from "../../../data/interim/duck.ts";
 
 
 export const low_income_type_of_individual = (place: string) => {
-  const data = run(
+  return run(
     () => connection.query(`
       PIVOT (
         SELECT
@@ -17,11 +17,10 @@ export const low_income_type_of_individual = (place: string) => {
       USING AVG(percent);
     `)
   );
-  return makeFakeCSV(data);
 };
 
 export const get_savings_and_investments_for_place = (place: string) => {
-  const data = run(
+  return run(
     () => connection.query(`
       PIVOT (
         SELECT
@@ -37,5 +36,4 @@ export const get_savings_and_investments_for_place = (place: string) => {
       ORDER BY date asc;
     `)
   );
-  return makeFakeCSV(data);
 }

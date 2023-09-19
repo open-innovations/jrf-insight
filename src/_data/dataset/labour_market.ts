@@ -1,10 +1,10 @@
 import {
   connection,
-  runQuery
+  run,
 } from '../../../data/interim/duck.ts';
 
 export const get_economic_activity_for_place = (placeCode: string) =>
-  runQuery(
+  run(
     () => connection.query(`
       PIVOT (
         SELECT
