@@ -6,11 +6,16 @@ stages:
     always_changed: true
     deps:
       - list-metadata.ipynb
+      - ${top}/data
+    outs:
+      - catalogue.yaml:
+          persist: true
+          cache: false
   prepare:
     cmd: papermill prep-metadata.ipynb output/prep-metadata.ipynb
     deps:
       - prep-metadata.ipynb
-      - ${top}/data/
+      - catalogue.yaml
     outs:
       - ${top}/src/_data/metadata/catalogue.json:
           persist: false
