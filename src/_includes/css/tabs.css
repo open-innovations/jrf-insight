@@ -1,22 +1,49 @@
 tab-set {
-  --border-width: 2px;
-  --border: var(--border-width) solid grey;
+  --border-width: 4px;
+  --colour: white;
+  --background: grey;
+  --selected-colour: black;
+  --selected-background: white;
+  --unselected-colour: black;
+  --unselected-background: #ddd;
+  --hover-colour: white;
+  --hover-background: var(--jrf-moderate-cyan);
   & [role="tablist"] {
     display: flex;
     gap: var(--border-width);
+    color: var(--colour);
+    background: var(--background);
+    border-width: var(--border-width);
+    border-block-end-width: 0;
+    border-style: solid;
+    border-color: var(--background);
+  }
+  & a {
+    color: inherit;
   }
   & [role="tab"] {
     display: block;
     position: relative;
-    padding: 0.5em 1em;
+    padding: 0.5em;
+    color: var(--unselected-colour);
+    background-color: var(--unselected-background);
+    /* border-block-end: var(--border-width) solid var(--background); */
     &[aria-selected=true] {
-      border: var(--border);
-      border-bottom-width: 0;
-      top: var(--border-width);
+      color: var(--selected-colour);
+      background-color: var(--selected-background);
+      /* border-block-end-color: var(--selected-background); */
+    }
+    &:hover {
+      color: var(--hover-colour);
+      background-color: var(--hover-background);
     }
   }
   & [role="tabpanel"] {
-    border: var(--border);
+    border-width: var(--border-width);
+    border-block-start-width: 0;
+    border-style: solid;
+    border-color: var(--background);
+    background-color: var(--selected-background);
     padding: 1em;
   }  
 }
