@@ -4,12 +4,32 @@ import {
   run
 } from "../../../data/interim/duck.ts";
 
+const tableToObjectTree = <T>(result: { [x: string]: Omit<T, 'variable_name'> }, { variable_name, ...rest }: { variable_name: string, rest: Omit<T, 'variable_name'> }) =>
+({ ...result, 
+  [variable_name]: rest,
+});
+
+
 export function weekly_earnings(placeList: string[]) {
   return run(
     () => connection.query(`
-      SELECT *
-      FROM ashe_weekly_earning
-      WHERE geography_code IN ${arrayToDuckSet(placeList)};
+      PIVOT (
+        SELECT *
+        FROM ashe_weekly_earning
+        WHERE geography_code IN ${arrayToDuckSet(placeList)}
+      )
+      ON variable_name USING SUM(value)
+      ;
     `)
   );
 }
+
+export const range = connection.query(`
+  SELECT
+    variable_name,
+    FLOOR(MIN(CAST(value AS FLOAT))) AS min,
+    CEIL(MAX(value)) AS max,
+  FROM ashe_weekly_earning
+  GROUP BY variable_name
+  ;
+`).reduce(tableToObjectTree, {});

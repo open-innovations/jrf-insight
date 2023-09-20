@@ -17,7 +17,7 @@ connection.query(`
   CREATE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv', nullstr='NA');
   CREATE TABLE fuel_poverty AS SELECT * FROM read_csv_auto('./data/fuel-poverty/fuel-poverty.csv');
   
-  CREATE TABLE ashe_weekly_earning AS SELECT * from read_csv_auto('./data/ashe/weekly-earnings.csv');
+  CREATE TABLE ashe_weekly_earning AS SELECT * from read_csv_auto('./data/ashe/weekly-earnings.csv', nullstr='NA');
   CREATE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
   CREATE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
   CREATE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
