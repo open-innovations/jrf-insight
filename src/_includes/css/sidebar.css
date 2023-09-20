@@ -1,0 +1,18 @@
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  & > * {
+    /* ↓ Grow from nothing */
+    flex-basis: 0;
+    flex-grow: 999;
+    /* ↓ Wrap when the elements are of equal width */
+    min-inline-size: 50%;
+  }
+  & > .sidebar {
+    flex-basis: 20em;
+    flex-grow: 1;
+    min-inline-size: unset;
+  }  
+}
+
