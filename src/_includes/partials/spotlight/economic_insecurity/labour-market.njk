@@ -1,0 +1,27 @@
+{% set chart_data = dataset
+  .labour_market
+  .get_economic_activity_for_place(geography) %}
+{% if chart_data | length > 0 %}
+  {{ comp.oi.chart.line({
+    config: {
+      data: chart_data,
+      legend: { show: true },
+      axis: {
+        x: { title: { label: "Year" }, grid: { show: true } },
+        y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
+      },
+      series: [
+        {
+          x: "date", y: "Unemployment rate - aged 16-64",
+          title: "Unemployment rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+        },
+        {
+          x: "date", y: "% who are economically inactive - aged 16-64",
+          title: "Economic inactivity rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+        }
+      ]
+    }
+  }) | safe }}
+{% else %}
+  <p>No data available at this level</p>
+{% endif %}
