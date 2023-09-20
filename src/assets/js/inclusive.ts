@@ -137,7 +137,11 @@ function initialiseTabSet() {
         const currentTab = tablist.querySelector<HTMLElement>('[aria-selected]');
         if (currentTab && e.currentTarget && (e.currentTarget !== currentTab)) {
           switchTab(currentTab, e.currentTarget as HTMLElement);
+          console.log(e.currentTarget.id);
         }
+        // Set the window location
+        // window.location.hash = container.id;
+
       });
 
       // Handle keydown events for keyboard users
@@ -168,8 +172,15 @@ function initialiseTabSet() {
     tabs[0].removeAttribute('tabindex');
     tabs[0].setAttribute('aria-selected', 'true');
     panels[0].hidden = false;
-  });
 
+  });
+  // Check if page is one of these
+  const hashTarget = document.querySelector(window.location.hash);
+  if (hashTarget && hashTarget.role === 'tabpanel') {
+    const tab = document.querySelector(`a[href="${window.location.hash}"][role="tab"]`)
+    tab?.scrollTo();
+    tab.click();
+  }
 }
 
 addEventListener('DOMContentLoaded', () => {
