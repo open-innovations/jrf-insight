@@ -80,12 +80,11 @@ stages:
 
   # imd 
   imd:
-    frozen: true
     cmd: Rscript R/imd.R
-    always_changed: true
     wdir: ..
     deps:
       - R/imd.R
+      - data-raw/imd/
     outs:
       - data/imd/imd.csv:
           persist: false
