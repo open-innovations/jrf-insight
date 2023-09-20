@@ -21,6 +21,7 @@ connection.query(`
   CREATE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
   CREATE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
   CREATE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_ethnic_group.csv');
+  CREATE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_marital_status.csv');
   CREATE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
 `);
 

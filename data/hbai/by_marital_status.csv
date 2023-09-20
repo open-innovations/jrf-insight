@@ -1,0 +1,337 @@
+Financial Year,geography_code,Marital Status of Adults and Type of Couple in the Family of the Individual,income_status,value,variable_name
+1994-95,E12000001,Couple,Not in low income (at or above threshold),1971185.0,population
+1994-95,E12000001,Single,Not in low income (at or above threshold),0.0,population
+1994-95,E12000002,Couple,Not in low income (at or above threshold),5288744.0,population
+1994-95,E12000002,Single,Not in low income (at or above threshold),0.0,population
+1994-95,E12000003,Couple,Not in low income (at or above threshold),3743033.0,population
+1994-95,E12000003,Single,Not in low income (at or above threshold),0.0,population
+1995-96,E12000001,Couple,Not in low income (at or above threshold),1906464.0,population
+1995-96,E12000001,Single,Not in low income (at or above threshold),0.0,population
+1995-96,E12000002,Couple,Not in low income (at or above threshold),5453457.0,population
+1995-96,E12000002,Single,Not in low income (at or above threshold),0.0,population
+1995-96,E12000003,Couple,Not in low income (at or above threshold),3814560.0,population
+1995-96,E12000003,Single,Not in low income (at or above threshold),0.0,population
+1996-97,E12000001,Couple,Not in low income (at or above threshold),1927394.0,population
+1996-97,E12000001,Single,Not in low income (at or above threshold),0.0,population
+1996-97,E12000002,Couple,Not in low income (at or above threshold),5247560.0,population
+1996-97,E12000002,Single,Not in low income (at or above threshold),0.0,population
+1996-97,E12000003,Couple,Not in low income (at or above threshold),3776804.0,population
+1996-97,E12000003,Single,Not in low income (at or above threshold),0.0,population
+1997-98,E12000001,Couple,Not in low income (at or above threshold),1352138.0,population
+1997-98,E12000001,Single,Not in low income (at or above threshold),567103.0,population
+1997-98,E12000002,Couple,Not in low income (at or above threshold),3573569.0,population
+1997-98,E12000002,Single,Not in low income (at or above threshold),1633020.0,population
+1997-98,E12000003,Couple,Not in low income (at or above threshold),2673408.0,population
+1997-98,E12000003,Single,Not in low income (at or above threshold),1092102.0,population
+1998-99,E12000001,Couple,Not in low income (at or above threshold),1244322.0,population
+1998-99,E12000001,Single,Not in low income (at or above threshold),614728.0,population
+1998-99,E12000002,Couple,Not in low income (at or above threshold),3504656.0,population
+1998-99,E12000002,Single,Not in low income (at or above threshold),1583894.0,population
+1998-99,E12000003,Couple,Not in low income (at or above threshold),2647401.0,population
+1998-99,E12000003,Single,Not in low income (at or above threshold),1042738.0,population
+1999-00,E12000001,Couple,Not in low income (at or above threshold),1227822.0,population
+1999-00,E12000001,Single,Not in low income (at or above threshold),627329.0,population
+1999-00,E12000002,Couple,Not in low income (at or above threshold),3618772.0,population
+1999-00,E12000002,Single,Not in low income (at or above threshold),1637088.0,population
+1999-00,E12000003,Couple,Not in low income (at or above threshold),2670658.0,population
+1999-00,E12000003,Single,Not in low income (at or above threshold),1086224.0,population
+2000-01,E12000001,Couple,Not in low income (at or above threshold),1273434.0,population
+2000-01,E12000001,Single,Not in low income (at or above threshold),613391.0,population
+2000-01,E12000002,Couple,Not in low income (at or above threshold),3616422.0,population
+2000-01,E12000002,Single,Not in low income (at or above threshold),1707105.0,population
+2000-01,E12000003,Couple,Not in low income (at or above threshold),2791623.0,population
+2000-01,E12000003,Single,Not in low income (at or above threshold),1074700.0,population
+2001-02,E12000001,Couple,Not in low income (at or above threshold),1350309.0,population
+2001-02,E12000001,Single,Not in low income (at or above threshold),615382.0,population
+2001-02,E12000002,Couple,Not in low income (at or above threshold),3561961.0,population
+2001-02,E12000002,Single,Not in low income (at or above threshold),1700202.0,population
+2001-02,E12000003,Couple,Not in low income (at or above threshold),2736260.0,population
+2001-02,E12000003,Single,Not in low income (at or above threshold),1106636.0,population
+2002-03,E12000001,Couple,Not in low income (at or above threshold),1319350.0,population
+2002-03,E12000001,Single,Not in low income (at or above threshold),591506.0,population
+2002-03,E12000002,Couple,Not in low income (at or above threshold),3659521.0,population
+2002-03,E12000002,Single,Not in low income (at or above threshold),1729415.0,population
+2002-03,E12000003,Couple,Not in low income (at or above threshold),2788145.0,population
+2002-03,E12000003,Single,Not in low income (at or above threshold),1172768.0,population
+2003-04,E12000001,Couple,Not in low income (at or above threshold),1324741.0,population
+2003-04,E12000001,Single,Not in low income (at or above threshold),651682.0,population
+2003-04,E12000002,Couple,Not in low income (at or above threshold),3703442.0,population
+2003-04,E12000002,Single,Not in low income (at or above threshold),1713206.0,population
+2003-04,E12000003,Couple,Not in low income (at or above threshold),2803789.0,population
+2003-04,E12000003,Single,Not in low income (at or above threshold),1182554.0,population
+2004-05,E12000001,Couple,Not in low income (at or above threshold),1352728.0,population
+2004-05,E12000001,Single,Not in low income (at or above threshold),612258.0,population
+2004-05,E12000002,Couple,Not in low income (at or above threshold),3748653.0,population
+2004-05,E12000002,Single,Not in low income (at or above threshold),1755133.0,population
+2004-05,E12000003,Couple,Not in low income (at or above threshold),2873152.0,population
+2004-05,E12000003,Single,Not in low income (at or above threshold),1209783.0,population
+2005-06,E12000001,Couple,Not in low income (at or above threshold),1345383.0,population
+2005-06,E12000001,Single,Not in low income (at or above threshold),666416.0,population
+2005-06,E12000002,Couple,Not in low income (at or above threshold),3558201.0,population
+2005-06,E12000002,Single,Not in low income (at or above threshold),1833227.0,population
+2005-06,E12000003,Couple,Not in low income (at or above threshold),2810810.0,population
+2005-06,E12000003,Single,Not in low income (at or above threshold),1224758.0,population
+2006-07,E12000001,Couple,Not in low income (at or above threshold),1358476.0,population
+2006-07,E12000001,Single,Not in low income (at or above threshold),621494.0,population
+2006-07,E12000002,Couple,Not in low income (at or above threshold),3624969.0,population
+2006-07,E12000002,Single,Not in low income (at or above threshold),1745873.0,population
+2006-07,E12000003,Couple,Not in low income (at or above threshold),2805039.0,population
+2006-07,E12000003,Single,Not in low income (at or above threshold),1195577.0,population
+2007-08,E12000001,Couple,Not in low income (at or above threshold),1336889.0,population
+2007-08,E12000001,Single,Not in low income (at or above threshold),590781.0,population
+2007-08,E12000002,Couple,Not in low income (at or above threshold),3632397.0,population
+2007-08,E12000002,Single,Not in low income (at or above threshold),1744714.0,population
+2007-08,E12000003,Couple,Not in low income (at or above threshold),2793898.0,population
+2007-08,E12000003,Single,Not in low income (at or above threshold),1266431.0,population
+2008-09,E12000001,Couple,Not in low income (at or above threshold),1374601.0,population
+2008-09,E12000001,Single,Not in low income (at or above threshold),613460.0,population
+2008-09,E12000002,Couple,Not in low income (at or above threshold),3729711.0,population
+2008-09,E12000002,Single,Not in low income (at or above threshold),1853933.0,population
+2008-09,E12000003,Couple,Not in low income (at or above threshold),2872146.0,population
+2008-09,E12000003,Single,Not in low income (at or above threshold),1146369.0,population
+2009-10,E12000001,Couple,Not in low income (at or above threshold),1398452.0,population
+2009-10,E12000001,Single,Not in low income (at or above threshold),639715.0,population
+2009-10,E12000002,Couple,Not in low income (at or above threshold),3686997.0,population
+2009-10,E12000002,Single,Not in low income (at or above threshold),1947001.0,population
+2009-10,E12000003,Couple,Not in low income (at or above threshold),2880159.0,population
+2009-10,E12000003,Single,Not in low income (at or above threshold),1214373.0,population
+2010-11,E12000001,Couple,Not in low income (at or above threshold),1407547.0,population
+2010-11,E12000001,Single,Not in low income (at or above threshold),684478.0,population
+2010-11,E12000002,Couple,Not in low income (at or above threshold),3722664.0,population
+2010-11,E12000002,Single,Not in low income (at or above threshold),1966757.0,population
+2010-11,E12000003,Couple,Not in low income (at or above threshold),2885164.0,population
+2010-11,E12000003,Single,Not in low income (at or above threshold),1237734.0,population
+2011-12,E12000001,Couple,Not in low income (at or above threshold),1438060.0,population
+2011-12,E12000001,Single,Not in low income (at or above threshold),647904.0,population
+2011-12,E12000002,Couple,Not in low income (at or above threshold),3746461.0,population
+2011-12,E12000002,Single,Not in low income (at or above threshold),2007754.0,population
+2011-12,E12000003,Couple,Not in low income (at or above threshold),2980758.0,population
+2011-12,E12000003,Single,Not in low income (at or above threshold),1282064.0,population
+2012-13,E12000001,Couple,Not in low income (at or above threshold),1390248.0,population
+2012-13,E12000001,Single,Not in low income (at or above threshold),735381.0,population
+2012-13,E12000002,Couple,Not in low income (at or above threshold),3796330.0,population
+2012-13,E12000002,Single,Not in low income (at or above threshold),1969716.0,population
+2012-13,E12000003,Couple,Not in low income (at or above threshold),2907438.0,population
+2012-13,E12000003,Single,Not in low income (at or above threshold),1335920.0,population
+2013-14,E12000001,Couple,Not in low income (at or above threshold),1432249.0,population
+2013-14,E12000001,Single,Not in low income (at or above threshold),703898.0,population
+2013-14,E12000002,Couple,Not in low income (at or above threshold),3859017.0,population
+2013-14,E12000002,Single,Not in low income (at or above threshold),1947155.0,population
+2013-14,E12000003,Couple,Not in low income (at or above threshold),3045786.0,population
+2013-14,E12000003,Single,Not in low income (at or above threshold),1316838.0,population
+2014-15,E12000001,Couple,Not in low income (at or above threshold),1399347.0,population
+2014-15,E12000001,Single,Not in low income (at or above threshold),671952.0,population
+2014-15,E12000002,Couple,Not in low income (at or above threshold),3752654.0,population
+2014-15,E12000002,Single,Not in low income (at or above threshold),1936750.0,population
+2014-15,E12000003,Couple,Not in low income (at or above threshold),2939350.0,population
+2014-15,E12000003,Single,Not in low income (at or above threshold),1343781.0,population
+2015-16,E12000001,Couple,Not in low income (at or above threshold),1381826.0,population
+2015-16,E12000001,Single,Not in low income (at or above threshold),726226.0,population
+2015-16,E12000002,Couple,Not in low income (at or above threshold),3699888.0,population
+2015-16,E12000002,Single,Not in low income (at or above threshold),2057345.0,population
+2015-16,E12000003,Couple,Not in low income (at or above threshold),2954891.0,population
+2015-16,E12000003,Single,Not in low income (at or above threshold),1337351.0,population
+2016-17,E12000001,Couple,Not in low income (at or above threshold),1355266.0,population
+2016-17,E12000001,Single,Not in low income (at or above threshold),745868.0,population
+2016-17,E12000002,Couple,Not in low income (at or above threshold),3764102.0,population
+2016-17,E12000002,Single,Not in low income (at or above threshold),1944802.0,population
+2016-17,E12000003,Couple,Not in low income (at or above threshold),2981530.0,population
+2016-17,E12000003,Single,Not in low income (at or above threshold),1380099.0,population
+2017-18,E12000001,Couple,Not in low income (at or above threshold),1385078.0,population
+2017-18,E12000001,Single,Not in low income (at or above threshold),704015.0,population
+2017-18,E12000002,Couple,Not in low income (at or above threshold),3800477.0,population
+2017-18,E12000002,Single,Not in low income (at or above threshold),1911203.0,population
+2017-18,E12000003,Couple,Not in low income (at or above threshold),2953803.0,population
+2017-18,E12000003,Single,Not in low income (at or above threshold),1312540.0,population
+2018-19,E12000001,Couple,Not in low income (at or above threshold),1373811.0,population
+2018-19,E12000001,Single,Not in low income (at or above threshold),732529.0,population
+2018-19,E12000002,Couple,Not in low income (at or above threshold),3829723.0,population
+2018-19,E12000002,Single,Not in low income (at or above threshold),2031216.0,population
+2018-19,E12000003,Couple,Not in low income (at or above threshold),2831516.0,population
+2018-19,E12000003,Single,Not in low income (at or above threshold),1381549.0,population
+2019-20,E12000001,Couple,Not in low income (at or above threshold),1296068.0,population
+2019-20,E12000001,Single,Not in low income (at or above threshold),661199.0,population
+2019-20,E12000002,Couple,Not in low income (at or above threshold),3932323.0,population
+2019-20,E12000002,Single,Not in low income (at or above threshold),1948075.0,population
+2019-20,E12000003,Couple,Not in low income (at or above threshold),2920464.0,population
+2019-20,E12000003,Single,Not in low income (at or above threshold),1322296.0,population
+2020-21,E12000001,Couple,Not in low income (at or above threshold),0.0,population
+2020-21,E12000001,Single,Not in low income (at or above threshold),0.0,population
+2020-21,E12000002,Couple,Not in low income (at or above threshold),0.0,population
+2020-21,E12000002,Single,Not in low income (at or above threshold),0.0,population
+2020-21,E12000003,Couple,Not in low income (at or above threshold),0.0,population
+2020-21,E12000003,Single,Not in low income (at or above threshold),0.0,population
+2021-22,E12000001,Couple,Not in low income (at or above threshold),1408222.0,population
+2021-22,E12000001,Single,Not in low income (at or above threshold),785914.0,population
+2021-22,E12000002,Couple,Not in low income (at or above threshold),3887964.0,population
+2021-22,E12000002,Single,Not in low income (at or above threshold),1976107.0,population
+2021-22,E12000003,Couple,Not in low income (at or above threshold),3009255.0,population
+2021-22,E12000003,Single,Not in low income (at or above threshold),1395712.0,population
+1994-95,E12000001,Couple,In low income (below threshold),579334.0,population
+1994-95,E12000001,Single,In low income (below threshold),0.0,population
+1994-95,E12000002,Couple,In low income (below threshold),1444410.0,population
+1994-95,E12000002,Single,In low income (below threshold),0.0,population
+1994-95,E12000003,Couple,In low income (below threshold),1139825.0,population
+1994-95,E12000003,Single,In low income (below threshold),0.0,population
+1995-96,E12000001,Couple,In low income (below threshold),636847.0,population
+1995-96,E12000001,Single,In low income (below threshold),0.0,population
+1995-96,E12000002,Couple,In low income (below threshold),1268119.0,population
+1995-96,E12000002,Single,In low income (below threshold),0.0,population
+1995-96,E12000003,Couple,In low income (below threshold),1067713.0,population
+1995-96,E12000003,Single,In low income (below threshold),0.0,population
+1996-97,E12000001,Couple,In low income (below threshold),609558.0,population
+1996-97,E12000001,Single,In low income (below threshold),0.0,population
+1996-97,E12000002,Couple,In low income (below threshold),1454807.0,population
+1996-97,E12000002,Single,In low income (below threshold),0.0,population
+1996-97,E12000003,Couple,In low income (below threshold),1105249.0,population
+1996-97,E12000003,Single,In low income (below threshold),0.0,population
+1997-98,E12000001,Couple,In low income (below threshold),305574.0,population
+1997-98,E12000001,Single,In low income (below threshold),303502.0,population
+1997-98,E12000002,Couple,In low income (below threshold),775522.0,population
+1997-98,E12000002,Single,In low income (below threshold),704946.0,population
+1997-98,E12000003,Couple,In low income (below threshold),629991.0,population
+1997-98,E12000003,Single,In low income (below threshold),482204.0,population
+1998-99,E12000001,Couple,In low income (below threshold),352110.0,population
+1998-99,E12000001,Single,In low income (below threshold),309378.0,population
+1998-99,E12000002,Couple,In low income (below threshold),880432.0,population
+1998-99,E12000002,Single,In low income (below threshold),715478.0,population
+1998-99,E12000003,Couple,In low income (below threshold),693124.0,population
+1998-99,E12000003,Single,In low income (below threshold),494503.0,population
+1999-00,E12000001,Couple,In low income (below threshold),339014.0,population
+1999-00,E12000001,Single,In low income (below threshold),316116.0,population
+1999-00,E12000002,Couple,In low income (below threshold),771218.0,population
+1999-00,E12000002,Single,In low income (below threshold),637651.0,population
+1999-00,E12000003,Couple,In low income (below threshold),642828.0,population
+1999-00,E12000003,Single,In low income (below threshold),476019.0,population
+2000-01,E12000001,Couple,In low income (below threshold),335699.0,population
+2000-01,E12000001,Single,In low income (below threshold),279760.0,population
+2000-01,E12000002,Couple,In low income (below threshold),712739.0,population
+2000-01,E12000002,Single,In low income (below threshold),628528.0,population
+2000-01,E12000003,Couple,In low income (below threshold),546649.0,population
+2000-01,E12000003,Single,In low income (below threshold),463993.0,population
+2001-02,E12000001,Couple,In low income (below threshold),237102.0,population
+2001-02,E12000001,Single,In low income (below threshold),295941.0,population
+2001-02,E12000002,Couple,In low income (below threshold),730269.0,population
+2001-02,E12000002,Single,In low income (below threshold),669237.0,population
+2001-02,E12000003,Couple,In low income (below threshold),579918.0,population
+2001-02,E12000003,Single,In low income (below threshold),469899.0,population
+2002-03,E12000001,Couple,In low income (below threshold),334121.0,population
+2002-03,E12000001,Single,In low income (below threshold),250079.0,population
+2002-03,E12000002,Couple,In low income (below threshold),726040.0,population
+2002-03,E12000002,Single,In low income (below threshold),548653.0,population
+2002-03,E12000003,Couple,In low income (below threshold),542788.0,population
+2002-03,E12000003,Single,In low income (below threshold),406400.0,population
+2003-04,E12000001,Couple,In low income (below threshold),275436.0,population
+2003-04,E12000001,Single,In low income (below threshold),242482.0,population
+2003-04,E12000002,Couple,In low income (below threshold),673105.0,population
+2003-04,E12000002,Single,In low income (below threshold),602776.0,population
+2003-04,E12000003,Couple,In low income (below threshold),581155.0,population
+2003-04,E12000003,Single,In low income (below threshold),368452.0,population
+2004-05,E12000001,Couple,In low income (below threshold),289299.0,population
+2004-05,E12000001,Single,In low income (below threshold),240047.0,population
+2004-05,E12000002,Couple,In low income (below threshold),592057.0,population
+2004-05,E12000002,Single,In low income (below threshold),622029.0,population
+2004-05,E12000003,Couple,In low income (below threshold),497758.0,population
+2004-05,E12000003,Single,In low income (below threshold),390861.0,population
+2005-06,E12000001,Couple,In low income (below threshold),232535.0,population
+2005-06,E12000001,Single,In low income (below threshold),256508.0,population
+2005-06,E12000002,Couple,In low income (below threshold),773742.0,population
+2005-06,E12000002,Single,In low income (below threshold),581216.0,population
+2005-06,E12000003,Couple,In low income (below threshold),587799.0,population
+2005-06,E12000003,Single,In low income (below threshold),392600.0,population
+2006-07,E12000001,Couple,In low income (below threshold),280552.0,population
+2006-07,E12000001,Single,In low income (below threshold),245657.0,population
+2006-07,E12000002,Couple,In low income (below threshold),742746.0,population
+2006-07,E12000002,Single,In low income (below threshold),663594.0,population
+2006-07,E12000003,Couple,In low income (below threshold),655431.0,population
+2006-07,E12000003,Single,In low income (below threshold),385178.0,population
+2007-08,E12000001,Couple,In low income (below threshold),281264.0,population
+2007-08,E12000001,Single,In low income (below threshold),307030.0,population
+2007-08,E12000002,Couple,In low income (below threshold),854677.0,population
+2007-08,E12000002,Single,In low income (below threshold),573274.0,population
+2007-08,E12000003,Couple,In low income (below threshold),604155.0,population
+2007-08,E12000003,Single,In low income (below threshold),406549.0,population
+2008-09,E12000001,Couple,In low income (below threshold),268504.0,population
+2008-09,E12000001,Single,In low income (below threshold),265193.0,population
+2008-09,E12000002,Couple,In low income (below threshold),675357.0,population
+2008-09,E12000002,Single,In low income (below threshold),573162.0,population
+2008-09,E12000003,Couple,In low income (below threshold),655273.0,population
+2008-09,E12000003,Single,In low income (below threshold),429853.0,population
+2009-10,E12000001,Couple,In low income (below threshold),266081.0,population
+2009-10,E12000001,Single,In low income (below threshold),225526.0,population
+2009-10,E12000002,Couple,In low income (below threshold),634509.0,population
+2009-10,E12000002,Single,In low income (below threshold),594637.0,population
+2009-10,E12000003,Couple,In low income (below threshold),631616.0,population
+2009-10,E12000003,Single,In low income (below threshold),404427.0,population
+2010-11,E12000001,Couple,In low income (below threshold),240676.0,population
+2010-11,E12000001,Single,In low income (below threshold),207843.0,population
+2010-11,E12000002,Couple,In low income (below threshold),654911.0,population
+2010-11,E12000002,Single,In low income (below threshold),551161.0,population
+2010-11,E12000003,Couple,In low income (below threshold),670907.0,population
+2010-11,E12000003,Single,In low income (below threshold),367570.0,population
+2011-12,E12000001,Couple,In low income (below threshold),297378.0,population
+2011-12,E12000001,Single,In low income (below threshold),179861.0,population
+2011-12,E12000002,Couple,In low income (below threshold),689157.0,population
+2011-12,E12000002,Single,In low income (below threshold),524224.0,population
+2011-12,E12000003,Couple,In low income (below threshold),533561.0,population
+2011-12,E12000003,Single,In low income (below threshold),425217.0,population
+2012-13,E12000001,Couple,In low income (below threshold),256344.0,population
+2012-13,E12000001,Single,In low income (below threshold),187074.0,population
+2012-13,E12000002,Couple,In low income (below threshold),697106.0,population
+2012-13,E12000002,Single,In low income (below threshold),532137.0,population
+2012-13,E12000003,Couple,In low income (below threshold),594496.0,population
+2012-13,E12000003,Single,In low income (below threshold),411931.0,population
+2013-14,E12000001,Couple,In low income (below threshold),210032.0,population
+2013-14,E12000001,Single,In low income (below threshold),214397.0,population
+2013-14,E12000002,Couple,In low income (below threshold),608887.0,population
+2013-14,E12000002,Single,In low income (below threshold),566214.0,population
+2013-14,E12000003,Couple,In low income (below threshold),492875.0,population
+2013-14,E12000003,Single,In low income (below threshold),384925.0,population
+2014-15,E12000001,Couple,In low income (below threshold),238541.0,population
+2014-15,E12000001,Single,In low income (below threshold),262234.0,population
+2014-15,E12000002,Couple,In low income (below threshold),775608.0,population
+2014-15,E12000002,Single,In low income (below threshold),545152.0,population
+2014-15,E12000003,Couple,In low income (below threshold),574025.0,population
+2014-15,E12000003,Single,In low income (below threshold),405327.0,population
+2015-16,E12000001,Couple,In low income (below threshold),256020.0,population
+2015-16,E12000001,Single,In low income (below threshold),217796.0,population
+2015-16,E12000002,Couple,In low income (below threshold),722741.0,population
+2015-16,E12000002,Single,In low income (below threshold),561101.0,population
+2015-16,E12000003,Couple,In low income (below threshold),604821.0,population
+2015-16,E12000003,Single,In low income (below threshold),391664.0,population
+2016-17,E12000001,Couple,In low income (below threshold),275162.0,population
+2016-17,E12000001,Single,In low income (below threshold),214244.0,population
+2016-17,E12000002,Couple,In low income (below threshold),729621.0,population
+2016-17,E12000002,Single,In low income (below threshold),629656.0,population
+2016-17,E12000003,Couple,In low income (below threshold),507873.0,population
+2016-17,E12000003,Single,In low income (below threshold),442442.0,population
+2017-18,E12000001,Couple,In low income (below threshold),265124.0,population
+2017-18,E12000001,Single,In low income (below threshold),243380.0,population
+2017-18,E12000002,Couple,In low income (below threshold),809439.0,population
+2017-18,E12000002,Single,In low income (below threshold),611089.0,population
+2017-18,E12000003,Couple,In low income (below threshold),656791.0,population
+2017-18,E12000003,Single,In low income (below threshold),427863.0,population
+2018-19,E12000001,Couple,In low income (below threshold),285997.0,population
+2018-19,E12000001,Single,In low income (below threshold),223242.0,population
+2018-19,E12000002,Couple,In low income (below threshold),736599.0,population
+2018-19,E12000002,Single,In low income (below threshold),595701.0,population
+2018-19,E12000003,Couple,In low income (below threshold),715432.0,population
+2018-19,E12000003,Single,In low income (below threshold),475625.0,population
+2019-20,E12000001,Couple,In low income (below threshold),435420.0,population
+2019-20,E12000001,Single,In low income (below threshold),229317.0,population
+2019-20,E12000002,Couple,In low income (below threshold),650431.0,population
+2019-20,E12000002,Single,In low income (below threshold),682654.0,population
+2019-20,E12000003,Couple,In low income (below threshold),684789.0,population
+2019-20,E12000003,Single,In low income (below threshold),475882.0,population
+2020-21,E12000001,Couple,In low income (below threshold),0.0,population
+2020-21,E12000001,Single,In low income (below threshold),0.0,population
+2020-21,E12000002,Couple,In low income (below threshold),0.0,population
+2020-21,E12000002,Single,In low income (below threshold),0.0,population
+2020-21,E12000003,Couple,In low income (below threshold),0.0,population
+2020-21,E12000003,Single,In low income (below threshold),0.0,population
+2021-22,E12000001,Couple,In low income (below threshold),184687.0,population
+2021-22,E12000001,Single,In low income (below threshold),238975.0,population
+2021-22,E12000002,Couple,In low income (below threshold),693116.0,population
+2021-22,E12000002,Single,In low income (below threshold),673246.0,population
+2021-22,E12000003,Couple,In low income (below threshold),597764.0,population
+2021-22,E12000003,Single,In low income (below threshold),426748.0,population

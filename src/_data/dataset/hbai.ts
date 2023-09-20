@@ -55,3 +55,21 @@ export const low_income_ethnicity = (place: string) => {
     `)
   );
 };
+
+export const low_income_marital_status = (place: string) => {
+  return run(
+    () => connection.query(`
+      PIVOT (
+        SELECT
+          date,
+          "marital_status",
+          percent
+        FROM hbai_marital_status
+        WHERE geography_code=='${place}'
+        AND income_status=='In low income (below threshold)'
+      )
+      ON "marital_status"
+      USING AVG(percent);
+    `)
+  );
+};
