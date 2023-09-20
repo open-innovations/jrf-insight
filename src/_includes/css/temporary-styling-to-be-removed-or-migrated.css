@@ -52,34 +52,7 @@ body > header {
   text-align: center;
 }
 
-/* TODO fix in lume charts */
-/* .oi-legend-inner .oi-legend-item .oi-legend-icon {
-  display: inline-block !important;
-} */
-.oi-legend-inner .oi-legend-icon {
-  /* display: inline-block; */
-  height: 1.25em;
-  aspect-ratio: 1 / 1;
-  margin-right: 0.25em;
-  opacity: 1;
-  float: left;
-}
-.oi-legend-left, .oi-legend-right {
-  margin-top: 0;
-  margin-bottom: 0;
-  position: absolute;
-  text-align: left;
-}
-.oi-legend-left {
-  left: 0;
-}
-.oi-legend-right {
-  right: 0;
-}
-.oi-legend-top {
-  top: 0;
-  text-align: center;
-}
+
 .oi-series-lock {
   background: lightgray !important; 
 }

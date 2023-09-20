@@ -11,3 +11,6 @@
 @import 'css/tabs.css';
 
 @import 'css/temporary-styling-to-be-removed-or-migrated.css';
+
+/* A bunch of OI Lume Chart Tweaks */
+@import 'css/oi-lume-chart-patch.css';

@@ -1,8 +1,10 @@
 {% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
+{% set place_children = place[geography].relations.children %}
+{% set place_and_children = [ geography, place_children ] | flat %}
 
-<h3>Broad datasets</h3>
+<h3>Key indicators</h3>
 
-<p>The following datasets reflect the experience across the population of {{ this_place.title }}.</p>
+<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
 {% comp 'layout.tab.set' %}
 {#------------------------------------------------------------------------
@@ -12,7 +14,7 @@
 {% set chart_data = dataset
   .labour_market
   .get_economic_activity_for_place(geography) %}
-{% if chart_data.rows | length > 0 %}
+{% if chart_data | length > 0 %}
   {{ comp.oi.chart.line({
     config: {
       data: chart_data,
@@ -40,21 +42,55 @@
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-{% set chart_data = dataset
-  .fuel_poverty
-  .get_fuel_poverty_for_place(geography) %}
-<pre style="font-size: 0.7em;">{{ chart_data | dump(2) }}</pre>
+{% set fp_this = dataset.fuel_poverty.get_fuel_poverty([geography])[0] %}
+{% set range = dataset.fuel_poverty.range() %}
+{% set fp_all = dataset.fuel_poverty.get_fuel_poverty(place_and_children) %}
+
+{% if fp_this | length > 0 %}
+  <p>{{ this_place.title }}
+  has {{ fp_this["Number of households in fuel poverty"] }}
+  of {{ fp_this['Number of households'] }} households in fuel poverty.
+{% endif %}
+
+{% if fp_all.length > 0 %}
+{{ comp.oi.map.svg({
+  config: {
+    data: fp_all,
+    geojson: { data: place[geography].map, key: 'ons_code' },
+    background: {
+      geojson: 'map.england', colour: 'silver' },
+    columns: [
+      { name: 'tooltip', template: "{{ geography_name}}\n\n{{ Proportion of households fuel poor (%) | toFixed(1) }}% of households are fuel poor" }
+    ],
+    value: 'Proportion of households fuel poor (%)',
+    scale: 'Viridis',
+    min: range.min,
+    max: range.max,
+    legend: {
+      position: 'top right',
+      items: [
+        { value: range.max, label: range.max + '% (highest)' },
+        { value: (range.max + range.min) / 2, label: (range.max + range.min) / 2 + '%' },
+        { value: range.min, label: range.min + '% (lowest)' }
+      ]
+    },
+    key: 'geography_code',
+    tooltip: 'tooltip'
+  }
+}) | safe }}
+{% endif %}
+
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
-
+{{ dataset.ashe.weekly_earnings(place_and_children) | fake_csv | DEBUG | safe }}
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
 {% set chart_data = dataset
-  .savings
+  .hbai
   .get_savings_and_investments_for_place(geography) %}
-{% if chart_data.rows | length > 0 %}
+{% if chart_data | length > 0 %}
 
   <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
   <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
@@ -101,15 +137,23 @@
       ]
     }
   }) | safe }}
+{% else %}
+  <p>No data available at this level</p>
 {% endif %}
 {% endcomp %}
 
 {% endcomp %}
 
-<h3>Specific Demographics</h3>
+<h3>Demographic breakdown</h3>
+
+<p>
+  Poverty can disproportionately affect certain groups.
+  This section presents analysis of {{ title }} with a focus on demographics.
+</p>
 
 {% comp 'layout.tab.set' %}
-{% comp 'layout.tab.panel', { label: 'Gender - pay gap / % jobs less than living wage' } %}
+{% comp 'layout.tab.panel', { label: 'Gender' } %}
+    Pay gap / % jobs less than living wage
 {% endcomp %}
 {% comp 'layout.tab.panel', {label: 'Ethnicity'} %}
 {% endcomp %}

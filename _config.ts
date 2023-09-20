@@ -15,6 +15,7 @@ import svgo from "lume/plugins/svgo.ts";
 import metas from "./patch/lume/metas.ts";
 // import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import autoDependency from "./patch/auto-dependency.ts";
+import { makeFakeCSV } from "./data/interim/duck.ts";
 
 const site = lume({
   src: "./src",
@@ -111,5 +112,10 @@ site.filter(
 
 site.filter("values", (o) => Object.values(o));
 site.filter("pick", (list, keys) => keys.map(i => list[i] || null))
+
+site.filter("fake_csv", makeFakeCSV);
+site.filter("flat", (a: unknown[]) => a.flat());
+
+site.filter("DEBUG", (o) => `<pre style="font-size:0.7em">${JSON.stringify(o, null, 2)}</pre>`);
 
 export default site;

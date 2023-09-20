@@ -1,5 +1,18 @@
+# TODO Fix any frozen pipelines in this file
+
 stages:
   # ashe = COLLECTION - big one - more work required - unzip from file, etc
+  ashe:
+    frozen: true
+    cmd: Rscript R/ashe.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/ashe.R
+    outs:
+      - data/ashe/weekly-earnings.csv:
+          persist: false
+          cache: false
 
   claimant-count:
     cmd: Rscript R/claimant-count.R
@@ -12,13 +25,98 @@ stages:
           persist: false
           cache: false
 
-  # cstop-households = COLLECTION
+  # ctsop-households = COLLECTION
+  ctsop-households:
+    frozen: true
+    cmd: Rscript R/ctsop-households.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/ctsop-households.R
+    outs:
+      - data/households/households.csv:
+          persist: false
+          cache: false
+
   # fuel-poverty = COLLECTION
+  fuel-poverty:
+    frozen: true
+    cmd: Rscript R/fuel-poverty.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/fuel-poverty.R
+    outs:
+      - data/fuel-poverty/fuel-poverty.csv:
+          persist: false
+          cache: false
+
   # gva - from EDD
+  gva:
+    frozen: true
+    cmd: Rscript R/gva.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/gva.R
+    outs:
+      - data/gva/gva.csv:
+          persist: false
+          cache: false
+
+
   # house-prices
+  house-prices:
+    frozen: true
+    cmd: Rscript R/house-prices.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/house-prices.R
+    outs:
+      - data/house-prices/house-prices.csv:
+          persist: false
+          cache: false
+
   # imd 
+  imd:
+    frozen: true
+    cmd: Rscript R/imd.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/imd.R
+    outs:
+      - data/imd/imd.csv:
+          persist: false
+          cache: false
+
   # individual-insolvencies = COLLECTION
+  individual-insolvencies:
+    frozen: true
+    cmd: Rscript R/individual-insolvencies.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/individual-insolvencies.R
+    # outs:
+    #   - data/individual-insolvencies/individual-insolvencies.csv:
+    #       persist: false
+    #       cache: false
+
   # R/jobs-below-living-wage.R
+  jobs-below-living-wage:
+    frozen: true
+    cmd: Rscript R/jobs-below-living-wage.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/jobs-below-living-wage.R
+    # outs:
+    #   - data/jobs-below-living-wage/jobs-below-living-wage.csv:
+    #       persist: false
+    #       cache: false
+
   # R/labour-market.R
   labour-market:
     cmd: Rscript R/labour-market.R
@@ -52,9 +150,25 @@ stages:
     wdir: ..
     deps:
       - R/mortgage-landlord-possession.R
-    outs: []
+    # outs:
+    #   - data/mortgage-landlord-posession/mortgage-landlord-posession.csv:
+    #       persist: false
+    #       cache: false
 
   # R/population-estimates.R
+  population-estimates:
+    frozen: true
+    cmd: Rscript R/population-estimates.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/population-estimates.R
+    outs:
+      - data/population-estimates/population-estimates.csv:
+          persist: false
+          cache: false
+
+
   # R/rental-prices.R
   rental-prices:
     # frozen: true
@@ -67,9 +181,17 @@ stages:
       - data/rental-prices/rental-prices.csv:
           persist: false
           cache: false
-      - data/rental-prices/rental-prices.rds:
-          persist: false
-          cache: false
 
   # R/statutory-homelessness.R
+  statutory-homelessness:
+    frozen: true
+    cmd: Rscript R/statutory-homelessness.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/statutory-homelessness.R
+    outs:
+      - data/statutory-homelessness/statutory-homelessness.csv:
+          persist: false
+          cache: false
   

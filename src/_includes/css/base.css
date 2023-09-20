@@ -17,10 +17,6 @@ html {
   padding: 0.5em 1em;
 }
 
-* {
-  background-color: inherit;
-}
-
 main > * + * {
   margin-top: 1.5em;
 }

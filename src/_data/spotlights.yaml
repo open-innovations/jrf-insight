@@ -7,17 +7,19 @@ economic_insecurity:
   infographics:
     defaults:
       - percentage_benefits_claimants
+      - proportion_fuel_poverty
       - people_in_deprived_places
     definitions:
       - key: people_in_deprived_places
         description: x% of people in this area live in the most deprived places (FAKE NUMBERS)
-        background: var(--jrf-moderate-cyan)
+        # background: var(--jrf-moderate-cyan)
         type: percentage
       - key: percentage_benefits_claimants
         description: Population claiming Universal Credit or Jobseeker's Allowance
         type: waffle
-      - key: item_three
-        description: ???
+      - key: proportion_fuel_poverty
+        description: Proportion of the population living in fuel poverty
+        type: waffle
       - key: item_four
         description: ???
       - key: item_five

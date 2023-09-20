@@ -1,0 +1,5 @@
+/* TODO fix in lume charts */
+.oi-legend-inner .oi-legend-item svg.oi-legend-icon {
+  /* Setting this to table-cell causes problems with how it wraps */
+  display: unset !important;
+}
