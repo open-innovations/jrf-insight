@@ -2,6 +2,72 @@
 {% set place_children = place[geography].relations.children %}
 {% set place_and_children = [ geography, place_children ] | flat %}
 
+<h2>Poverty index </h2>
+{% set model_data = data.model.econonmic_insecurity(place[geography].relations.children) %}
+{% if model_data | length > 0 %}
+  <p>
+    This map shows the result of creating a poverty index for economic insecurity
+    by combining a number of leading indicators of poverty into a single number in the range 0 to 1.
+    A score closer to 0 means that the model is suggesting lower levels of economic insecurity in this area.
+  </p>
+  {% comp 'layout.wrapper', { width: 'min(20em, 70%)' } %}
+  {{ comp.oi.map.svg({
+    config: {
+      data: model_data,
+      geojson: { data: place[geography].map, key: 'ons_code' },
+      background: {
+        geojson: 'map.england', colour: 'silver' },
+      columns: [
+        { name: 'tooltip', template: "{{ geography_name }}\n\n{{ mean_normalised_score | toFixed(3) }}" }
+      ],
+      value: 'mean_normalised_score',
+      scale: 'Viridis',
+      min: 0,
+      max: 1,
+      legend: {
+        position: 'top right',
+        items: [
+          { value: 1, label: 'Index 1' },
+          { value: 0.5, label: 'Index 0.5' },
+          { value: 0, label: 'Index 0' }
+        ]
+      },
+      key: 'geography_code',
+      tooltip: 'tooltip'
+    }
+  }) | safe }}
+  {% endcomp %}
+  <h3>How to interpret the index</h3>
+  <p>
+    In the context of this model, a value closer to 1 indicates that a given place tends to rank higher relative to other places in metrics that
+    we have identified as contributing to economic insecurity. This does not necessarily mean that you are more liekly to experience poverty in those
+    places, however. 
+  </p>
+{% else %}
+<p>
+  We try to model a poverty index averaging different statistics that contribute to economic insecurity.
+  This model is not available for {{ this_place.title }}.
+</p>
+{% endif %}
+
+<h3>How we calculate the index</h3>
+<p>
+  The highest and lowest values will score 1 and 0, respectively, and everything else will fall 
+  somewhere in between.
+  We create an average index across 6 metrics
+</p>
+<ul>
+  <li>economic inactivity</li>
+  <li>unemployment</li>
+  <li>mean weekly wage</li>
+  <li>median weekly wage </li>
+  <li>claimants as a proportion of residents aged 16-64</li>
+  <li>proportion of households that are fuel poor</li>
+</ul>
+</p>
+  This is a proof of concept. You can see the code and read more about the logic to create these stats <a href="https://github.com/open-innovations/jrf-insight/blob/main/playground/modelling/economic_insecurity.ipynb">here.</a>
+</p>
+
 <h3>Key indicators</h3>
 
 <p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
@@ -170,58 +236,6 @@
 {% endif %}
 {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Poverty index model', id: 'poverty-index-model' } %}
-{% set model_data = data.model.econonmic_insecurity(place[geography].relations.children) %}
-<h3>Visualisation</h3>
-<p>This map shows the average scores when different statistics contirbuting to economic insecurity are normalised in the range 0-1 and averaged.
-  A score of 0 corresponds to something less likely to cause poverty (e.g. extremely low rate
-  of unemployment).</p>
-  <p>
-  The highest and lowest values will score 1 and 0, respectively, and everything else will fall 
-  somewhere in between. We do this for 6 metrics - these are: economic inactivity, unemployment, mean weekly wage, median weekly wage, 
-  claimants as a proportion of residents aged 16-64 and proportion of households that are fuel poor.
-  This is a proof of concept. You can see the code and read more about the logic to create these stats <a href="https://github.com/open-innovations/jrf-insight/blob/main/playground/modelling/economic_insecurity.ipynb">here.</a>
-  </p>
-  <h3>Interpretation</h3>
-  <p> In the context of this model, a value closer to 1 indicates that a given place tends to rank higher relative to other places in metrics that
-    we have identified as contributing to economic insecurity. This does not necessarily mean that you are more liekly to experience poverty in those
-    places, however. 
-    </p>
-{# {% if model_data | length > 0 %}
-  <p>{{ this_place.title }}
-  has {{ fp_this["Number of households in fuel poverty"] }}
-  of {{ fp_this['Number of households'] }} households in fuel poverty.
-{% endif %} #}
-
-{% if model_data | length > 0 %}
-{{ comp.oi.map.svg({
-  config: {
-    data: model_data.rows,
-    geojson: { data: place[geography].map, key: 'ons_code' },
-    background: {
-      geojson: 'map.england', colour: 'silver' },
-    columns: [
-      { name: 'tooltip', template: "{{ geography_name }}\n\n{{ mean_normalised_score | toFixed(3) }}" }
-    ],
-    value: 'mean_normalised_score',
-    scale: 'Viridis',
-    min: 0,
-    max: 1,
-    legend: {
-      position: 'top right',
-      items: [
-        { value: 0, label: 0 },
-        { value: 0.5, label: 0.5 },
-        { value: 1, label: 1 }
-      ]
-    },
-    key: 'geography_code',
-    tooltip: 'tooltip'
-  }
-}) | safe }}
-{% endif %}
-
-{% endcomp %}
 
 {% endcomp %}
 
