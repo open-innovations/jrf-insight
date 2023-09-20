@@ -48,3 +48,6 @@ tab-set {
     min-height: 20em;
   }  
 }
+section > .chart-title {
+  text-align: center;
+}
