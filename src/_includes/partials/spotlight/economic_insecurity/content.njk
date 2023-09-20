@@ -1,6 +1,8 @@
-{% set place_headlines = headlines.economic_insecurity.getInfographicValuesForPlace(geography) %}
+{% set place_headlines = headlines
+  .economic_insecurity
+  .getInfographicValuesForPlace(geography) %}
 {% set place_children = place[geography].relations.children %}
-{% set place_and_children = [ geography, place_children ] | flat %}
+{% set place_and_children = [geography, place_children] | flat %}
 
 {% include './model.njk' %}
 
@@ -10,13 +12,45 @@
 
 {% comp 'layout.tab.set' %}
 {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
-  {% include './labour_market.njk' %}
+  {% set labour_market_time_series = dataset
+    .labour_market
+    .get_economic_activity_for_place(geography) %}
+  {% if labour_market_time_series | length > 0 %}
+    {{ comp.oi.chart.line({
+      config: {
+        data: labour_market_time_series,
+        legend: { show: true },
+        axis: {
+          x: { title: { label: "Year" }, grid: { show: true } },
+          y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
+        },
+        series: [
+          {
+            x: "date", y: "Unemployment rate - aged 16-64",
+            title: "Unemployment rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+          },
+          {
+            x: "date", y: "% who are economically inactive - aged 16-64",
+            title: "Economic inactivity rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+          }
+        ]
+      }
+    }) | safe }}
+  {% else %}
+    <p>No data available at this level</p>
+  {% endif %}
 {% endcomp %}
 
 {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-{% set fp_this = dataset.fuel_poverty.get_fuel_poverty([geography])[0] %}
-{% set range = dataset.fuel_poverty.range() %}
-{% set fp_all = dataset.fuel_poverty.get_fuel_poverty(place_and_children) %}
+{% set fp_this = dataset
+  .fuel_poverty
+  .get_fuel_poverty([geography])[0] %}
+{% set range = dataset
+  .fuel_poverty
+  .range() %}
+{% set fp_all = dataset
+  .fuel_poverty
+  .get_fuel_poverty(place_and_children) %}
 
 {% if fp_this | length > 0 %}
   <p>{{ this_place.title }}
@@ -24,8 +58,8 @@
   of {{ fp_this['Number of households'] }} households in fuel poverty.
 {% endif %}
 
-{% if fp_all.length > 0 %}
-{{ comp.oi.map.svg({
+  {% if fp_all.length > 0 %}
+    {{ comp.oi.map.svg({
   config: {
     data: fp_all,
     geojson: { data: place[geography].map, key: 'ons_code' },
@@ -50,15 +84,17 @@
     tooltip: 'tooltip'
   }
 }) | safe }}
-{% endif %}
+  {% endif %}
 
-{% endcomp %}
+  {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
-{% set we_all = dataset.ashe.weekly_earnings(place_and_children) %}
+  {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
+  {% set we_all = dataset
+    .ashe
+    .weekly_earnings(place_and_children) %}
 
-{% if we_all.length > 0 %}
-{{ comp.oi.map.svg({
+  {% if we_all.length > 0 %}
+    {{ comp.oi.map.svg({
   config: {
     data: we_all,
     geojson: { data: place[geography].map, key: 'ons_code' },
@@ -83,18 +119,18 @@
     tooltip: 'tooltip'
   }
 }) | safe }}
-{% endif %}
-{% endcomp %}
+  {% endif %}
+  {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
-{% set chart_data = dataset
-  .hbai
-  .get_savings_and_investments_for_place(geography) %}
-{% if chart_data | length > 0 %}
+  {% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
+  {% set chart_data = dataset
+    .hbai
+    .get_savings_and_investments_for_place(geography) %}
+  {% if chart_data | length > 0 %}
 
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
-  <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
-  {{ comp.oi.chart.line({
+    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
+    <p style="text-align: center;">Savings and investments of adults in the family for low income households</p>
+    {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
       data: chart_data,
@@ -137,31 +173,35 @@
       ]
     }
   }) | safe }}
-{% else %}
-  <p>No data available at this level</p>
-{% endif %}
-{% endcomp %}
+  {% else %}
+    <p>No data available at this level</p>
+  {% endif %}
+  {% endcomp %}
 
+  {% endcomp %}
 
-{% endcomp %}
+  <h3>Demographic breakdown</h3>
 
-<h3>Demographic breakdown</h3>
-
-<p>
+  <p>
   Poverty can disproportionately affect certain groups.
   This section presents analysis of {{ title }} with a focus on demographics.
 </p>
 
-{% comp 'layout.tab.set' %}
-{% comp 'layout.tab.panel', { label: 'Gender' } %}
+  {% comp 'layout.tab.set' %}
+  {% comp 'layout.tab.panel', {label: 'Gender'} %}
     Pay gap / % jobs less than living wage
 {% endcomp %}
-{% comp 'layout.tab.panel', {label: 'Ethnicity', id: 'ethnicity'} %}
-  {% set chart_data = dataset.hbai.low_income_ethnicity(geography) %}
+  {% comp 'layout.tab.panel', {
+    label: 'Ethnicity',
+    id: 'ethnicity'
+  } %}
+  {% set chart_data = dataset
+    .hbai
+    .low_income_ethnicity(geography) %}
   {% if chart_data | length > 0 %}
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Savings and Investments</a>
-  <p style="text-align: center;">Ethnic Group of the Head of the Household low income households</p>
-  {{ comp.oi.chart.line({
+    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Savings and Investments</a>
+    <p style="text-align: center;">Ethnic Group of the Head of the Household low income households</p>
+    {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
       data: chart_data,
@@ -200,29 +240,28 @@
     <p>No data available at this level</p>
   {% endif %}
   {# {% include './test.njk' %} #}
-{% endcomp %}
-{% comp 'layout.tab.panel', {label: 'Single parents'} %}
-{% endcomp %}
-{% comp 'layout.tab.panel', {label: 'Carers'} %}
+  {% endcomp %}
+  {% comp 'layout.tab.panel', {label: 'Single parents'} %}
+  {% endcomp %}
+  {% comp 'layout.tab.panel', {label: 'Carers'} %}
   <p>
     Cases with entitlement and cases in payment at regional level available 
     from statXplore.
   </p>
-{% endcomp %}
-{% endcomp %}
+  {% endcomp %}
+  {% endcomp %}
 
-<p>
+  <p>
 See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty
 </p>
 
+  {% set savings = this_place_data['households_low_income_no_savings'] %}
+  {% set imd_average_score = this_place_data['imd_average_score'] %}
+  {% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
+  {% set mean_weekly_wage = this_place_data['mean_weekly_wage'] %}
+  {% set fuel_poverty = this_place_data['Proportion of households fuel poor (%)'] %}
 
-{% set savings = this_place_data['households_low_income_no_savings'] %}
-{% set imd_average_score = this_place_data['imd_average_score'] %}
-{% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
-{% set mean_weekly_wage = this_place_data['mean_weekly_wage'] %}
-{% set fuel_poverty = this_place_data['Proportion of households fuel poor (%)'] %}
-
-{{ top_trump_table(
+  {{ top_trump_table(
   name="spotlight statistics",
   style="top-trump-table top-trump-invert",
   columns= [
@@ -255,7 +294,7 @@ See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-oppo
   ) 
 }}
 
-{# {% comp 'layout.two_column' %}
+  {# {% comp 'layout.two_column' %}
     {{ comp.info.headline({
         number: savings,
         display: savings,
@@ -273,9 +312,8 @@ See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-oppo
         }) | safe }}
 {% endcomp %} #}
 
-
-<ul>
-  <li>
-    <a href="https://github.com/open-innovations/jrf-insight/tree/main/data/imd">IMD</a>
-  </li>
-</ul>
+  <ul>
+    <li>
+      <a href="https://github.com/open-innovations/jrf-insight/tree/main/data/imd">IMD</a>
+    </li>
+  </ul>

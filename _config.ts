@@ -17,6 +17,13 @@ import metas from "./patch/lume/metas.ts";
 import autoDependency from "./patch/auto-dependency.ts";
 import { makeFakeCSV } from "./data/interim/duck.ts";
 
+const nunjucks = {
+  options: {
+    throwOnUndefined: false,
+    dev: true,
+  },
+};
+
 const site = lume({
   src: "./src",
   location: new URL("https://open-innovations.github.io/jrf-insight/"),
@@ -27,7 +34,8 @@ const site = lume({
 }, {
   search: {
     returnPageData: true,
-  }
+  },
+  nunjucks,
 });
 
 site.addEventListener("beforeBuild", () => {
