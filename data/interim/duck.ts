@@ -7,23 +7,9 @@ export const connection = db.connect();
 /**
  * SETUP DATA
  */
-connection.query(`
-  CREATE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv');
-  CREATE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claimant-count/claimant-count.csv');
-  CREATE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv');
-  CREATE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv');
+const setupSql = await Deno.readTextFile(new URL(import.meta.resolve("./load-db.sql")).pathname);
+connection.query(setupSql);
 
-  CREATE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv');
-  CREATE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv', nullstr='NA');
-  CREATE TABLE fuel_poverty AS SELECT * FROM read_csv_auto('./data/fuel-poverty/fuel-poverty.csv');
-  
-  CREATE TABLE ashe_weekly_earning AS SELECT * from read_csv_auto('./data/ashe/weekly-earnings.csv', nullstr='NA');
-  CREATE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
-  CREATE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
-  CREATE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_ethnic_group.csv');
-  CREATE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_marital_status.csv');
-  CREATE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
-`);
 
 /*
  * ACCESS FUNCTIONS
