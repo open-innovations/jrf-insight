@@ -3,7 +3,7 @@
 imd_file <- list.files('data-raw/imd', pattern = 'File_7', full.names = TRUE)
 
 imd_all_lsoa <- readr::read_csv(imd_file) |>
-  tidyr::pivot_longer(-(1:4), 'variable') |>
+  tidyr::pivot_longer(-(1:4), names_to = 'variable') |>
   dplyr::mutate(domain = substr(variable, 1, regexpr('Score|Rank|Decile', variable) - 2)) |>
   dplyr::mutate(domain = ifelse(domain == "", "Population data", domain)) |>
   dplyr::mutate(variable = substr(variable, regexpr('Score|Rank|Decile', variable), nchar(variable))) |>

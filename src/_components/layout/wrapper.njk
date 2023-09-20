@@ -1,0 +1,11 @@
+---
+css: |
+  .wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: var(--wrapper-width, 30em);
+  }
+---
+<div class='wrapper' style="--wrapper-width:{{ width or 'unset'}};">
+  {{ content | safe }}
+</div>
