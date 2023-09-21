@@ -18,6 +18,9 @@ stages:
       - ${top}/data/hbai/by_ethnic_group.csv:
           cache: false
           persist: false
+      - ${top}/data/hbai/by_marital_status.csv:
+          cache: false
+          persist: false
       - ${top}/data/hbai/by_number_of_children.csv:
           cache: false
           persist: false
@@ -25,6 +28,12 @@ stages:
           cache: false
           persist: false
       - ${top}/data/hbai/by_tenure_type.csv:
+          cache: false
+          persist: false
+      - ${top}/data/interim/hbai_by_ethnic_group.csv:
+          cache: false
+          persist: false
+      - ${top}/data/interim/hbai_by_marital_status.csv:
           cache: false
           persist: false
   extract:
