@@ -62,13 +62,13 @@ export const low_income_marital_status = (place: string) => {
       PIVOT (
         SELECT
           date,
-          "marital_status",
+          "Marital Status of Adults and Type of Couple in the Family of the Individual",
           percent
         FROM hbai_marital_status
         WHERE geography_code=='${place}'
         AND income_status=='In low income (below threshold)'
       )
-      ON "marital_status"
+      ON "Marital Status of Adults and Type of Couple in the Family of the Individual"
       USING AVG(percent);
     `)
   );
