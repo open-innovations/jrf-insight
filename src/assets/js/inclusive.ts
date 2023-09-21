@@ -91,6 +91,7 @@ function initialiseToggleSections() {
  * Base styling for this is kept in `_includes/css/inclusive.css`.
  */
 function initialiseTabSet() {
+  let tabId = 0;
   // Get relevant elements and collections
   const listOfTabbed = document.querySelectorAll('tab-set');
   listOfTabbed.forEach((tabbed) => {
@@ -127,7 +128,7 @@ function initialiseTabSet() {
     // Add semantics are remove user focusability for each tab
     tabs.forEach((tab, i) => {
       tab.setAttribute('role', 'tab');
-      tab.setAttribute('id', 'tab' + (i + 1));
+      tab.setAttribute('id', 'tab' + (tabId++));
       tab.setAttribute('tabindex', '-1');
       (tab.parentNode! as HTMLElement).setAttribute('role', 'presentation');
 
