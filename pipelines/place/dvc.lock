@@ -15,14 +15,14 @@ stages:
       hash: md5
       md5: 5b3cd5714f487269a63ef9d581cc77a5
       size: 57831
-    - path: ../../data/hbai/by_age_category.csv
+    - path: ../../data/interim/hbai_by_age_category.csv
       hash: md5
-      md5: 2d36d5fccf953b3f4570662b37f0dcec
-      size: 42615
-    - path: ../../data/hbai/by_savings_and_investments.csv
+      md5: 26da5c7282be4e7c9dacfbdd883976b9
+      size: 57624
+    - path: ../../data/interim/hbai_savings_investments.csv
       hash: md5
-      md5: 20a1d1a44fad3c2b30b24ab42ac30470
-      size: 136252
+      md5: 8ac67ef41f4a35d7ac2c743bcece0eee
+      size: 84570
     - path: ../../data/population-estimates/population-estimates.csv
       hash: md5
       md5: 7dd72902748ccb3cbd21d145df1fa2e9
@@ -41,29 +41,29 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 3ded17a7f5006ce9cafbcfcca4ff8aa8
-      size: 100838
+      md5: e11e5d3486fd6ff4e555e69eda114afa
+      size: 99636
     outs:
     - path: ../../data/interim/current_rental_prices.csv
       hash: md5
       md5: 99c16fc35bb177685d0f9458bb550c60
       size: 19047
-    - path: ../../data/interim/hbai_age_category.csv
-      hash: md5
-      md5: 336c3b8cff6663ea275af843532b18d2
-      size: 57635
+      isexec: true
     - path: ../../data/interim/house_prices.csv
       hash: md5
       md5: c356638de25bb181d99f6af0ffb5f8be
       size: 1241900
+      isexec: true
     - path: ../../data/interim/place_data.json
       hash: md5
-      md5: f96a6e9ea4c76caac1eaf03f04910103
+      md5: 8a930babaae2ff08249e59d574b383ad
       size: 1499723
+      isexec: true
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: 02216e6934965555ab11f130e9bf1eb4
-      size: 156000
+      md5: 0268cfbf8a6a508b8c7af869cd9f8934
+      size: 155998
+      isexec: true
   transform-geojson:
     cmd: papermill geojson.ipynb output/geojson.ipynb
     deps:

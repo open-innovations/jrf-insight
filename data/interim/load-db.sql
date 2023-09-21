@@ -8,7 +8,7 @@ CREATE OR REPLACE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/
 CREATE OR REPLACE TABLE fuel_poverty AS SELECT * FROM read_csv_auto('./data/fuel-poverty/fuel-poverty.csv');
 
 CREATE OR REPLACE TABLE ashe_weekly_earning AS SELECT * from read_csv_auto('./data/ashe/weekly-earnings.csv', nullstr='NA');
-CREATE OR REPLACE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./data/interim/hbai_age_category.csv');
+CREATE OR REPLACE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_age_category.csv');
 CREATE OR REPLACE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto('./data/interim/savings_investments.csv');
 CREATE OR REPLACE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_ethnic_group.csv');
 CREATE OR REPLACE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/interim/hbai_by_marital_status.csv');

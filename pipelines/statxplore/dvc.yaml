@@ -36,6 +36,12 @@ stages:
       - ${top}/data/interim/hbai_by_marital_status.csv:
           cache: false
           persist: false
+      - ${top}/data/interim/hbai_by_age_category.csv:
+          cache: false
+          persist: false
+      - ${top}/data/interim/hbai_savings_investments.csv:
+          cache: false
+          persist: false  
   extract:
     cmd: python pipelines/statxplore/extract.py
     wdir: ../..

@@ -1,4 +1,4 @@
-,geography_code,income_status,Type of Individual by Age Category,variable_name,value,date,total_people_for_year,percent
+,geography_code,income_status,Type of Individual by Age Category,variable_name,value,date,population,percent
 0,E12000001,In low income (below threshold),Child,population,188381.33333333334,1994-95 - 1996-97,2543594.0,7.0
 1,E12000001,In low income (below threshold),Pensioner,population,119423.0,1994-95 - 1996-97,2543594.0,5.0
 2,E12000001,In low income (below threshold),Working-Age,population,300775.3333333333,1994-95 - 1996-97,2543594.0,12.0
