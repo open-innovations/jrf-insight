@@ -190,13 +190,10 @@
 </p>
 
 {% comp 'layout.tab.set' %}
-{% comp 'layout.tab.panel', { label: 'Gender' } %}
-    Idea: pay gap or % jobs less than living wage
-{% endcomp %}
-  {% comp 'layout.tab.panel', {
-    label: 'Ethnicity',
-    id: 'ethnicity'
-  } %}
+  {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
+    <p>Idea: pay gap or % jobs less than living wage</p>
+  {% endcomp %}
+  {% comp 'layout.tab.panel', { label: 'Ethnicity', id: 'ethnicity' } %}
   {% set chart_data = dataset
     .hbai
     .low_income_ethnicity(geography) %}
@@ -252,7 +249,7 @@
   {% endif %}
   {# {% include './test.njk' %} #}
   {% endcomp %}
-  {% comp 'layout.tab.panel', {label: 'Single parents'} %}
+  {% comp 'layout.tab.panel', {label: 'Single parents', id: 'single-parents' } %}
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
   {% if chart_data | length > 0 %}
   <h3>What's on this chart?</h3>
@@ -293,7 +290,7 @@
     <p>No data available at this level</p>
   {% endif %}
 {% endcomp %}
-  {% comp 'layout.tab.panel', {label: 'Carers'} %}
+  {% comp 'layout.tab.panel', {label: 'Carers', id: 'carers' } %}
   <p>Idea: Cases with entitlement and cases in payment at regional level available 
     from statXplore.</p>
   {% endcomp %}
