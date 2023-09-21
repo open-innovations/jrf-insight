@@ -1,3 +1,4 @@
+// sourcery skip: use-braces
 /**
  * Inclusive Components Progressive Enhancement for the `toggle-section` tag.
  * 
@@ -21,11 +22,9 @@
 function initialiseToggleSections() {
   // Find all the toggle-section elements
   const toggleSections = document.querySelectorAll('toggle-section');
-  console.log(toggleSections);
   
   // Iterate through each one
   Array.prototype.forEach.call(toggleSections, toggleSection => {
-    console.log(toggleSection);
     // Find the heading
     const heading = toggleSection.firstElementChild;
     // TODO Check if heading is a heading?
@@ -90,6 +89,17 @@ function initialiseToggleSections() {
  * 
  * Base styling for this is kept in `_includes/css/inclusive.css`.
  */
+
+const handleDeepLink = () => {
+  if (!window.location.hash) return;
+  const hashTarget = document.querySelector(window.location.hash);
+  if (hashTarget!.role !== 'tabpanel') return;
+  const tab: HTMLAnchorElement | null = document.querySelector(`a[href="${window.location.hash}"][role="tab"]`)
+  if (!tab) return;
+  tab.scrollTo();
+  tab.click();
+}
+
 function initialiseTabSet() {
   let tabId = 0;
   // Get relevant elements and collections
@@ -138,10 +148,10 @@ function initialiseTabSet() {
         const currentTab = tablist.querySelector<HTMLElement>('[aria-selected]');
         if (currentTab && e.currentTarget && (e.currentTarget !== currentTab)) {
           switchTab(currentTab, e.currentTarget as HTMLElement);
-          console.log(e.currentTarget.id);
+          // Set the window location
+          const newHash = new URL((e.currentTarget as HTMLAnchorElement).href).hash;
+          window.location.hash = newHash;
         }
-        // Set the window location
-        // window.location.hash = container.id;
 
       });
 
@@ -175,13 +185,8 @@ function initialiseTabSet() {
     panels[0].hidden = false;
 
   });
-  // Check if page is one of these
-  const hashTarget = document.querySelector(window.location.hash);
-  if (hashTarget && hashTarget.role === 'tabpanel') {
-    const tab = document.querySelector(`a[href="${window.location.hash}"][role="tab"]`)
-    tab?.scrollTo();
-    tab.click();
-  }
+
+  handleDeepLink();
 }
 
 addEventListener('DOMContentLoaded', () => {
