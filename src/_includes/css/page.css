@@ -2,21 +2,9 @@ body > header {
   font-family: HouschkaAltPro-Medium,sans-serif;
   text-transform: uppercase;
   background-color: #eee;
-  & > .page-flow {
-    display: flex;
-    gap: 1em;
-    align-items: center;
-    & > *:first-child {
-      flex-grow: 1;
-    }
-  }
   & h1 {
     color: var(--jrf-pink);
     font-size: min(2em, 7vw);
-  }
-  & ul {
-    display: table;
-    margin: auto;
   }
 }
 
@@ -35,5 +23,16 @@ body > footer {
       width: auto;
     }
   }
+}
 
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.warning {
+  background: var(--jrf-strong-pink);
+  color: white;
+  text-align: center;
 }

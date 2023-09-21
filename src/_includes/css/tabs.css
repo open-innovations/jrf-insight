@@ -10,8 +10,10 @@ tab-set {
   --hover-background: #343333;
 
   & [role="tablist"] {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: var(--border-width);
     color: var(--colour);
     background: var(--background);

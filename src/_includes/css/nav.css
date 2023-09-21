@@ -13,6 +13,8 @@ body > nav {
   }
   & ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   & .menu {
     padding-block: 0;
