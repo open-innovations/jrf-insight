@@ -33,16 +33,16 @@ stages:
       size: 2893
     - path: params.py
       hash: md5
-      md5: cda61f98af8f1938c249423c819e2a1e
-      size: 122
+      md5: d4297ca94afcb930b25e1a0aca7cb029
+      size: 162
     - path: places.yaml
       hash: md5
       md5: 4cc762ec55f3b34b4232e67a9c63fe15
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 51ef1c7a4be62f7d37e9261f00168dd2
-      size: 99461
+      md5: 569ba81998332a976281c3eb05622f00
+      size: 98468
     outs:
     - path: ../../data/interim/current_rental_prices.csv
       hash: md5
@@ -101,13 +101,14 @@ stages:
       size: 589
     - path: params.py
       hash: md5
-      md5: cda61f98af8f1938c249423c819e2a1e
-      size: 122
+      md5: d4297ca94afcb930b25e1a0aca7cb029
+      size: 162
     outs:
     - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: e273cc16c7db86803619205897fe4599
       size: 514139
+      isexec: true
   generate-list:
     cmd: python generate-list.py
     deps:
@@ -121,13 +122,14 @@ stages:
       size: 304
     - path: params.py
       hash: md5
-      md5: cda61f98af8f1938c249423c819e2a1e
-      size: 122
+      md5: d4297ca94afcb930b25e1a0aca7cb029
+      size: 162
     outs:
     - path: places.yaml
       hash: md5
       md5: 4cc762ec55f3b34b4232e67a9c63fe15
       size: 19740
+      isexec: true
   prepare-batch:
     cmd: python batch.py
     deps:

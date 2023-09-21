@@ -55,8 +55,8 @@ stages:
       size: 353
     - path: hbai.ipynb
       hash: md5
-      md5: 37773bc6b88c398ceb75e843b54bb660
-      size: 43490
+      md5: ce6088c94994a4fde3e869197d8b4801
+      size: 38163
     - path: json/data/HBAI.json
       hash: md5
       md5: ced3d671efdbe212638d1b1b0ba83cfc
