@@ -1,0 +1,39 @@
+body > header {
+  font-family: HouschkaAltPro-Medium,sans-serif;
+  text-transform: uppercase;
+  background-color: #eee;
+  & > .page-flow {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    & > *:first-child {
+      flex-grow: 1;
+    }
+  }
+  & h1 {
+    color: var(--jrf-pink);
+    font-size: min(2em, 7vw);
+  }
+  & ul {
+    display: table;
+    margin: auto;
+  }
+}
+
+body > footer {
+  color: white;
+  background-color: #343333;
+  margin-top: 5rem;
+
+  & .contributors {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    list-style: none;
+    & svg, img[inline] {
+      max-height: 2em;
+      width: auto;
+    }
+  }
+
+}
