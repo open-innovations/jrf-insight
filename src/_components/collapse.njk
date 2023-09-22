@@ -15,9 +15,9 @@ js: |
     });
     } 
 ---
-<button class='collapsible'><h3>{{ heading }}</h3></button>
+<button class='collapsible'><h3>{{ heading | safe }}</h3></button>
 <div class="collapsed-content">
   <p>
-    {{ text }}
+    {{ text | safe }}
   </p>
 </div> 
