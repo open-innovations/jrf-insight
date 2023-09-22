@@ -55,11 +55,3 @@ tab-set {
 section > .chart-title {
   text-align: center;
 }
-
-.collapsible{
-  /* background: inherit; */
-  text-decoration: underline;
-}
-div.collapsed-content{
-  display: none;
-}

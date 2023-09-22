@@ -12,7 +12,9 @@
 
 {% comp 'layout.tab.set' %}
 {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
-  {% comp 'collapse', { heading: "What's on this chart?", text: 'This chart shows labour market statistics for {{ this_place.title }}' } %}{% endcomp %}
+  {% comp 'collapse', { heading: "What's on this chart?"} %}
+  <p>This chart shows labour market statistics for {{ this_place.title }}</p>
+  {% endcomp %}
   {% set labour_market_time_series = dataset
     .labour_market
     .get_economic_activity_for_place(geography) %}

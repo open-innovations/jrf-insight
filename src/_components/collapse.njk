@@ -1,23 +1,6 @@
----
-js: |
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-        } else {
-        content.style.display = "block";
-        }
-    });
-    } 
----
-<button class='collapsible'><h3>{{ heading | safe }}</h3></button>
-<div class="collapsed-content">
-  <p>
-    {{ text | safe }}
-  </p>
-</div> 
+<div data-dependencies="/assets/js/inclusive.js">
+<toggle-section>
+    <h{{ level or "3" }}>{{ heading | safe }}</h{{ level or "3" }}>
+        {{ content | safe }}
+</toggle-section>
+</div>
