@@ -1,0 +1,14 @@
+vars:
+  - top: '../../..'
+stages:
+  transform-fsm:
+    cmd: papermill free_school_meals.ipynb ${top}/data/_working/output/free_school_meals.ipynb
+    always_changed: true
+    deps:
+      - free_school_meals.ipynb
+      - ${top}/data-raw/free-school-meals/data/fsm_time_series.csv
+    outs: 
+      - ${top}/data/fsm/free_school_meals.csv:
+          cache: false
+          persist: false
+      

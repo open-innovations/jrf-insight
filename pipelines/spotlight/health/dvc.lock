@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  transform-fsm:
+    cmd: papermill free_school_meals.ipynb ../../../data/_working/output/free_school_meals.ipynb
+    deps:
+    - path: ../../../data-raw/free-school-meals/data/fsm_time_series.csv
+      hash: md5
+      md5: 1e7bd734ebaa866ada2b6cf8a3b09999
+      size: 799665
+    - path: free_school_meals.ipynb
+      hash: md5
+      md5: f5bda72ab4f6f36a9a862601ef10bb81
+      size: 2391
+    outs:
+    - path: ../../../data/fsm/free_school_meals.csv
+      hash: md5
+      md5: 4dd2009c8769fd3303450daeb06ae8d6
+      size: 80148
+      isexec: true

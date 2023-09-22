@@ -1,7 +1,7 @@
 CREATE OR REPLACE TABLE current_rental_prices AS SELECT * FROM read_csv_auto('./data/interim/current_rental_prices.csv');
 CREATE OR REPLACE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claimant-count/claimant-count.csv');
 CREATE OR REPLACE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/interim/house_prices.csv');
-CREATE OR REPLACE TABLE fsm AS SELECT * FROM read_csv_auto('./data/interim/free_school_meals.csv');
+CREATE OR REPLACE TABLE fsm AS SELECT * FROM read_csv_auto('./data/fsm/free_school_meals.csv');
 
 CREATE OR REPLACE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data-raw/personal-wellbeing/wellbeing-local-authority.csv');
 CREATE OR REPLACE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv', nullstr='NA');
