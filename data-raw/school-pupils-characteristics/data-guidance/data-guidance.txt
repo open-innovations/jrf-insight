@@ -1,0 +1,492 @@
+Schools, pupils and their characteristics
+2022/23 Academic year
+
+Description
+
+This document describes the data included in the ‘Schools, pupils and their characteristics’ National Statistics release’s underlying data files. This data is released under the terms of the  Open Government License and is intended to meet at least 3 stars for  Open Data.
+
+The publication methodology, available on the publication report, should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+This release provides information on the number of schools and pupils in:
+
+- state-funded primary schools
+- state-funded secondary schools
+- state-funded special schools
+- non-maintained special schools
+- pupil referral units
+- independent schools
+- local authority alternative provision
+
+It includes information on:
+
+- pupil numbers, including headcount and fte, gender, ethnicity, language and free school meals eligibility
+- school numbers, including school type, academy status, denomination, admission policy, urban/rural and gender
+
+The information is based on data collected via the pupil level spring school census, school level annual school census, general hospital schools census and alternative provision census.
+
+File formats and conventions
+
+Rounding
+
+These datasets have not had suppression applied.
+
+Conventions
+
+The following convention is used throughout the underlying data.
+
+‘x’ Not applicable
+
+‘z’ Unknown
+
+Data files
+
+School characteristics
+
+Filename: spc_school_characteristics_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Number of schools in England, by type, phase, denomination, admission policy, gender, urban/rural and academy status including headcounts and fte, language, fsm, age and national curriculum year breakdowns
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                                                        |  Variable description
+-----------------------------------------------------------------------------------  |  ---------------------------------------------------------------------------------
+academy_flag                                                                         |  Academy indicator - Academy or otherwise
+admissions_policy                                                                    |  School admissions policy - Selective or otherwise
+boy_boarders                                                                         |  Boy boarders
+denomination                                                                         |  Denomination - Religious denomination
+fte_pupils                                                                           |  FTE pupils
+full_time_boys_aged_0                                                                |  Full time boys aged 0
+full_time_boys_aged_1                                                                |  Full time boys aged 1
+full_time_boys_aged_10                                                               |  Full time boys aged 10
+full_time_boys_aged_11                                                               |  Full time boys aged 11
+full_time_boys_aged_12                                                               |  Full time boys aged 12
+full_time_boys_aged_13                                                               |  Full time boys aged 13
+full_time_boys_aged_14                                                               |  Full time boys aged 14
+full_time_boys_aged_15                                                               |  Full time boys aged 15
+full_time_boys_aged_16                                                               |  Full time boys aged 16
+full_time_boys_aged_17                                                               |  Full time boys aged 17
+full_time_boys_aged_18                                                               |  Full time boys aged 18
+full_time_boys_aged_19                                                               |  Full time boys aged 19
+full_time_boys_aged_2                                                                |  Full time boys aged 2
+full_time_boys_aged_3                                                                |  Full time boys aged 3 (born April to August)
+full_time_boys_aged_4                                                                |  Full time boys aged 4 (born September to December)
+full_time_boys_aged_5                                                                |  Full time boys aged 5
+full_time_boys_aged_6                                                                |  Full time boys aged 6
+full_time_boys_aged_7                                                                |  Full time boys aged 7
+full_time_boys_aged_8                                                                |  Full time boys aged 8
+full_time_boys_aged_9                                                                |  Full time boys aged 9
+full_time_boys_early_1                                                               |  Full time boys Early 1
+full_time_boys_early_2                                                               |  Full time boys Early 2
+full_time_boys_nursery_1                                                             |  Full time boys Nursery 1
+full_time_boys_nursery_2                                                             |  Full time boys Nursery 2
+full_time_boys_reception                                                             |  Full time boys Reception
+full_time_boys_year_group_1                                                          |  Full time boys Year group 1
+full_time_boys_year_group_10                                                         |  Full time boys Year group 10
+full_time_boys_year_group_11                                                         |  Full time boys Year group 11
+full_time_boys_year_group_12                                                         |  Full time boys Year group 12
+full_time_boys_year_group_13                                                         |  Full time boys Year group 13
+full_time_boys_year_group_14                                                         |  Full time boys Year group 14
+full_time_boys_year_group_2                                                          |  Full time boys Year group 2
+full_time_boys_year_group_3                                                          |  Full time boys Year group 3
+full_time_boys_year_group_4                                                          |  Full time boys Year group 4
+full_time_boys_year_group_5                                                          |  Full time boys Year group 5
+full_time_boys_year_group_6                                                          |  Full time boys Year group 6
+full_time_boys_year_group_7                                                          |  Full time boys Year group 7
+full_time_boys_year_group_8                                                          |  Full time boys Year group 8
+full_time_boys_year_group_9                                                          |  Full time boys Year group 9
+full_time_boys_year_group_not_followed                                               |  Full time boys Year group Not followed
+full_time_girls_aged_0                                                               |  Full time girls aged 0
+full_time_girls_aged_1                                                               |  Full time girls aged 1
+full_time_girls_aged_10                                                              |  Full time girls aged 10
+full_time_girls_aged_11                                                              |  Full time girls aged 11
+full_time_girls_aged_12                                                              |  Full time girls aged 12
+full_time_girls_aged_13                                                              |  Full time girls aged 13
+full_time_girls_aged_14                                                              |  Full time girls aged 14
+full_time_girls_aged_15                                                              |  Full time girls aged 15
+full_time_girls_aged_16                                                              |  Full time girls aged 16
+full_time_girls_aged_17                                                              |  Full time girls aged 17
+full_time_girls_aged_18                                                              |  Full time girls aged 18
+full_time_girls_aged_19                                                              |  Full time girls aged 19
+full_time_girls_aged_2                                                               |  Full time girls aged 2
+full_time_girls_aged_3                                                               |  Full time girls aged 3 (born April to August)
+full_time_girls_aged_4                                                               |  Full time girls aged 4 (born September to December)
+full_time_girls_aged_5                                                               |  Full time girls aged 5
+full_time_girls_aged_6                                                               |  Full time girls aged 6
+full_time_girls_aged_7                                                               |  Full time girls aged 7
+full_time_girls_aged_8                                                               |  Full time girls aged 8
+full_time_girls_aged_9                                                               |  Full time girls aged 9
+full_time_girls_early_1                                                              |  Full time girls Early 1
+full_time_girls_early_2                                                              |  Full time girls Early 2
+full_time_girls_nursery_1                                                            |  Full time girls Nursery 1
+full_time_girls_nursery_2                                                            |  Full time girls Nursery 2
+full_time_girls_reception                                                            |  Full time girls Reception
+full_time_girls_year_group_1                                                         |  Full time girls Year group 1
+full_time_girls_year_group_10                                                        |  Full time girls Year group 10
+full_time_girls_year_group_11                                                        |  Full time girls Year group 11
+full_time_girls_year_group_12                                                        |  Full time girls Year group 12
+full_time_girls_year_group_13                                                        |  Full time girls Year group 13
+full_time_girls_year_group_14                                                        |  Full time girls Year group 14
+full_time_girls_year_group_2                                                         |  Full time girls Year group 2
+full_time_girls_year_group_3                                                         |  Full time girls Year group 3
+full_time_girls_year_group_4                                                         |  Full time girls Year group 4
+full_time_girls_year_group_5                                                         |  Full time girls Year group 5
+full_time_girls_year_group_6                                                         |  Full time girls Year group 6
+full_time_girls_year_group_7                                                         |  Full time girls Year group 7
+full_time_girls_year_group_8                                                         |  Full time girls Year group 8
+full_time_girls_year_group_9                                                         |  Full time girls Year group 9
+full_time_girls_year_group_not_followed                                              |  Full time girls Year group Not followed
+full_time_pupils                                                                     |  Full time pupils
+girl_boarders                                                                        |  Girl boarders
+headcount_of_pupils                                                                  |  Headcount - Total
+headcount_total_boys                                                                 |  Headcount - boys
+headcount_total_girls                                                                |  Headcount - girls
+infants_taken_a_free_school_meal_on_census_day                                       |  Infants taken a free school meal on census day
+number_of_early_year_pupils_years_e1_and_e2                                          |  Number of early year pupils (years E1 and E2)
+number_of_fsm_eligible_pupils_taking_a_free_school_meal_on_census_day                |  Number of FSM eligible pupils taking a free school meal on census day
+number_of_key_stage_1_pupils_years_1_and_2                                           |  Number of key stage 1 pupils (years 1 and 2)
+number_of_key_stage_2_pupils_years_3_to_6                                            |  Number of key stage 2 pupils (years 3 to 6)
+number_of_key_stage_3_pupils_years_7_to_9                                            |  Number of key stage 3 pupils (years 7 to 9)
+number_of_key_stage_4_pupils_years_10_and_11                                         |  Number of key stage 4 pupils (years 10 and 11)
+number_of_key_stage_5_pupils_years_12_to_14                                          |  Number of key stage 5 pupils (years 12 to 14)
+number_of_nursery_pupils_years_n1_and_n2                                             |  Number of nursery pupils (years N1 and N2)
+number_of_pupils_known_to_be_eligible_for_free_school_meals                          |  Known to be eligible for free school meals
+number_of_pupils_known_to_be_eligible_for_free_school_meals_performance_tables       |  Known to be eligible for free school meals (using performance tables methodology)
+number_of_pupils_not_reception_or_key_stage_1_to_5                                   |  Number of pupils not reception or key stage 1 to 5
+number_of_pupils_of_compulsory_school_age_and_above                                  |  Number of pupils of compulsory school age and above
+number_of_pupils_used_for_fsm_calculation_in_performance_tables                      |  Number of pupils used for FSM calculation in Performance Tables
+number_of_pupils_whose_first_language_is_known_or_believed_to_be_english             |  First language is known or believed to be English
+number_of_pupils_whose_first_language_is_known_or_believed_to_be_other_than_english  |  First language is known or believed to be other than English
+number_of_pupils_whose_first_language_is_unclassified                                |  First language is unclassified
+number_of_reception_pupils_year_r                                                    |  Number of reception pupils (year R)
+number_of_schools                                                                    |  Number of schools
+part_time_boys_aged_0                                                                |  part time boys aged 0
+part_time_boys_aged_1                                                                |  part time boys aged 1
+part_time_boys_aged_10                                                               |  Part time boys aged 10
+part_time_boys_aged_11                                                               |  Part time boys aged 11
+part_time_boys_aged_12                                                               |  Part time boys aged 12
+part_time_boys_aged_13                                                               |  Part time boys aged 13
+part_time_boys_aged_14                                                               |  Part time boys aged 14
+part_time_boys_aged_15                                                               |  Part time boys aged 15
+part_time_boys_aged_16                                                               |  Part time boys aged 16
+part_time_boys_aged_17                                                               |  Part time boys aged 17
+part_time_boys_aged_18                                                               |  Part time boys aged 18
+part_time_boys_aged_19                                                               |  Part time boys aged 19
+part_time_boys_aged_2                                                                |  part time boys aged 2
+part_time_boys_aged_3                                                                |  Part time boys aged 3 (born April to August)
+part_time_boys_aged_4                                                                |  Part time boys aged 4 (born September to December)
+part_time_boys_aged_5                                                                |  Part time boys aged 5
+part_time_boys_aged_6                                                                |  Part time boys aged 6
+part_time_boys_aged_7                                                                |  Part time boys aged 7
+part_time_boys_aged_8                                                                |  Part time boys aged 8
+part_time_boys_aged_9                                                                |  Part time boys aged 9
+part_time_boys_early_1                                                               |  Part time boys Early 1
+part_time_boys_early_2                                                               |  Part time boys Early 2
+part_time_boys_nursery_1                                                             |  Part time boys Nursery 1
+part_time_boys_nursery_2                                                             |  Part time boys Nursery 2
+part_time_boys_reception                                                             |  Part time boys Reception
+part_time_boys_year_group_1                                                          |  Part time boys Year group 1
+part_time_boys_year_group_10                                                         |  Part time boys Year group 10
+part_time_boys_year_group_11                                                         |  Part time boys Year group 11
+part_time_boys_year_group_12                                                         |  Part time boys Year group 12
+part_time_boys_year_group_13                                                         |  Part time boys Year group 13
+part_time_boys_year_group_14                                                         |  Part time boys Year group 14
+part_time_boys_year_group_2                                                          |  Part time boys Year group 2
+part_time_boys_year_group_3                                                          |  Part time boys Year group 3
+part_time_boys_year_group_4                                                          |  Part time boys Year group 4
+part_time_boys_year_group_5                                                          |  Part time boys Year group 5
+part_time_boys_year_group_6                                                          |  Part time boys Year group 6
+part_time_boys_year_group_7                                                          |  Part time boys Year group 7
+part_time_boys_year_group_8                                                          |  Part time boys Year group 8
+part_time_boys_year_group_9                                                          |  Part time boys Year group 9
+part_time_boys_year_group_not_followed                                               |  Part time boys Year group Not followed
+part_time_girls_aged_0                                                               |  Part time girls aged 0
+part_time_girls_aged_1                                                               |  Part time girls aged 1
+part_time_girls_aged_10                                                              |  Part time girls aged 10
+part_time_girls_aged_11                                                              |  Part time girls aged 11
+part_time_girls_aged_12                                                              |  Part time girls aged 12
+part_time_girls_aged_13                                                              |  Part time girls aged 13
+part_time_girls_aged_14                                                              |  Part time girls aged 14
+part_time_girls_aged_15                                                              |  Part time girls aged 15
+part_time_girls_aged_16                                                              |  Part time girls aged 16
+part_time_girls_aged_17                                                              |  Part time girls aged 17
+part_time_girls_aged_18                                                              |  Part time girls aged 18
+part_time_girls_aged_19                                                              |  Part time girls aged 19
+part_time_girls_aged_2                                                               |  Part time girls aged 2
+part_time_girls_aged_3                                                               |  Part time girls aged 3 (born April to August)
+part_time_girls_aged_4                                                               |  Part time girls aged 4 (born September to December)
+part_time_girls_aged_5                                                               |  Part time girls aged 5
+part_time_girls_aged_6                                                               |  Part time girls aged 6
+part_time_girls_aged_7                                                               |  Part time girls aged 7
+part_time_girls_aged_8                                                               |  Part time girls aged 8
+part_time_girls_aged_9                                                               |  Part time girls aged 9
+part_time_girls_early_1                                                              |  Part time girls Early 1
+part_time_girls_early_2                                                              |  Part time girls Early 2
+part_time_girls_nursery_1                                                            |  Part time girls Nursery 1
+part_time_girls_nursery_2                                                            |  Part time girls Nursery 2
+part_time_girls_reception                                                            |  Part time girls Reception
+part_time_girls_year_group_1                                                         |  Part time girls Year group 1
+part_time_girls_year_group_10                                                        |  Part time girls Year group 10
+part_time_girls_year_group_11                                                        |  Part time girls Year group 11
+part_time_girls_year_group_12                                                        |  Part time girls Year group 12
+part_time_girls_year_group_13                                                        |  Part time girls Year group 13
+part_time_girls_year_group_14                                                        |  Part time girls Year group 14
+part_time_girls_year_group_2                                                         |  Part time girls Year group 2
+part_time_girls_year_group_3                                                         |  Part time girls Year group 3
+part_time_girls_year_group_4                                                         |  Part time girls Year group 4
+part_time_girls_year_group_5                                                         |  Part time girls Year group 5
+part_time_girls_year_group_6                                                         |  Part time girls Year group 6
+part_time_girls_year_group_7                                                         |  Part time girls Year group 7
+part_time_girls_year_group_8                                                         |  Part time girls Year group 8
+part_time_girls_year_group_9                                                         |  Part time girls Year group 9
+part_time_girls_year_group_not_followed                                              |  Part time girls Year group Not followed
+part_time_pupils                                                                     |  Part time pupils
+phase_type_grouping                                                                  |  School type - Filter by school type
+sex_of_school_description                                                            |  Sex of school description - Mixed, boys, girls
+total_boarders                                                                       |  Total boarders
+type_of_establishment                                                                |  School type (detailed) - Filter by school type (further detail)
+urban_rural                                                                          |  Urban or rural indicator - Urban or rural indicator
+
+
+Pupil characteristics - number of pupils by age and gender
+
+Filename: spc_pupils_age_and_gender_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools, pupil referral units and independent schools
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  ----------------------------------------------------
+age                  |  Pupil age - Age at start of academic year (31st Aug)
+fte                  |  Full time equivalent
+full_time            |  Full time pupils
+gender               |  Pupil gender - Pupil gender (Boys/girls)
+headcount            |  Headcount
+part_time            |  Part time pupils
+phase_type_grouping  |  School type - Filter by school type
+
+
+Pupil characteristics - number of pupils by national curriculum year group and gender
+
+Filename: spc_pupils_yeargroup_and_gender_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools, pupil referral units and independent schools
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -------------------------------------------
+fte                  |  Full time equivalent
+full_time            |  Full time pupils
+gender               |  Pupil gender - Pupil gender (Boys/girls)
+headcount            |  Headcount
+ncyear               |  Year group - National curriculum year group
+part_time            |  Part time pupils
+phase_type_grouping  |  School type - Filter by school type
+
+
+Pupil characteristics - number of pupils by fsm eligibility
+
+Filename: spc_pupils_fsm.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools and pupil referral units by FSM eligibility
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -----------------------------------------------------
+fsm                  |  Free School Meals - Filter by free school meal status
+headcount            |  Headcount
+percent_of_pupils    |  FSM - Percentage of pupils
+phase_type_grouping  |  School type - Filter by school type
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+
+
+Pupil characteristics - number of pupils by ethnicity and language
+
+Filename: spc_pupils_ethnicity_and_language_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools and pupil referral units by ethnicity and language
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -----------------------------------------
+ethnicity_minor      |  Ethnicity - Filter by pupil ethnicity
+headcount            |  Headcount
+language             |  First language - Filter by first language
+percent_of_pupils    |  Percent
+phase_type_grouping  |  School type - Filter by school type
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+2. Totals include pupils in General Hospital Schools, however Ethnicity and Language data is not available for these pupils. Breakdowns may not sum to totals as a result.
+3. Prior to 2017/18, Ethnicity and Language data was collected for compulsory school age children only.
+
+
+Pupil characteristics - FSM eligible pupils by ethnicity or national curriculum year group
+
+Filename: spc_pupils_fsm_ethnicity_yrgp.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools and pupil referral units by free school meal eligibility and ethnicity or year group
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  ----------------------------------------
+characteristic       |  Characteristics - Select required groups
+denominator          |  Total headcount
+fsm_eligibility      |  FSM Eligibility - Select required groups
+number_of_pupils     |  Number of pupils
+percent_of_pupils    |  Percentage
+phase_type_grouping  |  School type - Filter by school type
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+
+
+Young carers by national curriculum year group
+
+Filename: spc_pupils_young_carers_yrgp.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2022/23
+Content summary: Pupils in state-funded nursery, primary, secondary and special schools, non-maintained special schools and pupil referral units who have been identified as a young carer
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  --------------------------------------------------
+characteristic       |  Characteristics - Select required groups
+denominator          |  Total headcount
+number_of_pupils     |  Number of pupils
+percent_of_pupils    |  Percentage
+phase_type_grouping  |  School type - Filter by school type
+young_carer          |  Known to be a young carer - Select required groups
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+2. Data on young carers has been collected in the school census for the first time in 2022/23. The young carer indicator identifies, for those children on roll on spring census day, whether they have been identified as a young carer either by the school (including where the pupil self declares) or by parent or guardian
+
+
+Class sizes - state-funded primary and secondary schools
+
+Filename: spc_class_size_.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Number of pupils and classes and average class sizes for state-funded primary and secondary schools, including infant and key stage 2 class sizes
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  --------------------------------------------------------------------------------------
+average_class_size  |  Average class size
+classtype           |  Type of class - Type of class (Infant (Reception plus KS1), KS2, Primary or Secondary)
+number_of_classes   |  Number of classes
+number_of_pupils    |  Number of pupils
+size                |  Size of class - Class size (1 to 30, 31 to 35, 36 plus)
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+
+
+Universal Infant Free School Meals (UIFSM)
+
+Filename: spc_uifsm.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2015/16 to 2022/23
+Content summary: Information on the take up of Universal Infant Free School Meals, including by FSM eligibility.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -------------------------------------------------
+characteristic       |  FSM eligibility - Filter by FSM, Not FSM or Total
+denominator          |  Total number of infant pupils
+lunch_taken          |  Lunch taken - Select required groups
+percentage           |  Percentage of infant pupils taking a meal
+phase_type_grouping  |  School type - Filter by school type
+pupils               |  Number of infant pupils taking a meal
+
+Footnotes:
+
+1. Totals include state-funded nursery, primary, secondary, alternative provision (AP) schools and special schools, and non-maintained special schools. Does not include independent schools
+
+
+School arranged alternative provision - by characteristics
+
+Filename: spc_school_ap_characteristics.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2022/23
+Content summary: Number of pupils in school arranged alternative provision, by pupil characteristics
+
+Variable names and descriptions for this file are provided below:
+
+Variable name         |  Variable description
+--------------------  |  ---------------------------------------------
+pupil_characteristic  |  Pupil characteristic - Select required groups
+pupils                |  Number of pupils
+setting_type          |  Type of setting
+
+
+School arranged alternative provision - by placement reason
+
+Filename: spc_school_ap_placement.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2022/23
+Content summary: Number of pupils in school arranged alternative provision, by reason for placement
+
+Variable names and descriptions for this file are provided below:
+
+Variable name         |  Variable description
+--------------------  |  -----------------------------------------
+pupil_characteristic  |  Placement Reason - Select required groups
+pupils                |  Number of pupils
+setting_type          |  Type of setting
+
+
+Alternative provision - local authority funded placements - pupil counts
+
+Filename: ap_placements_ap_census.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2017/18 to 2022/23
+Content summary: Number of pupils in local authority funded alternative provision
+
+Variable names and descriptions for this file are provided below:
+
+Variable name     |  Variable description
+----------------  |  ---------------------------------------------------------
+age               |  Pupil age - Pupil age at 31 Aug at start of academic year
+ethnicity_minor   |  Ethnicity - Ethnicity of pupil
+fsm               |  Free school meals - FSM eligible/not eligible
+gender            |  Pupil gender - Gender (Girls/Boys/Other)
+number_of_pupils  |  Headcount
+
+
+Alternative provision - local authority funded placements - placement counts
+
+Filename: spc_ap_setting.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2022/23
+Content summary: Number of placements in local authority funded alternative provision
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+------------  |  --------------------
+placements    |  Number of placements
+setting_type  |  Type of setting
