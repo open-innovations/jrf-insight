@@ -9,13 +9,13 @@ stages:
       size: 8585897
     - path: free_school_meals.ipynb
       hash: md5
-      md5: 24950970008a06f4a5c7ce2c72f7b2fd
-      size: 2819
+      md5: d9cfe7b347e1999b29e97b25d32cb6a1
+      size: 11188
     outs:
     - path: ../../../data/school-pupils-characteristics/free_school_meals.csv
       hash: md5
-      md5: a931aae0a7cfed424067534dd51b87d7
-      size: 362873
+      md5: bf75c5d20d8a49c7e11ffb2c95e03aca
+      size: 121464
       isexec: true
   unzip:
     cmd: python ../../../pipelines/spotlight/health/unzipper.py
