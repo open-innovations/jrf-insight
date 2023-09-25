@@ -56,10 +56,13 @@
   .get_fuel_poverty(place_and_children) %}
 
 {% if fp_this | length > 0 %}
-  <h3>What's on this chart?</h3>
-  <p>This chart shows the percentage of households in fuel poverty across the different 
-    areas in {{ this_place.title }}. In {{ this_place.title }}{{ fp_this["Number of households in fuel poverty"] }}
-  of {{ fp_this['Number of households'] }} households are in fuel poverty.</p>
+  {% comp 'collapse', { heading: "What's on this chart?"} %}
+  <p>
+    This chart shows the percentage of households in fuel poverty across the different 
+    areas in  {{ this_place.title }}. In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
+    of {{ fp_this['Number of households'] }} households are in fuel poverty.
+  </p>
+  {% endcomp %}
 {% endif %}
 
   {% if fp_all.length > 0 %}
@@ -97,8 +100,9 @@
     .ashe
     .weekly_earnings(place_and_children) %}
   {% if we_all.length > 0 %}
-      <h3>What's on this chart?</h3>
-  <p> This chart shows the median weekly wage for different areas in {{ this_place.title }}. </p>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
+    {% endcomp %}
   {{ comp.oi.map.svg({
     config: {
       data: we_all,
@@ -132,9 +136,13 @@
     .hbai
     .get_savings_and_investments_for_place(geography) %}
   {% if chart_data | length > 0 %}
-  <h3>What's on this chart?</h3>
-  <p> This chart shows savings and investments of adults in the family for low income households in {{ this_place.title }}.</p>
-    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>
+      This chart shows savings and investments of adults in the 
+      family for low income households in {{ this_place.title }}.
+    </p>
+      <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
+    {% endcomp %}
       {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
@@ -185,9 +193,9 @@
   <h3>Demographic breakdown</h3>
 
   <p>
-  Poverty can disproportionately affect certain groups.
-  This section presents analysis of {{ title }} with a focus on demographics.
-</p>
+    Poverty can disproportionately affect certain groups.
+    This section presents analysis of {{ title }} with a focus on demographics.
+  </p>
 
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
@@ -198,10 +206,19 @@
     .hbai
     .low_income_ethnicity(geography) %}
   {% if chart_data | length > 0 %}
-    <h3>What's on this chart?</h3>
-  <p> This chart shows the percentage of households below average income by ethnicity in {{ this_place.title }}.</p>
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Households below average income by ethnicity</a>
-    {# <p style="text-align: center;"></p> #}
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p> 
+      This chart shows the percentage of households below average income by ethnicity in {{ this_place.title }}.
+    </p>
+    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Households below average income by ethnicity</a>
+    <p>
+      These statistics have been three-year averaged and rounded according to the guidance on 
+      <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
+      This method helps smooth erratic series and so give more robust estimates as the FRS sample size
+      and coverage issues mean that single year results broken down below the level of UK region are 
+      unlikely to be reliable.
+    </p>
+    {% endcomp %}
     {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
@@ -237,13 +254,7 @@
       ]
     }
   }) | safe }}
-  <p>
-    These statistics have been three-year averaged and rounded according to the guidance on 
-    <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
-    This method helps smooth erratic series and so give more robust estimates as the FRS sample size
-     and coverage issues mean that single year results broken down below the level of UK region are 
-     unlikely to be reliable.
-  </p>
+  
   {% else %}
     <p>No data available at this level</p>
   {% endif %}
@@ -252,10 +263,17 @@
   {% comp 'layout.tab.panel', {label: 'Single parents', id: 'single-parents' } %}
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
   {% if chart_data | length > 0 %}
-  <h3>What's on this chart?</h3>
+  {% comp 'collapse', { heading: "What's on this chart?"} %}
   <p> This chart shows the percentage of households below average income by marital/cohabiting status in {{ this_place.title }}.</p>
   <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_marital_status.csv">Households below average income by marital status</a>
-  {# <p style="text-align: center;"></p> #}
+  <p>
+    These statistics have been three-year averaged and rounded according to the guidance on 
+    <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
+    This method helps smooth erratic series and so give more robust estimates as the FRS sample size
+     and coverage issues mean that single year results broken down below the level of UK region are 
+     unlikely to be reliable.
+  </p>
+  {% endcomp %}
   {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
@@ -279,13 +297,6 @@
       ]
     }
   }) | safe }}
-  <p>
-    These statistics have been three-year averaged and rounded according to the guidance on 
-    <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
-    This method helps smooth erratic series and so give more robust estimates as the FRS sample size
-     and coverage issues mean that single year results broken down below the level of UK region are 
-     unlikely to be reliable.
-  </p>
   {% else %}
     <p>No data available at this level</p>
   {% endif %}
@@ -297,8 +308,8 @@
   {% endcomp %}
 
   <p>
-See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty
-</p>
+    See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty
+  </p>
 
   {% set savings = this_place_data['households_low_income_no_savings'] %}
   {% set imd_average_score = this_place_data['imd_average_score'] %}
@@ -338,27 +349,3 @@ See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-oppo
       ]
   ) 
 }}
-
-  {# {% comp 'layout.two_column' %}
-    {{ comp.info.headline({
-        number: savings,
-        display: savings,
-        description: 'Number of households with no savings or investments'
-        }) | safe }}
-    {{ comp.info.headline({
-        number: imd_average_score,
-        display: imd_average_score,
-        description: 'IMD - average score'
-        }) | safe }}
-    {{ comp.info.headline({
-        number: claimants,
-        display: claimants,
-        description: 'Claimants as a percentage of residents aged 16-64 (JSA and UC)'
-        }) | safe }}
-{% endcomp %} #}
-
-  {# <ul>
-    <li>
-      <a href="https://github.com/open-innovations/jrf-insight/tree/main/data/imd">IMD</a>
-    </li>
-  </ul> #}
