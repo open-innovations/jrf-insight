@@ -49,12 +49,6 @@ stages:
       - ${top}/data/interim/place_data.json:
           persist: false
           cache: false
-      - ${top}/data/interim/current_rental_prices.csv:
-          persist: false
-          cache: false
-      - ${top}/data/interim/house_prices.csv:
-          persist: false
-          cache: false
 
   # generate_places:
   #   cmd: python generate_params.py

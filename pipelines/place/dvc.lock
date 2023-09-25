@@ -41,19 +41,9 @@ stages:
       size: 19740
     - path: transform.ipynb
       hash: md5
-      md5: 569ba81998332a976281c3eb05622f00
-      size: 98468
+      md5: 7bd2554adab257b4a85ca5d653afcc92
+      size: 95411
     outs:
-    - path: ../../data/interim/current_rental_prices.csv
-      hash: md5
-      md5: 99c16fc35bb177685d0f9458bb550c60
-      size: 19047
-      isexec: true
-    - path: ../../data/interim/house_prices.csv
-      hash: md5
-      md5: c356638de25bb181d99f6af0ffb5f8be
-      size: 1241900
-      isexec: true
     - path: ../../data/interim/place_data.json
       hash: md5
       md5: 8a930babaae2ff08249e59d574b383ad
