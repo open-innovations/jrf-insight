@@ -27,17 +27,9 @@ export const getCurrentRentalPricesForPlace = (place: string) =>
       ),
   );
 
-export const getHousePrices = () =>
+export const getHousePrices = (place: string) =>
   runQuery(
-    () => connection.query("SELECT * FROM house_prices;").map(formatDate),
-  );
-
-export const getHousePricesForPlace = (place: string) =>
-  runQuery(
-    () =>
-      connection.query(`SELECT date, ${place} FROM house_prices;`).map(
-        formatDate,
-      ),
+    () => connection.query(`SELECT date, CAST(value AS FLOAT) as value FROM house_prices WHERE geography_code=='${place}' AND variable_name=='Median house price'`).map(formatDate),
   );
 
 export const freeSchoolMeals = (place: string) =>
