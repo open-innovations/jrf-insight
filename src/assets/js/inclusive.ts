@@ -1,3 +1,4 @@
+// sourcery skip: use-braces
 /**
  * Inclusive Components Progressive Enhancement for the `toggle-section` tag.
  * 
@@ -21,11 +22,9 @@
 function initialiseToggleSections() {
   // Find all the toggle-section elements
   const toggleSections = document.querySelectorAll('toggle-section');
-  console.log(toggleSections);
   
   // Iterate through each one
   Array.prototype.forEach.call(toggleSections, toggleSection => {
-    console.log(toggleSection);
     // Find the heading
     const heading = toggleSection.firstElementChild;
     // TODO Check if heading is a heading?
@@ -90,7 +89,19 @@ function initialiseToggleSections() {
  * 
  * Base styling for this is kept in `_includes/css/inclusive.css`.
  */
+
+const handleDeepLink = () => {
+  if (!window.location.hash) return;
+  const hashTarget = document.querySelector(window.location.hash);
+  if (hashTarget!.role !== 'tabpanel') return;
+  const tab: HTMLAnchorElement | null = document.querySelector(`a[href="${window.location.hash}"][role="tab"]`)
+  if (!tab) return;
+  tab.scrollTo();
+  tab.click();
+}
+
 function initialiseTabSet() {
+  let tabId = 0;
   // Get relevant elements and collections
   const listOfTabbed = document.querySelectorAll('tab-set');
   listOfTabbed.forEach((tabbed) => {
@@ -127,7 +138,7 @@ function initialiseTabSet() {
     // Add semantics are remove user focusability for each tab
     tabs.forEach((tab, i) => {
       tab.setAttribute('role', 'tab');
-      tab.setAttribute('id', 'tab' + (i + 1));
+      tab.setAttribute('id', 'tab' + (tabId++));
       tab.setAttribute('tabindex', '-1');
       (tab.parentNode! as HTMLElement).setAttribute('role', 'presentation');
 
@@ -137,7 +148,11 @@ function initialiseTabSet() {
         const currentTab = tablist.querySelector<HTMLElement>('[aria-selected]');
         if (currentTab && e.currentTarget && (e.currentTarget !== currentTab)) {
           switchTab(currentTab, e.currentTarget as HTMLElement);
+          // Set the window location
+          const newHash = new URL((e.currentTarget as HTMLAnchorElement).href).hash;
+          window.location.hash = newHash;
         }
+
       });
 
       // Handle keydown events for keyboard users
@@ -168,8 +183,10 @@ function initialiseTabSet() {
     tabs[0].removeAttribute('tabindex');
     tabs[0].setAttribute('aria-selected', 'true');
     panels[0].hidden = false;
+
   });
 
+  handleDeepLink();
 }
 
 addEventListener('DOMContentLoaded', () => {

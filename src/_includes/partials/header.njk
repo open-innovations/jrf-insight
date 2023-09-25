@@ -1,13 +1,9 @@
 <header>
   <div class="page-flow">
-    <div>
-      <p><a href="/">{{ metas.site }}</a></p>
-      <h1>{{ display_title or title }}</h1>
-    </div>
-    <img src="/assets/images/jrf_logo.svg" inline>
-    <img src="/assets/images/oi_logo.svg" inline>
+    <p><a href="/">{{ metas.site }}</a></p>
+    <h1>{{ display_title or title }}</h1>
   </div>
 </header>
-<nav>
+<nav title="Site navigation">
   {{ comp.main_menu() | safe }}
 </nav>

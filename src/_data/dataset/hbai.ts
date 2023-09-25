@@ -37,3 +37,39 @@ export const get_savings_and_investments_for_place = (place: string) => {
     `)
   );
 }
+
+export const low_income_ethnicity = (place: string) => {
+  return run(
+    () => connection.query(`
+      PIVOT (
+        SELECT
+          date,
+          "Ethnic Group of the Head of the Household",
+          percent
+        FROM hbai_ethnicity
+        WHERE geography_code=='${place}'
+        AND income_status=='In low income (below threshold)'
+      )
+      ON "Ethnic Group of the Head of the Household"
+      USING AVG(percent);
+    `)
+  );
+};
+
+export const low_income_marital_status = (place: string) => {
+  return run(
+    () => connection.query(`
+      PIVOT (
+        SELECT
+          date,
+          "Marital Status of Adults and Type of Couple in the Family of the Individual",
+          percent
+        FROM hbai_marital_status
+        WHERE geography_code=='${place}'
+        AND income_status=='In low income (below threshold)'
+      )
+      ON "Marital Status of Adults and Type of Couple in the Family of the Individual"
+      USING AVG(percent);
+    `)
+  );
+};

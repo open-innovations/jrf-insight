@@ -10,12 +10,19 @@ import pagefind from "./patch/lume/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 // import metas from "lume/plugins/metas.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.1/loaders/csv-loader.ts";
-import oiViz from "https://deno.land/x/oi_lume_viz@v0.12.3/mod.ts";
+import oiViz from "https://deno.land/x/oi_lume_viz@v0.13.0/mod.ts";
 import svgo from "lume/plugins/svgo.ts";
 import metas from "./patch/lume/metas.ts";
 // import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import autoDependency from "./patch/auto-dependency.ts";
 import { makeFakeCSV } from "./data/interim/duck.ts";
+
+const nunjucks = {
+  options: {
+    throwOnUndefined: false,
+    dev: true,
+  },
+};
 
 const site = lume({
   src: "./src",
@@ -27,7 +34,8 @@ const site = lume({
 }, {
   search: {
     returnPageData: true,
-  }
+  },
+  nunjucks,
 });
 
 site.addEventListener("beforeBuild", () => {

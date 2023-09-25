@@ -1,28 +1,15 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+@import "./reset.css";
 
 html {
-  font-size: 100%;
-  scroll-padding-block-start: 5em;
-  scroll-behavior: smooth;
   background-color: #fefefe;
+  scroll-padding-block-start: 150px;
+  scroll-behavior: smooth;
 }
 
-.page-flow {
-  max-width: 70rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5em 1em;
-}
-
-main > * + * {
+/* Release the lobotomised owls! */
+:is(
+  main,
+  section
+) > * + * {
   margin-top: 1.5em;
-}
-
-.tooltip {
-  & * {
-    margin-top: 0;
-  }
 }

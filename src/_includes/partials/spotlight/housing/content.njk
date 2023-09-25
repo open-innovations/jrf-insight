@@ -99,80 +99,87 @@
 <h2>Detail</h2>
 {% comp 'layout.tab.set' %}
 
-{% if geo in data.spotlight.housing.time_series.house_prices.names %}{% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
-  <p style="text-align: center;">Median house prices over time</p>
-  {% set chart_data = data.spotlight.housing.time_series.house_prices_for_place(geo) %}
-  {{ comp.oi.chart.line({
+{# {% if geo in data.spotlight.housing.time_series.house_prices.names %} #}
+{% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
+{% if chart_data.rows | length > 0 %}
+  {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+    <p style="text-align: center;">Median house prices over time</p>
+    {# {% set chart_data = data.spotlight.housing.time_series.house_prices_for_place(geo) %} #}
+    {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Year"
+              }
+            },
+            y: {
+              title: {
+                label: "Median House Prices (£)"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 50000
+              },
+              min: 0,
+              max: 350000 
+            }
+          },
+          series: [
+            {
+              title: this_place_data.name,
+              x: "date",
+              y: "value",
+              colour: "#13242F",
+              line: {
+                "stroke-dasharray": "0 10"
+              }
+            }
+          ]
+        }
+      })| safe
+    }}
+  {% endcomp %}
+  {% else %}
+    <p>No data available at this level</p>
+  {% endif %}
+
+
+  {% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
+    <p style="text-align: center;">Current median rental prices by type of property</p>
+    {{comp.oi.chart.bar({
       config: {
+        data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
+        stacked: false,
         legend: { 
           show: true
         },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Year"
-            }
-          },
-          y: {
-            title: {
-              label: "Median House Prices (£)"
-            },
-            grid: {
-              show: true
-            },
-            tick: {
-              spacing: 50000
-            },
-            min: 0,
-            max: 350000 
-          }
-        },
+        category: "property_code",
         series: [
           {
-            title: this_place_data.name,
-            x: "date",
-            y: geo,
-            colour: "#13242F",
-            line: {
-              "stroke-dasharray": "0 10"
+          "title": this_place_data.name,  
+          "value": geo,
+          "colour": "#64A70B"
+          }
+        ], 
+        axis: {
+          x: {
+            tick: {
+              spacing: 400
             }
           }
-        ]
-      }
-    })| safe
-  }}
-{% endcomp %}{% endif %}
-
-
-{% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
-  <p style="text-align: center;">Current median rental prices by type of property</p>
-  {{comp.oi.chart.bar({
-    config: {
-      data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
-      stacked: false,
-      legend: { 
-        show: true
-      },
-      category: "property_code",
-      series: [
-        {
-        "title": this_place_data.name,  
-        "value": geo,
-        "colour": "#64A70B"
-        }
-      ], 
-      axis: {
-        x: {
-          tick: {
-            spacing: 400
-          }
         }
       }
-    }
-    }) | safe
-  }}
-{% endcomp %}{% endif %}
+      }) | safe
+    }}
+  {% endcomp %}
+{% endif %}
 
 {% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
 {% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}

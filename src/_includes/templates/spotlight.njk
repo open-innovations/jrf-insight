@@ -5,18 +5,21 @@ tags:
 ---
 
 {% set this_place = search.page('place key=' + geography) %}
-
 {% set place_page = place[geography] %}
-{% set this_place_data = query.getDataForPlace(geography) %}
 
+<div class="with-sidebar">
+<div>
 <p>{{ description | md | safe }}</p>
-<p>This is the {{ title }} spotlight page for {{ this_place_data.name }}.</p>
 
+<p>This is the {{ title }} spotlight page for <a href="{{ this_place.url }}">{{ this_place.title }}</a>.</p>
+
+</div>
+<div class="sidebar">
 {# Navigation block #}
 {{ comp.nav_block({
   current_page: url,
   dir: {
-    place: true,
+    place: false,
     spotlight: true
   },
   place_key: geography,
@@ -25,6 +28,10 @@ tags:
   children: place_page.relations.children,
   place_prefix: '/spotlight/' + spotlight + '/'
 }) | safe }}
+</div>
+</div>
+
+{% set this_place_data = query.getDataForPlace(geography) %}
 
 {#
   Infographics, as defined in the _data/spotlights.yaml,

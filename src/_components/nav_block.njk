@@ -1,8 +1,8 @@
 ---
 css: |
   nav.nav-block {
-    --background: #888;
-    --colour: #eee;
+    --background: #aaa;
+    --colour: var(--jrf-dark-grey);
     background: var(--background);
     color: var(--colour);
     padding: 0.5em;
@@ -20,6 +20,8 @@ css: |
     }
     & ul {
       list-style: none;
+      padding: 0;
+      margin: 0;
       display: flex;
       flex-wrap: wrap;
       column-gap: 1.2em;

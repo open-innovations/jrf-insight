@@ -1,0 +1,13 @@
+vars:
+  - top: '../../..'
+stages:
+  transform:
+    cmd: papermill rental_prices.ipynb ${top}/data/_working/output/rental_prices.ipynb
+    deps:
+      - ${top}/pipelines/spotlight/housing/rental_prices.ipynb
+      #- ${top}/data/rental-prices/rental-prices.csv
+    outs: 
+      - ${top}/data/rental-prices/most_recent_rental_prices.csv:
+          cache: false
+          persist: false
+      

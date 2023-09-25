@@ -8,8 +8,12 @@ tab-set {
   --unselected-background: var(--background);
   --hover-colour: white;
   --hover-background: #343333;
+
   & [role="tablist"] {
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: var(--border-width);
     color: var(--colour);
     background: var(--background);
@@ -27,11 +31,11 @@ tab-set {
     padding: 0.5em;
     color: var(--unselected-colour);
     background-color: var(--unselected-background);
-    /* border-block-end: var(--border-width) solid var(--background); */
+    flex-grow: 1;
+    flex-shrink: 1;
     &[aria-selected=true] {
       color: var(--selected-colour);
       background-color: var(--selected-background);
-      /* border-block-end-color: var(--selected-background); */
     }
     &:hover {
       color: var(--hover-colour);
@@ -47,4 +51,7 @@ tab-set {
     padding: 1em;
     min-height: 20em;
   }  
+}
+section > .chart-title {
+  text-align: center;
 }

@@ -8,127 +8,152 @@
 {% comp 'layout.tab.set' %}
 
 {% set chart_data = data.spotlight.health.time_series.freeSchoolMeals(geo) %}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
-  <p style="text-align: center;">Free school meals</p>
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Year"
-            },
-            ticks: [
-            {
-              value: 201516,
-              label: "2015/16"
-            },
-            {
-              value: 201617,
-              label: "2016/17"
-            },
-            {
-              value: 201718,
-              label: "2017/18"
-            },
-            {
-              value: 201819,
-              label: "2018/19"
-            },
-            {
-              value: 201920,
-              label: "2019/20"
-            },
-            {
-              value: 202021,
-              label: "2020/21"
-            }
-            ]
+{% if chart_data.rows | length > 0 %}
+{% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
+  <h3>What's on this chart?</h3>
+  <p> 
+    This chart shows the percentage of pupils eligible for free school meals at different tyes of state-funded schools.
+    You can read more about the data 
+    <a href="https://explore-education-statistics.service.gov.uk/methodology/schools-pupils-and-their-characteristics-methodology">here.</a>
+  </p>
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
           },
-          y: {
-            title: {
-              label: "Percentage of students elgiible"
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Year"
+              },
+              ticks: [
+              {
+                value: "201516",
+                label: "2015/16"
+              },
+              {
+                value: "201617",
+                label: "2016/17"
+              },
+              {
+                value: "201718",
+                label: "2017/18"
+              },
+              {
+                value: "201819",
+                label: "2018/19"
+              },
+              {
+                value: "201920",
+                label: "2019/20"
+              },
+              {
+                value: "202021",
+                label: "2020/21"
+              },
+              {
+                value: "202122",
+                label: "2021/22"
+              },
+              {
+                value: "202223",
+                label: "2022/23"
+              }
+              ]
             },
-            grid: {
-              show: true
-            },
-            tick: {
-              spacing: 10
-            },
-            min: 0,
-            max: 50
-          }
-        },
-        series: [
-          {
-            title: "Total",
-            x: "date",
-            y: "Total",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "State-funded primary",
-            x: "date",
-            y: "State-funded primary",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
+            y: {
+              title: {
+                label: "Percentage of students eligible"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 70
             }
           },
-          {
-            title: "State-funded secondary",
-            x: "date",
-            y: "State-funded secondary",
-            line: {
-              "stroke-dasharray": "5 10"
+          series: [
+            {
+              title: "Total",
+              x: "date",
+              y: "Total",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
             },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "State-funded special school",
-            x: "date",
-            y: "State-funded special school",
-            line: {
-              "stroke-dasharray": "5 10"
+            {
+              title: "State-funded nursery",
+              x: "date",
+              y: "State-funded nursery",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
             },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Special school",
-            x: "date",
-            y: "Special school",
-            line: {
-              "stroke-dasharray": "5 10"
+            {
+              title: "State-funded primary",
+              x: "date",
+              y: "State-funded primary",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
             },
-            points: {
-              size: 12
+            {
+              title: "State-funded secondary",
+              x: "date",
+              y: "State-funded secondary",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
+            },
+            {
+              title: "State-funded special school",
+              x: "date",
+              y: "State-funded special school",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
+            },
+            {
+              title: "State-funded alternative provision school",
+              x: "date",
+              y: "State-funded AP school",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 10
+              }
             }
-          }
-          }
-        ]
-      }
-    )| safe
-  }}
-  <p style='text-align: center;'> 
-    Data for Autumn 2020/21 combines State-funded special school 
-    and Non-maintained special schools under a single heading of 
-    Special school. For previous years these are presented separately.
-    </p>
-  {% endcomp %}{% endif %}
+            }
+          ]
+        }
+      )| safe
+    }}
+{% endcomp %}
+{% else %}
+  <p>
+    No data available at this level.
+  </p>
+{% endif %}
 
 {% set chart_data = data.spotlight.health.time_series.happiness(geo) %}
 {{ chart_data }}
@@ -257,7 +282,7 @@
               spacing: 10
             },
             min: 0,
-            max: 50
+            max: 60
           }
         },
         series: [
@@ -349,7 +374,7 @@
               spacing: 10
             },
             min: 0,
-            max: 50
+            max: 60
           }
         },
         series: [

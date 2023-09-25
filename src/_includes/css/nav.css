@@ -1,6 +1,8 @@
 body > nav {
-  color: white;
-  background-color: var(--jrf-moderate-cyan);
+  --nav-colour: var(--jrf-dark-grey);
+  --nav-background: var(--jrf-moderate-cyan);
+  color: var(--nav-colour);
+  background-color: var(--nav-background);
   text-align: center;
   & button {
     color: unset;
@@ -11,6 +13,8 @@ body > nav {
   }
   & ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   & .menu {
     padding-block: 0;
@@ -23,8 +27,8 @@ body > nav {
       padding: 0.5em;
       display: block;
       &:hover {
-        color:  var(--jrf-moderate-cyan);
-        background-color: white;
+        color:  var(--nav-background);
+        background-color: var(--nav-colour);
       }
     }
   }

@@ -1,0 +1,25 @@
+vars:
+  - top: '../../..'
+stages:
+  unzip:
+    cmd: python ${top}/pipelines/spotlight/health/unzipper.py
+    deps: 
+      - ${top}/data-raw/school-pupils-characteristics/school-pupils-and-their-characteristics.zip
+      - ${top}/pipelines/spotlight/health/unzipper.py
+    outs:
+      - ${top}/data-raw/school-pupils-characteristics/data/spc_pupils_fsm.csv:
+          cache: false
+          persist: false
+      - ${top}/data-raw/school-pupils-characteristics/data-guidance/data-guidance.txt:
+          cache: false
+          persist: false
+  transform-fsm:
+    cmd: papermill free_school_meals.ipynb ${top}/data/_working/output/free_school_meals.ipynb
+    deps:
+      - free_school_meals.ipynb
+      - ${top}/data-raw/school-pupils-characteristics/data/spc_pupils_fsm.csv
+    outs: 
+      - ${top}/data/school-pupils-characteristics/free_school_meals.csv:
+          cache: false
+          persist: false
+      

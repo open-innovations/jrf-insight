@@ -1,0 +1,42 @@
+schema: '2.0'
+stages:
+  transform-fsm:
+    cmd: papermill free_school_meals.ipynb ../../../data/_working/output/free_school_meals.ipynb
+    deps:
+    - path: ../../../data-raw/school-pupils-characteristics/data/spc_pupils_fsm.csv
+      hash: md5
+      md5: 129f1eb4cbca8c836b693ef36cf29a8d
+      size: 8585897
+    - path: free_school_meals.ipynb
+      hash: md5
+      md5: 10221db24d44a76e07fe45c1102241fa
+      size: 11323
+    outs:
+    - path: ../../../data/school-pupils-characteristics/free_school_meals.csv
+      hash: md5
+      md5: bf75c5d20d8a49c7e11ffb2c95e03aca
+      size: 121464
+      isexec: true
+  unzip:
+    cmd: python ../../../pipelines/spotlight/health/unzipper.py
+    deps:
+    - path: 
+        ../../../data-raw/school-pupils-characteristics/school-pupils-and-their-characteristics.zip
+      hash: md5
+      md5: 34620c22d311673fcabb91035b2b6701
+      size: 40978246
+    - path: ../../../pipelines/spotlight/health/unzipper.py
+      hash: md5
+      md5: a8a9f7f210590ed0c0e4ef84b50e9225
+      size: 690
+    outs:
+    - path: ../../../data-raw/school-pupils-characteristics/data-guidance/data-guidance.txt
+      hash: md5
+      md5: be8236ae8a68cc3130d15bdcb4caea55
+      size: 36810
+      isexec: true
+    - path: ../../../data-raw/school-pupils-characteristics/data/spc_pupils_fsm.csv
+      hash: md5
+      md5: 129f1eb4cbca8c836b693ef36cf29a8d
+      size: 8585897
+      isexec: true

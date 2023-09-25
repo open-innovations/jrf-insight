@@ -3,3 +3,25 @@
   /* Setting this to table-cell causes problems with how it wraps */
   display: unset !important;
 }
+
+.tooltip {
+  & * {
+    margin-top: 0;
+  }
+}
+
+.oi-dashboard {
+  font-size: 1.5rem;
+  & > * {
+    margin-top: 0;
+  }
+  & .bignum {
+    font-size: 2em;
+  }
+}
+
+@media screen {
+  .oi-dashboard .panel {
+    font-size: unset;
+  }
+}

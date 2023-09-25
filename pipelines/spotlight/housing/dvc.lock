@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  transform:
+    cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb
+    deps:
+    - path: ../../../pipelines/spotlight/housing/rental_prices.ipynb
+      hash: md5
+      md5: cd2bb8f986d57ce5b11cf92f9ab0a1c9
+      size: 1611
+    outs:
+    - path: ../../../data/rental-prices/most_recent_rental_prices.csv
+      hash: md5
+      md5: 99c16fc35bb177685d0f9458bb550c60
+      size: 19047
+      isexec: true

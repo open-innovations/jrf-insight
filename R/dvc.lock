@@ -113,8 +113,13 @@ stages:
     deps:
     - path: R/imd.R
       hash: md5
-      md5: c076c790bd3b7ccfea2699ae3c107e35
-      size: 2541
+      md5: c232a51cef0490cad9c0ffd9c586f925
+      size: 2552
+    - path: data-raw/imd/
+      hash: md5
+      md5: 645f0da32288abf6f09a64dcc0824291.dir
+      size: 10102248
+      nfiles: 3
     outs:
     - path: data/imd/imd.csv
       hash: md5
