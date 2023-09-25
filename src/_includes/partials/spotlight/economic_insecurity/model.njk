@@ -33,33 +33,34 @@
     }
   }) | safe }}
   {% endcomp %}
-  <h3>How to interpret the index</h3>
+  {% comp 'collapse', { heading: "How to interpret the index"} %}
   <p>
     In the context of this model, a value closer to 1 indicates that a given place tends to rank higher relative to other places in metrics that
     we have identified as contributing to economic insecurity. This does not necessarily mean that you are more likely to experience poverty in those
     places, however. 
   </p>
+  {% endcomp %}
 {% else %}
 <p>
   We try to model a poverty index averaging different statistics that contribute to economic insecurity.
   This model is not available for {{ this_place.title }}.
 </p>
 {% endif %}
-
-<h3>How we calculate the index</h3>
-<p>
-  The highest and lowest values will score 1 and 0, respectively, and everything else will fall 
-  somewhere in between.
-  We create an average index across 6 metrics
-</p>
-<ul>
-  <li>economic inactivity</li>
-  <li>unemployment</li>
-  <li>mean weekly wage</li>
-  <li>median weekly wage </li>
-  <li>claimants as a proportion of residents aged 16-64</li>
-  <li>proportion of households that are fuel poor</li>
-</ul>
-</p>
-  This is a proof of concept. You can see the code and read more about the logic to create these stats <a href="https://github.com/open-innovations/jrf-insight/blob/main/playground/modelling/economic_insecurity.ipynb">here.</a>
-</p>
+{% comp 'collapse', { heading: "How we calculate the index"} %}
+  <p>
+    The highest and lowest values will score 1 and 0, respectively, and everything else will fall 
+    somewhere in between.
+    We create an average index across 6 metrics
+  </p>
+  <ul>
+    <li>economic inactivity</li>
+    <li>unemployment</li>
+    <li>mean weekly wage</li>
+    <li>median weekly wage </li>
+    <li>claimants as a proportion of residents aged 16-64</li>
+    <li>proportion of households that are fuel poor</li>
+  </ul>
+  <p>
+    This is a proof of concept. You can see the code and read more about the logic to create these stats <a href="https://github.com/open-innovations/jrf-insight/blob/main/playground/modelling/economic_insecurity.ipynb">here.</a>
+  </p>
+{% endcomp %}
