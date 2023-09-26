@@ -182,8 +182,9 @@
 {% endif %}
 
 {% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
-  <p style="text-align: center;">Number of people living in low income households by age category</p>
+{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
+  {% if chart_data| length > 0 %}
+  <p style="text-align: center;">Percentage people living in households below average income by age category</p>
     {{ comp.oi.chart.line({
       config: {
         legend: { 
@@ -194,20 +195,29 @@
           x: {
             title: {
               label: "Year"
-            }
+            },
+            ticks: [
+            { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+            { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
+            { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+            { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
+            { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+            { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
+            { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+            ]
           },
           y: {
             title: {
-              label: "Percentage of people living in low-income househodls"
+              label: "Percentage of each group"
             },
             grid: {
               show: true
             },
             tick: {
-              spacing: 4
+              spacing: 10
             },
             min: 0,
-            max: 20
+            max: 50
           }
         },
         series: [
@@ -226,7 +236,7 @@
             y: "Working-Age",
             colour: "#13242F",
             line: {
-              "stroke-dasharray": "5 10 2"
+              "stroke-dasharray": "5 10"
             }
           },
           {
@@ -242,7 +252,8 @@
       }
     })| safe
   }}
-{% endcomp %}{% endif %}
+{% endif %}
+{% endcomp %}
 
 {% endcomp %}
 {# end of graphs tabset #}
