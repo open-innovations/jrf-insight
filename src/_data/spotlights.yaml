@@ -22,6 +22,7 @@ economic_insecurity:
       - key: percentage_benefits_claimants
         description: Population claiming Universal Credit or Jobseeker's Allowance
         type: waffle
+        template: "{{ value }} % Claiming UC or JSA"
       - key: proportion_fuel_poverty
         description: Proportion of the population living in fuel poverty
         type: waffle

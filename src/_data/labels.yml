@@ -1,4 +1,4 @@
 place: |
-  {{ name }}<br/>
-  Population: {{ Number of persons | toLocaleString() }}</br>
+  {{ name }}<br />
+  Population: {{ Number of persons | toLocaleString() }}<br />
   <a href="../{{ geography_code }}/">Visit place page</a>

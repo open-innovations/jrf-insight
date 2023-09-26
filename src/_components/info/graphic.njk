@@ -35,7 +35,7 @@ css: |
                 width: 200,
                 size: 10,
                 columns: [
-                  { name: 'tooltip', template: '{{ value | toFixed(1) }}%' }
+                  { name: 'tooltip', template: template or '{{ value | toFixed(1) }}%' }
                 ],
                 series: [
                     { value: 'value', colour: 'white', tooltip: 'tooltip', points: personMarker },
