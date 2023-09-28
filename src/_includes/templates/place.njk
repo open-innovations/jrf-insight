@@ -186,8 +186,9 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
 
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.new_panel', { label: 'Population', id: 'Population' } %}
+    <h3>Population estimates for {{ title }}</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows population estimates for {{ title }} {{ labels.place }}</p>
+    <p>This chart shows population estimates for {{ title }}.</p>
     {% endcomp %}
     {% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
     {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}

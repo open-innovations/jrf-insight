@@ -12,8 +12,10 @@
 
 {% comp 'layout.tab.set' %}
 {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
+  <h3>Rates of unemployment and economic inactivity over time</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows labour market statistics for {{ this_place.title }}</p>
+  <p>This chart shows labour market statistics for {{ this_place.title }}.</p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "labour-market", view: "labour-market"}) | safe }}
   {% endcomp %}
   {% set labour_market_time_series = dataset
     .labour_market
@@ -56,12 +58,14 @@
   .get_fuel_poverty(place_and_children) %}
 
 {% if fp_this | length > 0 %}
+  <h3>Fuel poverty rate by geography</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
   <p>
     This chart shows the percentage of households in fuel poverty across the different 
     areas in  {{ this_place.title }}. In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
     of {{ fp_this['Number of households'] }} households are in fuel poverty.
   </p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "fuel-poverty", view: "fuel-poverty"}) | safe }}
   {% endcomp %}
 {% endif %}
 
@@ -100,8 +104,10 @@
     .ashe
     .weekly_earnings(place_and_children) %}
   {% if we_all.length > 0 %}
+    <h3>Median weekly wage by geography</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }}
     {% endcomp %}
   {{ comp.oi.map.svg({
     config: {
@@ -136,12 +142,13 @@
     .hbai
     .get_savings_and_investments_for_place(geography) %}
   {% if chart_data | length > 0 %}
+    <h3>Percentage of people in low income households by their savings and investments</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>
       This chart shows the percentage of people living in households below average income 
       split by the savings and investments of adults in the family in {{ this_place.title }}.
     </p>
-      <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_savings_and_investments"}) | safe }}
     {% endcomp %}
       {{ comp.oi.chart.line({
     config: {
@@ -217,11 +224,11 @@
     .hbai
     .low_income_ethnicity(geography) %}
   {% if chart_data | length > 0 %}
+    <h3>People in low income households by ethnic group</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p> 
-      This chart shows the percentage of people living households below average income by ethnicity in {{ this_place.title }}.
+      This chart shows the percentage of people living households below average income by ethnic group in {{ this_place.title }}.
     </p>
-    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Households below average income by ethnicity</a>
     <p>
       These statistics have been three-year averaged and rounded according to the guidance on 
       <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
@@ -229,6 +236,7 @@
       and coverage issues mean that single year results broken down below the level of UK region are 
       unlikely to be reliable.
     </p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_ethnic_group"}) | safe }}
     {% endcomp %}
     {{ comp.oi.chart.line({
     config: {
@@ -237,13 +245,13 @@
       axis: {
         x: { title: { label: "3 year period" },
             ticks: [
-              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
-              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
-              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
-              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
-              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
-              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
-              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+              { value: "0", label: "1994-95 - 1996-97", tickSize: 5 },
+              { value: "4", label: "1998-99 - 2000-01", tickSize: 5 },
+              { value: "8", label: "2002-03 - 2004-05", tickSize: 5 },
+              { value: "12", label: "2006-07 - 2007-08", tickSize: 5 },
+              { value: "16", label: "2009-10 - 2011-12", tickSize: 5 },
+              { value: "20", label: "2013-14 - 2015-16", tickSize: 5 },
+              { value: "24", label: "2017-18 - 2019-20", tickSize: 5 }
               ] 
             },
         y: {
@@ -279,14 +287,14 @@
   {% else %}
     <p>No data available at this level</p>
   {% endif %}
-  {# {% include './test.njk' %} #}
   {% endcomp %}
+
   {% comp 'layout.tab.panel', {label: 'Single parents', id: 'single-parents' } %}
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
   {% if chart_data | length > 0 %}
+  <h3>People in low income households by marital status</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
   <p> This chart shows the percentage of people living in households below average income by marital/cohabiting status in {{ this_place.title }}.</p>
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_marital_status.csv">Households below average income by marital status</a>
   <p>
     These statistics have been three-year averaged and rounded according to the guidance on 
     <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
@@ -294,6 +302,7 @@
      and coverage issues mean that single year results broken down below the level of UK region are 
      unlikely to be reliable.
   </p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_marital_status.csv"}) | safe }}
   {% endcomp %}
   {{ comp.oi.chart.line({
     config: {

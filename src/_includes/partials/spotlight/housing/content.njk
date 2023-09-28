@@ -103,8 +103,11 @@
 {% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
 {% if chart_data.rows | length > 0 %}
   {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
-    <p style="text-align: center;">Median house prices over time</p>
-    {# {% set chart_data = data.spotlight.housing.time_series.house_prices_for_place(geo) %} #}
+    <h3>Median house prices</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows median house prices over time in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "house-prices", view: "house-prices"}) | safe }}
+    {% endcomp %}
     {{ comp.oi.chart.line({
         config: {
           legend: { 
@@ -152,7 +155,12 @@
 
 
   {% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
-    <p style="text-align: center;">Current median rental prices by type of property</p>
+    <h3>Current median rental prices by type of property</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
+    {% endcomp %}
+    {# <p style="text-align: center;"></p> #}
     {{comp.oi.chart.bar({
       config: {
         data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
@@ -184,7 +192,12 @@
 {% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
 {% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
   {% if chart_data| length > 0 %}
-  <p style="text-align: center;">Percentage people living in households below average income by age category</p>
+  <h3>People living in households below average income by age category</h3>
+  {% comp 'collapse', { heading: "What's on this chart?"} %}
+  <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}.</p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
+  {% endcomp %}
+  {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
     {{ comp.oi.chart.line({
       config: {
         legend: { 
