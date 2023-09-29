@@ -14,6 +14,229 @@
 {% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
 {% set house_prices = this_place_data['Median house price'] %}
 
+<p>ADD MODEL IN HERE...</p>
+
+<h3>Key indicators</h3>
+
+<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
+
+{% comp 'layout.tab.set' %}
+
+{% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
+  {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
+    {% if chart_data.rows | length > 0 %}
+      <h3>Median house prices</h3>
+      {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows median house prices over time in {{ this_place.title }}.</p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "house-prices", view: "house-prices"}) | safe }}
+      {% endcomp %}
+      {{ comp.oi.chart.line({
+          config: {
+            legend: { 
+              show: true
+            },
+            data: chart_data,
+            axis: {
+              x: {
+                title: {
+                  label: "Year"
+                }
+              },
+              y: {
+                title: {
+                  label: "Median House Prices (£)"
+                },
+                grid: {
+                  show: true
+                },
+                tick: {
+                  spacing: 50000
+                },
+                min: 0,
+                max: 350000 
+              }
+            },
+            series: [
+              {
+                title: this_place_data.name,
+                x: "date",
+                y: "value",
+                colour: "#13242F",
+                line: {
+                  "stroke-dasharray": "0 10"
+                }
+              }
+            ]
+          }
+        })| safe
+      }}
+    {% else %}
+      <p>No data available at this level</p>
+    {%  endif %}
+  {% endcomp %}
+
+  {% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
+    {# 
+        Social rented sector rent levels and rent increase (Regulator of Social Housing) 
+        Private rented sector rent levels and rental growth (ONS, Rightmove & Zoopla)
+    #}
+
+  {% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}
+    <h3>Current median rental prices by type of property</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
+    {% endcomp %}
+    {# <p style="text-align: center;"></p> #}
+    {{comp.oi.chart.bar({
+      config: {
+        data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
+        stacked: false,
+        legend: { 
+          show: true
+        },
+        category: "property_code",
+        series: [
+          {
+          "title": this_place_data.name,  
+          "value": geo,
+          "colour": "#64A70B"
+          }
+        ], 
+        axis: {
+          x: {
+            tick: {
+              spacing: 400
+            }
+          }
+        }
+      }
+      }) | safe
+    }}
+  {% endif %}
+  {% endcomp %}
+
+
+{% comp 'layout.tab.panel', { label: 'Effect of housing costs', id: 'bhc-ahc' } %}
+    {#
+      Both BHC (before housing costs) and AHC (after housing costs) poverty rates
+      - bigger the gap between the two, the larger the implied effect of housing costs in poverty rates
+    #}
+    <p>Compare before / after housing costs</p>
+{% endcomp %}
+
+{% comp 'layout.tab.panel', { label: 'Tenure type', id: 'tenure-type' } %}
+  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a>
+Current and historic tenure mix - drawing on census data
+- Social housing sales - RTB
+- completions of new homes relative to existing stock 
+{% endcomp %}
+
+{% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
+
+{% endcomp %}
+
+{% comp 'layout.tab.panel', { label: 'Housing insecurity', id: 'housing-insecurity' } %}
+  {# 
+    Numbers living in temporary accommodation (DLUHC)
+    Numbers on social housing waiting lists (DLUHC)
+  #}
+{% endcomp %}
+
+
+{% endcomp%}
+
+
+
+
+<h3>Demographic breakdown</h3>
+
+{% comp 'layout.tab.set' %}
+  {% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
+  {% comp 'layout.tab.panel', { label: 'Age', id: 'age' } %}
+    {% if chart_data| length > 0 %}
+      <h3>People living in households below average income by age category</h3>
+      {% comp 'collapse', { heading: "What's on this chart?"} %}
+        <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}.</p>
+        <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
+      {% endcomp %}
+      {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Year"
+              },
+              ticks: [
+              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
+              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
+              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
+              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+              ]
+            },
+            y: {
+              title: {
+                label: "Percentage of each group"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 50
+            }
+          },
+          series: [
+            {
+              title: "Child",
+              x: "date",
+              y: "Child",
+              colour: "#3EB1C8",
+              line: {
+                "stroke-dasharray": "0 10"
+              }
+            },
+            {
+              title: "Working Age",
+              x: "date",
+              y: "Working-Age",
+              colour: "#13242F",
+              line: {
+                "stroke-dasharray": "5 10"
+              }
+            },
+            {
+              title: "Pensioner",
+              x: "date",
+              y: "Pensioner",
+              colour: "#ce0058",
+              line: {
+                "stroke-dasharray": "5 15"
+              }
+            }
+          ]
+        }
+      })| safe }}
+    {% endif %}
+  {% endcomp %}
+
+{% endcomp %}
+
+
+
+
+
+
 {{ top_trump_table(
   name="spotlight statistics",
   style="top-trump-table top-trump-invert",
@@ -88,185 +311,6 @@
 {% endcomp %} #}
 
 <ul>
-    <li>Household Income</li>
     <li>Fuel poverty</li>
-    <li>Overcrowding</li>
-    <li><a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a></li>
     <li><a href="https://github.com/open-innovations/jrf-insight/tree/main/data/council-tax-support">Council tax support</a></li>
 </ul>
-
-{# start of graphs tabset #}
-<h2>Detail</h2>
-{% comp 'layout.tab.set' %}
-
-{# {% if geo in data.spotlight.housing.time_series.house_prices.names %} #}
-{% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
-{% if chart_data.rows | length > 0 %}
-  {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
-    <h3>Median house prices</h3>
-    {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows median house prices over time in {{ this_place.title }}.</p>
-    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "house-prices", view: "house-prices"}) | safe }}
-    {% endcomp %}
-    {{ comp.oi.chart.line({
-        config: {
-          legend: { 
-            show: true
-          },
-          data: chart_data,
-          axis: {
-            x: {
-              title: {
-                label: "Year"
-              }
-            },
-            y: {
-              title: {
-                label: "Median House Prices (£)"
-              },
-              grid: {
-                show: true
-              },
-              tick: {
-                spacing: 50000
-              },
-              min: 0,
-              max: 350000 
-            }
-          },
-          series: [
-            {
-              title: this_place_data.name,
-              x: "date",
-              y: "value",
-              colour: "#13242F",
-              line: {
-                "stroke-dasharray": "0 10"
-              }
-            }
-          ]
-        }
-      })| safe
-    }}
-  {% endcomp %}
-  {% else %}
-    <p>No data available at this level</p>
-  {% endif %}
-
-
-  {% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}{% comp 'layout.tab.panel', { label: 'Current rental prices', id: 'rental-prices' } %}
-    <h3>Current median rental prices by type of property</h3>
-    {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
-    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
-    {% endcomp %}
-    {# <p style="text-align: center;"></p> #}
-    {{comp.oi.chart.bar({
-      config: {
-        data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
-        stacked: false,
-        legend: { 
-          show: true
-        },
-        category: "property_code",
-        series: [
-          {
-          "title": this_place_data.name,  
-          "value": geo,
-          "colour": "#64A70B"
-          }
-        ], 
-        axis: {
-          x: {
-            tick: {
-              spacing: 400
-            }
-          }
-        }
-      }
-      }) | safe
-    }}
-  {% endcomp %}
-{% endif %}
-
-{% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
-{% comp 'layout.tab.panel', { label: 'Low income households', id: 'low-income-households' } %}
-  {% if chart_data| length > 0 %}
-  <h3>People living in households below average income by age category</h3>
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
-  {% endcomp %}
-  {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Year"
-            },
-            ticks: [
-            { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
-            { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
-            { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
-            { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
-            { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
-            { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
-            { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
-            ]
-          },
-          y: {
-            title: {
-              label: "Percentage of each group"
-            },
-            grid: {
-              show: true
-            },
-            tick: {
-              spacing: 10
-            },
-            min: 0,
-            max: 50
-          }
-        },
-        series: [
-          {
-            title: "Child",
-            x: "date",
-            y: "Child",
-            colour: "#3EB1C8",
-            line: {
-              "stroke-dasharray": "0 10"
-            }
-          },
-          {
-            title: "Working Age",
-            x: "date",
-            y: "Working-Age",
-            colour: "#13242F",
-            line: {
-              "stroke-dasharray": "5 10"
-            }
-          },
-          {
-            title: "Pensioner",
-            x: "date",
-            y: "Pensioner",
-            colour: "#ce0058",
-            line: {
-              "stroke-dasharray": "5 15"
-            }
-          }
-        ]
-      }
-    })| safe
-  }}
-{% endif %}
-{% endcomp %}
-
-{% endcomp %}
-{# end of graphs tabset #}

@@ -58,3 +58,9 @@ think it's publicly available. (quarterly reports). (consider seasonal trends to
 - statxplore Housing benefit (in payment) as proportion of households.
 
 - Affordability ratios: Rents to earnings ratios, House price to earnings ratios
+
+
+* https://www.rightmove.co.uk/property-data/market-intelligence-centre/
+* https://hub.rightmove.co.uk/rental-price-tracker/
+* https://www.zoopla.co.uk/discover/property-news/rental-market-report/
+* https://england.shelter.org.uk/professional_resources/policy_and_research/policy_library/still_living_in_limbo
