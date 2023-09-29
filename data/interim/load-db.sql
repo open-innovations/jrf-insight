@@ -15,3 +15,5 @@ CREATE OR REPLACE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/hb
 CREATE OR REPLACE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/hbai/by_marital_status.csv');
 
 CREATE OR REPLACE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
+
+CREATE OR REPLACE TABLE cts AS SELECT * FROM read_csv_auto("./data/council-tax-support/council-tax-support.csv", nullstr='NA');

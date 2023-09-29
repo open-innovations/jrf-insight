@@ -53,7 +53,10 @@ export const life_satisfaction = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Life satisfaction') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
 );
-
+export const council_tax = (place: string) =>
+  runQuery(
+    () => connection.query(`PIVOT(SELECT date, CAST(value as float) AS value, variable_name FROM cts WHERE geography_code=='${place}') on variable_name using AVG(value) ORDER BY date;`)
+);
 /**
  * Utility functions below
  */
