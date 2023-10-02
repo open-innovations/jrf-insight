@@ -22,7 +22,7 @@
 
 {% comp 'layout.tab.set' %}
 
-{% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
+  {% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
   {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
     {% if chart_data.rows | length > 0 %}
       <h3>Median house prices</h3>
@@ -87,7 +87,6 @@
     <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
     {% endcomp %}
-    {# <p style="text-align: center;"></p> #}
     {{comp.oi.chart.bar({
       config: {
         data: data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo),
@@ -117,31 +116,122 @@
   {% endcomp %}
 
 
-{% comp 'layout.tab.panel', { label: 'Effect of housing costs', id: 'bhc-ahc' } %}
+  {% comp 'layout.tab.panel', { label: 'Effect of housing costs', id: 'bhc-ahc' } %}
     {#
       Both BHC (before housing costs) and AHC (after housing costs) poverty rates
       - bigger the gap between the two, the larger the implied effect of housing costs in poverty rates
     #}
-    <p>Compare before / after housing costs</p>
-{% endcomp %}
+    <h3>Tenure type and poverty rates</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows the percentage of people in households below average income by type of tenure in {{ this_place.title }}.
+        The threshold for poverty is households below 60% of median net household income in latest prices.
+      </p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = dataset.hbai.effect_of_house_prices_tenure(geo) %}
+    {% if chart_data | length > 0 %}
+      {{comp.oi.chart.bar({
+        config: {
+          data: chart_data,
+          category: "Tenure Type of the Household of the Individual",
+          series: [
+            {
+              title: "In poverty both before and after housing costs",
+              value: "percent_ahc_and_bhc",
+              colour: "#8024c3"
+            },
+            {
+              title: "In poverty after housing costs only",
+              value: "percent_ahc_only",
+              colour: "#64A70B"
+            }
+          ],
+          axis: { 
+            x: { 
+              max: 50,
+              tick: { 
+                spacing: 10 }, 
+              grid: { 
+                "stroke-dasharray": "6 2", 
+                "stroke-width": 1 } 
+              } 
+            },
+          stacked: true,
+          legend: { show: true }
+        }
+      }) | safe
+      }}
+    {% endif %}
+  {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Tenure type', id: 'tenure-type' } %}
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a>
-Current and historic tenure mix - drawing on census data
-- Social housing sales - RTB
-- completions of new homes relative to existing stock 
-{% endcomp %}
+  {% comp 'layout.tab.panel', { label: 'Tenure type', id: 'tenure-type' } %}
+    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a>
+    Current and historic tenure mix - drawing on census data
+    - Social housing sales - RTB
+    - completions of new homes relative to existing stock
+    {# {% set chart_data = dataset.hbai.low_income_tenure_type(geo) %}
+    {% if chart_data | length > 0 %}
+      {{ comp.oi.chart.line({
+            config: {
+              legend: { 
+                show: true
+              },
+              data: chart_data,
+              axis: {
+                x: {
+                  title: {
+                    label: "Year"
+                  },
+                  ticks: [
+                  { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+                  { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
+                  { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+                  { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
+                  { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+                  { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
+                  { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+                  ]
+                },
+                y: {
+                  title: {
+                    label: "Percentage of each group"
+                  },
+                  grid: {
+                    show: true
+                  },
+                  tick: {
+                    spacing: 10
+                  },
+                  min: 0,
+                  max: 50
+                }
+              },
+              series: [
+                {
+                  title: "All rented privately",
+                  x: "date",
+                  y: "All rented privately",
+                  colour: "#3EB1C8",
+                  line: {
+                    "stroke-dasharray": "0 10"
+                  }
+                }
+              ]
+            }
+          })| safe }}
+    {% endif %} #}
+  {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
+  {% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
 
-{% endcomp %}
+  {% endcomp %}
 
-{% comp 'layout.tab.panel', { label: 'Housing insecurity', id: 'housing-insecurity' } %}
-  {# 
-    Numbers living in temporary accommodation (DLUHC)
-    Numbers on social housing waiting lists (DLUHC)
-  #}
-{% endcomp %}
+  {% comp 'layout.tab.panel', { label: 'Housing insecurity', id: 'housing-insecurity' } %}
+    {# 
+      Numbers living in temporary accommodation (DLUHC)
+      Numbers on social housing waiting lists (DLUHC)
+    #}
+  {% endcomp %}
 
 
 {% endcomp%}
@@ -152,12 +242,14 @@ Current and historic tenure mix - drawing on census data
 <h3>Demographic breakdown</h3>
 
 {% comp 'layout.tab.set' %}
-  {% set chart_data = dataset.hbai.low_income_type_of_individual(geo) %}
+  {% set chart_data = dataset.hbai.low_income_by_age_category(geo) %}
   {% comp 'layout.tab.panel', { label: 'Age', id: 'age' } %}
     {% if chart_data| length > 0 %}
       <h3>People living in households below average income by age category</h3>
       {% comp 'collapse', { heading: "What's on this chart?"} %}
-        <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}.</p>
+        <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}. 
+          The threshold is households below 60% of median net household income (after housing costs) in latest prices. 
+        </p>
         <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
       {% endcomp %}
       {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
@@ -190,10 +282,10 @@ Current and historic tenure mix - drawing on census data
                 show: true
               },
               tick: {
-                spacing: 10
+                spacing: 5
               },
               min: 0,
-              max: 50
+              max: 20
             }
           },
           series: [
@@ -227,6 +319,67 @@ Current and historic tenure mix - drawing on census data
           ]
         }
       })| safe }}
+    {% endif %}
+  {% endcomp %}
+
+  {% set chart_data = data.spotlight.housing.time_series.council_tax(geo) %}
+  {% comp 'layout.tab.panel', { label: 'Council tax support', id: 'council-tax-support' } %}
+    {% if chart_data| length > 0 %}
+      {# {{ chart_data | dump() }} #}
+      <h3>Council tax support</h3>
+      {% comp 'collapse', { heading: "What's on this chart?"} %}
+        <p>This chart shows the number of people claiming council tax support in {{ this_place.title }}.</p>
+        <h4>Dataset</h4> {{ comp.sourcelink({dataset: "council-tax-support", view: "council-tax-support"}) | safe }}
+      {% endcomp %}
+      {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
+      {# {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data.rows,
+          axis: {
+            x: {
+              title: {
+                label: "Year"
+              }
+            },
+            y: {
+              title: {
+                label: "Number of people"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 50000
+              },
+              min: 0,
+              max: 300000
+            }
+          },
+          series: [
+            {
+              title: "Working-age",
+              x: "date",
+              y: "working_age",
+              colour: "#13242F",
+              line: {
+                "stroke-dasharray": "5 10"
+              }
+            },
+            {
+              title: "Pensioners",
+              x: "date",
+              y: "pensioners",
+              colour: "#ce0058",
+              line: {
+                "stroke-dasharray": "2 5"
+              }
+            }
+          ]
+        }
+      })| safe }} #}
     {% endif %}
   {% endcomp %}
 

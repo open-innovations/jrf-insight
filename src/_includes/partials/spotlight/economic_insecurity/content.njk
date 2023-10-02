@@ -147,6 +147,7 @@
     <p>
       This chart shows the percentage of people living in households below average income 
       split by the savings and investments of adults in the family in {{ this_place.title }}.
+      The threshold is households below 60% of median net household income (after housing costs) in latest prices.
     </p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_savings_and_investments"}) | safe }}
     {% endcomp %}
@@ -228,6 +229,7 @@
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p> 
       This chart shows the percentage of people living households below average income by ethnic group in {{ this_place.title }}.
+      The threshold is households below 60% of median net household income (after housing costs) in latest prices.
     </p>
     <p>
       These statistics have been three-year averaged and rounded according to the guidance on 
@@ -294,13 +296,11 @@
   {% if chart_data | length > 0 %}
   <h3>People in low income households by marital status</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p> This chart shows the percentage of people living in households below average income by marital/cohabiting status in {{ this_place.title }}.</p>
+  <p> This chart shows the percentage of people living in households below average income by marital/cohabiting status in {{ this_place.title }}.
+    The threshold is households below 60% of median net household income (after housing costs) in latest prices.</p>
   <p>
     These statistics have been three-year averaged and rounded according to the guidance on 
     <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
-    This method helps smooth erratic series and so give more robust estimates as the FRS sample size
-     and coverage issues mean that single year results broken down below the level of UK region are 
-     unlikely to be reliable.
   </p>
   <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_marital_status.csv"}) | safe }}
   {% endcomp %}
