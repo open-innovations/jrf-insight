@@ -123,7 +123,7 @@
     #}
     <h3>Tenure type and poverty rates</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the percentage of people in households below average income by type of tenure in {{ this_place.title }}.
+      <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}, both before and after housing costs.
         The threshold for poverty is households below 60% of median net household income in latest prices.
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
@@ -165,11 +165,17 @@
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Tenure type', id: 'tenure-type' } %}
-    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Tenure%20Type%20of%20the%20Household%20of%20the%20Individual.csv">Tenure type</a>
-    Current and historic tenure mix - drawing on census data
-    - Social housing sales - RTB
-    - completions of new homes relative to existing stock
-    {# {% set chart_data = dataset.hbai.low_income_tenure_type(geo) %}
+    <h3>Poverty rates by tenure type (AHC)</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}.
+        The threshold for poverty is households below 60% of median net household income (after housing costs) in latest prices.
+      </p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
+      <p>Things to add: Current and historic tenure mix - drawing on census data
+      - Social housing sales - RTB
+      - completions of new homes relative to existing stock <p/>
+    {% endcomp %}
+    {% set chart_data = dataset.hbai.low_income_tenure_type(geo) %}
     {% if chart_data | length > 0 %}
       {{ comp.oi.chart.line({
             config: {
@@ -194,7 +200,7 @@
                 },
                 y: {
                   title: {
-                    label: "Percentage of each group"
+                    label: "Percentage in low income poverty"
                   },
                   grid: {
                     show: true
@@ -215,11 +221,29 @@
                   line: {
                     "stroke-dasharray": "0 10"
                   }
+                },
+                {
+                  title: "Owned outright/buying with mortgage",
+                  x: "date",
+                  y: "Owned outright/buying with mortgage",
+                  colour: "#8024c3",
+                  line: {
+                    "stroke-dasharray": "5 10"
+                  }
+                },
+                {
+                  title: "Social rented sector tenants",
+                  x: "date",
+                  y: "Social rented sector tenants",
+                  colour: "#64A70B",
+                  line: {
+                    "stroke-dasharray": "5 5"
+                  }
                 }
               ]
             }
           })| safe }}
-    {% endif %} #}
+    {% endif %}
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
@@ -276,7 +300,7 @@
             },
             y: {
               title: {
-                label: "Percentage of each group"
+                label: "Percentage in low income poverty"
               },
               grid: {
                 show: true
@@ -324,14 +348,15 @@
 
   {% set chart_data = data.spotlight.housing.time_series.council_tax(geo) %}
   {% comp 'layout.tab.panel', { label: 'Council tax support', id: 'council-tax-support' } %}
-    {% if chart_data| length > 0 %}
+    {% if chart_data | length > 0 %}
       {# {{ chart_data | dump() }} #}
       <h3>Council tax support</h3>
       {% comp 'collapse', { heading: "What's on this chart?"} %}
         <p>This chart shows the number of people claiming council tax support in {{ this_place.title }}.</p>
         <h4>Dataset</h4> {{ comp.sourcelink({dataset: "council-tax-support", view: "council-tax-support"}) | safe }}
       {% endcomp %}
-      {# <p style="text-align: center;">Percentage people living in households below average income by age category</p> #}
+      {{ chart_data | dump() }}
+      {# @TODO figure out why this isnt working #}
       {# {{ comp.oi.chart.line({
         config: {
           legend: { 
@@ -379,7 +404,7 @@
             }
           ]
         }
-      })| safe }} #}
+      }) | safe }} #}
     {% endif %}
   {% endcomp %}
 
