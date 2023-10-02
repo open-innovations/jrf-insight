@@ -13,6 +13,7 @@ CREATE OR REPLACE TABLE hbai_by_age_category AS SELECT * FROM read_csv_auto('./d
 CREATE OR REPLACE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto('./data/hbai/by_savings_and_investments.csv');
 CREATE OR REPLACE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/hbai/by_ethnic_group.csv');
 CREATE OR REPLACE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/hbai/by_marital_status.csv');
+CREATE OR REPLACE TABLE hbai_tenure_type AS SELECT * FROM read_csv_auto('./data/hbai/by_tenure_type.csv');
 
 CREATE OR REPLACE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
 
