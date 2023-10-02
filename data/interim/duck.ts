@@ -55,7 +55,7 @@ export const life_satisfaction = (place: string) =>
 );
 export const council_tax = (place: string) =>
   runQuery(
-    () => connection.query(`PIVOT(SELECT date, CAST(value as float) AS value, variable_name FROM cts WHERE geography_code=='${place}') on variable_name using AVG(value) ORDER BY date;`)
+    () => connection.query(`PIVOT(SELECT strftime(date, '%x') as date, CAST(value as DOUBLE) AS value, variable_name FROM cts WHERE geography_code=='${place}') on variable_name using AVG(value) ORDER BY date;`)
 );
 /**
  * Utility functions below
