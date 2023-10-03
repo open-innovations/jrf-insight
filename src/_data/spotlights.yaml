@@ -33,6 +33,14 @@ economic_insecurity:
 
 housing:
   name: Housing
+  description: |
+    "_Housing provides the base from which people live their lives,
+    connecting them to work, education, services and their communities. 
+    The affordability of housing, alongside the stability, quality and 
+    size of homes, is crucial in itself, but also, if unaffordable, 
+    can drag occupants into poverty... At worst, households facing unaffordable 
+    housing costs can experience destitution, 
+    homelessness or rough sleeping._" - JRF poverty report 2023.
 homelessness:
   name: Homelessness
   draft: true
