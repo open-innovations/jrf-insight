@@ -16,6 +16,6 @@ stages:
       - ${top}/pipelines/spotlight/housing/rents_to_earnings.ipynb
       #- ${top}/data/rental-prices/rental-prices.csv
     outs: 
-      - ${top}/data/rental-prices/rent-earning-ratio.csv:
+      - ${top}/data/ashe/rent-earning-ratio.csv:
           cache: false
           persist: false    

@@ -18,13 +18,13 @@ stages:
     deps:
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
-      md5: 175c784f6a8d75f707f57a9e8c0980a7
-      size: 13604
+      md5: 12b1411b73f64170d74b4b1a17429fc8
+      size: 15404
     outs:
-    - path: ../../../data/rental-prices/rent-earning-ratio.csv
+    - path: ../../../data/ashe/rent-earning-ratio.csv
       hash: md5
-      md5: 0a8257749f96e5f7eacb73fee2b5a289
-      size: 4715
+      md5: d2fac9da8da134fff2ecb6385412c4c6
+      size: 5811
       isexec: true
   rental-prices:
     cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb

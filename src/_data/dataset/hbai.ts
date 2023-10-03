@@ -1,4 +1,4 @@
-import { connection, run } from "../../../data/interim/duck.ts";
+import { connection, run} from "../../../data/interim/duck.ts";
 
 
 export const low_income_by_age_category = (place: string) => {
