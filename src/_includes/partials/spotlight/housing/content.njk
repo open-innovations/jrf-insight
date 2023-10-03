@@ -124,7 +124,7 @@
     <h3>Tenure type and poverty rates</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}, both before and after housing costs.
-        The threshold for poverty is households below 60% of median net household income in latest prices.
+        The threshold for low income poverty is households below 60% of median net household income in latest prices.
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
     {% endcomp %}
@@ -139,13 +139,13 @@
               title: "In poverty both before and after housing costs",
               value: "percent_ahc_and_bhc",
               colour: "#8024c3",
-              tooltip: 'Both before and after housing costs<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%'
+              tooltip: "Both before and after housing costs<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%"
             },
             {
               title: "In poverty after housing costs only",
               value: "percent_ahc_only",
               colour: "#64A70B",
-              tooltip: 'After housing costs only<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%'
+              tooltip: "After housing costs only<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_only }}%"
             }
           ],
           axis: { 
@@ -177,7 +177,7 @@
     <h3>Poverty rates by tenure type (AHC)</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}.
-        The threshold for poverty is households below 60% of median net household income (after housing costs) in latest prices.
+        The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
       <p>Things to add: Current and historic tenure mix - drawing on census data
@@ -209,7 +209,7 @@
                 },
                 y: {
                   title: {
-                    label: "Percentage in low income poverty"
+                    label: "Low income poverty rate (%)"
                   },
                   grid: {
                     show: true
@@ -280,8 +280,8 @@
     {% if chart_data| length > 0 %}
       <h3>People living in households below average income by age category</h3>
       {% comp 'collapse', { heading: "What's on this chart?"} %}
-        <p>This chart shows the percentage of people living in households below average income by age category in {{ this_place.title }}. 
-          The threshold is households below 60% of median net household income (after housing costs) in latest prices. 
+        <p>This chart shows the the poverty rates by by age category in {{ this_place.title }}. 
+          The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices. 
         </p>
         <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
       {% endcomp %}
@@ -309,7 +309,7 @@
             },
             y: {
               title: {
-                label: "Percentage in low income poverty"
+                label: "Low income poverty rate (%)"
               },
               grid: {
                 show: true
