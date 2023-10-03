@@ -13,6 +13,7 @@
 {% set number_of_households = this_place_data['Number of households'] %}
 {% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
 {% set house_prices = this_place_data['Median house price'] %}
+{% set place_children = place[geography].relations.children %}
 
 <p>ADD MODEL IN HERE...</p>
 
@@ -138,14 +139,14 @@
             {
               title: "In poverty both before and after housing costs",
               value: "percent_ahc_and_bhc",
-              colour: "#8024c3",
-              tooltip: "Both before and after housing costs<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%"
+              tooltip: "Both before and after housing costs<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%",
+              colour: "#8024c3"
             },
             {
               title: "In poverty after housing costs only",
               value: "percent_ahc_only",
-              colour: "#64A70B",
-              tooltip: "After housing costs only<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_only }}%"
+              tooltip: "After housing costs only<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_only }}%",
+              colour: "#64A70B"
             }
           ],
           axis: { 
@@ -254,9 +255,54 @@
           })| safe }}
     {% endif %}
   {% endcomp %}
-
+  {% comp 'layout.tab.panel', { label: 'Affordability', id: 'affordability'} %}
+  <h3>Lower quartile rent to median earnings ratio</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows the ratio of lower quartile rent for a 2 bedroom 
+        property to median earnings across different areas in {{ this_place.title }}. 
+        A higher value means the average person spends a larger proportion of their earnings on rent.
+      </p>
+      <h4>Dataset</h4> <ul><li>{{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices"}) | safe }}</li>
+      <li> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }} </li></ul>
+    {% endcomp %}
+  {% if place_children | length > 0 %}
+    {% set chart_data = dataset.ashe.rent_to_earnings(place_children) %}
+    {% if chart_data | length > 0 %}
+    {% comp 'layout.wrapper', { width: 'min(20em, 70%)' } %}
+    {{ comp.oi.map.svg({
+      config: {
+        data: chart_data,
+        geojson: { data: place[geography].map, key: 'ons_code' },
+        background: {
+          geojson: 'map.england', colour: 'silver' },
+        columns: [
+          { name: 'tooltip', template: "{{ geography_name }}\n{{ value | toFixed(3) }}" }
+        ],
+        value: 'value',
+        scale: 'Viridis',
+        min: 0,
+        max: 0.4,
+        legend: {
+          position: 'top',
+          items: [
+            { value: 0.4, label: '0.4' },
+            { value: 0.3, label: '0.3' },
+            { value: 0.2, label: '0.2' },
+            { value: 0.1, label: '0.1' },
+            { value: 0, label: '0' }
+          ]
+        },
+        key: 'geography_code',
+        tooltip: 'tooltip'
+      }
+    }) | safe }}
+    {% endcomp %}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
+  {% endif %}
+  {% endcomp %}
   {% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
-
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Housing insecurity', id: 'housing-insecurity' } %}
