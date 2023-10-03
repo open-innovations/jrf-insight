@@ -14,6 +14,7 @@ CREATE OR REPLACE TABLE hbai_savings_investments AS SELECT * FROM read_csv_auto(
 CREATE OR REPLACE TABLE hbai_ethnicity AS SELECT * FROM read_csv_auto('./data/hbai/by_ethnic_group.csv');
 CREATE OR REPLACE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/hbai/by_marital_status.csv');
 CREATE OR REPLACE TABLE hbai_tenure_type AS SELECT * FROM read_csv_auto('./data/hbai/by_tenure_type.csv');
+CREATE OR REPLACE TABLE rent_to_earnings AS SELECT * FROM read_csv_auto('./data/ashe/rent-earning-ratio.csv');
 
 CREATE OR REPLACE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
 
