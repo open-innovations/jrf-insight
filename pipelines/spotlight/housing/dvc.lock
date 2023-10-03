@@ -13,3 +13,29 @@ stages:
       md5: 99c16fc35bb177685d0f9458bb550c60
       size: 19047
       isexec: true
+  earnings-rent-ratio:
+    cmd: papermill rents_to_earnings.ipynb ../../../data/_working/output/rents_to_earnings.ipynb
+    deps:
+    - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
+      hash: md5
+      md5: 175c784f6a8d75f707f57a9e8c0980a7
+      size: 13604
+    outs:
+    - path: ../../../data/rental-prices/rent-earning-ratio.csv
+      hash: md5
+      md5: 0a8257749f96e5f7eacb73fee2b5a289
+      size: 4715
+      isexec: true
+  rental-prices:
+    cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb
+    deps:
+    - path: ../../../pipelines/spotlight/housing/rental_prices.ipynb
+      hash: md5
+      md5: cd2bb8f986d57ce5b11cf92f9ab0a1c9
+      size: 1611
+    outs:
+    - path: ../../../data/rental-prices/most_recent_rental_prices.csv
+      hash: md5
+      md5: 99c16fc35bb177685d0f9458bb550c60
+      size: 19047
+      isexec: true
