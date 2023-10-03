@@ -16,10 +16,14 @@ stages:
   earnings-rent-ratio:
     cmd: papermill rents_to_earnings.ipynb ../../../data/_working/output/rents_to_earnings.ipynb
     deps:
+    - path: ../../../data/ashe/weekly-earnings.csv
+      hash: md5
+      md5: b9dcef154913f1bb6cddd61fefcc391f
+      size: 17615
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
-      md5: 12b1411b73f64170d74b4b1a17429fc8
-      size: 15404
+      md5: 5f0c3910f5544a613cea5fa3a204f8a2
+      size: 15272
     outs:
     - path: ../../../data/ashe/rent-earning-ratio.csv
       hash: md5
@@ -31,11 +35,28 @@ stages:
     deps:
     - path: ../../../pipelines/spotlight/housing/rental_prices.ipynb
       hash: md5
-      md5: cd2bb8f986d57ce5b11cf92f9ab0a1c9
-      size: 1611
+      md5: 76e777e1925fdf728a652c5adf323100
+      size: 1479
     outs:
     - path: ../../../data/rental-prices/most_recent_rental_prices.csv
       hash: md5
       md5: 99c16fc35bb177685d0f9458bb550c60
       size: 19047
+      isexec: true
+  dwellings:
+    cmd: papermill dwelling_stock.ipynb ../../../data/_working/output/dwelling_stock.ipynb
+    deps:
+    - path: ../../../data-raw/dwelling-stock/dwelling_stock_by_tenure_by_LA.ods
+      hash: md5
+      md5: ae47f6296a2e8b79c75ca52808376046
+      size: 537066
+    - path: ../../../pipelines/spotlight/housing/dwelling_stock.ipynb
+      hash: md5
+      md5: ba09ddf330cba62d4f69818031f015c4
+      size: 2356
+    outs:
+    - path: ../../../data/dwelling-stock/dwelling-stock.csv
+      hash: md5
+      md5: 7560c8312dcff902ae9771f1d9c10759
+      size: 96217
       isexec: true

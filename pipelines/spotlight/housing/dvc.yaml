@@ -15,7 +15,17 @@ stages:
     deps:
       - ${top}/pipelines/spotlight/housing/rents_to_earnings.ipynb
       #- ${top}/data/rental-prices/rental-prices.csv
+      - ${top}/data/ashe/weekly-earnings.csv
     outs: 
       - ${top}/data/ashe/rent-earning-ratio.csv:
           cache: false
-          persist: false    
+          persist: false 
+  dwellings:
+    cmd: papermill dwelling_stock.ipynb ${top}/data/_working/output/dwelling_stock.ipynb
+    deps:
+      - ${top}/pipelines/spotlight/housing/dwelling_stock.ipynb
+      - ${top}/data-raw/dwelling-stock/dwelling_stock_by_tenure_by_LA.ods
+    outs: 
+      - ${top}/data/dwelling-stock/dwelling-stock.csv:
+          cache: false
+          persist: false   
