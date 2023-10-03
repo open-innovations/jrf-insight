@@ -138,12 +138,14 @@
             {
               title: "In poverty both before and after housing costs",
               value: "percent_ahc_and_bhc",
-              colour: "#8024c3"
+              colour: "#8024c3",
+              tooltip: 'Both before and after housing costs<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%'
             },
             {
               title: "In poverty after housing costs only",
               value: "percent_ahc_only",
-              colour: "#64A70B"
+              colour: "#64A70B",
+              tooltip: 'After housing costs only<br />{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%'
             }
           ],
           axis: { 
@@ -153,7 +155,14 @@
                 spacing: 10 }, 
               grid: { 
                 "stroke-dasharray": "6 2", 
-                "stroke-width": 1 } 
+                "stroke-width": 1 },
+              ticks: [
+                { value: 10, label: '10%'},
+                { value: 20, label: '20%'},
+                { value: 30, label: '30%'},
+                { value: 40, label: '40%'},
+                { value: 50, label: '50%'}
+                ] 
               } 
             },
           stacked: true,
