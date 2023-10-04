@@ -1,9 +1,14 @@
 economic_insecurity:
   name: Economic Insecurity
   description: |
-    The lack of economic security can significantly impact peoples experience
-    of dignity, opportunity and hope.
-    This spotlight explores poverty through the lens of economic markers.
+    "_To be and to feel economically secure is to live with dignity, 
+    to be able to seize opportunities and to have a sense of hope 
+    for the future. That requires sufficient and predictable resources, 
+    of income and wealth, in relation to the costs and burdens of life.
+     But it also rests on secure work and a secure home, on education, 
+     on good health, and on support and time for caring. It is sustained 
+     by relationships of family, friends and community._" - Graeme Cooke,
+     Director of Insight and Policy, JRF.
   infographics:
     defaults:
       - percentage_benefits_claimants
@@ -17,6 +22,7 @@ economic_insecurity:
       - key: percentage_benefits_claimants
         description: Population claiming Universal Credit or Jobseeker's Allowance
         type: waffle
+        template: "{{ value }} % Claiming UC or JSA"
       - key: proportion_fuel_poverty
         description: Proportion of the population living in fuel poverty
         type: waffle
@@ -27,6 +33,14 @@ economic_insecurity:
 
 housing:
   name: Housing
+  description: |
+    "_Housing provides the base from which people live their lives,
+    connecting them to work, education, services and their communities. 
+    The affordability of housing, alongside the stability, quality and 
+    size of homes, is crucial in itself, but also, if unaffordable, 
+    can drag occupants into poverty... At worst, households facing unaffordable 
+    housing costs can experience destitution, 
+    homelessness or rough sleeping._" - JRF poverty report 2023.
 homelessness:
   name: Homelessness
   draft: true

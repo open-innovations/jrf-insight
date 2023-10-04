@@ -15,8 +15,9 @@ ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4, na = c(
                 geography_code = Code,
                 geography_name = Description,
                 median_weekly_wage = Median,
-                mean_weekly_wage = Mean) |>
-  tidyr::pivot_longer(c(median_weekly_wage, mean_weekly_wage), names_to = "variable_name") |>
+                mean_weekly_wage = Mean,
+                lq_weekly_wage = `25`) |>
+  tidyr::pivot_longer(c(median_weekly_wage, mean_weekly_wage, lq_weekly_wage), names_to = "variable_name") |>
   dplyr::filter(geography_code %in% geography_code_name_only$code)
 
 ashe_8_7a <- readxl::read_excel(ashe_file_8_7a, sheet = "All", skip = 4, na = c("x", "..", ":", "-")) |>
@@ -25,8 +26,11 @@ ashe_8_7a <- readxl::read_excel(ashe_file_8_7a, sheet = "All", skip = 4, na = c(
                 geography_code = Code,
                 geography_name = Description,
                 median_annual_wage = Median,
-                mean_annual_wage = Mean) |>
-  tidyr::pivot_longer(c(median_annual_wage, mean_annual_wage), names_to = "variable_name") |>
+                mean_annual_wage = Mean,
+                lq_annual_wage = `25`) |>
+  dplyr::mutate(lq_monthly_wage = round(lq_annual_wage / 12)) |>
+  tidyr::pivot_longer(c(median_annual_wage, mean_annual_wage,
+                        lq_annual_wage, lq_monthly_wage), names_to = "variable_name") |>
   dplyr::filter(geography_code %in% geography_code_name_only$code)
 
 ashe <- dplyr::bind_rows(ashe_8_1a, ashe_8_7a)

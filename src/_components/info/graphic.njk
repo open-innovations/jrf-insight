@@ -6,9 +6,18 @@ css: |
         flex-direction: column;
         height: 100%;
         justify-content: space-between;
+        & > *:first-child {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
         & .impact {
             font-size: 5em;
             font-weight: bold;
+        }
+        & .no-data {
+          font-size: 2em;
         }
         & .description {
             font-size: 0.9em;
@@ -27,30 +36,31 @@ css: |
 } %}
 
 <div class='infographic'>
-{% if value %}
-    {% if type == 'waffle' %}
-        {{ comp.oi.chart.waffle({
-            config: {
-                data: [ { 'value': value } ],
-                width: 200,
-                size: 10,
-                columns: [
-                  { name: 'tooltip', template: '{{ value | toFixed(1) }}%' }
-                ],
-                series: [
-                    { value: 'value', colour: 'white', tooltip: 'tooltip', points: personMarker },
-                    { colour: 'white', points: personMarkerEmpty }
-                ]
-            }
-        }) | safe }}
-    {% elif type == 'percentage' %}
-        <p class="impact">{{ value }}%</p>
+  <div>
+    {% if value %}
+        {% if type == 'waffle' %}
+            {{ comp.oi.chart.waffle({
+                config: {
+                    data: [ { 'value': value } ],
+                    size: 10,
+                    width: 200,
+                    columns: [
+                      { name: 'tooltip', template: template or '{{ value | toFixed(1) }}%' }
+                    ],
+                    series: [
+                        { value: 'value', colour: 'white', tooltip: 'tooltip', points: personMarker },
+                        { colour: 'white', points: personMarkerEmpty }
+                    ]
+                }
+            }) | safe }}
+        {% elif type == 'percentage' %}
+            <p class="impact">{{ value }}%</p>
+        {% else %}
+            <p class="impact">{{ value }}</p>
+        {% endif %}
     {% else %}
-        <p class="impact">{{ value }}</p>
+        <p class="impact no-data">No data for this place</p>
     {% endif %}
-{% else %}
-    <p class="impact">No data</p>
-    <p>for this place</p>
-{% endif %}
-<p class="description">{{ description }}</p>
+  </div>
+  <p class="description">{{ description }}</p>
 </div>

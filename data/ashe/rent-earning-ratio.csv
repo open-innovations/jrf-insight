@@ -1,0 +1,84 @@
+geography_code,geography_name,variable_name,value
+E12000001,North East,lq_rent_to_median_earnings,0.30303030303030304
+E06000005,Darlington UA,lq_rent_to_median_earnings,0.2689873417721519
+E06000001,Hartlepool UA,lq_rent_to_median_earnings,0.32894736842105265
+E06000002,Middlesbrough UA,lq_rent_to_median_earnings,
+E06000003,Redcar and Cleveland UA,lq_rent_to_median_earnings,0.3565436241610738
+E06000004,Stockton-on-Tees UA,lq_rent_to_median_earnings,
+E06000047,County Durham UA,lq_rent_to_median_earnings,0.26474530831099197
+E06000057,Northumberland UA,lq_rent_to_median_earnings,0.2965159377316531
+E11000007,Tyne and Wear Met County,lq_rent_to_median_earnings,0.3371185237757275
+E08000037,Gateshead,lq_rent_to_median_earnings,
+E08000021,Newcastle upon Tyne,lq_rent_to_median_earnings,0.4034969737726967
+E08000022,North Tyneside,lq_rent_to_median_earnings,0.3432080924855491
+E08000023,South Tyneside,lq_rent_to_median_earnings,0.3125
+E08000024,Sunderland,lq_rent_to_median_earnings,0.34123563218390807
+E12000002,North West,lq_rent_to_median_earnings,0.3590971272229822
+E06000008,Blackburn with Darwen UA,lq_rent_to_median_earnings,0.37251655629139074
+E06000009,Blackpool UA,lq_rent_to_median_earnings,
+E06000006,Halton UA,lq_rent_to_median_earnings,0.3233492171545269
+E06000007,Warrington UA,lq_rent_to_median_earnings,0.34084173088322467
+E06000049,Cheshire East UA,lq_rent_to_median_earnings,0.3692602040816326
+E06000050,Cheshire West and Chester,lq_rent_to_median_earnings,
+E10000006,Cumbria,lq_rent_to_median_earnings,0.3146853146853147
+E07000026,Allerdale,lq_rent_to_median_earnings,0.28034300791556727
+E07000027,Barrow-in-Furness,lq_rent_to_median_earnings,0.30526992287917737
+E07000028,Carlisle,lq_rent_to_median_earnings,
+E07000029,Copeland,lq_rent_to_median_earnings,0.33383345836459116
+E07000030,Eden,lq_rent_to_median_earnings,0.4452054794520548
+E07000031,South Lakeland,lq_rent_to_median_earnings,
+E11000001,Greater Manchester Met County,lq_rent_to_median_earnings,0.3943758573388203
+E08000001,Bolton,lq_rent_to_median_earnings,
+E08000002,Bury,lq_rent_to_median_earnings,0.3712072304712718
+E08000003,Manchester,lq_rent_to_median_earnings,0.6230407523510971
+E08000004,Oldham,lq_rent_to_median_earnings,0.36610878661087864
+E08000005,Rochdale,lq_rent_to_median_earnings,
+E08000006,Salford,lq_rent_to_median_earnings,0.4271665642286417
+E08000007,Stockport,lq_rent_to_median_earnings,0.44654498044328556
+E08000008,Tameside,lq_rent_to_median_earnings,0.38746630727762804
+E08000009,Trafford,lq_rent_to_median_earnings,0.5115830115830116
+E08000010,Wigan,lq_rent_to_median_earnings,0.3288826423049895
+E10000017,Lancashire,lq_rent_to_median_earnings,0.34185082872928174
+E07000117,Burnley,lq_rent_to_median_earnings,0.2924982794218858
+E07000118,Chorley,lq_rent_to_median_earnings,0.34539473684210525
+E07000119,Fylde,lq_rent_to_median_earnings,0.37491479209270623
+E07000120,Hyndburn,lq_rent_to_median_earnings,0.2893124574540504
+E07000121,Lancaster,lq_rent_to_median_earnings,
+E07000122,Pendle,lq_rent_to_median_earnings,0.3224582701062215
+E07000123,Preston,lq_rent_to_median_earnings,
+E07000124,Ribble Valley,lq_rent_to_median_earnings,0.32993401319736054
+E07000125,Rossendale,lq_rent_to_median_earnings,0.3730092204526404
+E07000126,South Ribble,lq_rent_to_median_earnings,0.36860068259385664
+E07000127,West Lancashire,lq_rent_to_median_earnings,0.3027355623100304
+E07000128,Wyre,lq_rent_to_median_earnings,0.3424657534246575
+E11000002,Merseyside Met County,lq_rent_to_median_earnings,0.343878954607978
+E08000011,Knowsley,lq_rent_to_median_earnings,0.32043842682140555
+E08000012,Liverpool,lq_rent_to_median_earnings,0.3699788583509514
+E08000013,St. Helens,lq_rent_to_median_earnings,0.3179384203480589
+E08000014,Sefton,lq_rent_to_median_earnings,
+E08000015,Wirral,lq_rent_to_median_earnings,0.3315472203616879
+E12000003,Yorkshire and The Humber,lq_rent_to_median_earnings,0.34153005464480873
+E06000011,East Riding of Yorkshire UA,lq_rent_to_median_earnings,0.3158244680851064
+E06000010,Kingston upon Hull UA,lq_rent_to_median_earnings,0.3370340999206979
+E06000012,North East Lincolnshire UA,lq_rent_to_median_earnings,0.2966878083157153
+E06000013,North Lincolnshire UA,lq_rent_to_median_earnings,0.32159783344617465
+E06000014,York UA,lq_rent_to_median_earnings,0.4768125408229915
+E10000023,North Yorkshire,lq_rent_to_median_earnings,0.3965392934390771
+E07000163,Craven,lq_rent_to_median_earnings,0.4661016949152542
+E07000164,Hambleton,lq_rent_to_median_earnings,0.3862815884476534
+E07000165,Harrogate,lq_rent_to_median_earnings,0.45012953367875647
+E07000166,Richmondshire,lq_rent_to_median_earnings,0.36523009495982467
+E07000167,Ryedale,lq_rent_to_median_earnings,0.37112010796221323
+E07000168,Scarborough,lq_rent_to_median_earnings,
+E07000169,Selby,lq_rent_to_median_earnings,0.351213282247765
+E11000003,South Yorkshire Met County,lq_rent_to_median_earnings,0.34178999295278367
+E08000016,Barnsley,lq_rent_to_median_earnings,0.2895095367847411
+E08000017,Doncaster,lq_rent_to_median_earnings,0.3419726421886249
+E08000018,Rotherham,lq_rent_to_median_earnings,0.3291880029261156
+E08000019,Sheffield,lq_rent_to_median_earnings,0.39100346020761245
+E11000006,West Yorkshire Met County,lq_rent_to_median_earnings,0.3458498023715415
+E08000032,Bradford,lq_rent_to_median_earnings,0.3310104529616725
+E08000033,Calderdale,lq_rent_to_median_earnings,0.30312699425654116
+E08000034,Kirklees,lq_rent_to_median_earnings,0.3291316526610644
+E08000035,Leeds,lq_rent_to_median_earnings,0.4235222425350396
+E08000036,Wakefield,lq_rent_to_median_earnings,0.3610729023383769

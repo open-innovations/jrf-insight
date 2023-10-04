@@ -12,8 +12,10 @@
 
 {% comp 'layout.tab.set' %}
 {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
+  <h3>Rates of unemployment and economic inactivity over time</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows labour market statistics for {{ this_place.title }}</p>
+  <p>This chart shows labour market statistics for {{ this_place.title }}.</p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "labour-market", view: "labour-market"}) | safe }}
   {% endcomp %}
   {% set labour_market_time_series = dataset
     .labour_market
@@ -24,7 +26,7 @@
         data: labour_market_time_series,
         legend: { show: true },
         axis: {
-          x: { title: { label: "Year" }, grid: { show: true }, tick: { sapcing: 5 } },
+          x: { title: { label: "Year" }, grid: { show: true } },
           y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
         },
         series: [
@@ -56,12 +58,14 @@
   .get_fuel_poverty(place_and_children) %}
 
 {% if fp_this | length > 0 %}
+  <h3>Fuel poverty rate by geography</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
   <p>
     This chart shows the percentage of households in fuel poverty across the different 
     areas in  {{ this_place.title }}. In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
     of {{ fp_this['Number of households'] }} households are in fuel poverty.
   </p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "fuel-poverty", view: "fuel-poverty"}) | safe }}
   {% endcomp %}
 {% endif %}
 
@@ -80,7 +84,7 @@
     min: range.min,
     max: range.max,
     legend: {
-      position: 'top right',
+      position: 'top',
       items: [
         { value: range.max, label: range.max + '% (highest)' },
         { value: (range.max + range.min) / 2, label: (range.max + range.min) / 2 + '%' },
@@ -100,8 +104,10 @@
     .ashe
     .weekly_earnings(place_and_children) %}
   {% if we_all.length > 0 %}
+    <h3>Median weekly wage by geography</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }}
     {% endcomp %}
   {{ comp.oi.map.svg({
     config: {
@@ -118,7 +124,7 @@
       max: dataset.ashe.range.median_weekly_wage.min,
       min: dataset.ashe.range.median_weekly_wage.max,
       legend: {
-        position: 'top right',
+        position: 'top',
         items: [
           { value: dataset.ashe.range.median_weekly_wage.min, label: "£" + dataset.ashe.range.median_weekly_wage.min + ' (lowest)' },
           { value: (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2, label: "£" + (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2 },
@@ -136,20 +142,33 @@
     .hbai
     .get_savings_and_investments_for_place(geography) %}
   {% if chart_data | length > 0 %}
+    <h3>Percentage of people in low income households by their savings and investments</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>
-      This chart shows savings and investments of adults in the 
-      family for low income households in {{ this_place.title }}.
+      This chart shows the poverty rates by the savings and investments of adults in the family in {{ this_place.title }}.
+      The threshold for low income poverty is households below 60% of median net household 
+      income (after housing costs) in latest prices.
     </p>
-      <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/Savings%20and%20Investments%20of%20Adults%20in%20the%20Family%20of%20the%20Individual.csv">Savings and Investments</a>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_savings_and_investments"}) | safe }}
     {% endcomp %}
       {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
       data: chart_data,
       axis: {
-        x: { title: { label: "Year" }, tick: { sapcing: 5 } },
-        y: { title: { label: "Percent of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0, max: 20 }
+        x: { 
+            title: { label: "Year" }, 
+            ticks: [
+              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
+              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
+              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
+              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+              ]
+            },
+        y: { title: { label: "Percentage in low income poverty" }, grid: { show: true }, tick: { spacing: 5 }, min: 0, max: 20 }
       },
       series: [
         {
@@ -206,11 +225,12 @@
     .hbai
     .low_income_ethnicity(geography) %}
   {% if chart_data | length > 0 %}
+    <h3>People in low income households by ethnic group</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p> 
-      This chart shows the percentage of households below average income by ethnicity in {{ this_place.title }}.
+      This chart shows the poverty rates by ethnic group in {{ this_place.title }}.
+      The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.
     </p>
-    <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_ethnic_group.csv">Households below average income by ethnicity</a>
     <p>
       These statistics have been three-year averaged and rounded according to the guidance on 
       <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
@@ -218,16 +238,27 @@
       and coverage issues mean that single year results broken down below the level of UK region are 
       unlikely to be reliable.
     </p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_ethnic_group"}) | safe }}
     {% endcomp %}
     {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
       data: chart_data,
       axis: {
-        x: { title: { label: "date" } },
+        x: { title: { label: "3 year period" },
+            ticks: [
+              { value: "0", label: "1994-95 - 1996-97", tickSize: 5 },
+              { value: "4", label: "1998-99 - 2000-01", tickSize: 5 },
+              { value: "8", label: "2002-03 - 2004-05", tickSize: 5 },
+              { value: "12", label: "2006-07 - 2007-08", tickSize: 5 },
+              { value: "16", label: "2009-10 - 2011-12", tickSize: 5 },
+              { value: "20", label: "2013-14 - 2015-16", tickSize: 5 },
+              { value: "24", label: "2017-18 - 2019-20", tickSize: 5 }
+              ] 
+            },
         y: {
-          title: { label: "Percent of total population" }, grid: { show: true },
-          tick: { spacing: 5 }, min: 0, max: 25
+          title: { label: "Percentage in low income poverty" }, grid: { show: true },
+          tick: { spacing: 5 }, min: 0, max: 30
         }
       },
       series: [
@@ -258,31 +289,40 @@
   {% else %}
     <p>No data available at this level</p>
   {% endif %}
-  {# {% include './test.njk' %} #}
   {% endcomp %}
+
   {% comp 'layout.tab.panel', {label: 'Single parents', id: 'single-parents' } %}
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
   {% if chart_data | length > 0 %}
+  <h3>People in low income households by marital status</h3>
   {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p> This chart shows the percentage of households below average income by marital/cohabiting status in {{ this_place.title }}.</p>
-  <a href="https://github.com/open-innovations/jrf-insight/blob/main/data/hbai/by_marital_status.csv">Households below average income by marital status</a>
+  <p> This chart shows the poverty rates by marital/cohabiting status in {{ this_place.title }}.
+    The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.</p>
   <p>
     These statistics have been three-year averaged and rounded according to the guidance on 
     <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
-    This method helps smooth erratic series and so give more robust estimates as the FRS sample size
-     and coverage issues mean that single year results broken down below the level of UK region are 
-     unlikely to be reliable.
   </p>
+  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_marital_status.csv"}) | safe }}
   {% endcomp %}
   {{ comp.oi.chart.line({
     config: {
       legend: { show: true },
       data: chart_data,
       axis: {
-        x: { title: { label: "3-year period" } },
+        x: { title: { label: "3-year period" },
+            ticks: [
+              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
+              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
+              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
+              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+              ] 
+            },
         y: {
-          title: { label: "Percent of total population" }, grid: { show: true },
-          tick: { spacing: 5 }, min: 0, max: 25
+          title: { label: "Percentage in low income poverty" }, grid: { show: true },
+          tick: { spacing: 5 }, min: 0, max: 20
         }
       },
       series: [
