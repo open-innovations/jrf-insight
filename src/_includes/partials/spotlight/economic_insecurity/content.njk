@@ -219,7 +219,12 @@
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
     <p>Idea: pay gap or % jobs less than living wage</p>
+    {% set chart_data = dataset.gender_pay_gap.gender_pay_gap(geo) %}
+      {{ chart_data | dump() }}
+    {# {% if chart_data | length > 0 %}
+    {% endif %} #}
   {% endcomp %}
+
   {% comp 'layout.tab.panel', { label: 'Ethnicity', id: 'ethnicity' } %}
   {% set chart_data = dataset
     .hbai
