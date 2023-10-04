@@ -256,10 +256,10 @@
     {% endif %}
   {% endcomp %}
   {% comp 'layout.tab.panel', { label: 'Affordability', id: 'affordability'} %}
-  <h3>Lower quartile rent to median earnings ratio</h3>
+  <h3>Lower quartile rent to lower quartile earnings ratio</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>This chart shows the ratio of lower quartile rent for a 2 bedroom 
-        property to median earnings across different areas in {{ this_place.title }}. 
+        property to lower quartile earnings across different areas in {{ this_place.title }}. 
         A higher value means the average person spends a larger proportion of their earnings on rent.
       </p>
       <h4>Dataset</h4> <ul><li>{{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices"}) | safe }}</li>
@@ -281,15 +281,13 @@
         value: 'value',
         scale: 'Viridis',
         min: 0,
-        max: 0.4,
+        max: 0.5,
         legend: {
           position: 'top',
           items: [
-            { value: 0.4, label: '0.4' },
-            { value: 0.3, label: '0.3' },
-            { value: 0.2, label: '0.2' },
-            { value: 0.1, label: '0.1' },
-            { value: 0, label: '0' }
+            { value: 0.5, label: '0.5 (high)' },
+            { value: 0.25, label: '0.25' },
+            { value: 0, label: '0 (low)' }
           ]
         },
         key: 'geography_code',
