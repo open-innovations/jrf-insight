@@ -1,0 +1,1495 @@
+date,geography_name,geography_code,sex,hours,variable_name,value
+2022,North East,E12000001,All,All,number_of_jobs_000s,155
+2022,North East,E12000001,All,All,percent,14.8
+2022,Darlington UA,E06000005,All,All,number_of_jobs_000s,8
+2022,Darlington UA,E06000005,All,All,percent,14.5
+2022,Hartlepool UA,E06000001,All,All,number_of_jobs_000s,5
+2022,Hartlepool UA,E06000001,All,All,percent,16.1
+2022,Middlesbrough UA,E06000002,All,All,number_of_jobs_000s,9
+2022,Middlesbrough UA,E06000002,All,All,percent,18
+2022,Redcar and Cleveland UA,E06000003,All,All,number_of_jobs_000s,8
+2022,Redcar and Cleveland UA,E06000003,All,All,percent,24
+2022,Stockton-on-Tees UA,E06000004,All,All,number_of_jobs_000s,10
+2022,Stockton-on-Tees UA,E06000004,All,All,percent,12.9
+2022,County Durham UA,E06000047,All,All,number_of_jobs_000s,30
+2022,County Durham UA,E06000047,All,All,percent,16.6
+2022,Northumberland UA,E06000057,All,All,number_of_jobs_000s,14
+2022,Northumberland UA,E06000057,All,All,percent,13.8
+2022,Tyne and Wear Met County,E11000007,All,All,number_of_jobs_000s,71
+2022,Tyne and Wear Met County,E11000007,All,All,percent,13.7
+2022,Gateshead,E08000037,All,All,number_of_jobs_000s,15
+2022,Gateshead,E08000037,All,All,percent,16
+2022,Newcastle upon Tyne,E08000021,All,All,number_of_jobs_000s,23
+2022,Newcastle upon Tyne,E08000021,All,All,percent,11.7
+2022,North Tyneside,E08000022,All,All,number_of_jobs_000s,9
+2022,North Tyneside,E08000022,All,All,percent,11.5
+2022,South Tyneside,E08000023,All,All,number_of_jobs_000s,8
+2022,South Tyneside,E08000023,All,All,percent,21.8
+2022,Sunderland,E08000024,All,All,number_of_jobs_000s,17
+2022,Sunderland,E08000024,All,All,percent,14.2
+2022,North West,E12000002,All,All,number_of_jobs_000s,367
+2022,North West,E12000002,All,All,percent,12.5
+2022,Blackburn with Darwen UA,E06000008,All,All,number_of_jobs_000s,8
+2022,Blackburn with Darwen UA,E06000008,All,All,percent,13.6
+2022,Blackpool UA,E06000009,All,All,number_of_jobs_000s,12
+2022,Blackpool UA,E06000009,All,All,percent,18.2
+2022,Halton UA,E06000006,All,All,number_of_jobs_000s,7
+2022,Halton UA,E06000006,All,All,percent,13.4
+2022,Warrington UA,E06000007,All,All,number_of_jobs_000s,11
+2022,Warrington UA,E06000007,All,All,percent,10.3
+2022,Cheshire East UA,E06000049,All,All,number_of_jobs_000s,16
+2022,Cheshire East UA,E06000049,All,All,percent,9
+2022,Cheshire West and Chester,E06000050,All,All,number_of_jobs_000s,15
+2022,Cheshire West and Chester,E06000050,All,All,percent,10.9
+2022,Cumbria,E10000006,All,All,number_of_jobs_000s,27
+2022,Cumbria,E10000006,All,All,percent,12.6
+2022,Allerdale,E07000026,All,All,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,All,All,percent,NA
+2022,Barrow-in-Furness,E07000027,All,All,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,All,All,percent,NA
+2022,Carlisle,E07000028,All,All,number_of_jobs_000s,6
+2022,Carlisle,E07000028,All,All,percent,10.8
+2022,Copeland,E07000029,All,All,number_of_jobs_000s,NA
+2022,Copeland,E07000029,All,All,percent,NA
+2022,Eden,E07000030,All,All,number_of_jobs_000s,NA
+2022,Eden,E07000030,All,All,percent,17.2
+2022,South Lakeland,E07000031,All,All,number_of_jobs_000s,5
+2022,South Lakeland,E07000031,All,All,percent,13.3
+2022,Greater Manchester Met County,E11000001,All,All,number_of_jobs_000s,142
+2022,Greater Manchester Met County,E11000001,All,All,percent,12.5
+2022,Bolton,E08000001,All,All,number_of_jobs_000s,13
+2022,Bolton,E08000001,All,All,percent,13.8
+2022,Bury,E08000002,All,All,number_of_jobs_000s,7
+2022,Bury,E08000002,All,All,percent,10.9
+2022,Manchester,E08000003,All,All,number_of_jobs_000s,36
+2022,Manchester,E08000003,All,All,percent,9.7
+2022,Oldham,E08000004,All,All,number_of_jobs_000s,14
+2022,Oldham,E08000004,All,All,percent,18.1
+2022,Rochdale,E08000005,All,All,number_of_jobs_000s,15
+2022,Rochdale,E08000005,All,All,percent,22.1
+2022,Salford,E08000006,All,All,number_of_jobs_000s,11
+2022,Salford,E08000006,All,All,percent,8.9
+2022,Stockport,E08000007,All,All,number_of_jobs_000s,12
+2022,Stockport,E08000007,All,All,percent,12.2
+2022,Tameside,E08000008,All,All,number_of_jobs_000s,10
+2022,Tameside,E08000008,All,All,percent,19.4
+2022,Trafford,E08000009,All,All,number_of_jobs_000s,12
+2022,Trafford,E08000009,All,All,percent,10.9
+2022,Wigan,E08000010,All,All,number_of_jobs_000s,13
+2022,Wigan,E08000010,All,All,percent,14.2
+2022,Lancashire,E10000017,All,All,number_of_jobs_000s,67
+2022,Lancashire,E10000017,All,All,percent,13.9
+2022,Burnley,E07000117,All,All,number_of_jobs_000s,6
+2022,Burnley,E07000117,All,All,percent,16.7
+2022,Chorley,E07000118,All,All,number_of_jobs_000s,6
+2022,Chorley,E07000118,All,All,percent,19.3
+2022,Fylde,E07000119,All,All,number_of_jobs_000s,5
+2022,Fylde,E07000119,All,All,percent,12.2
+2022,Hyndburn,E07000120,All,All,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,All,All,percent,19.8
+2022,Lancaster,E07000121,All,All,number_of_jobs_000s,8
+2022,Lancaster,E07000121,All,All,percent,14.9
+2022,Pendle,E07000122,All,All,number_of_jobs_000s,NA
+2022,Pendle,E07000122,All,All,percent,NA
+2022,Preston,E07000123,All,All,number_of_jobs_000s,12
+2022,Preston,E07000123,All,All,percent,12.7
+2022,Ribble Valley,E07000124,All,All,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,All,All,percent,NA
+2022,Rossendale,E07000125,All,All,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,All,All,percent,NA
+2022,South Ribble,E07000126,All,All,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,All,All,percent,NA
+2022,West Lancashire,E07000127,All,All,number_of_jobs_000s,5
+2022,West Lancashire,E07000127,All,All,percent,12.6
+2022,Wyre,E07000128,All,All,number_of_jobs_000s,6
+2022,Wyre,E07000128,All,All,percent,19.2
+2022,Merseyside Met County,E11000002,All,All,number_of_jobs_000s,62
+2022,Merseyside Met County,E11000002,All,All,percent,12.5
+2022,Knowsley,E08000011,All,All,number_of_jobs_000s,8
+2022,Knowsley,E08000011,All,All,percent,13.1
+2022,Liverpool,E08000012,All,All,number_of_jobs_000s,24
+2022,Liverpool,E08000012,All,All,percent,11.1
+2022,St. Helens,E08000013,All,All,number_of_jobs_000s,7
+2022,St. Helens,E08000013,All,All,percent,14.6
+2022,Sefton,E08000014,All,All,number_of_jobs_000s,12
+2022,Sefton,E08000014,All,All,percent,14
+2022,Wirral,E08000015,All,All,number_of_jobs_000s,10
+2022,Wirral,E08000015,All,All,percent,13.1
+2022,Yorkshire and The Humber,E12000003,All,All,number_of_jobs_000s,368
+2022,Yorkshire and The Humber,E12000003,All,All,percent,15.8
+2022,East Riding of Yorkshire UA,E06000011,All,All,number_of_jobs_000s,18
+2022,East Riding of Yorkshire UA,E06000011,All,All,percent,14.1
+2022,Kingston upon Hull UA,E06000010,All,All,number_of_jobs_000s,16
+2022,Kingston upon Hull UA,E06000010,All,All,percent,13.4
+2022,North East Lincolnshire UA,E06000012,All,All,number_of_jobs_000s,10
+2022,North East Lincolnshire UA,E06000012,All,All,percent,19.9
+2022,North Lincolnshire UA,E06000013,All,All,number_of_jobs_000s,8
+2022,North Lincolnshire UA,E06000013,All,All,percent,11.6
+2022,York UA,E06000014,All,All,number_of_jobs_000s,12
+2022,York UA,E06000014,All,All,percent,11.1
+2022,North Yorkshire,E10000023,All,All,number_of_jobs_000s,32
+2022,North Yorkshire,E10000023,All,All,percent,11.9
+2022,Craven,E07000163,All,All,number_of_jobs_000s,NA
+2022,Craven,E07000163,All,All,percent,NA
+2022,Hambleton,E07000164,All,All,number_of_jobs_000s,5
+2022,Hambleton,E07000164,All,All,percent,14
+2022,Harrogate,E07000165,All,All,number_of_jobs_000s,6
+2022,Harrogate,E07000165,All,All,percent,7.6
+2022,Richmondshire,E07000166,All,All,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,All,All,percent,NA
+2022,Ryedale,E07000167,All,All,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,All,All,percent,NA
+2022,Scarborough,E07000168,All,All,number_of_jobs_000s,7
+2022,Scarborough,E07000168,All,All,percent,14.9
+2022,Selby,E07000169,All,All,number_of_jobs_000s,NA
+2022,Selby,E07000169,All,All,percent,11.7
+2022,South Yorkshire Met County,E11000003,All,All,number_of_jobs_000s,70
+2022,South Yorkshire Met County,E11000003,All,All,percent,14.2
+2022,Barnsley,E08000016,All,All,number_of_jobs_000s,10
+2022,Barnsley,E08000016,All,All,percent,12.7
+2022,Doncaster,E08000017,All,All,number_of_jobs_000s,18
+2022,Doncaster,E08000017,All,All,percent,17.7
+2022,Rotherham,E08000018,All,All,number_of_jobs_000s,13
+2022,Rotherham,E08000018,All,All,percent,14.3
+2022,Sheffield,E08000019,All,All,number_of_jobs_000s,30
+2022,Sheffield,E08000019,All,All,percent,13.1
+2022,West Yorkshire Met County,E11000006,All,All,number_of_jobs_000s,202
+2022,West Yorkshire Met County,E11000006,All,All,percent,18.6
+2022,Bradford,E08000032,All,All,number_of_jobs_000s,26
+2022,Bradford,E08000032,All,All,percent,14.4
+2022,Calderdale,E08000033,All,All,number_of_jobs_000s,11
+2022,Calderdale,E08000033,All,All,percent,13.3
+2022,Kirklees,E08000034,All,All,number_of_jobs_000s,23
+2022,Kirklees,E08000034,All,All,percent,16.6
+2022,Leeds,E08000035,All,All,number_of_jobs_000s,123
+2022,Leeds,E08000035,All,All,percent,22.7
+2022,Wakefield,E08000036,All,All,number_of_jobs_000s,19
+2022,Wakefield,E08000036,All,All,percent,13.2
+2022,North East,E12000001,Male,All,number_of_jobs_000s,62
+2022,North East,E12000001,Male,All,percent,12.5
+2022,Darlington UA,E06000005,Male,All,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,Male,All,percent,NA
+2022,Hartlepool UA,E06000001,Male,All,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Male,All,percent,NA
+2022,Middlesbrough UA,E06000002,Male,All,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,Male,All,percent,NA
+2022,Redcar and Cleveland UA,E06000003,Male,All,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Male,All,percent,NA
+2022,Stockton-on-Tees UA,E06000004,Male,All,number_of_jobs_000s,NA
+2022,Stockton-on-Tees UA,E06000004,Male,All,percent,NA
+2022,County Durham UA,E06000047,Male,All,number_of_jobs_000s,13
+2022,County Durham UA,E06000047,Male,All,percent,14.3
+2022,Northumberland UA,E06000057,Male,All,number_of_jobs_000s,5
+2022,Northumberland UA,E06000057,Male,All,percent,9.9
+2022,Tyne and Wear Met County,E11000007,Male,All,number_of_jobs_000s,29
+2022,Tyne and Wear Met County,E11000007,Male,All,percent,11.8
+2022,Gateshead,E08000037,Male,All,number_of_jobs_000s,6
+2022,Gateshead,E08000037,Male,All,percent,13.3
+2022,Newcastle upon Tyne,E08000021,Male,All,number_of_jobs_000s,10
+2022,Newcastle upon Tyne,E08000021,Male,All,percent,10.8
+2022,North Tyneside,E08000022,Male,All,number_of_jobs_000s,NA
+2022,North Tyneside,E08000022,Male,All,percent,NA
+2022,South Tyneside,E08000023,Male,All,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,Male,All,percent,NA
+2022,Sunderland,E08000024,Male,All,number_of_jobs_000s,8
+2022,Sunderland,E08000024,Male,All,percent,13
+2022,North West,E12000002,Male,All,number_of_jobs_000s,147
+2022,North West,E12000002,Male,All,percent,10.1
+2022,Blackburn with Darwen UA,E06000008,Male,All,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Male,All,percent,NA
+2022,Blackpool UA,E06000009,Male,All,number_of_jobs_000s,7
+2022,Blackpool UA,E06000009,Male,All,percent,23.6
+2022,Halton UA,E06000006,Male,All,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,Male,All,percent,NA
+2022,Warrington UA,E06000007,Male,All,number_of_jobs_000s,NA
+2022,Warrington UA,E06000007,Male,All,percent,7.6
+2022,Cheshire East UA,E06000049,Male,All,number_of_jobs_000s,5
+2022,Cheshire East UA,E06000049,Male,All,percent,6
+2022,Cheshire West and Chester,E06000050,Male,All,number_of_jobs_000s,7
+2022,Cheshire West and Chester,E06000050,Male,All,percent,10.9
+2022,Cumbria,E10000006,Male,All,number_of_jobs_000s,10
+2022,Cumbria,E10000006,Male,All,percent,8.8
+2022,Allerdale,E07000026,Male,All,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Male,All,percent,NA
+2022,Barrow-in-Furness,E07000027,Male,All,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Male,All,percent,NA
+2022,Carlisle,E07000028,Male,All,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Male,All,percent,NA
+2022,Copeland,E07000029,Male,All,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Male,All,percent,NA
+2022,Eden,E07000030,Male,All,number_of_jobs_000s,NA
+2022,Eden,E07000030,Male,All,percent,NA
+2022,South Lakeland,E07000031,Male,All,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Male,All,percent,NA
+2022,Greater Manchester Met County,E11000001,Male,All,number_of_jobs_000s,61
+2022,Greater Manchester Met County,E11000001,Male,All,percent,10.9
+2022,Bolton,E08000001,Male,All,number_of_jobs_000s,6
+2022,Bolton,E08000001,Male,All,percent,13.2
+2022,Bury,E08000002,Male,All,number_of_jobs_000s,NA
+2022,Bury,E08000002,Male,All,percent,NA
+2022,Manchester,E08000003,Male,All,number_of_jobs_000s,17
+2022,Manchester,E08000003,Male,All,percent,9.3
+2022,Oldham,E08000004,Male,All,number_of_jobs_000s,6
+2022,Oldham,E08000004,Male,All,percent,16
+2022,Rochdale,E08000005,Male,All,number_of_jobs_000s,8
+2022,Rochdale,E08000005,Male,All,percent,21.2
+2022,Salford,E08000006,Male,All,number_of_jobs_000s,NA
+2022,Salford,E08000006,Male,All,percent,8.2
+2022,Stockport,E08000007,Male,All,number_of_jobs_000s,5
+2022,Stockport,E08000007,Male,All,percent,10.1
+2022,Tameside,E08000008,Male,All,number_of_jobs_000s,NA
+2022,Tameside,E08000008,Male,All,percent,NA
+2022,Trafford,E08000009,Male,All,number_of_jobs_000s,6
+2022,Trafford,E08000009,Male,All,percent,10.3
+2022,Wigan,E08000010,Male,All,number_of_jobs_000s,NA
+2022,Wigan,E08000010,Male,All,percent,NA
+2022,Lancashire,E10000017,Male,All,number_of_jobs_000s,23
+2022,Lancashire,E10000017,Male,All,percent,9.6
+2022,Burnley,E07000117,Male,All,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Male,All,percent,NA
+2022,Chorley,E07000118,Male,All,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Male,All,percent,NA
+2022,Fylde,E07000119,Male,All,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Male,All,percent,NA
+2022,Hyndburn,E07000120,Male,All,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Male,All,percent,NA
+2022,Lancaster,E07000121,Male,All,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Male,All,percent,NA
+2022,Pendle,E07000122,Male,All,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Male,All,percent,NA
+2022,Preston,E07000123,Male,All,number_of_jobs_000s,6
+2022,Preston,E07000123,Male,All,percent,13.7
+2022,Ribble Valley,E07000124,Male,All,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Male,All,percent,NA
+2022,Rossendale,E07000125,Male,All,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Male,All,percent,NA
+2022,South Ribble,E07000126,Male,All,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Male,All,percent,NA
+2022,West Lancashire,E07000127,Male,All,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Male,All,percent,NA
+2022,Wyre,E07000128,Male,All,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Male,All,percent,NA
+2022,Merseyside Met County,E11000002,Male,All,number_of_jobs_000s,22
+2022,Merseyside Met County,E11000002,Male,All,percent,9.6
+2022,Knowsley,E08000011,Male,All,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,Male,All,percent,NA
+2022,Liverpool,E08000012,Male,All,number_of_jobs_000s,9
+2022,Liverpool,E08000012,Male,All,percent,8.4
+2022,St. Helens,E08000013,Male,All,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Male,All,percent,NA
+2022,Sefton,E08000014,Male,All,number_of_jobs_000s,NA
+2022,Sefton,E08000014,Male,All,percent,NA
+2022,Wirral,E08000015,Male,All,number_of_jobs_000s,NA
+2022,Wirral,E08000015,Male,All,percent,NA
+2022,Yorkshire and The Humber,E12000003,Male,All,number_of_jobs_000s,139
+2022,Yorkshire and The Humber,E12000003,Male,All,percent,11.8
+2022,East Riding of Yorkshire UA,E06000011,Male,All,number_of_jobs_000s,7
+2022,East Riding of Yorkshire UA,E06000011,Male,All,percent,11.3
+2022,Kingston upon Hull UA,E06000010,Male,All,number_of_jobs_000s,6
+2022,Kingston upon Hull UA,E06000010,Male,All,percent,10.5
+2022,North East Lincolnshire UA,E06000012,Male,All,number_of_jobs_000s,NA
+2022,North East Lincolnshire UA,E06000012,Male,All,percent,NA
+2022,North Lincolnshire UA,E06000013,Male,All,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,Male,All,percent,NA
+2022,York UA,E06000014,Male,All,number_of_jobs_000s,6
+2022,York UA,E06000014,Male,All,percent,10.3
+2022,North Yorkshire,E10000023,Male,All,number_of_jobs_000s,12
+2022,North Yorkshire,E10000023,Male,All,percent,8.7
+2022,Craven,E07000163,Male,All,number_of_jobs_000s,NA
+2022,Craven,E07000163,Male,All,percent,NA
+2022,Hambleton,E07000164,Male,All,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Male,All,percent,NA
+2022,Harrogate,E07000165,Male,All,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Male,All,percent,NA
+2022,Richmondshire,E07000166,Male,All,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Male,All,percent,0
+2022,Ryedale,E07000167,Male,All,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Male,All,percent,NA
+2022,Scarborough,E07000168,Male,All,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Male,All,percent,NA
+2022,Selby,E07000169,Male,All,number_of_jobs_000s,NA
+2022,Selby,E07000169,Male,All,percent,NA
+2022,South Yorkshire Met County,E11000003,Male,All,number_of_jobs_000s,25
+2022,South Yorkshire Met County,E11000003,Male,All,percent,9.9
+2022,Barnsley,E08000016,Male,All,number_of_jobs_000s,NA
+2022,Barnsley,E08000016,Male,All,percent,NA
+2022,Doncaster,E08000017,Male,All,number_of_jobs_000s,6
+2022,Doncaster,E08000017,Male,All,percent,11.1
+2022,Rotherham,E08000018,Male,All,number_of_jobs_000s,NA
+2022,Rotherham,E08000018,Male,All,percent,NA
+2022,Sheffield,E08000019,Male,All,number_of_jobs_000s,11
+2022,Sheffield,E08000019,Male,All,percent,9.9
+2022,West Yorkshire Met County,E11000006,Male,All,number_of_jobs_000s,78
+2022,West Yorkshire Met County,E11000006,Male,All,percent,14.2
+2022,Bradford,E08000032,Male,All,number_of_jobs_000s,11
+2022,Bradford,E08000032,Male,All,percent,12.4
+2022,Calderdale,E08000033,Male,All,number_of_jobs_000s,NA
+2022,Calderdale,E08000033,Male,All,percent,NA
+2022,Kirklees,E08000034,Male,All,number_of_jobs_000s,10
+2022,Kirklees,E08000034,Male,All,percent,13.3
+2022,Leeds,E08000035,Male,All,number_of_jobs_000s,49
+2022,Leeds,E08000035,Male,All,percent,17.7
+2022,Wakefield,E08000036,Male,All,number_of_jobs_000s,5
+2022,Wakefield,E08000036,Male,All,percent,7.4
+2022,North East,E12000001,Female,All,number_of_jobs_000s,93
+2022,North East,E12000001,Female,All,percent,16.9
+2022,Darlington UA,E06000005,Female,All,number_of_jobs_000s,5
+2022,Darlington UA,E06000005,Female,All,percent,16.5
+2022,Hartlepool UA,E06000001,Female,All,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Female,All,percent,NA
+2022,Middlesbrough UA,E06000002,Female,All,number_of_jobs_000s,6
+2022,Middlesbrough UA,E06000002,Female,All,percent,23.9
+2022,Redcar and Cleveland UA,E06000003,Female,All,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Female,All,percent,27.7
+2022,Stockton-on-Tees UA,E06000004,Female,All,number_of_jobs_000s,6
+2022,Stockton-on-Tees UA,E06000004,Female,All,percent,15.6
+2022,County Durham UA,E06000047,Female,All,number_of_jobs_000s,17
+2022,County Durham UA,E06000047,Female,All,percent,18.9
+2022,Northumberland UA,E06000057,Female,All,number_of_jobs_000s,10
+2022,Northumberland UA,E06000057,Female,All,percent,17
+2022,Tyne and Wear Met County,E11000007,Female,All,number_of_jobs_000s,42
+2022,Tyne and Wear Met County,E11000007,Female,All,percent,15.4
+2022,Gateshead,E08000037,Female,All,number_of_jobs_000s,8
+2022,Gateshead,E08000037,Female,All,percent,18.9
+2022,Newcastle upon Tyne,E08000021,Female,All,number_of_jobs_000s,13
+2022,Newcastle upon Tyne,E08000021,Female,All,percent,12.5
+2022,North Tyneside,E08000022,Female,All,number_of_jobs_000s,6
+2022,North Tyneside,E08000022,Female,All,percent,14.8
+2022,South Tyneside,E08000023,Female,All,number_of_jobs_000s,5
+2022,South Tyneside,E08000023,Female,All,percent,24.3
+2022,Sunderland,E08000024,Female,All,number_of_jobs_000s,9
+2022,Sunderland,E08000024,Female,All,percent,15.4
+2022,North West,E12000002,Female,All,number_of_jobs_000s,220
+2022,North West,E12000002,Female,All,percent,14.9
+2022,Blackburn with Darwen UA,E06000008,Female,All,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Female,All,percent,NA
+2022,Blackpool UA,E06000009,Female,All,number_of_jobs_000s,5
+2022,Blackpool UA,E06000009,Female,All,percent,14.1
+2022,Halton UA,E06000006,Female,All,number_of_jobs_000s,5
+2022,Halton UA,E06000006,Female,All,percent,20.2
+2022,Warrington UA,E06000007,Female,All,number_of_jobs_000s,7
+2022,Warrington UA,E06000007,Female,All,percent,14
+2022,Cheshire East UA,E06000049,Female,All,number_of_jobs_000s,10
+2022,Cheshire East UA,E06000049,Female,All,percent,12.1
+2022,Cheshire West and Chester,E06000050,Female,All,number_of_jobs_000s,8
+2022,Cheshire West and Chester,E06000050,Female,All,percent,10.9
+2022,Cumbria,E10000006,Female,All,number_of_jobs_000s,17
+2022,Cumbria,E10000006,Female,All,percent,17
+2022,Allerdale,E07000026,Female,All,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Female,All,percent,NA
+2022,Barrow-in-Furness,E07000027,Female,All,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Female,All,percent,NA
+2022,Carlisle,E07000028,Female,All,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Female,All,percent,NA
+2022,Copeland,E07000029,Female,All,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Female,All,percent,NA
+2022,Eden,E07000030,Female,All,number_of_jobs_000s,NA
+2022,Eden,E07000030,Female,All,percent,NA
+2022,South Lakeland,E07000031,Female,All,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Female,All,percent,NA
+2022,Greater Manchester Met County,E11000001,Female,All,number_of_jobs_000s,81
+2022,Greater Manchester Met County,E11000001,Female,All,percent,14
+2022,Bolton,E08000001,Female,All,number_of_jobs_000s,6
+2022,Bolton,E08000001,Female,All,percent,14.5
+2022,Bury,E08000002,Female,All,number_of_jobs_000s,NA
+2022,Bury,E08000002,Female,All,percent,13.6
+2022,Manchester,E08000003,Female,All,number_of_jobs_000s,19
+2022,Manchester,E08000003,Female,All,percent,10.1
+2022,Oldham,E08000004,Female,All,number_of_jobs_000s,8
+2022,Oldham,E08000004,Female,All,percent,19.8
+2022,Rochdale,E08000005,Female,All,number_of_jobs_000s,8
+2022,Rochdale,E08000005,Female,All,percent,23.2
+2022,Salford,E08000006,Female,All,number_of_jobs_000s,6
+2022,Salford,E08000006,Female,All,percent,9.5
+2022,Stockport,E08000007,Female,All,number_of_jobs_000s,7
+2022,Stockport,E08000007,Female,All,percent,14.1
+2022,Tameside,E08000008,Female,All,number_of_jobs_000s,7
+2022,Tameside,E08000008,Female,All,percent,27.3
+2022,Trafford,E08000009,Female,All,number_of_jobs_000s,6
+2022,Trafford,E08000009,Female,All,percent,11.6
+2022,Wigan,E08000010,Female,All,number_of_jobs_000s,9
+2022,Wigan,E08000010,Female,All,percent,18
+2022,Lancashire,E10000017,Female,All,number_of_jobs_000s,43
+2022,Lancashire,E10000017,Female,All,percent,18.3
+2022,Burnley,E07000117,Female,All,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Female,All,percent,NA
+2022,Chorley,E07000118,Female,All,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Female,All,percent,22.1
+2022,Fylde,E07000119,Female,All,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Female,All,percent,NA
+2022,Hyndburn,E07000120,Female,All,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Female,All,percent,31.6
+2022,Lancaster,E07000121,Female,All,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Female,All,percent,20
+2022,Pendle,E07000122,Female,All,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Female,All,percent,NA
+2022,Preston,E07000123,Female,All,number_of_jobs_000s,6
+2022,Preston,E07000123,Female,All,percent,12
+2022,Ribble Valley,E07000124,Female,All,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Female,All,percent,NA
+2022,Rossendale,E07000125,Female,All,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Female,All,percent,NA
+2022,South Ribble,E07000126,Female,All,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Female,All,percent,NA
+2022,West Lancashire,E07000127,Female,All,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Female,All,percent,NA
+2022,Wyre,E07000128,Female,All,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Female,All,percent,30.2
+2022,Merseyside Met County,E11000002,Female,All,number_of_jobs_000s,39
+2022,Merseyside Met County,E11000002,Female,All,percent,15.1
+2022,Knowsley,E08000011,Female,All,number_of_jobs_000s,5
+2022,Knowsley,E08000011,Female,All,percent,16.8
+2022,Liverpool,E08000012,Female,All,number_of_jobs_000s,16
+2022,Liverpool,E08000012,Female,All,percent,13.5
+2022,St. Helens,E08000013,Female,All,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Female,All,percent,18.6
+2022,Sefton,E08000014,Female,All,number_of_jobs_000s,8
+2022,Sefton,E08000014,Female,All,percent,16.4
+2022,Wirral,E08000015,Female,All,number_of_jobs_000s,6
+2022,Wirral,E08000015,Female,All,percent,15
+2022,Yorkshire and The Humber,E12000003,Female,All,number_of_jobs_000s,229
+2022,Yorkshire and The Humber,E12000003,Female,All,percent,19.9
+2022,East Riding of Yorkshire UA,E06000011,Female,All,number_of_jobs_000s,11
+2022,East Riding of Yorkshire UA,E06000011,Female,All,percent,16.6
+2022,Kingston upon Hull UA,E06000010,Female,All,number_of_jobs_000s,10
+2022,Kingston upon Hull UA,E06000010,Female,All,percent,16.3
+2022,North East Lincolnshire UA,E06000012,Female,All,number_of_jobs_000s,7
+2022,North East Lincolnshire UA,E06000012,Female,All,percent,26.5
+2022,North Lincolnshire UA,E06000013,Female,All,number_of_jobs_000s,6
+2022,North Lincolnshire UA,E06000013,Female,All,percent,18.2
+2022,York UA,E06000014,Female,All,number_of_jobs_000s,6
+2022,York UA,E06000014,Female,All,percent,11.9
+2022,North Yorkshire,E10000023,Female,All,number_of_jobs_000s,20
+2022,North Yorkshire,E10000023,Female,All,percent,15.4
+2022,Craven,E07000163,Female,All,number_of_jobs_000s,NA
+2022,Craven,E07000163,Female,All,percent,NA
+2022,Hambleton,E07000164,Female,All,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Female,All,percent,22.6
+2022,Harrogate,E07000165,Female,All,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Female,All,percent,NA
+2022,Richmondshire,E07000166,Female,All,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Female,All,percent,NA
+2022,Ryedale,E07000167,Female,All,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Female,All,percent,NA
+2022,Scarborough,E07000168,Female,All,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Female,All,percent,NA
+2022,Selby,E07000169,Female,All,number_of_jobs_000s,NA
+2022,Selby,E07000169,Female,All,percent,NA
+2022,South Yorkshire Met County,E11000003,Female,All,number_of_jobs_000s,46
+2022,South Yorkshire Met County,E11000003,Female,All,percent,18.6
+2022,Barnsley,E08000016,Female,All,number_of_jobs_000s,6
+2022,Barnsley,E08000016,Female,All,percent,17.1
+2022,Doncaster,E08000017,Female,All,number_of_jobs_000s,12
+2022,Doncaster,E08000017,Female,All,percent,24.5
+2022,Rotherham,E08000018,Female,All,number_of_jobs_000s,9
+2022,Rotherham,E08000018,Female,All,percent,18.5
+2022,Sheffield,E08000019,Female,All,number_of_jobs_000s,18
+2022,Sheffield,E08000019,Female,All,percent,16.5
+2022,West Yorkshire Met County,E11000006,Female,All,number_of_jobs_000s,124
+2022,West Yorkshire Met County,E11000006,Female,All,percent,23
+2022,Bradford,E08000032,Female,All,number_of_jobs_000s,16
+2022,Bradford,E08000032,Female,All,percent,16
+2022,Calderdale,E08000033,Female,All,number_of_jobs_000s,8
+2022,Calderdale,E08000033,Female,All,percent,19.1
+2022,Kirklees,E08000034,Female,All,number_of_jobs_000s,13
+2022,Kirklees,E08000034,Female,All,percent,20.3
+2022,Leeds,E08000035,Female,All,number_of_jobs_000s,74
+2022,Leeds,E08000035,Female,All,percent,27.9
+2022,Wakefield,E08000036,Female,All,number_of_jobs_000s,14
+2022,Wakefield,E08000036,Female,All,percent,18.6
+2022,North East,E12000001,All,Full-Time,number_of_jobs_000s,63
+2022,North East,E12000001,All,Full-Time,percent,8.6
+2022,Darlington UA,E06000005,All,Full-Time,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,All,Full-Time,percent,NA
+2022,Hartlepool UA,E06000001,All,Full-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,All,Full-Time,percent,NA
+2022,Middlesbrough UA,E06000002,All,Full-Time,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,All,Full-Time,percent,NA
+2022,Redcar and Cleveland UA,E06000003,All,Full-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,All,Full-Time,percent,NA
+2022,Stockton-on-Tees UA,E06000004,All,Full-Time,number_of_jobs_000s,NA
+2022,Stockton-on-Tees UA,E06000004,All,Full-Time,percent,NA
+2022,County Durham UA,E06000047,All,Full-Time,number_of_jobs_000s,13
+2022,County Durham UA,E06000047,All,Full-Time,percent,10.6
+2022,Northumberland UA,E06000057,All,Full-Time,number_of_jobs_000s,5
+2022,Northumberland UA,E06000057,All,Full-Time,percent,7.8
+2022,Tyne and Wear Met County,E11000007,All,Full-Time,number_of_jobs_000s,31
+2022,Tyne and Wear Met County,E11000007,All,Full-Time,percent,8.3
+2022,Gateshead,E08000037,All,Full-Time,number_of_jobs_000s,5
+2022,Gateshead,E08000037,All,Full-Time,percent,8.2
+2022,Newcastle upon Tyne,E08000021,All,Full-Time,number_of_jobs_000s,10
+2022,Newcastle upon Tyne,E08000021,All,Full-Time,percent,7.1
+2022,North Tyneside,E08000022,All,Full-Time,number_of_jobs_000s,NA
+2022,North Tyneside,E08000022,All,Full-Time,percent,NA
+2022,South Tyneside,E08000023,All,Full-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,All,Full-Time,percent,NA
+2022,Sunderland,E08000024,All,Full-Time,number_of_jobs_000s,9
+2022,Sunderland,E08000024,All,Full-Time,percent,9.7
+2022,North West,E12000002,All,Full-Time,number_of_jobs_000s,159
+2022,North West,E12000002,All,Full-Time,percent,7.4
+2022,Blackburn with Darwen UA,E06000008,All,Full-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,All,Full-Time,percent,NA
+2022,Blackpool UA,E06000009,All,Full-Time,number_of_jobs_000s,5
+2022,Blackpool UA,E06000009,All,Full-Time,percent,11.4
+2022,Halton UA,E06000006,All,Full-Time,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,All,Full-Time,percent,NA
+2022,Warrington UA,E06000007,All,Full-Time,number_of_jobs_000s,NA
+2022,Warrington UA,E06000007,All,Full-Time,percent,NA
+2022,Cheshire East UA,E06000049,All,Full-Time,number_of_jobs_000s,6
+2022,Cheshire East UA,E06000049,All,Full-Time,percent,4.7
+2022,Cheshire West and Chester,E06000050,All,Full-Time,number_of_jobs_000s,7
+2022,Cheshire West and Chester,E06000050,All,Full-Time,percent,6.8
+2022,Cumbria,E10000006,All,Full-Time,number_of_jobs_000s,13
+2022,Cumbria,E10000006,All,Full-Time,percent,8
+2022,Allerdale,E07000026,All,Full-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,All,Full-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,All,Full-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,All,Full-Time,percent,NA
+2022,Carlisle,E07000028,All,Full-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,All,Full-Time,percent,NA
+2022,Copeland,E07000029,All,Full-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,All,Full-Time,percent,NA
+2022,Eden,E07000030,All,Full-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,All,Full-Time,percent,NA
+2022,South Lakeland,E07000031,All,Full-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,All,Full-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,All,Full-Time,number_of_jobs_000s,63
+2022,Greater Manchester Met County,E11000001,All,Full-Time,percent,7.4
+2022,Bolton,E08000001,All,Full-Time,number_of_jobs_000s,6
+2022,Bolton,E08000001,All,Full-Time,percent,9
+2022,Bury,E08000002,All,Full-Time,number_of_jobs_000s,NA
+2022,Bury,E08000002,All,Full-Time,percent,NA
+2022,Manchester,E08000003,All,Full-Time,number_of_jobs_000s,14
+2022,Manchester,E08000003,All,Full-Time,percent,4.7
+2022,Oldham,E08000004,All,Full-Time,number_of_jobs_000s,7
+2022,Oldham,E08000004,All,Full-Time,percent,12.8
+2022,Rochdale,E08000005,All,Full-Time,number_of_jobs_000s,8
+2022,Rochdale,E08000005,All,Full-Time,percent,16.2
+2022,Salford,E08000006,All,Full-Time,number_of_jobs_000s,6
+2022,Salford,E08000006,All,Full-Time,percent,6
+2022,Stockport,E08000007,All,Full-Time,number_of_jobs_000s,6
+2022,Stockport,E08000007,All,Full-Time,percent,8.8
+2022,Tameside,E08000008,All,Full-Time,number_of_jobs_000s,NA
+2022,Tameside,E08000008,All,Full-Time,percent,NA
+2022,Trafford,E08000009,All,Full-Time,number_of_jobs_000s,5
+2022,Trafford,E08000009,All,Full-Time,percent,6.3
+2022,Wigan,E08000010,All,Full-Time,number_of_jobs_000s,6
+2022,Wigan,E08000010,All,Full-Time,percent,9.2
+2022,Lancashire,E10000017,All,Full-Time,number_of_jobs_000s,28
+2022,Lancashire,E10000017,All,Full-Time,percent,8.3
+2022,Burnley,E07000117,All,Full-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,All,Full-Time,percent,NA
+2022,Chorley,E07000118,All,Full-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,All,Full-Time,percent,NA
+2022,Fylde,E07000119,All,Full-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,All,Full-Time,percent,NA
+2022,Hyndburn,E07000120,All,Full-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,All,Full-Time,percent,NA
+2022,Lancaster,E07000121,All,Full-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,All,Full-Time,percent,NA
+2022,Pendle,E07000122,All,Full-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,All,Full-Time,percent,NA
+2022,Preston,E07000123,All,Full-Time,number_of_jobs_000s,6
+2022,Preston,E07000123,All,Full-Time,percent,8.3
+2022,Ribble Valley,E07000124,All,Full-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,All,Full-Time,percent,NA
+2022,Rossendale,E07000125,All,Full-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,All,Full-Time,percent,NA
+2022,South Ribble,E07000126,All,Full-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,All,Full-Time,percent,NA
+2022,West Lancashire,E07000127,All,Full-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,All,Full-Time,percent,NA
+2022,Wyre,E07000128,All,Full-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,All,Full-Time,percent,NA
+2022,Merseyside Met County,E11000002,All,Full-Time,number_of_jobs_000s,26
+2022,Merseyside Met County,E11000002,All,Full-Time,percent,7.2
+2022,Knowsley,E08000011,All,Full-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,All,Full-Time,percent,NA
+2022,Liverpool,E08000012,All,Full-Time,number_of_jobs_000s,9
+2022,Liverpool,E08000012,All,Full-Time,percent,5.7
+2022,St. Helens,E08000013,All,Full-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,All,Full-Time,percent,NA
+2022,Sefton,E08000014,All,Full-Time,number_of_jobs_000s,5
+2022,Sefton,E08000014,All,Full-Time,percent,8.9
+2022,Wirral,E08000015,All,Full-Time,number_of_jobs_000s,NA
+2022,Wirral,E08000015,All,Full-Time,percent,8.4
+2022,Yorkshire and The Humber,E12000003,All,Full-Time,number_of_jobs_000s,138
+2022,Yorkshire and The Humber,E12000003,All,Full-Time,percent,8.5
+2022,East Riding of Yorkshire UA,E06000011,All,Full-Time,number_of_jobs_000s,8
+2022,East Riding of Yorkshire UA,E06000011,All,Full-Time,percent,8.8
+2022,Kingston upon Hull UA,E06000010,All,Full-Time,number_of_jobs_000s,7
+2022,Kingston upon Hull UA,E06000010,All,Full-Time,percent,8
+2022,North East Lincolnshire UA,E06000012,All,Full-Time,number_of_jobs_000s,NA
+2022,North East Lincolnshire UA,E06000012,All,Full-Time,percent,11.5
+2022,North Lincolnshire UA,E06000013,All,Full-Time,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,All,Full-Time,percent,NA
+2022,York UA,E06000014,All,Full-Time,number_of_jobs_000s,NA
+2022,York UA,E06000014,All,Full-Time,percent,6.3
+2022,North Yorkshire,E10000023,All,Full-Time,number_of_jobs_000s,13
+2022,North Yorkshire,E10000023,All,Full-Time,percent,6.8
+2022,Craven,E07000163,All,Full-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,All,Full-Time,percent,NA
+2022,Hambleton,E07000164,All,Full-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,All,Full-Time,percent,NA
+2022,Harrogate,E07000165,All,Full-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,All,Full-Time,percent,NA
+2022,Richmondshire,E07000166,All,Full-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,All,Full-Time,percent,NA
+2022,Ryedale,E07000167,All,Full-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,All,Full-Time,percent,NA
+2022,Scarborough,E07000168,All,Full-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,All,Full-Time,percent,NA
+2022,Selby,E07000169,All,Full-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,All,Full-Time,percent,NA
+2022,South Yorkshire Met County,E11000003,All,Full-Time,number_of_jobs_000s,26
+2022,South Yorkshire Met County,E11000003,All,Full-Time,percent,7.4
+2022,Barnsley,E08000016,All,Full-Time,number_of_jobs_000s,NA
+2022,Barnsley,E08000016,All,Full-Time,percent,7.7
+2022,Doncaster,E08000017,All,Full-Time,number_of_jobs_000s,6
+2022,Doncaster,E08000017,All,Full-Time,percent,8.7
+2022,Rotherham,E08000018,All,Full-Time,number_of_jobs_000s,NA
+2022,Rotherham,E08000018,All,Full-Time,percent,7.1
+2022,Sheffield,E08000019,All,Full-Time,number_of_jobs_000s,11
+2022,Sheffield,E08000019,All,Full-Time,percent,6.9
+2022,West Yorkshire Met County,E11000006,All,Full-Time,number_of_jobs_000s,72
+2022,West Yorkshire Met County,E11000006,All,Full-Time,percent,9.6
+2022,Bradford,E08000032,All,Full-Time,number_of_jobs_000s,8
+2022,Bradford,E08000032,All,Full-Time,percent,6.3
+2022,Calderdale,E08000033,All,Full-Time,number_of_jobs_000s,NA
+2022,Calderdale,E08000033,All,Full-Time,percent,NA
+2022,Kirklees,E08000034,All,Full-Time,number_of_jobs_000s,9
+2022,Kirklees,E08000034,All,Full-Time,percent,9.1
+2022,Leeds,E08000035,All,Full-Time,number_of_jobs_000s,43
+2022,Leeds,E08000035,All,Full-Time,percent,12.1
+2022,Wakefield,E08000036,All,Full-Time,number_of_jobs_000s,8
+2022,Wakefield,E08000036,All,Full-Time,percent,7.9
+2022,North East,E12000001,All,Part-Time,number_of_jobs_000s,92
+2022,North East,E12000001,All,Part-Time,percent,29.4
+2022,Darlington UA,E06000005,All,Part-Time,number_of_jobs_000s,4
+2022,Darlington UA,E06000005,All,Part-Time,percent,36.6
+2022,Hartlepool UA,E06000001,All,Part-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,All,Part-Time,percent,NA
+2022,Middlesbrough UA,E06000002,All,Part-Time,number_of_jobs_000s,6
+2022,Middlesbrough UA,E06000002,All,Part-Time,percent,41.6
+2022,Redcar and Cleveland UA,E06000003,All,Part-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,All,Part-Time,percent,43.1
+2022,Stockton-on-Tees UA,E06000004,All,Part-Time,number_of_jobs_000s,8
+2022,Stockton-on-Tees UA,E06000004,All,Part-Time,percent,32.7
+2022,County Durham UA,E06000047,All,Part-Time,number_of_jobs_000s,17
+2022,County Durham UA,E06000047,All,Part-Time,percent,29.2
+2022,Northumberland UA,E06000057,All,Part-Time,number_of_jobs_000s,9
+2022,Northumberland UA,E06000057,All,Part-Time,percent,24.6
+2022,Tyne and Wear Met County,E11000007,All,Part-Time,number_of_jobs_000s,40
+2022,Tyne and Wear Met County,E11000007,All,Part-Time,percent,27.4
+2022,Gateshead,E08000037,All,Part-Time,number_of_jobs_000s,9
+2022,Gateshead,E08000037,All,Part-Time,percent,36.6
+2022,Newcastle upon Tyne,E08000021,All,Part-Time,number_of_jobs_000s,13
+2022,Newcastle upon Tyne,E08000021,All,Part-Time,percent,24
+2022,North Tyneside,E08000022,All,Part-Time,number_of_jobs_000s,6
+2022,North Tyneside,E08000022,All,Part-Time,percent,23.6
+2022,South Tyneside,E08000023,All,Part-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,All,Part-Time,percent,33.7
+2022,Sunderland,E08000024,All,Part-Time,number_of_jobs_000s,9
+2022,Sunderland,E08000024,All,Part-Time,percent,26.7
+2022,North West,E12000002,All,Part-Time,number_of_jobs_000s,208
+2022,North West,E12000002,All,Part-Time,percent,27
+2022,Blackburn with Darwen UA,E06000008,All,Part-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,All,Part-Time,percent,27
+2022,Blackpool UA,E06000009,All,Part-Time,number_of_jobs_000s,7
+2022,Blackpool UA,E06000009,All,Part-Time,percent,34.2
+2022,Halton UA,E06000006,All,Part-Time,number_of_jobs_000s,4
+2022,Halton UA,E06000006,All,Part-Time,percent,33.3
+2022,Warrington UA,E06000007,All,Part-Time,number_of_jobs_000s,8
+2022,Warrington UA,E06000007,All,Part-Time,percent,27.9
+2022,Cheshire East UA,E06000049,All,Part-Time,number_of_jobs_000s,9
+2022,Cheshire East UA,E06000049,All,Part-Time,percent,24.9
+2022,Cheshire West and Chester,E06000050,All,Part-Time,number_of_jobs_000s,8
+2022,Cheshire West and Chester,E06000050,All,Part-Time,percent,21.9
+2022,Cumbria,E10000006,All,Part-Time,number_of_jobs_000s,15
+2022,Cumbria,E10000006,All,Part-Time,percent,25.5
+2022,Allerdale,E07000026,All,Part-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,All,Part-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,All,Part-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,All,Part-Time,percent,NA
+2022,Carlisle,E07000028,All,Part-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,All,Part-Time,percent,NA
+2022,Copeland,E07000029,All,Part-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,All,Part-Time,percent,44.6
+2022,Eden,E07000030,All,Part-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,All,Part-Time,percent,NA
+2022,South Lakeland,E07000031,All,Part-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,All,Part-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,All,Part-Time,number_of_jobs_000s,79
+2022,Greater Manchester Met County,E11000001,All,Part-Time,percent,27.6
+2022,Bolton,E08000001,All,Part-Time,number_of_jobs_000s,7
+2022,Bolton,E08000001,All,Part-Time,percent,25.4
+2022,Bury,E08000002,All,Part-Time,number_of_jobs_000s,5
+2022,Bury,E08000002,All,Part-Time,percent,33.9
+2022,Manchester,E08000003,All,Part-Time,number_of_jobs_000s,22
+2022,Manchester,E08000003,All,Part-Time,percent,28
+2022,Oldham,E08000004,All,Part-Time,number_of_jobs_000s,7
+2022,Oldham,E08000004,All,Part-Time,percent,32.8
+2022,Rochdale,E08000005,All,Part-Time,number_of_jobs_000s,8
+2022,Rochdale,E08000005,All,Part-Time,percent,36.1
+2022,Salford,E08000006,All,Part-Time,number_of_jobs_000s,5
+2022,Salford,E08000006,All,Part-Time,percent,21.7
+2022,Stockport,E08000007,All,Part-Time,number_of_jobs_000s,6
+2022,Stockport,E08000007,All,Part-Time,percent,20
+2022,Tameside,E08000008,All,Part-Time,number_of_jobs_000s,6
+2022,Tameside,E08000008,All,Part-Time,percent,43.6
+2022,Trafford,E08000009,All,Part-Time,number_of_jobs_000s,7
+2022,Trafford,E08000009,All,Part-Time,percent,22.9
+2022,Wigan,E08000010,All,Part-Time,number_of_jobs_000s,7
+2022,Wigan,E08000010,All,Part-Time,percent,25.4
+2022,Lancashire,E10000017,All,Part-Time,number_of_jobs_000s,38
+2022,Lancashire,E10000017,All,Part-Time,percent,27.8
+2022,Burnley,E07000117,All,Part-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,All,Part-Time,percent,NA
+2022,Chorley,E07000118,All,Part-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,All,Part-Time,percent,NA
+2022,Fylde,E07000119,All,Part-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,All,Part-Time,percent,NA
+2022,Hyndburn,E07000120,All,Part-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,All,Part-Time,percent,42.2
+2022,Lancaster,E07000121,All,Part-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,All,Part-Time,percent,26.3
+2022,Pendle,E07000122,All,Part-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,All,Part-Time,percent,NA
+2022,Preston,E07000123,All,Part-Time,number_of_jobs_000s,6
+2022,Preston,E07000123,All,Part-Time,percent,24
+2022,Ribble Valley,E07000124,All,Part-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,All,Part-Time,percent,NA
+2022,Rossendale,E07000125,All,Part-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,All,Part-Time,percent,NA
+2022,South Ribble,E07000126,All,Part-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,All,Part-Time,percent,NA
+2022,West Lancashire,E07000127,All,Part-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,All,Part-Time,percent,NA
+2022,Wyre,E07000128,All,Part-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,All,Part-Time,percent,36.3
+2022,Merseyside Met County,E11000002,All,Part-Time,number_of_jobs_000s,36
+2022,Merseyside Met County,E11000002,All,Part-Time,percent,26
+2022,Knowsley,E08000011,All,Part-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,All,Part-Time,percent,27.9
+2022,Liverpool,E08000012,All,Part-Time,number_of_jobs_000s,15
+2022,Liverpool,E08000012,All,Part-Time,percent,26.3
+2022,St. Helens,E08000013,All,Part-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,All,Part-Time,percent,33.2
+2022,Sefton,E08000014,All,Part-Time,number_of_jobs_000s,7
+2022,Sefton,E08000014,All,Part-Time,percent,24.3
+2022,Wirral,E08000015,All,Part-Time,number_of_jobs_000s,6
+2022,Wirral,E08000015,All,Part-Time,percent,22.9
+2022,Yorkshire and The Humber,E12000003,All,Part-Time,number_of_jobs_000s,230
+2022,Yorkshire and The Humber,E12000003,All,Part-Time,percent,33.2
+2022,East Riding of Yorkshire UA,E06000011,All,Part-Time,number_of_jobs_000s,10
+2022,East Riding of Yorkshire UA,E06000011,All,Part-Time,percent,27.1
+2022,Kingston upon Hull UA,E06000010,All,Part-Time,number_of_jobs_000s,9
+2022,Kingston upon Hull UA,E06000010,All,Part-Time,percent,26.5
+2022,North East Lincolnshire UA,E06000012,All,Part-Time,number_of_jobs_000s,6
+2022,North East Lincolnshire UA,E06000012,All,Part-Time,percent,40.2
+2022,North Lincolnshire UA,E06000013,All,Part-Time,number_of_jobs_000s,4
+2022,North Lincolnshire UA,E06000013,All,Part-Time,percent,26.8
+2022,York UA,E06000014,All,Part-Time,number_of_jobs_000s,7
+2022,York UA,E06000014,All,Part-Time,percent,23.8
+2022,North Yorkshire,E10000023,All,Part-Time,number_of_jobs_000s,19
+2022,North Yorkshire,E10000023,All,Part-Time,percent,25.3
+2022,Craven,E07000163,All,Part-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,All,Part-Time,percent,NA
+2022,Hambleton,E07000164,All,Part-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,All,Part-Time,percent,30.7
+2022,Harrogate,E07000165,All,Part-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,All,Part-Time,percent,NA
+2022,Richmondshire,E07000166,All,Part-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,All,Part-Time,percent,NA
+2022,Ryedale,E07000167,All,Part-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,All,Part-Time,percent,NA
+2022,Scarborough,E07000168,All,Part-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,All,Part-Time,percent,27.2
+2022,Selby,E07000169,All,Part-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,All,Part-Time,percent,37.7
+2022,South Yorkshire Met County,E11000003,All,Part-Time,number_of_jobs_000s,44
+2022,South Yorkshire Met County,E11000003,All,Part-Time,percent,30.8
+2022,Barnsley,E08000016,All,Part-Time,number_of_jobs_000s,5
+2022,Barnsley,E08000016,All,Part-Time,percent,28.8
+2022,Doncaster,E08000017,All,Part-Time,number_of_jobs_000s,12
+2022,Doncaster,E08000017,All,Part-Time,percent,36.3
+2022,Rotherham,E08000018,All,Part-Time,number_of_jobs_000s,9
+2022,Rotherham,E08000018,All,Part-Time,percent,29.6
+2022,Sheffield,E08000019,All,Part-Time,number_of_jobs_000s,18
+2022,Sheffield,E08000019,All,Part-Time,percent,29.1
+2022,West Yorkshire Met County,E11000006,All,Part-Time,number_of_jobs_000s,130
+2022,West Yorkshire Met County,E11000006,All,Part-Time,percent,38.2
+2022,Bradford,E08000032,All,Part-Time,number_of_jobs_000s,18
+2022,Bradford,E08000032,All,Part-Time,percent,35.1
+2022,Calderdale,E08000033,All,Part-Time,number_of_jobs_000s,8
+2022,Calderdale,E08000033,All,Part-Time,percent,30.9
+2022,Kirklees,E08000034,All,Part-Time,number_of_jobs_000s,14
+2022,Kirklees,E08000034,All,Part-Time,percent,34.2
+2022,Leeds,E08000035,All,Part-Time,number_of_jobs_000s,80
+2022,Leeds,E08000035,All,Part-Time,percent,43.5
+2022,Wakefield,E08000036,All,Part-Time,number_of_jobs_000s,11
+2022,Wakefield,E08000036,All,Part-Time,percent,26.5
+2022,North East,E12000001,Male,Full-Time,number_of_jobs_000s,37
+2022,North East,E12000001,Male,Full-Time,percent,8.6
+2022,Darlington UA,E06000005,Male,Full-Time,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,Male,Full-Time,percent,NA
+2022,Hartlepool UA,E06000001,Male,Full-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Male,Full-Time,percent,NA
+2022,Middlesbrough UA,E06000002,Male,Full-Time,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,Male,Full-Time,percent,NA
+2022,Redcar and Cleveland UA,E06000003,Male,Full-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Male,Full-Time,percent,NA
+2022,Stockton-on-Tees UA,E06000004,Male,Full-Time,number_of_jobs_000s,NA
+2022,Stockton-on-Tees UA,E06000004,Male,Full-Time,percent,NA
+2022,County Durham UA,E06000047,Male,Full-Time,number_of_jobs_000s,9
+2022,County Durham UA,E06000047,Male,Full-Time,percent,11.8
+2022,Northumberland UA,E06000057,Male,Full-Time,number_of_jobs_000s,NA
+2022,Northumberland UA,E06000057,Male,Full-Time,percent,NA
+2022,Tyne and Wear Met County,E11000007,Male,Full-Time,number_of_jobs_000s,18
+2022,Tyne and Wear Met County,E11000007,Male,Full-Time,percent,8.5
+2022,Gateshead,E08000037,Male,Full-Time,number_of_jobs_000s,NA
+2022,Gateshead,E08000037,Male,Full-Time,percent,NA
+2022,Newcastle upon Tyne,E08000021,Male,Full-Time,number_of_jobs_000s,6
+2022,Newcastle upon Tyne,E08000021,Male,Full-Time,percent,7.8
+2022,North Tyneside,E08000022,Male,Full-Time,number_of_jobs_000s,NA
+2022,North Tyneside,E08000022,Male,Full-Time,percent,NA
+2022,South Tyneside,E08000023,Male,Full-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,Male,Full-Time,percent,NA
+2022,Sunderland,E08000024,Male,Full-Time,number_of_jobs_000s,5
+2022,Sunderland,E08000024,Male,Full-Time,percent,10.1
+2022,North West,E12000002,Male,Full-Time,number_of_jobs_000s,81
+2022,North West,E12000002,Male,Full-Time,percent,6.5
+2022,Blackburn with Darwen UA,E06000008,Male,Full-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Male,Full-Time,percent,NA
+2022,Blackpool UA,E06000009,Male,Full-Time,number_of_jobs_000s,NA
+2022,Blackpool UA,E06000009,Male,Full-Time,percent,NA
+2022,Halton UA,E06000006,Male,Full-Time,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,Male,Full-Time,percent,NA
+2022,Warrington UA,E06000007,Male,Full-Time,number_of_jobs_000s,NA
+2022,Warrington UA,E06000007,Male,Full-Time,percent,NA
+2022,Cheshire East UA,E06000049,Male,Full-Time,number_of_jobs_000s,NA
+2022,Cheshire East UA,E06000049,Male,Full-Time,percent,NA
+2022,Cheshire West and Chester,E06000050,Male,Full-Time,number_of_jobs_000s,NA
+2022,Cheshire West and Chester,E06000050,Male,Full-Time,percent,NA
+2022,Cumbria,E10000006,Male,Full-Time,number_of_jobs_000s,7
+2022,Cumbria,E10000006,Male,Full-Time,percent,6.9
+2022,Allerdale,E07000026,Male,Full-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Male,Full-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,Male,Full-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Male,Full-Time,percent,NA
+2022,Carlisle,E07000028,Male,Full-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Male,Full-Time,percent,NA
+2022,Copeland,E07000029,Male,Full-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Male,Full-Time,percent,NA
+2022,Eden,E07000030,Male,Full-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,Male,Full-Time,percent,NA
+2022,South Lakeland,E07000031,Male,Full-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Male,Full-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,Male,Full-Time,number_of_jobs_000s,34
+2022,Greater Manchester Met County,E11000001,Male,Full-Time,percent,7
+2022,Bolton,E08000001,Male,Full-Time,number_of_jobs_000s,NA
+2022,Bolton,E08000001,Male,Full-Time,percent,NA
+2022,Bury,E08000002,Male,Full-Time,number_of_jobs_000s,NA
+2022,Bury,E08000002,Male,Full-Time,percent,NA
+2022,Manchester,E08000003,Male,Full-Time,number_of_jobs_000s,8
+2022,Manchester,E08000003,Male,Full-Time,percent,5
+2022,Oldham,E08000004,Male,Full-Time,number_of_jobs_000s,NA
+2022,Oldham,E08000004,Male,Full-Time,percent,NA
+2022,Rochdale,E08000005,Male,Full-Time,number_of_jobs_000s,5
+2022,Rochdale,E08000005,Male,Full-Time,percent,17.4
+2022,Salford,E08000006,Male,Full-Time,number_of_jobs_000s,NA
+2022,Salford,E08000006,Male,Full-Time,percent,NA
+2022,Stockport,E08000007,Male,Full-Time,number_of_jobs_000s,NA
+2022,Stockport,E08000007,Male,Full-Time,percent,NA
+2022,Tameside,E08000008,Male,Full-Time,number_of_jobs_000s,NA
+2022,Tameside,E08000008,Male,Full-Time,percent,NA
+2022,Trafford,E08000009,Male,Full-Time,number_of_jobs_000s,NA
+2022,Trafford,E08000009,Male,Full-Time,percent,NA
+2022,Wigan,E08000010,Male,Full-Time,number_of_jobs_000s,NA
+2022,Wigan,E08000010,Male,Full-Time,percent,NA
+2022,Lancashire,E10000017,Male,Full-Time,number_of_jobs_000s,13
+2022,Lancashire,E10000017,Male,Full-Time,percent,6.5
+2022,Burnley,E07000117,Male,Full-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Male,Full-Time,percent,NA
+2022,Chorley,E07000118,Male,Full-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Male,Full-Time,percent,NA
+2022,Fylde,E07000119,Male,Full-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Male,Full-Time,percent,NA
+2022,Hyndburn,E07000120,Male,Full-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Male,Full-Time,percent,NA
+2022,Lancaster,E07000121,Male,Full-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Male,Full-Time,percent,NA
+2022,Pendle,E07000122,Male,Full-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Male,Full-Time,percent,NA
+2022,Preston,E07000123,Male,Full-Time,number_of_jobs_000s,NA
+2022,Preston,E07000123,Male,Full-Time,percent,NA
+2022,Ribble Valley,E07000124,Male,Full-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Male,Full-Time,percent,NA
+2022,Rossendale,E07000125,Male,Full-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Male,Full-Time,percent,NA
+2022,South Ribble,E07000126,Male,Full-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Male,Full-Time,percent,NA
+2022,West Lancashire,E07000127,Male,Full-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Male,Full-Time,percent,NA
+2022,Wyre,E07000128,Male,Full-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Male,Full-Time,percent,NA
+2022,Merseyside Met County,E11000002,Male,Full-Time,number_of_jobs_000s,11
+2022,Merseyside Met County,E11000002,Male,Full-Time,percent,5.6
+2022,Knowsley,E08000011,Male,Full-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,Male,Full-Time,percent,NA
+2022,Liverpool,E08000012,Male,Full-Time,number_of_jobs_000s,NA
+2022,Liverpool,E08000012,Male,Full-Time,percent,NA
+2022,St. Helens,E08000013,Male,Full-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Male,Full-Time,percent,NA
+2022,Sefton,E08000014,Male,Full-Time,number_of_jobs_000s,NA
+2022,Sefton,E08000014,Male,Full-Time,percent,NA
+2022,Wirral,E08000015,Male,Full-Time,number_of_jobs_000s,NA
+2022,Wirral,E08000015,Male,Full-Time,percent,NA
+2022,Yorkshire and The Humber,E12000003,Male,Full-Time,number_of_jobs_000s,73
+2022,Yorkshire and The Humber,E12000003,Male,Full-Time,percent,7.4
+2022,East Riding of Yorkshire UA,E06000011,Male,Full-Time,number_of_jobs_000s,NA
+2022,East Riding of Yorkshire UA,E06000011,Male,Full-Time,percent,NA
+2022,Kingston upon Hull UA,E06000010,Male,Full-Time,number_of_jobs_000s,NA
+2022,Kingston upon Hull UA,E06000010,Male,Full-Time,percent,NA
+2022,North East Lincolnshire UA,E06000012,Male,Full-Time,number_of_jobs_000s,NA
+2022,North East Lincolnshire UA,E06000012,Male,Full-Time,percent,NA
+2022,North Lincolnshire UA,E06000013,Male,Full-Time,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,Male,Full-Time,percent,NA
+2022,York UA,E06000014,Male,Full-Time,number_of_jobs_000s,NA
+2022,York UA,E06000014,Male,Full-Time,percent,NA
+2022,North Yorkshire,E10000023,Male,Full-Time,number_of_jobs_000s,8
+2022,North Yorkshire,E10000023,Male,Full-Time,percent,6.3
+2022,Craven,E07000163,Male,Full-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,Male,Full-Time,percent,NA
+2022,Hambleton,E07000164,Male,Full-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Male,Full-Time,percent,NA
+2022,Harrogate,E07000165,Male,Full-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Male,Full-Time,percent,NA
+2022,Richmondshire,E07000166,Male,Full-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Male,Full-Time,percent,0
+2022,Ryedale,E07000167,Male,Full-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Male,Full-Time,percent,NA
+2022,Scarborough,E07000168,Male,Full-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Male,Full-Time,percent,NA
+2022,Selby,E07000169,Male,Full-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,Male,Full-Time,percent,NA
+2022,South Yorkshire Met County,E11000003,Male,Full-Time,number_of_jobs_000s,14
+2022,South Yorkshire Met County,E11000003,Male,Full-Time,percent,6.6
+2022,Barnsley,E08000016,Male,Full-Time,number_of_jobs_000s,NA
+2022,Barnsley,E08000016,Male,Full-Time,percent,NA
+2022,Doncaster,E08000017,Male,Full-Time,number_of_jobs_000s,NA
+2022,Doncaster,E08000017,Male,Full-Time,percent,NA
+2022,Rotherham,E08000018,Male,Full-Time,number_of_jobs_000s,NA
+2022,Rotherham,E08000018,Male,Full-Time,percent,NA
+2022,Sheffield,E08000019,Male,Full-Time,number_of_jobs_000s,6
+2022,Sheffield,E08000019,Male,Full-Time,percent,6.5
+2022,West Yorkshire Met County,E11000006,Male,Full-Time,number_of_jobs_000s,38
+2022,West Yorkshire Met County,E11000006,Male,Full-Time,percent,8.4
+2022,Bradford,E08000032,Male,Full-Time,number_of_jobs_000s,5
+2022,Bradford,E08000032,Male,Full-Time,percent,6.3
+2022,Calderdale,E08000033,Male,Full-Time,number_of_jobs_000s,NA
+2022,Calderdale,E08000033,Male,Full-Time,percent,NA
+2022,Kirklees,E08000034,Male,Full-Time,number_of_jobs_000s,5
+2022,Kirklees,E08000034,Male,Full-Time,percent,8.6
+2022,Leeds,E08000035,Male,Full-Time,number_of_jobs_000s,22
+2022,Leeds,E08000035,Male,Full-Time,percent,10.4
+2022,Wakefield,E08000036,Male,Full-Time,number_of_jobs_000s,NA
+2022,Wakefield,E08000036,Male,Full-Time,percent,NA
+2022,North East,E12000001,Male,Part-Time,number_of_jobs_000s,26
+2022,North East,E12000001,Male,Part-Time,percent,35
+2022,Darlington UA,E06000005,Male,Part-Time,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,Male,Part-Time,percent,NA
+2022,Hartlepool UA,E06000001,Male,Part-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Male,Part-Time,percent,NA
+2022,Middlesbrough UA,E06000002,Male,Part-Time,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,Male,Part-Time,percent,NA
+2022,Redcar and Cleveland UA,E06000003,Male,Part-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Male,Part-Time,percent,NA
+2022,Stockton-on-Tees UA,E06000004,Male,Part-Time,number_of_jobs_000s,NA
+2022,Stockton-on-Tees UA,E06000004,Male,Part-Time,percent,NA
+2022,County Durham UA,E06000047,Male,Part-Time,number_of_jobs_000s,NA
+2022,County Durham UA,E06000047,Male,Part-Time,percent,28
+2022,Northumberland UA,E06000057,Male,Part-Time,number_of_jobs_000s,NA
+2022,Northumberland UA,E06000057,Male,Part-Time,percent,NA
+2022,Tyne and Wear Met County,E11000007,Male,Part-Time,number_of_jobs_000s,11
+2022,Tyne and Wear Met County,E11000007,Male,Part-Time,percent,31.8
+2022,Gateshead,E08000037,Male,Part-Time,number_of_jobs_000s,NA
+2022,Gateshead,E08000037,Male,Part-Time,percent,46.2
+2022,Newcastle upon Tyne,E08000021,Male,Part-Time,number_of_jobs_000s,NA
+2022,Newcastle upon Tyne,E08000021,Male,Part-Time,percent,28.1
+2022,North Tyneside,E08000022,Male,Part-Time,number_of_jobs_000s,NA
+2022,North Tyneside,E08000022,Male,Part-Time,percent,NA
+2022,South Tyneside,E08000023,Male,Part-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,Male,Part-Time,percent,NA
+2022,Sunderland,E08000024,Male,Part-Time,number_of_jobs_000s,NA
+2022,Sunderland,E08000024,Male,Part-Time,percent,NA
+2022,North West,E12000002,Male,Part-Time,number_of_jobs_000s,66
+2022,North West,E12000002,Male,Part-Time,percent,32.2
+2022,Blackburn with Darwen UA,E06000008,Male,Part-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Male,Part-Time,percent,NA
+2022,Blackpool UA,E06000009,Male,Part-Time,number_of_jobs_000s,NA
+2022,Blackpool UA,E06000009,Male,Part-Time,percent,59.2
+2022,Halton UA,E06000006,Male,Part-Time,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,Male,Part-Time,percent,NA
+2022,Warrington UA,E06000007,Male,Part-Time,number_of_jobs_000s,NA
+2022,Warrington UA,E06000007,Male,Part-Time,percent,NA
+2022,Cheshire East UA,E06000049,Male,Part-Time,number_of_jobs_000s,NA
+2022,Cheshire East UA,E06000049,Male,Part-Time,percent,NA
+2022,Cheshire West and Chester,E06000050,Male,Part-Time,number_of_jobs_000s,NA
+2022,Cheshire West and Chester,E06000050,Male,Part-Time,percent,35.4
+2022,Cumbria,E10000006,Male,Part-Time,number_of_jobs_000s,NA
+2022,Cumbria,E10000006,Male,Part-Time,percent,NA
+2022,Allerdale,E07000026,Male,Part-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Male,Part-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,Male,Part-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Male,Part-Time,percent,NA
+2022,Carlisle,E07000028,Male,Part-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Male,Part-Time,percent,NA
+2022,Copeland,E07000029,Male,Part-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Male,Part-Time,percent,NA
+2022,Eden,E07000030,Male,Part-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,Male,Part-Time,percent,NA
+2022,South Lakeland,E07000031,Male,Part-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Male,Part-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,Male,Part-Time,number_of_jobs_000s,28
+2022,Greater Manchester Met County,E11000001,Male,Part-Time,percent,34.8
+2022,Bolton,E08000001,Male,Part-Time,number_of_jobs_000s,NA
+2022,Bolton,E08000001,Male,Part-Time,percent,NA
+2022,Bury,E08000002,Male,Part-Time,number_of_jobs_000s,NA
+2022,Bury,E08000002,Male,Part-Time,percent,NA
+2022,Manchester,E08000003,Male,Part-Time,number_of_jobs_000s,9
+2022,Manchester,E08000003,Male,Part-Time,percent,37.3
+2022,Oldham,E08000004,Male,Part-Time,number_of_jobs_000s,NA
+2022,Oldham,E08000004,Male,Part-Time,percent,NA
+2022,Rochdale,E08000005,Male,Part-Time,number_of_jobs_000s,NA
+2022,Rochdale,E08000005,Male,Part-Time,percent,NA
+2022,Salford,E08000006,Male,Part-Time,number_of_jobs_000s,NA
+2022,Salford,E08000006,Male,Part-Time,percent,NA
+2022,Stockport,E08000007,Male,Part-Time,number_of_jobs_000s,NA
+2022,Stockport,E08000007,Male,Part-Time,percent,NA
+2022,Tameside,E08000008,Male,Part-Time,number_of_jobs_000s,NA
+2022,Tameside,E08000008,Male,Part-Time,percent,NA
+2022,Trafford,E08000009,Male,Part-Time,number_of_jobs_000s,NA
+2022,Trafford,E08000009,Male,Part-Time,percent,31
+2022,Wigan,E08000010,Male,Part-Time,number_of_jobs_000s,NA
+2022,Wigan,E08000010,Male,Part-Time,percent,NA
+2022,Lancashire,E10000017,Male,Part-Time,number_of_jobs_000s,10
+2022,Lancashire,E10000017,Male,Part-Time,percent,28.1
+2022,Burnley,E07000117,Male,Part-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Male,Part-Time,percent,NA
+2022,Chorley,E07000118,Male,Part-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Male,Part-Time,percent,NA
+2022,Fylde,E07000119,Male,Part-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Male,Part-Time,percent,NA
+2022,Hyndburn,E07000120,Male,Part-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Male,Part-Time,percent,NA
+2022,Lancaster,E07000121,Male,Part-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Male,Part-Time,percent,NA
+2022,Pendle,E07000122,Male,Part-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Male,Part-Time,percent,NA
+2022,Preston,E07000123,Male,Part-Time,number_of_jobs_000s,NA
+2022,Preston,E07000123,Male,Part-Time,percent,NA
+2022,Ribble Valley,E07000124,Male,Part-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Male,Part-Time,percent,NA
+2022,Rossendale,E07000125,Male,Part-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Male,Part-Time,percent,NA
+2022,South Ribble,E07000126,Male,Part-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Male,Part-Time,percent,NA
+2022,West Lancashire,E07000127,Male,Part-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Male,Part-Time,percent,NA
+2022,Wyre,E07000128,Male,Part-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Male,Part-Time,percent,NA
+2022,Merseyside Met County,E11000002,Male,Part-Time,number_of_jobs_000s,11
+2022,Merseyside Met County,E11000002,Male,Part-Time,percent,32.4
+2022,Knowsley,E08000011,Male,Part-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,Male,Part-Time,percent,NA
+2022,Liverpool,E08000012,Male,Part-Time,number_of_jobs_000s,5
+2022,Liverpool,E08000012,Male,Part-Time,percent,34.4
+2022,St. Helens,E08000013,Male,Part-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Male,Part-Time,percent,NA
+2022,Sefton,E08000014,Male,Part-Time,number_of_jobs_000s,NA
+2022,Sefton,E08000014,Male,Part-Time,percent,NA
+2022,Wirral,E08000015,Male,Part-Time,number_of_jobs_000s,NA
+2022,Wirral,E08000015,Male,Part-Time,percent,NA
+2022,Yorkshire and The Humber,E12000003,Male,Part-Time,number_of_jobs_000s,66
+2022,Yorkshire and The Humber,E12000003,Male,Part-Time,percent,35
+2022,East Riding of Yorkshire UA,E06000011,Male,Part-Time,number_of_jobs_000s,NA
+2022,East Riding of Yorkshire UA,E06000011,Male,Part-Time,percent,41.4
+2022,Kingston upon Hull UA,E06000010,Male,Part-Time,number_of_jobs_000s,NA
+2022,Kingston upon Hull UA,E06000010,Male,Part-Time,percent,NA
+2022,North East Lincolnshire UA,E06000012,Male,Part-Time,number_of_jobs_000s,NA
+2022,North East Lincolnshire UA,E06000012,Male,Part-Time,percent,NA
+2022,North Lincolnshire UA,E06000013,Male,Part-Time,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,Male,Part-Time,percent,NA
+2022,York UA,E06000014,Male,Part-Time,number_of_jobs_000s,NA
+2022,York UA,E06000014,Male,Part-Time,percent,NA
+2022,North Yorkshire,E10000023,Male,Part-Time,number_of_jobs_000s,5
+2022,North Yorkshire,E10000023,Male,Part-Time,percent,22.3
+2022,Craven,E07000163,Male,Part-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,Male,Part-Time,percent,NA
+2022,Hambleton,E07000164,Male,Part-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Male,Part-Time,percent,NA
+2022,Harrogate,E07000165,Male,Part-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Male,Part-Time,percent,NA
+2022,Richmondshire,E07000166,Male,Part-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Male,Part-Time,percent,0
+2022,Ryedale,E07000167,Male,Part-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Male,Part-Time,percent,NA
+2022,Scarborough,E07000168,Male,Part-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Male,Part-Time,percent,NA
+2022,Selby,E07000169,Male,Part-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,Male,Part-Time,percent,NA
+2022,South Yorkshire Met County,E11000003,Male,Part-Time,number_of_jobs_000s,10
+2022,South Yorkshire Met County,E11000003,Male,Part-Time,percent,29
+2022,Barnsley,E08000016,Male,Part-Time,number_of_jobs_000s,NA
+2022,Barnsley,E08000016,Male,Part-Time,percent,NA
+2022,Doncaster,E08000017,Male,Part-Time,number_of_jobs_000s,NA
+2022,Doncaster,E08000017,Male,Part-Time,percent,NA
+2022,Rotherham,E08000018,Male,Part-Time,number_of_jobs_000s,NA
+2022,Rotherham,E08000018,Male,Part-Time,percent,NA
+2022,Sheffield,E08000019,Male,Part-Time,number_of_jobs_000s,5
+2022,Sheffield,E08000019,Male,Part-Time,percent,26.7
+2022,West Yorkshire Met County,E11000006,Male,Part-Time,number_of_jobs_000s,40
+2022,West Yorkshire Met County,E11000006,Male,Part-Time,percent,40.8
+2022,Bradford,E08000032,Male,Part-Time,number_of_jobs_000s,6
+2022,Bradford,E08000032,Male,Part-Time,percent,45.7
+2022,Calderdale,E08000033,Male,Part-Time,number_of_jobs_000s,NA
+2022,Calderdale,E08000033,Male,Part-Time,percent,NA
+2022,Kirklees,E08000034,Male,Part-Time,number_of_jobs_000s,NA
+2022,Kirklees,E08000034,Male,Part-Time,percent,41
+2022,Leeds,E08000035,Male,Part-Time,number_of_jobs_000s,26
+2022,Leeds,E08000035,Male,Part-Time,percent,44
+2022,Wakefield,E08000036,Male,Part-Time,number_of_jobs_000s,NA
+2022,Wakefield,E08000036,Male,Part-Time,percent,NA
+2022,North East,E12000001,Female,Full-Time,number_of_jobs_000s,27
+2022,North East,E12000001,Female,Full-Time,percent,8.6
+2022,Darlington UA,E06000005,Female,Full-Time,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,Female,Full-Time,percent,NA
+2022,Hartlepool UA,E06000001,Female,Full-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Female,Full-Time,percent,NA
+2022,Middlesbrough UA,E06000002,Female,Full-Time,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,Female,Full-Time,percent,NA
+2022,Redcar and Cleveland UA,E06000003,Female,Full-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Female,Full-Time,percent,NA
+2022,Stockton-on-Tees UA,E06000004,Female,Full-Time,number_of_jobs_000s,NA
+2022,Stockton-on-Tees UA,E06000004,Female,Full-Time,percent,NA
+2022,County Durham UA,E06000047,Female,Full-Time,number_of_jobs_000s,NA
+2022,County Durham UA,E06000047,Female,Full-Time,percent,8.7
+2022,Northumberland UA,E06000057,Female,Full-Time,number_of_jobs_000s,NA
+2022,Northumberland UA,E06000057,Female,Full-Time,percent,NA
+2022,Tyne and Wear Met County,E11000007,Female,Full-Time,number_of_jobs_000s,13
+2022,Tyne and Wear Met County,E11000007,Female,Full-Time,percent,8
+2022,Gateshead,E08000037,Female,Full-Time,number_of_jobs_000s,NA
+2022,Gateshead,E08000037,Female,Full-Time,percent,NA
+2022,Newcastle upon Tyne,E08000021,Female,Full-Time,number_of_jobs_000s,4
+2022,Newcastle upon Tyne,E08000021,Female,Full-Time,percent,6.4
+2022,North Tyneside,E08000022,Female,Full-Time,number_of_jobs_000s,NA
+2022,North Tyneside,E08000022,Female,Full-Time,percent,NA
+2022,South Tyneside,E08000023,Female,Full-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,Female,Full-Time,percent,NA
+2022,Sunderland,E08000024,Female,Full-Time,number_of_jobs_000s,NA
+2022,Sunderland,E08000024,Female,Full-Time,percent,NA
+2022,North West,E12000002,Female,Full-Time,number_of_jobs_000s,78
+2022,North West,E12000002,Female,Full-Time,percent,8.5
+2022,Blackburn with Darwen UA,E06000008,Female,Full-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Female,Full-Time,percent,NA
+2022,Blackpool UA,E06000009,Female,Full-Time,number_of_jobs_000s,NA
+2022,Blackpool UA,E06000009,Female,Full-Time,percent,NA
+2022,Halton UA,E06000006,Female,Full-Time,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,Female,Full-Time,percent,NA
+2022,Warrington UA,E06000007,Female,Full-Time,number_of_jobs_000s,NA
+2022,Warrington UA,E06000007,Female,Full-Time,percent,NA
+2022,Cheshire East UA,E06000049,Female,Full-Time,number_of_jobs_000s,NA
+2022,Cheshire East UA,E06000049,Female,Full-Time,percent,NA
+2022,Cheshire West and Chester,E06000050,Female,Full-Time,number_of_jobs_000s,NA
+2022,Cheshire West and Chester,E06000050,Female,Full-Time,percent,NA
+2022,Cumbria,E10000006,Female,Full-Time,number_of_jobs_000s,6
+2022,Cumbria,E10000006,Female,Full-Time,percent,9.8
+2022,Allerdale,E07000026,Female,Full-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Female,Full-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,Female,Full-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Female,Full-Time,percent,NA
+2022,Carlisle,E07000028,Female,Full-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Female,Full-Time,percent,NA
+2022,Copeland,E07000029,Female,Full-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Female,Full-Time,percent,NA
+2022,Eden,E07000030,Female,Full-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,Female,Full-Time,percent,NA
+2022,South Lakeland,E07000031,Female,Full-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Female,Full-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,Female,Full-Time,number_of_jobs_000s,29
+2022,Greater Manchester Met County,E11000001,Female,Full-Time,percent,7.9
+2022,Bolton,E08000001,Female,Full-Time,number_of_jobs_000s,NA
+2022,Bolton,E08000001,Female,Full-Time,percent,NA
+2022,Bury,E08000002,Female,Full-Time,number_of_jobs_000s,NA
+2022,Bury,E08000002,Female,Full-Time,percent,NA
+2022,Manchester,E08000003,Female,Full-Time,number_of_jobs_000s,6
+2022,Manchester,E08000003,Female,Full-Time,percent,4.4
+2022,Oldham,E08000004,Female,Full-Time,number_of_jobs_000s,NA
+2022,Oldham,E08000004,Female,Full-Time,percent,15.5
+2022,Rochdale,E08000005,Female,Full-Time,number_of_jobs_000s,NA
+2022,Rochdale,E08000005,Female,Full-Time,percent,NA
+2022,Salford,E08000006,Female,Full-Time,number_of_jobs_000s,NA
+2022,Salford,E08000006,Female,Full-Time,percent,NA
+2022,Stockport,E08000007,Female,Full-Time,number_of_jobs_000s,NA
+2022,Stockport,E08000007,Female,Full-Time,percent,NA
+2022,Tameside,E08000008,Female,Full-Time,number_of_jobs_000s,NA
+2022,Tameside,E08000008,Female,Full-Time,percent,NA
+2022,Trafford,E08000009,Female,Full-Time,number_of_jobs_000s,NA
+2022,Trafford,E08000009,Female,Full-Time,percent,NA
+2022,Wigan,E08000010,Female,Full-Time,number_of_jobs_000s,NA
+2022,Wigan,E08000010,Female,Full-Time,percent,NA
+2022,Lancashire,E10000017,Female,Full-Time,number_of_jobs_000s,15
+2022,Lancashire,E10000017,Female,Full-Time,percent,11
+2022,Burnley,E07000117,Female,Full-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Female,Full-Time,percent,NA
+2022,Chorley,E07000118,Female,Full-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Female,Full-Time,percent,NA
+2022,Fylde,E07000119,Female,Full-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Female,Full-Time,percent,NA
+2022,Hyndburn,E07000120,Female,Full-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Female,Full-Time,percent,NA
+2022,Lancaster,E07000121,Female,Full-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Female,Full-Time,percent,NA
+2022,Pendle,E07000122,Female,Full-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Female,Full-Time,percent,NA
+2022,Preston,E07000123,Female,Full-Time,number_of_jobs_000s,NA
+2022,Preston,E07000123,Female,Full-Time,percent,NA
+2022,Ribble Valley,E07000124,Female,Full-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Female,Full-Time,percent,NA
+2022,Rossendale,E07000125,Female,Full-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Female,Full-Time,percent,NA
+2022,South Ribble,E07000126,Female,Full-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Female,Full-Time,percent,NA
+2022,West Lancashire,E07000127,Female,Full-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Female,Full-Time,percent,NA
+2022,Wyre,E07000128,Female,Full-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Female,Full-Time,percent,NA
+2022,Merseyside Met County,E11000002,Female,Full-Time,number_of_jobs_000s,15
+2022,Merseyside Met County,E11000002,Female,Full-Time,percent,9.3
+2022,Knowsley,E08000011,Female,Full-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,Female,Full-Time,percent,NA
+2022,Liverpool,E08000012,Female,Full-Time,number_of_jobs_000s,6
+2022,Liverpool,E08000012,Female,Full-Time,percent,7.7
+2022,St. Helens,E08000013,Female,Full-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Female,Full-Time,percent,NA
+2022,Sefton,E08000014,Female,Full-Time,number_of_jobs_000s,NA
+2022,Sefton,E08000014,Female,Full-Time,percent,NA
+2022,Wirral,E08000015,Female,Full-Time,number_of_jobs_000s,NA
+2022,Wirral,E08000015,Female,Full-Time,percent,NA
+2022,Yorkshire and The Humber,E12000003,Female,Full-Time,number_of_jobs_000s,66
+2022,Yorkshire and The Humber,E12000003,Female,Full-Time,percent,10.1
+2022,East Riding of Yorkshire UA,E06000011,Female,Full-Time,number_of_jobs_000s,4
+2022,East Riding of Yorkshire UA,E06000011,Female,Full-Time,percent,11.6
+2022,Kingston upon Hull UA,E06000010,Female,Full-Time,number_of_jobs_000s,NA
+2022,Kingston upon Hull UA,E06000010,Female,Full-Time,percent,NA
+2022,North East Lincolnshire UA,E06000012,Female,Full-Time,number_of_jobs_000s,NA
+2022,North East Lincolnshire UA,E06000012,Female,Full-Time,percent,NA
+2022,North Lincolnshire UA,E06000013,Female,Full-Time,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,Female,Full-Time,percent,NA
+2022,York UA,E06000014,Female,Full-Time,number_of_jobs_000s,NA
+2022,York UA,E06000014,Female,Full-Time,percent,NA
+2022,North Yorkshire,E10000023,Female,Full-Time,number_of_jobs_000s,6
+2022,North Yorkshire,E10000023,Female,Full-Time,percent,7.5
+2022,Craven,E07000163,Female,Full-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,Female,Full-Time,percent,NA
+2022,Hambleton,E07000164,Female,Full-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Female,Full-Time,percent,NA
+2022,Harrogate,E07000165,Female,Full-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Female,Full-Time,percent,NA
+2022,Richmondshire,E07000166,Female,Full-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Female,Full-Time,percent,NA
+2022,Ryedale,E07000167,Female,Full-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Female,Full-Time,percent,NA
+2022,Scarborough,E07000168,Female,Full-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Female,Full-Time,percent,NA
+2022,Selby,E07000169,Female,Full-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,Female,Full-Time,percent,NA
+2022,South Yorkshire Met County,E11000003,Female,Full-Time,number_of_jobs_000s,12
+2022,South Yorkshire Met County,E11000003,Female,Full-Time,percent,8.7
+2022,Barnsley,E08000016,Female,Full-Time,number_of_jobs_000s,NA
+2022,Barnsley,E08000016,Female,Full-Time,percent,NA
+2022,Doncaster,E08000017,Female,Full-Time,number_of_jobs_000s,NA
+2022,Doncaster,E08000017,Female,Full-Time,percent,NA
+2022,Rotherham,E08000018,Female,Full-Time,number_of_jobs_000s,NA
+2022,Rotherham,E08000018,Female,Full-Time,percent,NA
+2022,Sheffield,E08000019,Female,Full-Time,number_of_jobs_000s,5
+2022,Sheffield,E08000019,Female,Full-Time,percent,7.6
+2022,West Yorkshire Met County,E11000006,Female,Full-Time,number_of_jobs_000s,34
+2022,West Yorkshire Met County,E11000006,Female,Full-Time,percent,11.5
+2022,Bradford,E08000032,Female,Full-Time,number_of_jobs_000s,NA
+2022,Bradford,E08000032,Female,Full-Time,percent,NA
+2022,Calderdale,E08000033,Female,Full-Time,number_of_jobs_000s,NA
+2022,Calderdale,E08000033,Female,Full-Time,percent,NA
+2022,Kirklees,E08000034,Female,Full-Time,number_of_jobs_000s,NA
+2022,Kirklees,E08000034,Female,Full-Time,percent,NA
+2022,Leeds,E08000035,Female,Full-Time,number_of_jobs_000s,21
+2022,Leeds,E08000035,Female,Full-Time,percent,14.6
+2022,Wakefield,E08000036,Female,Full-Time,number_of_jobs_000s,NA
+2022,Wakefield,E08000036,Female,Full-Time,percent,10.5
+2022,North East,E12000001,Female,Part-Time,number_of_jobs_000s,66
+2022,North East,E12000001,Female,Part-Time,percent,27.7
+2022,Darlington UA,E06000005,Female,Part-Time,number_of_jobs_000s,NA
+2022,Darlington UA,E06000005,Female,Part-Time,percent,NA
+2022,Hartlepool UA,E06000001,Female,Part-Time,number_of_jobs_000s,NA
+2022,Hartlepool UA,E06000001,Female,Part-Time,percent,NA
+2022,Middlesbrough UA,E06000002,Female,Part-Time,number_of_jobs_000s,NA
+2022,Middlesbrough UA,E06000002,Female,Part-Time,percent,36.2
+2022,Redcar and Cleveland UA,E06000003,Female,Part-Time,number_of_jobs_000s,NA
+2022,Redcar and Cleveland UA,E06000003,Female,Part-Time,percent,43.4
+2022,Stockton-on-Tees UA,E06000004,Female,Part-Time,number_of_jobs_000s,5
+2022,Stockton-on-Tees UA,E06000004,Female,Part-Time,percent,28.8
+2022,County Durham UA,E06000047,Female,Part-Time,number_of_jobs_000s,13
+2022,County Durham UA,E06000047,Female,Part-Time,percent,29.6
+2022,Northumberland UA,E06000057,Female,Part-Time,number_of_jobs_000s,6
+2022,Northumberland UA,E06000057,Female,Part-Time,percent,23
+2022,Tyne and Wear Met County,E11000007,Female,Part-Time,number_of_jobs_000s,29
+2022,Tyne and Wear Met County,E11000007,Female,Part-Time,percent,26.1
+2022,Gateshead,E08000037,Female,Part-Time,number_of_jobs_000s,6
+2022,Gateshead,E08000037,Female,Part-Time,percent,33
+2022,Newcastle upon Tyne,E08000021,Female,Part-Time,number_of_jobs_000s,9
+2022,Newcastle upon Tyne,E08000021,Female,Part-Time,percent,22.6
+2022,North Tyneside,E08000022,Female,Part-Time,number_of_jobs_000s,5
+2022,North Tyneside,E08000022,Female,Part-Time,percent,23.6
+2022,South Tyneside,E08000023,Female,Part-Time,number_of_jobs_000s,NA
+2022,South Tyneside,E08000023,Female,Part-Time,percent,35.6
+2022,Sunderland,E08000024,Female,Part-Time,number_of_jobs_000s,6
+2022,Sunderland,E08000024,Female,Part-Time,percent,24.9
+2022,North West,E12000002,Female,Part-Time,number_of_jobs_000s,142
+2022,North West,E12000002,Female,Part-Time,percent,25.2
+2022,Blackburn with Darwen UA,E06000008,Female,Part-Time,number_of_jobs_000s,NA
+2022,Blackburn with Darwen UA,E06000008,Female,Part-Time,percent,NA
+2022,Blackpool UA,E06000009,Female,Part-Time,number_of_jobs_000s,NA
+2022,Blackpool UA,E06000009,Female,Part-Time,percent,NA
+2022,Halton UA,E06000006,Female,Part-Time,number_of_jobs_000s,NA
+2022,Halton UA,E06000006,Female,Part-Time,percent,34.7
+2022,Warrington UA,E06000007,Female,Part-Time,number_of_jobs_000s,5
+2022,Warrington UA,E06000007,Female,Part-Time,percent,25.3
+2022,Cheshire East UA,E06000049,Female,Part-Time,number_of_jobs_000s,7
+2022,Cheshire East UA,E06000049,Female,Part-Time,percent,24.9
+2022,Cheshire West and Chester,E06000050,Female,Part-Time,number_of_jobs_000s,NA
+2022,Cheshire West and Chester,E06000050,Female,Part-Time,percent,16.7
+2022,Cumbria,E10000006,Female,Part-Time,number_of_jobs_000s,11
+2022,Cumbria,E10000006,Female,Part-Time,percent,27.5
+2022,Allerdale,E07000026,Female,Part-Time,number_of_jobs_000s,NA
+2022,Allerdale,E07000026,Female,Part-Time,percent,NA
+2022,Barrow-in-Furness,E07000027,Female,Part-Time,number_of_jobs_000s,NA
+2022,Barrow-in-Furness,E07000027,Female,Part-Time,percent,NA
+2022,Carlisle,E07000028,Female,Part-Time,number_of_jobs_000s,NA
+2022,Carlisle,E07000028,Female,Part-Time,percent,NA
+2022,Copeland,E07000029,Female,Part-Time,number_of_jobs_000s,NA
+2022,Copeland,E07000029,Female,Part-Time,percent,NA
+2022,Eden,E07000030,Female,Part-Time,number_of_jobs_000s,NA
+2022,Eden,E07000030,Female,Part-Time,percent,NA
+2022,South Lakeland,E07000031,Female,Part-Time,number_of_jobs_000s,NA
+2022,South Lakeland,E07000031,Female,Part-Time,percent,NA
+2022,Greater Manchester Met County,E11000001,Female,Part-Time,number_of_jobs_000s,52
+2022,Greater Manchester Met County,E11000001,Female,Part-Time,percent,24.9
+2022,Bolton,E08000001,Female,Part-Time,number_of_jobs_000s,NA
+2022,Bolton,E08000001,Female,Part-Time,percent,21.3
+2022,Bury,E08000002,Female,Part-Time,number_of_jobs_000s,NA
+2022,Bury,E08000002,Female,Part-Time,percent,35.7
+2022,Manchester,E08000003,Female,Part-Time,number_of_jobs_000s,13
+2022,Manchester,E08000003,Female,Part-Time,percent,24
+2022,Oldham,E08000004,Female,Part-Time,number_of_jobs_000s,NA
+2022,Oldham,E08000004,Female,Part-Time,percent,27.6
+2022,Rochdale,E08000005,Female,Part-Time,number_of_jobs_000s,5
+2022,Rochdale,E08000005,Female,Part-Time,percent,34.8
+2022,Salford,E08000006,Female,Part-Time,number_of_jobs_000s,NA
+2022,Salford,E08000006,Female,Part-Time,percent,NA
+2022,Stockport,E08000007,Female,Part-Time,number_of_jobs_000s,4
+2022,Stockport,E08000007,Female,Part-Time,percent,18.6
+2022,Tameside,E08000008,Female,Part-Time,number_of_jobs_000s,NA
+2022,Tameside,E08000008,Female,Part-Time,percent,44
+2022,Trafford,E08000009,Female,Part-Time,number_of_jobs_000s,NA
+2022,Trafford,E08000009,Female,Part-Time,percent,18.5
+2022,Wigan,E08000010,Female,Part-Time,number_of_jobs_000s,6
+2022,Wigan,E08000010,Female,Part-Time,percent,25.4
+2022,Lancashire,E10000017,Female,Part-Time,number_of_jobs_000s,29
+2022,Lancashire,E10000017,Female,Part-Time,percent,27.8
+2022,Burnley,E07000117,Female,Part-Time,number_of_jobs_000s,NA
+2022,Burnley,E07000117,Female,Part-Time,percent,NA
+2022,Chorley,E07000118,Female,Part-Time,number_of_jobs_000s,NA
+2022,Chorley,E07000118,Female,Part-Time,percent,NA
+2022,Fylde,E07000119,Female,Part-Time,number_of_jobs_000s,NA
+2022,Fylde,E07000119,Female,Part-Time,percent,NA
+2022,Hyndburn,E07000120,Female,Part-Time,number_of_jobs_000s,NA
+2022,Hyndburn,E07000120,Female,Part-Time,percent,NA
+2022,Lancaster,E07000121,Female,Part-Time,number_of_jobs_000s,NA
+2022,Lancaster,E07000121,Female,Part-Time,percent,NA
+2022,Pendle,E07000122,Female,Part-Time,number_of_jobs_000s,NA
+2022,Pendle,E07000122,Female,Part-Time,percent,NA
+2022,Preston,E07000123,Female,Part-Time,number_of_jobs_000s,4
+2022,Preston,E07000123,Female,Part-Time,percent,20.8
+2022,Ribble Valley,E07000124,Female,Part-Time,number_of_jobs_000s,NA
+2022,Ribble Valley,E07000124,Female,Part-Time,percent,NA
+2022,Rossendale,E07000125,Female,Part-Time,number_of_jobs_000s,NA
+2022,Rossendale,E07000125,Female,Part-Time,percent,NA
+2022,South Ribble,E07000126,Female,Part-Time,number_of_jobs_000s,NA
+2022,South Ribble,E07000126,Female,Part-Time,percent,NA
+2022,West Lancashire,E07000127,Female,Part-Time,number_of_jobs_000s,NA
+2022,West Lancashire,E07000127,Female,Part-Time,percent,NA
+2022,Wyre,E07000128,Female,Part-Time,number_of_jobs_000s,NA
+2022,Wyre,E07000128,Female,Part-Time,percent,NA
+2022,Merseyside Met County,E11000002,Female,Part-Time,number_of_jobs_000s,25
+2022,Merseyside Met County,E11000002,Female,Part-Time,percent,23.9
+2022,Knowsley,E08000011,Female,Part-Time,number_of_jobs_000s,NA
+2022,Knowsley,E08000011,Female,Part-Time,percent,NA
+2022,Liverpool,E08000012,Female,Part-Time,number_of_jobs_000s,10
+2022,Liverpool,E08000012,Female,Part-Time,percent,23.6
+2022,St. Helens,E08000013,Female,Part-Time,number_of_jobs_000s,NA
+2022,St. Helens,E08000013,Female,Part-Time,percent,NA
+2022,Sefton,E08000014,Female,Part-Time,number_of_jobs_000s,5
+2022,Sefton,E08000014,Female,Part-Time,percent,25.8
+2022,Wirral,E08000015,Female,Part-Time,number_of_jobs_000s,NA
+2022,Wirral,E08000015,Female,Part-Time,percent,19.4
+2022,Yorkshire and The Humber,E12000003,Female,Part-Time,number_of_jobs_000s,164
+2022,Yorkshire and The Humber,E12000003,Female,Part-Time,percent,32.6
+2022,East Riding of Yorkshire UA,E06000011,Female,Part-Time,number_of_jobs_000s,7
+2022,East Riding of Yorkshire UA,E06000011,Female,Part-Time,percent,23.1
+2022,Kingston upon Hull UA,E06000010,Female,Part-Time,number_of_jobs_000s,7
+2022,Kingston upon Hull UA,E06000010,Female,Part-Time,percent,25.6
+2022,North East Lincolnshire UA,E06000012,Female,Part-Time,number_of_jobs_000s,5
+2022,North East Lincolnshire UA,E06000012,Female,Part-Time,percent,44.1
+2022,North Lincolnshire UA,E06000013,Female,Part-Time,number_of_jobs_000s,NA
+2022,North Lincolnshire UA,E06000013,Female,Part-Time,percent,28.9
+2022,York UA,E06000014,Female,Part-Time,number_of_jobs_000s,4
+2022,York UA,E06000014,Female,Part-Time,percent,20.3
+2022,North Yorkshire,E10000023,Female,Part-Time,number_of_jobs_000s,14
+2022,North Yorkshire,E10000023,Female,Part-Time,percent,26.4
+2022,Craven,E07000163,Female,Part-Time,number_of_jobs_000s,NA
+2022,Craven,E07000163,Female,Part-Time,percent,NA
+2022,Hambleton,E07000164,Female,Part-Time,number_of_jobs_000s,NA
+2022,Hambleton,E07000164,Female,Part-Time,percent,40.5
+2022,Harrogate,E07000165,Female,Part-Time,number_of_jobs_000s,NA
+2022,Harrogate,E07000165,Female,Part-Time,percent,NA
+2022,Richmondshire,E07000166,Female,Part-Time,number_of_jobs_000s,NA
+2022,Richmondshire,E07000166,Female,Part-Time,percent,NA
+2022,Ryedale,E07000167,Female,Part-Time,number_of_jobs_000s,NA
+2022,Ryedale,E07000167,Female,Part-Time,percent,NA
+2022,Scarborough,E07000168,Female,Part-Time,number_of_jobs_000s,NA
+2022,Scarborough,E07000168,Female,Part-Time,percent,NA
+2022,Selby,E07000169,Female,Part-Time,number_of_jobs_000s,NA
+2022,Selby,E07000169,Female,Part-Time,percent,41.9
+2022,South Yorkshire Met County,E11000003,Female,Part-Time,number_of_jobs_000s,34
+2022,South Yorkshire Met County,E11000003,Female,Part-Time,percent,31.5
+2022,Barnsley,E08000016,Female,Part-Time,number_of_jobs_000s,4
+2022,Barnsley,E08000016,Female,Part-Time,percent,31.3
+2022,Doncaster,E08000017,Female,Part-Time,number_of_jobs_000s,9
+2022,Doncaster,E08000017,Female,Part-Time,percent,35.7
+2022,Rotherham,E08000018,Female,Part-Time,number_of_jobs_000s,7
+2022,Rotherham,E08000018,Female,Part-Time,percent,29.1
+2022,Sheffield,E08000019,Female,Part-Time,number_of_jobs_000s,13
+2022,Sheffield,E08000019,Female,Part-Time,percent,30.2
+2022,West Yorkshire Met County,E11000006,Female,Part-Time,number_of_jobs_000s,90
+2022,West Yorkshire Met County,E11000006,Female,Part-Time,percent,37.1
+2022,Bradford,E08000032,Female,Part-Time,number_of_jobs_000s,12
+2022,Bradford,E08000032,Female,Part-Time,percent,31.4
+2022,Calderdale,E08000033,Female,Part-Time,number_of_jobs_000s,5
+2022,Calderdale,E08000033,Female,Part-Time,percent,30.1
+2022,Kirklees,E08000034,Female,Part-Time,number_of_jobs_000s,9
+2022,Kirklees,E08000034,Female,Part-Time,percent,31.7
+2022,Leeds,E08000035,Female,Part-Time,number_of_jobs_000s,54
+2022,Leeds,E08000035,Female,Part-Time,percent,43.2
+2022,Wakefield,E08000036,Female,Part-Time,number_of_jobs_000s,9
+2022,Wakefield,E08000036,Female,Part-Time,percent,29.2
