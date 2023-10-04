@@ -1,0 +1,167 @@
+geography_name,geography_code,variable_name,value
+North East,E12000001,median_gender_pay_gap,15
+North East,E12000001,mean_gender_pay_gap,10.6
+Darlington UA,E06000005,median_gender_pay_gap,21.3
+Darlington UA,E06000005,mean_gender_pay_gap,12.3
+Hartlepool UA,E06000001,median_gender_pay_gap,17.4
+Hartlepool UA,E06000001,mean_gender_pay_gap,7.6
+Middlesbrough UA,E06000002,median_gender_pay_gap,17.3
+Middlesbrough UA,E06000002,mean_gender_pay_gap,14.9
+Redcar and Cleveland UA,E06000003,median_gender_pay_gap,3.5
+Redcar and Cleveland UA,E06000003,mean_gender_pay_gap,6.7
+Stockton-on-Tees UA,E06000004,median_gender_pay_gap,18.4
+Stockton-on-Tees UA,E06000004,mean_gender_pay_gap,17.1
+County Durham UA,E06000047,median_gender_pay_gap,19.2
+County Durham UA,E06000047,mean_gender_pay_gap,9.4
+Northumberland UA,E06000057,median_gender_pay_gap,20.9
+Northumberland UA,E06000057,mean_gender_pay_gap,16
+Tyne and Wear Met County,E11000007,median_gender_pay_gap,10
+Tyne and Wear Met County,E11000007,mean_gender_pay_gap,9
+Gateshead,E08000037,median_gender_pay_gap,4.3
+Gateshead,E08000037,mean_gender_pay_gap,8
+Newcastle upon Tyne,E08000021,median_gender_pay_gap,17.4
+Newcastle upon Tyne,E08000021,mean_gender_pay_gap,9.2
+North Tyneside,E08000022,median_gender_pay_gap,9.1
+North Tyneside,E08000022,mean_gender_pay_gap,11.9
+South Tyneside,E08000023,median_gender_pay_gap,19.2
+South Tyneside,E08000023,mean_gender_pay_gap,14.4
+Sunderland,E08000024,median_gender_pay_gap,4.8
+Sunderland,E08000024,mean_gender_pay_gap,5.1
+North West,E12000002,median_gender_pay_gap,13.8
+North West,E12000002,mean_gender_pay_gap,12.8
+Blackburn with Darwen UA,E06000008,median_gender_pay_gap,14.4
+Blackburn with Darwen UA,E06000008,mean_gender_pay_gap,7.3
+Blackpool UA,E06000009,median_gender_pay_gap,0.7
+Blackpool UA,E06000009,mean_gender_pay_gap,3.4
+Halton UA,E06000006,median_gender_pay_gap,11.8
+Halton UA,E06000006,mean_gender_pay_gap,14
+Warrington UA,E06000007,median_gender_pay_gap,13.4
+Warrington UA,E06000007,mean_gender_pay_gap,12
+Cheshire East UA,E06000049,median_gender_pay_gap,22.4
+Cheshire East UA,E06000049,mean_gender_pay_gap,18
+Cheshire West and Chester,E06000050,median_gender_pay_gap,14.1
+Cheshire West and Chester,E06000050,mean_gender_pay_gap,13.7
+Cumbria,E10000006,median_gender_pay_gap,21.5
+Cumbria,E10000006,mean_gender_pay_gap,13.1
+Allerdale,E07000026,median_gender_pay_gap,26.7
+Allerdale,E07000026,mean_gender_pay_gap,15.3
+Barrow-in-Furness,E07000027,median_gender_pay_gap,30
+Barrow-in-Furness,E07000027,mean_gender_pay_gap,25
+Carlisle,E07000028,median_gender_pay_gap,16.2
+Carlisle,E07000028,mean_gender_pay_gap,10.4
+Copeland,E07000029,median_gender_pay_gap,24.3
+Copeland,E07000029,mean_gender_pay_gap,7
+Eden,E07000030,median_gender_pay_gap,12.4
+Eden,E07000030,mean_gender_pay_gap,13.2
+South Lakeland,E07000031,median_gender_pay_gap,11.2
+South Lakeland,E07000031,mean_gender_pay_gap,8
+Greater Manchester Met County,E11000001,median_gender_pay_gap,10.3
+Greater Manchester Met County,E11000001,mean_gender_pay_gap,11.6
+Bolton,E08000001,median_gender_pay_gap,2.2
+Bolton,E08000001,mean_gender_pay_gap,12.1
+Bury,E08000002,median_gender_pay_gap,1
+Bury,E08000002,mean_gender_pay_gap,1.1
+Manchester,E08000003,median_gender_pay_gap,8.4
+Manchester,E08000003,mean_gender_pay_gap,12.1
+Oldham,E08000004,median_gender_pay_gap,5.3
+Oldham,E08000004,mean_gender_pay_gap,9.8
+Rochdale,E08000005,median_gender_pay_gap,6.7
+Rochdale,E08000005,mean_gender_pay_gap,8.6
+Salford,E08000006,median_gender_pay_gap,5.6
+Salford,E08000006,mean_gender_pay_gap,4.5
+Stockport,E08000007,median_gender_pay_gap,24.3
+Stockport,E08000007,mean_gender_pay_gap,17.2
+Tameside,E08000008,median_gender_pay_gap,17.1
+Tameside,E08000008,mean_gender_pay_gap,15.6
+Trafford,E08000009,median_gender_pay_gap,14.4
+Trafford,E08000009,mean_gender_pay_gap,17.7
+Wigan,E08000010,median_gender_pay_gap,15.5
+Wigan,E08000010,mean_gender_pay_gap,12.8
+Lancashire,E10000017,median_gender_pay_gap,14.2
+Lancashire,E10000017,mean_gender_pay_gap,14
+Burnley,E07000117,median_gender_pay_gap,-2.8
+Burnley,E07000117,mean_gender_pay_gap,1.6
+Chorley,E07000118,median_gender_pay_gap,15
+Chorley,E07000118,mean_gender_pay_gap,15.6
+Fylde,E07000119,median_gender_pay_gap,24.1
+Fylde,E07000119,mean_gender_pay_gap,20
+Hyndburn,E07000120,median_gender_pay_gap,33.5
+Hyndburn,E07000120,mean_gender_pay_gap,30.4
+Lancaster,E07000121,median_gender_pay_gap,16.9
+Lancaster,E07000121,mean_gender_pay_gap,6.9
+Pendle,E07000122,median_gender_pay_gap,13.1
+Pendle,E07000122,mean_gender_pay_gap,9
+Preston,E07000123,median_gender_pay_gap,21.2
+Preston,E07000123,mean_gender_pay_gap,12.7
+Ribble Valley,E07000124,median_gender_pay_gap,30.9
+Ribble Valley,E07000124,mean_gender_pay_gap,16.1
+Rossendale,E07000125,median_gender_pay_gap,5.9
+Rossendale,E07000125,mean_gender_pay_gap,9.1
+South Ribble,E07000126,median_gender_pay_gap,4
+South Ribble,E07000126,mean_gender_pay_gap,8.8
+West Lancashire,E07000127,median_gender_pay_gap,12.4
+West Lancashire,E07000127,mean_gender_pay_gap,18.8
+Wyre,E07000128,median_gender_pay_gap,15.6
+Wyre,E07000128,mean_gender_pay_gap,19
+Merseyside Met County,E11000002,median_gender_pay_gap,15.6
+Merseyside Met County,E11000002,mean_gender_pay_gap,13.3
+Knowsley,E08000011,median_gender_pay_gap,8.3
+Knowsley,E08000011,mean_gender_pay_gap,0.8
+Liverpool,E08000012,median_gender_pay_gap,14.9
+Liverpool,E08000012,mean_gender_pay_gap,11.4
+St. Helens,E08000013,median_gender_pay_gap,27.6
+St. Helens,E08000013,mean_gender_pay_gap,23.6
+Sefton,E08000014,median_gender_pay_gap,10.7
+Sefton,E08000014,mean_gender_pay_gap,12.7
+Wirral,E08000015,median_gender_pay_gap,16.6
+Wirral,E08000015,mean_gender_pay_gap,15.7
+Yorkshire and The Humber,E12000003,median_gender_pay_gap,16.5
+Yorkshire and The Humber,E12000003,mean_gender_pay_gap,15
+East Riding of Yorkshire UA,E06000011,median_gender_pay_gap,19.5
+East Riding of Yorkshire UA,E06000011,mean_gender_pay_gap,18.6
+Kingston upon Hull UA,E06000010,median_gender_pay_gap,11.5
+Kingston upon Hull UA,E06000010,mean_gender_pay_gap,7.5
+North East Lincolnshire UA,E06000012,median_gender_pay_gap,25
+North East Lincolnshire UA,E06000012,mean_gender_pay_gap,25.4
+North Lincolnshire UA,E06000013,median_gender_pay_gap,23.6
+North Lincolnshire UA,E06000013,mean_gender_pay_gap,13.3
+York UA,E06000014,median_gender_pay_gap,11
+York UA,E06000014,mean_gender_pay_gap,8.6
+North Yorkshire,E10000023,median_gender_pay_gap,14.6
+North Yorkshire,E10000023,mean_gender_pay_gap,14.2
+Craven,E07000163,median_gender_pay_gap,9.3
+Craven,E07000163,mean_gender_pay_gap,25.4
+Hambleton,E07000164,median_gender_pay_gap,25.1
+Hambleton,E07000164,mean_gender_pay_gap,16
+Harrogate,E07000165,median_gender_pay_gap,11.3
+Harrogate,E07000165,mean_gender_pay_gap,15.1
+Richmondshire,E07000166,median_gender_pay_gap,16
+Richmondshire,E07000166,mean_gender_pay_gap,7.9
+Ryedale,E07000167,median_gender_pay_gap,0.7
+Ryedale,E07000167,mean_gender_pay_gap,13.9
+Scarborough,E07000168,median_gender_pay_gap,20.3
+Scarborough,E07000168,mean_gender_pay_gap,13.2
+Selby,E07000169,median_gender_pay_gap,18.7
+Selby,E07000169,mean_gender_pay_gap,5.9
+South Yorkshire Met County,E11000003,median_gender_pay_gap,14.9
+South Yorkshire Met County,E11000003,mean_gender_pay_gap,15.3
+Barnsley,E08000016,median_gender_pay_gap,7.8
+Barnsley,E08000016,mean_gender_pay_gap,12.7
+Doncaster,E08000017,median_gender_pay_gap,21.3
+Doncaster,E08000017,mean_gender_pay_gap,18.3
+Rotherham,E08000018,median_gender_pay_gap,19.6
+Rotherham,E08000018,mean_gender_pay_gap,21.7
+Sheffield,E08000019,median_gender_pay_gap,11.9
+Sheffield,E08000019,mean_gender_pay_gap,11.7
+West Yorkshire Met County,E11000006,median_gender_pay_gap,18.7
+West Yorkshire Met County,E11000006,mean_gender_pay_gap,15.6
+Bradford,E08000032,median_gender_pay_gap,14.7
+Bradford,E08000032,mean_gender_pay_gap,18.5
+Calderdale,E08000033,median_gender_pay_gap,14
+Calderdale,E08000033,mean_gender_pay_gap,11.2
+Kirklees,E08000034,median_gender_pay_gap,18.8
+Kirklees,E08000034,mean_gender_pay_gap,14.9
+Leeds,E08000035,median_gender_pay_gap,20.3
+Leeds,E08000035,mean_gender_pay_gap,16.1
+Wakefield,E08000036,median_gender_pay_gap,20.4
+Wakefield,E08000036,mean_gender_pay_gap,13.4

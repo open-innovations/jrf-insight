@@ -21,18 +21,14 @@ sheets <- readxl::excel_sheets(file)
 sheets <- sheets[!grepl("Notes", sheets)] |>
   setNames(sheets[!grepl("Notes", sheets)])
 
+
+geography_code_name_only <- readr::read_csv("data/geo/geography_code_name_only.csv")
+
 jobs_below_lw <- lapply(sheets, function(sht) {
-  readxl::read_excel(file, sheet = sht, skip = 4)
-  # ,
-  #                    col_names = c("geography_name", "geography_code",
-  #                                  "number_of_jobs_000s", "percent"),
-  #                    col_types = c("text", "text",
-  #                                  "numeric", "numeric",
-  #                                  rep("skip", 3)),
-  #                    na = c("x", "-", ":", "..")
-  # ) |>
-  #   tidyr::pivot_longer(-(geography_name:geography_code),
-  #                       names_to = 'variable_name')
+  readxl::read_excel(file, sheet = sht, skip = 4, na = c("x", "-", ":", "..")) |>
+    dplyr::select(1:4) |>
+    setNames(c("geography_name", "geography_code",
+             "number_of_jobs_000s", "percent"))
 }) |>
   dplyr::bind_rows(.id = 'dataset') |>
   dplyr::mutate(
@@ -47,4 +43,8 @@ jobs_below_lw <- lapply(sheets, function(sht) {
     )
   ) |>
   dplyr::select(-dataset) |>
-  dplyr::mutate(date = substr(file, regexpr("[0-9]{4}", file), regexpr("[0-9]{4}", file) + 3), .before = 1)
+  dplyr::mutate(date = substr(file, regexpr("[0-9]{4}", file), regexpr("[0-9]{4}", file) + 3), .before = 1) |>
+  tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "variable_name") |>
+  dplyr::filter(geography_code %in% geography_code_name_only$code)
+
+readr::write_csv(jobs_below_lw, "data/jobs-below-living-wage/jobs-below-living-wage.csv")
