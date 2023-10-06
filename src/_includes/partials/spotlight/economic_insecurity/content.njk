@@ -11,210 +11,221 @@
 <p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
 {% comp 'layout.tab.set' %}
-{% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
-  <h3>Rates of unemployment and economic inactivity over time</h3>
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows labour market statistics for {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "labour-market", view: "labour-market"}) | safe }}
-  {% endcomp %}
-  {% set labour_market_time_series = dataset
-    .labour_market
-    .get_economic_activity_for_place(geography) %}
-  {% if labour_market_time_series | length > 0 %}
-    {{ comp.oi.chart.line({
-      config: {
-        data: labour_market_time_series,
-        legend: { show: true },
-        axis: {
-          x: { title: { label: "Year" }, grid: { show: true } },
-          y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
-        },
-        series: [
-          {
-            x: "date", y: "Unemployment rate - aged 16-64",
-            title: "Unemployment rate", line: { 'stroke-width': 5 }, points: { size: 10 }
-          },
-          {
-            x: "date", y: "% who are economically inactive - aged 16-64",
-            title: "Economic inactivity rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+  {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
+    <h3>Rates of unemployment and economic inactivity over time</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows labour market statistics for {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "labour-market", view: "labour-market"}) | safe }}
+    {% endcomp %}
+    {% set labour_market_time_series = dataset
+      .labour_market
+      .get_economic_activity_for_place(geography) %}
+    {% if labour_market_time_series | length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+        {{ comp.oi.chart.line({
+          config: {
+            data: labour_market_time_series,
+            legend: { show: true },
+            axis: {
+              x: { title: { label: "Year" }, grid: { show: true } },
+              y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
+            },
+            series: [
+              {
+                x: "date", y: "Unemployment rate - aged 16-64",
+                title: "Unemployment rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+              },
+              {
+                x: "date", y: "% who are economically inactive - aged 16-64",
+                title: "Economic inactivity rate", line: { 'stroke-width': 5 }, points: { size: 10 }
+              }
+            ]
           }
-        ]
-      }
-    }) | safe }}
-  {% else %}
-    <p>No data available at this level</p>
-  {% endif %}
-{% endcomp %}
-
-{% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
-{% set fp_this = dataset
-  .fuel_poverty
-  .get_fuel_poverty([geography])[0] %}
-{% set range = dataset
-  .fuel_poverty
-  .range() %}
-{% set fp_all = dataset
-  .fuel_poverty
-  .get_fuel_poverty(place_and_children) %}
-
-{% if fp_this | length > 0 %}
-  <h3>Fuel poverty rate by geography</h3>
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>
-    This chart shows the percentage of households in fuel poverty across the different 
-    areas in  {{ this_place.title }}. In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
-    of {{ fp_this['Number of households'] }} households are in fuel poverty.
-  </p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "fuel-poverty", view: "fuel-poverty"}) | safe }}
+        }) | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level</p>
+    {% endif %}
   {% endcomp %}
-{% endif %}
 
-  {% if fp_all.length > 0 %}
-    {{ comp.oi.map.svg({
-  config: {
-    data: fp_all,
-    geojson: { data: place[geography].map, key: 'ons_code' },
-    background: {
-      geojson: 'map.england', colour: 'silver' },
-    columns: [
-      { name: 'tooltip', template: "{{ geography_name}}\n\n{{ Proportion of households fuel poor (%) | toFixed(1) }}% of households are fuel poor" }
-    ],
-    value: 'Proportion of households fuel poor (%)',
-    scale: 'Viridis',
-    min: range.min,
-    max: range.max,
-    legend: {
-      position: 'top',
-      items: [
-        { value: range.max, label: range.max + '% (highest)' },
-        { value: (range.max + range.min) / 2, label: (range.max + range.min) / 2 + '%' },
-        { value: range.min, label: range.min + '% (lowest)' }
-      ]
-    },
-    key: 'geography_code',
-    tooltip: 'tooltip'
-  }
-}) | safe }}
-  {% endif %}
+  {% comp 'layout.tab.panel', { label: 'Fuel poverty', id: 'fuel-poverty' } %}
+    {% set fp_this = dataset
+      .fuel_poverty
+      .get_fuel_poverty([geography])[0] %}
+    {% set range = dataset
+      .fuel_poverty
+      .range() %}
+    {% set fp_all = dataset
+      .fuel_poverty
+      .get_fuel_poverty(place_and_children) %}
+
+    <h3>Fuel poverty rate by geography</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>
+      This chart shows the percentage of households in fuel poverty across the different 
+      areas in  {{ this_place.title }}.
+      {% if fp_this | length > 0 %}
+        In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
+      of {{ fp_this['Number of households'] }} households are in fuel poverty.
+      {% endif %}
+    </p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "fuel-poverty", view: "fuel-poverty"}) | safe }}
+    {% endcomp %}
+
+    {% if fp_all.length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ comp.oi.map.svg({
+        config: {
+          data: fp_all,
+          geojson: { data: place[geography].map, key: 'ons_code' },
+          background: {
+            geojson: 'map.england', colour: 'silver' },
+          columns: [
+            { name: 'tooltip', template: "{{ geography_name}}\n\n{{ Proportion of households fuel poor (%) | toFixed(1) }}% of households are fuel poor" }
+          ],
+          value: 'Proportion of households fuel poor (%)',
+          scale: 'Viridis',
+          min: range.min,
+          max: range.max,
+          legend: {
+            position: 'top',
+            items: [
+              { value: range.max, label: range.max + '% (highest)' },
+              { value: (range.max + range.min) / 2, label: (range.max + range.min) / 2 + '%' },
+              { value: range.min, label: range.min + '% (lowest)' }
+            ]
+          },
+          key: 'geography_code',
+          tooltip: 'tooltip'
+        }
+      }) | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
 
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Weekly earning', id: 'weekly-earning' } %}
-  {% set we_all = dataset
-    .ashe
-    .weekly_earnings(place_and_children) %}
-  {% if we_all.length > 0 %}
-    <h3>Median weekly wage by geography</h3>
-    {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
-    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }}
-    {% endcomp %}
-  {{ comp.oi.map.svg({
-    config: {
-      data: we_all,
-      geojson: { data: place[geography].map, key: 'ons_code' },
-      background: {
-        geojson: 'map.england', colour: 'silver' },
-      columns: [
-        { name: 'tooltip', template: "{{ geography_name}}\n£{{ median_weekly_wage | toFixed(0) }} median weekly wage" }
-      ],
-      key: 'geography_code',
-      value: 'median_weekly_wage',
-      scale: 'Viridis',
-      max: dataset.ashe.range.median_weekly_wage.min,
-      min: dataset.ashe.range.median_weekly_wage.max,
-      legend: {
-        position: 'top',
-        items: [
-          { value: dataset.ashe.range.median_weekly_wage.min, label: "£" + dataset.ashe.range.median_weekly_wage.min + ' (lowest)' },
-          { value: (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2, label: "£" + (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2 },
-          { value: dataset.ashe.range.median_weekly_wage.max, label: "£" + dataset.ashe.range.median_weekly_wage.max + ' (highest)' }
-        ]
-      },
-      tooltip: 'tooltip'
-    }
-  }) | safe }}
-  {% endif %}
+    {% set we_all = dataset
+      .ashe
+      .weekly_earnings(place_and_children) %}
+      <h3>Median weekly wage by geography</h3>
+      {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }}
+      {% endcomp %}
+    {% if we_all.length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ comp.oi.map.svg({
+        config: {
+          data: we_all,
+          geojson: { data: place[geography].map, key: 'ons_code' },
+          background: {
+            geojson: 'map.england', colour: 'silver' },
+          columns: [
+            { name: 'tooltip', template: "{{ geography_name}}\n£{{ median_weekly_wage | toFixed(0) }} median weekly wage" }
+          ],
+          key: 'geography_code',
+          value: 'median_weekly_wage',
+          scale: 'Viridis',
+          max: dataset.ashe.range.median_weekly_wage.min,
+          min: dataset.ashe.range.median_weekly_wage.max,
+          legend: {
+            position: 'top',
+            items: [
+              { value: dataset.ashe.range.median_weekly_wage.min, label: "£" + dataset.ashe.range.median_weekly_wage.min + ' (lowest)' },
+              { value: (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2, label: "£" + (dataset.ashe.range.median_weekly_wage.max + dataset.ashe.range.median_weekly_wage.min) / 2 },
+              { value: dataset.ashe.range.median_weekly_wage.max, label: "£" + dataset.ashe.range.median_weekly_wage.max + ' (highest)' }
+            ]
+          },
+          tooltip: 'tooltip'
+        }
+      }) | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Savings and investments', id: 'savings-investments' } %}
-  {% set chart_data = dataset
-    .hbai
-    .get_savings_and_investments_for_place(geography) %}
-  {% if chart_data | length > 0 %}
+    {% set chart_data = dataset
+      .hbai
+      .get_savings_and_investments_for_place(geography) %}
     <h3>Percentage of people in low income households by their savings and investments</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>
-      This chart shows the poverty rates by the savings and investments of adults in the family in {{ this_place.title }}.
-      The threshold for low income poverty is households below 60% of median net household 
-      income (after housing costs) in latest prices.
-    </p>
-    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_savings_and_investments"}) | safe }}
+      <p>
+        This chart shows the poverty rates by the savings and investments of adults in the family in {{ this_place.title }}.
+        The threshold for low income poverty is households below 60% of median net household 
+        income (after housing costs) in latest prices.
+      </p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_savings_and_investments"}) | safe }}
     {% endcomp %}
+    {% if chart_data | length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
       {{ comp.oi.chart.line({
-    config: {
-      legend: { show: true },
-      data: chart_data,
-      axis: {
-        x: { 
-            title: { label: "Year" }, 
-            ticks: [
-              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
-              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
-              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
-              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
-              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
-              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
-              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
-              ]
+        config: {
+          legend: { show: true },
+          data: chart_data,
+          axis: {
+            x: { 
+                title: { label: "Year" }, 
+                ticks: [
+                  { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+                  { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+                  { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+                  { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+                  ]
+                },
+            y: { title: { label: "Percentage in low income poverty" }, grid: { show: true }, tick: { spacing: 5 }, min: 0, max: 20 }
+          },
+          series: [
+            {
+              title: "No savings", x: "date", y: "No savings",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
             },
-        y: { title: { label: "Percentage in low income poverty" }, grid: { show: true }, tick: { spacing: 5 }, min: 0, max: 20 }
-      },
-      series: [
-        {
-          title: "No savings", x: "date", y: "No savings",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "Less than £1,500",
-          x: "date",
-          y: "Less than £1,500",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "£1,500 but less than £3,000",
-          x: "date",
-          y: "£1,500 but less than £3,000",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "£3,000 but less than £8,000",
-          x: "date",
-          y: "£3,000 but less than £8,000",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "£8,000 but less than £10,000",
-          x: "date",
-          y: "£8,000 but less than £10,000",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
+            {
+              title: "Less than £1,500",
+              x: "date",
+              y: "Less than £1,500",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "£1,500 but less than £3,000",
+              x: "date",
+              y: "£1,500 but less than £3,000",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "£3,000 but less than £8,000",
+              x: "date",
+              y: "£3,000 but less than £8,000",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "£8,000 but less than £10,000",
+              x: "date",
+              y: "£8,000 but less than £10,000",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            }
+          ]
         }
-      ]
-    }
-  }) | safe }}
-  {% else %}
-    <p>No data available at this level</p>
-  {% endif %}
+      }) | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level</p>
+    {% endif %}
   {% endcomp %}
 
-  {% endcomp %}
+{% endcomp %}
+{# End of tab set #}
 
-  <h3>Demographic breakdown</h3>
+<h3>Demographic breakdown</h3>
 
-  <p>
-    Poverty can disproportionately affect certain groups.
-    This section presents analysis of {{ title }} with a focus on demographics.
-  </p>
+<p>
+  Poverty can disproportionately affect certain groups.
+  This section presents analysis of {{ title }} with a focus on demographics.
+</p>
 
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
@@ -231,46 +242,47 @@
     {% endcomp %}
     {% set chart_data = dataset.gender.gender_pay_gap(geography) %}
     {% if chart_data | length > 0 %}
-      {{comp.oi.chart.bar({
-          config: {
-            data: chart_data,
-            stacked: false,
-            legend: { 
-              show: true
-              },
-            category: "hours",
-            series: [
-                {
-                "title": "Median gap (%)",  
-                "value": "median_gender_pay_gap",
-                "colour": "#64A70B"
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+        {{comp.oi.chart.bar({
+            config: {
+              data: chart_data,
+              stacked: false,
+              legend: { 
+                show: true
                 },
-                {
-                "title": "Mean gap (%)",  
-                "value": "mean_gender_pay_gap",
-                "colour": "#3EB1C8"
-                }
-              ], 
-            axis: {
-              x: {
-                tick: {
-                  spacing: 3
+              category: "hours",
+              series: [
+                  {
+                  "title": "Median gap (%)",  
+                  "value": "median_gender_pay_gap",
+                  "colour": "#64A70B"
+                  },
+                  {
+                  "title": "Mean gap (%)",  
+                  "value": "mean_gender_pay_gap",
+                  "colour": "#3EB1C8"
+                  }
+                ], 
+              axis: {
+                x: {
+                  tick: {
+                    spacing: 3
+                  }
                 }
               }
             }
-          }
-        }) | safe
-      }}
+          }) | safe
+        }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level.</p>
     {% endif %}
-    {# {% if chart_data | length > 0 %}
-    {% endif %} #}
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'Ethnicity', id: 'ethnicity' } %}
   {% set chart_data = dataset
     .hbai
     .low_income_ethnicity(geography) %}
-  {% if chart_data | length > 0 %}
     <h3>People in low income households by ethnic group</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p> 
@@ -286,115 +298,120 @@
     </p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_ethnic_group"}) | safe }}
     {% endcomp %}
-    {{ comp.oi.chart.line({
-    config: {
-      legend: { show: true },
-      data: chart_data,
-      axis: {
-        x: { title: { label: "3 year period" },
-            ticks: [
-              { value: "0", label: "1994-95 - 1996-97", tickSize: 5 },
-              { value: "4", label: "1998-99 - 2000-01", tickSize: 5 },
-              { value: "8", label: "2002-03 - 2004-05", tickSize: 5 },
-              { value: "12", label: "2006-07 - 2007-08", tickSize: 5 },
-              { value: "16", label: "2009-10 - 2011-12", tickSize: 5 },
-              { value: "20", label: "2013-14 - 2015-16", tickSize: 5 },
-              { value: "24", label: "2017-18 - 2019-20", tickSize: 5 }
-              ] 
+    {% if chart_data | length > 0 %}
+    {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { show: true },
+          data: chart_data,
+          axis: {
+            x: { title: { label: "3 year period" },
+                ticks: [
+                  { value: "0", label: "1994-95 - 1996-97", tickSize: 5 },
+                  { value: "8", label: "2002-03 - 2004-05", tickSize: 5 },
+                  { value: "16", label: "2009-10 - 2011-12", tickSize: 5 },
+                  { value: "24", label: "2017-18 - 2019-20", tickSize: 5 }
+                  ] 
+                },
+            y: {
+              title: { label: "Percentage in low income poverty" }, grid: { show: true },
+              tick: { spacing: 5 }, min: 0, max: 30
+            }
+          },
+          series: [
+            {
+              title: "Asian/ Asian British", x: "date", y: "Asian/ Asian British",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
             },
-        y: {
-          title: { label: "Percentage in low income poverty" }, grid: { show: true },
-          tick: { spacing: 5 }, min: 0, max: 30
+            {
+              title: "Black/ African/ Caribbean/ Black British", x: "date", y: "Black/ African/ Caribbean/ Black British",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "Mixed/ Multiple Ethnic Groups", x: "date", y: "Mixed/ Multiple Ethnic Groups",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "Other Ethnic Group", x: "date", y: "Other Ethnic Group",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            },
+            {
+              title: "White", x: "date", y: "White",
+              line: { 'stroke-width': 5 }, points: { size: 10 }
+            }
+          ]
         }
-      },
-      series: [
-        {
-          title: "Asian/ Asian British", x: "date", y: "Asian/ Asian British",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "Black/ African/ Caribbean/ Black British", x: "date", y: "Black/ African/ Caribbean/ Black British",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "Mixed/ Multiple Ethnic Groups", x: "date", y: "Mixed/ Multiple Ethnic Groups",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "Other Ethnic Group", x: "date", y: "Other Ethnic Group",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "White", x: "date", y: "White",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        }
-      ]
-    }
-  }) | safe }}
-  
-  {% else %}
-    <p>No data available at this level</p>
-  {% endif %}
+      }) | safe }}
+    {% endcomp %}
+    {% else %}
+      <p>No data available at this level</p>
+    {% endif %}
   {% endcomp %}
 
   {% comp 'layout.tab.panel', {label: 'Single parents', id: 'single-parents' } %}
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
-  {% if chart_data | length > 0 %}
-  <h3>People in low income households by marital status</h3>
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p> This chart shows the poverty rates by marital/cohabiting status in {{ this_place.title }}.
-    The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.</p>
-  <p>
-    These statistics have been three-year averaged and rounded according to the guidance on 
-    <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
-  </p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_marital_status.csv"}) | safe }}
-  {% endcomp %}
-  {{ comp.oi.chart.line({
-    config: {
-      legend: { show: true },
-      data: chart_data,
-      axis: {
-        x: { title: { label: "3-year period" },
-            ticks: [
-              { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
-              { value: "4", label: "1998-99 - 2000-01", tickSize: 8 },
-              { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
-              { value: "12", label: "2006-07 - 2007-08", tickSize: 8 },
-              { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
-              { value: "20", label: "2013-14 - 2015-16", tickSize: 8 },
-              { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
-              ] 
+    <h3>People in low income households by marital status</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p> This chart shows the poverty rates by marital/cohabiting status in {{ this_place.title }}.
+      The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.</p>
+    <p>
+      These statistics have been three-year averaged and rounded according to the guidance on 
+      <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/dataCatalogueExplorer.xhtml">statXplore</a>.
+    </p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_marital_status.csv"}) | safe }}
+    {% endcomp %}
+    {% if chart_data | length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+        {{ comp.oi.chart.line({
+          config: {
+            legend: { show: true },
+            data: chart_data,
+            axis: {
+              x: { title: { label: "3-year period" },
+                  ticks: [
+                    { value: "0", label: "1994-95 - 1996-97", tickSize: 8 },
+                    { value: "8", label: "2002-03 - 2004-05", tickSize: 8 },
+                    { value: "16", label: "2009-10 - 2011-12", tickSize: 8 },
+                    { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
+                    ] 
+                  },
+              y: {
+                title: { label: "Percentage in low income poverty" }, grid: { show: true },
+                tick: { spacing: 5 }, min: 0, max: 20
+              }
             },
-        y: {
-          title: { label: "Percentage in low income poverty" }, grid: { show: true },
-          tick: { spacing: 5 }, min: 0, max: 20
-        }
-      },
-      series: [
-        {
-          title: "Couple", x: "date", y: "Couple",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        },
-        {
-          title: "Single", x: "date", y: "Single",
-          line: { 'stroke-width': 5 }, points: { size: 10 }
-        }
-      ]
-    }
-  }) | safe }}
-  {% else %}
-    <p>No data available at this level</p>
-  {% endif %}
-{% endcomp %}
-  {% comp 'layout.tab.panel', {label: 'Carers', id: 'carers' } %}
-  <p>Idea: Cases with entitlement and cases in payment at regional level available 
-    from statXplore.</p>
-  {% endcomp %}
+            series: [
+              {
+                title: "Couple", x: "date", y: "Couple",
+                line: { 'stroke-width': 5 }, points: { size: 10 }
+              },
+              {
+                title: "Single", x: "date", y: "Single",
+                line: { 'stroke-width': 5 }, points: { size: 10 }
+              }
+            ]
+          }
+        }) | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level</p>
+    {% endif %}
   {% endcomp %}
 
+  {% comp 'layout.tab.panel', {label: 'Carers', id: 'carers' } %}
+    <h3>Title holder</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    {% endcomp %}
+    <p>
+      Idea: Cases with entitlement and cases in payment at regional level available 
+      from statXplore.
+    </p>
+  {% endcomp %}
+
+{% endcomp %}
+{# End of tab set #}
   <p>
-    See also https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty
+    See also the <a href="https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty">briefing by JRF</a> for Economic security. 
   </p>
 
   {% set savings = this_place_data['households_low_income_no_savings'] %}
@@ -404,9 +421,9 @@
   {% set fuel_poverty = this_place_data['Proportion of households fuel poor (%)'] %}
 
   {{ top_trump_table(
-  name="spotlight statistics",
-  style="top-trump-table top-trump-invert",
-  columns= [
+    name="spotlight statistics",
+    style="top-trump-table top-trump-invert",
+    columns= [
       {
         name: 'Low income households with no savings or investments', 
         data: savings, 
@@ -433,5 +450,5 @@
         simple_data: null
       }
       ]
-  ) 
-}}
+    ) 
+  }}
