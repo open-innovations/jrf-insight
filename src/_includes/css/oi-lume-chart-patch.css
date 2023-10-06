@@ -29,3 +29,11 @@
 .oi-legend-label {
   color: black;
 }
+
+text.axis-grid-title {
+  font-size: min(5vw, 2rem);
+}
+
+text > tspan {
+  font-size: min(5vw, 1.5rem);
+}
