@@ -37,7 +37,7 @@ export const range = connection.query(`
 export function rent_to_earnings(placeList: string[]) {
   return run(
     () => connection.query(`
-    SELECT value, geography_code, geography_name FROM rent_to_earnings WHERE geography_code IN ${arrayToDuckSet(placeList)} AND variable_name=='lq_rent_to_median_earnings';
+    SELECT value, geography_code, geography_name FROM rent_to_earnings WHERE geography_code IN ${arrayToDuckSet(placeList)} AND variable_name=='lq_rent_to_lq_earnings';
     `)
   );
 };

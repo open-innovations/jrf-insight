@@ -18,18 +18,17 @@ stages:
     deps:
     - path: ../../../data/ashe/weekly-earnings.csv
       hash: md5
-      md5: b9dcef154913f1bb6cddd61fefcc391f
-      size: 17615
+      md5: a218dcd7cc849d51ee58b5215840e267
+      size: 29390
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
-      md5: 5f0c3910f5544a613cea5fa3a204f8a2
-      size: 15272
+      md5: fa041de510cb3c1de67bf86a20c721fc
+      size: 15208
     outs:
     - path: ../../../data/ashe/rent-earning-ratio.csv
       hash: md5
-      md5: d2fac9da8da134fff2ecb6385412c4c6
-      size: 5811
-      isexec: true
+      md5: 12271825770cb06011a11e0c1f9f8226
+      size: 4615
   rental-prices:
     cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb
     deps:
@@ -46,17 +45,28 @@ stages:
   dwellings:
     cmd: papermill dwelling_stock.ipynb ../../../data/_working/output/dwelling_stock.ipynb
     deps:
-    - path: ../../../data-raw/dwelling-stock/dwelling_stock_by_tenure_by_LA.ods
+    - path: ../../../data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx
       hash: md5
-      md5: ae47f6296a2e8b79c75ca52808376046
-      size: 537066
+      md5: 050558ac46525d9e8ad678492d95ea37
+      size: 812366
     - path: ../../../pipelines/spotlight/housing/dwelling_stock.ipynb
       hash: md5
-      md5: ba09ddf330cba62d4f69818031f015c4
-      size: 2356
+      md5: 94e34f1886959400fa4703091ff29893
+      size: 2179
     outs:
     - path: ../../../data/dwelling-stock/dwelling-stock.csv
       hash: md5
-      md5: 7560c8312dcff902ae9771f1d9c10759
-      size: 96217
-      isexec: true
+      md5: 391ce60065d90b99b692129aa22a67e3
+      size: 1072188
+  download-files:
+    cmd: python get-files.py
+    deps:
+    - path: get-files.py
+      hash: md5
+      md5: 506ce06c844a1ef662bf14d5bc549acb
+      size: 565
+    outs:
+    - path: ../../../data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx
+      hash: md5
+      md5: 050558ac46525d9e8ad678492d95ea37
+      size: 812366

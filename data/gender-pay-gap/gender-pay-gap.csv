@@ -1,0 +1,499 @@
+hours,geography_name,geography_code,variable_name,value
+All,North East,E12000001,median_gender_pay_gap,15
+All,North East,E12000001,mean_gender_pay_gap,10.6
+All,Darlington UA,E06000005,median_gender_pay_gap,21.3
+All,Darlington UA,E06000005,mean_gender_pay_gap,12.3
+All,Hartlepool UA,E06000001,median_gender_pay_gap,17.4
+All,Hartlepool UA,E06000001,mean_gender_pay_gap,7.6
+All,Middlesbrough UA,E06000002,median_gender_pay_gap,17.3
+All,Middlesbrough UA,E06000002,mean_gender_pay_gap,14.9
+All,Redcar and Cleveland UA,E06000003,median_gender_pay_gap,3.5
+All,Redcar and Cleveland UA,E06000003,mean_gender_pay_gap,6.7
+All,Stockton-on-Tees UA,E06000004,median_gender_pay_gap,18.4
+All,Stockton-on-Tees UA,E06000004,mean_gender_pay_gap,17.1
+All,County Durham UA,E06000047,median_gender_pay_gap,19.2
+All,County Durham UA,E06000047,mean_gender_pay_gap,9.4
+All,Northumberland UA,E06000057,median_gender_pay_gap,20.9
+All,Northumberland UA,E06000057,mean_gender_pay_gap,16
+All,Tyne and Wear Met County,E11000007,median_gender_pay_gap,10
+All,Tyne and Wear Met County,E11000007,mean_gender_pay_gap,9
+All,Gateshead,E08000037,median_gender_pay_gap,4.3
+All,Gateshead,E08000037,mean_gender_pay_gap,8
+All,Newcastle upon Tyne,E08000021,median_gender_pay_gap,17.4
+All,Newcastle upon Tyne,E08000021,mean_gender_pay_gap,9.2
+All,North Tyneside,E08000022,median_gender_pay_gap,9.1
+All,North Tyneside,E08000022,mean_gender_pay_gap,11.9
+All,South Tyneside,E08000023,median_gender_pay_gap,19.2
+All,South Tyneside,E08000023,mean_gender_pay_gap,14.4
+All,Sunderland,E08000024,median_gender_pay_gap,4.8
+All,Sunderland,E08000024,mean_gender_pay_gap,5.1
+All,North West,E12000002,median_gender_pay_gap,13.8
+All,North West,E12000002,mean_gender_pay_gap,12.8
+All,Blackburn with Darwen UA,E06000008,median_gender_pay_gap,14.4
+All,Blackburn with Darwen UA,E06000008,mean_gender_pay_gap,7.3
+All,Blackpool UA,E06000009,median_gender_pay_gap,0.7
+All,Blackpool UA,E06000009,mean_gender_pay_gap,3.4
+All,Halton UA,E06000006,median_gender_pay_gap,11.8
+All,Halton UA,E06000006,mean_gender_pay_gap,14
+All,Warrington UA,E06000007,median_gender_pay_gap,13.4
+All,Warrington UA,E06000007,mean_gender_pay_gap,12
+All,Cheshire East UA,E06000049,median_gender_pay_gap,22.4
+All,Cheshire East UA,E06000049,mean_gender_pay_gap,18
+All,Cheshire West and Chester,E06000050,median_gender_pay_gap,14.1
+All,Cheshire West and Chester,E06000050,mean_gender_pay_gap,13.7
+All,Cumbria,E10000006,median_gender_pay_gap,21.5
+All,Cumbria,E10000006,mean_gender_pay_gap,13.1
+All,Allerdale,E07000026,median_gender_pay_gap,26.7
+All,Allerdale,E07000026,mean_gender_pay_gap,15.3
+All,Barrow-in-Furness,E07000027,median_gender_pay_gap,30
+All,Barrow-in-Furness,E07000027,mean_gender_pay_gap,25
+All,Carlisle,E07000028,median_gender_pay_gap,16.2
+All,Carlisle,E07000028,mean_gender_pay_gap,10.4
+All,Copeland,E07000029,median_gender_pay_gap,24.3
+All,Copeland,E07000029,mean_gender_pay_gap,7
+All,Eden,E07000030,median_gender_pay_gap,12.4
+All,Eden,E07000030,mean_gender_pay_gap,13.2
+All,South Lakeland,E07000031,median_gender_pay_gap,11.2
+All,South Lakeland,E07000031,mean_gender_pay_gap,8
+All,Greater Manchester Met County,E11000001,median_gender_pay_gap,10.3
+All,Greater Manchester Met County,E11000001,mean_gender_pay_gap,11.6
+All,Bolton,E08000001,median_gender_pay_gap,2.2
+All,Bolton,E08000001,mean_gender_pay_gap,12.1
+All,Bury,E08000002,median_gender_pay_gap,1
+All,Bury,E08000002,mean_gender_pay_gap,1.1
+All,Manchester,E08000003,median_gender_pay_gap,8.4
+All,Manchester,E08000003,mean_gender_pay_gap,12.1
+All,Oldham,E08000004,median_gender_pay_gap,5.3
+All,Oldham,E08000004,mean_gender_pay_gap,9.8
+All,Rochdale,E08000005,median_gender_pay_gap,6.7
+All,Rochdale,E08000005,mean_gender_pay_gap,8.6
+All,Salford,E08000006,median_gender_pay_gap,5.6
+All,Salford,E08000006,mean_gender_pay_gap,4.5
+All,Stockport,E08000007,median_gender_pay_gap,24.3
+All,Stockport,E08000007,mean_gender_pay_gap,17.2
+All,Tameside,E08000008,median_gender_pay_gap,17.1
+All,Tameside,E08000008,mean_gender_pay_gap,15.6
+All,Trafford,E08000009,median_gender_pay_gap,14.4
+All,Trafford,E08000009,mean_gender_pay_gap,17.7
+All,Wigan,E08000010,median_gender_pay_gap,15.5
+All,Wigan,E08000010,mean_gender_pay_gap,12.8
+All,Lancashire,E10000017,median_gender_pay_gap,14.2
+All,Lancashire,E10000017,mean_gender_pay_gap,14
+All,Burnley,E07000117,median_gender_pay_gap,-2.8
+All,Burnley,E07000117,mean_gender_pay_gap,1.6
+All,Chorley,E07000118,median_gender_pay_gap,15
+All,Chorley,E07000118,mean_gender_pay_gap,15.6
+All,Fylde,E07000119,median_gender_pay_gap,24.1
+All,Fylde,E07000119,mean_gender_pay_gap,20
+All,Hyndburn,E07000120,median_gender_pay_gap,33.5
+All,Hyndburn,E07000120,mean_gender_pay_gap,30.4
+All,Lancaster,E07000121,median_gender_pay_gap,16.9
+All,Lancaster,E07000121,mean_gender_pay_gap,6.9
+All,Pendle,E07000122,median_gender_pay_gap,13.1
+All,Pendle,E07000122,mean_gender_pay_gap,9
+All,Preston,E07000123,median_gender_pay_gap,21.2
+All,Preston,E07000123,mean_gender_pay_gap,12.7
+All,Ribble Valley,E07000124,median_gender_pay_gap,30.9
+All,Ribble Valley,E07000124,mean_gender_pay_gap,16.1
+All,Rossendale,E07000125,median_gender_pay_gap,5.9
+All,Rossendale,E07000125,mean_gender_pay_gap,9.1
+All,South Ribble,E07000126,median_gender_pay_gap,4
+All,South Ribble,E07000126,mean_gender_pay_gap,8.8
+All,West Lancashire,E07000127,median_gender_pay_gap,12.4
+All,West Lancashire,E07000127,mean_gender_pay_gap,18.8
+All,Wyre,E07000128,median_gender_pay_gap,15.6
+All,Wyre,E07000128,mean_gender_pay_gap,19
+All,Merseyside Met County,E11000002,median_gender_pay_gap,15.6
+All,Merseyside Met County,E11000002,mean_gender_pay_gap,13.3
+All,Knowsley,E08000011,median_gender_pay_gap,8.3
+All,Knowsley,E08000011,mean_gender_pay_gap,0.8
+All,Liverpool,E08000012,median_gender_pay_gap,14.9
+All,Liverpool,E08000012,mean_gender_pay_gap,11.4
+All,St. Helens,E08000013,median_gender_pay_gap,27.6
+All,St. Helens,E08000013,mean_gender_pay_gap,23.6
+All,Sefton,E08000014,median_gender_pay_gap,10.7
+All,Sefton,E08000014,mean_gender_pay_gap,12.7
+All,Wirral,E08000015,median_gender_pay_gap,16.6
+All,Wirral,E08000015,mean_gender_pay_gap,15.7
+All,Yorkshire and The Humber,E12000003,median_gender_pay_gap,16.5
+All,Yorkshire and The Humber,E12000003,mean_gender_pay_gap,15
+All,East Riding of Yorkshire UA,E06000011,median_gender_pay_gap,19.5
+All,East Riding of Yorkshire UA,E06000011,mean_gender_pay_gap,18.6
+All,Kingston upon Hull UA,E06000010,median_gender_pay_gap,11.5
+All,Kingston upon Hull UA,E06000010,mean_gender_pay_gap,7.5
+All,North East Lincolnshire UA,E06000012,median_gender_pay_gap,25
+All,North East Lincolnshire UA,E06000012,mean_gender_pay_gap,25.4
+All,North Lincolnshire UA,E06000013,median_gender_pay_gap,23.6
+All,North Lincolnshire UA,E06000013,mean_gender_pay_gap,13.3
+All,York UA,E06000014,median_gender_pay_gap,11
+All,York UA,E06000014,mean_gender_pay_gap,8.6
+All,North Yorkshire,E10000023,median_gender_pay_gap,14.6
+All,North Yorkshire,E10000023,mean_gender_pay_gap,14.2
+All,Craven,E07000163,median_gender_pay_gap,9.3
+All,Craven,E07000163,mean_gender_pay_gap,25.4
+All,Hambleton,E07000164,median_gender_pay_gap,25.1
+All,Hambleton,E07000164,mean_gender_pay_gap,16
+All,Harrogate,E07000165,median_gender_pay_gap,11.3
+All,Harrogate,E07000165,mean_gender_pay_gap,15.1
+All,Richmondshire,E07000166,median_gender_pay_gap,16
+All,Richmondshire,E07000166,mean_gender_pay_gap,7.9
+All,Ryedale,E07000167,median_gender_pay_gap,0.7
+All,Ryedale,E07000167,mean_gender_pay_gap,13.9
+All,Scarborough,E07000168,median_gender_pay_gap,20.3
+All,Scarborough,E07000168,mean_gender_pay_gap,13.2
+All,Selby,E07000169,median_gender_pay_gap,18.7
+All,Selby,E07000169,mean_gender_pay_gap,5.9
+All,South Yorkshire Met County,E11000003,median_gender_pay_gap,14.9
+All,South Yorkshire Met County,E11000003,mean_gender_pay_gap,15.3
+All,Barnsley,E08000016,median_gender_pay_gap,7.8
+All,Barnsley,E08000016,mean_gender_pay_gap,12.7
+All,Doncaster,E08000017,median_gender_pay_gap,21.3
+All,Doncaster,E08000017,mean_gender_pay_gap,18.3
+All,Rotherham,E08000018,median_gender_pay_gap,19.6
+All,Rotherham,E08000018,mean_gender_pay_gap,21.7
+All,Sheffield,E08000019,median_gender_pay_gap,11.9
+All,Sheffield,E08000019,mean_gender_pay_gap,11.7
+All,West Yorkshire Met County,E11000006,median_gender_pay_gap,18.7
+All,West Yorkshire Met County,E11000006,mean_gender_pay_gap,15.6
+All,Bradford,E08000032,median_gender_pay_gap,14.7
+All,Bradford,E08000032,mean_gender_pay_gap,18.5
+All,Calderdale,E08000033,median_gender_pay_gap,14
+All,Calderdale,E08000033,mean_gender_pay_gap,11.2
+All,Kirklees,E08000034,median_gender_pay_gap,18.8
+All,Kirklees,E08000034,mean_gender_pay_gap,14.9
+All,Leeds,E08000035,median_gender_pay_gap,20.3
+All,Leeds,E08000035,mean_gender_pay_gap,16.1
+All,Wakefield,E08000036,median_gender_pay_gap,20.4
+All,Wakefield,E08000036,mean_gender_pay_gap,13.4
+Full-Time,North East,E12000001,median_gender_pay_gap,7
+Full-Time,North East,E12000001,mean_gender_pay_gap,7.5
+Full-Time,Darlington UA,E06000005,median_gender_pay_gap,18.4
+Full-Time,Darlington UA,E06000005,mean_gender_pay_gap,13.9
+Full-Time,Hartlepool UA,E06000001,median_gender_pay_gap,9.1
+Full-Time,Hartlepool UA,E06000001,mean_gender_pay_gap,5.1
+Full-Time,Middlesbrough UA,E06000002,median_gender_pay_gap,13.5
+Full-Time,Middlesbrough UA,E06000002,mean_gender_pay_gap,12.1
+Full-Time,Redcar and Cleveland UA,E06000003,median_gender_pay_gap,-4.6
+Full-Time,Redcar and Cleveland UA,E06000003,mean_gender_pay_gap,3.6
+Full-Time,Stockton-on-Tees UA,E06000004,median_gender_pay_gap,15.7
+Full-Time,Stockton-on-Tees UA,E06000004,mean_gender_pay_gap,13.4
+Full-Time,County Durham UA,E06000047,median_gender_pay_gap,7.8
+Full-Time,County Durham UA,E06000047,mean_gender_pay_gap,4.6
+Full-Time,Northumberland UA,E06000057,median_gender_pay_gap,21.2
+Full-Time,Northumberland UA,E06000057,mean_gender_pay_gap,12.1
+Full-Time,Tyne and Wear Met County,E11000007,median_gender_pay_gap,2.1
+Full-Time,Tyne and Wear Met County,E11000007,mean_gender_pay_gap,6.5
+Full-Time,Gateshead,E08000037,median_gender_pay_gap,2
+Full-Time,Gateshead,E08000037,mean_gender_pay_gap,6.9
+Full-Time,Newcastle upon Tyne,E08000021,median_gender_pay_gap,9
+Full-Time,Newcastle upon Tyne,E08000021,mean_gender_pay_gap,5.6
+Full-Time,North Tyneside,E08000022,median_gender_pay_gap,2.3
+Full-Time,North Tyneside,E08000022,mean_gender_pay_gap,9.5
+Full-Time,South Tyneside,E08000023,median_gender_pay_gap,15.7
+Full-Time,South Tyneside,E08000023,mean_gender_pay_gap,13.7
+Full-Time,Sunderland,E08000024,median_gender_pay_gap,-6
+Full-Time,Sunderland,E08000024,mean_gender_pay_gap,1.4
+Full-Time,North West,E12000002,median_gender_pay_gap,9.7
+Full-Time,North West,E12000002,mean_gender_pay_gap,10.7
+Full-Time,Blackburn with Darwen UA,E06000008,median_gender_pay_gap,9.6
+Full-Time,Blackburn with Darwen UA,E06000008,mean_gender_pay_gap,4.4
+Full-Time,Blackpool UA,E06000009,median_gender_pay_gap,7.7
+Full-Time,Blackpool UA,E06000009,mean_gender_pay_gap,2.4
+Full-Time,Halton UA,E06000006,median_gender_pay_gap,-1.3
+Full-Time,Halton UA,E06000006,mean_gender_pay_gap,9.6
+Full-Time,Warrington UA,E06000007,median_gender_pay_gap,18.9
+Full-Time,Warrington UA,E06000007,mean_gender_pay_gap,11.1
+Full-Time,Cheshire East UA,E06000049,median_gender_pay_gap,19.6
+Full-Time,Cheshire East UA,E06000049,mean_gender_pay_gap,15.1
+Full-Time,Cheshire West and Chester,E06000050,median_gender_pay_gap,14.8
+Full-Time,Cheshire West and Chester,E06000050,mean_gender_pay_gap,11.6
+Full-Time,Cumbria,E10000006,median_gender_pay_gap,14.9
+Full-Time,Cumbria,E10000006,mean_gender_pay_gap,9.3
+Full-Time,Allerdale,E07000026,median_gender_pay_gap,20.1
+Full-Time,Allerdale,E07000026,mean_gender_pay_gap,9.3
+Full-Time,Barrow-in-Furness,E07000027,median_gender_pay_gap,29.6
+Full-Time,Barrow-in-Furness,E07000027,mean_gender_pay_gap,22
+Full-Time,Carlisle,E07000028,median_gender_pay_gap,19.9
+Full-Time,Carlisle,E07000028,mean_gender_pay_gap,9
+Full-Time,Copeland,E07000029,median_gender_pay_gap,3.8
+Full-Time,Copeland,E07000029,mean_gender_pay_gap,2.5
+Full-Time,Eden,E07000030,median_gender_pay_gap,8.4
+Full-Time,Eden,E07000030,mean_gender_pay_gap,12.1
+Full-Time,South Lakeland,E07000031,median_gender_pay_gap,5.2
+Full-Time,South Lakeland,E07000031,mean_gender_pay_gap,3.5
+Full-Time,Greater Manchester Met County,E11000001,median_gender_pay_gap,6.9
+Full-Time,Greater Manchester Met County,E11000001,mean_gender_pay_gap,10.2
+Full-Time,Bolton,E08000001,median_gender_pay_gap,2.6
+Full-Time,Bolton,E08000001,mean_gender_pay_gap,12.9
+Full-Time,Bury,E08000002,median_gender_pay_gap,-6.2
+Full-Time,Bury,E08000002,mean_gender_pay_gap,-1.8
+Full-Time,Manchester,E08000003,median_gender_pay_gap,6.1
+Full-Time,Manchester,E08000003,mean_gender_pay_gap,11.3
+Full-Time,Oldham,E08000004,median_gender_pay_gap,1.7
+Full-Time,Oldham,E08000004,mean_gender_pay_gap,9.1
+Full-Time,Rochdale,E08000005,median_gender_pay_gap,-3.8
+Full-Time,Rochdale,E08000005,mean_gender_pay_gap,5
+Full-Time,Salford,E08000006,median_gender_pay_gap,3.7
+Full-Time,Salford,E08000006,mean_gender_pay_gap,2.6
+Full-Time,Stockport,E08000007,median_gender_pay_gap,20.6
+Full-Time,Stockport,E08000007,mean_gender_pay_gap,14.1
+Full-Time,Tameside,E08000008,median_gender_pay_gap,12.3
+Full-Time,Tameside,E08000008,mean_gender_pay_gap,11.3
+Full-Time,Trafford,E08000009,median_gender_pay_gap,20.2
+Full-Time,Trafford,E08000009,mean_gender_pay_gap,18.9
+Full-Time,Wigan,E08000010,median_gender_pay_gap,13.1
+Full-Time,Wigan,E08000010,mean_gender_pay_gap,11.9
+Full-Time,Lancashire,E10000017,median_gender_pay_gap,11.1
+Full-Time,Lancashire,E10000017,mean_gender_pay_gap,12.2
+Full-Time,Burnley,E07000117,median_gender_pay_gap,1.5
+Full-Time,Burnley,E07000117,mean_gender_pay_gap,1.2
+Full-Time,Chorley,E07000118,median_gender_pay_gap,10.3
+Full-Time,Chorley,E07000118,mean_gender_pay_gap,14.6
+Full-Time,Fylde,E07000119,median_gender_pay_gap,17.2
+Full-Time,Fylde,E07000119,mean_gender_pay_gap,16.8
+Full-Time,Hyndburn,E07000120,median_gender_pay_gap,29.5
+Full-Time,Hyndburn,E07000120,mean_gender_pay_gap,28.7
+Full-Time,Lancaster,E07000121,median_gender_pay_gap,12.4
+Full-Time,Lancaster,E07000121,mean_gender_pay_gap,4
+Full-Time,Pendle,E07000122,median_gender_pay_gap,11.5
+Full-Time,Pendle,E07000122,mean_gender_pay_gap,6.3
+Full-Time,Preston,E07000123,median_gender_pay_gap,17.3
+Full-Time,Preston,E07000123,mean_gender_pay_gap,8.2
+Full-Time,Ribble Valley,E07000124,median_gender_pay_gap,13.7
+Full-Time,Ribble Valley,E07000124,mean_gender_pay_gap,13
+Full-Time,Rossendale,E07000125,median_gender_pay_gap,7.3
+Full-Time,Rossendale,E07000125,mean_gender_pay_gap,8.3
+Full-Time,South Ribble,E07000126,median_gender_pay_gap,0.7
+Full-Time,South Ribble,E07000126,mean_gender_pay_gap,8.1
+Full-Time,West Lancashire,E07000127,median_gender_pay_gap,13.9
+Full-Time,West Lancashire,E07000127,mean_gender_pay_gap,18.8
+Full-Time,Wyre,E07000128,median_gender_pay_gap,13.3
+Full-Time,Wyre,E07000128,mean_gender_pay_gap,19.2
+Full-Time,Merseyside Met County,E11000002,median_gender_pay_gap,6.8
+Full-Time,Merseyside Met County,E11000002,mean_gender_pay_gap,10.7
+Full-Time,Knowsley,E08000011,median_gender_pay_gap,1.3
+Full-Time,Knowsley,E08000011,mean_gender_pay_gap,1.5
+Full-Time,Liverpool,E08000012,median_gender_pay_gap,-0.3
+Full-Time,Liverpool,E08000012,mean_gender_pay_gap,7.4
+Full-Time,St. Helens,E08000013,median_gender_pay_gap,18
+Full-Time,St. Helens,E08000013,mean_gender_pay_gap,21.5
+Full-Time,Sefton,E08000014,median_gender_pay_gap,4.8
+Full-Time,Sefton,E08000014,mean_gender_pay_gap,11.3
+Full-Time,Wirral,E08000015,median_gender_pay_gap,12.9
+Full-Time,Wirral,E08000015,mean_gender_pay_gap,12.2
+Full-Time,Yorkshire and The Humber,E12000003,median_gender_pay_gap,11.1
+Full-Time,Yorkshire and The Humber,E12000003,mean_gender_pay_gap,12.3
+Full-Time,East Riding of Yorkshire UA,E06000011,median_gender_pay_gap,13.6
+Full-Time,East Riding of Yorkshire UA,E06000011,mean_gender_pay_gap,16.5
+Full-Time,Kingston upon Hull UA,E06000010,median_gender_pay_gap,7.3
+Full-Time,Kingston upon Hull UA,E06000010,mean_gender_pay_gap,5.5
+Full-Time,North East Lincolnshire UA,E06000012,median_gender_pay_gap,18.1
+Full-Time,North East Lincolnshire UA,E06000012,mean_gender_pay_gap,22.4
+Full-Time,North Lincolnshire UA,E06000013,median_gender_pay_gap,18.9
+Full-Time,North Lincolnshire UA,E06000013,mean_gender_pay_gap,11.7
+Full-Time,York UA,E06000014,median_gender_pay_gap,7.6
+Full-Time,York UA,E06000014,mean_gender_pay_gap,2.5
+Full-Time,North Yorkshire,E10000023,median_gender_pay_gap,11.3
+Full-Time,North Yorkshire,E10000023,mean_gender_pay_gap,10.1
+Full-Time,Craven,E07000163,median_gender_pay_gap,NA
+Full-Time,Craven,E07000163,mean_gender_pay_gap,24.8
+Full-Time,Hambleton,E07000164,median_gender_pay_gap,11.8
+Full-Time,Hambleton,E07000164,mean_gender_pay_gap,9.7
+Full-Time,Harrogate,E07000165,median_gender_pay_gap,13.8
+Full-Time,Harrogate,E07000165,mean_gender_pay_gap,11
+Full-Time,Richmondshire,E07000166,median_gender_pay_gap,8.8
+Full-Time,Richmondshire,E07000166,mean_gender_pay_gap,0.1
+Full-Time,Ryedale,E07000167,median_gender_pay_gap,4.8
+Full-Time,Ryedale,E07000167,mean_gender_pay_gap,12.2
+Full-Time,Scarborough,E07000168,median_gender_pay_gap,15.7
+Full-Time,Scarborough,E07000168,mean_gender_pay_gap,11
+Full-Time,Selby,E07000169,median_gender_pay_gap,4.4
+Full-Time,Selby,E07000169,mean_gender_pay_gap,-1.4
+Full-Time,South Yorkshire Met County,E11000003,median_gender_pay_gap,8
+Full-Time,South Yorkshire Met County,E11000003,mean_gender_pay_gap,12.4
+Full-Time,Barnsley,E08000016,median_gender_pay_gap,5.5
+Full-Time,Barnsley,E08000016,mean_gender_pay_gap,10.1
+Full-Time,Doncaster,E08000017,median_gender_pay_gap,13.4
+Full-Time,Doncaster,E08000017,mean_gender_pay_gap,14.1
+Full-Time,Rotherham,E08000018,median_gender_pay_gap,17.6
+Full-Time,Rotherham,E08000018,mean_gender_pay_gap,19.8
+Full-Time,Sheffield,E08000019,median_gender_pay_gap,5.6
+Full-Time,Sheffield,E08000019,mean_gender_pay_gap,8.8
+Full-Time,West Yorkshire Met County,E11000006,median_gender_pay_gap,12.2
+Full-Time,West Yorkshire Met County,E11000006,mean_gender_pay_gap,13.6
+Full-Time,Bradford,E08000032,median_gender_pay_gap,8.3
+Full-Time,Bradford,E08000032,mean_gender_pay_gap,16.2
+Full-Time,Calderdale,E08000033,median_gender_pay_gap,7.7
+Full-Time,Calderdale,E08000033,mean_gender_pay_gap,9.1
+Full-Time,Kirklees,E08000034,median_gender_pay_gap,11.5
+Full-Time,Kirklees,E08000034,mean_gender_pay_gap,14.4
+Full-Time,Leeds,E08000035,median_gender_pay_gap,14.4
+Full-Time,Leeds,E08000035,mean_gender_pay_gap,14.4
+Full-Time,Wakefield,E08000036,median_gender_pay_gap,12.2
+Full-Time,Wakefield,E08000036,mean_gender_pay_gap,10.2
+Part-Time,North East,E12000001,median_gender_pay_gap,-5.2
+Part-Time,North East,E12000001,mean_gender_pay_gap,3
+Part-Time,Darlington UA,E06000005,median_gender_pay_gap,-6
+Part-Time,Darlington UA,E06000005,mean_gender_pay_gap,-37.7
+Part-Time,Hartlepool UA,E06000001,median_gender_pay_gap,-6.9
+Part-Time,Hartlepool UA,E06000001,mean_gender_pay_gap,-10.9
+Part-Time,Middlesbrough UA,E06000002,median_gender_pay_gap,-5.8
+Part-Time,Middlesbrough UA,E06000002,mean_gender_pay_gap,-13.7
+Part-Time,Redcar and Cleveland UA,E06000003,median_gender_pay_gap,-9.3
+Part-Time,Redcar and Cleveland UA,E06000003,mean_gender_pay_gap,-16.3
+Part-Time,Stockton-on-Tees UA,E06000004,median_gender_pay_gap,-3.7
+Part-Time,Stockton-on-Tees UA,E06000004,mean_gender_pay_gap,19.4
+Part-Time,County Durham UA,E06000047,median_gender_pay_gap,-3.2
+Part-Time,County Durham UA,E06000047,mean_gender_pay_gap,22.9
+Part-Time,Northumberland UA,E06000057,median_gender_pay_gap,3.4
+Part-Time,Northumberland UA,E06000057,mean_gender_pay_gap,4.6
+Part-Time,Tyne and Wear Met County,E11000007,median_gender_pay_gap,-4.1
+Part-Time,Tyne and Wear Met County,E11000007,mean_gender_pay_gap,-3
+Part-Time,Gateshead,E08000037,median_gender_pay_gap,-16
+Part-Time,Gateshead,E08000037,mean_gender_pay_gap,-10.2
+Part-Time,Newcastle upon Tyne,E08000021,median_gender_pay_gap,-1.3
+Part-Time,Newcastle upon Tyne,E08000021,mean_gender_pay_gap,-4.5
+Part-Time,North Tyneside,E08000022,median_gender_pay_gap,-3.1
+Part-Time,North Tyneside,E08000022,mean_gender_pay_gap,1.6
+Part-Time,South Tyneside,E08000023,median_gender_pay_gap,-6.8
+Part-Time,South Tyneside,E08000023,mean_gender_pay_gap,-19.6
+Part-Time,Sunderland,E08000024,median_gender_pay_gap,2
+Part-Time,Sunderland,E08000024,mean_gender_pay_gap,5.1
+Part-Time,North West,E12000002,median_gender_pay_gap,-3.6
+Part-Time,North West,E12000002,mean_gender_pay_gap,2.9
+Part-Time,Blackburn with Darwen UA,E06000008,median_gender_pay_gap,NA
+Part-Time,Blackburn with Darwen UA,E06000008,mean_gender_pay_gap,13.2
+Part-Time,Blackpool UA,E06000009,median_gender_pay_gap,-16.4
+Part-Time,Blackpool UA,E06000009,mean_gender_pay_gap,-8.1
+Part-Time,Halton UA,E06000006,median_gender_pay_gap,3
+Part-Time,Halton UA,E06000006,mean_gender_pay_gap,8.8
+Part-Time,Warrington UA,E06000007,median_gender_pay_gap,-14.2
+Part-Time,Warrington UA,E06000007,mean_gender_pay_gap,-23
+Part-Time,Cheshire East UA,E06000049,median_gender_pay_gap,4.5
+Part-Time,Cheshire East UA,E06000049,mean_gender_pay_gap,10.3
+Part-Time,Cheshire West and Chester,E06000050,median_gender_pay_gap,-9.4
+Part-Time,Cheshire West and Chester,E06000050,mean_gender_pay_gap,-4.9
+Part-Time,Cumbria,E10000006,median_gender_pay_gap,3.5
+Part-Time,Cumbria,E10000006,mean_gender_pay_gap,10.3
+Part-Time,Allerdale,E07000026,median_gender_pay_gap,1.1
+Part-Time,Allerdale,E07000026,mean_gender_pay_gap,5.6
+Part-Time,Barrow-in-Furness,E07000027,median_gender_pay_gap,-2.1
+Part-Time,Barrow-in-Furness,E07000027,mean_gender_pay_gap,14.6
+Part-Time,Carlisle,E07000028,median_gender_pay_gap,-1.6
+Part-Time,Carlisle,E07000028,mean_gender_pay_gap,0.9
+Part-Time,Copeland,E07000029,median_gender_pay_gap,5.9
+Part-Time,Copeland,E07000029,mean_gender_pay_gap,2.2
+Part-Time,Eden,E07000030,median_gender_pay_gap,-15.8
+Part-Time,Eden,E07000030,mean_gender_pay_gap,-38.1
+Part-Time,South Lakeland,E07000031,median_gender_pay_gap,15.5
+Part-Time,South Lakeland,E07000031,mean_gender_pay_gap,21.7
+Part-Time,Greater Manchester Met County,E11000001,median_gender_pay_gap,-4.9
+Part-Time,Greater Manchester Met County,E11000001,mean_gender_pay_gap,-0.3
+Part-Time,Bolton,E08000001,median_gender_pay_gap,-1.6
+Part-Time,Bolton,E08000001,mean_gender_pay_gap,NA
+Part-Time,Bury,E08000002,median_gender_pay_gap,NA
+Part-Time,Bury,E08000002,mean_gender_pay_gap,17.3
+Part-Time,Manchester,E08000003,median_gender_pay_gap,-0.7
+Part-Time,Manchester,E08000003,mean_gender_pay_gap,4.3
+Part-Time,Oldham,E08000004,median_gender_pay_gap,-3.8
+Part-Time,Oldham,E08000004,mean_gender_pay_gap,-11.6
+Part-Time,Rochdale,E08000005,median_gender_pay_gap,1.6
+Part-Time,Rochdale,E08000005,mean_gender_pay_gap,13.2
+Part-Time,Salford,E08000006,median_gender_pay_gap,-10.1
+Part-Time,Salford,E08000006,mean_gender_pay_gap,NA
+Part-Time,Stockport,E08000007,median_gender_pay_gap,1.9
+Part-Time,Stockport,E08000007,mean_gender_pay_gap,0.7
+Part-Time,Tameside,E08000008,median_gender_pay_gap,10.4
+Part-Time,Tameside,E08000008,mean_gender_pay_gap,14.1
+Part-Time,Trafford,E08000009,median_gender_pay_gap,-25.8
+Part-Time,Trafford,E08000009,mean_gender_pay_gap,-30.7
+Part-Time,Wigan,E08000010,median_gender_pay_gap,-0.5
+Part-Time,Wigan,E08000010,mean_gender_pay_gap,-7.6
+Part-Time,Lancashire,E10000017,median_gender_pay_gap,-5.2
+Part-Time,Lancashire,E10000017,mean_gender_pay_gap,2.3
+Part-Time,Burnley,E07000117,median_gender_pay_gap,-15.6
+Part-Time,Burnley,E07000117,mean_gender_pay_gap,-47.1
+Part-Time,Chorley,E07000118,median_gender_pay_gap,-5.3
+Part-Time,Chorley,E07000118,mean_gender_pay_gap,-25.4
+Part-Time,Fylde,E07000119,median_gender_pay_gap,NA
+Part-Time,Fylde,E07000119,mean_gender_pay_gap,NA
+Part-Time,Hyndburn,E07000120,median_gender_pay_gap,NA
+Part-Time,Hyndburn,E07000120,mean_gender_pay_gap,NA
+Part-Time,Lancaster,E07000121,median_gender_pay_gap,-5.1
+Part-Time,Lancaster,E07000121,mean_gender_pay_gap,2.6
+Part-Time,Pendle,E07000122,median_gender_pay_gap,-6.7
+Part-Time,Pendle,E07000122,mean_gender_pay_gap,-21.8
+Part-Time,Preston,E07000123,median_gender_pay_gap,-2.6
+Part-Time,Preston,E07000123,mean_gender_pay_gap,11.1
+Part-Time,Ribble Valley,E07000124,median_gender_pay_gap,NA
+Part-Time,Ribble Valley,E07000124,mean_gender_pay_gap,NA
+Part-Time,Rossendale,E07000125,median_gender_pay_gap,NA
+Part-Time,Rossendale,E07000125,mean_gender_pay_gap,-6
+Part-Time,South Ribble,E07000126,median_gender_pay_gap,-5.8
+Part-Time,South Ribble,E07000126,mean_gender_pay_gap,-25.7
+Part-Time,West Lancashire,E07000127,median_gender_pay_gap,NA
+Part-Time,West Lancashire,E07000127,mean_gender_pay_gap,NA
+Part-Time,Wyre,E07000128,median_gender_pay_gap,10.9
+Part-Time,Wyre,E07000128,mean_gender_pay_gap,3.7
+Part-Time,Merseyside Met County,E11000002,median_gender_pay_gap,1.3
+Part-Time,Merseyside Met County,E11000002,mean_gender_pay_gap,9.1
+Part-Time,Knowsley,E08000011,median_gender_pay_gap,3.7
+Part-Time,Knowsley,E08000011,mean_gender_pay_gap,-27.8
+Part-Time,Liverpool,E08000012,median_gender_pay_gap,2.3
+Part-Time,Liverpool,E08000012,mean_gender_pay_gap,17.1
+Part-Time,St. Helens,E08000013,median_gender_pay_gap,0.4
+Part-Time,St. Helens,E08000013,mean_gender_pay_gap,8.5
+Part-Time,Sefton,E08000014,median_gender_pay_gap,-7
+Part-Time,Sefton,E08000014,mean_gender_pay_gap,-9.5
+Part-Time,Wirral,E08000015,median_gender_pay_gap,13.5
+Part-Time,Wirral,E08000015,mean_gender_pay_gap,24.2
+Part-Time,Yorkshire and The Humber,E12000003,median_gender_pay_gap,-0.6
+Part-Time,Yorkshire and The Humber,E12000003,mean_gender_pay_gap,7.8
+Part-Time,East Riding of Yorkshire UA,E06000011,median_gender_pay_gap,-6.3
+Part-Time,East Riding of Yorkshire UA,E06000011,mean_gender_pay_gap,9.7
+Part-Time,Kingston upon Hull UA,E06000010,median_gender_pay_gap,-0.6
+Part-Time,Kingston upon Hull UA,E06000010,mean_gender_pay_gap,-2.2
+Part-Time,North East Lincolnshire UA,E06000012,median_gender_pay_gap,12.1
+Part-Time,North East Lincolnshire UA,E06000012,mean_gender_pay_gap,23.9
+Part-Time,North Lincolnshire UA,E06000013,median_gender_pay_gap,0.9
+Part-Time,North Lincolnshire UA,E06000013,mean_gender_pay_gap,-3.7
+Part-Time,York UA,E06000014,median_gender_pay_gap,3.5
+Part-Time,York UA,E06000014,mean_gender_pay_gap,NA
+Part-Time,North Yorkshire,E10000023,median_gender_pay_gap,3.9
+Part-Time,North Yorkshire,E10000023,mean_gender_pay_gap,16
+Part-Time,Craven,E07000163,median_gender_pay_gap,-4.6
+Part-Time,Craven,E07000163,mean_gender_pay_gap,-24.2
+Part-Time,Hambleton,E07000164,median_gender_pay_gap,NA
+Part-Time,Hambleton,E07000164,mean_gender_pay_gap,23.9
+Part-Time,Harrogate,E07000165,median_gender_pay_gap,1.6
+Part-Time,Harrogate,E07000165,mean_gender_pay_gap,NA
+Part-Time,Richmondshire,E07000166,median_gender_pay_gap,23
+Part-Time,Richmondshire,E07000166,mean_gender_pay_gap,13.8
+Part-Time,Ryedale,E07000167,median_gender_pay_gap,NA
+Part-Time,Ryedale,E07000167,mean_gender_pay_gap,14.9
+Part-Time,Scarborough,E07000168,median_gender_pay_gap,-1.3
+Part-Time,Scarborough,E07000168,mean_gender_pay_gap,4
+Part-Time,Selby,E07000169,median_gender_pay_gap,12.3
+Part-Time,Selby,E07000169,mean_gender_pay_gap,0.3
+Part-Time,South Yorkshire Met County,E11000003,median_gender_pay_gap,-1
+Part-Time,South Yorkshire Met County,E11000003,mean_gender_pay_gap,6.3
+Part-Time,Barnsley,E08000016,median_gender_pay_gap,NA
+Part-Time,Barnsley,E08000016,mean_gender_pay_gap,2.6
+Part-Time,Doncaster,E08000017,median_gender_pay_gap,-1.9
+Part-Time,Doncaster,E08000017,mean_gender_pay_gap,-3.7
+Part-Time,Rotherham,E08000018,median_gender_pay_gap,-0.4
+Part-Time,Rotherham,E08000018,mean_gender_pay_gap,10.2
+Part-Time,Sheffield,E08000019,median_gender_pay_gap,-0.4
+Part-Time,Sheffield,E08000019,mean_gender_pay_gap,7
+Part-Time,West Yorkshire Met County,E11000006,median_gender_pay_gap,-3.3
+Part-Time,West Yorkshire Met County,E11000006,mean_gender_pay_gap,4.1
+Part-Time,Bradford,E08000032,median_gender_pay_gap,-5.1
+Part-Time,Bradford,E08000032,mean_gender_pay_gap,1.5
+Part-Time,Calderdale,E08000033,median_gender_pay_gap,7.6
+Part-Time,Calderdale,E08000033,mean_gender_pay_gap,-0.6
+Part-Time,Kirklees,E08000034,median_gender_pay_gap,-10.9
+Part-Time,Kirklees,E08000034,mean_gender_pay_gap,-11.2
+Part-Time,Leeds,E08000035,median_gender_pay_gap,-3.8
+Part-Time,Leeds,E08000035,mean_gender_pay_gap,7.6
+Part-Time,Wakefield,E08000036,median_gender_pay_gap,14.1
+Part-Time,Wakefield,E08000036,mean_gender_pay_gap,14.6

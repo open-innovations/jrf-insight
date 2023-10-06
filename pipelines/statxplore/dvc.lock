@@ -17,8 +17,8 @@ stages:
       size: 4368
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: 4624607a966c7e7f9c581471c7d7ec38.dir
-      size: 702245
+      md5: dd5cb34257fd88872078395854ea813a.dir
+      size: 702302
       nfiles: 8
     outs:
     - path: data/HB/claimants.csv
@@ -38,8 +38,8 @@ stages:
       isexec: true
     - path: data/smi/smi_in_payment_amount.csv
       hash: md5
-      md5: 2ff667c2110aa862a738aa5db395ed64
-      size: 3721
+      md5: 4ad18fa9ef6f7199d6a8e08af73a4caa
+      size: 3722
       isexec: true
     - path: data/smi/smi_loans_in_payment_households.csv
       hash: md5
@@ -55,8 +55,8 @@ stages:
       size: 353
     - path: hbai.ipynb
       hash: md5
-      md5: b3c36753aec14428cc0281b5b1cefc02
-      size: 111181
+      md5: 9f6f9315d168290e965ba4c77565365d
+      size: 113437
     - path: json/data/HBAI.json
       hash: md5
       md5: a12aecf8592b43f976612ff3b8edccca
@@ -74,8 +74,8 @@ stages:
       isexec: true
     - path: ../../data/hbai/by_ethnic_group.csv
       hash: md5
-      md5: 35703bf0facc229f540ecfbd9fac7d45
-      size: 311805
+      md5: 061ed2df5483ee6b89cea003365913d4
+      size: 311730
       isexec: true
     - path: ../../data/hbai/by_marital_status.csv
       hash: md5
