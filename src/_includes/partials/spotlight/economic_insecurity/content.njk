@@ -218,9 +218,50 @@
 
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
-    <p>Idea: pay gap or % jobs less than living wage</p>
-    {% set chart_data = dataset.gender_pay_gap.gender_pay_gap(geo) %}
-      {{ chart_data | dump() }}
+    <h3>Gender pay gap in different types of work</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>This chart shows the gender pay gap as a percentage differenece in {{ this_place.title }}.</p>
+      <p><br />
+        Gender pay gap (GPG) is calculated as the difference between average hourly earnings 
+        (excluding overtime) of men and women as a proportion of average hourly earnings 
+        (excluding overtime) of men. For example, a 4% GPG denotes that women earn 4% less, on 
+        average, than men. Conversely, a -4% GPG denotes that women earn 4% more, on average, than men.
+      </p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "gender-pay-gap", view: "gender-pay-gap"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = dataset.gender.gender_pay_gap(geography) %}
+    {% if chart_data | length > 0 %}
+      {{comp.oi.chart.bar({
+          config: {
+            data: chart_data,
+            stacked: false,
+            legend: { 
+              show: true
+              },
+            category: "hours",
+            series: [
+                {
+                "title": "Median gap (%)",  
+                "value": "median_gender_pay_gap",
+                "colour": "#64A70B"
+                },
+                {
+                "title": "Mean gap (%)",  
+                "value": "mean_gender_pay_gap",
+                "colour": "#3EB1C8"
+                }
+              ], 
+            axis: {
+              x: {
+                tick: {
+                  spacing: 3
+                }
+              }
+            }
+          }
+        }) | safe
+      }}
+    {% endif %}
     {# {% if chart_data | length > 0 %}
     {% endif %} #}
   {% endcomp %}

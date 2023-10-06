@@ -3,7 +3,6 @@ import {
     run
   } from "../../../data/interim/duck.ts";
 
-
 export const gender_pay_gap = (place: string) => {
     return run(
         () => connection.query(`
