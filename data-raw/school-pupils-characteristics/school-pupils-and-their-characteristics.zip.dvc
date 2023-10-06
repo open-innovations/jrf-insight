@@ -1,13 +1,12 @@
-md5: 98c9bfca776a38144de69f73f2af9542
+md5: 53efecb54d732544744d357494cd150b
 frozen: true
 deps:
-- checksum: '25708796055837687283638360630608679829'
+- checksum: '241428620030499564956354799006142275374'
   hash: md5
   path: 
-    https://content.explore-education-statistics.service.gov.uk/api/releases/68bad247-d579-4c6f-9559-54d606d0e426/files
+    https://content.explore-education-statistics.service.gov.uk/api/releases/80716150-163e-413d-9129-1342e186089b/files
 outs:
-- md5: 34620c22d311673fcabb91035b2b6701
-  size: 40978246
-  isexec: true
+- md5: c340568e43e225d9173adfcd298faaf3
+  size: 45899231
   hash: md5
   path: school-pupils-and-their-characteristics.zip

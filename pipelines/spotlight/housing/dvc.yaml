@@ -1,6 +1,14 @@
 vars:
   - top: '../../..'
 stages:
+  download-files:
+    cmd: python get-files.py
+    deps:
+      - get-files.py
+    outs:
+      - ${top}/data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx:
+          cache: false
+          persist: false
   rental-prices:
     cmd: papermill rental_prices.ipynb ${top}/data/_working/output/rental_prices.ipynb
     deps:
@@ -24,7 +32,7 @@ stages:
     cmd: papermill dwelling_stock.ipynb ${top}/data/_working/output/dwelling_stock.ipynb
     deps:
       - ${top}/pipelines/spotlight/housing/dwelling_stock.ipynb
-      - ${top}/data-raw/dwelling-stock/dwelling_stock_by_tenure_by_LA.ods
+      - ${top}/data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx
     outs: 
       - ${top}/data/dwelling-stock/dwelling-stock.csv:
           cache: false

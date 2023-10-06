@@ -53,14 +53,13 @@ stages:
     deps:
     - path: R/ashe.R
       hash: md5
-      md5: ebbfe7d0214a8413d23766d379ed455a
-      size: 1545
-      isexec: true
+      md5: 5423e0188fdaf83d17fe7bb2181449cd
+      size: 1727
     outs:
     - path: data/ashe/weekly-earnings.csv
       hash: md5
-      md5: b9dcef154913f1bb6cddd61fefcc391f
-      size: 17615
+      md5: a218dcd7cc849d51ee58b5215840e267
+      size: 29390
   ctsop-households:
     cmd: Rscript R/ctsop-households.R
     deps:
