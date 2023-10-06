@@ -1,4 +1,4 @@
-Local authority code,Local authority name,date,type_of_tenure,variable_name,value
+geography_code,geography_name,date,type_of_tenure,variable_name,value
 E06000001,Hartlepool,2012,Owned Outright,Number of dwellings,11892
 E06000002,Middlesbrough,2012,Owned Outright,Number of dwellings,16170
 E06000003,Redcar and Cleveland,2012,Owned Outright,Number of dwellings,20687
