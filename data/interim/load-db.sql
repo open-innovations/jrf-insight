@@ -19,3 +19,4 @@ CREATE OR REPLACE TABLE gender_pay_gap AS SELECT * FROM read_csv_auto('./data/ge
 CREATE OR REPLACE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
 
 CREATE OR REPLACE TABLE cts AS SELECT * FROM read_csv_auto("./data/council-tax-support/council-tax-support.csv", nullstr='NA');
+CREATE OR REPLACE TABLE dwelling_stock AS SELECT * FROM read_csv_auto('./data/dwelling-stock/dwelling-stock.csv');
