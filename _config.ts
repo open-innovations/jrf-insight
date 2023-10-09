@@ -122,7 +122,27 @@ site.filter(
   "percentagize",
   (num: number, ref, points = 1) => (num * 100 / ref).toFixed(points) + "%",
 );
-
+site.filter('humanise', (input, options = {}) => {
+  const { maxExponent = Infinity, decimalPlaces, spacer = '' } = options;
+  const number = parseFloat(input);
+  const exponent = Math.min(Math.floor(Math.log10(number)), maxExponent);
+  if (exponent >= 9) {
+    return `${(number / 1e9).toLocaleString(undefined, {
+      maximumFractionDigits: decimalPlaces,
+    })}${spacer}bn`;
+  }
+  if (exponent >= 6) {
+    return `${(number / 1e6).toLocaleString(undefined, {
+      maximumFractionDigits: decimalPlaces,
+    })}${spacer}m`;
+  }
+  if (exponent >= 3) {
+    return `${(number / 1e3).toLocaleString(undefined, {
+      maximumFractionDigits: decimalPlaces,
+    })}${spacer}k`;
+  }
+  return number.toLocaleString();
+});
 site.filter("values", (o) => Object.values(o));
 site.filter("pick", (list, keys) => keys.map(i => list[i] || null))
 

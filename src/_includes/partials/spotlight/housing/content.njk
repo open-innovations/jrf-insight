@@ -263,7 +263,7 @@
                   y: "Social rented sector tenants",
                   colour: "#64A70B",
                   line: {
-                    "stroke-dasharray": "5 5"
+                    "stroke-dasharray": "3 9"
                   }
                 }
               ]
@@ -331,6 +331,8 @@
       Numbers on social housing waiting lists (DLUHC)
     #}
     {% set chart_data = dataset.dwelling_stock.dwelling_stock(geo) %}
+    {% set chart_min = chart_data | min | round(-3, 'floor') %}
+    {% set chart_max = chart_data | getattr('Owned Outright') | max | round(-4, 'ceiling') %}
     {% if chart_data | length > 0 %}
       {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
         {{ comp.oi.chart.line({
@@ -344,7 +346,8 @@
               x: {
                 title: {
                   label: "Year"
-                }
+                },
+                tick: { spacing: 1 }
               },
               y: {
                 title: {
@@ -354,10 +357,10 @@
                   show: true
                 },
                 tick: {
-                  spacing: 10000
+                  spacing: 20000
                 },
                 min: 0,
-                max: 50000
+                max: chart_max
               }
             },
             series: [
@@ -394,13 +397,57 @@
                 y: "Social Rent",
                 colour: "#ce0058",
                 line: {
-                  "stroke-dasharray": "4 2"
+                  "stroke-dasharray": "3 9"
                 }
               }
             ]
           }
         })| safe }}
       {% endcomp %}
+      {{comp.oi.chart.bar({
+          config: {
+            data: chart_data,
+            stacked: true,
+            legend: { show: true },
+            percent: true,
+            category: "date",
+            series: [
+              {
+              "title": "Owned Outright",  
+              "value": "Owned Outright",
+              "colour": "#3EB1C8"
+              },
+              {
+              "title": "Owned with Mortgage or Loan",  
+              "value": "Owned with Mortgage or Loan",
+              "colour": "#64A70B"
+              },
+              {
+              "title": "Private Rent",  
+              "value": "Private Rent",
+              "colour": "#8024c3"
+              },
+              {
+              "title": "Social Rent",  
+              "value": "Social Rent",
+              "colour": "#ce0058"
+              }
+              ],
+            axis: {
+              x: {
+                grid: { "stroke-dasharray": "6 2", "stroke-width": 1 },
+                ticks: [
+                  { value: 20, label: '20' },
+                  { value: 40, label: '40' },
+                  { value: 60, label: '60' },
+                  { value: 80, label: '80' },
+                  { value: 100, label: '100' }
+                  ]
+                }
+              } 
+            }
+          }) | safe
+        }}
     {% else %}
       <p>No data available at this level.</p>
     {% endif %}

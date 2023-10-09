@@ -80,7 +80,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
           {% endif %}
           </td>
         {% else %}
-          <td>--</td>
+          <td>No data available for this level of geography</td>
         {% endif %}
     </tr>
     {% endfor %}
@@ -188,13 +188,14 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
   {% comp 'layout.tab.new_panel', { label: 'Population', id: 'Population' } %}
     <h3>Population estimates for {{ title }}</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows population estimates for {{ title }}.</p>
+      <p>This chart shows place-based statistics for {{ title }}. The map is coloured by population. Hover on the map for more detailed information.</p>
     {% endcomp %}
     {% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
     {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
     {% set half_population = (max_population - min_population) / 2 + min_population %}
 
     {% if place[key].map %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
       {{ comp.oi.map.svg({
             config: {
               data: place_data,
@@ -205,7 +206,11 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
               },
               columns: [
                 { name: 'tooltip', 
-                  template: '{{ name }}<br />Population: {{ Number of persons | toLocaleString() }}<br /><a href="../{{ geography_code }}/">Visit place page</a>'
+                  template: '{{ name }}<br />Population: {{ Number of persons | toLocaleString() }}
+                              <br />GVA (£m): {{ GVA | toLocaleString() }}
+                              <br />Population density (per square km): {{ Population density | toFixed(0) | toLocaleString() }}<br />
+                              <br />No. of Households: {{ Number of households | toLocaleString() }}<br />
+                              <br /><a href="../{{ geography_code }}/">Visit place page</a>'
                 }],
               key: "geography_code",
               value: "Number of persons",
@@ -219,21 +224,22 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
                 items: [
                   {
                     value: max_population,
-                    label: max_population
+                    label: max_population | humanise(decimalPlaces=2)
                   },
                   {
                     value: half_population,
-                    label: half_population
+                    label: half_population | humanise(decimalPlaces=2) 
                   },
                   {
                     value: min_population,
-                    label: min_population
+                    label: min_population | humanise(decimalPlaces=2)
                   }
                 ]
               }
             }
         }
       ) | safe }}
+      {% endcomp %}
     {% endif %}
   {% endcomp %}
 
