@@ -73,7 +73,7 @@
     {% endcomp %}
 
     {% if fp_all.length > 0 %}
-      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 60%)' } %}
       {{ comp.oi.map.svg({
         config: {
           data: fp_all,
@@ -96,7 +96,8 @@
             ]
           },
           key: 'geography_code',
-          tooltip: 'tooltip'
+          tooltip: 'tooltip',
+          padding: 50
         }
       }) | safe }}
       {% endcomp %}
@@ -131,6 +132,7 @@
           scale: 'Viridis',
           max: dataset.ashe.range.median_weekly_wage.min,
           min: dataset.ashe.range.median_weekly_wage.max,
+          padding: 50,
           legend: {
             position: 'top',
             items: [

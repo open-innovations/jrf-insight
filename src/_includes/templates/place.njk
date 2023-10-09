@@ -204,6 +204,8 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
                 data: place[key].map,
                 key: 'ons_code'
               },
+              background: {
+                geojson: 'map.england', colour: 'silver' },
               columns: [
                 { name: 'tooltip', 
                   template: '{{ name }}<br />Population: {{ Number of persons | toLocaleString() }}
@@ -216,6 +218,7 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
               value: "Number of persons",
               scale: "Viridis",
               min: 0,
+              padding: 50,
               max: max_population,
               tooltip: "tooltip",
               legend:
