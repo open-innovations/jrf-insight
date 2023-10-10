@@ -23,18 +23,20 @@ stages:
     - path: 
         ../../../data-raw/school-pupils-characteristics/school-pupils-and-their-characteristics.zip
       hash: md5
-      md5: c340568e43e225d9173adfcd298faaf3
-      size: 45899231
+      md5: 34620c22d311673fcabb91035b2b6701
+      size: 40978246
     - path: ../../../pipelines/spotlight/health/unzipper.py
       hash: md5
-      md5: b7451e628bc49935ecea167ee7204507
-      size: 667
+      md5: a8a9f7f210590ed0c0e4ef84b50e9225
+      size: 690
     outs:
     - path: ../../../data-raw/school-pupils-characteristics/data-guidance/data-guidance.txt
       hash: md5
-      md5: 92884eae32f766c2fb44af3848f239e6
-      size: 48322
+      md5: be8236ae8a68cc3130d15bdcb4caea55
+      size: 36810
+      isexec: true
     - path: ../../../data-raw/school-pupils-characteristics/data/spc_pupils_fsm.csv
       hash: md5
       md5: 129f1eb4cbca8c836b693ef36cf29a8d
       size: 8585897
+      isexec: true
