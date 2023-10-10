@@ -208,11 +208,11 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
                 geojson: 'map.england', colour: 'silver' },
               columns: [
                 { name: 'tooltip', 
-                  template: '{{ name }}<br />Population: {{ Number of persons | toLocaleString() }}
-                              <br />GVA (£m): {{ GVA | toLocaleString() }}
-                              <br />Population density (per square km): {{ Population density | toFixed(0) | toLocaleString() }}<br />
-                              <br />No. of Households: {{ Number of households | toLocaleString() }}<br />
-                              <br /><a href="../{{ geography_code }}/">Visit place page</a>'
+                  template: '{{ name }}\nPopulation: {{ Number of persons | toLocaleString() }}
+                              GVA (£m): {{ GVA | toLocaleString() }}
+                              Population density (per square km): {{ Population density | toFixed(0) | toLocaleString() }}
+                              No. of Households: {{ Number of households | toLocaleString() }}
+                              <a href="../{{ geography_code }}/">Visit place page</a>'
                 }],
               key: "geography_code",
               value: "Number of persons",
