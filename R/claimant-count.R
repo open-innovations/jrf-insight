@@ -28,7 +28,7 @@ cc_data1 <- cc_data |>
     `Residents aged 16-64` = sum(`Residents aged 16-64`)
   ) |>
   dplyr::mutate(
-    geography_code = "E12999999",
+    geography_code = "E12999901",
     geography_name = "The North",
     `Claimants as a proportion of residents aged 16-64` =
       (`Claimant count` / `Residents aged 16-64` * 100) |> round(1)) |>
