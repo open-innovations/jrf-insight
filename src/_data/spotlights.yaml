@@ -7,7 +7,7 @@ economic_insecurity:
     of income and wealth, in relation to the costs and burdens of life.
      But it also rests on secure work and a secure home, on education, 
      on good health, and on support and time for caring. It is sustained 
-     by relationships of family, friends and community._" - Graeme Cooke,
+     by relationships of family, friends and community._" — Graeme Cooke,
      Director of Insight and Policy, JRF.
   infographics:
     defaults:
@@ -40,7 +40,7 @@ housing:
     size of homes, is crucial in itself, but also, if unaffordable, 
     can drag occupants into poverty... At worst, households facing unaffordable 
     housing costs can experience destitution, 
-    homelessness or rough sleeping._" - JRF poverty report 2023.
+    homelessness or rough sleeping._" — JRF poverty report 2023.
 homelessness:
   name: Homelessness
   draft: true
@@ -58,6 +58,12 @@ social_inclusion:
   draft: true
 health:
   name: Health
+  description: | 
+    "_Poorer health generally reduces the possibility of better life outcomes
+    and opportunities. It can restrict employment prospects, reduce earnings and
+    bring additional living costs associated with long-term illness and disability that
+    must somehow be met. In turn, this can lead to living in deprivation, low income
+    and poverty._" — JRF poverty report 2023.
 older_people:
   name: Older people
   draft: true
