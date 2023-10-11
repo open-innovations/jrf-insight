@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Savings and Investments of Adults in the Family of the Individual,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Savings and Investments of Adults in the Family of the Individual,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,85488.66666666667,1994-95 - 1996-97,494483.0,17.0
 E12000001,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,32445.666666666668,1994-95 - 1996-97,494483.0,7.0
 E12000001,In low income (below threshold),No savings,In low income (below threshold),population,386602.3333333333,1994-95 - 1996-97,1126591.3333333335,34.0

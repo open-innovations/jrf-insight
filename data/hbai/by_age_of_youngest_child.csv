@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Age of the Youngest Child in the Family of the Individual,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Age of the Youngest Child in the Family of the Individual,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),0 to 4,In low income (below threshold),population,168673.66666666666,1994-95 - 1996-97,492679.3333333333,34.0
 E12000001,In low income (below threshold),0 to 4,Not in low income (at or above threshold),population,28027.666666666668,1994-95 - 1996-97,492679.3333333333,6.0
 E12000001,In low income (below threshold),11 to 15,In low income (below threshold),population,59538.666666666664,1994-95 - 1996-97,254078.0,23.0

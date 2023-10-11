@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Tenure Type of the Household of the Individual,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Tenure Type of the Household of the Individual,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),All rented privately,In low income (below threshold),population,55089.333333333336,1994-95 - 1996-97,177449.0,31.0
 E12000001,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,48214.666666666664,1994-95 - 1996-97,177449.0,27.0
 E12000001,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,216824.66666666666,1994-95 - 1996-97,1623439.3333333333,13.0

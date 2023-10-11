@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Ethnic Group of the Head of the Household,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Ethnic Group of the Head of the Household,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,19118.333333333332,1994-95 - 1996-97,29729.0,64.0
 E12000001,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,29729.0,0.0
 E12000001,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,981.3333333333334,1994-95 - 1996-97,3494.0,28.0
