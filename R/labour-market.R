@@ -14,16 +14,17 @@ lm <- labour_market |>
                 measures_name,
                 value = obs_value) |>
   dplyr::distinct() |> # lower tier will have duplicated
-  dplyr::mutate(date = as.Date(paste0(date, '-01'))) |>
+  dplyr::mutate(date = as.Date(paste0(date, '-01')))
+
+lm_north <- lm |>
   build_the_north() |>
   tidyr::pivot_wider(names_from = measures_name) |>
   dplyr::mutate(Variable = round(Numerator / Denominator * 100, 1)) |>
   dplyr::select(-Confidence) |>
-  tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "measures_name") |>
+  tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "measures_name")
+
+lm_out <- dplyr::bind_rows(lm, lm_north) |>
   dplyr::filter(measures_name == 'Variable') |>
   dplyr::select(-measures_name)
 
 readr::write_csv(lm, 'data/labour-market/labour-market.csv')
-
-
-# tidyr::pivot_wider(names_from = measures_name, values_from = value)
