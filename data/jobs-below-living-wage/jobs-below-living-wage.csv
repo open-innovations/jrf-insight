@@ -1493,3 +1493,21 @@ date,geography_name,geography_code,sex,hours,variable_name,value
 2022,Leeds,E08000035,Female,Part-Time,percent,43.2
 2022,Wakefield,E08000036,Female,Part-Time,number_of_jobs_000s,9
 2022,Wakefield,E08000036,Female,Part-Time,percent,29.2
+2022,The North,E12999901,All,All,number_of_jobs_000s,890
+2022,The North,E12999901,All,All,percent,14.099208191476992
+2022,The North,E12999901,All,Full-Time,number_of_jobs_000s,360
+2022,The North,E12999901,All,Full-Time,percent,7.991588941526401
+2022,The North,E12999901,All,Part-Time,number_of_jobs_000s,530
+2022,The North,E12999901,All,Part-Time,percent,29.841222880190088
+2022,The North,E12999901,Female,All,number_of_jobs_000s,542
+2022,The North,E12999901,Female,All,percent,17.057114647839843
+2022,The North,E12999901,Female,Full-Time,number_of_jobs_000s,171
+2022,The North,E12999901,Female,Full-Time,percent,9.071300932701904
+2022,The North,E12999901,Female,Part-Time,number_of_jobs_000s,372
+2022,The North,E12999901,Female,Part-Time,percent,28.509533188750446
+2022,The North,E12999901,Male,All,number_of_jobs_000s,348
+2022,The North,E12999901,Male,All,percent,11.120301172812507
+2022,The North,E12999901,Male,Full-Time,number_of_jobs_000s,191
+2022,The North,E12999901,Male,Full-Time,percent,7.17270436231984
+2022,The North,E12999901,Male,Part-Time,number_of_jobs_000s,158
+2022,The North,E12999901,Male,Part-Time,percent,33.773234200743495
