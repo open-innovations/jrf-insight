@@ -30,30 +30,38 @@ build_higher_geogs <- function(df) {
   lad <- df |>
     dplyr::filter(geography_code %in% geography_lookup$LAD22CD)
 
-  cauth <- df |>
+  cauth <- lad |>
     dplyr::inner_join(lad_cauth, by = c('geography_code' = 'LAD22CD')) |>
-    dplyr::group_by(date, CAUTH22CD, CAUTH22NM, variable_name) |>
+    dplyr::group_by(dplyr::across(-dplyr::all_of(c("geography_code",
+                                                 "geography_name",
+                                                 "value")))) |>
     dplyr::summarise(value = sum(value)) |>
     dplyr::rename(geography_code = CAUTH22CD,
                   geography_name = CAUTH22NM)
 
-  cty <- df |>
+  cty <- lad |>
     dplyr::inner_join(lad_cty, by = c('geography_code' = 'LAD22CD')) |>
-    dplyr::group_by(date, CTY22CD, CTY22NM, variable_name) |>
+    dplyr::group_by(dplyr::across(-dplyr::all_of(c("geography_code",
+                                                   "geography_name",
+                                                   "value")))) |>
     dplyr::summarise(value = sum(value)) |>
     dplyr::rename(geography_code = CTY22CD,
                   geography_name = CTY22NM)
 
-  rgn <- df |>
+  rgn <- lad |>
     dplyr::inner_join(lad_rgn, by = c('geography_code' = 'LAD22CD')) |>
-    dplyr::group_by(date, RGN22CD, RGN22NM, variable_name) |>
+    dplyr::group_by(dplyr::across(-dplyr::all_of(c("geography_code",
+                                                   "geography_name",
+                                                   "value")))) |>
     dplyr::summarise(value = sum(value)) |>
     dplyr::rename(geography_code = RGN22CD,
                   geography_name = RGN22NM)
 
-  panrgn <- df |>
+  panrgn <- lad |>
     dplyr::inner_join(lad_panrgn, by = c('geography_code' = 'LAD22CD')) |>
-    dplyr::group_by(date, PANRGN22CD, PANRGN22NM, variable_name) |>
+    dplyr::group_by(dplyr::across(-dplyr::all_of(c("geography_code",
+                                                   "geography_name",
+                                                   "value")))) |>
     dplyr::summarise(value = sum(value)) |>
     dplyr::rename(geography_code = PANRGN22CD,
                   geography_name = PANRGN22NM)
@@ -66,4 +74,16 @@ build_higher_geogs <- function(df) {
 
   return(all_geogs)
 
+}
+
+build_the_north <- function(df) {
+  # filter for only regional data
+  df |>
+    dplyr::filter(geography_code %in% paste0("E1200000", 1:3)) |>
+    dplyr::group_by(dplyr::across(-dplyr::all_of(c("geography_code",
+                                                   "geography_name",
+                                                   "value")))) |>
+    dplyr::summarise(value = sum(value)) |>
+    dplyr::mutate(geography_code = "E12999901",
+                  geography_name = "The North")
 }
