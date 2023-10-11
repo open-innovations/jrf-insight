@@ -1,8 +1,3 @@
-- dataset: free-school-meals
-  file: free-school-meals/fsm_time_series.csv
-  name: Free School Meals
-  type: .csv
-  view: fsm_time_series
 - dataset: hbai
   file: hbai/by_age_category.csv
   name: HBAI by age category
@@ -140,3 +135,35 @@
   name: Council Tax Support
   type: .csv
   view: council-tax-support
+- dataset: gender-pay-gap
+  file: gender-pay-gap/gender-pay-gap.csv
+  type: .csv
+  view: gender-pay-gap
+- dataset: hbai
+  file: hbai/by_marital_status.csv
+  type: .csv
+  view: by_marital_status
+- dataset: school-pupils-characteristics
+  file: school-pupils-characteristics/free_school_meals.csv
+  type: .csv
+  view: free_school_meals
+- dataset: ashe
+  file: ashe/rent-earning-ratio.csv
+  type: .csv
+  view: rent-earning-ratio
+- dataset: dwelling-stock
+  file: dwelling-stock/dwelling-stock.csv
+  type: .csv
+  view: dwelling-stock
+- dataset: personal-wellbeing
+  file: personal-wellbeing/wellbeing-local-authority.csv
+  type: .csv
+  view: wellbeing-local-authority
+- dataset: jobs-below-living-wage
+  file: jobs-below-living-wage/jobs-below-living-wage.csv
+  type: .csv
+  view: jobs-below-living-wage
+- dataset: rental-prices
+  file: rental-prices/most_recent_rental_prices.csv
+  type: .csv
+  view: most_recent_rental_prices
