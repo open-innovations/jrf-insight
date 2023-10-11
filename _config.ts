@@ -149,6 +149,12 @@ site.filter("pick", (list, keys) => keys.map(i => list[i] || null))
 site.filter("fake_csv", makeFakeCSV);
 site.filter("flat", (a: unknown[]) => a.flat());
 
+site.filter("sensible_tick_size", n => {
+  const exponent = Math.trunc(Math.log10(n));
+  const rounded = Math.ceil(n / 10**exponent) * 10**exponent;
+  return rounded / 4;
+})
+
 site.filter("DEBUG", (o) => `<pre style="font-size:0.7em">${JSON.stringify(o, null, 2)}</pre>`);
 
 export default site;
