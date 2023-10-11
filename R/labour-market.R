@@ -27,4 +27,4 @@ lm_out <- dplyr::bind_rows(lm, lm_north) |>
   dplyr::filter(measures_name == 'Variable') |>
   dplyr::select(-measures_name)
 
-readr::write_csv(lm, 'data/labour-market/labour-market.csv')
+readr::write_csv(lm_out, 'data/labour-market/labour-market.csv')
