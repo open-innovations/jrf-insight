@@ -5,25 +5,25 @@ stages:
     deps:
     - path: R/labour-market.R
       hash: md5
-      md5: ab2d6aee2d48ce52c82f7c93586661ce
-      size: 1028
+      md5: c763ef63910a6ced78d43b6e6e07c961
+      size: 1383
     outs:
     - path: data/labour-market/labour-market.csv
       hash: md5
-      md5: 1ca0a68f97f69d55a3c9400744633bed
-      size: 1346432
+      md5: e5d960de8371350aa7b9881c2fdc1df3
+      size: 1428026
   claimant-count:
     cmd: Rscript R/claimant-count.R
     deps:
     - path: R/claimant-count.R
       hash: md5
-      md5: c528f2cff74d8d897122d16ebf2afcfa
-      size: 2677
+      md5: 04a7d1ca13ca052b1e75f3211e8f9b6c
+      size: 3734
     outs:
     - path: data/claimant-count/claimant-count.csv
       hash: md5
-      md5: 23edc1ea16f9c1ffd16b7ad15f83768b
-      size: 237479
+      md5: fa81a945f6842d1db9c54bacb1b1ec30
+      size: 237611
   rental-prices:
     cmd: Rscript R/rental-prices.R
     deps:
@@ -77,13 +77,13 @@ stages:
     deps:
     - path: R/fuel-poverty.R
       hash: md5
-      md5: b9aeba4e97c45fbb1f86c92965b3d7fa
-      size: 2725
+      md5: 51dd5edd43d1553af74d6fd27bea5fd0
+      size: 3208
     outs:
     - path: data/fuel-poverty/fuel-poverty.csv
       hash: md5
-      md5: 7eeb6915151867c0f46baeb79912b778
-      size: 300427
+      md5: 4426d6acef06d9d3c6407f5756e9d8c8
+      size: 301988
   gva:
     cmd: Rscript R/gva.R
     deps:

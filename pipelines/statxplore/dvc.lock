@@ -9,91 +9,79 @@ stages:
       size: 197974
     - path: pipelines/statxplore/api.py
       hash: md5
-      md5: 2f5c9b83f75c4df852ad970c1cd7ea10
-      size: 353
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
     - path: pipelines/statxplore/extract.py
       hash: md5
-      md5: bad9987d841e1590dec9c9d6acf408b0
-      size: 4368
+      md5: 7fcb112ffc876814fffa83311e5437c0
+      size: 4256
     - path: pipelines/statxplore/json/data
       hash: md5
-      md5: dd5cb34257fd88872078395854ea813a.dir
-      size: 702302
+      md5: aa6c8751187598ba82ba734d37771873.dir
+      size: 702268
       nfiles: 8
     outs:
     - path: data/HB/claimants.csv
       hash: md5
       md5: 9257200c933aea270ca87a3c9d9f9454
       size: 3766189
-      isexec: true
     - path: data/clif/clif_ABS.csv
       hash: md5
       md5: 77ec46fe27de7f7bcc6f5e76c3618812
       size: 5367510
-      isexec: true
     - path: data/clif/clif_REL.csv
       hash: md5
       md5: 316de9b77ab78697531e257e1b4796e0
       size: 5373056
-      isexec: true
     - path: data/smi/smi_in_payment_amount.csv
       hash: md5
       md5: 4ad18fa9ef6f7199d6a8e08af73a4caa
       size: 3722
-      isexec: true
     - path: data/smi/smi_loans_in_payment_households.csv
       hash: md5
       md5: 9c67380f3fa50de53598327efcbdb660
       size: 3609
-      isexec: true
   extract-hbai:
     cmd: papermill hbai.ipynb ../../data/_working/output/hbai.ipynb
     deps:
     - path: api.py
       hash: md5
-      md5: 2f5c9b83f75c4df852ad970c1cd7ea10
-      size: 353
+      md5: 2becb36bdf009899f437748782dea85b
+      size: 339
     - path: hbai.ipynb
       hash: md5
       md5: 9f6f9315d168290e965ba4c77565365d
       size: 113437
     - path: json/data/HBAI.json
       hash: md5
-      md5: a12aecf8592b43f976612ff3b8edccca
-      size: 724
+      md5: 4fba80df5e4dd78847198a0ed9aa1db0
+      size: 690
     outs:
     - path: ../../data/hbai/by_age_category.csv
       hash: md5
       md5: 57824f96f85e59dbbda9c76fbc3e5780
       size: 147268
-      isexec: true
     - path: ../../data/hbai/by_age_of_youngest_child.csv
       hash: md5
       md5: 347bee2d1d52acd22adf2ec90e100394
       size: 247602
-      isexec: true
     - path: ../../data/hbai/by_ethnic_group.csv
       hash: md5
       md5: 061ed2df5483ee6b89cea003365913d4
       size: 311730
-      isexec: true
     - path: ../../data/hbai/by_marital_status.csv
       hash: md5
       md5: 6ec59f12620968ab34b6e34c8d061147
       size: 96807
-      isexec: true
     - path: ../../data/hbai/by_number_of_children.csv
       hash: md5
       md5: ce34818a3ed71f34870a0fde21f35bbf
       size: 202348
-      isexec: true
     - path: ../../data/hbai/by_savings_and_investments.csv
       hash: md5
       md5: f204974f307acfab38b1e9e7038e1601
       size: 434119
-      isexec: true
     - path: ../../data/hbai/by_tenure_type.csv
       hash: md5
       md5: 5f37ef3834cb58f47a065538e6ccc715
       size: 165617
-      isexec: true

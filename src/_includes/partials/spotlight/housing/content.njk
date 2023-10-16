@@ -302,6 +302,7 @@
             scale: 'Viridis',
             min: 0,
             max: 0.5,
+            padding: 50,
             legend: {
               position: 'top',
               items: [
@@ -551,11 +552,15 @@
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "council-tax-support", view: "council-tax-support"}) | safe }}
     {% endcomp %}
     {% set chart_data = data.spotlight.housing.time_series.council_tax(geo) %}
-    {% if chart_data | length > 0 %}
+    {% if chart_data.rows | length > 0 %}
       {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
-        Known error.
+        {% set max = [
+          chart_data.rows | getattr('working_age') | max,
+          chart_data.rows | getattr('pensioners') | max
+        ] | max %}
+
         {# @TODO figure out why this isnt working #}
-        {# {{ comp.oi.chart.line({
+        {{ comp.oi.chart.line({ 
           config: {
             legend: { 
               show: true
@@ -575,10 +580,9 @@
                   show: true
                 },
                 tick: {
-                  spacing: 50000
+                  spacing: max | sensible_tick_size
                 },
-                min: 0,
-                max: 300000
+                min: 0
               }
             },
             series: [
@@ -602,7 +606,7 @@
               }
             ]
           }
-        }) | safe }} #}
+        }) | safe }}
       {% endcomp %}
     {% else %}
       <p> No data available at this level.</p>

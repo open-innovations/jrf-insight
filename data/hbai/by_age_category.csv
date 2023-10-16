@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Type of Individual by Age Category,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Type of Individual by Age Category,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),Child,In low income (below threshold),population,184931.66666666666,1994-95 - 1996-97,589579.3333333333,31.0
 E12000001,In low income (below threshold),Child,Not in low income (at or above threshold),population,34143.666666666664,1994-95 - 1996-97,589579.3333333333,6.0
 E12000001,In low income (below threshold),Pensioner,In low income (below threshold),population,91009.66666666667,1994-95 - 1996-97,460755.0,20.0
@@ -935,3 +935,315 @@ E12000003,Not in low income (at or above threshold),Pensioner,In low income (bel
 E12000003,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,729778.0,2019-20 - 2021-22,967802.5,75.0
 E12000003,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,33505.5,2019-20 - 2021-22,3268372.5,1.0
 E12000003,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,2524040.0,2019-20 - 2021-22,3268372.5,77.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,963974.3333333333,1994-95 - 1996-97,3319520.666666666,29.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,970590.0,1995-96 - 1997-98,3307020.333333333,29.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,1035282.0,1996-97 - 1998-99,3289441.6666666665,31.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,1020617.6666666666,1997-98 - 1999-00,3274099.6666666665,31.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,965545.3333333333,1998-99 - 2000-01,3259073.3333333335,30.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,885359.6666666666,1999-00 - 2001-02,3240492.666666667,27.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,837666.0,2000-01 - 2002-03,3206049.0,26.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,810958.0,2001-02 - 2003-04,3173255.666666667,26.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,777150.0,2002-03 - 2004-05,3148034.6666666665,25.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,759891.6666666667,2003-04 - 2005-06,3137495.666666667,24.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,764919.3333333333,2004-05 - 2006-07,3131664.333333333,24.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,799116.0,2005-06 - 2007-08,3124651.666666667,26.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,805851.6666666667,2006-07 - 2008-09,3115902.3333333335,26.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,783090.6666666667,2007-08 - 2009-10,3119446.0,25.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,722802.3333333333,2008-09 - 2010-11,3125344.333333333,23.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,665194.3333333333,2009-10 - 2011-12,3137551.0,21.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,634357.0,2010-11 - 2012-13,3140419.3333333335,20.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,595592.0,2011-12 - 2013-14,3140880.0,19.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,611114.3333333334,2012-13 - 2014-15,3147001.6666666665,19.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,648906.0,2013-14 - 2015-16,3152830.333333333,21.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,704701.3333333334,2014-15 - 2016-17,3164348.6666666665,22.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,749217.0,2015-16 - 2017-18,3182994.6666666665,24.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,779787.3333333333,2016-17 - 2018-19,3209550.666666666,24.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,832159.6666666667,2017-18 - 2019-20,3232785.0,26.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,809819.0,2018-19 - 2021-22,3281879.333333333,25.0
+E12999901,In low income (below threshold),Child,In low income (below threshold),population,804709.5,2019-20 - 2021-22,3301084.0,24.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,209966.3333333333,1994-95 - 1996-97,3319520.666666666,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,209321.33333333334,1995-96 - 1997-98,3307020.333333333,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,193687.33333333334,1996-97 - 1998-99,3289441.6666666665,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,202395.66666666666,1997-98 - 1999-00,3274099.6666666665,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,207227.33333333334,1998-99 - 2000-01,3259073.3333333335,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,205596.6666666667,1999-00 - 2001-02,3240492.666666667,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,201921.66666666666,2000-01 - 2002-03,3206049.0,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,200135.6666666667,2001-02 - 2003-04,3173255.666666667,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,185076.0,2002-03 - 2004-05,3148034.6666666665,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,196489.3333333333,2003-04 - 2005-06,3137495.666666667,6.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,204489.3333333333,2004-05 - 2006-07,3131664.333333333,7.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,217973.0,2005-06 - 2007-08,3124651.666666667,7.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,216898.3333333333,2006-07 - 2008-09,3115902.3333333335,7.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,237618.0,2007-08 - 2009-10,3119446.0,8.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,256885.3333333333,2008-09 - 2010-11,3125344.333333333,8.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,275930.6666666667,2009-10 - 2011-12,3137551.0,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,277673.3333333333,2010-11 - 2012-13,3140419.3333333335,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,288805.0,2011-12 - 2013-14,3140880.0,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,273635.0,2012-13 - 2014-15,3147001.6666666665,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,274094.3333333333,2013-14 - 2015-16,3152830.333333333,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,272051.3333333333,2014-15 - 2016-17,3164348.6666666665,9.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,260430.3333333333,2015-16 - 2017-18,3182994.6666666665,8.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,240435.6666666667,2016-17 - 2018-19,3209550.666666666,7.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,226413.0,2017-18 - 2019-20,3232785.0,7.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,274786.6666666667,2018-19 - 2021-22,3281879.333333333,8.0
+E12999901,In low income (below threshold),Child,Not in low income (at or above threshold),population,296309.5,2019-20 - 2021-22,3301084.0,9.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,501841.6666666667,1994-95 - 1996-97,2538131.666666667,20.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,520947.3333333334,1995-96 - 1997-98,2538988.666666667,21.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,551873.3333333334,1996-97 - 1998-99,2542111.666666667,22.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,558317.0,1997-98 - 1999-00,2546107.3333333335,22.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,543026.3333333334,1998-99 - 2000-01,2552126.0,21.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,513459.6666666667,1999-00 - 2001-02,2559501.3333333335,20.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,486556.3333333334,2000-01 - 2002-03,2568505.3333333335,19.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,455015.3333333334,2001-02 - 2003-04,2581464.666666667,18.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,404867.3333333334,2002-03 - 2004-05,2596867.3333333335,16.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,364298.3333333334,2003-04 - 2005-06,2616360.666666667,14.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,373223.3333333334,2004-05 - 2006-07,2635638.0,14.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,388863.0,2005-06 - 2007-08,2664559.333333333,15.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,392571.6666666666,2006-07 - 2008-09,2700961.333333333,15.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,354707.6666666667,2007-08 - 2009-10,2748490.3333333335,13.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,328728.6666666666,2008-09 - 2010-11,2786387.0,12.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,295406.6666666667,2009-10 - 2011-12,2810050.0,11.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,269246.0,2010-11 - 2012-13,2827911.6666666665,10.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,249868.3333333333,2011-12 - 2013-14,2842793.666666667,9.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,268464.6666666667,2012-13 - 2014-15,2859731.666666667,9.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,299942.6666666667,2013-14 - 2015-16,2863634.333333333,10.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,327583.0,2014-15 - 2016-17,2849667.0,11.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,341188.3333333333,2015-16 - 2017-18,2838489.0,12.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,347040.3333333334,2016-17 - 2018-19,2816376.0,12.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,355521.3333333333,2017-18 - 2019-20,2801663.3333333335,13.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,368928.0,2018-19 - 2021-22,2767574.3333333335,13.0
+E12999901,In low income (below threshold),Pensioner,In low income (below threshold),population,377379.0,2019-20 - 2021-22,2753178.0,14.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,250632.6666666667,1994-95 - 1996-97,2538131.666666667,10.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,236954.33333333334,1995-96 - 1997-98,2538988.666666667,9.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,222163.0,1996-97 - 1998-99,2542111.666666667,9.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,206861.6666666667,1997-98 - 1999-00,2546107.3333333335,8.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,193878.66666666666,1998-99 - 2000-01,2552126.0,8.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,185465.3333333333,1999-00 - 2001-02,2559501.3333333335,7.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,172958.0,2000-01 - 2002-03,2568505.3333333335,7.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,140787.3333333333,2001-02 - 2003-04,2581464.666666667,5.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,115004.33333333333,2002-03 - 2004-05,2596867.3333333335,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,97092.0,2003-04 - 2005-06,2616360.666666667,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,94403.66666666667,2004-05 - 2006-07,2635638.0,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,88575.66666666667,2005-06 - 2007-08,2664559.333333333,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,83071.66666666667,2006-07 - 2008-09,2700961.333333333,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,87002.33333333333,2007-08 - 2009-10,2748490.3333333335,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,83688.0,2008-09 - 2010-11,2786387.0,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,91906.33333333334,2009-10 - 2011-12,2810050.0,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,81520.33333333334,2010-11 - 2012-13,2827911.6666666665,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,97878.33333333333,2011-12 - 2013-14,2842793.666666667,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,88740.33333333334,2012-13 - 2014-15,2859731.666666667,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,100705.0,2013-14 - 2015-16,2863634.333333333,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,95674.33333333333,2014-15 - 2016-17,2849667.0,3.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,115456.66666666666,2015-16 - 2017-18,2838489.0,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,114794.0,2016-17 - 2018-19,2816376.0,4.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,130715.0,2017-18 - 2019-20,2801663.3333333335,5.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,129550.33333333334,2018-19 - 2021-22,2767574.3333333335,5.0
+E12999901,In low income (below threshold),Pensioner,Not in low income (at or above threshold),population,139751.5,2019-20 - 2021-22,2753178.0,5.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1388806.6666666665,1994-95 - 1996-97,8287368.666666667,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1386970.0,1995-96 - 1997-98,8274528.0,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1441756.6666666667,1996-97 - 1998-99,8267518.333333334,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1447871.0,1997-98 - 1999-00,8255320.333333333,18.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1438297.6666666667,1998-99 - 2000-01,8247982.666666666,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1388002.0,1999-00 - 2001-02,8249305.333333333,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1342829.0,2000-01 - 2002-03,8280760.666666667,16.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1309777.6666666667,2001-02 - 2003-04,8326853.666666666,16.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1275065.3333333333,2002-03 - 2004-05,8380219.333333333,15.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1304057.0,2003-04 - 2005-06,8436068.0,15.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1358917.6666666665,2004-05 - 2006-07,8489877.333333334,16.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1443003.3333333335,2005-06 - 2007-08,8537402.333333334,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1459890.0,2006-07 - 2008-09,8574538.666666668,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1475681.3333333333,2007-08 - 2009-10,8589768.333333334,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1462561.6666666665,2008-09 - 2010-11,8614424.333333334,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1476746.0,2009-10 - 2011-12,8676833.666666666,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1474225.0,2010-11 - 2012-13,8752979.666666668,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1454873.3333333333,2011-12 - 2013-14,8799257.333333334,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1480226.0,2012-13 - 2014-15,8806971.666666668,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1458692.6666666665,2013-14 - 2015-16,8829756.666666666,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1475837.6666666665,2014-15 - 2016-17,8895003.0,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1471151.0,2015-16 - 2017-18,8966228.666666666,16.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1519359.6666666667,2016-17 - 2018-19,9062209.0,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1574390.3333333333,2017-18 - 2019-20,9143105.0,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1540267.3333333335,2018-19 - 2021-22,9193735.666666666,17.0
+E12999901,In low income (below threshold),Working-Age,In low income (below threshold),population,1527426.5,2019-20 - 2021-22,9204052.0,17.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,451627.6666666667,1994-95 - 1996-97,8287368.666666667,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,428835.3333333334,1995-96 - 1997-98,8274528.0,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,402422.6666666667,1996-97 - 1998-99,8267518.333333334,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,398768.3333333333,1997-98 - 1999-00,8255320.333333333,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,381731.0,1998-99 - 2000-01,8247982.666666666,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,365577.3333333333,1999-00 - 2001-02,8249305.333333333,4.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,354556.6666666667,2000-01 - 2002-03,8280760.666666667,4.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,373634.6666666666,2001-02 - 2003-04,8326853.666666666,4.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,370815.3333333334,2002-03 - 2004-05,8380219.333333333,4.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,392941.3333333334,2003-04 - 2005-06,8436068.0,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,414635.0,2004-05 - 2006-07,8489877.333333334,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,431060.3333333333,2005-06 - 2007-08,8537402.333333334,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,433779.0,2006-07 - 2008-09,8574538.666666668,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,452425.0,2007-08 - 2009-10,8589768.333333334,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,491652.6666666666,2008-09 - 2010-11,8614424.333333334,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,493784.0,2009-10 - 2011-12,8676833.666666666,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,488433.0,2010-11 - 2012-13,8752979.666666668,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,484989.6666666666,2011-12 - 2013-14,8799257.333333334,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,496276.6666666666,2012-13 - 2014-15,8806971.666666668,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,510416.6666666667,2013-14 - 2015-16,8829756.666666666,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,507146.0,2014-15 - 2016-17,8895003.0,6.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,487732.6666666666,2015-16 - 2017-18,8966228.666666666,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,464304.3333333334,2016-17 - 2018-19,9062209.0,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,422828.3333333334,2017-18 - 2019-20,9143105.0,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,435826.3333333333,2018-19 - 2021-22,9193735.666666666,5.0
+E12999901,In low income (below threshold),Working-Age,Not in low income (at or above threshold),population,420699.5,2019-20 - 2021-22,9204052.0,5.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,26559.666666666664,1994-95 - 1996-97,3319520.666666666,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,25795.333333333332,1995-96 - 1997-98,3307020.333333333,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,24082.666666666668,1996-97 - 1998-99,3289441.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,25812.666666666664,1997-98 - 1999-00,3274099.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,23568.333333333336,1998-99 - 2000-01,3259073.3333333335,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,24938.0,1999-00 - 2001-02,3240492.666666667,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,19497.666666666664,2000-01 - 2002-03,3206049.0,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,24946.0,2001-02 - 2003-04,3173255.666666667,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,21702.0,2002-03 - 2004-05,3148034.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,28620.0,2003-04 - 2005-06,3137495.666666667,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,24706.666666666664,2004-05 - 2006-07,3131664.333333333,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,23723.0,2005-06 - 2007-08,3124651.666666667,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,19259.0,2006-07 - 2008-09,3115902.3333333335,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,15296.0,2007-08 - 2009-10,3119446.0,0.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,17008.666666666668,2008-09 - 2010-11,3125344.333333333,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,27248.333333333336,2009-10 - 2011-12,3137551.0,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,43310.33333333333,2010-11 - 2012-13,3140419.3333333335,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,44062.0,2011-12 - 2013-14,3140880.0,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,38208.0,2012-13 - 2014-15,3147001.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,28847.0,2013-14 - 2015-16,3152830.333333333,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,28131.333333333336,2014-15 - 2016-17,3164348.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,34695.333333333336,2015-16 - 2017-18,3182994.6666666665,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,31375.333333333336,2016-17 - 2018-19,3209550.666666666,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,33310.33333333333,2017-18 - 2019-20,3232785.0,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,28147.666666666668,2018-19 - 2021-22,3281879.333333333,1.0
+E12999901,Not in low income (at or above threshold),Child,In low income (below threshold),population,30288.5,2019-20 - 2021-22,3301084.0,1.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2119020.333333333,1994-95 - 1996-97,3319520.666666666,64.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2101313.6666666665,1995-96 - 1997-98,3307020.333333333,64.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2036389.6666666665,1996-97 - 1998-99,3289441.6666666665,62.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2025273.6666666665,1997-98 - 1999-00,3274099.6666666665,62.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2062732.3333333335,1998-99 - 2000-01,3259073.3333333335,63.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2124598.3333333335,1999-00 - 2001-02,3240492.666666667,66.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2146963.6666666665,2000-01 - 2002-03,3206049.0,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2137216.0,2001-02 - 2003-04,3173255.666666667,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2164106.6666666665,2002-03 - 2004-05,3148034.6666666665,69.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2152494.666666667,2003-04 - 2005-06,3137495.666666667,69.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2137549.0,2004-05 - 2006-07,3131664.333333333,68.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2083839.6666666667,2005-06 - 2007-08,3124651.666666667,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2073893.3333333335,2006-07 - 2008-09,3115902.3333333335,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2083441.3333333335,2007-08 - 2009-10,3119446.0,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2128648.0,2008-09 - 2010-11,3125344.333333333,68.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2169177.6666666665,2009-10 - 2011-12,3137551.0,69.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2185078.666666667,2010-11 - 2012-13,3140419.3333333335,70.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2212421.0,2011-12 - 2013-14,3140880.0,70.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2224044.333333333,2012-13 - 2014-15,3147001.6666666665,71.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2200983.0,2013-14 - 2015-16,3152830.333333333,70.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2159464.6666666665,2014-15 - 2016-17,3164348.6666666665,68.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2138652.0,2015-16 - 2017-18,3182994.6666666665,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2157952.333333333,2016-17 - 2018-19,3209550.666666666,67.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2140902.0,2017-18 - 2019-20,3232785.0,66.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2169126.0,2018-19 - 2021-22,3281879.333333333,66.0
+E12999901,Not in low income (at or above threshold),Child,Not in low income (at or above threshold),population,2169776.5,2019-20 - 2021-22,3301084.0,66.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,160442.66666666666,1994-95 - 1996-97,2538131.666666667,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,146192.0,1995-96 - 1997-98,2538988.666666667,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,153035.3333333333,1996-97 - 1998-99,2542111.666666667,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,158199.66666666666,1997-98 - 1999-00,2546107.3333333335,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,166581.66666666666,1998-99 - 2000-01,2552126.0,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,165777.6666666667,1999-00 - 2001-02,2559501.3333333335,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,173638.33333333334,2000-01 - 2002-03,2568505.3333333335,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,180863.0,2001-02 - 2003-04,2581464.666666667,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,191984.6666666667,2002-03 - 2004-05,2596867.3333333335,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,207985.3333333333,2003-04 - 2005-06,2616360.666666667,8.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,224925.0,2004-05 - 2006-07,2635638.0,9.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,227211.66666666666,2005-06 - 2007-08,2664559.333333333,9.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,213502.6666666667,2006-07 - 2008-09,2700961.333333333,8.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,187776.0,2007-08 - 2009-10,2748490.3333333335,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,164756.3333333333,2008-09 - 2010-11,2786387.0,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,151054.0,2009-10 - 2011-12,2810050.0,5.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,152690.0,2010-11 - 2012-13,2827911.6666666665,5.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,165923.66666666666,2011-12 - 2013-14,2842793.666666667,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,181500.33333333334,2012-13 - 2014-15,2859731.666666667,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,184203.0,2013-14 - 2015-16,2863634.333333333,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,186279.0,2014-15 - 2016-17,2849667.0,7.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,178053.3333333333,2015-16 - 2017-18,2838489.0,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,177026.0,2016-17 - 2018-19,2816376.0,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,168111.66666666666,2017-18 - 2019-20,2801663.3333333335,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,153265.0,2018-19 - 2021-22,2767574.3333333335,6.0
+E12999901,Not in low income (at or above threshold),Pensioner,In low income (below threshold),population,144088.0,2019-20 - 2021-22,2753178.0,5.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1625214.6666666667,1994-95 - 1996-97,2538131.666666667,64.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1634895.0,1995-96 - 1997-98,2538988.666666667,64.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1615040.0,1996-97 - 1998-99,2542111.666666667,64.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1622729.0,1997-98 - 1999-00,2546107.3333333335,64.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1648639.3333333335,1998-99 - 2000-01,2552126.0,65.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1694798.6666666667,1999-00 - 2001-02,2559501.3333333335,66.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1735352.6666666667,2000-01 - 2002-03,2568505.3333333335,68.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1804799.0,2001-02 - 2003-04,2581464.666666667,70.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1885011.0,2002-03 - 2004-05,2596867.3333333335,73.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1946985.0,2003-04 - 2005-06,2616360.666666667,74.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1943086.0,2004-05 - 2006-07,2635638.0,74.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,1959909.0,2005-06 - 2007-08,2664559.333333333,74.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2011815.3333333333,2006-07 - 2008-09,2700961.333333333,74.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2119004.3333333335,2007-08 - 2009-10,2748490.3333333335,77.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2209214.0,2008-09 - 2010-11,2786387.0,79.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2271683.0,2009-10 - 2011-12,2810050.0,81.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2324455.333333333,2010-11 - 2012-13,2827911.6666666665,82.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2329123.3333333335,2011-12 - 2013-14,2842793.666666667,82.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2321026.3333333335,2012-13 - 2014-15,2859731.666666667,81.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2278783.6666666665,2013-14 - 2015-16,2863634.333333333,80.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2240130.666666667,2014-15 - 2016-17,2849667.0,79.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2203790.6666666665,2015-16 - 2017-18,2838489.0,78.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2177515.6666666665,2016-17 - 2018-19,2816376.0,77.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2147315.3333333335,2017-18 - 2019-20,2801663.3333333335,77.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2115831.0,2018-19 - 2021-22,2767574.3333333335,76.0
+E12999901,Not in low income (at or above threshold),Pensioner,Not in low income (at or above threshold),population,2091959.5,2019-20 - 2021-22,2753178.0,76.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,60329.0,1994-95 - 1996-97,8287368.666666667,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,64182.66666666667,1995-96 - 1997-98,8274528.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,66096.0,1996-97 - 1998-99,8267518.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,65718.66666666667,1997-98 - 1999-00,8255320.333333333,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,61393.666666666664,1998-99 - 2000-01,8247982.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,66656.33333333333,1999-00 - 2001-02,8249305.333333333,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,59084.333333333336,2000-01 - 2002-03,8280760.666666667,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,63057.66666666667,2001-02 - 2003-04,8326853.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,57076.666666666664,2002-03 - 2004-05,8380219.333333333,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,68433.33333333334,2003-04 - 2005-06,8436068.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,63177.666666666664,2004-05 - 2006-07,8489877.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,59585.333333333336,2005-06 - 2007-08,8537402.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,64741.33333333333,2006-07 - 2008-09,8574538.666666668,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,67144.0,2007-08 - 2009-10,8589768.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,76544.33333333333,2008-09 - 2010-11,8614424.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,84104.66666666666,2009-10 - 2011-12,8676833.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,100023.0,2010-11 - 2012-13,8752979.666666668,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,91619.33333333333,2011-12 - 2013-14,8799257.333333334,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,72921.66666666667,2012-13 - 2014-15,8806971.666666668,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,56862.0,2013-14 - 2015-16,8829756.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,62143.66666666666,2014-15 - 2016-17,8895003.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,81304.0,2015-16 - 2017-18,8966228.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,93838.0,2016-17 - 2018-19,9062209.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,104765.0,2017-18 - 2019-20,9143105.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,101448.0,2018-19 - 2021-22,9193735.666666666,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,In low income (below threshold),population,102623.0,2019-20 - 2021-22,9204052.0,1.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6386605.333333334,1994-95 - 1996-97,8287368.666666667,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6394540.0,1995-96 - 1997-98,8274528.0,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6357243.0,1996-97 - 1998-99,8267518.333333334,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6342962.333333333,1997-98 - 1999-00,8255320.333333333,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6366560.333333333,1998-99 - 2000-01,8247982.666666666,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6429069.666666666,1999-00 - 2001-02,8249305.333333333,78.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6524290.666666667,2000-01 - 2002-03,8280760.666666667,79.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6580383.666666666,2001-02 - 2003-04,8326853.666666666,79.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6677262.0,2002-03 - 2004-05,8380219.333333333,80.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6670636.333333334,2003-04 - 2005-06,8436068.0,79.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6653147.0,2004-05 - 2006-07,8489877.333333334,78.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6603753.333333334,2005-06 - 2007-08,8537402.333333334,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6616128.333333334,2006-07 - 2008-09,8574538.666666668,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6594518.0,2007-08 - 2009-10,8589768.333333334,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6583665.666666667,2008-09 - 2010-11,8614424.333333334,76.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6622199.0,2009-10 - 2011-12,8676833.666666666,76.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6690298.666666667,2010-11 - 2012-13,8752979.666666668,76.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6767775.0,2011-12 - 2013-14,8799257.333333334,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6757547.333333334,2012-13 - 2014-15,8806971.666666668,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6803785.333333333,2013-14 - 2015-16,8829756.666666666,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6849875.666666666,2014-15 - 2016-17,8895003.0,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6926041.0,2015-16 - 2017-18,8966228.666666666,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,6984707.0,2016-17 - 2018-19,9062209.0,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,7041121.333333333,2017-18 - 2019-20,9143105.0,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,7116194.0,2018-19 - 2021-22,9193735.666666666,77.0
+E12999901,Not in low income (at or above threshold),Working-Age,Not in low income (at or above threshold),population,7153303.0,2019-20 - 2021-22,9204052.0,78.0

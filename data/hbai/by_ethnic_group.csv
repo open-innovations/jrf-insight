@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Ethnic Group of the Head of the Household,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Ethnic Group of the Head of the Household,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,19118.333333333332,1994-95 - 1996-97,29729.0,64.0
 E12000001,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,29729.0,0.0
 E12000001,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,981.3333333333334,1994-95 - 1996-97,3494.0,28.0
@@ -1871,3 +1871,627 @@ E12000003,Not in low income (at or above threshold),Other Ethnic Group,In low in
 E12000003,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,61341.5,2019-20 - 2021-22,82593.5,74.0
 E12000003,Not in low income (at or above threshold),White,In low income (below threshold),population,88154.0,2019-20 - 2021-22,4631181.5,2.0
 E12000003,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,3607483.0,2019-20 - 2021-22,4631181.5,78.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,241360.6666666667,1994-95 - 1996-97,415176.0,58.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,247933.6666666667,1995-96 - 1997-98,427891.3333333333,58.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,263266.3333333333,1996-97 - 1998-99,448384.0,59.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,298306.6666666667,1997-98 - 1999-00,464437.0,64.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,307035.3333333333,1998-99 - 2000-01,476197.6666666666,64.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,261680.3333333333,1999-00 - 2001-02,439456.6666666666,60.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,227003.33333333334,2000-01 - 2002-03,425805.6666666666,53.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,221235.0,2001-02 - 2003-04,444367.6666666667,50.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,208371.0,2002-03 - 2004-05,456355.3333333333,46.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,224431.6666666667,2003-04 - 2005-06,513595.6666666666,44.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,269965.6666666667,2004-05 - 2006-07,629814.6666666666,43.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,325034.0,2005-06 - 2007-08,749072.0,43.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,337481.0,2006-07 - 2008-09,762707.0,44.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,321401.6666666667,2007-08 - 2009-10,740400.6666666667,43.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,348231.0,2008-09 - 2010-11,770964.0,45.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,347433.3333333333,2009-10 - 2011-12,804242.0,43.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,335277.3333333334,2010-11 - 2012-13,828264.3333333334,40.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,259863.6666666667,2011-12 - 2013-14,773920.3333333334,34.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,252856.0,2012-13 - 2014-15,762028.6666666666,33.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,289766.6666666666,2013-14 - 2015-16,865283.0,33.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,336602.0,2014-15 - 2016-17,912363.6666666666,37.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,350541.3333333333,2015-16 - 2017-18,979995.0,36.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,387152.3333333333,2016-17 - 2018-19,1038334.3333333333,37.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,425070.0,2017-18 - 2019-20,1138842.0,37.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,452169.3333333333,2018-19 - 2021-22,1237383.6666666665,37.0
+E12999901,In low income (below threshold),Asian/ Asian British,In low income (below threshold),population,424799.5,2019-20 - 2021-22,1197486.0,35.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,20434.666666666668,1994-95 - 1996-97,415176.0,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,26451.666666666664,1995-96 - 1997-98,427891.3333333333,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,20183.0,1996-97 - 1998-99,448384.0,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,23806.0,1997-98 - 1999-00,464437.0,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,21378.666666666664,1998-99 - 2000-01,476197.6666666666,4.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,24020.333333333336,1999-00 - 2001-02,439456.6666666666,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,19238.333333333332,2000-01 - 2002-03,425805.6666666666,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,15452.666666666668,2001-02 - 2003-04,444367.6666666667,3.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,15227.0,2002-03 - 2004-05,456355.3333333333,3.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,17372.0,2003-04 - 2005-06,513595.6666666666,3.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,19894.333333333336,2004-05 - 2006-07,629814.6666666666,3.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,27055.333333333332,2005-06 - 2007-08,749072.0,4.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,23637.666666666668,2006-07 - 2008-09,762707.0,3.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,33571.0,2007-08 - 2009-10,740400.6666666667,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,43976.0,2008-09 - 2010-11,770964.0,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,52574.666666666664,2009-10 - 2011-12,804242.0,7.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,47682.0,2010-11 - 2012-13,828264.3333333334,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,48448.333333333336,2011-12 - 2013-14,773920.3333333334,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,46617.33333333333,2012-13 - 2014-15,762028.6666666666,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,70137.0,2013-14 - 2015-16,865283.0,8.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,69470.0,2014-15 - 2016-17,912363.6666666666,8.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,62718.0,2015-16 - 2017-18,979995.0,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,58238.0,2016-17 - 2018-19,1038334.3333333333,6.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,55581.33333333333,2017-18 - 2019-20,1138842.0,5.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,93476.33333333334,2018-19 - 2021-22,1237383.6666666665,8.0
+E12999901,In low income (below threshold),Asian/ Asian British,Not in low income (at or above threshold),population,92770.0,2019-20 - 2021-22,1197486.0,8.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,16268.333333333336,1994-95 - 1996-97,60441.333333333336,27.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,16198.0,1995-96 - 1997-98,55131.66666666667,29.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,25185.0,1996-97 - 1998-99,72945.66666666667,35.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,27544.666666666664,1997-98 - 1999-00,90101.33333333334,31.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,30638.666666666668,1998-99 - 2000-01,106970.66666666666,29.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,26983.0,1999-00 - 2001-02,108635.66666666666,25.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,31667.666666666664,2000-01 - 2002-03,115690.0,27.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,32816.0,2001-02 - 2003-04,104817.66666666666,31.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,31801.0,2002-03 - 2004-05,91971.66666666666,35.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,40605.666666666664,2003-04 - 2005-06,104743.66666666666,39.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,42799.33333333333,2004-05 - 2006-07,130689.33333333331,33.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,50625.0,2005-06 - 2007-08,160841.0,31.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,59812.0,2006-07 - 2008-09,189278.3333333333,32.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,64737.666666666664,2007-08 - 2009-10,190333.3333333333,34.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,60581.66666666667,2008-09 - 2010-11,183250.33333333334,33.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,53279.33333333333,2009-10 - 2011-12,166622.66666666666,32.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,65814.66666666666,2010-11 - 2012-13,183863.66666666666,36.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,84114.33333333333,2011-12 - 2013-14,212799.0,40.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,84219.66666666666,2012-13 - 2014-15,223257.33333333334,38.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,83436.33333333333,2013-14 - 2015-16,214867.0,39.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,86982.66666666666,2014-15 - 2016-17,209560.3333333333,42.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,86200.66666666667,2015-16 - 2017-18,202009.6666666667,43.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,98744.0,2016-17 - 2018-19,230554.6666666667,43.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,105355.0,2017-18 - 2019-20,299550.6666666667,35.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,110095.33333333333,2018-19 - 2021-22,328816.6666666667,33.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,103924.5,2019-20 - 2021-22,359067.0,29.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,5043.666666666667,1994-95 - 1996-97,60441.333333333336,8.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,6356.0,1995-96 - 1997-98,55131.66666666667,12.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,4905.333333333333,1996-97 - 1998-99,72945.66666666667,7.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,8288.0,1997-98 - 1999-00,90101.33333333334,9.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,5439.666666666666,1998-99 - 2000-01,106970.66666666666,5.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,5879.333333333333,1999-00 - 2001-02,108635.66666666666,5.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,4930.333333333334,2000-01 - 2002-03,115690.0,4.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,10937.0,2001-02 - 2003-04,104817.66666666666,10.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,10160.0,2002-03 - 2004-05,91971.66666666666,11.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,10282.0,2003-04 - 2005-06,104743.66666666666,10.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,11465.333333333334,2004-05 - 2006-07,130689.33333333331,9.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,10252.333333333334,2005-06 - 2007-08,160841.0,6.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,11760.0,2006-07 - 2008-09,189278.3333333333,6.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,9082.0,2007-08 - 2009-10,190333.3333333333,5.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,11353.0,2008-09 - 2010-11,183250.33333333334,6.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,11040.0,2009-10 - 2011-12,166622.66666666666,7.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,13298.333333333332,2010-11 - 2012-13,183863.66666666666,7.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,17338.333333333332,2011-12 - 2013-14,212799.0,8.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,18970.333333333336,2012-13 - 2014-15,223257.33333333334,8.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,18954.333333333332,2013-14 - 2015-16,214867.0,9.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,19319.666666666668,2014-15 - 2016-17,209560.3333333333,9.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,18089.0,2015-16 - 2017-18,202009.6666666667,9.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,14365.666666666666,2016-17 - 2018-19,230554.6666666667,6.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,19434.0,2017-18 - 2019-20,299550.6666666667,6.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,25628.333333333336,2018-19 - 2021-22,328816.6666666667,8.0
+E12999901,In low income (below threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,33896.0,2019-20 - 2021-22,359067.0,9.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,5291.333333333334,1999-00 - 2001-02,26385.0,20.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,10496.333333333334,2000-01 - 2002-03,50633.66666666667,21.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,15175.333333333332,2001-02 - 2003-04,70139.0,22.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,14949.333333333332,2002-03 - 2004-05,66346.0,23.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,16127.0,2003-04 - 2005-06,74523.0,22.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,17662.333333333336,2004-05 - 2006-07,82130.66666666667,22.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,18388.333333333332,2005-06 - 2007-08,82687.33333333334,22.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,17562.333333333332,2006-07 - 2008-09,87814.33333333333,20.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,21259.333333333336,2007-08 - 2009-10,89012.66666666667,24.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,27485.333333333336,2008-09 - 2010-11,119789.33333333334,23.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,25649.999999999996,2009-10 - 2011-12,104003.0,25.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,22557.666666666664,2010-11 - 2012-13,113422.0,20.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,14251.0,2011-12 - 2013-14,89924.33333333334,16.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,15294.666666666666,2012-13 - 2014-15,92721.33333333334,16.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,19125.333333333332,2013-14 - 2015-16,82471.33333333333,23.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,28644.0,2014-15 - 2016-17,94378.0,30.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,41074.333333333336,2015-16 - 2017-18,109786.0,37.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,40848.333333333336,2016-17 - 2018-19,151170.3333333333,27.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,39893.33333333333,2017-18 - 2019-20,160171.3333333333,25.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,35795.666666666664,2018-19 - 2021-22,186971.0,19.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,38058.0,2019-20 - 2021-22,177159.5,21.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1999-00 - 2001-02,26385.0,0.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,2036.6666666666667,2000-01 - 2002-03,50633.66666666667,4.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,4479.666666666666,2001-02 - 2003-04,70139.0,6.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,6940.666666666666,2002-03 - 2004-05,66346.0,10.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,9428.0,2003-04 - 2005-06,74523.0,13.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,11296.333333333334,2004-05 - 2006-07,82130.66666666667,14.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,8835.333333333334,2005-06 - 2007-08,82687.33333333334,11.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,6916.333333333334,2006-07 - 2008-09,87814.33333333333,8.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,3811.666666666667,2007-08 - 2009-10,89012.66666666667,4.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,10384.333333333332,2008-09 - 2010-11,119789.33333333334,9.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,12012.0,2009-10 - 2011-12,104003.0,12.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,13272.0,2010-11 - 2012-13,113422.0,12.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,10708.666666666668,2011-12 - 2013-14,89924.33333333334,12.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,8230.0,2012-13 - 2014-15,92721.33333333334,9.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,10383.666666666666,2013-14 - 2015-16,82471.33333333333,13.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,7003.0,2014-15 - 2016-17,94378.0,7.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,10434.0,2015-16 - 2017-18,109786.0,10.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,9063.666666666668,2016-17 - 2018-19,151170.3333333333,6.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,15793.666666666666,2017-18 - 2019-20,160171.3333333333,10.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,29759.666666666668,2018-19 - 2021-22,186971.0,16.0
+E12999901,In low income (below threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,39764.5,2019-20 - 2021-22,177159.5,22.0
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1999-00 - 2001-02,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2000-01 - 2002-03,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2001-02 - 2003-04,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2002-03 - 2004-05,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2003-04 - 2005-06,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2004-05 - 2006-07,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2005-06 - 2007-08,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2006-07 - 2008-09,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2007-08 - 2009-10,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2008-09 - 2010-11,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2009-10 - 2011-12,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2010-11 - 2012-13,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2011-12 - 2013-14,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2012-13 - 2014-15,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2013-14 - 2015-16,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2014-15 - 2016-17,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2015-16 - 2017-18,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2016-17 - 2018-19,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2017-18 - 2019-20,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2018-19 - 2021-22,5181.0,0.0
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2019-20 - 2021-22,7771.5,0.0
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1999-00 - 2001-02,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2000-01 - 2002-03,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2001-02 - 2003-04,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2002-03 - 2004-05,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2003-04 - 2005-06,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2004-05 - 2006-07,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2005-06 - 2007-08,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2006-07 - 2008-09,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2007-08 - 2009-10,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2008-09 - 2010-11,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2009-10 - 2011-12,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2010-11 - 2012-13,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2011-12 - 2013-14,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2012-13 - 2014-15,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2013-14 - 2015-16,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2014-15 - 2016-17,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2015-16 - 2017-18,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2016-17 - 2018-19,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2017-18 - 2019-20,0.0,
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2018-19 - 2021-22,5181.0,0.0
+E12999901,In low income (below threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2019-20 - 2021-22,7771.5,0.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,21451.333333333332,1994-95 - 1996-97,62042.33333333333,35.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,27582.0,1995-96 - 1997-98,76777.33333333333,36.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,25318.333333333332,1996-97 - 1998-99,70270.33333333334,36.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,28495.0,1997-98 - 1999-00,78560.66666666666,36.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,24593.666666666664,1998-99 - 2000-01,88097.0,28.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,25860.0,1999-00 - 2001-02,91156.0,28.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,24549.333333333332,2000-01 - 2002-03,82146.0,30.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,30627.666666666668,2001-02 - 2003-04,74608.33333333333,41.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,31593.0,2002-03 - 2004-05,80898.33333333333,39.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,30408.333333333332,2003-04 - 2005-06,85854.0,35.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,24014.333333333332,2004-05 - 2006-07,77081.33333333333,31.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,27158.0,2005-06 - 2007-08,79353.66666666666,34.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,24427.0,2006-07 - 2008-09,86683.66666666666,28.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,27355.333333333336,2007-08 - 2009-10,87377.33333333334,31.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,26065.333333333332,2008-09 - 2010-11,90721.66666666667,29.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,45412.666666666664,2009-10 - 2011-12,117514.0,39.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,48614.666666666664,2010-11 - 2012-13,131661.66666666666,37.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,49400.0,2011-12 - 2013-14,136488.33333333334,36.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,48412.66666666667,2012-13 - 2014-15,132113.6666666667,37.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,52361.66666666667,2013-14 - 2015-16,151587.6666666667,35.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,50788.33333333333,2014-15 - 2016-17,161489.3333333333,31.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,64665.0,2015-16 - 2017-18,181330.33333333334,36.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,59426.0,2016-17 - 2018-19,167625.3333333333,35.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,82859.0,2017-18 - 2019-20,183055.66666666666,45.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,54822.66666666667,2018-19 - 2021-22,180604.6666666667,30.0
+E12999901,In low income (below threshold),Other Ethnic Group,In low income (below threshold),population,64479.5,2019-20 - 2021-22,206057.5,31.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,11758.666666666666,1994-95 - 1996-97,62042.33333333333,19.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,12153.0,1995-96 - 1997-98,76777.33333333333,16.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,9122.0,1996-97 - 1998-99,70270.33333333334,13.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,6336.0,1997-98 - 1999-00,78560.66666666666,8.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,10865.666666666668,1998-99 - 2000-01,88097.0,12.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,11746.333333333332,1999-00 - 2001-02,91156.0,13.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,10300.333333333332,2000-01 - 2002-03,82146.0,13.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,7954.333333333334,2001-02 - 2003-04,74608.33333333333,11.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,6026.666666666666,2002-03 - 2004-05,80898.33333333333,7.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,8582.0,2003-04 - 2005-06,85854.0,10.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,8123.0,2004-05 - 2006-07,77081.33333333333,11.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,7390.666666666666,2005-06 - 2007-08,79353.66666666666,9.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,6579.333333333333,2006-07 - 2008-09,86683.66666666666,8.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,6597.666666666667,2007-08 - 2009-10,87377.33333333334,8.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,9693.0,2008-09 - 2010-11,90721.66666666667,11.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,11718.0,2009-10 - 2011-12,117514.0,10.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,10563.0,2010-11 - 2012-13,131661.66666666666,8.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,9609.0,2011-12 - 2013-14,136488.33333333334,7.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,16703.333333333332,2012-13 - 2014-15,132113.6666666667,13.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,20894.0,2013-14 - 2015-16,151587.6666666667,14.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,18883.333333333332,2014-15 - 2016-17,161489.3333333333,12.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,12752.0,2015-16 - 2017-18,181330.33333333334,7.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,15316.333333333334,2016-17 - 2018-19,167625.3333333333,9.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,16649.0,2017-18 - 2019-20,183055.66666666666,9.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,15421.0,2018-19 - 2021-22,180604.6666666667,9.0
+E12999901,In low income (below threshold),Other Ethnic Group,Not in low income (at or above threshold),population,10137.0,2019-20 - 2021-22,206057.5,5.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2575542.333333333,1994-95 - 1996-97,13607361.333333332,19.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2586793.666666667,1995-96 - 1997-98,13560736.666666668,19.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2715142.3333333335,1996-97 - 1998-99,13507471.666666668,20.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2672459.333333333,1997-98 - 1999-00,13442428.333333334,20.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2584601.666666667,1998-99 - 2000-01,13387916.666666668,19.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2467006.6666666665,1999-00 - 2001-02,13383666.0,18.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2373334.6666666665,2000-01 - 2002-03,13381039.666666666,18.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2275897.0,2001-02 - 2003-04,13387641.333333332,17.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2170368.3333333335,2002-03 - 2004-05,13429550.000000002,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2116674.3333333335,2003-04 - 2005-06,13411208.0,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2142618.6666666665,2004-05 - 2006-07,13337463.666666666,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2209777.0,2005-06 - 2007-08,13254659.333333332,17.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2219031.0,2006-07 - 2008-09,13264919.0,17.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2178725.666666667,2007-08 - 2009-10,13350580.666666668,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2051729.3333333333,2008-09 - 2010-11,13361430.333333332,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,1965571.6666666665,2009-10 - 2011-12,13432053.0,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,1905563.6666666667,2010-11 - 2012-13,13464099.0,14.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,1892704.6666666665,2011-12 - 2013-14,13569799.0,14.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,1959022.0,2012-13 - 2014-15,13603584.0,14.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,1962851.3333333333,2013-14 - 2015-16,13532012.333333332,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2005105.0,2014-15 - 2016-17,13531227.333333336,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2019075.0,2015-16 - 2017-18,13514591.333333334,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2060016.6666666665,2016-17 - 2018-19,13500451.0,15.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2108894.0,2017-18 - 2019-20,13395933.666666666,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2066131.3333333333,2018-19 - 2021-22,13304232.333333334,16.0
+E12999901,In low income (below threshold),White,In low income (below threshold),population,2078253.5,2019-20 - 2021-22,13310772.5,16.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,874989.6666666667,1994-95 - 1996-97,13607361.333333332,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,830150.3333333333,1995-96 - 1997-98,13560736.666666668,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,784062.6666666666,1996-97 - 1998-99,13507471.666666668,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,769595.6666666667,1997-98 - 1999-00,13442428.333333334,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,745153.0,1998-99 - 2000-01,13387916.666666668,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,714993.3333333334,1999-00 - 2001-02,13383666.0,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,692930.6666666666,2000-01 - 2002-03,13381039.666666666,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,675734.0,2001-02 - 2003-04,13387641.333333332,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,632541.3333333334,2002-03 - 2004-05,13429550.000000002,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,640858.6666666666,2003-04 - 2005-06,13411208.0,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,662749.0,2004-05 - 2006-07,13337463.666666666,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,684075.3333333334,2005-06 - 2007-08,13254659.333333332,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,684855.6666666666,2006-07 - 2008-09,13264919.0,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,723983.0,2007-08 - 2009-10,13350580.666666668,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,756819.6666666666,2008-09 - 2010-11,13361430.333333332,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,774276.3333333333,2009-10 - 2011-12,13432053.0,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,762811.3333333333,2010-11 - 2012-13,13464099.0,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,785568.6666666666,2011-12 - 2013-14,13569799.0,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,768131.0,2012-13 - 2014-15,13603584.0,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,764847.0,2013-14 - 2015-16,13532012.333333332,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,760195.6666666667,2014-15 - 2016-17,13531227.333333336,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,759626.6666666667,2015-16 - 2017-18,13514591.333333334,6.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,722550.3333333333,2016-17 - 2018-19,13500451.0,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,672498.3333333334,2017-18 - 2019-20,13395933.666666666,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,675878.0,2018-19 - 2021-22,13304232.333333334,5.0
+E12999901,In low income (below threshold),White,Not in low income (at or above threshold),population,680193.0,2019-20 - 2021-22,13310772.5,5.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,13346.333333333332,1994-95 - 1996-97,415176.0,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,18701.666666666664,1995-96 - 1997-98,427891.3333333333,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,18242.666666666668,1996-97 - 1998-99,448384.0,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,15728.333333333334,1997-98 - 1999-00,464437.0,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,14550.333333333332,1998-99 - 2000-01,476197.6666666666,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,12880.0,1999-00 - 2001-02,439456.6666666666,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,8109.333333333333,2000-01 - 2002-03,425805.6666666666,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,10765.333333333334,2001-02 - 2003-04,444367.6666666667,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,10996.0,2002-03 - 2004-05,456355.3333333333,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,23746.666666666668,2003-04 - 2005-06,513595.6666666666,5.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,24884.0,2004-05 - 2006-07,629814.6666666666,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,29442.333333333332,2005-06 - 2007-08,749072.0,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,22034.333333333336,2006-07 - 2008-09,762707.0,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,15291.0,2007-08 - 2009-10,740400.6666666667,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,13627.333333333332,2008-09 - 2010-11,770964.0,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,23064.666666666668,2009-10 - 2011-12,804242.0,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,44910.333333333336,2010-11 - 2012-13,828264.3333333334,5.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,45381.0,2011-12 - 2013-14,773920.3333333334,6.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,38744.33333333333,2012-13 - 2014-15,762028.6666666666,5.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,25902.666666666664,2013-14 - 2015-16,865283.0,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,26248.0,2014-15 - 2016-17,912363.6666666666,3.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,35008.0,2015-16 - 2017-18,979995.0,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,40627.0,2016-17 - 2018-19,1038334.3333333333,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,41338.66666666667,2017-18 - 2019-20,1138842.0,4.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,25656.333333333336,2018-19 - 2021-22,1237383.6666666665,2.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,In low income (below threshold),population,13085.0,2019-20 - 2021-22,1197486.0,1.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,140034.33333333334,1994-95 - 1996-97,415176.0,34.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,134804.3333333333,1995-96 - 1997-98,427891.3333333333,32.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,146692.0,1996-97 - 1998-99,448384.0,33.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,126596.0,1997-98 - 1999-00,464437.0,27.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,133233.33333333334,1998-99 - 2000-01,476197.6666666666,28.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,140876.0,1999-00 - 2001-02,439456.6666666666,32.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,171454.66666666666,2000-01 - 2002-03,425805.6666666666,40.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,196914.6666666667,2001-02 - 2003-04,444367.6666666667,44.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,221761.3333333333,2002-03 - 2004-05,456355.3333333333,49.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,248045.3333333333,2003-04 - 2005-06,513595.6666666666,48.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,315070.6666666666,2004-05 - 2006-07,629814.6666666666,50.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,367540.3333333334,2005-06 - 2007-08,749072.0,49.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,379554.0,2006-07 - 2008-09,762707.0,50.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,370137.0,2007-08 - 2009-10,740400.6666666667,50.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,365129.6666666666,2008-09 - 2010-11,770964.0,47.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,381169.3333333334,2009-10 - 2011-12,804242.0,47.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,400394.6666666667,2010-11 - 2012-13,828264.3333333334,48.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,420227.3333333334,2011-12 - 2013-14,773920.3333333334,54.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,423811.0,2012-13 - 2014-15,762028.6666666666,56.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,479476.6666666666,2013-14 - 2015-16,865283.0,55.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,480043.6666666666,2014-15 - 2016-17,912363.6666666666,53.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,531727.6666666667,2015-16 - 2017-18,979995.0,54.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,552317.0,2016-17 - 2018-19,1038334.3333333333,53.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,616852.0,2017-18 - 2019-20,1138842.0,54.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,666081.6666666666,2018-19 - 2021-22,1237383.6666666665,54.0
+E12999901,Not in low income (at or above threshold),Asian/ Asian British,Not in low income (at or above threshold),population,666831.5,2019-20 - 2021-22,1197486.0,56.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,280.3333333333333,1994-95 - 1996-97,60441.333333333336,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,0.0,1995-96 - 1997-98,55131.66666666667,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,0.0,1996-97 - 1998-99,72945.66666666667,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,0.0,1997-98 - 1999-00,90101.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,0.0,1998-99 - 2000-01,106970.66666666666,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,913.0,1999-00 - 2001-02,108635.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,913.0,2000-01 - 2002-03,115690.0,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1671.6666666666665,2001-02 - 2003-04,104817.66666666666,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,758.6666666666666,2002-03 - 2004-05,91971.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,758.6666666666666,2003-04 - 2005-06,104743.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,0.0,2004-05 - 2006-07,130689.33333333331,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,2744.333333333333,2005-06 - 2007-08,160841.0,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,3116.333333333333,2006-07 - 2008-09,189278.3333333333,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,3116.333333333333,2007-08 - 2009-10,190333.3333333333,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1034.6666666666665,2008-09 - 2010-11,183250.33333333334,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,662.6666666666666,2009-10 - 2011-12,166622.66666666666,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1608.6666666666667,2010-11 - 2012-13,183863.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,3697.666666666667,2011-12 - 2013-14,212799.0,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,5317.0,2012-13 - 2014-15,223257.33333333334,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,4737.333333333334,2013-14 - 2015-16,214867.0,2.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1985.6666666666665,2014-15 - 2016-17,209560.3333333333,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1372.3333333333333,2015-16 - 2017-18,202009.6666666667,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1006.0,2016-17 - 2018-19,230554.6666666667,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1696.6666666666665,2017-18 - 2019-20,299550.6666666667,1.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,690.6666666666666,2018-19 - 2021-22,328816.6666666667,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,In low income (below threshold),population,1036.0,2019-20 - 2021-22,359067.0,0.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,38849.0,1994-95 - 1996-97,60441.333333333336,64.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,32577.666666666668,1995-96 - 1997-98,55131.66666666667,59.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,42855.333333333336,1996-97 - 1998-99,72945.66666666667,59.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,54268.66666666667,1997-98 - 1999-00,90101.33333333334,60.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,70892.33333333333,1998-99 - 2000-01,106970.66666666666,66.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,74860.33333333333,1999-00 - 2001-02,108635.66666666666,69.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,78179.0,2000-01 - 2002-03,115690.0,68.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,59393.0,2001-02 - 2003-04,104817.66666666666,57.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,49252.0,2002-03 - 2004-05,91971.66666666666,54.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,53097.33333333333,2003-04 - 2005-06,104743.66666666666,51.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,76424.66666666666,2004-05 - 2006-07,130689.33333333331,58.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,97219.33333333334,2005-06 - 2007-08,160841.0,60.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,114590.0,2006-07 - 2008-09,189278.3333333333,61.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,113397.33333333333,2007-08 - 2009-10,190333.3333333333,60.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,110281.0,2008-09 - 2010-11,183250.33333333334,60.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,101640.66666666667,2009-10 - 2011-12,166622.66666666666,61.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,103142.0,2010-11 - 2012-13,183863.66666666666,56.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,107648.66666666666,2011-12 - 2013-14,212799.0,51.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,114750.33333333334,2012-13 - 2014-15,223257.33333333334,51.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,107739.0,2013-14 - 2015-16,214867.0,50.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,101272.33333333334,2014-15 - 2016-17,209560.3333333333,48.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,96347.66666666667,2015-16 - 2017-18,202009.6666666667,48.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,116439.0,2016-17 - 2018-19,230554.6666666667,51.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,173065.0,2017-18 - 2019-20,299550.6666666667,58.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,192402.33333333334,2018-19 - 2021-22,328816.6666666667,59.0
+E12999901,Not in low income (at or above threshold),Black/ African/ Caribbean/ Black British,Not in low income (at or above threshold),population,220210.5,2019-20 - 2021-22,359067.0,61.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,1999-00 - 2001-02,26385.0,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,1936.6666666666667,2000-01 - 2002-03,50633.66666666667,4.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2153.666666666667,2001-02 - 2003-04,70139.0,3.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,3931.666666666667,2002-03 - 2004-05,66346.0,6.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,1995.0,2003-04 - 2005-06,74523.0,3.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,1778.0,2004-05 - 2006-07,82130.66666666667,2.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2005-06 - 2007-08,82687.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2115.0,2006-07 - 2008-09,87814.33333333333,2.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2115.0,2007-08 - 2009-10,89012.66666666667,2.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2115.0,2008-09 - 2010-11,119789.33333333334,2.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2009-10 - 2011-12,104003.0,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2010-11 - 2012-13,113422.0,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2011-12 - 2013-14,89924.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,686.3333333333334,2012-13 - 2014-15,92721.33333333334,1.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,686.3333333333334,2013-14 - 2015-16,82471.33333333333,1.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2744.333333333333,2014-15 - 2016-17,94378.0,3.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2058.0,2015-16 - 2017-18,109786.0,2.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,2058.0,2016-17 - 2018-19,151170.3333333333,1.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2017-18 - 2019-20,160171.3333333333,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2018-19 - 2021-22,186971.0,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,In low income (below threshold),population,0.0,2019-20 - 2021-22,177159.5,0.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,21093.666666666668,1999-00 - 2001-02,26385.0,80.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,36164.0,2000-01 - 2002-03,50633.66666666667,71.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,48330.333333333336,2001-02 - 2003-04,70139.0,69.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,40524.33333333333,2002-03 - 2004-05,66346.0,61.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,46973.0,2003-04 - 2005-06,74523.0,63.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,51394.0,2004-05 - 2006-07,82130.66666666667,63.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,55463.66666666667,2005-06 - 2007-08,82687.33333333334,67.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,61220.666666666664,2006-07 - 2008-09,87814.33333333333,70.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,61826.66666666667,2007-08 - 2009-10,89012.66666666667,69.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,79804.66666666667,2008-09 - 2010-11,119789.33333333334,67.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,66341.0,2009-10 - 2011-12,104003.0,64.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,77592.33333333334,2010-11 - 2012-13,113422.0,68.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,64964.66666666667,2011-12 - 2013-14,89924.33333333334,72.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,68510.33333333334,2012-13 - 2014-15,92721.33333333334,74.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,52276.0,2013-14 - 2015-16,82471.33333333333,63.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,55986.66666666667,2014-15 - 2016-17,94378.0,59.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,56219.666666666664,2015-16 - 2017-18,109786.0,51.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,99200.33333333333,2016-17 - 2018-19,151170.3333333333,66.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,104484.33333333333,2017-18 - 2019-20,160171.3333333333,65.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,121415.66666666666,2018-19 - 2021-22,186971.0,65.0
+E12999901,Not in low income (at or above threshold),Mixed/ Multiple Ethnic Groups,Not in low income (at or above threshold),population,99337.0,2019-20 - 2021-22,177159.5,56.0
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,1999-00 - 2001-02,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2000-01 - 2002-03,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2001-02 - 2003-04,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2002-03 - 2004-05,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2003-04 - 2005-06,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2004-05 - 2006-07,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2005-06 - 2007-08,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2006-07 - 2008-09,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2007-08 - 2009-10,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2008-09 - 2010-11,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2009-10 - 2011-12,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2010-11 - 2012-13,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2011-12 - 2013-14,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2012-13 - 2014-15,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2013-14 - 2015-16,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2014-15 - 2016-17,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2015-16 - 2017-18,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2016-17 - 2018-19,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2017-18 - 2019-20,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2018-19 - 2021-22,5181.0,0.0
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),In low income (below threshold),population,0.0,2019-20 - 2021-22,7771.5,0.0
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1994-95 - 1996-97,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1995-96 - 1997-98,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1996-97 - 1998-99,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1997-98 - 1999-00,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1998-99 - 2000-01,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,1999-00 - 2001-02,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2000-01 - 2002-03,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2001-02 - 2003-04,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2002-03 - 2004-05,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2003-04 - 2005-06,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2004-05 - 2006-07,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2005-06 - 2007-08,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2006-07 - 2008-09,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2007-08 - 2009-10,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2008-09 - 2010-11,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2009-10 - 2011-12,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2010-11 - 2012-13,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2011-12 - 2013-14,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2012-13 - 2014-15,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2013-14 - 2015-16,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2014-15 - 2016-17,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2015-16 - 2017-18,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2016-17 - 2018-19,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,0.0,2017-18 - 2019-20,0.0,
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,5181.0,2018-19 - 2021-22,5181.0,100.0
+E12999901,Not in low income (at or above threshold),Not declared (from 2020/21 onwards),Not in low income (at or above threshold),population,7771.5,2019-20 - 2021-22,7771.5,100.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,311.3333333333333,1994-95 - 1996-97,62042.33333333333,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,334.6666666666667,1995-96 - 1997-98,76777.33333333333,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,334.6666666666667,1996-97 - 1998-99,70270.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,334.6666666666667,1997-98 - 1999-00,78560.66666666666,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,1998-99 - 2000-01,88097.0,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1210.6666666666665,1999-00 - 2001-02,91156.0,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1210.6666666666665,2000-01 - 2002-03,82146.0,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1896.0,2001-02 - 2003-04,74608.33333333333,3.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,685.3333333333334,2002-03 - 2004-05,80898.33333333333,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1524.3333333333335,2003-04 - 2005-06,85854.0,2.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,839.0,2004-05 - 2006-07,77081.33333333333,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,839.0,2005-06 - 2007-08,79353.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2006-07 - 2008-09,86683.66666666666,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2007-08 - 2009-10,87377.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2008-09 - 2010-11,90721.66666666667,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2009-10 - 2011-12,117514.0,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2010-11 - 2012-13,131661.66666666666,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2011-12 - 2013-14,136488.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2012-13 - 2014-15,132113.6666666667,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2013-14 - 2015-16,151587.6666666667,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,0.0,2014-15 - 2016-17,161489.3333333333,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,482.0,2015-16 - 2017-18,181330.33333333334,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,482.0,2016-17 - 2018-19,167625.3333333333,0.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1902.0,2017-18 - 2019-20,183055.66666666666,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,1420.0,2018-19 - 2021-22,180604.6666666667,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,In low income (below threshold),population,2130.0,2019-20 - 2021-22,206057.5,1.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,28521.0,1994-95 - 1996-97,62042.33333333333,46.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,36707.666666666664,1995-96 - 1997-98,76777.33333333333,48.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,35495.333333333336,1996-97 - 1998-99,70270.33333333334,51.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,43395.0,1997-98 - 1999-00,78560.66666666666,55.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,52637.666666666664,1998-99 - 2000-01,88097.0,60.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,52339.0,1999-00 - 2001-02,91156.0,57.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,46085.66666666667,2000-01 - 2002-03,82146.0,56.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,34130.33333333333,2001-02 - 2003-04,74608.33333333333,46.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,42593.33333333333,2002-03 - 2004-05,80898.33333333333,53.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,45339.333333333336,2003-04 - 2005-06,85854.0,53.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,44105.0,2004-05 - 2006-07,77081.33333333333,57.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,43966.0,2005-06 - 2007-08,79353.66666666666,55.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,55677.33333333333,2006-07 - 2008-09,86683.66666666666,64.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,53424.333333333336,2007-08 - 2009-10,87377.33333333334,61.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,54963.333333333336,2008-09 - 2010-11,90721.66666666667,61.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,60383.33333333333,2009-10 - 2011-12,117514.0,51.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,72484.0,2010-11 - 2012-13,131661.66666666666,55.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,77479.33333333334,2011-12 - 2013-14,136488.33333333334,57.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,66997.66666666667,2012-13 - 2014-15,132113.6666666667,51.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,78332.0,2013-14 - 2015-16,151587.6666666667,52.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,91817.66666666666,2014-15 - 2016-17,161489.3333333333,57.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,103431.33333333334,2015-16 - 2017-18,181330.33333333334,57.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,92401.0,2016-17 - 2018-19,167625.3333333333,55.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,81645.66666666666,2017-18 - 2019-20,183055.66666666666,45.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,108941.0,2018-19 - 2021-22,180604.6666666667,60.0
+E12999901,Not in low income (at or above threshold),Other Ethnic Group,Not in low income (at or above threshold),population,129311.0,2019-20 - 2021-22,206057.5,63.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,233393.3333333333,1994-95 - 1996-97,13607361.333333332,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,217133.66666666666,1995-96 - 1997-98,13560736.666666668,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,224636.6666666667,1996-97 - 1998-99,13507471.666666668,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,233668.0,1997-98 - 1999-00,13442428.333333334,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,236993.33333333334,1998-99 - 2000-01,13387916.666666668,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,242368.3333333333,1999-00 - 2001-02,13383666.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,240050.66666666666,2000-01 - 2002-03,13381039.666666666,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,252380.0,2001-02 - 2003-04,13387641.333333332,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,254391.66666666666,2002-03 - 2004-05,13429550.000000002,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,277014.0,2003-04 - 2005-06,13411208.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,285308.3333333333,2004-05 - 2006-07,13337463.666666666,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,277494.3333333334,2005-06 - 2007-08,13254659.333333332,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,270237.3333333333,2006-07 - 2008-09,13264919.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,249693.6666666667,2007-08 - 2009-10,13350580.666666668,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,241532.33333333334,2008-09 - 2010-11,13361430.333333332,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,238679.66666666666,2009-10 - 2011-12,13432053.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,249504.3333333333,2010-11 - 2012-13,13464099.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,252526.33333333334,2011-12 - 2013-14,13569799.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,247882.3333333333,2012-13 - 2014-15,13603584.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,238585.66666666666,2013-14 - 2015-16,13532012.333333332,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,245576.0,2014-15 - 2016-17,13531227.333333336,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,255132.3333333333,2015-16 - 2017-18,13514591.333333334,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,258066.3333333333,2016-17 - 2018-19,13500451.0,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,261249.66666666666,2017-18 - 2019-20,13395933.666666666,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,255093.6666666667,2018-19 - 2021-22,13304232.333333334,2.0
+E12999901,Not in low income (at or above threshold),White,In low income (below threshold),population,260748.5,2019-20 - 2021-22,13310772.5,2.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9923436.0,1994-95 - 1996-97,13607361.333333332,73.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9926659.0,1995-96 - 1997-98,13560736.666666668,73.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9783630.0,1996-97 - 1998-99,13507471.666666668,72.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9766705.333333334,1997-98 - 1999-00,13442428.333333334,73.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9821168.666666668,1998-99 - 2000-01,13387916.666666668,73.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,9959297.666666666,1999-00 - 2001-02,13383666.0,74.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10074723.666666666,2000-01 - 2002-03,13381039.666666666,75.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10183630.333333332,2001-02 - 2003-04,13387641.333333332,76.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10372248.666666668,2002-03 - 2004-05,13429550.000000002,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10376661.0,2003-04 - 2005-06,13411208.0,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10246787.666666666,2004-05 - 2006-07,13337463.666666666,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10083312.666666666,2005-06 - 2007-08,13254659.333333332,76.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10090795.0,2006-07 - 2008-09,13264919.0,76.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10198178.333333334,2007-08 - 2009-10,13350580.666666668,76.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10311349.0,2008-09 - 2010-11,13361430.333333332,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10453525.333333334,2009-10 - 2011-12,13432053.0,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10546219.666666666,2010-11 - 2012-13,13464099.0,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10638999.333333334,2011-12 - 2013-14,13569799.0,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10628548.666666666,2012-13 - 2014-15,13603584.0,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10565728.333333332,2013-14 - 2015-16,13532012.333333332,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10520350.666666668,2014-15 - 2016-17,13531227.333333336,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10480757.333333334,2015-16 - 2017-18,13514591.333333334,78.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10459817.666666666,2016-17 - 2018-19,13500451.0,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10353291.666666666,2017-18 - 2019-20,13395933.666666666,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10307129.333333334,2018-19 - 2021-22,13304232.333333334,77.0
+E12999901,Not in low income (at or above threshold),White,Not in low income (at or above threshold),population,10291577.5,2019-20 - 2021-22,13310772.5,77.0

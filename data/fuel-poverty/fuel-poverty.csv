@@ -1,7 +1,4 @@
 date,geography_code,geography_name,variable_name,value
-2022,E12000001,NORTH EAST,Number of households,1197595
-2022,E12000001,NORTH EAST,Number of households in fuel poverty,172828
-2022,E12000001,NORTH EAST,Proportion of households fuel poor (%),14.431255975517601
 2022,E06000047,County Durham,Number of households,237071
 2022,E06000047,County Durham,Number of households in fuel poverty,34928
 2022,E06000047,County Durham,Proportion of households fuel poor (%),14.73313901742516
@@ -23,9 +20,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E06000004,Stockton-on-Tees,Number of households,83906
 2022,E06000004,Stockton-on-Tees,Number of households in fuel poverty,10816
 2022,E06000004,Stockton-on-Tees,Proportion of households fuel poor (%),12.890615688985294
-2022,E11000007,Tyne and Wear (Met County),Number of households,513683
-2022,E11000007,Tyne and Wear (Met County),Number of households in fuel poverty,75104
-2022,E11000007,Tyne and Wear (Met County),Proportion of households fuel poor (%),14.620690192200247
 2022,E08000037,Gateshead,Number of households,94587
 2022,E08000037,Gateshead,Number of households in fuel poverty,13455
 2022,E08000037,Gateshead,Proportion of households fuel poor (%),14.224999207079197
@@ -41,9 +35,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000024,Sunderland,Number of households,127030
 2022,E08000024,Sunderland,Number of households in fuel poverty,18513
 2022,E08000024,Sunderland,Proportion of households fuel poor (%),14.573722742659214
-2022,E12000002,NORTH WEST,Number of households,3225129
-2022,E12000002,NORTH WEST,Number of households in fuel poverty,465325
-2022,E12000002,NORTH WEST,Proportion of households fuel poor (%),14.428105046340784
 2022,E06000008,Blackburn with Darwen,Number of households,61389
 2022,E06000008,Blackburn with Darwen,Number of households in fuel poverty,9603
 2022,E06000008,Blackburn with Darwen,Proportion of households fuel poor (%),15.64286761471925
@@ -62,9 +53,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E06000007,Warrington,Number of households,91234
 2022,E06000007,Warrington,Number of households in fuel poverty,10293
 2022,E06000007,Warrington,Proportion of households fuel poor (%),11.281978209877897
-2022,E10000006,Cumbria,Number of households,237830
-2022,E10000006,Cumbria,Number of households in fuel poverty,33151
-2022,E10000006,Cumbria,Proportion of households fuel poor (%),13.938947988058697
 2022,E07000026,Allerdale,Number of households,45275
 2022,E07000026,Allerdale,Number of households in fuel poverty,6803
 2022,E07000026,Allerdale,Proportion of households fuel poor (%),15.025952512424077
@@ -83,9 +71,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E07000031,South Lakeland,Number of households,49962
 2022,E07000031,South Lakeland,Number of households in fuel poverty,5947
 2022,E07000031,South Lakeland,Proportion of households fuel poor (%),11.903046315199552
-2022,E11000001,Greater Manchester (Met County),Number of households,1208302
-2022,E11000001,Greater Manchester (Met County),Number of households in fuel poverty,181973
-2022,E11000001,Greater Manchester (Met County),Proportion of households fuel poor (%),15.060225009972672
 2022,E08000001,Bolton,Number of households,124572
 2022,E08000001,Bolton,Number of households in fuel poverty,18250
 2022,E08000001,Bolton,Proportion of households fuel poor (%),14.650162155219471
@@ -116,9 +101,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000010,Wigan,Number of households,145998
 2022,E08000010,Wigan,Number of households in fuel poverty,20191
 2022,E08000010,Wigan,Proportion of households fuel poor (%),13.829641501938383
-2022,E10000017,Lancashire,Number of households,532268
-2022,E10000017,Lancashire,Number of households in fuel poverty,72491
-2022,E10000017,Lancashire,Proportion of households fuel poor (%),13.619266985804144
 2022,E07000117,Burnley,Number of households,40274
 2022,E07000117,Burnley,Number of households in fuel poverty,6396
 2022,E07000117,Burnley,Proportion of households fuel poor (%),15.881213686249193
@@ -155,9 +137,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E07000128,Wyre,Number of households,50733
 2022,E07000128,Wyre,Number of households in fuel poverty,6372
 2022,E07000128,Wyre,Proportion of households fuel poor (%),12.559872272485364
-2022,E11000002,Merseyside (Met County),Number of households,645316
-2022,E11000002,Merseyside (Met County),Number of households in fuel poverty,101651
-2022,E11000002,Merseyside (Met County),Proportion of households fuel poor (%),15.752127639791977
 2022,E08000011,Knowsley,Number of households,65877
 2022,E08000011,Knowsley,Number of households in fuel poverty,9820
 2022,E08000011,Knowsley,Proportion of households fuel poor (%),14.906568301531642
@@ -173,9 +152,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000015,Wirral,Number of households,150488
 2022,E08000015,Wirral,Number of households in fuel poverty,21700
 2022,E08000015,Wirral,Proportion of households fuel poor (%),14.41975439902185
-2022,E12000003,YORKSHIRE AND THE HUMBER,Number of households,2395086
-2022,E12000003,YORKSHIRE AND THE HUMBER,Number of households in fuel poverty,418084
-2022,E12000003,YORKSHIRE AND THE HUMBER,Proportion of households fuel poor (%),17.45590763755456
 2022,E06000011,East Riding of Yorkshire,Number of households,154049
 2022,E06000011,East Riding of Yorkshire,Number of households in fuel poverty,22581
 2022,E06000011,East Riding of Yorkshire,Proportion of households fuel poor (%),14.65832300112302
@@ -191,9 +167,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E06000014,York,Number of households,89857
 2022,E06000014,York,Number of households in fuel poverty,13172
 2022,E06000014,York,Proportion of households fuel poor (%),14.658846834414682
-2022,E10000023,North Yorkshire,Number of households,276915
-2022,E10000023,North Yorkshire,Number of households in fuel poverty,41794
-2022,E10000023,North Yorkshire,Proportion of households fuel poor (%),15.092717982052253
 2022,E07000163,Craven,Number of households,26500
 2022,E07000163,Craven,Number of households in fuel poverty,4160
 2022,E07000163,Craven,Proportion of households fuel poor (%),15.69811320754717
@@ -215,9 +188,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E07000169,Selby,Number of households,37233
 2022,E07000169,Selby,Number of households in fuel poverty,4799
 2022,E07000169,Selby,Proportion of households fuel poor (%),12.889103752047914
-2022,E11000003,South Yorkshire (Met County),Number of households,609128
-2022,E11000003,South Yorkshire (Met County),Number of households in fuel poverty,114008
-2022,E11000003,South Yorkshire (Met County),Proportion of households fuel poor (%),18.716591586661586
 2022,E08000016,Barnsley,Number of households,108289
 2022,E08000016,Barnsley,Number of households in fuel poverty,20798
 2022,E08000016,Barnsley,Proportion of households fuel poor (%),19.206013537847795
@@ -230,9 +200,6 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000019,Sheffield,Number of households,247909
 2022,E08000019,Sheffield,Number of households in fuel poverty,46753
 2022,E08000019,Sheffield,Proportion of households fuel poor (%),18.858936141890776
-2022,E11000006,West Yorkshire (Met County),Number of households,993064
-2022,E11000006,West Yorkshire (Met County),Number of households in fuel poverty,175582
-2022,E11000006,West Yorkshire (Met County),Proportion of households fuel poor (%),17.68083426647225
 2022,E08000032,Bradford,Number of households,214445
 2022,E08000032,Bradford,Number of households in fuel poverty,39619
 2022,E08000032,Bradford,Proportion of households fuel poor (%),18.475133484110145
@@ -248,6 +215,63 @@ date,geography_code,geography_name,variable_name,value
 2022,E08000036,Wakefield,Number of households,151129
 2022,E08000036,Wakefield,Number of households in fuel poverty,26170
 2022,E08000036,Wakefield,Proportion of households fuel poor (%),17.316332404766786
+2022,E47000001,Greater Manchester,Number of households,1208302
+2022,E47000001,Greater Manchester,Number of households in fuel poverty,181973
+2022,E47000001,Greater Manchester,Proportion of households fuel poor (%),15.060225009972672
+2022,E47000002,South Yorkshire,Number of households,609128
+2022,E47000002,South Yorkshire,Number of households in fuel poverty,114008
+2022,E47000002,South Yorkshire,Proportion of households fuel poor (%),18.716591586661586
+2022,E47000003,West Yorkshire,Number of households,993064
+2022,E47000003,West Yorkshire,Number of households in fuel poverty,175582
+2022,E47000003,West Yorkshire,Proportion of households fuel poor (%),17.68083426647225
+2022,E47000004,Liverpool City Region,Number of households,702394
+2022,E47000004,Liverpool City Region,Number of households in fuel poverty,109516
+2022,E47000004,Liverpool City Region,Proportion of households fuel poor (%),15.591818836721272
+2022,E47000006,Tees Valley,Number of households,299951
+2022,E47000006,Tees Valley,Number of households in fuel poverty,42891
+2022,E47000006,Tees Valley,Proportion of households fuel poor (%),14.299335558141163
+2022,E47000010,North East,Number of households,529976
+2022,E47000010,North East,Number of households in fuel poverty,77212
+2022,E47000010,North East,Proportion of households fuel poor (%),14.568961613356077
+2022,E47000011,North of Tyne,Number of households,367668
+2022,E47000011,North of Tyne,Number of households in fuel poverty,52725
+2022,E47000011,North of Tyne,Proportion of households fuel poor (%),14.340383171774535
+2022,E10000006,Cumbria,Number of households,237830
+2022,E10000006,Cumbria,Number of households in fuel poverty,33151
+2022,E10000006,Cumbria,Proportion of households fuel poor (%),13.938947988058697
+2022,E10000017,Lancashire,Number of households,532268
+2022,E10000017,Lancashire,Number of households in fuel poverty,72491
+2022,E10000017,Lancashire,Proportion of households fuel poor (%),13.619266985804144
+2022,E10000023,North Yorkshire,Number of households,276915
+2022,E10000023,North Yorkshire,Number of households in fuel poverty,41794
+2022,E10000023,North Yorkshire,Proportion of households fuel poor (%),15.092717982052253
+2022,E11000001,Greater Manchester,Number of households,1208302
+2022,E11000001,Greater Manchester,Number of households in fuel poverty,181973
+2022,E11000001,Greater Manchester,Proportion of households fuel poor (%),15.060225009972672
+2022,E11000002,Merseyside,Number of households,645316
+2022,E11000002,Merseyside,Number of households in fuel poverty,101651
+2022,E11000002,Merseyside,Proportion of households fuel poor (%),15.752127639791977
+2022,E11000003,South Yorkshire,Number of households,609128
+2022,E11000003,South Yorkshire,Number of households in fuel poverty,114008
+2022,E11000003,South Yorkshire,Proportion of households fuel poor (%),18.716591586661586
+2022,E11000006,West Yorkshire,Number of households,993064
+2022,E11000006,West Yorkshire,Number of households in fuel poverty,175582
+2022,E11000006,West Yorkshire,Proportion of households fuel poor (%),17.68083426647225
+2022,E11000007,Tyne and Wear,Number of households,513683
+2022,E11000007,Tyne and Wear,Number of households in fuel poverty,75104
+2022,E11000007,Tyne and Wear,Proportion of households fuel poor (%),14.620690192200247
+2022,E12000001,North East,Number of households,1197595
+2022,E12000001,North East,Number of households in fuel poverty,172828
+2022,E12000001,North East,Proportion of households fuel poor (%),14.431255975517601
+2022,E12000002,North West,Number of households,3225129
+2022,E12000002,North West,Number of households in fuel poverty,465325
+2022,E12000002,North West,Proportion of households fuel poor (%),14.428105046340784
+2022,E12000003,Yorkshire and The Humber,Number of households,2395086
+2022,E12000003,Yorkshire and The Humber,Number of households in fuel poverty,418084
+2022,E12000003,Yorkshire and The Humber,Proportion of households fuel poor (%),17.45590763755456
+2022,E12999901,The North,Number of households,6817810
+2022,E12999901,The North,Number of households in fuel poverty,1056237
+2022,E12999901,The North,Proportion of households fuel poor (%),15.492320847896906
 2022,E05000650,Astley Bridge,Number of households,6020
 2022,E05000650,Astley Bridge,Number of households in fuel poverty,795
 2022,E05000650,Astley Bridge,Proportion of households fuel poor (%),13.205980066445184

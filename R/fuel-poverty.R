@@ -4,6 +4,8 @@ fuel_poverty_file <- "data-raw/fuel-poverty/sub-regional-fuel-poverty-2022-table
 
 geography_code_name_only <- readr::read_csv("data/geo/geography_code_name_only.csv")
 
+source("R/utils-build-higher-geographies.R")
+
 fuel_poverty <- readxl::read_excel(fuel_poverty_file, sheet = "Table 2", skip = 2) |>
   dplyr::filter(!is.na(`Number of households`)) |>
   dplyr::mutate(date = "2022") |>
@@ -17,7 +19,16 @@ fuel_poverty <- readxl::read_excel(fuel_poverty_file, sheet = "Table 2", skip = 
                 `Number of households in fuel poverty`,
                 `Proportion of households fuel poor (%)`) |>
   tidyr::pivot_longer(4:6, names_to = "variable_name") |>
-  dplyr::filter(geography_code %in% geography_code_name_only$code)
+  dplyr::filter(geography_code %in% geography_code_name_only$code) |>
+  build_higher_geogs() |>
+  # rewrite the ratios column because it's been summed by build_higher_geogs()
+  tidyr::pivot_wider(names_from = "variable_name") |>
+  dplyr::mutate(`Proportion of households fuel poor (%)` =
+                  `Number of households in fuel poverty` /
+                  `Number of households` * 100) |>
+  tidyr::pivot_longer(cols = dplyr::where(is.numeric),
+                      names_to = "variable_name")
+
 
 fuel_poverty_lsoa <- readxl::read_excel(fuel_poverty_file, sheet = "Table 3", skip = 2, guess_max = Inf) |>
   dplyr::filter(!is.na(`Number of households`)) |>

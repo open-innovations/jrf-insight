@@ -73,7 +73,7 @@
     {% endcomp %}
 
     {% if fp_all.length > 0 %}
-      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 60%)' } %}
       {{ comp.oi.map.svg({
         config: {
           data: fp_all,
@@ -96,7 +96,8 @@
             ]
           },
           key: 'geography_code',
-          tooltip: 'tooltip'
+          tooltip: 'tooltip',
+          padding: 50
         }
       }) | safe }}
       {% endcomp %}
@@ -131,6 +132,7 @@
           scale: 'Viridis',
           max: dataset.ashe.range.median_weekly_wage.min,
           min: dataset.ashe.range.median_weekly_wage.max,
+          padding: 50,
           legend: {
             position: 'top',
             items: [
@@ -217,6 +219,59 @@
     {% endif %}
   {% endcomp %}
 
+  {% comp 'layout.tab.panel', { label: 'Jobs below living wage', id: 'jobs-below-living-wage' } %}
+    <h3>Percentage of jobs below living wage by gender and hours</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p>
+        This chart shows the percentage of jobs that are paid below living wage in {{ this_place.title }}.
+        Percentages can add to more than 100 as "All sexes" includes those already counted in "Men" and "Women". 
+      </p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "jobs-below-living-wage", view: "jobs-below-living-wage"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = dataset.jobs_below_living_wage.by_hours_by_sex(geography) %}
+    {% if chart_data | length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+        {{comp.oi.chart.bar({
+            config: {
+              data: chart_data,
+              stacked: true,
+              legend: { 
+                show: true
+                },
+              category: "hours",
+              series: [
+                  {
+                  "title": "All (%)",  
+                  "value": "All",
+                  "colour": "#64A70B"
+                  },
+                  {
+                  "title": "Female (%)",  
+                  "value": "Female",
+                  "colour": "#3EB1C8"
+                  },
+                  {
+                  "title": "Male (%)",  
+                  "value": "Male",
+                  "colour": "#8024c3"
+                  }
+                ], 
+              axis: {
+                x: {
+                  tick: {
+                    spacing: 10
+                  }
+                }
+              }
+            }
+          }) | safe
+        }}
+      {% endcomp %}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
+  {% endcomp %}
+  
 {% endcomp %}
 {# End of tab set #}
 

@@ -15,4 +15,28 @@ cc_data <- cc |>
                 value = obs_value) |>
   dplyr::distinct() # we have both upper and lower tier, so unitaries will appear in both - BUT ... looks like as I've called them on the same API call, the API has deduped
 
-readr::write_csv(cc_data, "data/claimant-count/claimant-count.csv")
+# this pivots the variables so we can calculate the population numbers, allowing us to create data for THE NORTH
+cc_data1 <- cc_data |>
+  tidyr::pivot_wider(names_from = "variable_name") |>
+  dplyr::filter(substr(geography_code, 1, 3) == "E12") |>
+  dplyr::mutate(
+    `Residents aged 16-64` =
+      `Claimant count` / (`Claimants as a proportion of residents aged 16-64` / 100)) |>
+  dplyr::group_by(date) |>
+  dplyr::summarise(
+    `Claimant count` = sum(`Claimant count`),
+    `Residents aged 16-64` = sum(`Residents aged 16-64`)
+  ) |>
+  dplyr::mutate(
+    geography_code = "E12999901",
+    geography_name = "The North",
+    `Claimants as a proportion of residents aged 16-64` =
+      (`Claimant count` / `Residents aged 16-64` * 100) |> round(1)) |>
+  dplyr::select(date, geography_code, geography_name, `Claimant count`,
+                `Claimants as a proportion of residents aged 16-64`) |>
+  tidyr::pivot_longer(cols = dplyr::starts_with("Claimant"),
+                      names_to = "variable_name")
+
+cc_out <- dplyr::bind_rows(cc_data, cc_data1)
+
+readr::write_csv(cc_out, "data/claimant-count/claimant-count.csv")

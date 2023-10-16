@@ -47,4 +47,17 @@ jobs_below_lw <- lapply(sheets, function(sht) {
   tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "variable_name") |>
   dplyr::filter(geography_code %in% geography_code_name_only$code)
 
-readr::write_csv(jobs_below_lw, "data/jobs-below-living-wage/jobs-below-living-wage.csv")
+source("R/utils-build-higher-geographies.R")
+jblw_north <- jobs_below_lw |>
+  tidyr::pivot_wider(names_from = variable_name) |>
+  dplyr::mutate(total_jobs = number_of_jobs_000s / (percent / 100)) |>
+  tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "variable_name") |>
+  build_the_north() |>
+  tidyr::pivot_wider(names_from = "variable_name") |>
+  dplyr::mutate(percent = number_of_jobs_000s / total_jobs * 100) |>
+  dplyr::select(-total_jobs) |>
+  tidyr::pivot_longer(dplyr::where(is.numeric), names_to = "variable_name")
+
+jblw <- dplyr::bind_rows(jobs_below_lw, jblw_north)
+
+readr::write_csv(jblw, "data/jobs-below-living-wage/jobs-below-living-wage.csv")

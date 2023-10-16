@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Savings and Investments of Adults in the Family of the Individual,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Savings and Investments of Adults in the Family of the Individual,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,85488.66666666667,1994-95 - 1996-97,494483.0,17.0
 E12000001,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,32445.666666666668,1994-95 - 1996-97,494483.0,7.0
 E12000001,In low income (below threshold),No savings,In low income (below threshold),population,386602.3333333333,1994-95 - 1996-97,1126591.3333333335,34.0
@@ -2495,3 +2495,835 @@ E12000003,Not in low income (at or above threshold),"£3,000 but less than £8,0
 E12000003,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,552052.5,2019-20 - 2021-22,675464.5,82.0
 E12000003,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,4070.0,2019-20 - 2021-22,152004.0,3.0
 E12000003,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,120186.0,2019-20 - 2021-22,152004.0,79.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,425077.0,1994-95 - 1996-97,2774129.333333333,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,448365.6666666666,1995-96 - 1997-98,2951041.333333333,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,526520.3333333334,1996-97 - 1998-99,3087449.333333333,17.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,575654.6666666666,1997-98 - 1999-00,3206268.333333333,18.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,601032.0,1998-99 - 2000-01,3312956.666666667,18.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,564539.3333333334,1999-00 - 2001-02,3389832.666666667,17.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,503032.6666666666,2000-01 - 2002-03,3244818.3333333335,16.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,457356.3333333333,2001-02 - 2003-04,3106422.0,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,452763.6666666666,2002-03 - 2004-05,3110785.6666666665,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,439487.6666666667,2003-04 - 2005-06,3121172.3333333335,14.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,457646.3333333334,2004-05 - 2006-07,3153799.0,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,467384.6666666666,2005-06 - 2007-08,3052032.333333333,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,483431.6666666667,2006-07 - 2008-09,3007646.3333333335,16.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,468187.0,2007-08 - 2009-10,2929376.6666666665,16.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,402962.0,2008-09 - 2010-11,2695062.333333333,15.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,333106.3333333333,2009-10 - 2011-12,2430361.6666666665,14.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,252242.6666666667,2010-11 - 2012-13,2128386.6666666665,12.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,241734.6666666667,2011-12 - 2013-14,1989514.6666666665,12.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,223721.33333333334,2012-13 - 2014-15,1846799.6666666665,12.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,239895.3333333333,2013-14 - 2015-16,1823008.333333333,13.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,227848.3333333333,2014-15 - 2016-17,1869624.3333333333,12.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,225421.33333333334,2015-16 - 2017-18,1875720.3333333335,12.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,239758.3333333333,2016-17 - 2018-19,1874052.3333333333,13.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,558650.6666666667,2017-18 - 2019-20,3001891.0,19.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,828615.6666666667,2018-19 - 2021-22,4137167.3333333335,20.0
+E12999901,In low income (below threshold),"Less than £1,500",In low income (below threshold),population,1102043.0,2019-20 - 2021-22,5273916.5,21.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,176533.0,1994-95 - 1996-97,2774129.333333333,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,165694.0,1995-96 - 1997-98,2951041.333333333,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,155522.33333333334,1996-97 - 1998-99,3087449.333333333,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,162669.33333333334,1997-98 - 1999-00,3206268.333333333,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,170708.0,1998-99 - 2000-01,3312956.666666667,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,191412.3333333333,1999-00 - 2001-02,3389832.666666667,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,177403.66666666666,2000-01 - 2002-03,3244818.3333333335,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,160106.6666666667,2001-02 - 2003-04,3106422.0,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,143432.0,2002-03 - 2004-05,3110785.6666666665,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,156388.66666666666,2003-04 - 2005-06,3121172.3333333335,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,176992.0,2004-05 - 2006-07,3153799.0,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,184520.0,2005-06 - 2007-08,3052032.333333333,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,163830.66666666666,2006-07 - 2008-09,3007646.3333333335,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,160802.33333333334,2007-08 - 2009-10,2929376.6666666665,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,140080.3333333333,2008-09 - 2010-11,2695062.333333333,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,139348.6666666667,2009-10 - 2011-12,2430361.6666666665,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,115235.33333333333,2010-11 - 2012-13,2128386.6666666665,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,115144.66666666667,2011-12 - 2013-14,1989514.6666666665,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,107896.0,2012-13 - 2014-15,1846799.6666666665,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,104614.0,2013-14 - 2015-16,1823008.333333333,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,106068.0,2014-15 - 2016-17,1869624.3333333333,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,93163.0,2015-16 - 2017-18,1875720.3333333335,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,85770.66666666667,2016-17 - 2018-19,1874052.3333333333,5.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,191706.6666666667,2017-18 - 2019-20,3001891.0,6.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,348579.6666666667,2018-19 - 2021-22,4137167.3333333335,8.0
+E12999901,In low income (below threshold),"Less than £1,500",Not in low income (at or above threshold),population,485932.0,2019-20 - 2021-22,5273916.5,9.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1891770.0,1994-95 - 1996-97,5770061.333333334,33.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1939519.0,1995-96 - 1997-98,5748561.0,34.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,2007823.3333333335,1996-97 - 1998-99,5638135.666666667,36.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1939568.3333333335,1997-98 - 1999-00,5443017.666666667,36.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1833137.3333333335,1998-99 - 2000-01,5239312.333333334,35.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1705842.3333333333,1999-00 - 2001-02,5080205.0,34.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1632214.0,2000-01 - 2002-03,5168220.333333334,32.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1580668.0,2001-02 - 2003-04,5216754.333333334,30.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1513948.6666666667,2002-03 - 2004-05,5246052.666666667,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1528674.0,2003-04 - 2005-06,5299006.0,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1576354.0,2004-05 - 2006-07,5354450.666666667,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1664640.6666666665,2005-06 - 2007-08,5369763.0,31.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1654804.0,2006-07 - 2008-09,5416414.666666666,31.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1628921.0,2007-08 - 2009-10,5594050.0,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1580987.0,2008-09 - 2010-11,5891802.666666667,27.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1600165.6666666665,2009-10 - 2011-12,6175958.666666666,26.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1649179.0,2010-11 - 2012-13,6506055.333333333,25.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1629273.6666666667,2011-12 - 2013-14,6683300.666666666,24.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1688135.6666666665,2012-13 - 2014-15,6705320.0,25.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1659412.6666666665,2013-14 - 2015-16,6468777.666666667,26.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1690822.3333333333,2014-15 - 2016-17,6375201.0,27.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1691204.6666666667,2015-16 - 2017-18,6514249.0,26.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1759667.6666666667,2016-17 - 2018-19,6672461.666666667,26.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1541262.6666666665,2017-18 - 2019-20,5383055.333333333,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,1169603.6666666665,2018-19 - 2021-22,4028917.0,29.0
+E12999901,In low income (below threshold),No savings,In low income (below threshold),population,837486.5,2019-20 - 2021-22,2706645.5,31.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,593680.6666666666,1994-95 - 1996-97,5770061.333333334,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,569889.0,1995-96 - 1997-98,5748561.0,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,525533.6666666666,1996-97 - 1998-99,5638135.666666667,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,514092.0,1997-98 - 1999-00,5443017.666666667,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,487008.3333333333,1998-99 - 2000-01,5239312.333333334,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,444005.6666666667,1999-00 - 2001-02,5080205.0,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,434409.3333333333,2000-01 - 2002-03,5168220.333333334,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,442028.6666666667,2001-02 - 2003-04,5216754.333333334,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,425868.6666666666,2002-03 - 2004-05,5246052.666666667,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,416197.6666666667,2003-04 - 2005-06,5299006.0,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,404311.0,2004-05 - 2006-07,5354450.666666667,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,403695.3333333334,2005-06 - 2007-08,5369763.0,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,420112.3333333333,2006-07 - 2008-09,5416414.666666666,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,480069.6666666667,2007-08 - 2009-10,5594050.0,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,567850.3333333334,2008-09 - 2010-11,5891802.666666667,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,605601.6666666666,2009-10 - 2011-12,6175958.666666666,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,625742.3333333333,2010-11 - 2012-13,6506055.333333333,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,652938.6666666667,2011-12 - 2013-14,6683300.666666666,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,645987.6666666667,2012-13 - 2014-15,6705320.0,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,643437.3333333333,2013-14 - 2015-16,6468777.666666667,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,612999.0,2014-15 - 2016-17,6375201.0,10.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,613976.3333333334,2015-16 - 2017-18,6514249.0,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,579852.0,2016-17 - 2018-19,6672461.666666667,9.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,439041.3333333333,2017-18 - 2019-20,5383055.333333333,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,327972.3333333334,2018-19 - 2021-22,4028917.0,8.0
+E12999901,In low income (below threshold),No savings,Not in low income (at or above threshold),population,215940.0,2019-20 - 2021-22,2706645.5,8.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,123852.66666666667,1994-95 - 1996-97,1186990.3333333333,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,114443.33333333333,1995-96 - 1997-98,1155798.6666666667,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,121872.0,1996-97 - 1998-99,1106203.0,11.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,130870.66666666667,1997-98 - 1999-00,1071541.3333333333,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,124220.0,1998-99 - 2000-01,1016225.6666666667,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,119141.0,1999-00 - 2001-02,1007456.6666666667,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,132904.33333333334,2000-01 - 2002-03,1044748.6666666666,13.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,125867.33333333334,2001-02 - 2003-04,1110645.3333333333,11.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,111297.0,2002-03 - 2004-05,1109336.3333333333,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,87134.66666666667,2003-04 - 2005-06,1014948.0000000001,9.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,82538.33333333333,2004-05 - 2006-07,941178.3333333334,9.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,88012.66666666667,2005-06 - 2007-08,914381.3333333335,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,98594.66666666666,2006-07 - 2008-09,945757.6666666667,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,112767.33333333334,2007-08 - 2009-10,948433.6666666667,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,117435.33333333334,2008-09 - 2010-11,964022.0,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,105454.33333333334,2009-10 - 2011-12,948892.3333333334,11.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,92938.0,2010-11 - 2012-13,966756.0,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,80168.33333333334,2011-12 - 2013-14,931286.3333333335,9.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,72904.66666666666,2012-13 - 2014-15,931574.3333333334,8.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,66993.33333333334,2013-14 - 2015-16,925698.0,7.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,79760.0,2014-15 - 2016-17,946737.6666666666,8.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,103308.66666666666,2015-16 - 2017-18,986418.3333333333,10.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,106973.0,2016-17 - 2018-19,1001645.6666666666,11.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,121456.33333333334,2017-18 - 2019-20,1104454.0,11.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,141858.0,2018-19 - 2021-22,1148232.0,12.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",In low income (below threshold),population,172553.5,2019-20 - 2021-22,1217706.0,14.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,60552.0,1994-95 - 1996-97,1186990.3333333333,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,60963.66666666667,1995-96 - 1997-98,1155798.6666666667,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,61423.0,1996-97 - 1998-99,1106203.0,6.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,53083.0,1997-98 - 1999-00,1071541.3333333333,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,46974.0,1998-99 - 2000-01,1016225.6666666667,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,42963.66666666667,1999-00 - 2001-02,1007456.6666666667,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,46135.0,2000-01 - 2002-03,1044748.6666666666,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,37013.0,2001-02 - 2003-04,1110645.3333333333,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,31740.0,2002-03 - 2004-05,1109336.3333333333,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,26531.666666666668,2003-04 - 2005-06,1014948.0000000001,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,34442.666666666664,2004-05 - 2006-07,941178.3333333334,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,39601.0,2005-06 - 2007-08,914381.3333333335,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,42285.333333333336,2006-07 - 2008-09,945757.6666666667,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,40530.66666666667,2007-08 - 2009-10,948433.6666666667,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,33420.33333333333,2008-09 - 2010-11,964022.0,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,29094.666666666664,2009-10 - 2011-12,948892.3333333334,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,18725.333333333332,2010-11 - 2012-13,966756.0,2.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,24285.0,2011-12 - 2013-14,931286.3333333335,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,26212.0,2012-13 - 2014-15,931574.3333333334,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,30556.333333333336,2013-14 - 2015-16,925698.0,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,26929.0,2014-15 - 2016-17,946737.6666666666,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,31442.0,2015-16 - 2017-18,986418.3333333333,3.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,42882.33333333333,2016-17 - 2018-19,1001645.6666666666,4.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,50537.0,2017-18 - 2019-20,1104454.0,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,58307.0,2018-19 - 2021-22,1148232.0,5.0
+E12999901,In low income (below threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,58966.0,2019-20 - 2021-22,1217706.0,5.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,70629.66666666667,1994-95 - 1996-97,648338.3333333333,11.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,54116.0,1995-96 - 1997-98,634685.0000000001,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,56300.0,1996-97 - 1998-99,668289.0,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,53634.666666666664,1997-98 - 1999-00,701832.3333333334,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,58028.666666666664,1998-99 - 2000-01,727470.0,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,52608.0,1999-00 - 2001-02,734592.6666666667,7.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,54240.0,2000-01 - 2002-03,784104.9999999999,7.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,64938.0,2001-02 - 2003-04,769761.6666666666,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,56619.66666666667,2002-03 - 2004-05,780043.3333333333,7.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,67311.33333333334,2003-04 - 2005-06,766948.3333333333,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,67969.66666666666,2004-05 - 2006-07,800442.6666666666,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,83042.0,2005-06 - 2007-08,810137.6666666666,10.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,85571.33333333333,2006-07 - 2008-09,840387.3333333334,10.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,78516.0,2007-08 - 2009-10,838183.3333333334,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,72508.66666666667,2008-09 - 2010-11,837947.3333333333,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,64097.33333333333,2009-10 - 2011-12,808205.3333333333,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,64032.0,2010-11 - 2012-13,776459.0,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,66755.0,2011-12 - 2013-14,761215.3333333334,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,71137.66666666666,2012-13 - 2014-15,777814.3333333333,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,70159.33333333333,2013-14 - 2015-16,815193.9999999999,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,72603.33333333334,2014-15 - 2016-17,877927.3333333335,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,73303.0,2015-16 - 2017-18,875747.3333333334,8.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,77380.66666666667,2016-17 - 2018-19,866472.6666666666,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,75135.0,2017-18 - 2019-20,823867.3333333333,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,73138.33333333333,2018-19 - 2021-22,817851.0,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",In low income (below threshold),population,74243.0,2019-20 - 2021-22,820038.5,9.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,11477.666666666666,1994-95 - 1996-97,648338.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,7952.0,1995-96 - 1997-98,634685.0000000001,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,8923.333333333334,1996-97 - 1998-99,668289.0,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,8105.0,1997-98 - 1999-00,701832.3333333334,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,9807.0,1998-99 - 2000-01,727470.0,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,9786.0,1999-00 - 2001-02,734592.6666666667,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,8921.333333333334,2000-01 - 2002-03,784104.9999999999,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,9348.0,2001-02 - 2003-04,769761.6666666666,1.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,13741.666666666668,2002-03 - 2004-05,780043.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,16814.666666666668,2003-04 - 2005-06,766948.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,21777.333333333336,2004-05 - 2006-07,800442.6666666666,3.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,14840.666666666668,2005-06 - 2007-08,810137.6666666666,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,17930.0,2006-07 - 2008-09,840387.3333333334,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,17043.0,2007-08 - 2009-10,838183.3333333334,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,20102.666666666668,2008-09 - 2010-11,837947.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,17480.333333333332,2009-10 - 2011-12,808205.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,16015.0,2010-11 - 2012-13,776459.0,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,14743.0,2011-12 - 2013-14,761215.3333333334,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,14531.333333333332,2012-13 - 2014-15,777814.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,12292.0,2013-14 - 2015-16,815193.9999999999,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,16721.0,2014-15 - 2016-17,877927.3333333335,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,14365.333333333334,2015-16 - 2017-18,875747.3333333334,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,22302.0,2016-17 - 2018-19,866472.6666666666,3.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,16814.0,2017-18 - 2019-20,823867.3333333333,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,17700.666666666668,2018-19 - 2021-22,817851.0,2.0
+E12999901,In low income (below threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,9747.5,2019-20 - 2021-22,820038.5,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,29547.333333333332,1994-95 - 1996-97,308274.6666666666,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,26376.333333333336,1995-96 - 1997-98,267758.6666666666,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,28495.333333333336,1996-97 - 1998-99,276607.6666666666,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,29397.333333333336,1997-98 - 1999-00,282495.3333333333,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,30102.333333333336,1998-99 - 2000-01,291398.6666666667,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,31094.0,1999-00 - 2001-02,299761.0,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,27695.0,2000-01 - 2002-03,294794.0,9.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,26425.666666666664,2001-02 - 2003-04,302811.6666666667,9.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,23975.666666666664,2002-03 - 2004-05,300782.3333333334,8.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,25501.0,2003-04 - 2005-06,311188.3333333334,8.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,31897.333333333332,2004-05 - 2006-07,326914.0,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,32102.0,2005-06 - 2007-08,344289.6666666666,9.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,35035.333333333336,2006-07 - 2008-09,366223.6666666667,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,25408.333333333336,2007-08 - 2009-10,350526.99999999994,7.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,23340.666666666664,2008-09 - 2010-11,312926.00000000006,7.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,14734.666666666668,2009-10 - 2011-12,288848.0,5.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,17774.0,2010-11 - 2012-13,282259.0,6.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,12143.0,2011-12 - 2013-14,294792.3333333333,4.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,17796.333333333336,2012-13 - 2014-15,311922.6666666667,6.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,25458.666666666668,2013-14 - 2015-16,340387.6666666666,7.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,34752.66666666667,2014-15 - 2016-17,343824.3333333334,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,32398.333333333332,2015-16 - 2017-18,313115.0,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,25976.333333333336,2016-17 - 2018-19,301129.3333333333,9.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,29737.333333333336,2017-18 - 2019-20,284562.3333333333,10.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,36674.66666666667,2018-19 - 2021-22,347727.0,11.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",In low income (below threshold),population,41648.0,2019-20 - 2021-22,353140.0,12.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,5069.0,1994-95 - 1996-97,308274.6666666666,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,5033.0,1995-96 - 1997-98,267758.6666666666,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,3229.0,1996-97 - 1998-99,276607.6666666666,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,4256.666666666667,1997-98 - 1999-00,282495.3333333333,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,3129.0,1998-99 - 2000-01,291398.6666666667,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,4777.666666666667,1999-00 - 2001-02,299761.0,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,4275.333333333333,2000-01 - 2002-03,294794.0,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,2964.6666666666665,2001-02 - 2003-04,302811.6666666667,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,2102.0,2002-03 - 2004-05,300782.3333333334,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,1863.3333333333333,2003-04 - 2005-06,311188.3333333334,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,4728.0,2004-05 - 2006-07,326914.0,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,6513.0,2005-06 - 2007-08,344289.6666666666,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,7685.0,2006-07 - 2008-09,366223.6666666667,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,7067.666666666666,2007-08 - 2009-10,350526.99999999994,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,6467.666666666667,2008-09 - 2010-11,312926.00000000006,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,6777.666666666667,2009-10 - 2011-12,288848.0,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,5817.333333333333,2010-11 - 2012-13,282259.0,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,4354.666666666666,2011-12 - 2013-14,294792.3333333333,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,1795.3333333333333,2012-13 - 2014-15,311922.6666666667,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,9945.333333333334,2013-14 - 2015-16,340387.6666666666,3.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,13567.333333333334,2014-15 - 2016-17,343824.3333333334,4.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,14899.333333333334,2015-16 - 2017-18,313115.0,5.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,6815.666666666666,2016-17 - 2018-19,301129.3333333333,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,5282.666666666667,2017-18 - 2019-20,284562.3333333333,2.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,3950.666666666667,2018-19 - 2021-22,347727.0,1.0
+E12999901,In low income (below threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,3896.0,2019-20 - 2021-22,353140.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,81343.33333333334,1994-95 - 1996-97,1418331.3333333333,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,78649.0,1995-96 - 1997-98,1388634.3333333333,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,77538.0,1996-97 - 1998-99,1342280.0,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,76770.33333333333,1997-98 - 1999-00,1356798.6666666665,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,82252.0,1998-99 - 2000-01,1399627.3333333333,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,86987.33333333334,1999-00 - 2001-02,1438893.6666666665,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,85091.33333333333,2000-01 - 2002-03,1376480.0,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,88143.66666666667,2001-02 - 2003-04,1361470.6666666665,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,86254.0,2002-03 - 2004-05,1357687.0,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,89016.33333333333,2003-04 - 2005-06,1445951.9999999998,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,93837.66666666666,2004-05 - 2006-07,1505759.0,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,109201.0,2005-06 - 2007-08,1606431.9999999998,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,112217.66666666667,2006-07 - 2008-09,1631745.0,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,120063.33333333333,2007-08 - 2009-10,1613942.3333333335,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,125966.66666666667,2008-09 - 2010-11,1715241.3333333333,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,137619.0,2009-10 - 2011-12,1846204.3333333333,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,133667.3333333333,2010-11 - 2012-13,1980848.3333333335,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,126767.66666666666,2011-12 - 2013-14,2014297.9999999998,6.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,145041.33333333334,2012-13 - 2014-15,2098382.3333333335,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,157319.6666666667,2013-14 - 2015-16,2215713.0,7.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,185350.0,2014-15 - 2016-17,2247484.3333333335,8.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,190814.0,2015-16 - 2017-18,2218717.6666666665,9.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,205844.0,2016-17 - 2018-19,2251776.6666666665,9.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,204197.3333333333,2017-18 - 2019-20,2417928.333333333,8.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,216574.3333333333,2018-19 - 2021-22,2557060.6666666665,8.0
+E12999901,In low income (below threshold),"£20,000 or more",In low income (below threshold),population,217035.5,2019-20 - 2021-22,2640645.0,8.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,10425.333333333334,1994-95 - 1996-97,1418331.3333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,14332.333333333332,1995-96 - 1997-98,1388634.3333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,11975.666666666666,1996-97 - 1998-99,1342280.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,11108.333333333332,1997-98 - 1999-00,1356798.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,7822.0,1998-99 - 2000-01,1399627.3333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,10295.0,1999-00 - 2001-02,1438893.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,8880.333333333332,2000-01 - 2002-03,1376480.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,10740.0,2001-02 - 2003-04,1361470.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,8962.333333333332,2002-03 - 2004-05,1357687.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,12176.666666666668,2003-04 - 2005-06,1445951.9999999998,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,15708.0,2004-05 - 2006-07,1505759.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,23117.333333333336,2005-06 - 2007-08,1606431.9999999998,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,23000.333333333336,2006-07 - 2008-09,1631745.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,19043.666666666664,2007-08 - 2009-10,1613942.3333333335,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,11763.0,2008-09 - 2010-11,1715241.3333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,12068.0,2009-10 - 2011-12,1846204.3333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,12589.333333333334,2010-11 - 2012-13,1980848.3333333335,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,10142.666666666668,2011-12 - 2013-14,2014297.9999999998,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,8970.333333333334,2012-13 - 2014-15,2098382.3333333335,0.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,15765.333333333334,2013-14 - 2015-16,2215713.0,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,20394.333333333332,2014-15 - 2016-17,2247484.3333333335,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,18706.666666666668,2015-16 - 2017-18,2218717.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,13862.0,2016-17 - 2018-19,2251776.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,24432.333333333332,2017-18 - 2019-20,2417928.333333333,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,29546.666666666664,2018-19 - 2021-22,2557060.6666666665,1.0
+E12999901,In low income (below threshold),"£20,000 or more",Not in low income (at or above threshold),population,35652.0,2019-20 - 2021-22,2640645.0,1.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,196312.0,1994-95 - 1996-97,1666265.666666667,12.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,175879.3333333333,1995-96 - 1997-98,1635475.6666666665,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,172111.66666666666,1996-97 - 1998-99,1628380.6666666665,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,180905.3333333333,1997-98 - 1999-00,1645518.3333333335,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,180868.66666666666,1998-99 - 2000-01,1698177.0,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,189167.0,1999-00 - 2001-02,1725876.3333333333,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,194966.6666666667,2000-01 - 2002-03,1770863.3333333335,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,193875.3333333333,2001-02 - 2003-04,1835597.3333333333,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,171355.33333333334,2002-03 - 2004-05,1824142.3333333335,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,157560.33333333334,2003-04 - 2005-06,1815588.3333333333,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,158805.6666666667,2004-05 - 2006-07,1770349.0,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,161735.33333333334,2005-06 - 2007-08,1824277.0,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,154895.0,2006-07 - 2008-09,1802723.6666666667,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,143427.6666666667,2007-08 - 2009-10,1788710.3333333333,8.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,153458.0,2008-09 - 2010-11,1730857.9999999998,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,148089.66666666666,2009-10 - 2011-12,1712679.3333333335,9.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,134215.0,2010-11 - 2012-13,1668160.3333333333,8.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,111691.0,2011-12 - 2013-14,1702927.0,7.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,108096.0,2012-13 - 2014-15,1761111.3333333335,6.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,151246.0,2013-14 - 2015-16,1837833.0,8.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,178873.6666666667,2014-15 - 2016-17,1807549.0000000002,10.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,200104.33333333334,2015-16 - 2017-18,1761371.0,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,184493.6666666667,2016-17 - 2018-19,1722672.6666666665,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,179901.0,2017-18 - 2019-20,1762197.0,10.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,200377.3333333333,2018-19 - 2021-22,1810576.6666666665,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",In low income (below threshold),population,210144.5,2019-20 - 2021-22,1841769.5,11.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,47187.66666666667,1994-95 - 1996-97,1666265.666666667,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,43834.33333333333,1995-96 - 1997-98,1635475.6666666665,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,45503.33333333333,1996-97 - 1998-99,1628380.6666666665,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,48574.0,1997-98 - 1999-00,1645518.3333333335,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,54008.66666666667,1998-99 - 2000-01,1698177.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,49840.33333333333,1999-00 - 2001-02,1725876.3333333333,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,46495.0,2000-01 - 2002-03,1770863.3333333335,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,49891.0,2001-02 - 2003-04,1835597.3333333333,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,41400.666666666664,2002-03 - 2004-05,1824142.3333333335,2.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,49105.66666666667,2003-04 - 2005-06,1815588.3333333333,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,48672.0,2004-05 - 2006-07,1770349.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,55993.33333333333,2005-06 - 2007-08,1824277.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,53375.33333333333,2006-07 - 2008-09,1802723.6666666667,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,44021.333333333336,2007-08 - 2009-10,1788710.3333333333,2.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,44385.33333333333,2008-09 - 2010-11,1730857.9999999998,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,43395.666666666664,2009-10 - 2011-12,1712679.3333333335,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,47294.666666666664,2010-11 - 2012-13,1668160.3333333333,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,47133.0,2011-12 - 2013-14,1702927.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,49972.666666666664,2012-13 - 2014-15,1761111.3333333335,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,59974.66666666667,2013-14 - 2015-16,1837833.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,64605.66666666667,2014-15 - 2016-17,1807549.0000000002,4.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,63166.66666666667,2015-16 - 2017-18,1761371.0,4.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,57681.666666666664,2016-17 - 2018-19,1722672.6666666665,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,47688.33333333333,2017-18 - 2019-20,1762197.0,3.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,45112.33333333333,2018-19 - 2021-22,1810576.6666666665,2.0
+E12999901,In low income (below threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,37788.5,2019-20 - 2021-22,1841769.5,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,36090.666666666664,1994-95 - 1996-97,372630.0,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,41158.66666666667,1995-96 - 1997-98,338582.3333333333,12.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,38251.33333333333,1996-97 - 1998-99,351726.3333333333,11.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,40004.333333333336,1997-98 - 1999-00,368055.3333333334,11.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,37228.33333333333,1998-99 - 2000-01,374014.3333333333,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,37442.333333333336,1999-00 - 2001-02,372681.3333333334,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,36907.333333333336,2000-01 - 2002-03,371285.3333333333,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,38476.666666666664,2001-02 - 2003-04,378110.99999999994,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,40868.66666666667,2002-03 - 2004-05,396291.6666666666,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,33561.66666666667,2003-04 - 2005-06,415120.99999999994,8.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,28011.333333333336,2004-05 - 2006-07,404287.00000000006,7.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,24864.0,2005-06 - 2007-08,405300.3333333333,6.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,33763.666666666664,2006-07 - 2008-09,380504.0,9.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,36189.0,2007-08 - 2009-10,394481.3333333334,9.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,37434.33333333333,2008-09 - 2010-11,378296.0,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,34080.0,2009-10 - 2011-12,413285.00000000006,8.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,33780.0,2010-11 - 2012-13,412385.99999999994,8.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,31800.333333333336,2011-12 - 2013-14,405596.6666666667,8.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,32972.0,2012-13 - 2014-15,380780.3333333334,9.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,37056.333333333336,2013-14 - 2015-16,419609.6666666667,9.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,38111.666666666664,2014-15 - 2016-17,440670.6666666666,9.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,45002.0,2015-16 - 2017-18,442373.6666666667,10.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,46093.666666666664,2016-17 - 2018-19,397924.6666666666,12.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,51731.0,2017-18 - 2019-20,399598.00000000006,13.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,52172.333333333336,2018-19 - 2021-22,395657.6666666666,13.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",In low income (below threshold),population,54361.0,2019-20 - 2021-22,404453.0,13.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,7301.333333333333,1994-95 - 1996-97,372630.0,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,7412.666666666666,1995-96 - 1997-98,338582.3333333333,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,6162.666666666667,1996-97 - 1998-99,351726.3333333333,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,6137.333333333333,1997-98 - 1999-00,368055.3333333334,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,3380.0,1998-99 - 2000-01,374014.3333333333,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,3558.666666666667,1999-00 - 2001-02,372681.3333333334,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,2916.3333333333335,2000-01 - 2002-03,371285.3333333333,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,2465.6666666666665,2001-02 - 2003-04,378110.99999999994,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,3648.333333333333,2002-03 - 2004-05,396291.6666666666,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,7444.333333333334,2003-04 - 2005-06,415120.99999999994,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,6897.0,2004-05 - 2006-07,404287.00000000006,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,9328.333333333332,2005-06 - 2007-08,405300.3333333333,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,5530.0,2006-07 - 2008-09,380504.0,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,8467.0,2007-08 - 2009-10,394481.3333333334,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,8156.333333333334,2008-09 - 2010-11,378296.0,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,7854.333333333333,2009-10 - 2011-12,413285.00000000006,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,6207.333333333333,2010-11 - 2012-13,412385.99999999994,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,2931.333333333333,2011-12 - 2013-14,405596.6666666667,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,3286.6666666666665,2012-13 - 2014-15,380780.3333333334,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,8631.0,2013-14 - 2015-16,419609.6666666667,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,13587.333333333332,2014-15 - 2016-17,440670.6666666666,3.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,13900.333333333332,2015-16 - 2017-18,442373.6666666667,3.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,10367.666666666666,2016-17 - 2018-19,397924.6666666666,3.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,4454.0,2017-18 - 2019-20,399598.00000000006,1.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,8994.0,2018-19 - 2021-22,395657.6666666666,2.0
+E12999901,In low income (below threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,8838.5,2019-20 - 2021-22,404453.0,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,48050.0,1994-95 - 1996-97,2774129.333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,46253.66666666667,1995-96 - 1997-98,2951041.333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,42409.0,1996-97 - 1998-99,3087449.333333333,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,42609.33333333333,1997-98 - 1999-00,3206268.333333333,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,49794.333333333336,1998-99 - 2000-01,3312956.666666667,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,56767.0,1999-00 - 2001-02,3389832.666666667,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,53350.66666666667,2000-01 - 2002-03,3244818.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,57284.0,2001-02 - 2003-04,3106422.0,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,57457.0,2002-03 - 2004-05,3110785.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,68342.66666666667,2003-04 - 2005-06,3121172.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,59101.66666666667,2004-05 - 2006-07,3153799.0,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,56641.66666666667,2005-06 - 2007-08,3052032.333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,44862.66666666667,2006-07 - 2008-09,3007646.3333333335,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,44537.0,2007-08 - 2009-10,2929376.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,36196.333333333336,2008-09 - 2010-11,2695062.333333333,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,30530.0,2009-10 - 2011-12,2430361.6666666665,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,31382.0,2010-11 - 2012-13,2128386.6666666665,1.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,34453.66666666667,2011-12 - 2013-14,1989514.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,37280.666666666664,2012-13 - 2014-15,1846799.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,41228.33333333333,2013-14 - 2015-16,1823008.333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,42330.0,2014-15 - 2016-17,1869624.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,49640.0,2015-16 - 2017-18,1875720.3333333335,3.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,37015.333333333336,2016-17 - 2018-19,1874052.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,57234.666666666664,2017-18 - 2019-20,3001891.0,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,63386.0,2018-19 - 2021-22,4137167.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",In low income (below threshold),population,86886.5,2019-20 - 2021-22,5273916.5,2.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2124469.333333333,1994-95 - 1996-97,2774129.333333333,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2290728.0,1995-96 - 1997-98,2951041.333333333,78.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2362997.6666666665,1996-97 - 1998-99,3087449.333333333,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2425335.0,1997-98 - 1999-00,3206268.333333333,76.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2491422.3333333335,1998-99 - 2000-01,3312956.666666667,75.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2577114.0,1999-00 - 2001-02,3389832.666666667,76.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2511031.3333333335,2000-01 - 2002-03,3244818.3333333335,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2431675.0,2001-02 - 2003-04,3106422.0,78.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2457133.0,2002-03 - 2004-05,3110785.6666666665,79.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2456953.3333333335,2003-04 - 2005-06,3121172.3333333335,79.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2460059.0,2004-05 - 2006-07,3153799.0,78.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2343486.0,2005-06 - 2007-08,3052032.333333333,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2315521.3333333335,2006-07 - 2008-09,3007646.3333333335,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2255850.333333333,2007-08 - 2009-10,2929376.6666666665,77.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2115823.6666666665,2008-09 - 2010-11,2695062.333333333,79.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1927376.6666666665,2009-10 - 2011-12,2430361.6666666665,79.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1729526.6666666665,2010-11 - 2012-13,2128386.6666666665,81.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1598181.6666666665,2011-12 - 2013-14,1989514.6666666665,80.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1477901.6666666665,2012-13 - 2014-15,1846799.6666666665,80.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1437270.6666666665,2013-14 - 2015-16,1823008.333333333,79.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1493378.0,2014-15 - 2016-17,1869624.3333333333,80.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1507496.0,2015-16 - 2017-18,1875720.3333333335,80.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,1511508.0,2016-17 - 2018-19,1874052.3333333333,81.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2194299.0,2017-18 - 2019-20,3001891.0,73.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,2896586.0,2018-19 - 2021-22,4137167.3333333335,70.0
+E12999901,Not in low income (at or above threshold),"Less than £1,500",Not in low income (at or above threshold),population,3599055.0,2019-20 - 2021-22,5273916.5,68.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,80437.0,1994-95 - 1996-97,5770061.333333334,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,79759.0,1995-96 - 1997-98,5748561.0,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,87697.66666666666,1996-97 - 1998-99,5638135.666666667,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,86581.0,1997-98 - 1999-00,5443017.666666667,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,84140.66666666667,1998-99 - 2000-01,5239312.333333334,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,81994.66666666667,1999-00 - 2001-02,5080205.0,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,75118.33333333333,2000-01 - 2002-03,5168220.333333334,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,78826.0,2001-02 - 2003-04,5216754.333333334,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,70729.33333333334,2002-03 - 2004-05,5246052.666666667,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,85214.0,2003-04 - 2005-06,5299006.0,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,84780.33333333333,2004-05 - 2006-07,5354450.666666667,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,86262.33333333333,2005-06 - 2007-08,5369763.0,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,86538.33333333333,2006-07 - 2008-09,5416414.666666666,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,80617.66666666666,2007-08 - 2009-10,5594050.0,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,83066.66666666666,2008-09 - 2010-11,5891802.666666667,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,90795.66666666666,2009-10 - 2011-12,6175958.666666666,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,122364.33333333334,2010-11 - 2012-13,6506055.333333333,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,123953.0,2011-12 - 2013-14,6683300.666666666,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,116987.66666666667,2012-13 - 2014-15,6705320.0,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,85466.0,2013-14 - 2015-16,6468777.666666667,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,91827.0,2014-15 - 2016-17,6375201.0,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,92523.66666666667,2015-16 - 2017-18,6514249.0,1.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,108343.33333333334,2016-17 - 2018-19,6672461.666666667,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,84388.33333333333,2017-18 - 2019-20,5383055.333333333,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,66624.0,2018-19 - 2021-22,4028917.0,2.0
+E12999901,Not in low income (at or above threshold),No savings,In low income (below threshold),population,41289.5,2019-20 - 2021-22,2706645.5,2.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3204173.666666667,1994-95 - 1996-97,5770061.333333334,56.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3159394.0,1995-96 - 1997-98,5748561.0,55.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3017081.0,1996-97 - 1998-99,5638135.666666667,54.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,2902776.3333333335,1997-98 - 1999-00,5443017.666666667,53.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,2835026.0,1998-99 - 2000-01,5239312.333333334,54.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,2848362.333333333,1999-00 - 2001-02,5080205.0,56.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3026478.666666667,2000-01 - 2002-03,5168220.333333334,59.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3115231.666666667,2001-02 - 2003-04,5216754.333333334,60.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3235506.0,2002-03 - 2004-05,5246052.666666667,62.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3268920.333333333,2003-04 - 2005-06,5299006.0,62.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3289005.3333333335,2004-05 - 2006-07,5354450.666666667,61.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3215164.666666667,2005-06 - 2007-08,5369763.0,60.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3254960.0,2006-07 - 2008-09,5416414.666666666,60.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3404441.6666666665,2007-08 - 2009-10,5594050.0,61.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3659898.666666667,2008-09 - 2010-11,5891802.666666667,62.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3879395.6666666665,2009-10 - 2011-12,6175958.666666666,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4108769.6666666665,2010-11 - 2012-13,6506055.333333333,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4277135.333333333,2011-12 - 2013-14,6683300.666666666,64.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4254209.0,2012-13 - 2014-15,6705320.0,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4080461.666666667,2013-14 - 2015-16,6468777.666666667,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3979552.666666667,2014-15 - 2016-17,6375201.0,62.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4116544.3333333335,2015-16 - 2017-18,6514249.0,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,4224598.666666667,2016-17 - 2018-19,6672461.666666667,63.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,3318363.0,2017-18 - 2019-20,5383055.333333333,62.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,2464717.0,2018-19 - 2021-22,4028917.0,61.0
+E12999901,Not in low income (at or above threshold),No savings,Not in low income (at or above threshold),population,1611929.5,2019-20 - 2021-22,2706645.5,60.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,31615.666666666664,1994-95 - 1996-97,1186990.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,27799.333333333332,1995-96 - 1997-98,1155798.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,23377.333333333332,1996-97 - 1998-99,1106203.0,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,25871.333333333332,1997-98 - 1999-00,1071541.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,24232.0,1998-99 - 2000-01,1016225.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,21877.666666666668,1999-00 - 2001-02,1007456.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,20983.666666666664,2000-01 - 2002-03,1044748.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,22669.666666666668,2001-02 - 2003-04,1110645.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,20726.333333333336,2002-03 - 2004-05,1109336.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,23422.0,2003-04 - 2005-06,1014948.0000000001,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,22676.0,2004-05 - 2006-07,941178.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,24766.0,2005-06 - 2007-08,914381.3333333335,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,20450.333333333332,2006-07 - 2008-09,945757.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,22072.666666666664,2007-08 - 2009-10,948433.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,22815.333333333332,2008-09 - 2010-11,964022.0,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,28386.0,2009-10 - 2011-12,948892.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,28087.666666666664,2010-11 - 2012-13,966756.0,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,27270.333333333336,2011-12 - 2013-14,931286.3333333335,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,25667.0,2012-13 - 2014-15,931574.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,23479.333333333336,2013-14 - 2015-16,925698.0,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,24517.333333333336,2014-15 - 2016-17,946737.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,23662.333333333336,2015-16 - 2017-18,986418.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,24190.666666666664,2016-17 - 2018-19,1001645.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,20065.333333333336,2017-18 - 2019-20,1104454.0,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,22803.0,2018-19 - 2021-22,1148232.0,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",In low income (below threshold),population,23317.5,2019-20 - 2021-22,1217706.0,2.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,970970.0,1994-95 - 1996-97,1186990.3333333333,82.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,952592.3333333334,1995-96 - 1997-98,1155798.6666666667,82.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,899530.6666666667,1996-97 - 1998-99,1106203.0,81.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,861716.3333333333,1997-98 - 1999-00,1071541.3333333333,80.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,820799.6666666667,1998-99 - 2000-01,1016225.6666666667,81.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,823474.3333333334,1999-00 - 2001-02,1007456.6666666667,82.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,844725.6666666666,2000-01 - 2002-03,1044748.6666666666,81.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,925095.3333333333,2001-02 - 2003-04,1110645.3333333333,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,945573.0,2002-03 - 2004-05,1109336.3333333333,85.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,877859.6666666667,2003-04 - 2005-06,1014948.0000000001,86.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,801521.3333333334,2004-05 - 2006-07,941178.3333333334,85.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,762001.6666666667,2005-06 - 2007-08,914381.3333333335,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,784427.3333333334,2006-07 - 2008-09,945757.6666666667,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,773063.0,2007-08 - 2009-10,948433.6666666667,82.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,790351.0,2008-09 - 2010-11,964022.0,82.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,785957.3333333334,2009-10 - 2011-12,948892.3333333334,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,827005.0,2010-11 - 2012-13,966756.0,86.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,799562.6666666667,2011-12 - 2013-14,931286.3333333335,86.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,806790.6666666667,2012-13 - 2014-15,931574.3333333334,87.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,804669.0,2013-14 - 2015-16,925698.0,87.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,815531.3333333333,2014-15 - 2016-17,946737.6666666666,86.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,828005.3333333333,2015-16 - 2017-18,986418.3333333333,84.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,827599.6666666666,2016-17 - 2018-19,1001645.6666666666,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,912395.3333333333,2017-18 - 2019-20,1104454.0,83.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,925264.0,2018-19 - 2021-22,1148232.0,81.0
+E12999901,Not in low income (at or above threshold),"£1,500 but less than £3,000",Not in low income (at or above threshold),population,962869.0,2019-20 - 2021-22,1217706.0,79.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,13585.666666666668,1994-95 - 1996-97,648338.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,14581.333333333332,1995-96 - 1997-98,634685.0000000001,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,17895.0,1996-97 - 1998-99,668289.0,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,16614.333333333336,1997-98 - 1999-00,701832.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,17125.666666666668,1998-99 - 2000-01,727470.0,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,15818.0,1999-00 - 2001-02,734592.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,18327.333333333332,2000-01 - 2002-03,784104.9999999999,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,19410.0,2001-02 - 2003-04,769761.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,22103.666666666664,2002-03 - 2004-05,780043.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,21977.666666666664,2003-04 - 2005-06,766948.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,23698.0,2004-05 - 2006-07,800442.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,25307.0,2005-06 - 2007-08,810137.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,27532.0,2006-07 - 2008-09,840387.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,25377.666666666668,2007-08 - 2009-10,838183.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,21945.666666666668,2008-09 - 2010-11,837947.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,17785.0,2009-10 - 2011-12,808205.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,15057.666666666666,2010-11 - 2012-13,776459.0,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,11763.0,2011-12 - 2013-14,761215.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,10695.666666666666,2012-13 - 2014-15,777814.3333333333,1.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,15841.333333333332,2013-14 - 2015-16,815193.9999999999,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,17849.333333333336,2014-15 - 2016-17,877927.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,20616.666666666664,2015-16 - 2017-18,875747.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,17750.333333333332,2016-17 - 2018-19,866472.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,22597.666666666664,2017-18 - 2019-20,823867.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,20632.333333333332,2018-19 - 2021-22,817851.0,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",In low income (below threshold),population,22585.5,2019-20 - 2021-22,820038.5,3.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,552645.3333333333,1994-95 - 1996-97,648338.3333333333,85.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,558035.6666666667,1995-96 - 1997-98,634685.0000000001,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,585170.6666666666,1996-97 - 1998-99,668289.0,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,623478.3333333334,1997-98 - 1999-00,701832.3333333334,89.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,642508.6666666666,1998-99 - 2000-01,727470.0,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,656380.6666666667,1999-00 - 2001-02,734592.6666666667,89.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,702616.3333333333,2000-01 - 2002-03,784104.9999999999,90.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,676065.6666666666,2001-02 - 2003-04,769761.6666666666,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,687578.3333333333,2002-03 - 2004-05,780043.3333333333,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,660844.6666666666,2003-04 - 2005-06,766948.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,686997.6666666666,2004-05 - 2006-07,800442.6666666666,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,686948.0,2005-06 - 2007-08,810137.6666666666,85.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,709354.0,2006-07 - 2008-09,840387.3333333334,84.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,717246.6666666667,2007-08 - 2009-10,838183.3333333334,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,723390.3333333333,2008-09 - 2010-11,837947.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,708842.6666666666,2009-10 - 2011-12,808205.3333333333,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,681354.3333333334,2010-11 - 2012-13,776459.0,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,667954.3333333334,2011-12 - 2013-14,761215.3333333334,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,681449.6666666666,2012-13 - 2014-15,777814.3333333333,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,716901.3333333333,2013-14 - 2015-16,815193.9999999999,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,770753.6666666667,2014-15 - 2016-17,877927.3333333335,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,767462.3333333334,2015-16 - 2017-18,875747.3333333334,88.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,749039.6666666666,2016-17 - 2018-19,866472.6666666666,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,709320.6666666666,2017-18 - 2019-20,823867.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,706379.6666666666,2018-19 - 2021-22,817851.0,86.0
+E12999901,Not in low income (at or above threshold),"£10,000 but less than £16,000",Not in low income (at or above threshold),population,713462.5,2019-20 - 2021-22,820038.5,87.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,5290.666666666666,1994-95 - 1996-97,308274.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,4928.0,1995-96 - 1997-98,267758.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6113.666666666666,1996-97 - 1998-99,276607.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6513.333333333334,1997-98 - 1999-00,282495.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,7621.666666666667,1998-99 - 2000-01,291398.6666666667,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,7548.0,1999-00 - 2001-02,299761.0,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6808.333333333334,2000-01 - 2002-03,294794.0,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,7309.333333333333,2001-02 - 2003-04,302811.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,9631.333333333334,2002-03 - 2004-05,300782.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,11829.666666666666,2003-04 - 2005-06,311188.3333333334,4.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,15754.666666666668,2004-05 - 2006-07,326914.0,5.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,13217.333333333332,2005-06 - 2007-08,344289.6666666666,4.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,10666.0,2006-07 - 2008-09,366223.6666666667,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6556.333333333334,2007-08 - 2009-10,350526.99999999994,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6010.333333333334,2008-09 - 2010-11,312926.00000000006,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,9093.666666666666,2009-10 - 2011-12,288848.0,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,8888.0,2010-11 - 2012-13,282259.0,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,8559.666666666666,2011-12 - 2013-14,294792.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,6323.666666666666,2012-13 - 2014-15,311922.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,5467.0,2013-14 - 2015-16,340387.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,5364.0,2014-15 - 2016-17,343824.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,4168.0,2015-16 - 2017-18,313115.0,1.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,5320.0,2016-17 - 2018-19,301129.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,7179.333333333333,2017-18 - 2019-20,284562.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,9744.333333333332,2018-19 - 2021-22,347727.0,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",In low income (below threshold),population,10445.0,2019-20 - 2021-22,353140.0,3.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,268367.6666666666,1994-95 - 1996-97,308274.6666666666,87.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,231421.3333333333,1995-96 - 1997-98,267758.6666666666,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,238769.66666666666,1996-97 - 1998-99,276607.6666666666,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,242328.0,1997-98 - 1999-00,282495.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,250545.6666666667,1998-99 - 2000-01,291398.6666666667,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,256341.3333333333,1999-00 - 2001-02,299761.0,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,256015.33333333334,2000-01 - 2002-03,294794.0,87.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,266112.0,2001-02 - 2003-04,302811.6666666667,88.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,265073.3333333334,2002-03 - 2004-05,300782.3333333334,88.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,271994.3333333334,2003-04 - 2005-06,311188.3333333334,87.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,274534.0,2004-05 - 2006-07,326914.0,84.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,292457.3333333333,2005-06 - 2007-08,344289.6666666666,85.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,312837.3333333334,2006-07 - 2008-09,366223.6666666667,85.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,311494.6666666666,2007-08 - 2009-10,350526.99999999994,89.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,277107.3333333334,2008-09 - 2010-11,312926.00000000006,89.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,258242.0,2009-10 - 2011-12,288848.0,89.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,249779.66666666666,2010-11 - 2012-13,282259.0,88.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,269735.0,2011-12 - 2013-14,294792.3333333333,92.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,286007.3333333334,2012-13 - 2014-15,311922.6666666667,92.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,299516.6666666666,2013-14 - 2015-16,340387.6666666666,88.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,290140.3333333334,2014-15 - 2016-17,343824.3333333334,84.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,261649.33333333334,2015-16 - 2017-18,313115.0,84.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,263017.3333333333,2016-17 - 2018-19,301129.3333333333,87.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,242363.0,2017-18 - 2019-20,284562.3333333333,85.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,297357.3333333333,2018-19 - 2021-22,347727.0,86.0
+E12999901,Not in low income (at or above threshold),"£16,000 but less than £20,000",Not in low income (at or above threshold),population,297151.0,2019-20 - 2021-22,353140.0,84.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,24369.333333333332,1994-95 - 1996-97,1418331.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,21769.666666666668,1995-96 - 1997-98,1388634.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,19659.333333333332,1996-97 - 1998-99,1342280.0,1.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,21190.333333333336,1997-98 - 1999-00,1356798.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,23542.0,1998-99 - 2000-01,1399627.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,20917.666666666664,1999-00 - 2001-02,1438893.6666666665,1.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,24453.333333333332,2000-01 - 2002-03,1376480.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,25374.666666666664,2001-02 - 2003-04,1361470.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,27606.0,2002-03 - 2004-05,1357687.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,23636.333333333332,2003-04 - 2005-06,1445951.9999999998,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,24682.0,2004-05 - 2006-07,1505759.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,26021.0,2005-06 - 2007-08,1606431.9999999998,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,34885.666666666664,2006-07 - 2008-09,1631745.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,28578.666666666664,2007-08 - 2009-10,1613942.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,26990.666666666664,2008-09 - 2010-11,1715241.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,24872.0,2009-10 - 2011-12,1846204.3333333333,1.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,31256.0,2010-11 - 2012-13,1980848.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,41403.0,2011-12 - 2013-14,2014297.9999999998,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,40950.666666666664,2012-13 - 2014-15,2098382.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,43192.666666666664,2013-14 - 2015-16,2215713.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,37951.333333333336,2014-15 - 2016-17,2247484.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,44203.0,2015-16 - 2017-18,2218717.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,51976.0,2016-17 - 2018-19,2251776.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,57440.33333333333,2017-18 - 2019-20,2417928.333333333,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,57035.333333333336,2018-19 - 2021-22,2557060.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",In low income (below threshold),population,54668.0,2019-20 - 2021-22,2640645.0,2.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1302193.3333333333,1994-95 - 1996-97,1418331.3333333333,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1273883.3333333333,1995-96 - 1997-98,1388634.3333333333,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1233107.0,1996-97 - 1998-99,1342280.0,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1247729.6666666665,1997-98 - 1999-00,1356798.6666666665,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1286011.3333333333,1998-99 - 2000-01,1399627.3333333333,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1320693.6666666665,1999-00 - 2001-02,1438893.6666666665,92.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1258055.0,2000-01 - 2002-03,1376480.0,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1237212.3333333333,2001-02 - 2003-04,1361470.6666666665,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1234864.6666666667,2002-03 - 2004-05,1357687.0,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1321122.6666666665,2003-04 - 2005-06,1445951.9999999998,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1371531.3333333333,2004-05 - 2006-07,1505759.0,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1448092.6666666665,2005-06 - 2007-08,1606431.9999999998,90.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1461641.3333333333,2006-07 - 2008-09,1631745.0,90.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1446256.6666666667,2007-08 - 2009-10,1613942.3333333335,90.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1550521.0,2008-09 - 2010-11,1715241.3333333333,90.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1671645.3333333333,2009-10 - 2011-12,1846204.3333333333,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1803335.6666666667,2010-11 - 2012-13,1980848.3333333335,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1835984.6666666665,2011-12 - 2013-14,2014297.9999999998,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1903420.0,2012-13 - 2014-15,2098382.3333333335,91.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1999435.3333333333,2013-14 - 2015-16,2215713.0,90.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,2003788.6666666667,2014-15 - 2016-17,2247484.3333333335,89.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1964994.0,2015-16 - 2017-18,2218717.6666666665,89.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,1980094.6666666665,2016-17 - 2018-19,2251776.6666666665,88.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,2131858.333333333,2017-18 - 2019-20,2417928.333333333,88.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,2253904.333333333,2018-19 - 2021-22,2557060.6666666665,88.0
+E12999901,Not in low income (at or above threshold),"£20,000 or more",Not in low income (at or above threshold),population,2333289.5,2019-20 - 2021-22,2640645.0,88.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,36865.66666666667,1994-95 - 1996-97,1666265.666666667,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,34188.0,1995-96 - 1997-98,1635475.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,37080.0,1996-97 - 1998-99,1628380.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,39405.33333333333,1997-98 - 1999-00,1645518.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,35553.666666666664,1998-99 - 2000-01,1698177.0,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,43315.333333333336,1999-00 - 2001-02,1725876.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,43097.0,2000-01 - 2002-03,1770863.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,45667.0,2001-02 - 2003-04,1835597.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,48211.66666666667,2002-03 - 2004-05,1824142.3333333335,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,55700.0,2003-04 - 2005-06,1815588.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,66805.33333333334,2004-05 - 2006-07,1770349.0,4.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,63264.66666666667,2005-06 - 2007-08,1824277.0,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,56498.0,2006-07 - 2008-09,1802723.6666666667,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,47423.33333333333,2007-08 - 2009-10,1788710.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,46274.0,2008-09 - 2010-11,1730857.9999999998,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,49373.333333333336,2009-10 - 2011-12,1712679.3333333335,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,47345.666666666664,2010-11 - 2012-13,1668160.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,45082.33333333333,2011-12 - 2013-14,1702927.0,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,41370.333333333336,2012-13 - 2014-15,1761111.3333333335,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,42287.666666666664,2013-14 - 2015-16,1837833.0,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,41425.333333333336,2014-15 - 2016-17,1807549.0000000002,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,46618.66666666667,2015-16 - 2017-18,1761371.0,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,46852.666666666664,2016-17 - 2018-19,1722672.6666666665,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,48166.666666666664,2017-18 - 2019-20,1762197.0,3.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,35580.0,2018-19 - 2021-22,1810576.6666666665,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",In low income (below threshold),population,31067.0,2019-20 - 2021-22,1841769.5,2.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1385900.3333333335,1994-95 - 1996-97,1666265.666666667,83.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1381574.0,1995-96 - 1997-98,1635475.6666666665,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1373685.6666666665,1996-97 - 1998-99,1628380.6666666665,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1376633.6666666667,1997-98 - 1999-00,1645518.3333333335,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1427746.0,1998-99 - 2000-01,1698177.0,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1443553.6666666665,1999-00 - 2001-02,1725876.3333333333,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1486304.6666666667,2000-01 - 2002-03,1770863.3333333335,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1546164.0,2001-02 - 2003-04,1835597.3333333333,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1563174.6666666667,2002-03 - 2004-05,1824142.3333333335,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1553222.3333333333,2003-04 - 2005-06,1815588.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1496066.0,2004-05 - 2006-07,1770349.0,85.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1543283.6666666665,2005-06 - 2007-08,1824277.0,85.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1537955.3333333335,2006-07 - 2008-09,1802723.6666666667,85.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1553838.0,2007-08 - 2009-10,1788710.3333333333,87.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1486740.6666666665,2008-09 - 2010-11,1730857.9999999998,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1471820.6666666667,2009-10 - 2011-12,1712679.3333333335,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1439305.0,2010-11 - 2012-13,1668160.3333333333,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1499020.6666666667,2011-12 - 2013-14,1702927.0,88.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1561672.3333333335,2012-13 - 2014-15,1761111.3333333335,89.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1584324.6666666667,2013-14 - 2015-16,1837833.0,86.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1522644.3333333335,2014-15 - 2016-17,1807549.0000000002,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1451481.3333333333,2015-16 - 2017-18,1761371.0,82.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1433644.6666666665,2016-17 - 2018-19,1722672.6666666665,83.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1486441.0,2017-18 - 2019-20,1762197.0,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1529507.0,2018-19 - 2021-22,1810576.6666666665,84.0
+E12999901,Not in low income (at or above threshold),"£3,000 but less than £8,000",Not in low income (at or above threshold),population,1562769.5,2019-20 - 2021-22,1841769.5,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,7117.333333333334,1994-95 - 1996-97,372630.0,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,6891.0,1995-96 - 1997-98,338582.3333333333,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,8982.0,1996-97 - 1998-99,351726.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,10946.0,1997-98 - 1999-00,368055.3333333334,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,9533.666666666668,1998-99 - 2000-01,374014.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,9133.666666666666,1999-00 - 2001-02,372681.3333333334,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,10081.666666666668,2000-01 - 2002-03,371285.3333333333,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,12326.0,2001-02 - 2003-04,378110.99999999994,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,14298.0,2002-03 - 2004-05,396291.6666666666,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,14916.333333333332,2003-04 - 2005-06,415120.99999999994,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,15311.333333333332,2004-05 - 2006-07,404287.00000000006,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,15040.0,2005-06 - 2007-08,405300.3333333333,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,16070.0,2006-07 - 2008-09,380504.0,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,15052.666666666666,2007-08 - 2009-10,394481.3333333334,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,15010.333333333334,2008-09 - 2010-11,378296.0,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,11571.333333333332,2009-10 - 2011-12,413285.00000000006,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,11642.0,2010-11 - 2012-13,412385.99999999994,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,9120.0,2011-12 - 2013-14,405596.6666666667,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,13354.333333333334,2012-13 - 2014-15,380780.3333333334,4.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,12949.666666666666,2013-14 - 2015-16,419609.6666666667,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,15289.666666666666,2014-15 - 2016-17,440670.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,12620.333333333334,2015-16 - 2017-18,442373.6666666667,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,10791.0,2016-17 - 2018-19,397924.6666666666,3.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,9114.666666666668,2017-18 - 2019-20,399598.00000000006,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,7055.666666666667,2018-19 - 2021-22,395657.6666666666,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",In low income (below threshold),population,6740.5,2019-20 - 2021-22,404453.0,2.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,322120.6666666667,1994-95 - 1996-97,372630.0,86.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,283120.0,1995-96 - 1997-98,338582.3333333333,84.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,298330.3333333333,1996-97 - 1998-99,351726.3333333333,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,310967.6666666667,1997-98 - 1999-00,368055.3333333334,84.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,323872.3333333333,1998-99 - 2000-01,374014.3333333333,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,322546.6666666667,1999-00 - 2001-02,372681.3333333334,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,321380.0,2000-01 - 2002-03,371285.3333333333,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,324842.6666666666,2001-02 - 2003-04,378110.99999999994,86.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,337476.6666666666,2002-03 - 2004-05,396291.6666666666,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,359198.6666666666,2003-04 - 2005-06,415120.99999999994,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,354067.3333333334,2004-05 - 2006-07,404287.00000000006,88.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,356068.0,2005-06 - 2007-08,405300.3333333333,88.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,325140.3333333333,2006-07 - 2008-09,380504.0,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,334772.6666666667,2007-08 - 2009-10,394481.3333333334,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,317695.0,2008-09 - 2010-11,378296.0,84.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,359779.3333333334,2009-10 - 2011-12,413285.00000000006,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,360756.6666666666,2010-11 - 2012-13,412385.99999999994,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,361745.0,2011-12 - 2013-14,405596.6666666667,89.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,331167.3333333334,2012-13 - 2014-15,380780.3333333334,87.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,360972.6666666667,2013-14 - 2015-16,419609.6666666667,86.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,373682.0,2014-15 - 2016-17,440670.6666666666,85.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,370851.0,2015-16 - 2017-18,442373.6666666667,84.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,330672.3333333333,2016-17 - 2018-19,397924.6666666666,83.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,334298.3333333334,2017-18 - 2019-20,399598.00000000006,84.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,327435.6666666666,2018-19 - 2021-22,395657.6666666666,83.0
+E12999901,Not in low income (at or above threshold),"£8,000 but less than £10,000",Not in low income (at or above threshold),population,334513.0,2019-20 - 2021-22,404453.0,83.0

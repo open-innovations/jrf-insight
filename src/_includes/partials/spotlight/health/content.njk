@@ -1,31 +1,31 @@
 {% set geo = geography %}
-<ul>
-    <li>Adult obesity</li>
-    <li>Long-term conditions</li>
-    <li>Disability</li>
-</ul>
+
+<h2>Poverty index </h2>
+  <p>Model to be added here</p>
+
+<h3>Key indicators</h3>
+
+<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
 {% comp 'layout.tab.set' %}
 
-{% set chart_data = data.spotlight.health.time_series.freeSchoolMeals(geo) %}
-{% if chart_data.rows | length > 0 %}
-{% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
-  <h3>Students eligible for free school meals in state-funded schools</h3>
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p> This chart shows the percentage of pupils eligible for free school meals at different tyes of state-funded schools in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "school-pupils-characteristics", view: "free_school_meals"}) | safe }}
-  {% endcomp %}
+  {% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
+    <h3>Students eligible for free school meals in state-funded schools</h3>
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+      <p> This chart shows the percentage of pupils eligible for free school meals at different tyes of state-funded schools in {{ this_place.title }}.</p>
+      <h4>Dataset</h4> {{ comp.sourcelink({dataset: "school-pupils-characteristics", view: "free_school_meals"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = data.spotlight.health.time_series.freeSchoolMeals(geo) %}
+    {% if chart_data.rows | length > 0 %}
       {{ comp.oi.chart.line({
         config: {
           legend: { 
             show: true
-          },
+            },
           data: chart_data,
           axis: {
             x: {
-              title: {
-                label: "Year"
-              },
+              title: { label: "Year" },
               ticks: [
               {
                 value: "201516",
@@ -58,23 +58,22 @@
               {
                 value: "202223",
                 label: "2022/23"
-              }
-              ]
+              }]
             },
             y: {
               title: {
                 label: "Percentage of students eligible"
-              },
+                },
               grid: {
                 show: true
-              },
+                },
               tick: {
                 spacing: 10
-              },
+                },
               min: 0,
               max: 70
-            }
-          },
+              }
+            },
           series: [
             {
               title: "Total",
@@ -82,10 +81,10 @@
               y: "Total",
               line: {
                 "stroke-dasharray": "5 10"
-              },
+                },
               points: {
                 size: 10
-              }
+                }
             },
             {
               title: "State-funded nursery",
@@ -140,409 +139,432 @@
               },
               points: {
                 size: 10
-              }
+                }
+              }]
             }
-            }
-          ]
-        }
-      )| safe
-    }}
-{% endcomp %}
-{% else %}
-  <p>
-    No data available at this level.
-  </p>
-{% endif %}
-
-{% set chart_data = data.spotlight.health.time_series.happiness(geo) %}
-{{ chart_data }}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Happiness', id: 'happiness' } %}
-  <h3>Personal wellbeing - happiness</h3> 
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-    "Overall, how happy did you feel yesterday?" in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
+          }
+        )| safe
+      }}
+    {% else %}
+      <p>
+        No data available at this level.
+      </p>
+    {% endif %}
   {% endcomp %}
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Time"
-            },
-            ticks: [
-              {
-              value: "2019-20",
-              grid: true,
-              label: "2019-20",
-              tickSize: 5
-              }
-            ]
-          },
-          y: {
-            title: {
-              label: "Percentage of population"
-            },
-            grid: {
-              show: true
-            },
-            tick: {
-              spacing: 10
-            },
-            min: 0,
-            max: 50
-          }
-        },
-        series: [
-          {
-            title: "Poor",
-            x: "Time",
-            y: "Poor",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Fair",
-            x: "Time",
-            y: "Fair",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Good",
-            x: "Time",
-            y: "Good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Very good",
-            x: "Time",
-            y: "Very good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          }
-          }
-        ]
-      }
-    )| safe
-  }}
-  <p style='text-align: center;'> 
-    </p>
-  {% endcomp %}{% endif %}
 
-{% set chart_data = data.spotlight.health.time_series.worthwhile(geo) %}
-{{ chart_data }}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Worthwhile', id: 'worthwhile' } %}
-  <h3>Personal wellbeing - worthwhile</h3> 
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-    "Overall, to what extent do you feel that the things you do in your life are worthwhile?" in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
-  {% endcomp %}
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Time"
-            },
-            ticks: [
-              {
-              value: "2019-20",
-              grid: true,
-              label: "2019-20",
-              tickSize: 5
-              }
-            ]
-          },
-          y: {
-            title: {
-              label: "Percentage of population"
-            },
-            grid: {
-              show: true
-            },
-            tick: {
-              spacing: 10
-            },
-            min: 0,
-            max: 60
-          }
-        },
-        series: [
-          {
-            title: "Poor",
-            x: "Time",
-            y: "Poor",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Fair",
-            x: "Time",
-            y: "Fair",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Good",
-            x: "Time",
-            y: "Good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Very good",
-            x: "Time",
-            y: "Very good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          }
-          }
-        ]
-      }
-    )| safe
-  }}
-  <p style='text-align: center;'> 
+  {% comp 'layout.tab.panel', { label: 'Happiness', id: 'happiness' } %}
+    <h3>Personal wellbeing - happiness</h3> 
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>
+      This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
+      "Overall, how happy did you feel yesterday?" in {{ this_place.title }}.
     </p>
-  {% endcomp %}{% endif %}
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = data.spotlight.health.time_series.happiness(geo) %}
+    {% if chart_data.rows | length > 0 %}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Time"
+              },
+              ticks: [
+                {
+                value: "2019-20",
+                grid: true,
+                label: "2019-20",
+                tickSize: 5
+                }
+              ]
+            },
+            y: {
+              title: {
+                label: "Percentage of population"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 50
+            }
+          },
+          series: [
+            {
+              title: "Poor",
+              x: "Time",
+              y: "Poor",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            },
+            {
+              title: "Fair",
+              x: "Time",
+              y: "Fair",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            },
+            {
+              title: "Good",
+              x: "Time",
+              y: "Good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            },
+            {
+              title: "Very good",
+              x: "Time",
+              y: "Very good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+                }
+            }]
+          }
+        })| safe
+      }}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
+  {% endcomp %}
 
-{% set chart_data = data.spotlight.health.time_series.life_satisfaction(geo) %}
-{{ chart_data }}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Life satisfaction', id: 'life-satisfaction' } %}
-  <h3>Personal wellbeing - life-satisfaction</h3> 
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-    "On a scale where 0 is “not at all anxious” and 10 is “completely anxious”, overall, how anxious did you 
-    feel yesterday?" in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
-  {% endcomp %}
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Time"
+  {% comp 'layout.tab.panel', { label: 'Worthwhile', id: 'worthwhile' } %}
+    <h3>Personal wellbeing - worthwhile</h3> 
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
+      "Overall, to what extent do you feel that the things you do in your life are worthwhile?" in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = data.spotlight.health.time_series.worthwhile(geo) %}
+    {% if chart_data.rows | length > 0 %}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Time"
+              },
+              ticks: [
+                {
+                value: "2019-20",
+                grid: true,
+                label: "2019-20",
+                tickSize: 5
+                }
+              ]
             },
-            ticks: [
-              {
-              value: "2019-20",
-              grid: true,
-              label: "2019-20",
-              tickSize: 5
+            y: {
+              title: {
+                label: "Percentage of population"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 60
+            }
+          },
+          series: [
+            {
+              title: "Poor",
+              x: "Time",
+              y: "Poor",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
               }
-            ]
-          },
-          y: {
-            title: {
-              label: "Percentage of population"
             },
-            grid: {
-              show: true
+            {
+              title: "Fair",
+              x: "Time",
+              y: "Fair",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            tick: {
-              spacing: 10
+            {
+              title: "Good",
+              x: "Time",
+              y: "Good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            min: 0,
-            max: 60
+            {
+              title: "Very good",
+              x: "Time",
+              y: "Very good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            }]
           }
-        },
-        series: [
-          {
-            title: "Poor",
-            x: "Time",
-            y: "Poor",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Fair",
-            x: "Time",
-            y: "Fair",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Good",
-            x: "Time",
-            y: "Good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Very good",
-            x: "Time",
-            y: "Very good",
-            line: {
-              "stroke-dasharray": "5 10"
-            },
-            points: {
-              size: 12
-            }
-          }
-          }
-        ]
-      }
-    )| safe
-  }}
-  <p style='text-align: center;'> 
-    </p>
-  {% endcomp %}{% endif %}
+        })| safe
+      }}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
+  {% endcomp %}
 
-{% set chart_data = data.spotlight.health.time_series.anxiety(geo) %}
-{{ chart_data }}
-{% if chart_data.rows | length > 0 %}{% comp 'layout.tab.panel', { label: 'Anxiety', id: 'anxiety' } %}
-  <h3>Personal wellbeing - anxiety</h3> 
-  {% comp 'collapse', { heading: "What's on this chart?"} %}
-  <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-    "Overall, how satisfied are you with your life nowadays?" in {{ this_place.title }}.</p>
-  <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
-  {% endcomp %}
-    {{ comp.oi.chart.line({
-      config: {
-        legend: { 
-          show: true
-        },
-        data: chart_data,
-        axis: {
-          x: {
-            title: {
-              label: "Time"
+  {% comp 'layout.tab.panel', { label: 'Life satisfaction', id: 'life-satisfaction' } %}
+    <h3>Personal wellbeing - life-satisfaction</h3> 
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
+      "On a scale where 0 is “not at all anxious” and 10 is “completely anxious”, overall, how anxious did you 
+      feel yesterday?" in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = data.spotlight.health.time_series.life_satisfaction(geo) %}
+    {% if chart_data.rows | length > 0 %}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Time"
+              },
+              ticks: [
+                {
+                value: "2019-20",
+                grid: true,
+                label: "2019-20",
+                tickSize: 5
+                }
+              ]
             },
-            ticks: [
-              {
-              value: "2019-20",
-              grid: true,
-              label: "2019-20",
-              tickSize: 5
+            y: {
+              title: {
+                label: "Percentage of population"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 60
+            }
+          },
+          series: [
+            {
+              title: "Poor",
+              x: "Time",
+              y: "Poor",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
               }
-            ]
-          },
-          y: {
-            title: {
-              label: "Percentage of population"
             },
-            grid: {
-              show: true
+            {
+              title: "Fair",
+              x: "Time",
+              y: "Fair",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            tick: {
-              spacing: 10
+            {
+              title: "Good",
+              x: "Time",
+              y: "Good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            min: 0,
-            max: 50
+            {
+              title: "Very good",
+              x: "Time",
+              y: "Very good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            }]
           }
-        },
-        series: [
-          {
-            title: "Poor",
-            x: "Time",
-            y: "Poor",
-            line: {
-              "stroke-dasharray": "5 10"
+        })| safe
+      }}
+    {% else %}
+      <p> No data available at this level.</p>
+    {% endif %}
+  {% endcomp %}
+
+  {% comp 'layout.tab.panel', { label: 'Anxiety', id: 'anxiety' } %}
+    <h3>Personal wellbeing - anxiety</h3> 
+    {% comp 'collapse', { heading: "What's on this chart?"} %}
+    <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
+      "Overall, how satisfied are you with your life nowadays?" in {{ this_place.title }}.</p>
+    <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
+    {% endcomp %}
+    {% set chart_data = data.spotlight.health.time_series.anxiety(geo) %}
+    {% if chart_data.rows | length > 0 %}
+      {{ comp.oi.chart.line({
+        config: {
+          legend: { 
+            show: true
+          },
+          data: chart_data,
+          axis: {
+            x: {
+              title: {
+                label: "Time"
+              },
+              ticks: [
+                {
+                value: "2019-20",
+                grid: true,
+                label: "2019-20",
+                tickSize: 5
+                }
+              ]
             },
-            points: {
-              size: 12
+            y: {
+              title: {
+                label: "Percentage of population"
+              },
+              grid: {
+                show: true
+              },
+              tick: {
+                spacing: 10
+              },
+              min: 0,
+              max: 50
             }
           },
-          {
-            title: "Fair",
-            x: "Time",
-            y: "Fair",
-            line: {
-              "stroke-dasharray": "5 10"
+          series: [
+            {
+              title: "Poor",
+              x: "Time",
+              y: "Poor",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Good",
-            x: "Time",
-            y: "Good",
-            line: {
-              "stroke-dasharray": "5 10"
+            {
+              title: "Fair",
+              x: "Time",
+              y: "Fair",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            points: {
-              size: 12
-            }
-          },
-          {
-            title: "Very good",
-            x: "Time",
-            y: "Very good",
-            line: {
-              "stroke-dasharray": "5 10"
+            {
+              title: "Good",
+              x: "Time",
+              y: "Good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
             },
-            points: {
-              size: 12
-            }
+            {
+              title: "Very good",
+              x: "Time",
+              y: "Very good",
+              line: {
+                "stroke-dasharray": "5 10"
+              },
+              points: {
+                size: 12
+              }
+            }]
           }
-          }
-        ]
-      }
-    )| safe
-  }}
-  <p style='text-align: center;'> 
-    </p>
-  {% endcomp %}{% endif %}
+        })| safe
+      }}
+    {% else %}
+      <p>No data available at this level.</p>
+    {% endif %}
+  {% endcomp %}
+
+  {% comp 'layout.tab.panel', { label: 'Obesity', id: 'obesity' } %}
+    <p>Placeholder.</p>
+  {% endcomp %}
+
+  {% comp 'layout.tab.panel', { label: 'Long-term conditions', id: 'long-term-conditions' } %}
+    <p>Placeholder.</p>
+  {% endcomp %}
+
+  {% comp 'layout.tab.panel', { label: 'Disability', id: 'disability' } %}
+    <p>Placeholder.</p>
+  {% endcomp %}
 
 {% endcomp %}
 {# end of tab set #}
 
+<h3>Demographic breakdown</h3>
+
+<p>
+  Poverty can disproportionately affect certain groups.
+  This section presents analysis of {{ title }} with a focus on demographics.
+</p>
+
+{% comp 'layout.tab.set' %}
+
+  {% comp 'layout.tab.panel', { label: 'Placeholder 1', id: 'Placeholder 1' } %}
+  {% endcomp %}
+
+{% endcomp %}
+{# End of tab set #}

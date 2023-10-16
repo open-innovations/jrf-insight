@@ -1,4 +1,4 @@
-geography_code,ahc_income_status,Tenure Type of the Household of the Individual,bhc_income_status,variable_name,value,date,population,percent
+geography_code,ahc_income_status,Tenure Type of the Household of the Individual,bhc_income_status,variable_name,value,date,population_for_group_for_year,percent
 E12000001,In low income (below threshold),All rented privately,In low income (below threshold),population,55089.333333333336,1994-95 - 1996-97,177449.0,31.0
 E12000001,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,48214.666666666664,1994-95 - 1996-97,177449.0,27.0
 E12000001,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,216824.66666666666,1994-95 - 1996-97,1623439.3333333333,13.0
@@ -935,3 +935,315 @@ E12000003,Not in low income (at or above threshold),Owned outright/buying with m
 E12000003,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,2827538.5,2019-20 - 2021-22,3414751.0,83.0
 E12000003,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,622.0,2019-20 - 2021-22,951741.5,0.0
 E12000003,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,567698.0,2019-20 - 2021-22,951741.5,60.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,285732.0,1994-95 - 1996-97,1133215.3333333335,25.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,294120.3333333333,1995-96 - 1997-98,1128464.6666666665,26.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,313980.0,1996-97 - 1998-99,1114789.3333333335,28.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,315027.3333333334,1997-98 - 1999-00,1130792.3333333335,28.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,310932.0,1998-99 - 2000-01,1123451.0,28.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,311570.6666666667,1999-00 - 2001-02,1157824.6666666667,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,313688.6666666667,2000-01 - 2002-03,1173117.6666666665,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,320830.0,2001-02 - 2003-04,1197939.0,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,321043.0,2002-03 - 2004-05,1263525.3333333335,25.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,352761.0,2003-04 - 2005-06,1365746.3333333335,26.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,398974.0,2004-05 - 2006-07,1486839.3333333333,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,421918.0,2005-06 - 2007-08,1558465.6666666665,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,444043.6666666666,2006-07 - 2008-09,1653339.3333333335,27.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,447016.3333333333,2007-08 - 2009-10,1807956.3333333335,25.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,491339.6666666666,2008-09 - 2010-11,2028184.6666666667,24.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,493690.6666666667,2009-10 - 2011-12,2133774.6666666665,23.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,500034.0,2010-11 - 2012-13,2214377.666666667,23.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,493518.3333333334,2011-12 - 2013-14,2347216.6666666665,21.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,523239.6666666666,2012-13 - 2014-15,2497541.0,21.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,551520.6666666666,2013-14 - 2015-16,2673602.6666666665,21.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,589356.3333333333,2014-15 - 2016-17,2739645.0,22.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,617019.3333333334,2015-16 - 2017-18,2832294.333333333,22.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,671142.6666666666,2016-17 - 2018-19,2883931.6666666665,23.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,715527.6666666667,2017-18 - 2019-20,2814962.0,25.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,700097.3333333333,2018-19 - 2021-22,2746799.3333333335,25.0
+E12999901,In low income (below threshold),All rented privately,In low income (below threshold),population,677112.5,2019-20 - 2021-22,2642512.5,26.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,286523.0,1994-95 - 1996-97,1133215.3333333335,25.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,279198.0,1995-96 - 1997-98,1128464.6666666665,25.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,261400.6666666667,1996-97 - 1998-99,1114789.3333333335,23.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,263029.6666666667,1997-98 - 1999-00,1130792.3333333335,23.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,245646.0,1998-99 - 2000-01,1123451.0,22.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,240907.66666666666,1999-00 - 2001-02,1157824.6666666667,21.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,219008.0,2000-01 - 2002-03,1173117.6666666665,19.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,230537.3333333333,2001-02 - 2003-04,1197939.0,19.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,224814.66666666666,2002-03 - 2004-05,1263525.3333333335,18.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,234014.6666666667,2003-04 - 2005-06,1365746.3333333335,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,252929.6666666667,2004-05 - 2006-07,1486839.3333333333,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,267091.3333333334,2005-06 - 2007-08,1558465.6666666665,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,286574.0,2006-07 - 2008-09,1653339.3333333335,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,328161.6666666667,2007-08 - 2009-10,1807956.3333333335,18.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,379007.0,2008-09 - 2010-11,2028184.6666666667,19.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,407102.0,2009-10 - 2011-12,2133774.6666666665,19.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,386486.6666666667,2010-11 - 2012-13,2214377.666666667,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,412101.0,2011-12 - 2013-14,2347216.6666666665,18.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,409797.6666666667,2012-13 - 2014-15,2497541.0,16.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,446343.6666666666,2013-14 - 2015-16,2673602.6666666665,17.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,438061.3333333333,2014-15 - 2016-17,2739645.0,16.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,447394.6666666666,2015-16 - 2017-18,2832294.333333333,16.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,445807.6666666666,2016-17 - 2018-19,2883931.6666666665,15.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,406100.0,2017-18 - 2019-20,2814962.0,14.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,404217.3333333334,2018-19 - 2021-22,2746799.3333333335,15.0
+E12999901,In low income (below threshold),All rented privately,Not in low income (at or above threshold),population,370619.0,2019-20 - 2021-22,2642512.5,14.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1283820.0,1994-95 - 1996-97,9725425.0,13.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1268908.6666666665,1995-96 - 1997-98,9765522.666666666,13.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1322657.6666666667,1996-97 - 1998-99,9822777.666666666,13.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1374928.6666666665,1997-98 - 1999-00,9905861.666666666,14.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1354581.6666666667,1998-99 - 2000-01,9984191.0,14.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1245679.0,1999-00 - 2001-02,9919765.666666666,13.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1177271.0,2000-01 - 2002-03,9925364.0,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1164806.0,2001-02 - 2003-04,9985944.333333332,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1126356.6666666667,2002-03 - 2004-05,10074028.333333334,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1114348.6666666665,2003-04 - 2005-06,10111443.0,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1144645.0,2004-05 - 2006-07,10100292.0,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1224146.0,2005-06 - 2007-08,10104018.0,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1227652.6666666665,2006-07 - 2008-09,10097889.666666668,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1215406.3333333333,2007-08 - 2009-10,10006213.666666668,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1164779.6666666665,2008-09 - 2010-11,9872779.0,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1134287.0,2009-10 - 2011-12,9777280.0,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1077026.3333333333,2010-11 - 2012-13,9728649.666666668,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1012849.6666666666,2011-12 - 2013-14,9650164.333333334,10.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,997383.6666666667,2012-13 - 2014-15,9611688.333333334,10.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1010862.3333333334,2013-14 - 2015-16,9530949.666666666,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1098913.0,2014-15 - 2016-17,9583329.0,11.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1114281.3333333333,2015-16 - 2017-18,9564645.666666666,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1165016.0,2016-17 - 2018-19,9627339.666666668,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1186436.0,2017-18 - 2019-20,9687024.666666666,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1205174.0,2018-19 - 2021-22,9698511.666666668,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,In low income (below threshold),population,1195627.0,2019-20 - 2021-22,9712890.5,12.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,146389.3333333333,1994-95 - 1996-97,9725425.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,157995.6666666667,1995-96 - 1997-98,9765522.666666666,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,153828.33333333334,1996-97 - 1998-99,9822777.666666666,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,176343.6666666667,1997-98 - 1999-00,9905861.666666666,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,191389.0,1998-99 - 2000-01,9984191.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,180772.0,1999-00 - 2001-02,9919765.666666666,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,167488.0,2000-01 - 2002-03,9925364.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,132381.6666666667,2001-02 - 2003-04,9985944.333333332,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,124249.66666666667,2002-03 - 2004-05,10074028.333333334,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,156676.3333333333,2003-04 - 2005-06,10111443.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,194600.6666666667,2004-05 - 2006-07,10100292.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,223246.3333333333,2005-06 - 2007-08,10104018.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,216807.3333333333,2006-07 - 2008-09,10097889.666666668,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,184053.6666666667,2007-08 - 2009-10,10006213.666666668,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,153313.0,2008-09 - 2010-11,9872779.0,2.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,110065.33333333334,2009-10 - 2011-12,9777280.0,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,97341.0,2010-11 - 2012-13,9728649.666666668,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,80426.33333333333,2011-12 - 2013-14,9650164.333333334,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,83585.33333333333,2012-13 - 2014-15,9611688.333333334,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,84022.0,2013-14 - 2015-16,9530949.666666666,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,75867.0,2014-15 - 2016-17,9583329.0,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,52576.33333333333,2015-16 - 2017-18,9564645.666666666,1.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,29258.0,2016-17 - 2018-19,9627339.666666668,0.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,33204.0,2017-18 - 2019-20,9687024.666666666,0.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,44954.0,2018-19 - 2021-22,9698511.666666668,0.0
+E12999901,In low income (below threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,59919.5,2019-20 - 2021-22,9712890.5,1.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1285070.6666666667,1994-95 - 1996-97,3286380.666666667,39.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1315478.3333333333,1995-96 - 1997-98,3226549.6666666665,41.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1392274.3333333333,1996-97 - 1998-99,3161504.6666666665,44.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1336849.6666666667,1997-98 - 1999-00,3038873.3333333335,44.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1281355.6666666667,1998-99 - 2000-01,2951540.0,43.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1229571.6666666667,1999-00 - 2001-02,2971709.0,41.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1176091.6666666667,2000-01 - 2002-03,2956833.3333333335,40.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1090115.0,2001-02 - 2003-04,2897690.666666667,38.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,1009683.0,2002-03 - 2004-05,2787567.666666667,36.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,961137.3333333333,2003-04 - 2005-06,2712735.0,35.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,953441.3333333333,2004-05 - 2006-07,2670048.333333333,36.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,984918.3333333333,2005-06 - 2007-08,2664129.666666667,37.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,986617.0,2006-07 - 2008-09,2640173.333333333,37.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,951057.0,2007-08 - 2009-10,2643534.666666667,36.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,857973.3333333333,2008-09 - 2010-11,2625192.0,33.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,809369.3333333333,2009-10 - 2011-12,2713380.0,30.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,800767.6666666666,2010-11 - 2012-13,2778283.333333333,29.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,793965.6666666666,2011-12 - 2013-14,2785550.0,29.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,839181.6666666667,2012-13 - 2014-15,2704475.666666667,31.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,845158.3333333333,2013-14 - 2015-16,2641669.0,32.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,819852.6666666667,2014-15 - 2016-17,2586044.666666667,32.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,830255.6666666666,2015-16 - 2017-18,2590772.333333333,32.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,810028.6666666666,2016-17 - 2018-19,2576864.333333333,31.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,860107.6666666666,2017-18 - 2019-20,2675566.6666666665,32.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,813743.0,2018-19 - 2021-22,2797878.333333333,29.0
+E12999901,In low income (below threshold),Social rented sector tenants,In low income (below threshold),population,836775.5,2019-20 - 2021-22,2902911.0,29.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,479314.3333333333,1994-95 - 1996-97,3286380.666666667,15.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,437917.3333333333,1995-96 - 1997-98,3226549.6666666665,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,403044.0,1996-97 - 1998-99,3161504.6666666665,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,368652.3333333334,1997-98 - 1999-00,3038873.3333333335,12.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,345802.0,1998-99 - 2000-01,2951540.0,12.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,334959.6666666667,1999-00 - 2001-02,2971709.0,11.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,342940.3333333334,2000-01 - 2002-03,2956833.3333333335,12.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,351638.6666666666,2001-02 - 2003-04,2897690.666666667,12.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,321831.3333333334,2002-03 - 2004-05,2787567.666666667,12.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,295831.6666666667,2003-04 - 2005-06,2712735.0,11.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,265997.6666666667,2004-05 - 2006-07,2670048.333333333,10.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,247271.3333333333,2005-06 - 2007-08,2664129.666666667,9.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,230367.66666666666,2006-07 - 2008-09,2640173.333333333,9.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,264830.0,2007-08 - 2009-10,2643534.666666667,10.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,299906.0,2008-09 - 2010-11,2625192.0,11.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,344453.6666666666,2009-10 - 2011-12,2713380.0,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,363799.0,2010-11 - 2012-13,2778283.333333333,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,379145.6666666667,2011-12 - 2013-14,2785550.0,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,365269.0,2012-13 - 2014-15,2704475.666666667,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,354850.3333333333,2013-14 - 2015-16,2641669.0,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,360943.3333333333,2014-15 - 2016-17,2586044.666666667,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,363648.6666666666,2015-16 - 2017-18,2590772.333333333,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,344468.3333333333,2016-17 - 2018-19,2576864.333333333,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,340652.3333333333,2017-18 - 2019-20,2675566.6666666665,13.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,390992.0,2018-19 - 2021-22,2797878.333333333,14.0
+E12999901,In low income (below threshold),Social rented sector tenants,Not in low income (at or above threshold),population,426222.0,2019-20 - 2021-22,2902911.0,15.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,8587.666666666666,1994-95 - 1996-97,1133215.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,5907.333333333334,1995-96 - 1997-98,1128464.6666666665,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,6879.333333333333,1996-97 - 1998-99,1114789.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,11280.0,1997-98 - 1999-00,1130792.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,13766.333333333332,1998-99 - 2000-01,1123451.0,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,13008.0,1999-00 - 2001-02,1157824.6666666667,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,10242.333333333332,2000-01 - 2002-03,1173117.6666666665,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,11001.333333333332,2001-02 - 2003-04,1197939.0,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,9136.666666666666,2002-03 - 2004-05,1263525.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,13796.0,2003-04 - 2005-06,1365746.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,17462.0,2004-05 - 2006-07,1486839.3333333333,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,18355.666666666664,2005-06 - 2007-08,1558465.6666666665,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,15157.333333333334,2006-07 - 2008-09,1653339.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,11050.0,2007-08 - 2009-10,1807956.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,11145.666666666666,2008-09 - 2010-11,2028184.6666666667,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,8524.333333333332,2009-10 - 2011-12,2133774.6666666665,0.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,12186.0,2010-11 - 2012-13,2214377.666666667,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,9646.666666666666,2011-12 - 2013-14,2347216.6666666665,0.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,12122.666666666666,2012-13 - 2014-15,2497541.0,0.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,12694.333333333334,2013-14 - 2015-16,2673602.6666666665,0.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,12711.666666666668,2014-15 - 2016-17,2739645.0,0.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,14769.0,2015-16 - 2017-18,2832294.333333333,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,15016.666666666666,2016-17 - 2018-19,2883931.6666666665,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,22824.666666666664,2017-18 - 2019-20,2814962.0,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,18934.0,2018-19 - 2021-22,2746799.3333333335,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,In low income (below threshold),population,16479.5,2019-20 - 2021-22,2642512.5,1.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,552372.6666666667,1994-95 - 1996-97,1133215.3333333335,49.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,549239.0,1995-96 - 1997-98,1128464.6666666665,49.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,532529.3333333334,1996-97 - 1998-99,1114789.3333333335,48.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,541455.3333333334,1997-98 - 1999-00,1130792.3333333335,48.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,553106.6666666666,1998-99 - 2000-01,1123451.0,49.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,592338.3333333334,1999-00 - 2001-02,1157824.6666666667,51.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,630178.6666666666,2000-01 - 2002-03,1173117.6666666665,54.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,635570.3333333333,2001-02 - 2003-04,1197939.0,53.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,708531.0,2002-03 - 2004-05,1263525.3333333335,56.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,765174.6666666667,2003-04 - 2005-06,1365746.3333333335,56.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,817473.6666666666,2004-05 - 2006-07,1486839.3333333333,55.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,851100.6666666666,2005-06 - 2007-08,1558465.6666666665,55.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,907564.3333333334,2006-07 - 2008-09,1653339.3333333335,55.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1021728.3333333334,2007-08 - 2009-10,1807956.3333333335,57.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1146692.3333333335,2008-09 - 2010-11,2028184.6666666667,57.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1224457.6666666665,2009-10 - 2011-12,2133774.6666666665,57.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1315671.0,2010-11 - 2012-13,2214377.666666667,59.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1431950.6666666665,2011-12 - 2013-14,2347216.6666666665,61.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1552381.0,2012-13 - 2014-15,2497541.0,62.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1663044.0,2013-14 - 2015-16,2673602.6666666665,62.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1699515.6666666667,2014-15 - 2016-17,2739645.0,62.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1753111.3333333333,2015-16 - 2017-18,2832294.333333333,62.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1751964.6666666665,2016-17 - 2018-19,2883931.6666666665,61.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1670509.6666666665,2017-18 - 2019-20,2814962.0,59.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1623550.6666666667,2018-19 - 2021-22,2746799.3333333335,59.0
+E12999901,Not in low income (at or above threshold),All rented privately,Not in low income (at or above threshold),population,1578301.5,2019-20 - 2021-22,2642512.5,60.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,229882.0,1994-95 - 1996-97,9725425.0,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,226242.66666666666,1995-96 - 1997-98,9765522.666666666,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,232621.0,1996-97 - 1998-99,9822777.666666666,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,233154.66666666666,1997-98 - 1999-00,9905861.666666666,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,230278.6666666667,1998-99 - 2000-01,9984191.0,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,235512.3333333333,1999-00 - 2001-02,9919765.666666666,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,234894.66666666666,2000-01 - 2002-03,9925364.0,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,250924.0,2001-02 - 2003-04,9985944.333333332,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,257011.33333333334,2002-03 - 2004-05,10074028.333333334,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,285490.0,2003-04 - 2005-06,10111443.0,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,288692.6666666667,2004-05 - 2006-07,10100292.0,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,283339.0,2005-06 - 2007-08,10104018.0,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,273611.3333333334,2006-07 - 2008-09,10097889.666666668,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,253981.3333333333,2007-08 - 2009-10,10006213.666666668,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,244707.6666666667,2008-09 - 2010-11,9872779.0,2.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,252322.0,2009-10 - 2011-12,9777280.0,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,280205.6666666667,2010-11 - 2012-13,9728649.666666668,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,287537.0,2011-12 - 2013-14,9650164.333333334,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,275896.6666666666,2012-13 - 2014-15,9611688.333333334,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,253645.3333333333,2013-14 - 2015-16,9530949.666666666,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,261103.0,2014-15 - 2016-17,9583329.0,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,276586.0,2015-16 - 2017-18,9564645.666666666,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,285417.3333333333,2016-17 - 2018-19,9627339.666666668,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,281135.6666666667,2017-18 - 2019-20,9687024.666666666,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,258966.33333333334,2018-19 - 2021-22,9698511.666666668,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,In low income (below threshold),population,253666.0,2019-20 - 2021-22,9712890.5,3.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8065333.666666666,1994-95 - 1996-97,9725425.0,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8112375.666666666,1995-96 - 1997-98,9765522.666666666,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8113670.666666666,1996-97 - 1998-99,9822777.666666666,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8121434.666666666,1997-98 - 1999-00,9905861.666666666,82.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8207941.666666667,1998-99 - 2000-01,9984191.0,82.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8257802.333333333,1999-00 - 2001-02,9919765.666666666,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8345710.333333334,2000-01 - 2002-03,9925364.0,84.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8437832.666666666,2001-02 - 2003-04,9985944.333333332,84.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8566410.666666668,2002-03 - 2004-05,10074028.333333334,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8554928.0,2003-04 - 2005-06,10111443.0,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8472353.666666666,2004-05 - 2006-07,10100292.0,84.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8373286.666666667,2005-06 - 2007-08,10104018.0,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8379818.333333334,2006-07 - 2008-09,10097889.666666668,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8352772.333333334,2007-08 - 2009-10,10006213.666666668,83.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8309978.666666667,2008-09 - 2010-11,9872779.0,84.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8280605.666666667,2009-10 - 2011-12,9777280.0,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8274076.666666667,2010-11 - 2012-13,9728649.666666668,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8269351.333333334,2011-12 - 2013-14,9650164.333333334,86.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8254822.666666667,2012-13 - 2014-15,9611688.333333334,86.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8182420.0,2013-14 - 2015-16,9530949.666666666,86.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8147446.0,2014-15 - 2016-17,9583329.0,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8121202.0,2015-16 - 2017-18,9564645.666666666,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8147648.333333334,2016-17 - 2018-19,9627339.666666668,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8186249.0,2017-18 - 2019-20,9687024.666666666,85.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8189417.333333334,2018-19 - 2021-22,9698511.666666668,84.0
+E12999901,Not in low income (at or above threshold),Owned outright/buying with mortgage,Not in low income (at or above threshold),population,8203678.0,2019-20 - 2021-22,9712890.5,84.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,8861.666666666666,1994-95 - 1996-97,3286380.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,4020.0,1995-96 - 1997-98,3226549.6666666665,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,3713.666666666667,1996-97 - 1998-99,3161504.6666666665,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,5296.333333333334,1997-98 - 1999-00,3038873.3333333335,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,7498.666666666666,1998-99 - 2000-01,2951540.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,8851.666666666668,1999-00 - 2001-02,2971709.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,7083.333333333334,2000-01 - 2002-03,2956833.3333333335,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,6941.333333333333,2001-02 - 2003-04,2897690.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,4615.333333333333,2002-03 - 2004-05,2787567.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,5752.666666666667,2003-04 - 2005-06,2712735.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,6654.666666666666,2004-05 - 2006-07,2670048.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,8825.333333333334,2005-06 - 2007-08,2664129.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,8734.333333333334,2006-07 - 2008-09,2640173.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,5184.666666666666,2007-08 - 2009-10,2643534.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,2456.0,2008-09 - 2010-11,2625192.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,1560.6666666666665,2009-10 - 2011-12,2713380.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,3631.6666666666665,2010-11 - 2012-13,2778283.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,4421.333333333333,2011-12 - 2013-14,2785550.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,4610.666666666667,2012-13 - 2014-15,2704475.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,3572.3333333333335,2013-14 - 2015-16,2641669.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,2739.3333333333335,2014-15 - 2016-17,2586044.666666667,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,2697.6666666666665,2015-16 - 2017-18,2590772.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,1805.3333333333335,2016-17 - 2018-19,2576864.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,2226.666666666667,2017-18 - 2019-20,2675566.6666666665,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,4960.333333333334,2018-19 - 2021-22,2797878.333333333,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,In low income (below threshold),population,6854.0,2019-20 - 2021-22,2902911.0,0.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1513134.0,1994-95 - 1996-97,3286380.666666667,46.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1469134.0,1995-96 - 1997-98,3226549.6666666665,46.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1362472.6666666665,1996-97 - 1998-99,3161504.6666666665,43.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1328075.0,1997-98 - 1999-00,3038873.3333333335,44.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1316883.6666666665,1998-99 - 2000-01,2951540.0,45.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1398326.0,1999-00 - 2001-02,2971709.0,47.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1430718.0,2000-01 - 2002-03,2956833.3333333335,48.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1448995.6666666667,2001-02 - 2003-04,2897690.666666667,50.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1451438.0,2002-03 - 2004-05,2787567.666666667,52.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1450013.3333333335,2003-04 - 2005-06,2712735.0,53.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1443954.6666666667,2004-05 - 2006-07,2670048.333333333,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1423114.6666666667,2005-06 - 2007-08,2664129.666666667,53.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1414454.3333333333,2006-07 - 2008-09,2640173.333333333,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1422463.0,2007-08 - 2009-10,2643534.666666667,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1464856.6666666667,2008-09 - 2010-11,2625192.0,56.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1557996.3333333335,2009-10 - 2011-12,2713380.0,57.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1610085.0,2010-11 - 2012-13,2778283.333333333,58.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1608017.3333333335,2011-12 - 2013-14,2785550.0,58.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1495414.3333333335,2012-13 - 2014-15,2704475.666666667,55.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1438088.0,2013-14 - 2015-16,2641669.0,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1402509.3333333335,2014-15 - 2016-17,2586044.666666667,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1394170.3333333333,2015-16 - 2017-18,2590772.333333333,54.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1420562.0,2016-17 - 2018-19,2576864.333333333,55.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1472580.0,2017-18 - 2019-20,2675566.6666666665,55.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1588183.0,2018-19 - 2021-22,2797878.333333333,57.0
+E12999901,Not in low income (at or above threshold),Social rented sector tenants,Not in low income (at or above threshold),population,1633059.5,2019-20 - 2021-22,2902911.0,56.0
