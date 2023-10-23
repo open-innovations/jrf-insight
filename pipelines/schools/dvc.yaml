@@ -1,0 +1,11 @@
+vars:
+  - top: ../..
+stages:
+  extract:
+    cmd: papermill extract.ipynb output/extract.ipynb
+    deps:
+      - extract.ipynb
+    outs:
+      - ${top}/data-raw/school-pupils-characteristics/school-pupils-and-their-characteristics.zip:
+          cache: false
+          persist: false
