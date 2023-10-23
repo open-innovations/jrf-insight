@@ -149,3 +149,18 @@ stages:
       hash: md5
       md5: 8b5fd3cf22484250bff90b3eb7187947
       size: 23926
+  jobs-below-living-wage:
+    cmd: Rscript R/jobs-below-living-wage.R
+    deps:
+    - path: R/jobs-below-living-wage.R
+      hash: md5
+  individual-insolvencies:
+    cmd: Rscript R/individual-insolvencies.R
+    deps:
+    - path: R/individual-insolvencies.R
+      hash: md5
+  mortgage-landlord-possession:
+    cmd: Rscript R/mortgage-landlord-possession.R
+    deps:
+    - path: R/mortgage-landlord-possession.R
+      hash: md5
