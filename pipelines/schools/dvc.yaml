@@ -2,7 +2,7 @@ vars:
   - top: ../..
 stages:
   extract:
-    cmd: papermill extract.ipynb output/extract.ipynb
+    cmd: papermill extract.ipynb ${top}/data/_working/output/extract.ipynb
     deps:
       - extract.ipynb
     outs:

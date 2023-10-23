@@ -1,7 +1,7 @@
 schema: '2.0'
 stages:
   extract:
-    cmd: papermill extract.ipynb output/extract.ipynb
+    cmd: papermill extract.ipynb ../../data/_working/output/extract.ipynb
     deps:
     - path: extract.ipynb
       hash: md5
@@ -11,5 +11,5 @@ stages:
     - path: 
         ../../data-raw/school-pupils-characteristics/school-pupils-and-their-characteristics.zip
       hash: md5
-      md5: a5cb2fe87d659447958920b7316cc08d
+      md5: 036f4fb44e883f75cbf7995270331538
       size: 45899234
