@@ -34,6 +34,6 @@ stages:
       - ${top}/pipelines/spotlight/housing/dwelling_stock.ipynb
       - ${top}/data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx
     outs: 
-      - ${top}/data/dwelling-stock/dwelling-stock.csv:
+      - ${top}/data-mart/dwelling-stock/dwelling-stock.parquet:
           cache: false
           persist: false   

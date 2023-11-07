@@ -50,13 +50,13 @@ stages:
       size: 812366
     - path: ../../../pipelines/spotlight/housing/dwelling_stock.ipynb
       hash: md5
-      md5: 0c28d7dfc16540e9f3952992e8488d76
-      size: 2418
+      md5: 3ac2401eaef4759c50488a86a2ee5dda
+      size: 2415
     outs:
-    - path: ../../../data/dwelling-stock/dwelling-stock.csv
+    - path: ../../../data-mart/dwelling-stock/dwelling-stock.parquet
       hash: md5
-      md5: 3527dd86db6b9731ad8e99b9551fce2e
-      size: 1072174
+      md5: 3aa0d2101d3bc59ef54203f5a282427a
+      size: 97998
   download-files:
     cmd: python get-files.py
     deps:
