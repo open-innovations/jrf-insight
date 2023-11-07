@@ -25,7 +25,7 @@ stages:
       #- ${top}/data/rental-prices/rental-prices.csv
       - ${top}/data/ashe/weekly-earnings.csv
     outs: 
-      - ${top}/data/ashe/rent-earning-ratio.csv:
+      - ${top}/data-mart/ashe/rent-earning-ratio.parquet:
           cache: false
           persist: false 
   dwellings:

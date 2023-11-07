@@ -22,13 +22,13 @@ stages:
       size: 29390
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
-      md5: 0de406a335fc9261a9161c5505648f52
-      size: 15237
+      md5: 69b46e6fe8f63caf5fc1d8029e2d8e76
+      size: 15661
     outs:
-    - path: ../../../data/ashe/rent-earning-ratio.csv
+    - path: ../../../data-mart/ashe/rent-earning-ratio.parquet
       hash: md5
-      md5: 12271825770cb06011a11e0c1f9f8226
-      size: 4615
+      md5: bf596a8d09a0a6d629e9a3ede59975ff
+      size: 5627
   rental-prices:
     cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb
     deps:

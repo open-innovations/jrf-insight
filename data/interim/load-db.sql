@@ -15,7 +15,7 @@ CREATE OR REPLACE TABLE ashe_weekly_earning AS SELECT * from read_csv_auto('./da
 -- CREATE OR REPLACE TABLE hbai_marital_status AS SELECT * FROM read_csv_auto('./data/hbai/by_marital_status.csv');
 -- CREATE OR REPLACE TABLE hbai_tenure_type AS SELECT * FROM read_csv_auto('./data/hbai/by_tenure_type.csv');
 
-CREATE OR REPLACE TABLE rent_to_earnings AS SELECT * FROM read_csv_auto('./data/ashe/rent-earning-ratio.csv');
+-- CREATE OR REPLACE TABLE rent_to_earnings AS SELECT * FROM read_csv_auto('./data/ashe/rent-earning-ratio.csv');
 CREATE OR REPLACE TABLE gender_pay_gap AS SELECT * FROM read_csv_auto('./data/gender-pay-gap/gender-pay-gap.csv', header=True, nullstr='NA');
 CREATE OR REPLACE TABLE esm AS SELECT * FROM read_csv_auto('./playground/modelling/economic_insecurity.csv');
 
