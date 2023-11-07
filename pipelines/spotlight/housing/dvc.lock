@@ -22,8 +22,8 @@ stages:
       size: 29390
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
-      md5: fa041de510cb3c1de67bf86a20c721fc
-      size: 15208
+      md5: 0de406a335fc9261a9161c5505648f52
+      size: 15237
     outs:
     - path: ../../../data/ashe/rent-earning-ratio.csv
       hash: md5
@@ -34,14 +34,13 @@ stages:
     deps:
     - path: ../../../pipelines/spotlight/housing/rental_prices.ipynb
       hash: md5
-      md5: 76e777e1925fdf728a652c5adf323100
-      size: 1479
+      md5: 63c44850f21016a8a93b8646c4b77f19
+      size: 1962
     outs:
-    - path: ../../../data/rental-prices/most_recent_rental_prices.csv
+    - path: ../../../data-mart/rental-prices/most_recent_rental_prices.parquet
       hash: md5
-      md5: 99c16fc35bb177685d0f9458bb550c60
-      size: 19047
-      isexec: true
+      md5: 9b5e66392a53cd5db3e0688859e87dbe
+      size: 14338
   dwellings:
     cmd: papermill dwelling_stock.ipynb ../../../data/_working/output/dwelling_stock.ipynb
     deps:
@@ -51,14 +50,13 @@ stages:
       size: 812366
     - path: ../../../pipelines/spotlight/housing/dwelling_stock.ipynb
       hash: md5
-      md5: 50b2d96fcf000c7b49c46ddd91c2a176
-      size: 2388
+      md5: 0c28d7dfc16540e9f3952992e8488d76
+      size: 2418
     outs:
     - path: ../../../data/dwelling-stock/dwelling-stock.csv
       hash: md5
       md5: 3527dd86db6b9731ad8e99b9551fce2e
       size: 1072174
-      isexec: true
   download-files:
     cmd: python get-files.py
     deps:

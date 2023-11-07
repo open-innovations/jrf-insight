@@ -14,19 +14,6 @@ connection.query(setupSql);
 /*
  * ACCESS FUNCTIONS
  */
-export const getRentalPrices = () =>
-  runQuery(
-    () => connection.query("SELECT * FROM current_rental_prices;"),
-  );
-
-export const getCurrentRentalPricesForPlace = (place: string) =>
-  runQuery(
-    () =>
-      connection.query(
-        `SELECT property_code, ${place} FROM current_rental_prices;`,
-      ),
-  );
-
 export const getHousePrices = (place: string) =>
   runQuery(
     () => connection.query(`SELECT date, CAST(value AS FLOAT) as value FROM house_prices WHERE geography_code=='${place}' AND variable_name=='Median house price'`).map(formatDate),

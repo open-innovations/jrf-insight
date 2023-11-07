@@ -15,7 +15,7 @@ stages:
       - ${top}/pipelines/spotlight/housing/rental_prices.ipynb
       #- ${top}/data/rental-prices/rental-prices.csv
     outs: 
-      - ${top}/data/rental-prices/most_recent_rental_prices.csv:
+      - ${top}/data-mart/rental-prices/most_recent_rental_prices.parquet:
           cache: false
           persist: false
   earnings-rent-ratio:
