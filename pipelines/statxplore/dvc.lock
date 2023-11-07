@@ -50,38 +50,38 @@ stages:
       size: 339
     - path: hbai.ipynb
       hash: md5
-      md5: 5b3e2a6c4e49af7cfeae5147bd157674
-      size: 171849
+      md5: 3d209de38f4142e7eec3882ae24e7106
+      size: 172048
     - path: json/data/HBAI.json
       hash: md5
       md5: 4fba80df5e4dd78847198a0ed9aa1db0
       size: 690
     outs:
-    - path: ../../data/hbai/by_age_category.csv
+    - path: ../../data-mart/hbai/by_age_category.parquet
       hash: md5
-      md5: 7cabc863acd8981789a9043075951c28
-      size: 196575
-    - path: ../../data/hbai/by_age_of_youngest_child.csv
+      md5: 5e2c7bca5a803e26f63af44fc263ed03
+      size: 21323
+    - path: ../../data-mart/hbai/by_age_of_youngest_child.parquet
       hash: md5
-      md5: 95102d8c7da7b8972b2a4822a8ac0402
-      size: 330467
-    - path: ../../data/hbai/by_ethnic_group.csv
+      md5: e8869c15b3c47e382473558112086294
+      size: 30064
+    - path: ../../data-mart/hbai/by_ethnic_group.parquet
       hash: md5
-      md5: 169cbb1b0d3bb5f0f0035b84fc8cfe1c
-      size: 416467
-    - path: ../../data/hbai/by_marital_status.csv
+      md5: ad16b7860ac427686fe9f580489aeb4b
+      size: 28643
+    - path: ../../data-mart/hbai/by_marital_status.parquet
       hash: md5
-      md5: 3925ee9c0a06c60800e974ceda89e76d
-      size: 128855
-    - path: ../../data/hbai/by_number_of_children.csv
+      md5: 721067c5dbf8372c1f95f577007633dc
+      size: 16801
+    - path: ../../data-mart/hbai/by_number_of_children.parquet
       hash: md5
-      md5: 38afea1a90953f5c7b218a2f7d3881eb
-      size: 270197
-    - path: ../../data/hbai/by_savings_and_investments.csv
+      md5: 7d85ecb81a88b7e4198082091f474d61
+      size: 24907
+    - path: ../../data-mart/hbai/by_savings_and_investments.parquet
       hash: md5
-      md5: 085ef8dd85ca631a2bb1da2b5e19a947
-      size: 580110
-    - path: ../../data/hbai/by_tenure_type.csv
+      md5: 2d807bf6d54bee2eef526604de1cec9e
+      size: 41836
+    - path: ../../data-mart/hbai/by_tenure_type.parquet
       hash: md5
-      md5: ba5c5708ecc921f5f4243d8960fcb082
-      size: 221019
+      md5: 58e034ae0191a16dcb733748cac82e31
+      size: 21637

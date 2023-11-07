@@ -9,7 +9,7 @@ export const low_income_by_age_category = (place: string) => {
         date, 
         "Type of Individual by Age Category", 
         percent 
-      FROM hbai_by_age_category 
+      FROM './data-mart/hbai/by_age_category.parquet'
       WHERE geography_code=='${place}' 
       AND ahc_income_status='In low income (below threshold)' 
       AND bhc_income_status='Not in low income (at or above threshold)'
@@ -27,7 +27,7 @@ export const get_savings_and_investments_for_place = (place: string) => {
           date,
           "Savings and Investments of Adults in the Family of the Individual",
           percent
-        FROM hbai_savings_investments
+        FROM './data-mart/hbai/by_savings_and_investments.parquet'
         WHERE geography_code=='${place}'
         AND ahc_income_status='In low income (below threshold)' 
         AND bhc_income_status='Not in low income (at or above threshold)'
@@ -47,7 +47,7 @@ export const low_income_ethnicity = (place: string) => {
           date,
           "Ethnic Group of the Head of the Household",
           percent
-        FROM hbai_ethnicity
+        FROM './data-mart/hbai/by_ethnic_group.parquet'
         WHERE geography_code=='${place}'
         AND ahc_income_status='In low income (below threshold)' 
         AND bhc_income_status='Not in low income (at or above threshold)'
@@ -66,7 +66,7 @@ export const low_income_marital_status = (place: string) => {
           date,
           "Marital Status of Adults and Type of Couple in the Family of the Individual",
           percent
-        FROM hbai_marital_status
+        FROM './data-mart/hbai/by_marital_status.parquet'
         WHERE geography_code=='${place}'
         AND ahc_income_status='In low income (below threshold)' 
         AND bhc_income_status='Not in low income (at or above threshold)'
@@ -85,7 +85,7 @@ export const low_income_tenure_type = (place: string) => {
           date,
           "Tenure Type of the Household of the Individual",
           percent
-        FROM hbai_tenure_type
+        FROM './data-mart/hbai/by_tenure_type.parquet'
         WHERE geography_code=='${place}'
         AND ahc_income_status='In low income (below threshold)' 
         AND bhc_income_status='Not in low income (at or above threshold)'
@@ -117,9 +117,9 @@ export const effect_of_house_prices_tenure = (place: string) => {
         END
         ) 
       AS percent_ahc_only 
-    FROM hbai_tenure_type 
+    FROM './data-mart/hbai/by_tenure_type.parquet'
     WHERE geography_code=='${place}'
-    AND date==(SELECT MAX(date) FROM hbai_tenure_type) 
+    AND date==(SELECT MAX(date) FROM './data-mart/hbai/by_tenure_type.parquet') 
     GROUP BY 
       "Tenure Type of the Household of the Individual"
     `)
