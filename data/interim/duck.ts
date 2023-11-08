@@ -24,26 +24,6 @@ export const freeSchoolMeals = (place: string) =>
     () => connection.query(`PIVOT (SELECT date, "phase_type_grouping", value FROM fsm WHERE geography_code=='${place}') ON "phase_type_grouping" USING AVG(value) ORDER BY date ASC;`)
   );
 
-export const happiness = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Happiness') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
-);
-
-export const anxiety = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Anxiety') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
-);
-
-export const worthwhile = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Worthwhile') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
-);
-
-export const life_satisfaction = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT Time, Estimate, v4_3 FROM personal_wellbeing WHERE "administrative-geography"=='${place}' AND "MeasureOfWellbeing"=='Life satisfaction') ON Estimate USING AVG(v4_3) ORDER BY Time;`)
-);
-
 export const council_tax = (place: string) =>
   runQuery(
     () => connection.query(`PIVOT(SELECT strftime(date, '%x') as date, CAST(value as FLOAT) AS value, variable_name FROM cts WHERE geography_code=='${place}') on variable_name using AVG(value) ORDER BY date DESC LIMIT 30;`)

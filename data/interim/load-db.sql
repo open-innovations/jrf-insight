@@ -3,7 +3,7 @@ CREATE OR REPLACE TABLE claimants AS SELECT * FROM read_csv_auto('./data/claiman
 CREATE OR REPLACE TABLE house_prices AS SELECT * FROM read_csv_auto('./data/house-prices/house-prices.csv', nullstr='NA');
 CREATE OR REPLACE TABLE fsm AS SELECT * FROM read_csv_auto('./data/school-pupils-characteristics/free_school_meals.csv');
 
-CREATE OR REPLACE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data/personal-wellbeing/wellbeing-local-authority.csv');
+-- CREATE OR REPLACE TABLE personal_wellbeing AS SELECT * FROM read_csv_auto('./data/personal-wellbeing/wellbeing-local-authority.csv');
 CREATE OR REPLACE TABLE lm AS SELECT * FROM read_csv_auto('./data/labour-market/labour-market.csv', nullstr='NA');
 CREATE OR REPLACE TABLE fuel_poverty AS SELECT * FROM read_csv_auto('./data/fuel-poverty/fuel-poverty.csv');
 

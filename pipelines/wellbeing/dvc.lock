@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: papermill download.ipynb ../../data/_working/output/download.ipynb
+    deps:
+    - path: download.ipynb
+      hash: md5
+      md5: 072c4e8238f738a467a5c9f37716dedf
+      size: 1628
+    outs:
+    - path: ../../data-mart/personal-wellbeing/wellbeing-local-authority.parquet
+      hash: md5
+      md5: 46102119c58f96a178b3aa1478c965a2
+      size: 760162
+    - path: ../../data/personal-wellbeing/wellbeing-local-authority.csv
+      hash: md5
+      md5: 3371070584917ef14fa4cb87a7bd215a
+      size: 8723082

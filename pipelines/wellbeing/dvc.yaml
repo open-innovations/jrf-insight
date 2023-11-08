@@ -1,0 +1,14 @@
+vars:
+  - top: '../..'
+stages:
+  download:
+    cmd: papermill download.ipynb ${top}/data/_working/output/download.ipynb
+    deps:
+      - download.ipynb
+    outs:
+      - ${top}/data-mart/personal-wellbeing/wellbeing-local-authority.parquet:
+          persist: false
+          cache: false
+      - ${top}/data/personal-wellbeing/wellbeing-local-authority.csv:
+          persist: false
+          cache: false

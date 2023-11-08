@@ -161,7 +161,7 @@
     </p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
-    {% set chart_data = data.spotlight.health.time_series.happiness(geo) %}
+    {% set chart_data = dataset.personal_wellbeing.happiness(geo) %}
     {% if chart_data.rows | length > 0 %}
       {{ comp.oi.chart.line({
         config: {
@@ -257,7 +257,7 @@
       "Overall, to what extent do you feel that the things you do in your life are worthwhile?" in {{ this_place.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
-    {% set chart_data = data.spotlight.health.time_series.worthwhile(geo) %}
+    {% set chart_data = dataset.personal_wellbeing.worthwhile(geo) %}
     {% if chart_data.rows | length > 0 %}
       {{ comp.oi.chart.line({
         config: {
@@ -354,7 +354,7 @@
       feel yesterday?" in {{ this_place.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
-    {% set chart_data = data.spotlight.health.time_series.life_satisfaction(geo) %}
+    {% set chart_data = dataset.personal_wellbeing.life_satisfaction(geo) %}
     {% if chart_data.rows | length > 0 %}
       {{ comp.oi.chart.line({
         config: {
@@ -450,7 +450,7 @@
       "Overall, how satisfied are you with your life nowadays?" in {{ this_place.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
-    {% set chart_data = data.spotlight.health.time_series.anxiety(geo) %}
+    {% set chart_data = dataset.personal_wellbeing.anxiety(geo) %}
     {% if chart_data.rows | length > 0 %}
       {{ comp.oi.chart.line({
         config: {
