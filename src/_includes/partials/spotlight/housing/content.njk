@@ -96,7 +96,8 @@
       <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
     {% endcomp %}
-    {% if geo in data.spotlight.housing.bar_charts.current_rental_prices.names %}
+    {% set chart_data = data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo) %}
+    {% if chart_data.rows | length > 0 %}
       {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
         {{comp.oi.chart.bar({
           config: {

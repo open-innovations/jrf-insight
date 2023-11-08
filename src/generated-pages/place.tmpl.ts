@@ -8,7 +8,7 @@ type PlaceDetails = {
 interface PlaceGenOptions {
   places: {
     list: Array<PlaceKey>;
-    lookup: Record<PlaceKey, PlaceDetails>;
+    placeLookup: (place: string) => PlaceDetails;
   };
   nav: {
     places: Array<PlaceKey>;
@@ -21,7 +21,7 @@ export const tags = ["place"];
 
 export default function* ({ places, nav }: PlaceGenOptions) {
   for (const place of places.list) {
-    const { key, name, type } = places.lookup[place];
+    const { key, name, type } = places.placeLookup(place);
     const navOrder = nav.places.findIndex(x => x === key) + 1 || undefined;
     yield {
       url: `/place/${key}/`,
