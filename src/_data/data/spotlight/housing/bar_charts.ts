@@ -14,7 +14,7 @@ export const current_rental_prices_for_place = (place: string) => {
           WHERE geography_code == '${place}'
         )
         ON geography_code
-        USING SUM(value);
+        USING FSUM(value);
       `)
     );
   } catch (e) {
