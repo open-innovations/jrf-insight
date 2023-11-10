@@ -27,6 +27,10 @@ files_to_unzip <- files_to_unzip$Name[grepl("8.1a|8.7a", files_to_unzip$Name)]
 
 unzip(local_zip_file, files = files_to_unzip, exdir = "data-raw/ashe")
 
+# discover the year of the data from the filename
+data_year <- stringr::str_extract(files_to_unzip, "[0-9]{4}") |>
+  unique()
+
 ashe_file_8_1a <- file.path("data-raw/ashe", files_to_unzip[grepl("8.1a", files_to_unzip)])
 
 ashe_file_8_7a <- file.path("data-raw/ashe", files_to_unzip[grepl("8.7a", files_to_unzip)])
@@ -37,7 +41,7 @@ ashe_sheets <- readxl::excel_sheets(ashe_file_8_1a)
 geography_code_name_only <- readr::read_csv("data/geo/geography_code_name_only.csv")
 
 ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4, na = c("x", "..", ":", "-")) |>
-  dplyr::mutate(date = "2022") |>
+  dplyr::mutate(date = data_year) |>
   dplyr::select(date,
                 geography_code = Code,
                 geography_name = Description,
@@ -48,7 +52,7 @@ ashe_8_1a <- readxl::read_excel(ashe_file_8_1a, sheet = "All", skip = 4, na = c(
   dplyr::filter(geography_code %in% geography_code_name_only$code)
 
 ashe_8_7a <- readxl::read_excel(ashe_file_8_7a, sheet = "All", skip = 4, na = c("x", "..", ":", "-")) |>
-  dplyr::mutate(date = "2022") |>
+  dplyr::mutate(date = data_year) |>
   dplyr::select(date,
                 geography_code = Code,
                 geography_name = Description,
