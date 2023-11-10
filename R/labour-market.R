@@ -28,3 +28,4 @@ lm_out <- dplyr::bind_rows(lm, lm_north) |>
   dplyr::select(-measures_name)
 
 readr::write_csv(lm_out, 'data/labour-market/labour-market.csv')
+arrow::write_parquet(lm_out, 'data-mart/labour-market/labour-market.parquet')
