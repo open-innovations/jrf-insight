@@ -2,7 +2,41 @@
 
 # https://www.gov.uk/government/statistics/individual-insolvencies-by-location-age-and-gender-england-and-wales-2022
 
-insolvencies_la_file <- list.files('data-raw/individual-insolvencies/lad',
+
+collection_url <- "https://www.gov.uk/government/collections/individual-insolvency-statistics-releases"
+
+links <- rvest::read_html(collection_url) |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href")
+
+target_link <- links[grepl("individual-insolvencies-by-location", links)]
+
+most_recent <- stringr::str_extract(target_link, "[0-9]{4}")
+latest_date <- which(most_recent == max(most_recent))
+
+most_recent_link <- target_link[latest_date]
+
+next_url <- paste0("https://www.gov.uk", most_recent_link)
+
+target_page <- rvest::read_html(next_url) |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href") |>
+  unique()
+
+files_to_download <- target_page[grepl("by_Location__England.*.xlsx$|Ward.*.csv$", target_page)]
+files_to_download <- files_to_download[!grepl("Metadata", files_to_download)]
+
+lapply(files_to_download, function(x) {
+  download.file(x,
+                file.path("data-raw", "individual-insolvencies", basename(x)),
+                mode = "wb")
+})
+
+
+
+
+insolvencies_la_file <- list.files('data-raw/individual-insolvencies',
+                                   pattern = "Location",
                                    full.names = TRUE)
 
 sheets <- readxl::excel_sheets(insolvencies_la_file)
@@ -44,7 +78,8 @@ insolvencies_la <- lapply(sheets, function(sht) {
                 variable,
                 value)
 
-insolvencies_ward_file <- list.files('data-raw/individual-insolvencies/ward',
+insolvencies_ward_file <- list.files('data-raw/individual-insolvencies',
+                                     pattern = "Ward",
                                      full.names = TRUE)
 
 insolvencies_ward <- readr::read_csv(insolvencies_ward_file)
@@ -53,7 +88,7 @@ dtypes <- sapply(insolvencies_ward, \(x) class(x))
 numeric_cols <- names(dtypes[dtypes == "numeric"])
 
 insolvencies_ward <- insolvencies_ward |>
-  tidyr::pivot_longer(dplyr::all_of(numeric_cols), 'date') |>
+  tidyr::pivot_longer(dplyr::all_of(numeric_cols), names_to = 'date') |>
   dplyr::mutate(geography_type = 'ward') |>
   dplyr::select(date,
                 geography_code = ward_code,
@@ -61,3 +96,9 @@ insolvencies_ward <- insolvencies_ward |>
                 geography_type,
                 variable = insolvency_type,
                 value)
+
+insolvencies <- dplyr::bind_rows(insolvencies_la,
+                                 insolvencies_ward)
+
+readr::write_csv(insolvencies, "data/insolvencies/insolvencies.csv")
+arrow::write_parquet(insolvencies, "data-mart/insolvencies/insolvencies.parquet")
