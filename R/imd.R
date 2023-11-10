@@ -1,5 +1,22 @@
 # https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
 
+
+# download files 7 and 10
+
+collection_url <- "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019"
+
+links <- rvest::read_html(collection_url) |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href")
+
+imd_files <- links[grepl("File_7|File_10|File_11", links)] |> unique()
+imd_files <- imd_files[grepl(".xlsx$|.csv$", imd_files)]
+
+lapply(imd_files, function(x) {
+  download.file(x, destfile = file.path("data-raw", "imd", basename(x)), mode = "wb")
+})
+
+
 imd_file <- list.files('data-raw/imd', pattern = 'File_7', full.names = TRUE)
 
 imd_all_lsoa <- readr::read_csv(imd_file) |>
@@ -62,3 +79,4 @@ process_imd_lad <- function(files = NULL) {
 imd <- process_imd_lad()
 
 readr::write_csv(imd, 'data/imd/imd.csv')
+arrow::write_ipc_file(imd, 'data-mart/imd/imd.parquet')
