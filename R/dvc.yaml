@@ -3,7 +3,6 @@
 stages:
   # ashe = COLLECTION - big one - more work required - unzip from file, etc
   ashe:
-    frozen: true
     cmd: Rscript R/ashe.R
     always_changed: true
     wdir: ..
