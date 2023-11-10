@@ -12,6 +12,9 @@ stages:
       - data/ashe/weekly-earnings.csv:
           persist: false
           cache: false
+      - data-mart/ashe/weekly-earnings.parquet:
+          persist: false
+          cache: false
 
   claimant-count:
     cmd: Rscript R/claimant-count.R
@@ -23,10 +26,12 @@ stages:
       - data/claimant-count/claimant-count.csv:
           persist: false
           cache: false
+      - data-mart/claimant-count/claimant-count.parquet:
+          persist: false
+          cache: false
 
   # ctsop-households = COLLECTION
   ctsop-households:
-    frozen: true
     cmd: Rscript R/ctsop-households.R
     always_changed: true
     wdir: ..
@@ -36,10 +41,12 @@ stages:
       - data/households/households.csv:
           persist: false
           cache: false
+      - data-mart/households/households.parquet:
+          persist: false
+          cache: false
 
   # fuel-poverty = COLLECTION
   fuel-poverty:
-    frozen: true
     cmd: Rscript R/fuel-poverty.R
     always_changed: true
     wdir: ..
@@ -47,6 +54,23 @@ stages:
       - R/fuel-poverty.R
     outs:
       - data/fuel-poverty/fuel-poverty.csv:
+          persist: false
+          cache: false
+      - data-mart/fuel-poverty/fuel-poverty.parquet:
+          persist: false
+          cache: false
+
+  gender-pay-gap:
+    cmd: Rscript R/gender-pay-gap.R
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/gender-pay-gap.R
+    outs:
+      - data/gender-pay-gap/gender-pay-gap.csv:
+          persist: false
+          cache: false
+      - data-mart/gender-pay-gap/gender-pay-gap.parquet:
           persist: false
           cache: false
 
@@ -66,7 +90,6 @@ stages:
 
   # house-prices
   house-prices:
-    frozen: true
     cmd: Rscript R/house-prices.R
     always_changed: true
     wdir: ..
@@ -74,6 +97,9 @@ stages:
       - R/house-prices.R
     outs:
       - data/house-prices/house-prices.csv:
+          persist: false
+          cache: false
+      - data-mart/house-prices/house-prices.parquet:
           persist: false
           cache: false
 
@@ -88,32 +114,39 @@ stages:
       - data/imd/imd.csv:
           persist: false
           cache: false
+      - data-mart/imd/imd.parquet:
+          persist: false
+          cache: false
 
   # individual-insolvencies = COLLECTION
   individual-insolvencies:
-    frozen: true
     cmd: Rscript R/individual-insolvencies.R
     always_changed: true
     wdir: ..
     deps:
       - R/individual-insolvencies.R
-    # outs:
-    #   - data/individual-insolvencies/individual-insolvencies.csv:
-    #       persist: false
-    #       cache: false
+    outs:
+      - data/individual/individual.csv:
+          persist: false
+          cache: false
+      - data-mart/individual/individual.parquet:
+          persist: false
+          cache: false
 
   # R/jobs-below-living-wage.R
   jobs-below-living-wage:
-    frozen: true
     cmd: Rscript R/jobs-below-living-wage.R
     always_changed: true
     wdir: ..
     deps:
       - R/jobs-below-living-wage.R
-    # outs:
-    #   - data/jobs-below-living-wage/jobs-below-living-wage.csv:
-    #       persist: false
-    #       cache: false
+    outs:
+      - data/jobs-below-living-wage/jobs-below-living-wage.csv:
+          persist: false
+          cache: false
+      - data-mart/jobs-below-living-wage/jobs-below-living-wage.parquet:
+          persist: false
+          cache: false
 
   # R/labour-market.R
   labour-market:
@@ -126,10 +159,12 @@ stages:
       - data/labour-market/labour-market.csv:
           persist: false
           cache: false
+      - data-mart/labour-market/labour-market.parquet:
+          persist: false
+          cache: false
 
   # R/local-council-tax-support.R
   council-tax-support:
-    frozen: true
     cmd: Rscript R/local-council-tax-support.R
     always_changed: true
     wdir: ..
@@ -139,19 +174,24 @@ stages:
       - data/council-tax-support/council-tax-support.csv:
           persist: false
           cache: false
+      - data-mart/council-tax-support/council-tax-support.parquet:
+          persist: false
+          cache: false
 
   # R/mortgage-landlord-possession.R
   mortgage-landlord-possession:
-    frozen: true
     cmd: Rscript R/mortgage-landlord-possession.R
     always_changed: true
     wdir: ..
     deps:
       - R/mortgage-landlord-possession.R
-    # outs:
-    #   - data/mortgage-landlord-posession/mortgage-landlord-posession.csv:
-    #       persist: false
-    #       cache: false
+    outs:
+      - data/mortgage-landlord-posession/mortgage-landlord-posession.csv:
+          persist: false
+          cache: false
+      - data-mart/mortgage-landlord-posession/mortgage-landlord-posession.parquet:
+          persist: false
+          cache: false
 
   # R/population-estimates.R
   population-estimates:
@@ -169,7 +209,6 @@ stages:
 
   # R/rental-prices.R
   rental-prices:
-    # frozen: true
     cmd: Rscript R/rental-prices.R
     always_changed: true
     wdir: ..
@@ -179,10 +218,12 @@ stages:
       - data/rental-prices/rental-prices.csv:
           persist: false
           cache: false
+      - data-mart/rental-prices/rental-prices.parquet:
+          persist: false
+          cache: false
 
   # R/statutory-homelessness.R
   statutory-homelessness:
-    frozen: true
     cmd: Rscript R/statutory-homelessness.R
     always_changed: true
     wdir: ..
@@ -192,4 +233,6 @@ stages:
       - data/statutory-homelessness/statutory-homelessness.csv:
           persist: false
           cache: false
-  
+      - data-mart/statutory-homelessness/statutory-homelessness.parquet:
+          persist: false
+          cache: false
