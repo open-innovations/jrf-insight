@@ -1,16 +1,30 @@
 # https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/numberandproportionofemployeejobswithhourlypaybelowthelivingwage
 
+
+
+# download ----------------------------------------------------------------
+
+collection_url <- "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/numberandproportionofemployeejobswithhourlypaybelowthelivingwage"
+
+links <- rvest::read_html(collection_url) |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href")
+
+zips <- links[grepl(".zip$", links)]
+
+zip_to_download <- zips[1]
+zip_path <- file.path("data-raw", "jobs-below-living-wage", basename(zip_to_download))
+#download first one
+download.file(paste0("http://ons.gov.uk", zip_to_download),
+              zip_path,
+              mode = "wb")
+
+files_in_zip <- unzip(zip_path, list = TRUE)
+file_to_unzip <- files_in_zip$Name[grepl("Table 7 LWF.1a", files_in_zip$Name)]
+
 folder <- 'data-raw/jobs-below-living-wage'
 
-# Unzipping ---------------------------------------------------------------
-
-# zips <- list.files(folder, pattern = '*.zip', full.names = TRUE)
-
-# lapply(zips, function(file) {
-#   all_files <- unzip(file, list = TRUE)
-#   files_to_unzip <- all_files$Name[!grepl('CV|PC', all_files$Name)]
-#   unzip(zips, files = files_to_unzip, exdir = folder)
-# })
+unzip(zip_path, files = file_to_unzip, exdir = file.path("data-raw", "jobs-below-living-wage"))
 
 
 # Process -----------------------------------------------------------------
@@ -61,3 +75,4 @@ jblw_north <- jobs_below_lw |>
 jblw <- dplyr::bind_rows(jobs_below_lw, jblw_north)
 
 readr::write_csv(jblw, "data/jobs-below-living-wage/jobs-below-living-wage.csv")
+arrow::write_parquet(jblw, "data-mart/jobs-below-living-wage/jobs-below-living-wage.parquet")
