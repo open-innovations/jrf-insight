@@ -40,3 +40,4 @@ cc_data1 <- cc_data |>
 cc_out <- dplyr::bind_rows(cc_data, cc_data1)
 
 readr::write_csv(cc_out, "data/claimant-count/claimant-count.csv")
+arrow::write_parquet(cc_out, "data-mart/claimant-count/claimant-count.parquet")
