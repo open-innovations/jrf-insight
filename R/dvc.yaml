@@ -126,10 +126,10 @@ stages:
     deps:
       - R/individual-insolvencies.R
     outs:
-      - data/individual/individual.csv:
+      - data/insolvencies/insolvencies.csv:
           persist: false
           cache: false
-      - data-mart/individual/individual.parquet:
+      - data-mart/insolvencies/insolvencies.parquet:
           persist: false
           cache: false
 
@@ -186,10 +186,10 @@ stages:
     deps:
       - R/mortgage-landlord-possession.R
     outs:
-      - data/mortgage-landlord-posession/mortgage-landlord-posession.csv:
+      - data/mortgage-landlord-possession/mortgage-landlord-possession.csv:
           persist: false
           cache: false
-      - data-mart/mortgage-landlord-posession/mortgage-landlord-posession.parquet:
+      - data-mart/mortgage-landlord-possession/mortgage-landlord-possession.parquet:
           persist: false
           cache: false
 
