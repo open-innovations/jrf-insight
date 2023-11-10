@@ -1,8 +1,20 @@
 # full collection
 
-url <- 'https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/privaterentalmarketsummarystatisticsinengland'
+collection_url <- 'https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/privaterentalmarketsummarystatisticsinengland'
 
-rental_prices_file <- 'data-raw/rental-prices/privaterentalmarketstatistics221214.xlsx'
+links <- rvest::read_html(collection_url) |>
+  rvest::html_elements("a") |>
+  rvest::html_attr("href")
+
+most_recent <- paste0("http://www.ons.gov.uk", links[grepl(".xls", links)][1])
+
+local_file <- file.path("data-raw", "rental-prices", basename(most_recent))
+
+download.file(most_recent,
+              local_file,
+              mode = "wb")
+
+rental_prices_file <- local_file
 
 sheets <- readxl::excel_sheets(rental_prices_file)
 sheets <- sheets[grepl("2.", sheets)]
@@ -34,13 +46,5 @@ rental_prices <- lapply(sheets, function(sht) {
 # links <- links[grepl(".xls", links)]
 # links <- paste0('https://www.ons.gov.uk', links)
 
-
-source(url('https://raw.githubusercontent.com/economic-analytics/edd/main/R/build-nomis-datasets.R'))
-source(url('https://raw.githubusercontent.com/economic-analytics/edd/main/R/utils-date-formats.R'))
-
-out <- rental_prices |>
-  df_to_edd_df() |>
-  edd_df_to_edd_obj()
-
 readr::write_csv(rental_prices, 'data/rental-prices/rental-prices.csv')
-saveRDS(out, 'data/rental-prices/rental-prices.rds')
+arrow::write_parquet(rental_prices, 'data-mart/rental-prices/rental-prices.parquet')
