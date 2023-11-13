@@ -5,85 +5,113 @@ stages:
     deps:
     - path: R/labour-market.R
       hash: md5
-      md5: c763ef63910a6ced78d43b6e6e07c961
-      size: 1383
+      md5: 7e18a82aa20779e80c532e74512bc11b
+      size: 1461
     outs:
+    - path: data-mart/labour-market/labour-market.parquet
+      hash: md5
+      md5: b4bad87ac0b81da6b8607b59439cd28f
+      size: 37632
     - path: data/labour-market/labour-market.csv
       hash: md5
-      md5: e5d960de8371350aa7b9881c2fdc1df3
-      size: 1428026
+      md5: 96ce67d56975938c3cc8c3789215ccb2
+      size: 1447306
   claimant-count:
     cmd: Rscript R/claimant-count.R
     deps:
     - path: R/claimant-count.R
       hash: md5
-      md5: 04a7d1ca13ca052b1e75f3211e8f9b6c
-      size: 3734
+      md5: a4057b1613e655181e7316bfbac16032
+      size: 3814
     outs:
+    - path: data-mart/claimant-count/claimant-count.parquet
+      hash: md5
+      md5: 3ceb2dba9e80630675e8cf612ac26293
+      size: 43069
     - path: data/claimant-count/claimant-count.csv
       hash: md5
-      md5: fa81a945f6842d1db9c54bacb1b1ec30
-      size: 237611
+      md5: 9ad947b44e9ce881385e378915aa8369
+      size: 237617
   rental-prices:
     cmd: Rscript R/rental-prices.R
     deps:
     - path: R/rental-prices.R
       hash: md5
-      md5: 39489a1e14bf3b15217a05e913f2aaa0
-      size: 1823
+      md5: 930694a857da3709ca808798a94f043d
+      size: 1882
     outs:
+    - path: data-mart/rental-prices/rental-prices.parquet
+      hash: md5
+      md5: 56e408c53da6d0402195c81317ca243f
+      size: 57401
     - path: data/rental-prices/rental-prices.csv
       hash: md5
-      md5: 5a679e3745572515b5f57fc6f12bb308
-      size: 874413
+      md5: bddb36cd3977e685227098b1b39fbf0b
+      size: 858231
   council-tax-support:
     cmd: Rscript R/local-council-tax-support.R
     deps:
     - path: R/local-council-tax-support.R
       hash: md5
-      md5: e376377d315bfebf269f3ad4bd51c69c
-      size: 1676
+      md5: a6a87e68ad8af6c04ca439410f864b7e
+      size: 1865
     outs:
+    - path: data-mart/council-tax-support/council-tax-support.parquet
+      hash: md5
+      md5: dd78f7e3f90329858ed3677085438653
+      size: 97467
     - path: data/council-tax-support/council-tax-support.csv
       hash: md5
-      md5: 54d688e22c6c85634b7d800c443e246f
-      size: 1484585
+      md5: e18af980244efe21cf6896e7cc9e621b
+      size: 1604522
   ashe:
     cmd: Rscript R/ashe.R
     deps:
     - path: R/ashe.R
       hash: md5
-      md5: 5423e0188fdaf83d17fe7bb2181449cd
-      size: 1727
+      md5: 0452d4bf385e44e762948d05cf7b1c68
+      size: 2968
     outs:
+    - path: data-mart/ashe/weekly-earnings.parquet
+      hash: md5
+      md5: 160aa386dae82e642efa3abba60dcabf
+      size: 6728
     - path: data/ashe/weekly-earnings.csv
       hash: md5
-      md5: a218dcd7cc849d51ee58b5215840e267
-      size: 29390
+      md5: 8b01dca1444bad110cfea96af311d91d
+      size: 24359
   ctsop-households:
     cmd: Rscript R/ctsop-households.R
     deps:
     - path: R/ctsop-households.R
       hash: md5
-      md5: 7838fece89c88727f05ef884d765cf04
-      size: 3512
+      md5: 1f34534a6a315857cab381480e513547
+      size: 5219
     outs:
+    - path: data-mart/households/households.parquet
+      hash: md5
+      md5: 80c0e3de727f6e82a684b6a11ace2e86
+      size: 66449
     - path: data/households/households.csv
       hash: md5
-      md5: ebfeac8ca74b5608a702a3e1925f89d4
-      size: 324391
+      md5: ed665701b95e393a2120a674ad45e55e
+      size: 321366
   fuel-poverty:
     cmd: Rscript R/fuel-poverty.R
     deps:
     - path: R/fuel-poverty.R
       hash: md5
-      md5: 51dd5edd43d1553af74d6fd27bea5fd0
-      size: 3208
+      md5: db93851a05a61f7c5b29ed97a67bd4b0
+      size: 4490
     outs:
+    - path: data-mart/fuel-poverty/fuel-poverty.parquet
+      hash: md5
+      md5: b484448e6e8079f2b32415428377a7c9
+      size: 61248
     - path: data/fuel-poverty/fuel-poverty.csv
       hash: md5
-      md5: 4426d6acef06d9d3c6407f5756e9d8c8
-      size: 301988
+      md5: 43f2d229d50e6fa98e67d89012838e87
+      size: 298412
   gva:
     cmd: Rscript R/gva.R
     deps:
@@ -101,26 +129,34 @@ stages:
     deps:
     - path: R/house-prices.R
       hash: md5
-      md5: 296cd76ee364b7a2c11e32f05353d6e5
-      size: 1594
+      md5: 52db6abdbbc0491688b7d0fb6d89eec2
+      size: 3007
     outs:
+    - path: data-mart/house-prices/house-prices.parquet
+      hash: md5
+      md5: e2ad51e5b2e9842e80df7a04aa494838
+      size: 344018
     - path: data/house-prices/house-prices.csv
       hash: md5
-      md5: 4ec0ae20275c60094ed2a496182f6abd
-      size: 8635629
+      md5: e790bd95d849ec3cc21d33e7b17808fe
+      size: 8715333
   imd:
     cmd: Rscript R/imd.R
     deps:
     - path: R/imd.R
       hash: md5
-      md5: c232a51cef0490cad9c0ffd9c586f925
-      size: 2552
+      md5: 6a7c1a3543c559abf154713f3f3651e3
+      size: 3090
     - path: data-raw/imd/
       hash: md5
-      md5: 645f0da32288abf6f09a64dcc0824291.dir
-      size: 10102248
-      nfiles: 3
+      md5: d9ec5022d55cfad25762767267e68a35.dir
+      size: 10135107
+      nfiles: 4
     outs:
+    - path: data-mart/imd/imd.parquet
+      hash: md5
+      md5: 7e12b5b5082c4be401467f7d86bd1b62
+      size: 27218
     - path: data/imd/imd.csv
       hash: md5
       md5: da460196ea9d054bde3021e42c8cdb49
@@ -142,25 +178,78 @@ stages:
     deps:
     - path: R/statutory-homelessness.R
       hash: md5
-      md5: 50706bf72b99ed4d4ea6d11cd7d9e4d7
-      size: 1632
+      md5: 839e9a8e66bdd1925304e6a512ca99a5
+      size: 2699
     outs:
+    - path: data-mart/statutory-homelessness/statutory-homelessness.parquet
+      hash: md5
+      md5: 7224983dc044bf7334a931dcb1ecdf79
+      size: 8984
     - path: data/statutory-homelessness/statutory-homelessness.csv
       hash: md5
-      md5: 8b5fd3cf22484250bff90b3eb7187947
+      md5: ff039a24728f288bd61f353f84fc4c52
       size: 23926
   jobs-below-living-wage:
     cmd: Rscript R/jobs-below-living-wage.R
     deps:
     - path: R/jobs-below-living-wage.R
       hash: md5
+      md5: aff60727af008edad0d5eab28eb6bfc1
+      size: 3169
+    outs:
+    - path: data-mart/jobs-below-living-wage/jobs-below-living-wage.parquet
+      hash: md5
+      md5: a11a37471bddf2081778db2512c3e68b
+      size: 7754
+    - path: data/jobs-below-living-wage/jobs-below-living-wage.csv
+      hash: md5
+      md5: 39afac5d08adad7c2f9ba305ca0d39f1
+      size: 88775
   individual-insolvencies:
     cmd: Rscript R/individual-insolvencies.R
     deps:
     - path: R/individual-insolvencies.R
       hash: md5
+      md5: f70aacb96638fa369862a1f2adf0bee8
+      size: 3407
+    outs:
+    - path: data-mart/insolvencies/insolvencies.parquet
+      hash: md5
+      md5: d55f0e02a77f5dbe4cdd6224c4d25114
+      size: 982396
+    - path: data/insolvencies/insolvencies.csv
+      hash: md5
+      md5: 18156f397809711d3dffd59636635803
+      size: 18552351
   mortgage-landlord-possession:
     cmd: Rscript R/mortgage-landlord-possession.R
     deps:
     - path: R/mortgage-landlord-possession.R
       hash: md5
+      md5: 4fc2f4bf2c924a3c445646fee824a018
+      size: 1638
+    outs:
+    - path: data-mart/mortgage-landlord-possession/mortgage-landlord-possession.parquet
+      hash: md5
+      md5: fc532f184de47b643b0995fdb5ac19f3
+      size: 901553
+    - path: data/mortgage-landlord-possession/mortgage-landlord-possession.csv
+      hash: md5
+      md5: ecfe76798c25abbd42bfbabbc585afae
+      size: 28357362
+  gender-pay-gap:
+    cmd: Rscript R/gender-pay-gap.R
+    deps:
+    - path: R/gender-pay-gap.R
+      hash: md5
+      md5: 1f6bcc8043e34edb21616fdc80da1c87
+      size: 2163
+    outs:
+    - path: data-mart/gender-pay-gap/gender-pay-gap.parquet
+      hash: md5
+      md5: 7b1064ed848e5e27828bea7637596722
+      size: 6223
+    - path: data/gender-pay-gap/gender-pay-gap.csv
+      hash: md5
+      md5: 39778073e6cc4aedcd809971eb8a639d
+      size: 30648
