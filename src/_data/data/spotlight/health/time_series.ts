@@ -1,3 +1,3 @@
 export {
   freeSchoolMeals,
-} from '../../../../../data/interim/duck.ts';
+} from '../../../dataset/free_school_meals.ts';

@@ -1,4 +1,7 @@
+export {
+  getHousePrices
+} from '../../../dataset/house_prices.ts'
+
 export { 
-    getHousePrices, 
-    council_tax 
-    } from '../../../../../data/interim/duck.ts';
+  council_tax 
+} from '../../../dataset/council_tax_support.ts';

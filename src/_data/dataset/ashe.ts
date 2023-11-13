@@ -15,7 +15,7 @@ export function weekly_earnings(placeList: string[]) {
     () => connection.query(`
       PIVOT (
         SELECT *
-        FROM ashe_weekly_earning
+        FROM './data-mart/ashe/weekly-earnings.parquet'
         WHERE geography_code IN ${arrayToDuckSet(placeList)}
       )
       ON variable_name USING SUM(value)
@@ -29,7 +29,7 @@ export const range = connection.query(`
     variable_name,
     FLOOR(MIN(CAST(value AS FLOAT))) AS min,
     CEIL(MAX(value)) AS max,
-  FROM ashe_weekly_earning
+  FROM './data-mart/ashe/weekly-earnings.parquet'
   GROUP BY variable_name
   ;
 `).reduce(tableToObjectTree, {});

@@ -10,25 +10,6 @@ export const connection = db.connect();
 const setupSql = await Deno.readTextFile(new URL(import.meta.resolve("./load-db.sql")).pathname);
 connection.query(setupSql);
 
-
-/*
- * ACCESS FUNCTIONS
- */
-export const getHousePrices = (place: string) =>
-  runQuery(
-    () => connection.query(`SELECT date, CAST(value AS FLOAT) as value FROM house_prices WHERE geography_code=='${place}' AND variable_name=='Median house price'`).map(formatDate),
-  );
-
-export const freeSchoolMeals = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT (SELECT date, "phase_type_grouping", value FROM fsm WHERE geography_code=='${place}') ON "phase_type_grouping" USING AVG(value) ORDER BY date ASC;`)
-  );
-
-export const council_tax = (place: string) =>
-  runQuery(
-    () => connection.query(`PIVOT(SELECT strftime(date, '%x') as date, CAST(value as FLOAT) AS value, variable_name FROM cts WHERE geography_code=='${place}') on variable_name using AVG(value) ORDER BY date DESC LIMIT 30;`)
-);
-
 /**
  * Utility functions below
  */
@@ -70,12 +51,5 @@ export function makeFakeCSV(rows: QueryResult) {
     rows,
   };
 }
-
-const formatDate = (
-  { date, ...rest }: { date: string | number; [k: string]: unknown },
-) => ({
-  date: new Date(date).toISOString().split("T").shift(),
-  ...rest,
-});
 
 export const arrayToDuckSet = (a: string[]) => `(${a.map(e => `'${e}'`).join(',')})`

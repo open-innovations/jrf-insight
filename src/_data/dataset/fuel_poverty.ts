@@ -19,7 +19,7 @@ export function get_fuel_poverty(placeCodes: string[]) {
           geography_name,
           value,
           variable_name
-        FROM fuel_poverty
+        FROM './data-mart/fuel-poverty/fuel-poverty.parquet'
         WHERE geography_code in ${arrayToDuckSet(placeCodes)}
       )
       ON "variable_name" USING AVG(value)
@@ -32,7 +32,7 @@ export const range = () => run(
   () => connection.query(`SELECT
       FLOOR(MIN(value)) as min,
       CEIL(MAX(value)) as max
-    FROM fuel_poverty
+    FROM './data-mart/fuel-poverty/fuel-poverty.parquet'
     WHERE variable_name=='Proportion of households fuel poor \(\%\)';
   `).shift()
 )

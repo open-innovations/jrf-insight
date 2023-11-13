@@ -6,14 +6,15 @@ import {
 export const gender_pay_gap = (place: string) => {
     return run(
         () => connection.query(`
-        PIVOT(
-            SELECT 
+        PIVOT (
+          SELECT 
             hours, 
             variable_name, 
             CAST(value AS DOUBLE) AS value 
-            FROM gender_pay_gap 
-            WHERE geography_code=='${place}') 
-        ON variable_name 
+          FROM './data-mart/gender-pay-gap/gender-pay-gap.parquet' 
+          WHERE geography_code=='${place}'
+        )
+        ON variable_name
         USING AVG(value);
         `)
     );

@@ -15,17 +15,18 @@ import {
                 sex, 
                 hours 
             FROM 
-                jblw 
+                './data-mart/jobs-below-living-wage/jobs-below-living-wage.parquet'
             WHERE 
                 geography_code=='${place}' 
             AND 
                 variable_name=='percent' 
             AND 
-                date=(SELECT MAX(date) FROM jblw)) 
-            ON 
-                sex 
-            USING 
-                AVG(value);
+                date=(SELECT MAX(date) FROM './data-mart/jobs-below-living-wage/jobs-below-living-wage.parquet')
+        ) 
+        ON 
+            sex 
+        USING 
+            AVG(value);
         ;`)
     )
   

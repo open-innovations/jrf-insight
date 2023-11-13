@@ -12,7 +12,7 @@ export const get_economic_activity_for_place = (placeCode: string) =>
           CAST(value AS decimal(5,2)) as value,
           variable_name,
           geography_code
-        FROM lm
+        FROM './data-mart/labour-market/labour-market.parquet'
         WHERE "geography_code"=='${placeCode}'
         AND "variable_name" IN (
           'Unemployment rate - aged 16-64',
