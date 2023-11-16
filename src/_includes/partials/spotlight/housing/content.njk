@@ -23,6 +23,56 @@
 
 {% comp 'layout.tab.set' %}
 
+  {% comp 'layout.tab.panel', { label: 'LHA shortfall', id: 'lha-shortfall' } %}
+    {% set chart_data = dataset.housing_allowance.shortfall_for_geo(geo) %}
+    <h3>
+      Local Housing Allowance shortfall
+    </h3>
+    {% if chart_data | length > 0 %}
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ 
+        comp.oi.chart.bar({
+          config: {
+            data: chart_data,
+            category: "property_name",
+            padding: { left: 50, bottom: 50 },
+            columns: [
+              {
+                name: 'tooltip',
+                template: '£{{ LHA_shortfall | toFixed(0) | toLocaleString() }} for {{ property_name }} rentals.'
+              }
+            ],
+            axis: {
+              x: {
+                title: { label: 'Difference between 30th percentile rental and LHA (£)' },
+                tick: { spacing: 50 }
+              },
+              y: {
+                title: { label: 'Size of property' }
+              }
+            },
+            series: [
+              { title: this_place.title, value: "LHA_shortfall", tooltip: "tooltip" }
+            ]
+          }
+        })
+      | safe }}
+      {% endcomp %}
+    {% else %}
+      <p> 
+        There is currently no data for LHA shortfall at {{ this_place.title }}.
+      </p>
+    {% endif %}
+
+    {% comp 'collapse', { heading: "What's on this chart?" } %}
+      <p>
+        LHA (Local Housing Allowance) is benchmarked to the 30th percentile of rental prices.
+        This has however been frozen for some years, and as a result LHA now lags the rental prices
+        in some areas.
+      </p>
+    {% endcomp %}
+  {% endcomp %}
+
   {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
     {% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
     <h3>Median house prices</h3>
