@@ -11,6 +11,8 @@ data$`2011` <- readr::read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_61
 
 data$`2021` <- readr::read_csv("https://www.nomisweb.co.uk/api/v01/dataset/NM_2072_1.data.csv?date=latest&geography=1778384897...1778384901,1778384941,1778384950,1778385143...1778385146,1778385159,1778384902...1778384905,1778384942,1778384943,1778384956,1778384957,1778385033...1778385044,1778385124...1778385138,1778384906...1778384910,1778384958,1778385139...1778385142,1778385154...1778385158&c2021_tenure_9=0,1001...1004,8&measures=20100")
 
+saveRDS(data, "data-raw/housing-tenure/data_from_api_unprocessed.rds")
+
 out <- lapply(data, function(x) {
   if ("C_TENHUK11_NAME" %in% names(x)) {
     x <- x |>
