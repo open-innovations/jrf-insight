@@ -2,46 +2,82 @@
 title: Home
 key: E12999901
 ---
-<p>
-  Welcome to the {{ metas.site }}.
-  This prototype site brings together poverty-related data across the North of England
-  with an aim of putting actionable insignt into the hands of practitioners.
+<p class="welcome">
+  Welcome to the Northern England Insight Finder (NEIF).
 </p>
 
-<h2>What you will find on this site</h2>
+{% comp 'collapse', { heading: 'About this prototype', level: 2 } %}
+  <p>
+    NEIF is a prototype developed in partnership by the JRF's Insight Infrastructure and Open Innovations.
+    It is a data and insight hub that, by linking up existing open-source datasets, aims to provide ease of access to data that would be,
+    otherwise, scattered across different websites, and that would require time, skills and resources to be joined up, analysed and visualised.
+  </p>
+
+  <p>
+  Where this prototype is different from other data platforms and repositories is in its ability to:
+  </p>
+
+  <ul>
+    <li>
+      Bring cohesively together and link up disparate data sources
+    </li>
+    <li>
+      Automatically update in real time data sources the moment a new release is available
+    </li>
+    <li>
+      Allow users to navigate its content by geography as well as thematic areas we refer to as 'spotlights'.
+      These are not complete definitions of a particular theme, rather an exploration of how we could bring
+      together various datasets which speak to this issue.
+    </li>
+    <li>
+      Provide, where possible and statistically sound, estimates at local level for data that would otherwise
+      be available only at Regional or Local Authority level.
+    </li>
+  </ul>
+
+  <p>
+    When developing this platform, we decided to limit its content to {{ metadata.catalogue | length }} data sources
+    and identified {{ search.pages("spotlight main") | length }} spotlights.
+    This is enough to get us going, test the concept and the data architecture required to build it.
+  </p>
+
+{% endcomp %}
 
 {% comp 'grid.masonry', { style: "--masonry-brick-size:12em;" } %}
+  {% comp 'link.block_link', { href: "/spotlight/", style: "--normal-color:white;--normal-background:var(--jrf-strong-pink);" } %}
+  {% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
+    <div class="big-number">{{ search.pages("spotlight main") | length }} spotlights</div>
+    <p>shedding light on a poverty-related topic</p>
+  {% endcomp %}
+  {% endcomp %}
 
-{% comp 'link.block_link', { href: "/spotlight/", style: "--normal-color:white;--normal-background:var(--jrf-strong-pink);" } %}
-{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
-  <div class="big-number">{{ search.pages("spotlight main") | length }} spotlights</div>
-  <p>shedding light on a poverty-related topic</p>
-{% endcomp %}
-{% endcomp %}
+  {% comp 'link.block_link', { href: "/place/", style: "--normal-color:white;--normal-background:var(--jrf-purple);" } %}
+  {% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
+    <div class="big-number">{{ places.list | length }} places</div>
+    <p>profiling key information about a place</p>
+  {% endcomp %}
+  {% endcomp %}
 
-{% comp 'link.block_link', { href: "/place/", style: "--normal-color:white;--normal-background:var(--jrf-purple);" } %}
-{% comp 'grid.block', { style: "text-align:center;align-items:center;" } %}
-  <div class="big-number">{{ places.list | length }} places</div>
-  <p>profiling key information about a place</p>
-{% endcomp %}
-{% endcomp %}
-
-{% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-moderate-cyan);" } %}
-{% comp 'grid.block', { style: "text-align:center;" } %}
-  <div class="big-number">{{ metadata.catalogue | length }} datasets</div>
-  <p> cataloguing the sources of the data shown on the site</p>
-{% endcomp %}
-{% endcomp %}
-
-{% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-green);" } %}
-{% comp 'grid.block', { style: "text-align:center;" } %}
-  <p>Latest data updated on</p>
-  <div class="big-number">{{ site.timestamp.data | date('HUMAN_DATE') }}</div>
-  <p>{{ site.timestamp.data | date('TIME') }}</p>
-{% endcomp %}
+  {% comp 'link.block_link', { href: "/metadata/", style: "--normal-color:white;--normal-background:var(--jrf-moderate-cyan);" } %}
+  {% comp 'grid.block', { style: "text-align:center;" } %}
+    <div class="big-number">{{ metadata.catalogue | length }} datasets</div>
+    <p> cataloguing the sources of the data shown on the site</p>
+  {% endcomp %}
+  {% endcomp %}
 {% endcomp %}
 
-{% endcomp %}
+{# 
+<p>
+  Below there's an example*, based on child poverty data, showing how data can be navigated,
+  the outputs and visualisations you'll be able to interact with and download.
+</p>
+
+<p>
+  * Here we would need a simple visualisation of going from national to local and where child poverty
+  feeds into the different spotlight - we thought this could be a simple visualisation drawn in PowerPoint
+  or something similar - doesn't need to be anything fancy.
+</p>
+#}
 
 <h2>Search bar</h2>
 {% include 'partials/search.njk' %}

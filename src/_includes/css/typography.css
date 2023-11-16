@@ -5,3 +5,8 @@ body {
 .big-number {
   font-size: min(17vw, 2em);
 }
+
+.welcome {
+  font-size: 1.5em;
+  text-align: center;
+}
