@@ -15,13 +15,138 @@
 {% set house_prices = this_place_data['Median house price'] %}
 {% set place_children = place[geography].relations.children %}
 
-<p>ADD MODEL IN HERE...</p>
+{#
+ADD MODEL IN HERE...
+#}
 
 <h3>Key indicators</h3>
 
-<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
+<p>
+  The following analysis reflects the experience across the population of {{ this_place.title }}.
+</p>
 
 {% comp 'layout.tab.set' %}
+
+  {% comp 'layout.tab.panel', { label: 'Tenure mix', id: 'housing-tenure-mix' } %}
+    {# 
+      Numbers living in temporary accommodation (DLUHC)
+      Numbers on social housing waiting lists (DLUHC)
+    #}
+    <h3>Housing tenure mix</h3>
+    {% set chart_data = dataset.housing_tenure.by_geo(geo) %}
+    {% if chart_data | length > 0 %}
+      {% comp 'collapse', { heading: "Long term trends" } %}
+      <p>
+        The long term trends looks at data from the previous censuses,
+        to show the change in tenure mix.
+      </p>
+      {% endcomp %}
+
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ 
+        comp.oi.chart.bar({
+          config: {
+            data: chart_data,
+            category: "date",
+            stacked: true,
+            percent: true,
+            padding: { left: 50, bottom: 50 },
+            legend: { show: true },
+            axis: {
+              x: {
+                max: 100, min: 0, tick: { spacing: 20 },
+                grid: { "stroke-dasharray": "6 2", "stroke-width": 1 },
+                title: { label: 'Tenure mix (%)' }
+              },
+              y: {
+                title: { label: 'Census year' }
+              }
+            },
+            series: [
+              {
+                title: "Social rented", value: "Social rented",
+                tooltip: "In {{ date }}, {{ Social rented | toFixed(0) }}% of tenure was in the social rented sector."
+              },
+              {
+                title: "Private rented", value: "Private rented",
+                tooltip: "In {{ date }}, {{ Private rented | toFixed(0) }}% of tenure was in the private rented sector."
+              },
+              {
+                title: "Owner occupied", value: "Owner occupied",
+                tooltip: "In {{ date }}, {{ Owner occupied | toFixed(0) }}% of tenure was owner occupied."
+              },
+              {
+                title: "Other", value: "Other",
+                tooltip: "In {{ date }}, {{ Other | toFixed(0) }}% of tenure was of another type."
+              }
+            ]
+          }
+        })
+      | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>
+        No long-term housing tenure data available for {{ this_place.title }}.
+      </p>
+    {% endif %}
+
+    {% set chart_data = dataset.dwelling_stock.dwelling_stock(geo) %}
+    {% if chart_data | length > 0 %}
+      {% comp 'collapse', { heading: "Shorter term estimates" } %}
+        <p>
+          This data is based on subnational estimates of dwellings by tenure.
+          The data for owner occupation is broken down further by owned outright and owned with a morgage or loan.
+        </p>
+      {% endcomp %}
+
+      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
+      {{ comp.oi.chart.bar({
+          config: {
+            data: chart_data,
+            stacked: true,
+            percent: true,
+            legend: { show: true },
+            padding: { left: 50, bottom: 50 },
+            category: "date",
+            series: [
+              {
+              "title": "Social rented",  
+              "value": "Social Rent"
+              },
+              {
+              "title": "Private rented",  
+              "value": "Private Rent"
+              },
+              {
+              "title": "Owned outright",  
+              "value": "Owned Outright"
+              },
+              {
+              "title": "Owned with mortgage or loan",  
+              "value": "Owned with Mortgage or Loan"
+              }
+              ],
+            axis: {
+              x: {
+                min: 0, max: 100, tick: { spacing: 20 },
+                grid: { "stroke-dasharray": "6 2", "stroke-width": 1 },
+                title: { label: 'Tenure mix (%)' }
+              },
+              y: {
+                title: { label: 'Year' }
+              }
+            } 
+          }
+        })
+      | safe }}
+      {% endcomp %}
+    {% else %}
+      <p>
+        No shorter-term housing tenure data available for {{ this_place.title }}.
+      </p>
+    {% endif %}
+  {% endcomp %}
+
 
   {% comp 'layout.tab.panel', { label: 'LHA shortfall', id: 'lha-shortfall' } %}
     {% set chart_data = dataset.housing_allowance.shortfall_for_geo(geo) %}
@@ -373,138 +498,9 @@
     {% endif %}
   {% endcomp %}
 
-  {% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
+  {# {% comp 'layout.tab.panel', { label: 'Overcrowding', id: 'overcrowding' } %}
     Placeholder
-  {% endcomp %}
-
-  {% comp 'layout.tab.panel', { label: 'Housing insecurity', id: 'housing-insecurity' } %}
-    {# 
-      Numbers living in temporary accommodation (DLUHC)
-      Numbers on social housing waiting lists (DLUHC)
-    #}
-    {% set chart_data = dataset.dwelling_stock.dwelling_stock(geo) %}
-    {% set chart_min = chart_data | min | round(-3, 'floor') %}
-    {% set chart_max = chart_data | getattr('Owned Outright') | max | round(-4, 'ceiling') %}
-    {% if chart_data | length > 0 %}
-      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
-        {{ comp.oi.chart.line({
-          config: {
-            legend: { 
-              show: true
-            },
-            data: chart_data,
-            padding: { bottom: 20, left: 20 },
-            axis: {
-              x: {
-                title: {
-                  label: "Year"
-                },
-                tick: { spacing: 1 }
-              },
-              y: {
-                title: {
-                  label: "Number of dwellings"
-                },
-                grid: {
-                  show: true
-                },
-                tick: {
-                  spacing: 20000
-                },
-                min: 0,
-                max: chart_max
-              }
-            },
-            series: [
-              {
-                title: "Owned Outright",
-                x: "date",
-                y: "Owned Outright",
-                colour: "#3EB1C8",
-                line: {
-                  "stroke-dasharray": "5 10"
-                }
-              },
-              {
-                title: "Owned with Mortgage or Loan",
-                x: "date",
-                y: "Owned with Mortgage or Loan",
-                colour: "#64A70B",
-                line: {
-                  "stroke-dasharray": "5 5"
-                }
-              },
-              {
-                title: "Private Rent",
-                x: "date",
-                y: "Private Rent",
-                colour: "#8024c3",
-                line: {
-                  "stroke-dasharray": "0 10"
-                }
-              },
-              {
-                title: "Social Rent",
-                x: "date",
-                y: "Social Rent",
-                colour: "#ce0058",
-                line: {
-                  "stroke-dasharray": "3 9"
-                }
-              }
-            ]
-          }
-        })| safe }}
-      {% endcomp %}
-      {{comp.oi.chart.bar({
-          config: {
-            data: chart_data,
-            stacked: true,
-            legend: { show: true },
-            percent: true,
-            category: "date",
-            series: [
-              {
-              "title": "Owned Outright",  
-              "value": "Owned Outright",
-              "colour": "#3EB1C8"
-              },
-              {
-              "title": "Owned with Mortgage or Loan",  
-              "value": "Owned with Mortgage or Loan",
-              "colour": "#64A70B"
-              },
-              {
-              "title": "Private Rent",  
-              "value": "Private Rent",
-              "colour": "#8024c3"
-              },
-              {
-              "title": "Social Rent",  
-              "value": "Social Rent",
-              "colour": "#ce0058"
-              }
-              ],
-            axis: {
-              x: {
-                grid: { "stroke-dasharray": "6 2", "stroke-width": 1 },
-                ticks: [
-                  { value: 20, label: '20' },
-                  { value: 40, label: '40' },
-                  { value: 60, label: '60' },
-                  { value: 80, label: '80' },
-                  { value: 100, label: '100' }
-                  ]
-                }
-              } 
-            }
-          }) | safe
-        }}
-    {% else %}
-      <p>No data available at this level.</p>
-    {% endif %}
-  {% endcomp %}
-
+  {% endcomp %} #}
 
 {% endcomp%}
 {# end of tab set #}

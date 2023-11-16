@@ -71,6 +71,9 @@ site.loadData([".csv"], csvLoader);
 site.loadData([".geojson"], jsonLoader);
 
 site.use(oiViz({
+  colour: {
+    series: [ "#3EB1C8", "#64A70B", "#8024c3", "#ce0058" ],
+  },
   font: {
     family: "chaparral-pro,sans-serif",
 	weight: 'normal',

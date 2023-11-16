@@ -14,5 +14,6 @@ if __name__ == "__main__":
         __file__), '../../../data-raw/dwelling-stock')
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+    # https://www.ons.gov.uk/peoplepopulationandcommunity/housing/datasets/subnationaldwellingstockbytenureestimates
     save('https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/housing/datasets/subnationaldwellingstockbytenureestimates/current/subnationaldwellingsbytenure2021.xlsx',
          f'{OUTPUT_DIR}/subnationaldwellingstockbytenure2021.xlsx')
