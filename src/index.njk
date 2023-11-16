@@ -6,10 +6,7 @@ key: E12999901
   Welcome to the Northern England Insight Finder (NEIF).
 </p>
 
-{% set about %}{% include 'partials/about.njk' %}{% endset %}
-{% comp 'collapse', { heading: 'About this prototype', level: 2 } %}
-  {{ about | safe }}
-{% endcomp %}
+{% include 'partials/about.njk' %}
 
 {% comp 'grid.masonry', { style: "--masonry-brick-size:12em;" } %}
   {% comp 'link.block_link', { href: "/spotlight/", style: "--normal-color:white;--normal-background:var(--jrf-strong-pink);" } %}
