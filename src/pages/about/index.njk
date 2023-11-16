@@ -3,11 +3,8 @@ title: About
 url: /about/
 ---
 
-<p>
-  This is a prototype was created <a href="https://www.jrf.org.uk/">The Joseph Rowntree Foundation</a>
-  and <a href="https://open-innovations.org/">Open Innovations</a>.
-  Please see the <a href="//open-innovations.org/projects/jrf/north-insight-finder/">Open Innovations project page</a> for more info.
-</p>
+{% include 'partials/about.njk' %}
+
 {% comp 'collapse', { heading: "Automated data pipelines"} %}
   <p>
     We've used APIs, such as StatXplore and Nomis, and web scraping, to automatically harvest the data
