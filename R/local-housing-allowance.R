@@ -89,4 +89,4 @@ for (i in 1:nrow(all_data)) {
 #
 
 readr::write_csv(all_data, "data/local-housing-allowance/local-housing-allowance.csv")
-arrow::write_parquet(all_data, "data/local-housing-allowance/local-housing-allowance.parquet")
+arrow::write_parquet(all_data, "data-mart/local-housing-allowance/local-housing-allowance.parquet")

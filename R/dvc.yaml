@@ -178,6 +178,22 @@ stages:
           persist: false
           cache: false
 
+  local-housing-allowance:
+    cmd: Rscript R/local-housing-allowance.R
+    frozen: true
+    always_changed: true
+    wdir: ..
+    deps:
+      - R/local-housing-allowance.R
+    outs:
+      - data/local-housing-allowance/local-housing-allowance.csv:
+          persist: false
+          cache: false
+      - data-mart/local-housing-allowance/local-housing-allowance.parquet:
+          persist: false
+          cache: false
+
+
   # R/mortgage-landlord-possession.R
   mortgage-landlord-possession:
     cmd: Rscript R/mortgage-landlord-possession.R

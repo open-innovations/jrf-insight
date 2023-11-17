@@ -253,3 +253,19 @@ stages:
       hash: md5
       md5: 39778073e6cc4aedcd809971eb8a639d
       size: 30648
+  local-housing-allowance:
+    cmd: Rscript R/local-housing-allowance.R
+    deps:
+    - path: R/local-housing-allowance.R
+      hash: md5
+      md5: b12fc8c861cd26cf646edfa1c26e1bfa
+      size: 3696
+    outs:
+    - path: data-mart/local-housing-allowance/local-housing-allowance.parquet
+      hash: md5
+      md5: 9dee34075254158f0e01e911ea992d32
+      size: 40884
+    - path: data/local-housing-allowance/local-housing-allowance.csv
+      hash: md5
+      md5: a95c96422cd4dfdd728b47993d48e457
+      size: 105173

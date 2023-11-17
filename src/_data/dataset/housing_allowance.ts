@@ -4,7 +4,7 @@ export const shortfall_for_geo = (place: string) => {
   const result = run(
   () => connection.query(`
     SELECT property_name, LHA_shortfall
-    FROM './data/local-housing-allowance/local-housing-allowance.parquet'
+    FROM './data-mart/local-housing-allowance/local-housing-allowance.parquet'
     WHERE geography_code == '${place}'
   `));
   
@@ -24,6 +24,6 @@ export const range = connection.query(`
   SELECT
     FLOOR(MIN(LHA_shortfall)/10)*10 AS lha_shortfall_min,
     CEIL(MAX(LHA_shortfall)/10)*10 AS lha_shortfall_max
-  FROM './data/local-housing-allowance/local-housing-allowance.parquet';
+  FROM './data-mart/local-housing-allowance/local-housing-allowance.parquet';
 `);
 
