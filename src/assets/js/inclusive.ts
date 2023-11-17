@@ -4,14 +4,14 @@
  * 
  * Based on https://inclusive-components.design/collapsible-sections/
  * 
- * Create the following HTML, including an undefined custom tag `toggle-section`
+ * Create the following HTML, including a class `toggle-section`
  * 
  * ```
- * <toggle-section>
+ * <div class="toggle-section">
  *  <h2>Section Title</h2>
  *  <p>Some content</p>
  *  <p>Some more content</p>
- * </toggle-section>
+ * </div>
  * ```
  * 
  * This will be enhanced with a button which enables expansion, and wraps everything but the first element
@@ -21,7 +21,7 @@
  */
 function initialiseToggleSections() {
   // Find all the toggle-section elements
-  const toggleSections = document.querySelectorAll('toggle-section');
+  const toggleSections = document.querySelectorAll('.toggle-section');
   
   // Iterate through each one
   Array.prototype.forEach.call(toggleSections, toggleSection => {

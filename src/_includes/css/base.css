@@ -9,7 +9,13 @@ html {
 /* Release the lobotomised owls! */
 :is(
   main,
-  section
+  section,
 ) > * + * {
-  margin-top: 1.5em;
+  margin-top: 1.25em;
+}
+
+.spaced {
+  & * + * {
+    margin-top: 1.25em;
+  }
 }

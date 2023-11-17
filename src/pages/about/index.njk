@@ -3,7 +3,7 @@ title: About
 url: /about/
 ---
 
-{% include 'partials/about.njk' %}
+{{ comp.partials.about() | safe }}
 
 {% comp 'collapse', { heading: "Automated data pipelines"} %}
   <p>
