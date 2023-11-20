@@ -11,6 +11,7 @@
 <p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
 {% comp 'layout.tab.set' %}
+
   {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
     <h3>Rates of unemployment and economic inactivity over time</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
@@ -20,15 +21,24 @@
     {% set labour_market_time_series = dataset
       .labour_market
       .get_economic_activity_for_place(geography) %}
+
     {% if labour_market_time_series | length > 0 %}
       {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
         {{ comp.oi.chart.line({
           config: {
             data: labour_market_time_series,
             legend: { show: true },
+            padding: { left: 50, bottom: 50 },
             axis: {
-              x: { title: { label: "Year" }, grid: { show: true } },
-              y: { title: { label: "% of population" }, grid: { show: true }, tick: { spacing: 5 }, min: 0 }
+              x: {
+                title: { label: "Year" },
+                grid: { show: true },
+                tick: { size: 5 }
+              } | autoXAxis(
+                labour_market_time_series,
+                { xSeries: 'date', values: helpers.dateValue, formatter: helpers.dateFormatter, tickSpacing: 12 }
+              ),
+              y: { title: { label: "% of population" }, grid: { show: true }, tick: { size: 5, spacing: 5 }, min: 0 }
             },
             series: [
               {

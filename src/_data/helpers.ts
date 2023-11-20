@@ -23,3 +23,6 @@ export const chartMin = (
   };
   return Math.floor(Math.min(min, ...data.map(x => x[label])) / round ) * round;
 }
+
+export const dateFormatter = (x: string) => new Date(x).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+export const dateValue = (x: string) => Date.parse(x);

@@ -10,12 +10,13 @@ import pagefind from "./patch/lume/pagefind.ts";
 import postcss from "lume/plugins/postcss.ts";
 // import metas from "lume/plugins/metas.ts";
 import csvLoader from "https://deno.land/x/oi_lume_utils@v0.3.1/loaders/csv-loader.ts";
-import oiViz from "https://deno.land/x/oi_lume_viz@v0.13.1/mod.ts";
+import oiViz from "https://deno.land/x/oi_lume_viz@v0.13.8/mod.ts";
 import svgo from "lume/plugins/svgo.ts";
 import metas from "./patch/lume/metas.ts";
 // import autoDependency from "https://deno.land/x/oi_lume_utils@v0.3.0/processors/auto-dependency.ts";
 import autoDependency from "./patch/auto-dependency.ts";
 import { makeFakeCSV } from "./data/interim/duck.ts";
+import { autoXAxis } from "./src/_lib/filters/autoXAxis.ts";
 
 const nunjucks = {
   options: {
@@ -157,6 +158,8 @@ site.filter("sensible_tick_size", n => {
   const rounded = Math.ceil(n / 10**exponent) * 10**exponent;
   return rounded / 4;
 })
+
+site.filter('autoXAxis', autoXAxis)
 
 site.filter("DEBUG", (o) => `<pre style="font-size:0.7em">${JSON.stringify(o, null, 2)}</pre>`);
 
