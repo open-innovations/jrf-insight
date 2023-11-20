@@ -5,27 +5,27 @@ stages:
     deps:
     - path: catalogue.yaml
       hash: md5
-      md5: 1df4d20d3d8e929bba3a4774ba055c3f
-      size: 5608
+      md5: 43b8492ef3b14a21e7c065b98735b8de
+      size: 5713
     - path: metadata.py
       hash: md5
-      md5: cb9ed92f31565fc1b0912eebc7d9a021
-      size: 2482
+      md5: e62b560eadbfb89d743d47a34940d64f
+      size: 2560
     - path: prep-metadata.ipynb
       hash: md5
-      md5: 13aba53239d538c8d83fb1974216cb62
-      size: 44127
+      md5: 40306754fd9971f984384bb653f796d3
+      size: 47283
     outs:
     - path: ../../src/_data/metadata/catalogue.json
       hash: md5
-      md5: c6231d55d6f8b4414f0087b0887b17e5
-      size: 2796522
+      md5: 01d4534f52fc0955e935594be7cd328a
+      size: 3227987
   list:
     cmd: papermill list-metadata.ipynb output/list-metadata.ipynb
     deps:
     - path: ../../data
       hash: md5
-      md5: 30892590b7ab969c5735fdeedd21ab3b.dir
+      md5: 8425949359a4aa8d31aed0b6d0d5bdfe.dir
       size: 154183353
       nfiles: 510
     - path: list-metadata.ipynb
@@ -35,5 +35,5 @@ stages:
     outs:
     - path: catalogue.yaml
       hash: md5
-      md5: 1df4d20d3d8e929bba3a4774ba055c3f
-      size: 5608
+      md5: 43b8492ef3b14a21e7c065b98735b8de
+      size: 5713

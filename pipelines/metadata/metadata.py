@@ -32,7 +32,17 @@ class Fact:
 
 
 class Metadata:
-    def load(self, dataset_path: str, loader=pd.read_csv, variables=None, values=None, ignored=None, root_dir='', id=None, group=None):
+    def load(
+        self,
+        dataset_path: str,
+        loader=pd.read_csv,
+        variables=None,
+        values=None,
+        ignored=None,
+        root_dir='',
+        id=None,
+        group=None
+    ):
         if variables is None:
               variables = ['variable_name']
         if values is None:

@@ -169,6 +169,10 @@
   file: housing-tenure/housing-tenure.csv
   name: Housing Tenure
   type: .csv
+  values:
+  - VALUE
+  variables:
+  - TENURE
   view: housing-tenure
 - dataset: local-housing-allowance
   file: local-housing-allowance/local-housing-allowance.csv
@@ -180,10 +184,14 @@
   name: Insolvencies
   pipeline: R/individual-insolvencies.R
   type: .csv
+  variables:
+  - variable
   view: insolvencies
 - dataset: mortgage-landlord-possession
   file: mortgage-landlord-possession/mortgage-landlord-possession.csv
   name: Mortgage landlord posessions
   pipeline: R/mortgage-landlord-possession.R
   type: .csv
+  variables:
+  - possession_action
   view: mortgage-landlord-possession

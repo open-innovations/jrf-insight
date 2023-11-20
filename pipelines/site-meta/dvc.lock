@@ -5,6 +5,6 @@ stages:
     deps:
     - path: ../../data/interim
       hash: md5
-      md5: 42d25cfe4c3819990a2c1e0446bf6c23.dir
-      size: 2272518
-      nfiles: 6
+      md5: 78c4b181fdec1e2ca7268f76aa7ea2ff.dir
+      size: 2268797
+      nfiles: 5

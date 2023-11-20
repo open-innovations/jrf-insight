@@ -131,8 +131,8 @@ stages:
     deps:
     - path: ../../data/interim/place_data.parquet
       hash: md5
-      md5: abc98965d80359f777e9fff6d386a7ad
-      size: 158773
+      md5: 83611b563a35063ed1b6f4d4eaf8cfe5
+      size: 158826
     - path: ../../data/interim/shapes.parquet
       hash: md5
       md5: e273cc16c7db86803619205897fe4599
