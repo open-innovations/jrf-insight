@@ -179,6 +179,7 @@
         config: {
           legend: { show: true },
           data: chart_data,
+          padding: { left: 50, bottom: 50 },
           axis: {
             x: { 
                 title: { label: "Year" }, 
@@ -189,7 +190,7 @@
                   { value: "24", label: "2017-18 - 2019-20", tickSize: 8 }
                   ]
                 },
-            y: { title: { label: "Percentage in low income poverty" }, grid: { show: true }, tick: { spacing: 5 }, min: 0, max: 20 }
+            y: { title: { label: "Percentage in low income poverty" }, grid: { show: true }, tick: { spacing: 5, size: 8 }, min: 0, max: 20 }
           },
           series: [
             {
@@ -244,32 +245,34 @@
         {{comp.oi.chart.bar({
             config: {
               data: chart_data,
-              stacked: true,
+              stacked: false,
               legend: { 
                 show: true
                 },
+              padding: { left: 50, bottom: 50 },
               category: "hours",
               series: [
                   {
                   "title": "All (%)",  
-                  "value": "All",
-                  "colour": "#64A70B"
+                  "value": "All"
                   },
                   {
                   "title": "Female (%)",  
-                  "value": "Female",
-                  "colour": "#3EB1C8"
+                  "value": "Female"
                   },
                   {
                   "title": "Male (%)",  
-                  "value": "Male",
-                  "colour": "#8024c3"
+                  "value": "Male"
                   }
                 ], 
               axis: {
                 x: {
+                  min: 0,
                   tick: {
-                    spacing: 10
+                    spacing: 20
+                  },
+                  title: {
+                    label: 'Percentage of jobs below living wage'
                   }
                 }
               }
@@ -369,7 +372,7 @@
         config: {
           legend: { show: true },
           data: chart_data,
-          padding: { bottom: 50 },
+          padding: { left: 50, bottom: 50 },
           axis: {
             x: { title: { label: "3 year period" },
                 ticks: [
@@ -381,20 +384,20 @@
                 },
             y: {
               title: { label: "Percentage in low income poverty" }, grid: { show: true },
-              tick: { spacing: 5 }, min: 0, max: 30
+              tick: { spacing: 5, size: 5 }, min: 0, max: 30
             }
           },
           series: [
             {
-              title: "Asian/ Asian British", x: "date", y: "Asian/ Asian British",
+              title: "Asian/Asian British", x: "date", y: "Asian/ Asian British",
               line: { 'stroke-width': 5 }, points: { size: 10 }
             },
             {
-              title: "Black/ African/ Caribbean/ Black British", x: "date", y: "Black/ African/ Caribbean/ Black British",
+              title: "Black/African/Caribbean/Black British", x: "date", y: "Black/ African/ Caribbean/ Black British",
               line: { 'stroke-width': 5 }, points: { size: 10 }
             },
             {
-              title: "Mixed/ Multiple Ethnic Groups", x: "date", y: "Mixed/ Multiple Ethnic Groups",
+              title: "Mixed/Multiple Ethnic Groups", x: "date", y: "Mixed/ Multiple Ethnic Groups",
               line: { 'stroke-width': 5 }, points: { size: 10 }
             },
             {
@@ -465,6 +468,7 @@
     {% endif %}
   {% endcomp %}
 
+  {#
   {% comp 'layout.tab.panel', {label: 'Carers', id: 'carers' } %}
     <h3>Title holder</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
@@ -474,6 +478,7 @@
       from statXplore.
     </p>
   {% endcomp %}
+  #}
 
 {% endcomp %}
 {# End of tab set #}
