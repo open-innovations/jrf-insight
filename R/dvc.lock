@@ -26,12 +26,12 @@ stages:
     outs:
     - path: data-mart/claimant-count/claimant-count.parquet
       hash: md5
-      md5: 3ceb2dba9e80630675e8cf612ac26293
-      size: 43069
+      md5: 92dd31de8ae8a31006abf43ca19f38d2
+      size: 43071
     - path: data/claimant-count/claimant-count.csv
       hash: md5
-      md5: 9ad947b44e9ce881385e378915aa8369
-      size: 237617
+      md5: f525b43b9abb6caddc45369b1477662c
+      size: 237649
   rental-prices:
     cmd: Rscript R/rental-prices.R
     deps:

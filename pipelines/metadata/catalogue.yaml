@@ -147,10 +147,6 @@
   file: school-pupils-characteristics/free_school_meals.csv
   type: .csv
   view: free_school_meals
-- dataset: ashe
-  file: ashe/rent-earning-ratio.csv
-  type: .csv
-  view: rent-earning-ratio
 - dataset: dwelling-stock
   file: dwelling-stock/dwelling-stock.csv
   type: .csv
@@ -163,7 +159,19 @@
   file: jobs-below-living-wage/jobs-below-living-wage.csv
   type: .csv
   view: jobs-below-living-wage
-- dataset: rental-prices
-  file: rental-prices/most_recent_rental_prices.csv
+- dataset: housing-tenure
+  file: housing-tenure/housing-tenure.csv
   type: .csv
-  view: most_recent_rental_prices
+  view: housing-tenure
+- dataset: local-housing-allowance
+  file: local-housing-allowance/local-housing-allowance.csv
+  type: .csv
+  view: local-housing-allowance
+- dataset: insolvencies
+  file: insolvencies/insolvencies.csv
+  type: .csv
+  view: insolvencies
+- dataset: mortgage-landlord-possession
+  file: mortgage-landlord-possession/mortgage-landlord-possession.csv
+  type: .csv
+  view: mortgage-landlord-possession
