@@ -12,22 +12,43 @@ stages:
       - ${top}/data-mart/hbai/by_age_category.parquet:
           cache: false
           persist: false
+      - ${top}/data/hbai/by_age_category.csv:
+          cache: false
+          persist: false
       - ${top}/data-mart/hbai/by_age_of_youngest_child.parquet:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/by_age_of_youngest_child.csv:
           cache: false
           persist: false
       - ${top}/data-mart/hbai/by_ethnic_group.parquet:
           cache: false
           persist: false
+      - ${top}/data/hbai/by_ethnic_group.csv:
+          cache: false
+          persist: false
       - ${top}/data-mart/hbai/by_marital_status.parquet:
+          cache: false
+          persist: false
+      - ${top}/data/hbai/by_marital_status.csv:
           cache: false
           persist: false
       - ${top}/data-mart/hbai/by_number_of_children.parquet:
           cache: false
           persist: false
+      - ${top}/data/hbai/by_number_of_children.csv:
+          cache: false
+          persist: false
       - ${top}/data-mart/hbai/by_savings_and_investments.parquet:
           cache: false
           persist: false
+      - ${top}/data/hbai/by_savings_and_investments.csv:
+          cache: false
+          persist: false
       - ${top}/data-mart/hbai/by_tenure_type.parquet:
+          cache: false
+          persist: false  
+      - ${top}/data/hbai/by_tenure_type.csv:
           cache: false
           persist: false  
   extract:
