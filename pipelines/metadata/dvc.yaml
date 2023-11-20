@@ -15,6 +15,7 @@ stages:
     cmd: papermill prep-metadata.ipynb output/prep-metadata.ipynb
     deps:
       - prep-metadata.ipynb
+      - metadata.py
       - catalogue.yaml
     outs:
       - ${top}/src/_data/metadata/catalogue.json:

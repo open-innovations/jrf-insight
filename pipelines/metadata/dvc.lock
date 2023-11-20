@@ -7,10 +7,14 @@ stages:
       hash: md5
       md5: 1df4d20d3d8e929bba3a4774ba055c3f
       size: 5608
+    - path: metadata.py
+      hash: md5
+      md5: cb9ed92f31565fc1b0912eebc7d9a021
+      size: 2482
     - path: prep-metadata.ipynb
       hash: md5
-      md5: 6c751fa51071b28a27a849c34c9a99cc
-      size: 19546
+      md5: 13aba53239d538c8d83fb1974216cb62
+      size: 44127
     outs:
     - path: ../../src/_data/metadata/catalogue.json
       hash: md5
