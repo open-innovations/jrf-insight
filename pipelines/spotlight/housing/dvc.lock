@@ -18,8 +18,8 @@ stages:
     deps:
     - path: ../../../data/ashe/weekly-earnings.csv
       hash: md5
-      md5: a218dcd7cc849d51ee58b5215840e267
-      size: 29390
+      md5: 8b01dca1444bad110cfea96af311d91d
+      size: 24359
     - path: ../../../pipelines/spotlight/housing/rents_to_earnings.ipynb
       hash: md5
       md5: 69b46e6fe8f63caf5fc1d8029e2d8e76
@@ -27,20 +27,20 @@ stages:
     outs:
     - path: ../../../data-mart/ashe/rent-earning-ratio.parquet
       hash: md5
-      md5: bf596a8d09a0a6d629e9a3ede59975ff
-      size: 5627
+      md5: 66e95ba232b3da38de201533b9dc82da
+      size: 5397
   rental-prices:
     cmd: papermill rental_prices.ipynb ../../../data/_working/output/rental_prices.ipynb
     deps:
     - path: ../../../pipelines/spotlight/housing/rental_prices.ipynb
       hash: md5
-      md5: 63c44850f21016a8a93b8646c4b77f19
-      size: 1962
+      md5: f25fa69ec4a79c3cc01c41f75279b5ea
+      size: 2192
     outs:
     - path: ../../../data-mart/rental-prices/most_recent_rental_prices.parquet
       hash: md5
-      md5: 9b5e66392a53cd5db3e0688859e87dbe
-      size: 14338
+      md5: 1f0869a4d2438b4ffddc574c76c39b90
+      size: 14465
   dwellings:
     cmd: papermill dwelling_stock.ipynb ../../../data/_working/output/dwelling_stock.ipynb
     deps:
@@ -50,10 +50,14 @@ stages:
       size: 812366
     - path: ../../../pipelines/spotlight/housing/dwelling_stock.ipynb
       hash: md5
-      md5: 3ac2401eaef4759c50488a86a2ee5dda
-      size: 2415
+      md5: be91d69cd26eb0a8e2197cc89f88bc84
+      size: 2699
     outs:
     - path: ../../../data-mart/dwelling-stock/dwelling-stock.parquet
+      hash: md5
+      md5: 3aa0d2101d3bc59ef54203f5a282427a
+      size: 97998
+    - path: ../../../data/dwelling-stock/dwelling-stock.csv
       hash: md5
       md5: 3aa0d2101d3bc59ef54203f5a282427a
       size: 97998
@@ -62,8 +66,8 @@ stages:
     deps:
     - path: get-files.py
       hash: md5
-      md5: 506ce06c844a1ef662bf14d5bc549acb
-      size: 565
+      md5: 6132cce723bd3efa2b2c533ea8de07bd
+      size: 682
     outs:
     - path: ../../../data-raw/dwelling-stock/subnationaldwellingstockbytenure2021.xlsx
       hash: md5

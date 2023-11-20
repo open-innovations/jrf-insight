@@ -37,3 +37,6 @@ stages:
       - ${top}/data-mart/dwelling-stock/dwelling-stock.parquet:
           cache: false
           persist: false   
+      - ${top}/data/dwelling-stock/dwelling-stock.csv:
+          cache: false
+          persist: false   
