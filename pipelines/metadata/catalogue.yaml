@@ -137,41 +137,53 @@
   view: council-tax-support
 - dataset: gender-pay-gap
   file: gender-pay-gap/gender-pay-gap.csv
+  name: Gender pay gap
   type: .csv
   view: gender-pay-gap
 - dataset: hbai
   file: hbai/by_marital_status.csv
+  name: HBAI by Marital status
   type: .csv
   view: by_marital_status
 - dataset: school-pupils-characteristics
   file: school-pupils-characteristics/free_school_meals.csv
+  name: School pupil characteristics
   type: .csv
   view: free_school_meals
 - dataset: dwelling-stock
   file: dwelling-stock/dwelling-stock.csv
+  name: Dwelling stock
   type: .csv
   view: dwelling-stock
 - dataset: personal-wellbeing
   file: personal-wellbeing/wellbeing-local-authority.csv
+  name: Personal wellbeing
   type: .csv
   view: wellbeing-local-authority
 - dataset: jobs-below-living-wage
   file: jobs-below-living-wage/jobs-below-living-wage.csv
+  name: Jobs below living wage
   type: .csv
   view: jobs-below-living-wage
 - dataset: housing-tenure
   file: housing-tenure/housing-tenure.csv
+  name: Housing Tenure
   type: .csv
   view: housing-tenure
 - dataset: local-housing-allowance
   file: local-housing-allowance/local-housing-allowance.csv
+  name: Local Housing Allowance
   type: .csv
   view: local-housing-allowance
 - dataset: insolvencies
   file: insolvencies/insolvencies.csv
+  name: Insolvencies
+  pipeline: R/individual-insolvencies.R
   type: .csv
   view: insolvencies
 - dataset: mortgage-landlord-possession
   file: mortgage-landlord-possession/mortgage-landlord-possession.csv
+  name: Mortgage landlord posessions
+  pipeline: R/mortgage-landlord-possession.R
   type: .csv
   view: mortgage-landlord-possession
