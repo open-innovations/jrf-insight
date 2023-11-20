@@ -42,7 +42,7 @@ css: |
             {{ comp.oi.chart.waffle({
                 config: {
                     data: [ { 'value': value } ],
-                    size: 10,
+                    size: size or 5,
                     width: 200,
                     columns: [
                       { name: 'tooltip', template: template or '{{ value | toFixed(1) }}%' }
