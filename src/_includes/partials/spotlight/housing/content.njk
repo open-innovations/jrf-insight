@@ -15,11 +15,9 @@
 {% set house_prices = this_place_data['Median house price'] %}
 {% set place_children = place[geography].relations.children %}
 
-{#
-ADD MODEL IN HERE...
-#}
+<pre>{{ this_place.children | dump(2) }}</pre>
 
-<h3>Key indicators</h3>
+<h2>Key indicators</h2>
 
 <p>
   The following analysis reflects the experience across the population of {{ this_place.title }}.
@@ -86,7 +84,7 @@ ADD MODEL IN HERE...
       {% endcomp %}
     {% else %}
       <p>
-        No long-term housing tenure data available for {{ this_place.title }}.
+        Long-term housing tenure data is only currently available at Local Authority level.
       </p>
     {% endif %}
 
@@ -142,7 +140,7 @@ ADD MODEL IN HERE...
       {% endcomp %}
     {% else %}
       <p>
-        No shorter-term housing tenure data available for {{ this_place.title }}.
+        Shorter-term housing tenure data is only currently available at Local Authority level.
       </p>
     {% endif %}
   {% endcomp %}
@@ -153,6 +151,13 @@ ADD MODEL IN HERE...
     <h3>
       Local Housing Allowance shortfall
     </h3>
+    {% comp 'collapse', { heading: "What's on this chart?" } %}
+      <p>
+        LHA used to be benchmarked to the the 30th percentile of rental prices but
+        has been frozen in cash terms since April 2020.
+        As a result LHA now lags the rental prices in some areas.
+      </p>
+    {% endcomp %}
     {% if chart_data | length > 0 %}
       {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
       {{ 
@@ -185,17 +190,9 @@ ADD MODEL IN HERE...
       {% endcomp %}
     {% else %}
       <p> 
-        There is currently no data for LHA shortfall at {{ this_place.title }}.
+        LHA shortfall data is currently only available at Local Authority Level.
       </p>
     {% endif %}
-
-    {% comp 'collapse', { heading: "What's on this chart?" } %}
-      <p>
-        LHA used to be benchmarked to the the 30th percentile of rental prices but
-        has been frozen in cash terms since April 2020.
-        As a result LHA now lags the rental prices in some areas.
-      </p>
-    {% endcomp %}
   {% endcomp %}
 
   {% comp 'layout.tab.panel', { label: 'House prices', id: 'house-prices' } %}
@@ -329,21 +326,17 @@ ADD MODEL IN HERE...
               {
                 title: "In poverty both before and after housing costs",
                 value: "percent_ahc_and_bhc",
-                tooltip: "Both before and after housing costs\n{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%",
-                colour: "#8024c3"
+                tooltip: "Both before and after housing costs\n{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_and_bhc }}%"
               },
               {
                 title: "In poverty after housing costs only",
                 value: "percent_ahc_only",
-                tooltip: "After housing costs only\n{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_only }}%",
-                colour: "#64A70B"
+                tooltip: "After housing costs only\n{{ Tenure Type of the Household of the Individual }}: {{ percent_ahc_only }}%"
               }
             ],
             axis: { 
               x: { 
-                max: 50,
-                tick: { 
-                  spacing: 10 }, 
+                tick: { spacing: 10 }, 
                 grid: { 
                   "stroke-dasharray": "6 2", 
                   "stroke-width": 1 },
@@ -356,11 +349,11 @@ ADD MODEL IN HERE...
                   ] 
                 } 
               },
-            stacked: true,
+            stacked: false,
             legend: { show: true }
           }
-        }) | safe
-        }}
+        })
+      | safe }}
       {% endcomp %}
     {% else %}
       <p>No data available at this level.</p>
@@ -387,7 +380,7 @@ ADD MODEL IN HERE...
                 show: true
               },
               data: chart_data,
-              padding: { left: 20, bottom: 20},
+              padding: { left: 20, bottom: 20 },
               axis: {
                 x: {
                   title: {
@@ -410,8 +403,7 @@ ADD MODEL IN HERE...
                   tick: {
                     spacing: 10
                   },
-                  min: 0,
-                  max: 50
+                  min: 0
                 }
               },
               series: [
@@ -463,6 +455,7 @@ ADD MODEL IN HERE...
     {% endcomp %}
     {% if place_children | length > 0 %}
       {% set chart_data = dataset.ashe.rent_to_earnings(place_children) %}
+      <pre>{{ place_children | dump(2 )}}</pre>
       {% if chart_data | length > 0 %}
         {% comp 'layout.wrapper', { width: 'min(20em, 70%)' } %}
         {{ comp.oi.map.svg({
@@ -507,7 +500,7 @@ ADD MODEL IN HERE...
 
 
 
-<h3>Demographic breakdown</h3>
+<h2>Demographic breakdown</h2>
 
 {% comp 'layout.tab.set' %}
   {% comp 'layout.tab.panel', { label: 'Age', id: 'age' } %}

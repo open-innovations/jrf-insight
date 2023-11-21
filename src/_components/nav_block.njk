@@ -66,13 +66,13 @@ css: |
   {% endif %}
 
   {% if children and children.length > 0 %}
-  <toggle-section>
+  <div class="toggle-section">
     <h{{ heading_level + 1 }}>Lower geographies</h{{ heading_level + 1 }}>
     <ul id="contains-places">
       {% for id in children %}
         <li>{{ comp.link.place({ place: id, prefix: place_prefix }) | safe }}</li>
       {% endfor %}
     </ul>
-  </toggle-section>
+  </div>
   {% endif %}
 </nav>

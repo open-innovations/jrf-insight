@@ -1,9 +1,11 @@
 {% set geo = geography %}
 
-<h2>Poverty index </h2>
+{#
+  <h2>Poverty index </h2>
   <p>Model to be added here</p>
+#}
 
-<h3>Key indicators</h3>
+<h2>Key indicators</h2>
 
 <p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
 
@@ -539,22 +541,27 @@
     {% endif %}
   {% endcomp %}
 
+{# 
   {% comp 'layout.tab.panel', { label: 'Obesity', id: 'obesity' } %}
     <p>Placeholder.</p>
   {% endcomp %}
-
+#}
+{#
   {% comp 'layout.tab.panel', { label: 'Long-term conditions', id: 'long-term-conditions' } %}
     <p>Placeholder.</p>
   {% endcomp %}
-
+#}
+{# 
   {% comp 'layout.tab.panel', { label: 'Disability', id: 'disability' } %}
     <p>Placeholder.</p>
   {% endcomp %}
+#}
 
 {% endcomp %}
 {# end of tab set #}
 
-<h3>Demographic breakdown</h3>
+{#
+<h2>Demographic breakdown</h2>
 
 <p>
   Poverty can disproportionately affect certain groups.
@@ -567,4 +574,7 @@
   {% endcomp %}
 
 {% endcomp %}
+
+#}
+
 {# End of tab set #}
