@@ -21,7 +21,7 @@ import { autoXAxis } from "./src/_lib/filters/autoXAxis.ts";
 const nunjucks = {
   options: {
     throwOnUndefined: false,
-    dev: true,
+    dev: false,
   },
 };
 

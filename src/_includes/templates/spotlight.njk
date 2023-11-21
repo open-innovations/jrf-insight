@@ -31,7 +31,6 @@ tags:
 </div>
 </div>
 
-{% set this_place_data = query.getDataForPlace(geography) %}
 
 {#
   Infographics, as defined in the _data/spotlights.yaml,
@@ -44,16 +43,6 @@ tags:
 }) | safe }}
 
 
-
-
-
-
-
-{% if (place[geography].relations.children | length) > 0 %}
-  {% set place_data = query.getPlaceData(place[geography].relations.children) %}
-{% else %}
-  {% set place_data = [this_place_data] %}
-{% endif %}
 
 {% macro top_trump_table(name, style, columns) %}
   <table class = "{{ style }}">

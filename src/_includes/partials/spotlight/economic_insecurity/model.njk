@@ -1,5 +1,5 @@
 <h2>Poverty index </h2>
-{% set model_data = data.model.econonmic_insecurity(place[geography].relations.children) %}
+{% set model_data = data.model.econonmic_insecurity(here.relations.children or []) %}
 {% if model_data | length > 0 %}
   <p>
     This map shows the result of creating a poverty index for economic insecurity

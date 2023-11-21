@@ -1,21 +1,4 @@
 {% set geo = geography %}
-{% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
-{% set ct_working_age = this_place_data['council_tax_working_age'] %}
-{% set ct_pensioners_ratio = (this_place_data['council_tax_pensioners'] / this_place_data['number_of_pensioners']) %}
-{% set ct_working_age_ratio = (this_place_data['council_tax_working_age'] / this_place_data['number_of_working_age']) %}
-
-{% set smi_loans_in_payment_households = this_place_data['smi_loans_in_payment_households'] %}
-
-{% set homeless = this_place_data['Total households assessed as owed a duty'] %}
-{% set homeless_ratio = (this_place_data['Total households assessed as owed a duty'] / this_place_data['Number of households']) %}
-
-{% set housing_benefit = this_place_data['HB_claimants'] %}
-{% set number_of_households = this_place_data['Number of households'] %}
-{% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
-{% set house_prices = this_place_data['Median house price'] %}
-{% set place_children = place[geography].relations.children %}
-
-<pre>{{ here.relations | dump(2) }}</pre>
 
 <h2>Key indicators</h2>
 
@@ -240,7 +223,7 @@
               },
               series: [
                 {
-                  title: this_place_data.name,
+                  title: here.title,
                   x: "date",
                   y: "value",
                   colour: "#13242F",
@@ -281,7 +264,7 @@
             category: "property_code",
             series: [
               {
-              "title": this_place_data.name,  
+              title: here.title,  
               "value": geo,
               "colour": "#64A70B"
               }
@@ -453,9 +436,8 @@
       <h4>Dataset</h4> <ul><li>{{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices"}) | safe }}</li>
       <li> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }} </li></ul>
     {% endcomp %}
-    {% if place_children | length > 0 %}
-      {% set chart_data = dataset.ashe.rent_to_earnings(place_children) %}
-      <pre>{{ place_children | dump(2 )}}</pre>
+    {% if here.relations.children | length > 0 %}
+      {% set chart_data = dataset.ashe.rent_to_earnings(here.relations.children) %}
       {% if chart_data | length > 0 %}
         {% comp 'layout.wrapper', { width: 'min(20em, 70%)' } %}
         {{ comp.oi.map.svg({
@@ -657,7 +639,23 @@
 {# end of tab set #}
 
 
+{#
+REMOVING DATA TABLE
+{% set this_place_data = query.getDataForPlace(geography) %}
+{% set ct_pensioners = this_place_data['council_tax_pensioners'] %}
+{% set ct_working_age = this_place_data['council_tax_working_age'] %}
+{% set ct_pensioners_ratio = (this_place_data['council_tax_pensioners'] / this_place_data['number_of_pensioners']) %}
+{% set ct_working_age_ratio = (this_place_data['council_tax_working_age'] / this_place_data['number_of_working_age']) %}
 
+{% set smi_loans_in_payment_households = this_place_data['smi_loans_in_payment_households'] %}
+
+{% set homeless = this_place_data['Total households assessed as owed a duty'] %}
+{% set homeless_ratio = (this_place_data['Total households assessed as owed a duty'] / this_place_data['Number of households']) %}
+
+{% set housing_benefit = this_place_data['HB_claimants'] %}
+{% set number_of_households = this_place_data['Number of households'] %}
+{% set housing_benefit_percent = (100*this_place_data['HB_claimants'] / this_place_data['Number of households']) | round(1) %}
+{% set house_prices = this_place_data['Median house price'] %}
 
 {{ top_trump_table(
   name="spotlight statistics",
@@ -696,3 +694,4 @@
       ]
   ) 
 }}
+#}

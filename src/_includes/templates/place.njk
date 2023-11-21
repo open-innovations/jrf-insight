@@ -5,8 +5,8 @@ tags:
 ---
 {% set this_place_data = query.getDataForPlace(key) %}
 
-{% if (place[key].relations.children | length) > 0 %}
-  {% set place_data = query.getPlaceData(place[key].relations.children) %}
+{% if (relations.children | length) > 0 %}
+  {% set place_data = query.getPlaceData(relations.children) %}
 {% else %}
   {% set place_data = [this_place_data] %}
 {% endif %}

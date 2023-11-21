@@ -1,8 +1,7 @@
 {% set place_headlines = headlines
   .economic_insecurity
   .getInfographicValuesForPlace(geography) %}
-{% set place_children = place[geography].relations.children %}
-{% set place_and_children = [geography, place_children] | flat %}
+{% set place_and_children = [geography, here.relations.children] | flat %}
 
 {% include './model.njk' %}
 
@@ -482,10 +481,15 @@
 
 {% endcomp %}
 {# End of tab set #}
+
+
   <p>
     See also the <a href="https://www.jrf.org.uk/report/economic-security-foundation-dignity-opportunity-and-hope-age-uncertainty">briefing by JRF</a> for Economic security. 
   </p>
 
+{#
+  REMOVING DATA TABLE
+  {% set this_place_data = query.getDataForPlace(geography) %}
   {% set savings = this_place_data['households_low_income_no_savings'] %}
   {% set imd_average_score = this_place_data['imd_average_score'] %}
   {% set median_weekly_wage = this_place_data['median_weekly_wage'] %}
@@ -524,3 +528,4 @@
       ]
     ) 
   }}
+#}
