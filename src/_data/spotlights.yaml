@@ -13,7 +13,7 @@ economic_insecurity:
     defaults:
       - percentage_benefits_claimants
       - proportion_fuel_poverty
-      - people_in_deprived_places
+      # - people_in_deprived_places
     definitions:
       - key: people_in_deprived_places
         description: x% of people in this area live in the most deprived places (FAKE NUMBERS)
