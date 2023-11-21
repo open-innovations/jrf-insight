@@ -21,7 +21,7 @@ export const tags = ["place"];
 
 export default function* ({ places, nav }: PlaceGenOptions) {
   for (const place of places.list) {
-    const { key, name, type } = places.placeLookup(place);
+    const { key, name, type, children, parents, ancestors } = places.placeLookup(place);
     const navOrder = nav.places.findIndex(x => x === key) + 1 || undefined;
     yield {
       url: `/place/${key}/`,
@@ -29,6 +29,9 @@ export default function* ({ places, nav }: PlaceGenOptions) {
       title: name,
       type: type,
       navOrder,
+      relations: {
+        ancestors, parents, children,
+      }
     };
   }
 }

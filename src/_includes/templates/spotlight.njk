@@ -4,8 +4,10 @@ tags:
   - spotlight
 ---
 
-{% set this_place = search.page('place key=' + geography) %}
-{% set place_page = place[geography] %}
+{% set here = search.page('place key=' + geography) %}
+{% set this_place = here %}
+
+{{ here.relations | dump(2) }}
 
 <div class="with-sidebar">
 <div>
@@ -23,9 +25,9 @@ tags:
     spotlight: true
   },
   place_key: geography,
-  ancestors: place_page.relations.ancestors,
-  parents: place_page.relations.parents,
-  children: place_page.relations.children,
+  ancestors: here.relations.ancestors,
+  parents: here.relations.parents,
+  children: here.relations.children,
   place_prefix: '/spotlight/' + spotlight + '/'
 }) | safe }}
 </div>
