@@ -15,12 +15,12 @@
 {% set house_prices = this_place_data['Median house price'] %}
 {% set place_children = place[geography].relations.children %}
 
-<pre>{{ this_place.children | dump(2) }}</pre>
+<pre>{{ here.relations | dump(2) }}</pre>
 
 <h2>Key indicators</h2>
 
 <p>
-  The following analysis reflects the experience across the population of {{ this_place.title }}.
+  The following analysis reflects the experience across the population of {{ here.title }}.
 </p>
 
 {% comp 'layout.tab.set' %}
@@ -182,7 +182,7 @@
               }
             },
             series: [
-              { title: this_place.title, value: "LHA_shortfall", tooltip: "tooltip" }
+              { title: here.title, value: "LHA_shortfall", tooltip: "tooltip" }
             ]
           }
         })
@@ -199,7 +199,7 @@
     {% set chart_data = data.spotlight.housing.time_series.getHousePrices(geo) %}
     <h3>Median house prices</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows median house prices over time in {{ this_place.title }}.</p>
+      <p>This chart shows median house prices over time in {{ here.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "house-prices", view: "house-prices"}) | safe }}
     {% endcomp %}
     {% if chart_data.rows | length > 0 %}
@@ -265,7 +265,7 @@
     #}
     <h3>Current median rental prices by type of property</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows current median rental prices by type of property in {{ this_place.title }}.</p>
+      <p>This chart shows current median rental prices by type of property in {{ here.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices.csv"}) | safe }}
     {% endcomp %}
     {% set chart_data = data.spotlight.housing.bar_charts.current_rental_prices_for_place(geo) %}
@@ -310,7 +310,7 @@
     #}
     <h3>Tenure type and poverty rates</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}, both before and after housing costs.
+      <p>This chart shows the poverty rates by type of tenure in {{ here.title }}, both before and after housing costs.
         The threshold for low income poverty is households below 60% of median net household income in latest prices.
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
@@ -363,7 +363,7 @@
   {% comp 'layout.tab.panel', { label: 'Tenure type', id: 'tenure-type' } %}
     <h3>Poverty rates by tenure type (AHC)</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the poverty rates by type of tenure in {{ this_place.title }}.
+      <p>This chart shows the poverty rates by type of tenure in {{ here.title }}.
         The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_tenure_type"}) | safe }}
@@ -447,7 +447,7 @@
     <h3>Lower quartile rent to lower quartile earnings ratio</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>This chart shows the ratio of lower quartile rent for a 2 bedroom 
-        property to lower quartile earnings across different areas in {{ this_place.title }}. 
+        property to lower quartile earnings across different areas in {{ here.title }}. 
         A higher value means the average person spends a larger proportion of their earnings on rent.
       </p>
       <h4>Dataset</h4> <ul><li>{{ comp.sourcelink({dataset: "rental-prices", view: "rental-prices"}) | safe }}</li>
@@ -506,7 +506,7 @@
   {% comp 'layout.tab.panel', { label: 'Age', id: 'age' } %}
     <h3>People living in households below average income by age category</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the the poverty rates by by age category in {{ this_place.title }}. 
+      <p>This chart shows the the poverty rates by by age category in {{ here.title }}. 
         The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices. 
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "hbai", view: "by_age_category"}) | safe }}
@@ -588,7 +588,7 @@
   {% comp 'layout.tab.panel', { label: 'Council tax support', id: 'council-tax-support' } %}
     <h3>Council tax support</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the number of people claiming council tax support in {{ this_place.title }}.</p>
+      <p>This chart shows the number of people claiming council tax support in {{ here.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "council-tax-support", view: "council-tax-support"}) | safe }}
     {% endcomp %}
     {% set chart_data = data.spotlight.housing.time_series.council_tax(geo) %}

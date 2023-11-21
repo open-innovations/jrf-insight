@@ -4,16 +4,14 @@ tags:
   - spotlight
 ---
 
+{# Set the `here` variable to refer to the place page #}
 {% set here = search.page('place key=' + geography) %}
-{% set this_place = here %}
-
-{{ here.relations | dump(2) }}
 
 <div class="with-sidebar">
 <div>
 <p>{{ description | md | safe }}</p>
 
-<p>This is the {{ title }} spotlight page for <a href="{{ this_place.url }}">{{ this_place.title }}</a>.</p>
+<p>This is the {{ title }} spotlight page for <a href="{{ here.url }}">{{ here.title }}</a>.</p>
 
 </div>
 <div class="sidebar">

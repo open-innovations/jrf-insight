@@ -7,14 +7,14 @@
 
 <h2>Key indicators</h2>
 
-<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
+<p>The following analysis reflects the experience across the population of {{ here.title }}.</p>
 
 {% comp 'layout.tab.set' %}
 
   {% comp 'layout.tab.panel', { label: 'Free school meals', id: 'free-school-meals' } %}
     <h3>Students eligible for free school meals in state-funded schools</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p> This chart shows the percentage of pupils eligible for free school meals at different tyes of state-funded schools in {{ this_place.title }}.</p>
+      <p> This chart shows the percentage of pupils eligible for free school meals at different tyes of state-funded schools in {{ here.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "school-pupils-characteristics", view: "free_school_meals"}) | safe }}
     {% endcomp %}
     {% set chart_data = data.spotlight.health.time_series.freeSchoolMeals(geo) %}
@@ -159,7 +159,7 @@
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>
       This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-      "Overall, how happy did you feel yesterday?" in {{ this_place.title }}.
+      "Overall, how happy did you feel yesterday?" in {{ here.title }}.
     </p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
@@ -256,7 +256,7 @@
     <h3>Personal wellbeing - worthwhile</h3> 
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-      "Overall, to what extent do you feel that the things you do in your life are worthwhile?" in {{ this_place.title }}.</p>
+      "Overall, to what extent do you feel that the things you do in your life are worthwhile?" in {{ here.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
     {% set chart_data = dataset.personal_wellbeing.worthwhile(geo) %}
@@ -353,7 +353,7 @@
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
       "On a scale where 0 is “not at all anxious” and 10 is “completely anxious”, overall, how anxious did you 
-      feel yesterday?" in {{ this_place.title }}.</p>
+      feel yesterday?" in {{ here.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
     {% set chart_data = dataset.personal_wellbeing.life_satisfaction(geo) %}
@@ -449,7 +449,7 @@
     <h3>Personal wellbeing - anxiety</h3> 
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>This chart shows the percentage of people who responded as poor, fair, good, and very good to the question
-      "Overall, how satisfied are you with your life nowadays?" in {{ this_place.title }}.</p>
+      "Overall, how satisfied are you with your life nowadays?" in {{ here.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "personal-wellbeing", view: "wellbeing-local-authority"}) | safe }}
     {% endcomp %}
     {% set chart_data = dataset.personal_wellbeing.anxiety(geo) %}

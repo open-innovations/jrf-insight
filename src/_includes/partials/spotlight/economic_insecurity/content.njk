@@ -8,14 +8,14 @@
 
 <h3>Key indicators</h3>
 
-<p>The following analysis reflects the experience across the population of {{ this_place.title }}.</p>
+<p>The following analysis reflects the experience across the population of {{ here.title }}.</p>
 
 {% comp 'layout.tab.set' %}
 
   {% comp 'layout.tab.panel', { label: 'Labour market', id: 'labour-market' } %}
     <h3>Rates of unemployment and economic inactivity over time</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p>This chart shows labour market statistics for {{ this_place.title }}.</p>
+    <p>This chart shows labour market statistics for {{ here.title }}.</p>
     <h4>Dataset</h4> {{ comp.sourcelink({dataset: "labour-market", view: "labour-market"}) | safe }}
     {% endcomp %}
     {% set labour_market_time_series = dataset
@@ -73,9 +73,9 @@
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p>
       This chart shows the percentage of households in fuel poverty across the different 
-      areas in  {{ this_place.title }}.
+      areas in  {{ here.title }}.
       {% if fp_this | length > 0 %}
-        In {{ this_place.title }} {{ fp_this["Number of households in fuel poverty"] }}
+        In {{ here.title }} {{ fp_this["Number of households in fuel poverty"] }}
       of {{ fp_this['Number of households'] }} households are in fuel poverty.
       {% endif %}
     </p>
@@ -123,7 +123,7 @@
       .weekly_earnings(place_and_children) %}
       <h3>Median weekly wage by geography</h3>
       {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the median weekly wage for different areas in {{ this_place.title }}.</p>
+      <p>This chart shows the median weekly wage for different areas in {{ here.title }}.</p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "ashe", view: "weekly-earnings"}) | safe }}
       {% endcomp %}
     {% if we_all.length > 0 %}
@@ -167,7 +167,7 @@
     <h3>Percentage of people in low income households by their savings and investments</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>
-        This chart shows the poverty rates by the savings and investments of adults in the family in {{ this_place.title }}.
+        This chart shows the poverty rates by the savings and investments of adults in the family in {{ here.title }}.
         The threshold for low income poverty is households below 60% of median net household 
         income (after housing costs) in latest prices.
       </p>
@@ -234,7 +234,7 @@
     <h3>Percentage of jobs below living wage by gender and hours</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
       <p>
-        This chart shows the percentage of jobs that are paid below living wage in {{ this_place.title }}.
+        This chart shows the percentage of jobs that are paid below living wage in {{ here.title }}.
         Percentages can add to more than 100 as "All sexes" includes those already counted in "Men" and "Women". 
       </p>
       <h4>Dataset</h4> {{ comp.sourcelink({dataset: "jobs-below-living-wage", view: "jobs-below-living-wage"}) | safe }}
@@ -299,7 +299,7 @@
   {% comp 'layout.tab.panel', { label: 'Gender', id: 'gender' } %}
     <h3>Gender pay gap in different types of work</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows the gender pay gap as a percentage differenece in {{ this_place.title }}.</p>
+      <p>This chart shows the gender pay gap as a percentage differenece in {{ here.title }}.</p>
       <p><br />
         Gender pay gap (GPG) is calculated as the difference between average hourly earnings 
         (excluding overtime) of men and women as a proportion of average hourly earnings 
@@ -354,7 +354,7 @@
     <h3>People in low income households by ethnic group</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
     <p> 
-      This chart shows the poverty rates by ethnic group in {{ this_place.title }}.
+      This chart shows the poverty rates by ethnic group in {{ here.title }}.
       The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.
     </p>
     <p>
@@ -421,7 +421,7 @@
     {% set chart_data = dataset.hbai.low_income_marital_status(geography) %}
     <h3>People in low income households by marital status</h3>
     {% comp 'collapse', { heading: "What's on this chart?"} %}
-    <p> This chart shows the poverty rates by marital/cohabiting status in {{ this_place.title }}.
+    <p> This chart shows the poverty rates by marital/cohabiting status in {{ here.title }}.
       The threshold for low income poverty is households below 60% of median net household income (after housing costs) in latest prices.</p>
     <p>
       These statistics have been three-year averaged and rounded according to the guidance on 
