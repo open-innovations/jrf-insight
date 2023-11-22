@@ -12,7 +12,7 @@ url: /place/
   search.pages("place type=WD22", "title")
 ] %}
 {% if (pages | length) > 0 %}
-<h2>{{ comp.place.type({ id: pages[0].key }) | safe }}</h2>
+<h2>{{ pages[0].key | ons_code_to_type }}</h2>
 {% comp 'grid.auto' %}
 {% for page in pages %}
   {% comp "link.block_link", { href: page.url, style: "--normal-background:var(--jrf-purple);" } %}

@@ -3,219 +3,75 @@ layout: ./page.njk
 tags:
   - place
 ---
-{% set this_place_data = query.getDataForPlace(key) %}
+{% from 'macro/place.njk' import top_trump_table, place_data_table %}
 
-{% if (relations.children | length) > 0 %}
-  {% set place_data = query.getPlaceData(relations.children) %}
-{% else %}
-  {% set place_data = [this_place_data] %}
-{% endif %}
+{#- Set some useful local data -#}
+{%- set facts = places.placeData(key) -%}
+This code is setting up some local data and variables for the page.
+{%- if relations.children or [] | length > 0 -%}
+  {%- set facts_map = places.getFactsForPlaces(relations.children) -%}
+{%- else %}
+  {%- set facts_map = [facts] -%}
+{%- endif -%}
+{%- set all_places = [ relations.ancestors | reverse, key, relations.children ] | flatten -%}
+{%- set facts_table = places.getFactsForPlaces(all_places) -%}
 
 <p>
-Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
+Place page for {{ title }} ({{ key | ons_code_to_type }}).
 </p>
 
-{% set population = this_place_data['Number of persons'] %}
-{% set area = this_place_data['Area in sq km'] | round(-1) %}
-{% set population_density = (this_place_data['Number of persons'] / this_place_data['Area in sq km']) | round(0) %}
-
-{% set ratio_people_in_low_income = (this_place_data['percent_in_low_income']/100) %}
-{% set ratio_unemployment_16_64 = (this_place_data['unemployment_rate_16_64'] / 100) %}
-{% set ratio_economically_inactive = (this_place_data['economic_inactivity_16_64'] / 100) %}
-{% set ratio_children_in_low_income = (this_place_data['children_in_low_income'] / this_place_data['number_of_children']) %}
-
-{% set all_places = [
-  place[key].relations.ancestors | reverse,
-  key,
-  place[key].relations.children
-] | flatten %}
-
-{% set place_data_all = query.getDataForPlaces(all_places) %}
-
-{% macro place_data_table(places, row_titles, columns, here) %}
-  <table class='place-data'>
-    <thead>
-      <tr>
-        <th>Area</th>
-        {% for row_title, _ in columns %}
-          <th>{{ row_title }}</th>
-        {% endfor %}
-      </tr>
-    </thead>
-    <tbody>
-      {% for row in places %}
-        <tr
-          {%- if row['geography_code'] == here %} class='here'{% endif -%}
-        >
-          <td>
-            {%- if row['geography_code'] != here %}
-              <a href="/place/{{ row['geography_code'] }}/">
-              {% endif -%}
-              {{ row['name'] }} ({{ comp.place.type({ id: row['geography_code'] }) }})
-            {%- if row['geography_code'] != here %}
-              </a>
-            {% endif -%}
-          </td>
-          {% for _, column in columns %}
-            <td>{{ (row[column] | round(0)) or '—' }}</td>
-          {% endfor %}
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-{% endmacro %}
-
-{% macro top_trump_table(name, style, columns) %}
-  <table class = "{{ style }}">
-    <tr>
-      <th colspan='3'>{{ title }} - {{ name }}</th>
-    </tr>
-    {% for item in columns %}
-    <tr>
-        <td>{{ item.name }}</td>
-        {% if item.data %}
-          <td>{{ item.data }}
-          {% if item.simple_data != null %}
-            ({{ comp.nearly.ratio({ value: item.simple_data, withDirection: true }) }})
-          {% endif %}
-          </td>
-        {% else %}
-          <td>No data available for this level of geography</td>
-        {% endif %}
-    </tr>
-    {% endfor %}
-  </table>
-{% endmacro %}
-
-{# {% comp 'layout.two_column' %}
-{% comp 'layout.stack' %}
-{{ comp.info.headline({
-      number: population,
-      display: population,
-      description: 'The population of ' + title + ' is <span data-number=' + population + '>.'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: population_density,
-      display: population_density + ' population per square km',
-      description: 'POPULATION DENSITY'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
-      description: 'URBAN VS RURAL'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
-      description: 'EMPLOYMENT'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
-      description: 'HOUSEHOLD INCOME - GDHI'
-    }) | safe }}
-
-{% endcomp %}
-
-{% comp 'layout.stack' %}
-{{ comp.info.headline({
-      number: 0,
-      display: 0,
-      description: 'CHILD POVERTY (FROM LOUGHBOROUGH)'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: this_place_data['imd_older_people'],
-      display: this_place_data['imd_older_people'],
-      description: 'IMD - OLDER PEOPLE (OR MAYBE PENSION CREDIT)'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 0,
-      display: 0,
-      description: 'IMD - OVERALL'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 'NA',
-      display: 'NA',
-      description: 'PROPORTION BELOW / ABOVE LIVING WAGE'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 0,
-      display: 0,
-      description: 'PHE FINGERTIPS / ONS LONG TERM CONDITIONS'
-    }) | safe }}
-
-{{ comp.info.headline({
-      number: 0,
-      display: 0,
-      description: 'LONELINESS AND SOCIAL ISOLATION'
-    }) | safe }}
-
-{% endcomp %}
-{% endcomp %} #}
-
-{# {% if this_place_data['children_in_low_income'] %}
-  {% comp 'grid.block', {classes: 'headline'} %}
-  {% set proportion = this_place_data['children_in_low_income'] / this_place_data['number_of_children'] %}
-  <p class="big-number">
-    {{ comp.nearly.ratio({ value: proportion }) }}
-  </p>
-  <p>
-  In {{ title}}, {{ comp.nearly.ratio({ value: proportion, withDirection: true }) }}
-  ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
-</p>
-  {% endcomp %}
-{% endif %} #}
+{# Remove incomplete tables
+{% include 'partials/place/tables.njk' %}
+#}
 
 {{ comp.nav_block({
   place_key: key,
-  parents: place[key].relations.parents,
-  ancestors: place[key].relations.ancestors,
-  children: place[key].relations.children,
+  parents: relations.parents,
+  ancestors: relations.ancestors,
+  children: relations.children,
   dir: {
     spotlight: true
   }
 }) | safe }}
 
 {% comp 'layout.tab.set' %}
-  {% comp 'layout.tab.new_panel', { label: 'Population', id: 'Population' } %}
-    <h3>Population estimates for {{ title }}</h3>
-    {% comp 'collapse', { heading: "What's on this chart?"} %}
-      <p>This chart shows place-based statistics for {{ title }}. The map is coloured by population. Hover on the map for more detailed information.</p>
-    {% endcomp %}
-    {% set max_population = place_data | getattr('Number of persons') | max | round(-3, 'ceiling') %}
-    {% set min_population = place_data | getattr('Number of persons') | min | round(-3, 'floor') %}
-    {% set half_population = (max_population - min_population) / 2 + min_population %}
+{% comp 'layout.tab.new_panel', {
+  label: 'Population',
+  id: 'Population'
+} %}
+<h3>Population estimates for {{ title }}</h3>
+{% comp 'collapse', {heading: "What's on this chart?"} %}
+<p>This chart shows place-based statistics for {{ title }}. The map is coloured by population. Hover on the map for more detailed information.</p>
+{% endcomp %}
 
-    {% if place[key].map %}
-      {% comp 'layout.wrapper', { width: 'max(20em, 70%)' } %}
-      {{ comp.oi.map.svg({
+{% set max_population = facts_map | getattr('population') | max | round(-3, 'ceiling') %}
+{% set min_population = facts_map | getattr('population') | min | round(-3, 'floor') %}
+{% set half_population = (max_population - min_population) / 2 + min_population %}
+
+{% if place[key].map %}
+  {% comp 'layout.wrapper', {width: 'max(20em, 70%)'} %}
+  {{ comp.oi.map.svg({
             config: {
-              data: place_data,
-              geojson: 
-              {
+              data: facts_map,
+              geojson: {
                 data: place[key].map,
                 key: 'ons_code'
               },
               background: {
-                geojson: 'map.england', colour: 'silver' },
+                geojson: 'map.england', colour: 'silver'
+              },
               columns: [
-                { name: 'tooltip', 
-                  template: '{{ name }}\nPopulation: {{ Number of persons | toLocaleString() }}
-                              GVA (£m): {{ GVA | toLocaleString() }}
-                              Population density (per square km): {{ Population density | toFixed(0) | toLocaleString() }}
-                              No. of Households: {{ Number of households | toLocaleString() }}
+                {
+                  name: 'tooltip', 
+                  template: '{{ name }}
+                              Population: {{ population | toLocaleString() }}
+                              No. of Households: {{ number_of_households | toLocaleString() }}
+                              GVA (£m): {{ gva | toLocaleString() }}
+                              Population density (per square km): {{ population_density | toFixed(0) | toLocaleString() }}
                               <a href="../{{ geography_code }}/">Visit place page</a>'
                 }],
               key: "geography_code",
-              value: "Number of persons",
+              value: "population",
               scale: "Viridis",
               min: 0,
               padding: 50,
@@ -242,106 +98,106 @@ Place page for {{ title }} ({{ comp.place.type({ id: key }) }}).
             }
         }
       ) | safe }}
-      {% endcomp %}
-    {% endif %}
   {% endcomp %}
+{% endif %}
+{% endcomp %}
 
-  {% comp 'layout.tab.panel', { label: 'Place statistics', id: 'place-statistics' } %}
-    {{ top_trump_table(
+{% comp 'layout.tab.panel', { label: 'Place statistics', id: 'place-statistics' } %}
+{{ top_trump_table(
         name="Place statistics",
         style="top-trump-table",
         columns=[
             {
-              name: 'Population estimate', 
-              data: population, 
-              simple_data: null
-            },
-            {
-              name: 'Area (sq km)', 
-              data: area, 
-              simple_data: null
-            },
-            {
-              name: "Population density (per square km)",
-              data: population_density,
+              name: 'Population estimate',
+              data: facts.population | localise, 
               simple_data: null
             },
             {
               name: "Number of households",
-              data: this_place_data["Number of households"],
+              data: facts.number_of_households | localise,
               simple_data: null
             },
             {
-              name: "GVA {£m}",
-              data: this_place_data["GVA"],
+              name: "Population density",
+              data: facts.population_density | round(0) | localise + ' people per sq. km',
+              simple_data: null
+            },
+            {
+              name: "GVA",
+              data: "£" + ( facts.gva | localise ) + "m",
+              simple_data: null
+            },
+            {
+              name: 'Area', 
+              data: facts.area | round(0) | localise + ' sq. km', 
               simple_data: null
             }
             ]
         ) 
     }}
-  {% endcomp %}
-  {% comp 'layout.tab.panel', { label: 'Poverty statistics', id: 'poverty-statistics' } %}
-    {{ top_trump_table(
+{% endcomp %}
+{% comp 'layout.tab.panel', { label: 'Poverty statistics', id: 'poverty-statistics' } %}
+{{ top_trump_table(
     name="Poverty statistics",
     style="top-trump-table top-trump-invert",
     columns= [
         {
-          name: 'People in low income households', 
-          data: this_place_data['total_low_income'], 
-          simple_data: ratio_people_in_low_income
+          name: 'People in low income households',
+          data: facts.total_low_income | localise,
+          simple_data: facts.ratio_people_in_low_income
         },
         {
-          name: 'Unemployment (%)',
-          data: this_place_data['unemployment_rate_16_64'],
-          simple_data: ratio_unemployment_16_64
+          name: 'Unemployment',
+          data: facts.unemployment_rate_16_64 | round(1) | localise + "%",
+          simple_data: facts.ratio_unemployment_16_64
         },
         {
-          name: 'Economic Inactivity (%)',
-          data: this_place_data['economic_inactivity_16_64'],
-          simple_data: ratio_economically_inactive
+          name: 'Economic Inactivity',
+          data: facts.economic_inactivity_16_64 | round(1) | localise + "%",
+          simple_data: facts.ratio_economically_inactive
         },
         {
           name: 'Children in low income households',
-          data: this_place_data['children_in_low_income'],
+          data: facts.children_in_low_income,
           simple_data: ratio_children_in_low_income
         },
         {
           name: 'IMD average score',
-          data: this_place_data['imd_average_score'],
+          data: facts.imd_average_score,
           simple_data: null
         },
         {
           name: 'IMD for children',
-          data: this_place_data['imd_children'],
+          data: facts.imd_children,
           simple_data: null
         },
         {
           name: 'IMD for older people',
-          data: this_place_data['imd_older_people'],
+          data: facts.imd_older_people,
           simple_data: null
         }
         ]
       ) 
     }}
-  {% endcomp %}
+{% endcomp %}
 {# end of tab set #}
 {% endcomp %}
 
 <h3>Data Tables</h3>
 {{ place_data_table(
-  places=place_data_all,
+  places=facts_table,
   here=key,
   columns={
-    'Population estimate': 'Number of persons',
-    'Area in sq km': 'Area in sq km',
-    'Number of households': 'Number of households',
-    'GVA (£m)': 'GVA',
-    'Population density': 'Population density'
+    'Population estimate': 'population',
+    'Number of households': 'number_of_households',
+    'GVA (£m)': 'gva',
+    'Population density': 'population_density',
+    'Area in sq km': 'area'
   }
 ) }}
 
 {{ place_data_table(
-  places=place_data_all,
+  places=facts_table,
   here=key,
   columns={
     'Children in poverty': 'children_in_low_income',

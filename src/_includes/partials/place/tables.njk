@@ -1,0 +1,87 @@
+{# WARNING : THIS WON'T WORK AT THE MOMENT #}
+
+{% comp 'layout.two_column' %}
+{% comp 'layout.stack' %}
+{{ comp.info.headline({
+          number: facts.population,
+          display: facts.population,
+          description: 'The population of ' + title + ' is <span data-number=' + facts.population + '>.'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: facts.population_density | round(1),
+          display: facts.population_density,
+          description: 'population per square km'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 'NA',
+          display: 'NA',
+          description: 'URBAN VS RURAL'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 'NA',
+          display: 'NA',
+          description: 'EMPLOYMENT'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 'NA',
+          display: 'NA',
+          description: 'HOUSEHOLD INCOME - GDHI'
+        }) | safe }}
+{% endcomp %}
+
+{% comp 'layout.stack' %}
+{{ comp.info.headline({
+          number: 0,
+          display: 0,
+          description: 'CHILD POVERTY (FROM LOUGHBOROUGH)'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: facts.imd_older_people,
+          display: facts.imd_older_people,
+          description: 'IMD - OLDER PEOPLE (OR MAYBE PENSION CREDIT)'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 0,
+          display: 0,
+          description: 'IMD - OVERALL'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 'NA',
+          display: 'NA',
+          description: 'PROPORTION BELOW / ABOVE LIVING WAGE'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 0,
+          display: 0,
+          description: 'PHE FINGERTIPS / ONS LONG TERM CONDITIONS'
+        }) | safe }}
+
+{{ comp.info.headline({
+          number: 0,
+          display: 0,
+          description: 'LONELINESS AND SOCIAL ISOLATION'
+        }) | safe }}
+
+{% endcomp %}
+{% endcomp %}
+
+{% if facts.children_in_low_income %}
+  {% comp 'grid.block', {classes: 'headline'} %}
+  {% set proportion = facts.children_in_low_income / facts.number_of_children %}
+  <p class="big-number">
+    {{ comp.nearly.ratio({ value: proportion }) }}
+  </p>
+  <p>
+  In {{ title }}, {{ comp.nearly.ratio({ value: proportion, withDirection: true }) }}
+  ({{ comp.nearly.percentage({ value: proportion }) }}) of children live in poverty.
+</p>
+  {% endcomp %}
+{% endif %}

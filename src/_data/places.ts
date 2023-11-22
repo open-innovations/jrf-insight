@@ -63,6 +63,35 @@ export function getDataForPlace(placeCode: string) {
   };
 }
 
+export function getFactsForPlaces(placeCodes: string[]) {
+  return connection.query(`
+    SELECT
+      "Number of persons" as population,
+      "Number of households" as number_of_households,
+      "Population density" as population_density,
+      "Area in sq km" as area,
+      percent_in_low_income,
+      unemployment_rate_16_64,
+      economic_inactivity_16_64,
+      children_in_low_income,
+      number_of_children,
+      imd_average_score,
+      imd_children,
+      imd_older_people,
+      total_low_income,
+      gva as gva,
+      geography_code,
+      name,
+      type
+    FROM './data/interim/place_data.parquet'
+    WHERE geography_code IN ${arrayToDuckSet(placeCodes)};
+  `)  
+}
+
+export function placeData(placeCode: string) {
+  return getFactsForPlaces([placeCode]).pop();
+}
+
 export const placeLookup = getDataForPlace;
 
 const SMALL_SITE = Deno.env.get('SMALL_SITE') !== undefined;

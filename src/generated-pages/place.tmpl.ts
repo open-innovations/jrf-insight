@@ -3,6 +3,9 @@ type PlaceDetails = {
   name: string;
   type: string;
   key: string;
+  ancestors: string[];
+  children: string[];
+  parents: string[];
 }
 
 interface PlaceGenOptions {
