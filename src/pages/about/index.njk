@@ -3,23 +3,34 @@ title: About
 url: /about/
 ---
 
+<h2>Explainer video</h2>
+
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/887235440?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="NEIF Explainer"></iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<h2>About this site</h2>
+
 {{ comp.partials.about() | safe }}
 
-{% comp 'collapse', { heading: "Automated data pipelines"} %}
-  <p>
+<h2>More details</h2>
+
+{% comp 'collapse', {heading: "Automated data pipelines"} %}
+<p>
     We've used APIs, such as StatXplore and Nomis, and web scraping, to automatically harvest the data
     on this site. Our pipelines are written in Python, R and SQL (via <a href="https://duckdb.org/">
     DuckDB</a>). You can <a href="https://github.com/open-innovations/jrf-insight/tree/main/pipelines">see 
     our pipelines</a> and <a href="https://github.com/open-innovations/jrf-insight/pulls">make a pull 
     request on GitHub</a> if you think we've made a mistake or you have a suggestion for improvement.
-  </p><br/>
-  <p>
+  </p><br />
+<p>
     We use <a href="https://dvc.org/">DVC</a> to manage all of the data pipelines. It tracks the sources 
     for changes, their dependencies, and the output files that feed the visualisations. Using DVC 
     in this way means that we can check for updates to the data regularly, but the pipelines 
     will only re-run if there has been a change to the source data or any processing scripts we use. 
-  </p><br/>
-  <p>
+  </p><br />
+<p>
     We have tried to separate the pipelines based on their data sources, so they're easier to debug if
     things go wrong. In many cases, we put data processing in Jupyter Notebooks (.ipynb file extension).
     These are self-contained chunks of code, interlaced with text blocks (usually in markdown format) 
@@ -27,44 +38,42 @@ url: /about/
     easier to read than scripts with inline comments. Notebooks are incorporated into DVC pipelines using 
     <a href="https://papermill.readthedocs.io/en/latest/">papermill</a>.
   </p>
-  <h3>Workflow</h3>
-  <p>
-    
-  </p>
+<h3>Workflow</h3>
+<p></p>
 {% endcomp %}
 
-{% comp 'collapse', { heading: "Spotlights"} %}
-  <p> 
+{% comp 'collapse', {heading: "Spotlights"} %}
+<p> 
     We came up with the term "Spotlights" to describe how we present poverty-related data through a 
     particular lens. We are trying to shed light on specific topics like economic insecurity, housing and 
     health. These all have different challenges but can equally impact people's lived experience of poverty.
   </p><br />
-  <p>
+<p>
     On spotlight pages we have tried to present existing data all in one place and to create new, 
     actionable insights from the data. While developing the spotlight pages we spoke to experts from the Joseph
     Rowntree Foundation.
   </p><br />
-  <p>
+<p>
     You can think of spotlights as a horizontal navigation through the site. For a given place, you can navigate
     across through the different spotlights.
   </p>
 {% endcomp %}
 
-{% comp 'collapse', { heading: "Data visualisation"} %}
-  <p>
+{% comp 'collapse', {heading: "Data visualisation"} %}
+<p>
     As well the typical charts you might associate with poverty data, we've included infographics and easily 
     digestible information. FOr example, we've used Waffle charts and SVG maps from our <a href="https://open-innovations.github.io/oi-lume-viz/">
     OI Lume Viz library</a>. The idea is to have visually stimulating but simple charts that can be understood 
     at a glance. The maps in particular allow people to dive into the data using hyperlinks and tooltips with 
     more detailed information. 
   </p><br />
-  <p>
+<p>
     In keeping with the simple data theme, we wrote a small program to express percentages as human-friendly ratios. 
     For example, most people know that 25% is 1 in 4, or a quarter. But how do you interpret statistics like 37%? 
     It's a bit more than a third (33%), but nowhere near half (50%). As you can see, it gets a bit tricky. Our programme 
     takes a percentage and (using our 37% example) outputs "about 3 in 8", which is easier for most people to relate to. 
   </p><br />
-  <p>
+<p>
     We are still thinking about how to tackle relativity in different statistics. For example, unemployment 
     is usually between 4%-9%. To the uninitiated, this may seem like a small range. But we know that unemployment 
     rate spikes happen in extreme circumstances like recessions and, more recently, global pandemics. This can lead to millions 
@@ -72,22 +81,22 @@ url: /about/
     or lower than the national or regional average, or whether the value is going up or down. This will give people the insight 
     they need to understand what a given figure means for the place they're interested in.
   </p><br />
-  <p>
+<p>
     There are still lots of visualisations on bar charts and line charts — it's undeniable that this is the best way to present 
     certain types of data. 
   </p>
 {% endcomp %}
 
-{% comp 'collapse', { heading: "Place pages"} %}
+{% comp 'collapse', {heading: "Place pages"} %}
 {% endcomp %}
 
-{% comp 'collapse', { heading: "Metadata"} %}
-  <p>
+{% comp 'collapse', {heading: "Metadata"} %}
+<p>
     Under the "What's on this chart?" dropdown info for each visualisation is a link to the metadata page for the dataset(s) used to 
     create the visualisation. Metadata is information about the data itself, such as the dates, geographies, and dimensions that are 
     available in that dataset.
   </p><br />
-  <p>
+<p>
     On the metadata pages for each dataset you can find further links to the data files in GitHub (usually .csv). These are processed 
     data files that we have put into a consistent long format. 
   </p>
